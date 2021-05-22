@@ -25,6 +25,7 @@ jobs:
           git pull
           git config --global user.name 'Pierre Mesure'
           git config --global user.email 'pierre@mesu.re'
+          git config --global core.autocrlf true
           git add *.csv
           git commit -am "Updating the data for Region ${{ matrix.region }}"
           git push
