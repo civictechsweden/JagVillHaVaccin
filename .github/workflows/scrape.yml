@@ -19,13 +19,13 @@ jobs:
           python-version: 3.9
       - name: Scrape the data
         run: python3 run.py ${{ matrix.region }}
-      - run: ls
-      - name: Commit the data
+      - name: Set autostash
         run: |
-          git pull
-          git config --global user.name 'Pierre Mesure'
-          git config --global user.email 'pierre@mesu.re'
-          git config --global core.autocrlf false
-          git add --renormalize *.csv
-          git commit -am "Updating the data for Region ${{ matrix.region }}"
-          git push
+          git config rebase.autoStash true
+      - name: Commit the data
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: Pierre Mesure (Github Actions)
+          author_email: pierre@mesu.re
+          message: 'Updating the data for Region ${{ matrix.region }}'
+          add: '*.csv'
