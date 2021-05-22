@@ -1,4 +1,8 @@
+import json
+
 import scrapers.mittvaccin as mittvaccin
+
+from service.writer import Writer
 
 
 class Scraper(object):
@@ -23,3 +27,11 @@ class Scraper(object):
                 next_available_times.append(dict(next_available_time))
 
         return next_available_times
+
+    def scrape_and_write(region):
+        with open('centers/' + region + '.json') as json_file:
+            centers_blekinge = json.load(json_file)
+
+        next_available_times = Scraper.scrape(centers_blekinge)
+
+        Writer.write(next_available_times, region + '.csv')

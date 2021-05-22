@@ -5,7 +5,10 @@ on:
   schedule:
     - cron:  '0 12 * * *'
 jobs:
-  fetch:
+  strategy:
+      matrix:
+        region: ['blekinge', 'jonkoping', 'kalmar', 'kronoberg', 'orebro']
+  scrape:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -13,12 +16,12 @@ jobs:
         with:
           python-version: 3.9
       - name: Scrape the data
-        run: python3 run.py
+        run: python3 jobs/${{ matrix.region }}.py
       - run: ls
       - name: Commit the data
         run: |
           git config --global user.name 'Pierre Mesure'
           git config --global user.email 'pierre@mesu.re'
           git add *.csv
-          git commit -am "Updating the data"
+          git commit -am "Updating the data for Region ${{ matrix.region }}"
           git push
