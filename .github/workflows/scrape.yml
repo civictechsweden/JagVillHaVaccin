@@ -5,11 +5,13 @@ on:
   schedule:
     - cron:  '0 12 * * *'
 jobs:
-  strategy:
+
+  scrape:
+    name: Scrape
+    runs-on: ubuntu-latest
+    strategy:
       matrix:
         region: ['blekinge', 'jonkoping', 'kalmar', 'kronoberg', 'orebro']
-  scrape:
-    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
