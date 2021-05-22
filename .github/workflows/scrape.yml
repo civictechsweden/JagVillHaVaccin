@@ -1,0 +1,24 @@
+name: Scrape
+on:
+  workflow_dispatch:
+  push:
+  schedule:
+    - cron:  '0 12 * * *'
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Scrape the data
+        run: python3 run.py
+      - run: ls
+      - name: Commit the data
+        run: |
+          git config --global user.name 'Pierre Mesure'
+          git config --global user.email 'pierre@mesu.re'
+          git add *.csv
+          git commit -am "Updating the data"
+          git push
