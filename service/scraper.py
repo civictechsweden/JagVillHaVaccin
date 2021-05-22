@@ -16,7 +16,7 @@ class Scraper(object):
                 next_available_time = {
                     'center': center['vaccination_center'],
                     'link': center['link'],
-                    'next': next_available_time['next'],
+                    'next': str(next_available_time['next']),
                     'amount_of_slots': next_available_time['amount_of_slots']
                 }
 
