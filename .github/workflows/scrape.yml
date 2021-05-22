@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    - cron:  '0 12 * * *'
+    - cron:  '0/30 * * * *'
 jobs:
   scrape:
     name: Scrape
@@ -12,7 +12,6 @@ jobs:
       matrix:
         region: ['blekinge', 'jonkoping', 'kalmar', 'kronoberg', 'orebro']
     steps:
-      - run: git config --global core.autocrlf false
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
@@ -20,8 +19,7 @@ jobs:
       - name: Scrape the data
         run: python3 run.py ${{ matrix.region }}
       - name: Set autostash
-        run: |
-          git config rebase.autoStash true
+        run: git config rebase.autoStash true
       - name: Commit the data
         uses: EndBug/add-and-commit@v7
         with:
