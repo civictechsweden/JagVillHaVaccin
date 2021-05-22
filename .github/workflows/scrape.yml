@@ -18,10 +18,11 @@ jobs:
         with:
           python-version: 3.9
       - name: Scrape the data
-        run: python3 jobs/${{ matrix.region }}.py
+        run: python3 run.py ${{ matrix.region }}
       - run: ls
       - name: Commit the data
         run: |
+          git pull
           git config --global user.name 'Pierre Mesure'
           git config --global user.email 'pierre@mesu.re'
           git add *.csv
