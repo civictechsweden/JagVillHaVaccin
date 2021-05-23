@@ -8,8 +8,9 @@ jobs:
     name: Scrape times
     runs-on: ubuntu-latest
     strategy:
+      max-parallel: 3
       matrix:
-        region: ['10', '20', '9', '21', '13', '23', '6', '8', '7', '25', '12', '1', '4', '3', '17', '24', '22', '19', '14', '18', '5']
+        region: ['10', '20', '09', '21', '13', '23', '06', '08', '07', '25', '12', '01', '04', '03', '17', '24', '22', '19', '14', '18', '05']
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
