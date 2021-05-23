@@ -123,10 +123,10 @@ def match_postcode(address):
 
 def get_platform(vaccination_url):
     if 'https://bokning.mittvaccin.se/' in vaccination_url:
-        return 'Doctolib'  #'MittVaccin' (Testing with an existing platform on the frontend)
-    if 'https://e-tjanster.1177.se/' in vaccination_url: return 'Keldoc'
-    if 'https://formular.1177.se/' in vaccination_url: return 'Keldoc'
-    if 'https://arende.1177.se/' in vaccination_url: return 'Keldoc'
+        return 'MittVaccin'  #'MittVaccin' (Testing with an existing platform on the frontend)
+    if 'https://e-tjanster.1177.se/' in vaccination_url: return '1177'
+    if 'https://formular.1177.se/' in vaccination_url: return '1177'
+    if 'https://arende.1177.se/' in vaccination_url: return '1177'
     if 'https://www.1177.se/hitta-vard/kontaktkort/' in vaccination_url:
         return None
 
