@@ -1,5 +1,8 @@
+import html
 import json
 import urllib.request
+
+from bs4 import BeautifulSoup
 
 
 class Downloader(object):
@@ -13,3 +16,9 @@ class Downloader(object):
     @staticmethod
     def get_json(url):
         return json.loads(Downloader.get(url).decode('utf-8'))
+
+    @staticmethod
+    def get_html_soup(url):
+        response = Downloader.get(url)
+        htmlData = html.unescape(response.decode('utf-8'))
+        return BeautifulSoup(htmlData, 'html.parser')

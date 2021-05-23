@@ -18,7 +18,7 @@ def get_slots(id, appointment_type_id, start_date, end_date):
     return Downloader.get_json(url)
 
 
-def get_next_available_time(id, start_date, end_date):
+def get_next_time_and_slots(id, start_date, end_date):
     types = get_appointment_types(id)
     types_id = [type['id'] for type in types]
 
@@ -56,6 +56,7 @@ def get_next_available_time(id, start_date, end_date):
 def get_id_from_url(url):
     id = url.replace('https://bokning.mittvaccin.se/klinik/', '')
     id = id.replace('/bokning', '')
+    id = id.replace('/min-bokning', '')
     return id
 
 

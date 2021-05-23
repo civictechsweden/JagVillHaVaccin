@@ -1,0 +1,26 @@
+name: Scrape centers
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 12 * * *'
+jobs:
+  scrape:
+    name: Scrape centers
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - run: pip3 install -r requirements.txt
+      - name: Scrape the data
+        run: python3 scrape_centers.py
+      - name: Set autostash
+        run: git config rebase.autoStash true
+      - name: Commit the data
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: Pierre Mesure (Github Actions)
+          author_email: pierre@mesu.re
+          message: 'Updating the centers'
+          add: 'centers.json'

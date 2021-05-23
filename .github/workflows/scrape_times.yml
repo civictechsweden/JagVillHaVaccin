@@ -1,23 +1,23 @@
-name: Scrape
+name: Scrape Times
 on:
   workflow_dispatch:
-  push:
   schedule:
     - cron:  '0/30 * * * *'
 jobs:
   scrape:
-    name: Scrape
+    name: Scrape times
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        region: ['blekinge', 'jonkoping', 'kalmar', 'kronoberg', 'orebro']
+        region: ['10', '20', '9', '21', '13', '23', '6', '8', '7', '25', '12', '1', '4', '3', '17', '24', '22', '19', '14', '18', '5']
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
           python-version: 3.9
+      - run: pip3 install -r requirements.txt
       - name: Scrape the data
-        run: python3 run.py ${{ matrix.region }}
+        run: python3 scrape_times.py ${{ matrix.region }}
       - name: Set autostash
         run: git config rebase.autoStash true
       - name: Commit the data
@@ -25,5 +25,5 @@ jobs:
         with:
           author_name: Pierre Mesure (Github Actions)
           author_email: pierre@mesu.re
-          message: 'Updating the data for Region ${{ matrix.region }}'
-          add: '*.csv'
+          message: 'Updating the times for Region ${{ matrix.region }}'
+          add: '*.json'
