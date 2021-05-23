@@ -28,3 +28,4 @@ jobs:
           author_email: pierre@mesu.re
           message: 'Updating the times for Region ${{ matrix.region }}'
           add: '*.json'
+          pull_strategy: '--rebase'
