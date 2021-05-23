@@ -25,7 +25,7 @@ class VMD(object):
         for center in region_centers:
             print(center['name'])
 
-            if center['platform'] == 'Doctolib':
+            if center['platform'] == 'MittVaccin':
                 next_time_and_slots = mittvaccin.get_next_time_and_slots(
                     mittvaccin.get_id_from_url(center['url']), '210517',
                     '210630')

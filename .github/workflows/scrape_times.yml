@@ -8,7 +8,7 @@ jobs:
     name: Scrape times
     runs-on: ubuntu-latest
     strategy:
-      max-parallel: 3
+      max-parallel: 1
       matrix:
         region: ['10', '20', '09', '21', '13', '23', '06', '08', '07', '25', '12', '01', '04', '03', '17', '24', '22', '19', '14', '18', '05']
     steps:
