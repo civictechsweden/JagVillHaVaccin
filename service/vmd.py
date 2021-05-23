@@ -71,3 +71,20 @@ class VMD(object):
         }
 
         Writer.write_json(vmd_data, '{}.json'.format(region))
+
+    def convert_regions():
+        with open('regions.json') as json_file:
+            regions = json.load(json_file)
+
+        vmd_regions = []
+
+        for region in regions:
+            vmd_regions.append(
+                dict({
+                    'code_departement': region['code'],
+                    'nom_departement': region['name'],
+                    'code_region': int(region['code']),
+                    'nom_region': region['name']
+                }))
+
+        Writer.write_json(vmd_regions, 'departements.json')
