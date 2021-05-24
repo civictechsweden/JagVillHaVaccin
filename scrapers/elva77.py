@@ -152,7 +152,7 @@ def create_unlisted_center(center):
         'name':
         center.get('vaccination_center'),
         'region':
-        "0" + str(center['region'])
+        "0{}".format(int(center['region']))
         if int(center['region']) < 10 else str(center['region']),
         'url':
         center['link'],
