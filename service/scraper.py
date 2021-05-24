@@ -46,6 +46,9 @@ class Scraper(object):
                                 center_info['url'] = center['link']
                                 center_info['platform'] = elva77.get_platform(
                                     center['link'])
+                                center_info[
+                                    'appointment_by_phone_only'] = not elva77.is_fetchable(
+                                        elva77.get_platform(center['link']))
 
                             if 'category' in center and center[
                                     'category'] != '':
