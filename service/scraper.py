@@ -1,6 +1,7 @@
 import json
 
 import scrapers.mittvaccin as mittvaccin
+import scrapers.vaccina as vaccina
 import scrapers.elva77 as elva77
 
 from service.writer import Writer
@@ -19,7 +20,10 @@ class Scraper(object):
 
     def scrape_centers_from_manual_lists():
 
-        regions = ['blekinge', 'jonkoping', 'kalmar', 'kronoberg', 'orebro']
+        regions = [
+            'blekinge', 'jonkoping', 'kalmar', 'kronoberg', 'orebro', 'skane',
+            'sodermanland', 'vasterbotten', 'vastragotaland'
+        ]
 
         centers_json = []
 
@@ -47,6 +51,9 @@ class Scraper(object):
                                     'category'] != '':
                                 center_info['name'] = '{} ({})'.format(
                                     center_info['name'], center['category'])
+
+                            if 'id' in center and center['id'] != '':
+                                center_info['internal_id'] = center['id']
 
                             centers_json.append(center_info)
                         else:

@@ -123,7 +123,9 @@ def match_postcode(address):
 
 def get_platform(vaccination_url):
     if 'https://bokning.mittvaccin.se/' in vaccination_url:
-        return 'MittVaccin'  #'MittVaccin' (Testing with an existing platform on the frontend)
+        return 'MittVaccin'
+    if 'https://www.vaccina.se/' in vaccination_url:
+        return 'Vaccina'
     if 'https://e-tjanster.1177.se/' in vaccination_url: return '1177'
     if 'https://formular.1177.se/' in vaccination_url: return '1177'
     if 'https://arende.1177.se/' in vaccination_url: return '1177'
@@ -133,9 +135,13 @@ def get_platform(vaccination_url):
 
 def create_unlisted_center(center):
     return {
-        'name': center.get('vaccination_center'),
-        'region': center['region'],
-        'url': center['link'],
+        'name':
+        center.get('vaccination_center'),
+        'region':
+        "0" + str(center['region'])
+        if int(center['region']) < 10 else str(center['region']),
+        'url':
+        center['link'],
         'location': {
             'longitude': center['longitude'],
             'latitude': center['latitude'],
@@ -147,9 +153,14 @@ def create_unlisted_center(center):
             'business_hours': None,
             'phone_number': ''
         },
-        'platform': get_platform(center['link']),
-        'type': 'vaccination-center',
-        'internal_id': None,
-        'vaccine_type': None,
-        'appointment_by_phone_only': False,
+        'platform':
+        get_platform(center['link']),
+        'type':
+        'vaccination-center',
+        'internal_id':
+        center.get('id'),
+        'vaccine_type':
+        None,
+        'appointment_by_phone_only':
+        False,
     }

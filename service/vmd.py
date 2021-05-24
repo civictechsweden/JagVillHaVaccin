@@ -1,9 +1,9 @@
 import json
 import pytz
 
-from datetime import datetime, timezone
-from sys import platform
+from datetime import datetime
 
+import scrapers.vaccina as vaccina
 import scrapers.mittvaccin as mittvaccin
 import scrapers.elva77 as elva77
 from service.writer import Writer
@@ -31,6 +31,15 @@ class VMD(object):
                 next_time_and_slots = mittvaccin.get_next_time_and_slots(
                     mittvaccin.get_id_from_url(center['url']), '210517',
                     '210630')
+                prochain_rdv = next_time_and_slots['next']
+                appointment_count = next_time_and_slots['amount_of_slots']
+            elif center['platform'] == 'Vaccina':
+                id = center['internal_id']
+                region_code = vaccina.REGION_CODES[center['region']]
+
+                next_time_and_slots = vaccina.get_next_time_and_slots(
+                    region_code, id, '2021-05-17', '2021-06-30')
+
                 prochain_rdv = next_time_and_slots['next']
                 appointment_count = next_time_and_slots['amount_of_slots']
             else:
