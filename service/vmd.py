@@ -12,7 +12,7 @@ from service.writer import Writer
 class VMD(object):
     @staticmethod
     def convert(region):
-        now = str(datetime.now(pytz.timezone('Europe/Stockholm'))) + '+02:00'
+        now = str(datetime.now(pytz.timezone('Europe/Stockholm')))
 
         with open('centers.json') as json_file:
             centers = json.load(json_file)

@@ -51,9 +51,12 @@ def get_center_info(center_url):
         vaccination_url = covid_vaccination_services[0]
 
     center_info = {
-        'name': card.get('DisplayName'),
-        'region': card.get('CountyCode'),
-        'url': vaccination_url,
+        'name':
+        card.get('DisplayName'),
+        'region':
+        card.get('CountyCode'),
+        'url':
+        vaccination_url,
         'location': {
             'longitude':
             card['Location'].get('longitude') if 'Location' in card else None,
@@ -68,11 +71,16 @@ def get_center_info(center_url):
             'address': adress_and_postcode['address'],
             'business_hours': None,
         },
-        'platform': get_platform(vaccination_url),
-        'type': 'vaccination-center',
-        'internal_id': card.get('HsaId'),
-        'vaccine_type': None,
-        'appointment_by_phone_only': False,
+        'platform':
+        get_platform(vaccination_url),
+        'type':
+        'vaccination-center',
+        'internal_id':
+        card.get('HsaId'),
+        'vaccine_type':
+        None,
+        'appointment_by_phone_only':
+        not is_fetchable(get_platform(vaccination_url)),
     }
 
     if 'PhoneNumber' in card:
@@ -121,16 +129,22 @@ def match_postcode(address):
     return '00000'
 
 
-def get_platform(vaccination_url):
-    if 'https://bokning.mittvaccin.se/' in vaccination_url:
+def get_platform(url):
+    if 'https://bokning.mittvaccin.se/' in url:
         return 'MittVaccin'
-    if 'https://www.vaccina.se/' in vaccination_url:
+    if 'https://www.vaccina.se/' in url:
         return 'Vaccina'
-    if 'https://e-tjanster.1177.se/' in vaccination_url: return '1177'
-    if 'https://formular.1177.se/' in vaccination_url: return '1177'
-    if 'https://arende.1177.se/' in vaccination_url: return '1177'
-    if 'https://www.1177.se/hitta-vard/kontaktkort/' in vaccination_url:
+    if 'https://e-tjanster.1177.se/' in url: return '1177'
+    if 'https://formular.1177.se/' in url: return '1177'
+    if 'https://arende.1177.se/' in url: return '1177'
+    if 'https://www.1177.se/hitta-vard/kontaktkort/' in url:
         return None
+
+
+def is_fetchable(platform):
+    if platform == 'MittVaccin': return True
+    if platform == 'Vaccina': return True
+    return False
 
 
 def create_unlisted_center(center):
@@ -162,5 +176,5 @@ def create_unlisted_center(center):
         'vaccine_type':
         None,
         'appointment_by_phone_only':
-        False,
+        not is_fetchable(get_platform(center['link'])),
     }

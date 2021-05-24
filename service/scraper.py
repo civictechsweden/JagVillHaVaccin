@@ -85,9 +85,20 @@ class Scraper(object):
 
     def scrape_and_write_centers():
         centers_from_1177 = Scraper.scrape_centers_from_1177()
+
+        broken_vaccina_centers_id = [
+            center['internal_id'] for center in centers_from_1177 if
+            center['platform'] == 'Vaccina' and 'SE' in center['internal_id']
+        ]
+
+        working_centers_from_1177 = [
+            center for center in centers_from_1177
+            if center['internal_id'] not in broken_vaccina_centers_id
+        ]
+
         centers_from_manual_lists = Scraper.scrape_centers_from_manual_lists()
 
-        centers = sorted(centers_from_1177 + centers_from_manual_lists,
+        centers = sorted(working_centers_from_1177 + centers_from_manual_lists,
                          key=lambda k: k['name'])
         Writer.write_json(centers, 'centers.json')
 
