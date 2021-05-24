@@ -30,9 +30,7 @@ class Scraper(object):
                 for center in region_centers:
                     if 'address' in center and center['address'] != '':
                         centers_json.append(
-                            elva77.create_unlisted_center(
-                                center['vaccination_center'], center['region'],
-                                center['address'], center['link']))
+                            elva77.create_unlisted_center(center))
                     else:
                         url = elva77.search_center(
                             center['vaccination_center'] + ' ' +

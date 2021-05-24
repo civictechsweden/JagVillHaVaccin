@@ -131,18 +131,23 @@ def get_platform(vaccination_url):
         return None
 
 
-def create_unlisted_center(name, region, address, url):
+def create_unlisted_center(center):
     return {
-        'name': name,
-        'region': region,
-        'url': url,
-        'location': None,
-        'metadata': {
-            'address': address,
-            'business_hours': None,
-            'phone_number': None
+        'name': center.get('vaccination_center'),
+        'region': center['region'],
+        'url': center['link'],
+        'location': {
+            'longitude': center['longitude'],
+            'latitude': center['latitude'],
+            'city': center['municipality'],
+            'cp': match_postcode(center['address'])
         },
-        'platform': get_platform(url),
+        'metadata': {
+            'address': center['address'],
+            'business_hours': None,
+            'phone_number': ''
+        },
+        'platform': get_platform(center['link']),
         'type': 'vaccination-center',
         'internal_id': None,
         'vaccine_type': None,
