@@ -8,13 +8,19 @@ from service.writer import Writer
 
 
 class Scraper(object):
-    def scrape_centers_from_1177():
+    def scrape_centers_from_1177(already_fetched_urls):
         centers = elva77.get_vaccination_centers()
 
         centers_json = []
 
         for center in centers:
-            centers_json.append(dict(elva77.get_center_info(center['Url'])))
+            url = elva77.BASE_URL + center['Url']
+
+            if url not in already_fetched_urls:
+                centers_json.append(dict(elva77.get_center_info(
+                    center['Url'])))
+            else:
+                print('Not fetching this one: {}'.format(url))
 
         return centers_json
 
@@ -43,12 +49,17 @@ class Scraper(object):
                         if url:
                             center_info = dict(elva77.get_center_info(url))
                             if center['link'] != '':
-                                center_info['url'] = center['link']
-                                center_info['platform'] = elva77.get_platform(
-                                    center['link'])
+                                center_info['platform_url'] = center['link']
+                                platform = elva77.get_platform(center['link'])
+                                center_info['platform'] = platform
+
+                                if platform == 'MittVaccin':
+                                    center_info[
+                                        'platform_id'] = mittvaccin.get_id_from_url(
+                                            center['link'])
                                 center_info[
                                     'appointment_by_phone_only'] = not elva77.is_fetchable(
-                                        elva77.get_platform(center['link']))
+                                        platform)
 
                             if 'category' in center and center[
                                     'category'] != '':
@@ -56,7 +67,7 @@ class Scraper(object):
                                     center_info['name'], center['category'])
 
                             if 'id' in center and center['id'] != '':
-                                center_info['internal_id'] = center['id']
+                                center_info['platform_id'] = center['id']
 
                             centers_json.append(center_info)
                         else:
@@ -87,21 +98,17 @@ class Scraper(object):
         return next_available_times
 
     def scrape_and_write_centers():
-        centers_from_1177 = Scraper.scrape_centers_from_1177()
-
-        broken_vaccina_centers_id = [
-            center['internal_id'] for center in centers_from_1177 if
-            center['platform'] == 'Vaccina' and 'SE' in center['internal_id']
-        ]
-
-        working_centers_from_1177 = [
-            center for center in centers_from_1177
-            if center['internal_id'] not in broken_vaccina_centers_id
-        ]
-
         centers_from_manual_lists = Scraper.scrape_centers_from_manual_lists()
 
-        centers = sorted(working_centers_from_1177 + centers_from_manual_lists,
+        already_fetched_urls = [
+            center['1177_url'] for center in centers_from_manual_lists
+            if '1177_url' in center
+        ]
+
+        centers_from_1177 = Scraper.scrape_centers_from_1177(
+            already_fetched_urls)
+
+        centers = sorted(centers_from_1177 + centers_from_manual_lists,
                          key=lambda k: k['name'])
         Writer.write_json(centers, 'centers.json')
 

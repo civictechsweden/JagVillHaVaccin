@@ -1,10 +1,13 @@
 from datetime import datetime
 import json
 import re
+from scrapers.vaccina import get_id_from_url
 from sys import platform
 import urllib
 
 from time import mktime
+
+import scrapers.mittvaccin as mittvaccin
 
 from service.downloader import Downloader
 
@@ -45,18 +48,20 @@ def get_center_info(center_url):
         or 'covid' in str.lower(service['Text'])
     ]
 
-    vaccination_url = BASE_URL + center_url
+    url = BASE_URL + center_url
 
-    if len(covid_vaccination_services) > 0:
-        vaccination_url = covid_vaccination_services[0]
+    platform_url = next(iter(covid_vaccination_services or []), None)
+    platform = get_platform(platform_url)
+
+    platform_id = None
+    if platform == 'MittVaccin':
+        platform_id = mittvaccin.get_id_from_url(platform_url)
 
     center_info = {
-        'name':
-        card.get('DisplayName'),
-        'region':
-        card.get('CountyCode'),
-        'url':
-        vaccination_url,
+        'name': card.get('DisplayName'),
+        'region': card.get('CountyCode'),
+        '1177_url': url,
+        'platform_url': platform_url,
         'location': {
             'longitude':
             card['Location'].get('longitude') if 'Location' in card else None,
@@ -71,16 +76,12 @@ def get_center_info(center_url):
             'address': adress_and_postcode['address'],
             'business_hours': None,
         },
-        'platform':
-        get_platform(vaccination_url),
-        'type':
-        'vaccination-center',
-        'internal_id':
-        card.get('HsaId'),
-        'vaccine_type':
-        None,
-        'appointment_by_phone_only':
-        not is_fetchable(get_platform(vaccination_url)),
+        'platform': platform,
+        'type': 'vaccination-center',
+        '1177_id': card.get('HsaId'),
+        'platform_id': platform_id,
+        'vaccine_type': None,
+        'appointment_by_phone_only': not is_fetchable(platform),
     }
 
     if 'PhoneNumber' in card:
@@ -130,6 +131,8 @@ def match_postcode(address):
 
 
 def get_platform(url):
+    if not url:
+        return None
     if 'https://bokning.mittvaccin.se/' in url:
         return 'MittVaccin'
     if 'https://www.vaccina.se/' in url:
@@ -137,7 +140,7 @@ def get_platform(url):
     if 'https://e-tjanster.1177.se/' in url: return '1177'
     if 'https://formular.1177.se/' in url: return '1177'
     if 'https://arende.1177.se/' in url: return '1177'
-    if 'https://www.1177.se/hitta-vard/kontaktkort/' in url:
+    else:
         return None
 
 
@@ -148,14 +151,21 @@ def is_fetchable(platform):
 
 
 def create_unlisted_center(center):
+    platform_url = center['link']
+    platform = get_platform(platform_url)
+    platform_id = mittvaccin.get_id_from_url(
+        platform_url) if platform == 'MittVaccin' else center.get('id')
+
     return {
         'name':
         center.get('vaccination_center'),
         'region':
         "0{}".format(int(center['region']))
         if int(center['region']) < 10 else str(center['region']),
-        'url':
-        center['link'],
+        '1177_url':
+        None,
+        'platform_url':
+        platform_url,
         'location': {
             'longitude': center['longitude'],
             'latitude': center['latitude'],
@@ -168,11 +178,13 @@ def create_unlisted_center(center):
             'phone_number': ''
         },
         'platform':
-        get_platform(center['link']),
+        platform,
         'type':
         'vaccination-center',
-        'internal_id':
-        center.get('id'),
+        '1177_id':
+        None,
+        'platform_id':
+        platform_id,
         'vaccine_type':
         None,
         'appointment_by_phone_only':

@@ -28,28 +28,34 @@ class VMD(object):
             print(center['name'])
 
             if center['platform'] == 'MittVaccin':
+                print(center)
+                url = center['platform_url']
                 next_time_and_slots = mittvaccin.get_next_time_and_slots(
-                    mittvaccin.get_id_from_url(center['url']), '210517',
-                    '210630')
+                    center['platform_id'], '210517', '210630')
                 prochain_rdv = next_time_and_slots['next']
                 appointment_count = next_time_and_slots['amount_of_slots']
             elif center['platform'] == 'Vaccina':
-                id = center['internal_id']
+                url = center['platform_url']
+                center_id = center['platform_id']
                 region_code = vaccina.REGION_CODES[center['region']]
 
                 next_time_and_slots = vaccina.get_next_time_and_slots(
-                    region_code, id, '2021-05-17', '2021-06-30')
+                    region_code, center_id, '2021-05-17', '2021-06-30')
 
                 prochain_rdv = next_time_and_slots['next']
                 appointment_count = next_time_and_slots['amount_of_slots']
             else:
+                url = center['1177_url']
                 prochain_rdv = None
                 appointment_count = 0
 
+            id = center[
+                'internal_id'] if 'internal_id' in center else center.get(
+                    'platform_id')
             vmd_center = {
                 'departement': center['region'],
                 'nom': center['name'],
-                'url': center['url'],
+                'url': url,
                 'location': center['location'],
                 'metadata': center['metadata'],
                 'prochain_rdv': str(prochain_rdv)
@@ -57,7 +63,7 @@ class VMD(object):
                 'plateforme': center['platform'],
                 'type': center['type'],
                 'appointment_count': appointment_count,
-                'internal_id': center['internal_id'],
+                'internal_id': id,
                 'vaccine_type': center['vaccine_type'],
                 'appointment_by_phone_only':
                 center['appointment_by_phone_only'],
