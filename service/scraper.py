@@ -76,27 +76,6 @@ class Scraper(object):
 
         return centers_json
 
-    def scrape_times(centers):
-        next_available_times = []
-
-        for center in centers:
-            if 'https://bokning.mittvaccin.se/' in center['link']:
-
-                id = int(mittvaccin.get_id_from_url(center['link']))
-
-                next_available_time = mittvaccin.get_next_time_and_slots(
-                    id, '210517', '210630')
-                next_available_time = {
-                    'center': center['vaccination_center'],
-                    'link': center['link'],
-                    'next': str(next_available_time['next']),
-                    'amount_of_slots': next_available_time['amount_of_slots']
-                }
-
-                next_available_times.append(dict(next_available_time))
-
-        return next_available_times
-
     def scrape_and_write_centers():
         centers_from_manual_lists = Scraper.scrape_centers_from_manual_lists()
 
@@ -111,11 +90,3 @@ class Scraper(object):
         centers = sorted(centers_from_1177 + centers_from_manual_lists,
                          key=lambda k: k['name'])
         Writer.write_json(centers, 'centers.json')
-
-    def scrape_and_write_times(region):
-        with open('centers/' + region + '.json') as json_file:
-            centers_blekinge = json.load(json_file)
-
-        next_available_times = Scraper.scrape_times(centers_blekinge)
-
-        Writer.write_csv(next_available_times, region + '.csv')
