@@ -1,4 +1,5 @@
 import html
+import time
 import json
 import urllib.request
 
@@ -12,6 +13,13 @@ class Downloader(object):
             return urllib.request.urlopen(url).read()
         except urllib.error.HTTPError as err:
             print(f'ERROR {err.code}: Could not download {url}.')
+            if (err.code == 429):
+                print('Retrying in 3 seconds')
+                time.sleep(3)
+                return Downloader.get(url)
+            else:
+                print('Permanent error: skipping this center')
+                return None
 
     @staticmethod
     def get_json(url):

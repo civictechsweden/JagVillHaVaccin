@@ -11,24 +11,30 @@ from service.writer import Writer
 
 class VMD(object):
     @staticmethod
-    def convert(region):
+    def convert(region_number):
         now = str(datetime.now(pytz.timezone('Europe/Stockholm')))
 
         with open('centers.json') as json_file:
             centers = json.load(json_file)
 
+        with open('regions.json') as json_file:
+            regions = json.load(json_file)
+
         centres_disponibles = []
         centres_indisponibles = []
 
+        region_url = next(
+            (region['1177_url']
+             for region in regions if region['code'] == region_number), None)
+
         region_centers = [
-            center for center in centers if center['region'] == region
+            center for center in centers if center['region'] == region_number
         ]
 
         for center in region_centers:
             print(center['name'])
 
             if center['platform'] == 'MittVaccin':
-                print(center)
                 url = center['platform_url']
                 next_time_and_slots = mittvaccin.get_next_time_and_slots(
                     center['platform_id'], '210517', '210630')
@@ -37,10 +43,10 @@ class VMD(object):
             elif center['platform'] == 'Vaccina':
                 url = center['platform_url']
                 center_id = center['platform_id']
-                region_code = vaccina.REGION_CODES[center['region']]
+                region_vaccina_code = vaccina.REGION_CODES[center['region']]
 
                 next_time_and_slots = vaccina.get_next_time_and_slots(
-                    region_code, center_id, '2021-05-17', '2021-06-30')
+                    region_vaccina_code, center_id, '2021-05-17', '2021-06-30')
 
                 prochain_rdv = next_time_and_slots['next']
                 appointment_count = next_time_and_slots['amount_of_slots']
@@ -48,6 +54,8 @@ class VMD(object):
                 url = center['1177_url']
                 prochain_rdv = None
                 appointment_count = 0
+
+            url = region_url
 
             id = center[
                 'internal_id'] if 'internal_id' in center else center.get(
@@ -87,7 +95,7 @@ class VMD(object):
             'centres_indisponibles': centres_indisponibles
         }
 
-        Writer.write_json(vmd_data, '{}.json'.format(region))
+        Writer.write_json(vmd_data, '{}.json'.format(region_number))
 
     def convert_regions():
         with open('regions.json') as json_file:
@@ -101,7 +109,8 @@ class VMD(object):
                     'code_departement': region['code'],
                     'nom_departement': region['name'],
                     'code_region': int(region['code']),
-                    'nom_region': region['name']
+                    'nom_region': region['name'],
+                    '1177_url': region['1177_url']
                 }))
 
         Writer.write_json(vmd_regions, 'departements.json')

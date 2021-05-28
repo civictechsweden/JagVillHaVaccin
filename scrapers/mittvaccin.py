@@ -5,6 +5,7 @@ from time import mktime
 from service.downloader import Downloader
 
 BASE_URL = 'https://booking-api.mittvaccin.se/clinique/'
+NO_SLOTS = {'next': None, 'amount_of_slots': 0}
 
 
 def get_appointment_types(id):
@@ -20,12 +21,17 @@ def get_slots(id, appointment_type_id, start_date, end_date):
 
 def get_next_time_and_slots(id, start_date, end_date):
     types = get_appointment_types(id)
+
+    if not types: return NO_SLOTS
+
     types_id = [type['id'] for type in types]
 
     all_available_slots = []
 
     for type_id in types_id:
         days = get_slots(id, type_id, start_date, end_date)
+
+        if not days: return NO_SLOTS
 
         for day in days:
             slots = day['slots']
@@ -50,7 +56,7 @@ def get_next_time_and_slots(id, start_date, end_date):
 
         return {'next': next_slot, 'amount_of_slots': amount_of_slots}
 
-    return {'next': None, 'amount_of_slots': 0}
+    return NO_SLOTS
 
 
 def get_id_from_url(url):
