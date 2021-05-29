@@ -12,20 +12,26 @@ jobs:
       matrix:
         region: ['10', '20', '09', '21', '13', '23', '06', '08', '07', '25', '01', '04', '03', '17', '24', '22', '19', '14', '18', '05','12']
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - name: Download the code
+        uses: actions/checkout@v2
+      - name: Install Python
+        uses: actions/setup-python@v2
         with:
           python-version: 3.9
-      - run: pip3 install -r requirements.txt
+      - name: Install the Python dependencies
+        run: pip3 install -r requirements.txt
       - name: Scrape the data
         run: python3 scrape_times.py ${{ matrix.region }}
-      - name: Set autostash
-        run: git config rebase.autoStash true
       - name: Commit the data
-        uses: EndBug/add-and-commit@v7
+        uses: nick-invision/retry@v2
         with:
-          author_name: Pierre Mesure (Github Actions)
-          author_email: pierre@mesu.re
-          message: 'Updating the times for Region ${{ matrix.region }}'
-          add: '*.json'
-          pull_strategy: '--rebase'
+          timeout_seconds: 10
+          max_attempts: 5
+          command: |
+            git config --global user.name 'Pierre Mesure (Github Actions)'
+            git config --global user.email 'pierre@mesu.re'
+            git config --global rebase.autoStash true
+            git pull --rebase
+            git add *.json
+            git commit -am "Updating the times for Region ${{ matrix.region }}"
+            git push
