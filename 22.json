@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-05-30 17:45:51.044254+02:00",
+    "last_updated": "2021-05-30 19:28:10.364145+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -23,34 +23,6 @@
             "type": "vaccination-center",
             "appointment_count": 680,
             "internal_id": "1321",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Vaccinationsenhet Curlinghallen Skyttis",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/#:~:text=Du%20som%20har%20fyllt%2018,f%C3%B6r%20vaccination%20mot%20covid%2D19.",
-            "location": {
-                "longitude": 18.73309939643111,
-                "latitude": 63.29646278008092,
-                "city": "Örnsköldsvik",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Valhallavägen 20, Örnsköldsvik",
-                "business_hours": null,
-                "phone_number": "0611-804 00"
-            },
-            "prochain_rdv": "2021-06-11 15:36:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 12,
-            "internal_id": "1514",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -89,6 +61,34 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Curlinghallen Skyttis",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/#:~:text=Du%20som%20har%20fyllt%2018,f%C3%B6r%20vaccination%20mot%20covid%2D19.",
+            "location": {
+                "longitude": 18.73309939643111,
+                "latitude": 63.29646278008092,
+                "city": "Örnsköldsvik",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Valhallavägen 20, Örnsköldsvik",
+                "business_hours": null,
+                "phone_number": "0611-804 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1514",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "22",
             "nom": "Vaccinationsenhet Fränsta",
