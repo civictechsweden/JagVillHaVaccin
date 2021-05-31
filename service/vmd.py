@@ -31,19 +31,10 @@ class VMD(object):
             center for center in centers if center['region'] == region_number
         ]
 
-        if (region_number == '14'):
-            centers_vgr = vgr.get_centers()
-
         for center in region_centers:
             print(center['name'])
 
-            if (region_number == '14'
-                    and vgr.get_center_from(centers_vgr, center['1177_id'])):
-                next_time_and_slots = vgr.get_next_time_and_slots(
-                    vgr.get_center_from(centers_vgr, center['1177_id']))
-                prochain_rdv = next_time_and_slots['next']
-                appointment_count = next_time_and_slots['amount_of_slots']
-            elif center['platform'] == 'MittVaccin':
+            if center['platform'] == 'MittVaccin':
                 url = center['platform_url']
                 next_time_and_slots = mittvaccin.get_next_time_and_slots(
                     center['platform_id'], '210517', '210630')
@@ -63,6 +54,17 @@ class VMD(object):
                 url = center['1177_url']
                 prochain_rdv = None
                 appointment_count = 0
+
+            if (region_number == '14'):
+                centers_vgr = vgr.get_centers()
+                center_vgr = vgr.get_center_from(centers_vgr,
+                                                 center['1177_id'])
+
+                if (center_vgr):
+                    next_time_and_slots = vgr.get_next_time_and_slots(
+                        center_vgr)
+                    prochain_rdv = next_time_and_slots['next']
+                    appointment_count = next_time_and_slots['amount_of_slots']
 
             url = region_url
 
