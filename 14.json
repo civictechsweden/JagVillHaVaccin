@@ -1,8 +1,148 @@
 {
     "version": 1,
-    "last_updated": "2021-05-31 23:01:39.988946+02:00",
+    "last_updated": "2021-06-01 00:05:10.039546+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek Alingsås",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.537011564676016,
+                "latitude": 57.930104216081595,
+                "city": "Alingsås",
+                "cp": "44131"
+            },
+            "metadata": {
+                "address": "Kungsgatan 34, 441 31, Alingsås",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-06-01 11:45:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "2086",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek Falköping",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.554253617544363,
+                "latitude": 58.1892574341603,
+                "city": "Göteborg",
+                "cp": "52137"
+            },
+            "metadata": {
+                "address": "Danska vägen 62, 521 37, Falköping",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-06-01 11:45:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "2085",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek Strömstad",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.170701456759991,
+                "latitude": 58.938685392872024,
+                "city": "Strömstad",
+                "cp": "45230"
+            },
+            "metadata": {
+                "address": "Södra Hamngatan 4, 452 30, Strömstad",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-06-01 10:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "2083",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek Vara Vårdcentral",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.9674298537439,
+                "latitude": 58.264324445520145,
+                "city": "Vara",
+                "cp": "53432"
+            },
+            "metadata": {
+                "address": "Allégatan 46, 534 32, Vara",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-06-01 11:45:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 3,
+            "internal_id": "2089",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek Överby Köpcenter",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.302888643822998,
+                "latitude": 58.31412476754702,
+                "city": "Trollhättan",
+                "cp": "46170"
+            },
+            "metadata": {
+                "address": "Överby Köpcentrum, 461 70, Trollhättan",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-06-01 12:50:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "2093",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "14",
             "nom": "Närhälsan Bäckefors Dalslands Sjukhus",
@@ -21,7 +161,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 192,
+            "appointment_count": 191,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,7 +217,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 81,
+            "appointment_count": 78,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2021,34 +2161,6 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek Alingsås",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.537011564676016,
-                "latitude": 57.930104216081595,
-                "city": "Alingsås",
-                "cp": "44131"
-            },
-            "metadata": {
-                "address": "Kungsgatan 34, 441 31, Alingsås",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2086",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Kronans Apotek Borås",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -2097,34 +2209,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek Falköping",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.554253617544363,
-                "latitude": 58.1892574341603,
-                "city": "Göteborg",
-                "cp": "52137"
-            },
-            "metadata": {
-                "address": "Danska vägen 62, 521 37, Falköping",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2085",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -2469,34 +2553,6 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek Strömstad",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.170701456759991,
-                "latitude": 58.938685392872024,
-                "city": "Strömstad",
-                "cp": "45230"
-            },
-            "metadata": {
-                "address": "Södra Hamngatan 4, 452 30, Strömstad",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2083",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Kronans Apotek Torslanda",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -2553,34 +2609,6 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek Vara Vårdcentral",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.9674298537439,
-                "latitude": 58.264324445520145,
-                "city": "Vara",
-                "cp": "53432"
-            },
-            "metadata": {
-                "address": "Allégatan 46, 534 32, Vara",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2089",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Kronans Apotek Wieselgrensplatsen",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -2627,34 +2655,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2092",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek Överby Köpcenter",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.302888643822998,
-                "latitude": 58.31412476754702,
-                "city": "Trollhättan",
-                "cp": "46170"
-            },
-            "metadata": {
-                "address": "Överby Köpcentrum, 461 70, Trollhättan",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2093",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
