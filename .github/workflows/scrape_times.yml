@@ -22,6 +22,9 @@ jobs:
         run: pip3 install -r requirements.txt
       - name: Scrape the data
         run: python3 scrape_times.py ${{ matrix.region }}
+        env:
+          VGR_CLIENT_ID: ${{ secrets.VGR_CLIENT_ID }}
+          VGR_CLIENT_SECRET: ${{ secrets.VGR_CLIENT_SECRET }}
       - name: Commit the data
         uses: nick-invision/retry@v2
         with:

@@ -15,6 +15,9 @@ jobs:
       - run: pip3 install -r requirements.txt
       - name: Scrape the data
         run: python3 scrape_centers.py
+        env:
+          VGR_CLIENT_ID: ${{ secrets.VGR_CLIENT_ID }}
+          VGR_CLIENT_SECRET: ${{ secrets.VGR_CLIENT_SECRET }}
       - name: Set autostash
         run: git config rebase.autoStash true
       - name: Commit the data

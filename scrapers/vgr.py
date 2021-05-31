@@ -1,17 +1,18 @@
-import json
+import os
 
 from service.downloader import Downloader
 
-API_URL = 'https://test.api.vgregion.se/e-crm-scheduling-public/api/v1/testCenter'
+NUMBER_OF_WEEKS = 8
+API_URL = 'https://api.vgregion.se/e-crm-scheduling-public/api/v1/testCenter?numberWeeks={}'.format(
+    NUMBER_OF_WEEKS)
 
 HEADERS = {
-    'client_id': '5b3cdb5c69cb472dbae3e722b2954985',
-    'client_secret': 'b578dB43851442508ead6cDb92c2FD0e'
+    'client_id': os.environ['VGR_CLIENT_ID'],
+    'client_secret': os.environ['VGR_CLIENT_SECRET']
 }
 
 
 def get_data():
-    print('teast')
     return Downloader.get_json_with_headers(API_URL, HEADERS)
 
 
