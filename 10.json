@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-05-31 14:58:57.153661+02:00",
+    "last_updated": "2021-05-31 15:26:14.514863+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,8 +21,36 @@
             "prochain_rdv": "2021-06-22 09:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 47,
+            "appointment_count": 48,
             "internal_id": "580",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "10",
+            "nom": "Capio Citykliniken, Ronneby",
+            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
+            "location": {
+                "longitude": 15.285538967170696,
+                "latitude": 56.20298130606912,
+                "city": "Ronneby",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Fridhemsvägen 15",
+                "business_hours": null,
+                "phone_number": "0457-340 70"
+            },
+            "prochain_rdv": "2021-06-17 11:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "591",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -46,7 +74,7 @@
                 "business_hours": null,
                 "phone_number": "0455-35 55 00"
             },
-            "prochain_rdv": "2021-06-24 13:35:00",
+            "prochain_rdv": "2021-06-24 11:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 2,
@@ -77,7 +105,7 @@
             "prochain_rdv": "2021-06-22 10:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 10,
+            "appointment_count": 7,
             "internal_id": "575",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -117,34 +145,6 @@
         },
         {
             "departement": "10",
-            "nom": "Kungsmarkens vårdcentral, Karlskrona",
-            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
-            "location": {
-                "longitude": 15.622468264447424,
-                "latitude": 56.19424140502793,
-                "city": "Karlskrona",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kungsmarksplan 3",
-                "business_hours": null,
-                "phone_number": "0455-61 94 00"
-            },
-            "prochain_rdv": "2021-06-01 13:50:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 3,
-            "internal_id": "595",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "10",
             "nom": "Nättraby vårdcentral",
             "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
             "location": {
@@ -158,10 +158,10 @@
                 "business_hours": null,
                 "phone_number": "0455-73 57 20"
             },
-            "prochain_rdv": "2021-06-16 11:20:00",
+            "prochain_rdv": "2021-06-09 11:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 11,
+            "appointment_count": 9,
             "internal_id": "587",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -189,7 +189,7 @@
             "prochain_rdv": "2021-06-23 14:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 1,
             "internal_id": "579",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -343,24 +343,24 @@
         },
         {
             "departement": "10",
-            "nom": "Capio Citykliniken, Ronneby",
+            "nom": "Kungsmarkens vårdcentral, Karlskrona",
             "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
             "location": {
-                "longitude": 15.285538967170696,
-                "latitude": 56.20298130606912,
-                "city": "Ronneby",
+                "longitude": 15.622468264447424,
+                "latitude": 56.19424140502793,
+                "city": "Karlskrona",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Fridhemsvägen 15",
+                "address": "Kungsmarksplan 3",
                 "business_hours": null,
-                "phone_number": "0457-340 70"
+                "phone_number": "0455-61 94 00"
             },
             "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": "591",
+            "internal_id": "595",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
