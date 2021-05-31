@@ -31,6 +31,9 @@ class VMD(object):
             center for center in centers if center['region'] == region_number
         ]
 
+        if (region_number == '14'):
+            centers_vgr = vgr.get_centers()
+
         for center in region_centers:
             print(center['name'])
 
@@ -56,7 +59,6 @@ class VMD(object):
                 appointment_count = 0
 
             if (region_number == '14'):
-                centers_vgr = vgr.get_centers()
                 center_vgr = vgr.get_center_from(centers_vgr,
                                                  center['1177_id'])
 
