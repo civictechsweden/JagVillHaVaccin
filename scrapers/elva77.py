@@ -1,8 +1,5 @@
-from datetime import datetime
 import json
 import re
-from scrapers.vaccina import get_id_from_url
-from sys import platform
 import urllib
 
 from time import mktime
@@ -37,7 +34,7 @@ def get_center_info(center_url):
     content = get_preloaded_state_content('{}{}'.format(BASE_URL, center_url))
 
     card = content['Card']
-    print(card['DisplayName'])
+    print('Fetching info from 1177 for {}'.format(card['DisplayName']))
 
     adress_and_postcode = get_address_and_postcode(card)
 
@@ -182,11 +179,11 @@ def create_unlisted_center(center):
         'type':
         'vaccination-center',
         '1177_id':
-        None,
+        center.get('hsaid'),
         'platform_id':
         platform_id,
         'vaccine_type':
         None,
         'appointment_by_phone_only':
-        not is_fetchable(get_platform(center['link'])),
+        not is_fetchable(platform),
     }

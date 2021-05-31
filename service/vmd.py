@@ -5,7 +5,7 @@ from datetime import datetime
 
 import scrapers.vaccina as vaccina
 import scrapers.mittvaccin as mittvaccin
-import scrapers.elva77 as elva77
+import scrapers.vgr as vgr
 from service.writer import Writer
 
 
@@ -31,10 +31,19 @@ class VMD(object):
             center for center in centers if center['region'] == region_number
         ]
 
+        if (region_number == '14'):
+            centers_vgr = vgr.get_centers()
+
         for center in region_centers:
             print(center['name'])
 
-            if center['platform'] == 'MittVaccin':
+            if (region_number == '14'
+                    and vgr.get_center_from(centers_vgr, center['1177_id'])):
+                next_time_and_slots = vgr.get_next_time_and_slots(
+                    vgr.get_center_from(centers_vgr, center['1177_id']))
+                prochain_rdv = next_time_and_slots['next']
+                appointment_count = next_time_and_slots['amount_of_slots']
+            elif center['platform'] == 'MittVaccin':
                 url = center['platform_url']
                 next_time_and_slots = mittvaccin.get_next_time_and_slots(
                     center['platform_id'], '210517', '210630')

@@ -1,8 +1,10 @@
 import json
+import string
+from os import replace
 
 import scrapers.mittvaccin as mittvaccin
-import scrapers.vaccina as vaccina
 import scrapers.elva77 as elva77
+import scrapers.vgr as vgr
 
 from service.writer import Writer
 
@@ -76,6 +78,36 @@ class Scraper(object):
 
         return centers_json
 
+    def scrape_centers_from_vgr(already_fetched_urls):
+        centers = vgr.get_centers()
+
+        centers_json = []
+
+        for center in centers:
+            url = center['urlContactCard']
+
+            if 'https://www.1177.se' in url:
+                short_url = url.replace(elva77.BASE_URL + '/Vastra-Gotaland',
+                                        '')
+
+                print('1177:    ' + short_url)
+
+                if url not in already_fetched_urls:
+                    center_json = elva77.get_center_info(short_url)
+
+                else:
+                    print('Not fetching this one: {}'.format(url))
+
+            else:
+                print('Not 1177:    ' + url)
+                center_json = elva77.create_unlisted_center(
+                    vgr.convert_center(center))
+
+            center_json['appointment_by_phone_only'] = False
+            centers_json.append(dict(center_json))
+
+        return centers_json
+
     def scrape_and_write_centers():
         centers_from_manual_lists = Scraper.scrape_centers_from_manual_lists()
 
@@ -84,9 +116,18 @@ class Scraper(object):
             if '1177_url' in center
         ]
 
+        centers_from_vgr = Scraper.scrape_centers_from_vgr(
+            already_fetched_urls)
+
+        already_fetched_urls = already_fetched_urls + [
+            center['1177_url']
+            for center in centers_from_vgr if '1177_url' in center
+        ]
+
         centers_from_1177 = Scraper.scrape_centers_from_1177(
             already_fetched_urls)
 
-        centers = sorted(centers_from_1177 + centers_from_manual_lists,
+        centers = sorted(centers_from_1177 + centers_from_vgr +
+                         centers_from_manual_lists,
                          key=lambda k: k['name'])
         Writer.write_json(centers, 'centers.json')
