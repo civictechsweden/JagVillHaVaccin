@@ -91,7 +91,7 @@ class VMD(object):
                 'gid': None
             }
 
-            if prochain_rdv:
+            if appointment_count > 0:
                 centres_disponibles.append(dict(vmd_center))
             else:
                 centres_indisponibles.append(dict(vmd_center))
