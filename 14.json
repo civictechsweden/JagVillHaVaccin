@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-02 00:35:56.167185+02:00",
+    "last_updated": "2021-06-02 01:42:18.107158+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -79,6 +79,34 @@
             "type": "vaccination-center",
             "appointment_count": 1,
             "internal_id": "2079",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek Torslanda",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.774456734363756,
+                "latitude": 57.709823197639466,
+                "city": "Göteborg",
+                "cp": "42337"
+            },
+            "metadata": {
+                "address": "Gamla flygplatsvägen 40, 423 37, Torslanda",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-06-02 12:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "2090",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -189,7 +217,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 33,
+            "appointment_count": 29,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2655,34 +2683,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2083",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek Torslanda",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.774456734363756,
-                "latitude": 57.709823197639466,
-                "city": "Göteborg",
-                "cp": "42337"
-            },
-            "metadata": {
-                "address": "Gamla flygplatsvägen 40, 423 37, Torslanda",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2090",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
