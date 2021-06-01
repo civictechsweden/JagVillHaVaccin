@@ -1,92 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-06-01 01:08:16.379576+02:00",
+    "last_updated": "2021-06-01 02:09:27.541626+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek Alingsås",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.537011564676016,
-                "latitude": 57.930104216081595,
-                "city": "Alingsås",
-                "cp": "44131"
-            },
-            "metadata": {
-                "address": "Kungsgatan 34, 441 31, Alingsås",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": "2021-06-01 11:45:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "2086",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek Falköping",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.554253617544363,
-                "latitude": 58.1892574341603,
-                "city": "Göteborg",
-                "cp": "52137"
-            },
-            "metadata": {
-                "address": "Danska vägen 62, 521 37, Falköping",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": "2021-06-01 11:45:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 2,
-            "internal_id": "2085",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek Strömstad",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.170701456759991,
-                "latitude": 58.938685392872024,
-                "city": "Strömstad",
-                "cp": "45230"
-            },
-            "metadata": {
-                "address": "Södra Hamngatan 4, 452 30, Strömstad",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": "2021-06-01 11:45:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "2083",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "14",
             "nom": "Kronans Apotek Vara Vårdcentral",
@@ -189,7 +105,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 78,
+            "appointment_count": 76,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2133,6 +2049,34 @@
         },
         {
             "departement": "14",
+            "nom": "Kronans Apotek Alingsås",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.537011564676016,
+                "latitude": 57.930104216081595,
+                "city": "Alingsås",
+                "cp": "44131"
+            },
+            "metadata": {
+                "address": "Kungsgatan 34, 441 31, Alingsås",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2086",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Kronans Apotek Borås",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -2181,6 +2125,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek Falköping",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.554253617544363,
+                "latitude": 58.1892574341603,
+                "city": "Göteborg",
+                "cp": "52137"
+            },
+            "metadata": {
+                "address": "Danska vägen 62, 521 37, Falköping",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2085",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -2515,6 +2487,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2084",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek Strömstad",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.170701456759991,
+                "latitude": 58.938685392872024,
+                "city": "Strömstad",
+                "cp": "45230"
+            },
+            "metadata": {
+                "address": "Södra Hamngatan 4, 452 30, Strömstad",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2083",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
