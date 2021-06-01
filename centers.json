@@ -69,6 +69,29 @@
         "appointment_by_phone_only": true
     },
     {
+        "name": "Alingsås Nolhalla",
+        "region": "14",
+        "1177_url": null,
+        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?hsaid=SE2321000131-E000000007983&dynamicid=bb0225fc-7c37-47c1-8558-ddb991501c2c",
+        "location": {
+            "longitude": "",
+            "latitude": "",
+            "city": "",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "",
+            "business_hours": null,
+            "phone_number": ""
+        },
+        "platform": "1177",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000007983",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
         "name": "Allemanshälsan vårdcentral - Lunden, Skövde",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Allemanshalsan-vardcentral-Lunden-Skovde/",
@@ -455,6 +478,52 @@
         "platform": null,
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000016364",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Barnavårdscentralen Adina Hälsans Vårdcentral Nol, Nol",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Barnavardscentralen-Adina-Halsans-Vardcentral-Nol-Nol/",
+        "platform_url": "https://patient.nu/portal/public/calendar/77cc98db-b7a0-11eb-91e2-fa163e329242",
+        "location": {
+            "longitude": 12.066285398600257,
+            "latitude": 57.916954178055235,
+            "city": "Ale",
+            "cp": "44942"
+        },
+        "metadata": {
+            "address": "Noltorget 12, 449 42, Nol",
+            "business_hours": null,
+            "phone_number": "031-383 04 22"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-F000000001310",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Berga Läkarhus, Helsingborg",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Berga-Lakarhus-Helsingborg/",
+        "platform_url": null,
+        "location": {
+            "longitude": 12.710842758526377,
+            "latitude": 56.0638806521683,
+            "city": "Helsingborg",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Rundgången 26, Helsingborg",
+            "business_hours": null,
+            "phone_number": "042-15 50 00"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O18986",
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
@@ -1449,10 +1518,10 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Bräcke Diakoni Vårdcentralen Centralhälsan, Falköping",
+        "name": "Bräcke Diakoni Vårdcentralen Centralhälsan, Falköping (18+ LSS/assistans/vårdnära)",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bracke-Diakoni-Vardcentralen-Centralhalsan-Falkoping/",
-        "platform_url": null,
+        "platform_url": "https://bokning.mittvaccin.se/klinik/1509",
         "location": {
             "longitude": 13.554135866320628,
             "latitude": 58.167466873038066,
@@ -1464,12 +1533,35 @@
             "business_hours": null,
             "phone_number": "0515-71 72 00"
         },
-        "platform": null,
+        "platform": "MittVaccin",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000007573",
-        "platform_id": null,
+        "platform_id": "1509",
         "vaccine_type": null,
-        "appointment_by_phone_only": true
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Bräcke Diakoni Vårdcentralen Centralhälsan, Falköping (åldersgrupp eller riksgrupp)",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bracke-Diakoni-Vardcentralen-Centralhalsan-Falkoping/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/1224",
+        "location": {
+            "longitude": 13.554135866320628,
+            "latitude": 58.167466873038066,
+            "city": "Falköping",
+            "cp": "52147"
+        },
+        "metadata": {
+            "address": "Bryngelsgatan 2B, 521 47, Falköping",
+            "business_hours": null,
+            "phone_number": "0515-71 72 00"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000007573",
+        "platform_id": "1224",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
     },
     {
         "name": "Bräcke Diakoni Vårdcentralen Centrum, Alingsås",
@@ -1493,52 +1585,6 @@
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
-    },
-    {
-        "name": "Bräcke Diakoni vårdcentralen Lokstallarna, Jönköping (18+ LSS/assistans/vårdnära)",
-        "region": "06",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bracke-Diakoni-vardcentralen-Lokstallarna-Jonkoping/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/1509",
-        "location": {
-            "longitude": 14.150961812634723,
-            "latitude": 57.78769726541282,
-            "city": "Jönköping",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Kortebovägen 6, Jönköping",
-            "business_hours": null,
-            "phone_number": "010-242 89 00"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000057-5SRJ",
-        "platform_id": "1509",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Bräcke Diakoni vårdcentralen Lokstallarna, Jönköping (åldersgrupp eller riksgrupp)",
-        "region": "06",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bracke-Diakoni-vardcentralen-Lokstallarna-Jonkoping/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/1224",
-        "location": {
-            "longitude": 14.150961812634723,
-            "latitude": 57.78769726541282,
-            "city": "Jönköping",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Kortebovägen 6, Jönköping",
-            "business_hours": null,
-            "phone_number": "010-242 89 00"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000057-5SRJ",
-        "platform_id": "1224",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
     },
     {
         "name": "Bräcke Diakoni vårdcentralen Nyhälsan Nässjö (18+ LSS/assistans/vårdnära)",
@@ -2552,7 +2598,7 @@
         "name": "Doktor se Adina Hälsans vårdcentral Nol, Nol",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Doktor-se-Adina-Halsans-vardcentral-Nol-Nol/",
-        "platform_url": "https://patient.nu/portal/public/calendar/77cc98db-b7a0-11eb-91e2-fa163e329242",
+        "platform_url": null,
         "location": {
             "longitude": 12.066285398600257,
             "latitude": 57.916954178055235,
@@ -2589,6 +2635,28 @@
         "platform": null,
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O28396",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Doktor se Trelleborg Vaccinationsenhet",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Doktor-se-Trelleborg-Vaccinationsenhet/",
+        "platform_url": null,
+        "location": {
+            "longitude": 13.154835319685317,
+            "latitude": 55.37345712794216,
+            "city": "Trelleborg",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Hamngatan 24, Trelleborg",
+            "business_hours": null
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O28395",
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
@@ -5324,6 +5392,143 @@
         "appointment_by_phone_only": true
     },
     {
+        "name": "MACC Hässleholm",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Hassleholm/",
+        "platform_url": "https://covidvaccinering.com/",
+        "location": {
+            "longitude": 13.77676231700418,
+            "latitude": 56.155208336309215,
+            "city": "Hässleholm",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Östra Hagagatan 2, Hässleholm",
+            "business_hours": null,
+            "phone_number": "010-330 04 43"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O28435",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "MACC Hörby",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Horby/",
+        "platform_url": "https://covidvaccinering.com/",
+        "location": {
+            "longitude": 13.685091759872158,
+            "latitude": 55.86245628529676,
+            "city": "Hörby",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Silvergatan 4, Hörby",
+            "business_hours": null,
+            "phone_number": "010-330 04 43"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O28428",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "MACC Osby",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Osby/",
+        "platform_url": "https://covidvaccinering.com/",
+        "location": {
+            "longitude": 13.991146252719734,
+            "latitude": 56.380297879671815,
+            "city": "Osby",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Fabriksgatan 7, Osby",
+            "business_hours": null
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O28666",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "MACC Sjöbo",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Sjobo/",
+        "platform_url": "https://covidvaccinering.com/",
+        "location": {
+            "longitude": 13.693634123512222,
+            "latitude": 55.635076880844345,
+            "city": "Sjöbo",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Industrigatan 1C, Sjöbo",
+            "business_hours": null,
+            "phone_number": "073-143 84 58"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O28426",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "MACC Skurup",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Skurup/",
+        "platform_url": "https://covidvaccinering.com/",
+        "location": {
+            "longitude": 13.503898394470399,
+            "latitude": 55.475824351719375,
+            "city": "Skurup",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Vaktgatan 10, Skurup",
+            "business_hours": null,
+            "phone_number": "010-330 04 43"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O28429",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "MACC Svalöv",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Svalov/",
+        "platform_url": "https://covidvaccinering.com/",
+        "location": {
+            "longitude": 13.108292309388082,
+            "latitude": 55.912696847709256,
+            "city": "Svalöv",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Herrevadsgatan 10A, Svalöv",
+            "business_hours": null,
+            "phone_number": "010-330 04 43"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O28427",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
         "name": "MACC Ängelholm",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Angelholm/",
@@ -5341,6 +5546,28 @@
         "platform": null,
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O28425",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "MACC Östra Göinge",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Ostra-Goinge/",
+        "platform_url": "https://covidvaccinering.com/",
+        "location": {
+            "longitude": 14.076128091192832,
+            "latitude": 56.259109746567425,
+            "city": "Östra Göinge",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Pappersbruksvägen 4, Broby",
+            "business_hours": null
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O28430",
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
@@ -7737,7 +7964,7 @@
         "name": "Närhälsan Skogslyckan vårdcentral, Uddevalla",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Skogslyckan-vardcentral-Uddevalla/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000540&hsaid=SE2321000131-E000000000540&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.913302525954462,
             "latitude": 58.3603660451416,
@@ -7749,7 +7976,7 @@
             "business_hours": null,
             "phone_number": "010-441 65 00"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000540",
         "platform_id": null,
@@ -8312,7 +8539,7 @@
         "name": "Närhälsan Töreboda vårdcentral, Töreboda",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Toreboda-vardcentral-Toreboda/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000001665&hsaid=SE2321000131-E000000001665&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 14.121938796810461,
             "latitude": 58.706728897807,
@@ -8324,7 +8551,7 @@
             "business_hours": null,
             "phone_number": "0506-197 10"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000001665",
         "platform_id": null,
@@ -9615,6 +9842,29 @@
         "appointment_by_phone_only": false
     },
     {
+        "name": "Solljungahälsan, Örkelljunga",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Solljungahalsan-Orkelljunga-1/",
+        "platform_url": null,
+        "location": {
+            "longitude": 13.28098597910582,
+            "latitude": 56.281596651484406,
+            "city": "Örkelljunga",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "David Anders Gata 4, Örkelljunga",
+            "business_hours": null,
+            "phone_number": "0435-78 24 00"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O17983",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
         "name": "Solna Gamla Karolinska - vaccination covid, Karolinska Universitetssjukhuset",
         "region": "01",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Solna-Gamla-Karolinska-Vaccination-Covid-Karolinska-Universitetssjukhuset/",
@@ -10662,6 +10912,29 @@
         "appointment_by_phone_only": true
     },
     {
+        "name": "Vaccina Bjuv",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccina-Bjuv/",
+        "platform_url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
+        "location": {
+            "longitude": 12.921009226536968,
+            "latitude": 56.08309248738263,
+            "city": "Bjuv",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Södra Storgatan 17, Bjuv",
+            "business_hours": null,
+            "phone_number": "010-750 09 45"
+        },
+        "platform": "Vaccina",
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O28607",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
         "name": "Vaccina Borås",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccina-Boras/",
@@ -10799,6 +11072,51 @@
         "appointment_by_phone_only": true
     },
     {
+        "name": "Vaccina Helsingborg",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccina-Helsingborg/",
+        "platform_url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
+        "location": {
+            "longitude": 12.690055705472904,
+            "latitude": 56.04599575072398,
+            "city": "Helsingborg",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Kungsgatan 1, Helsingborg",
+            "business_hours": null,
+            "phone_number": "010-750 09 45"
+        },
+        "platform": "Vaccina",
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O28502",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Vaccina Kristianstad",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccina-Kristianstad/",
+        "platform_url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
+        "location": {
+            "longitude": 14.158735268392324,
+            "latitude": 56.029440820259126,
+            "city": "Kristianstad",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Östra Boulevarden 56, Kristianstad",
+            "business_hours": null
+        },
+        "platform": "Vaccina",
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O28507",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
         "name": "Vaccina Lidköping",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccina-Lidkoping/",
@@ -10820,6 +11138,29 @@
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
+    },
+    {
+        "name": "Vaccina Malmö",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccina-Malmo/",
+        "platform_url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
+        "location": {
+            "longitude": 12.975981539827515,
+            "latitude": 55.5622124275113,
+            "city": "Malmö",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Hyllie stationstorg 29, Malmö",
+            "business_hours": null,
+            "phone_number": "010-750 09 45"
+        },
+        "platform": "Vaccina",
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O28508",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
     },
     {
         "name": "Vaccina Partille",
@@ -10912,6 +11253,29 @@
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
+    },
+    {
+        "name": "Vaccina Ystad",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccina-Ystad/",
+        "platform_url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
+        "location": {
+            "longitude": 13.823960969621373,
+            "latitude": 55.4319969295343,
+            "city": "Ystad",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Blekegatan 8, Ystad",
+            "business_hours": null,
+            "phone_number": "010-750 09 45"
+        },
+        "platform": "Vaccina",
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O28606",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
     },
     {
         "name": "Vaccinationscentral covid-19 Borgholm",
@@ -11486,13 +11850,13 @@
         "1177_id": "SE2321000131-E000000016103",
         "platform_id": null,
         "vaccine_type": null,
-        "appointment_by_phone_only": true
+        "appointment_by_phone_only": false
     },
     {
         "name": "Vaccinationsmottagning Perstorp",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsmottagning-Perstorp/",
-        "platform_url": null,
+        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?hsaid=SE162321000255-O28297&dynamicid=KONT-9V6EN6",
         "location": {
             "longitude": 13.388646372898863,
             "latitude": 56.130281197772746,
@@ -11504,7 +11868,7 @@
             "business_hours": null,
             "phone_number": "046-17 18 38"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O28297",
         "platform_id": null,
@@ -12107,6 +12471,28 @@
         "platform_id": "597",
         "vaccine_type": null,
         "appointment_by_phone_only": false
+    },
+    {
+        "name": "Vallentuna - vaccination covid - Prosalus",
+        "region": "01",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vallentuna-vaccination-covid-Prosalus/",
+        "platform_url": null,
+        "location": {
+            "longitude": 18.08987055179181,
+            "latitude": 59.54241880976877,
+            "city": "Vallentuna",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Blekingevägen 1, VALLENTUNA",
+            "business_hours": null
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE2321000016-FCXK",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
     },
     {
         "name": "Vasastan Filadelfiakyrkan - vaccination covid - Capio",
