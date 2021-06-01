@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-01 15:24:46.595806+02:00",
+    "last_updated": "2021-06-01 16:41:31.207351+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-06-08 13:55:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 53,
+            "appointment_count": 52,
             "internal_id": 29999,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,10 +46,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-14 10:40:00",
+            "prochain_rdv": "2021-06-14 11:10:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 64,
+            "appointment_count": 59,
             "internal_id": 30000,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -89,34 +89,6 @@
         },
         {
             "departement": "07",
-            "nom": "Tingsryds Folkpark",
-            "url": "https://www.1177.se/Kronoberg/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-kronoberg/",
-            "location": {
-                "longitude": 14.952075,
-                "latitude": 56.5269524,
-                "city": "Tingsryd",
-                "cp": "36291"
-            },
-            "metadata": {
-                "address": "120, 362 91 Tingsryd",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-06-10 08:50:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "1557",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "07",
             "nom": "Tipshallen, västra sidan",
             "url": "https://www.1177.se/Kronoberg/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-kronoberg/",
             "location": {
@@ -130,10 +102,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-09 10:40:00",
+            "prochain_rdv": "2021-06-08 10:04:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 4344,
+            "appointment_count": 5076,
             "internal_id": "2063",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -251,6 +223,34 @@
             "internal_id": "",
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "07",
+            "nom": "Tingsryds Folkpark",
+            "url": "https://www.1177.se/Kronoberg/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-kronoberg/",
+            "location": {
+                "longitude": 14.952075,
+                "latitude": 56.5269524,
+                "city": "Tingsryd",
+                "cp": "36291"
+            },
+            "metadata": {
+                "address": "120, 362 91 Tingsryd",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1557",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
