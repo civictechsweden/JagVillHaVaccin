@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-02 14:27:10.896507+02:00",
+    "last_updated": "2021-06-02 16:29:43.616018+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,91 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
+            "appointment_count": 4,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Dingle Lantbruksskolan",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 7,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Götene vårdcentral, Götene",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.494655205989858,
+                "latitude": 58.52778841850923,
+                "city": "Götene",
+                "cp": "53330"
+            },
+            "metadata": {
+                "address": "Torggatan 4, 533 30, Götene",
+                "business_hours": null,
+                "phone_number": "0511-308 10"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
             "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Scandinavium",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 88,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +133,35 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 194,
+            "appointment_count": 129,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Stenstorp vårdcentral, Stenstorp",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.717400041889025,
+                "latitude": 58.273721072294435,
+                "city": "Falköping",
+                "cp": "52160"
+            },
+            "metadata": {
+                "address": "Storgatan 14 A, 521 60, Stenstorp",
+                "business_hours": null,
+                "phone_number": "0500-47 29 50"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 104,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,7 +189,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 12,
+            "appointment_count": 11,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -287,6 +399,34 @@
         },
         {
             "departement": "14",
+            "nom": "Apoteket Hjorten",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.536584869425102,
+                "latitude": 57.92996743958377,
+                "city": "Alingsås",
+                "cp": "44130"
+            },
+            "metadata": {
+                "address": "Kungsgatan 29, 441 30, Alingsås",
+                "business_hours": null,
+                "phone_number": "010-410 23 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Apoteket Kronan Ulricehamn",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -297,6 +437,34 @@
             },
             "metadata": {
                 "address": "Storgatan 1, 523 30, Ulricehamnn",
+                "business_hours": null,
+                "phone_number": "010-410 23 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Apoteket Måsen Uddevalla",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.92927389307013,
+                "latitude": 58.355854473494986,
+                "city": "Uddevalla",
+                "cp": "45153"
+            },
+            "metadata": {
+                "address": "Fjällvägen 9, 451 53, Uddevalla",
                 "business_hours": null,
                 "phone_number": "010-410 23 00"
             },
@@ -539,7 +707,7 @@
         },
         {
             "departement": "14",
-            "nom": "Bräcke Diakoni Vårdcentralen Centralhälsan, Falköping (18+ LSS/assistans/vårdnära)",
+            "nom": "Bräcke Diakoni Vårdcentralen Centralhälsan, Falköping",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
                 "longitude": 13.554135866320628,
@@ -551,6 +719,34 @@
                 "address": "Bryngelsgatan 2B, 521 47, Falköping",
                 "business_hours": null,
                 "phone_number": "0515-71 72 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Bräcke Diakoni Vårdcentralen Centrum, Alingsås (18+ LSS/assistans/vårdnära)",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.530026332606003,
+                "latitude": 57.93058005544264,
+                "city": "Alingsås",
+                "cp": "44130"
+            },
+            "metadata": {
+                "address": "Kungsgatan 5, 441 30, Alingsås",
+                "business_hours": null,
+                "phone_number": "0322-28 01 50"
             },
             "prochain_rdv": null,
             "plateforme": "MittVaccin",
@@ -567,35 +763,7 @@
         },
         {
             "departement": "14",
-            "nom": "Bräcke Diakoni Vårdcentralen Centralhälsan, Falköping (åldersgrupp eller riksgrupp)",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.554135866320628,
-                "latitude": 58.167466873038066,
-                "city": "Falköping",
-                "cp": "52147"
-            },
-            "metadata": {
-                "address": "Bryngelsgatan 2B, 521 47, Falköping",
-                "business_hours": null,
-                "phone_number": "0515-71 72 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1224",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Bräcke Diakoni Vårdcentralen Centrum, Alingsås",
+            "nom": "Bräcke Diakoni Vårdcentralen Centrum, Alingsås (åldersgrupp eller riksgrupp)",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
                 "longitude": 12.530026332606003,
@@ -609,12 +777,12 @@
                 "phone_number": "0322-28 01 50"
             },
             "prochain_rdv": null,
-            "plateforme": "1177",
+            "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": null,
+            "internal_id": "1224",
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -1266,16 +1434,16 @@
         },
         {
             "departement": "14",
-            "nom": "Din Klinik Vaccinationsmottagning SEB Nordstan",
+            "nom": "Din Klinik Vaccinationsmottagning Nordstan",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 11.967609041247096,
-                "latitude": 57.70851007269066,
+                "longitude": 11.968170261362843,
+                "latitude": 57.70828444783268,
                 "city": "Göteborg",
-                "cp": "41105"
+                "cp": "41106"
             },
             "metadata": {
-                "address": "Östra Hamngatan 24, 411 05, Göteborg",
+                "address": "Postgatan 22, 411 06, Göteborg",
                 "business_hours": null
             },
             "prochain_rdv": null,
@@ -2125,6 +2293,34 @@
             "internal_id": "2086",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek Borås",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.942756406174066,
+                "latitude": 57.72053321567715,
+                "city": "Borås",
+                "cp": "50337"
+            },
+            "metadata": {
+                "address": "Allégatan 43, 503 37, Borås",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -4345,34 +4541,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Dingle Lantbruksskolan",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Ekmanska vårdcentral, Göteborg",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -4765,34 +4933,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Götene vårdcentral, Götene",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.494655205989858,
-                "latitude": 58.52778841850923,
-                "city": "Götene",
-                "cp": "53330"
-            },
-            "metadata": {
-                "address": "Torggatan 4, 533 30, Götene",
-                "business_hours": null,
-                "phone_number": "0511-308 10"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Heimdal vårdcentral, Borås",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -5031,7 +5171,7 @@
                 "phone_number": "0505-183 00"
             },
             "prochain_rdv": null,
-            "plateforme": "1177",
+            "plateforme": null,
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
@@ -5885,34 +6025,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Scandinavium",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Sisjön vårdcentral, Askim",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6124,34 +6236,6 @@
             },
             "prochain_rdv": null,
             "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Stenstorp vårdcentral, Stenstorp",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.717400041889025,
-                "latitude": 58.273721072294435,
-                "city": "Falköping",
-                "cp": "52160"
-            },
-            "metadata": {
-                "address": "Storgatan 14 A, 521 60, Stenstorp",
-                "business_hours": null,
-                "phone_number": "0500-47 29 50"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
