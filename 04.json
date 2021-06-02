@@ -1,28 +1,56 @@
 {
     "version": 1,
-    "last_updated": "2021-06-02 09:19:52.234666+02:00",
+    "last_updated": "2021-06-02 11:40:29.072298+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "04",
-            "nom": "Vaccina Gnesta, Gnesta",
+            "nom": "Vaccina Flen, Flen",
             "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
             "location": {
-                "longitude": 17.326507675212333,
-                "latitude": 59.03994773439347,
-                "city": "Gnesta",
-                "cp": "64630"
+                "longitude": 16.589337823953205,
+                "latitude": 59.05905571299985,
+                "city": "Flen",
+                "cp": "64237"
             },
             "metadata": {
-                "address": "Dansutvägen 2, 646 30 Gnesta",
+                "address": "Götgatan 6, 642 37 Flen",
                 "business_hours": null,
                 "phone_number": "010-750 09 45"
             },
-            "prochain_rdv": "2021-06-16 10:50:00",
+            "prochain_rdv": "2021-06-06 09:30:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
             "appointment_count": 1,
-            "internal_id": 30004,
+            "internal_id": 30005,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "04",
+            "nom": "Vaccina Trosa, Trosa",
+            "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
+            "location": {
+                "longitude": 17.54861749910625,
+                "latitude": 58.8965322283658,
+                "city": "Trosa",
+                "cp": "61930"
+            },
+            "metadata": {
+                "address": "Busstorget 5, 619 30 Trosa",
+                "business_hours": null,
+                "phone_number": "010-750 09 45"
+            },
+            "prochain_rdv": "2021-06-08 14:10:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 75,
+            "internal_id": 30006,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -46,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": "0155-24 50 00"
             },
-            "prochain_rdv": "2021-06-13 13:35:00",
+            "prochain_rdv": "2021-06-13 13:50:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 613,
+            "appointment_count": 600,
             "internal_id": 30003,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,7 +105,7 @@
             "prochain_rdv": "2021-06-08 18:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1443,
+            "appointment_count": 1441,
             "internal_id": "45",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -102,10 +130,10 @@
                 "business_hours": null,
                 "phone_number": "011-473 53 70"
             },
-            "prochain_rdv": "2021-06-15 09:12:00",
+            "prochain_rdv": "2021-06-11 14:16:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1846,
+            "appointment_count": 1848,
             "internal_id": "2069",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -203,16 +231,16 @@
         },
         {
             "departement": "04",
-            "nom": "Vaccina Flen, Flen",
+            "nom": "Vaccina Gnesta, Gnesta",
             "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
             "location": {
-                "longitude": 16.589337823953205,
-                "latitude": 59.05905571299985,
-                "city": "Flen",
-                "cp": "64237"
+                "longitude": 17.326507675212333,
+                "latitude": 59.03994773439347,
+                "city": "Gnesta",
+                "cp": "64630"
             },
             "metadata": {
-                "address": "Götgatan 6, 642 37 Flen",
+                "address": "Dansutvägen 2, 646 30 Gnesta",
                 "business_hours": null,
                 "phone_number": "010-750 09 45"
             },
@@ -220,7 +248,7 @@
             "plateforme": "Vaccina",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": 30005,
+            "internal_id": 30004,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -251,34 +279,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "04",
-            "nom": "Vaccina Trosa, Trosa",
-            "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
-            "location": {
-                "longitude": 17.54861749910625,
-                "latitude": 58.8965322283658,
-                "city": "Trosa",
-                "cp": "61930"
-            },
-            "metadata": {
-                "address": "Busstorget 5, 619 30 Trosa",
-                "business_hours": null,
-                "phone_number": "010-750 09 45"
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 30006,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
