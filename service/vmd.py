@@ -43,7 +43,7 @@ class VMD(object):
                     center['platform_id'], '210517', '210630')
                 prochain_rdv = next_time_and_slots['next']
                 appointment_count = next_time_and_slots['amount_of_slots']
-            elif center['platform'] == 'Vaccina':
+            elif center['platform'] == 'Vaccina' and center['platform_id']:
                 url = center['platform_url']
                 center_id = center['platform_id']
                 region_vaccina_code = vaccina.REGION_CODES[center['region']]
