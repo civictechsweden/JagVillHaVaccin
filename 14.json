@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-03 11:07:05.292409+02:00",
+    "last_updated": "2021-06-03 12:20:40.399819+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +49,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -61,21 +61,21 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Lindome vårdcentral, Lindome",
+            "nom": "Närhälsan Karlsborg vårdcentral, Karlsborg",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 12.088026338281288,
-                "latitude": 57.57627864929656,
-                "city": "Mölndal",
-                "cp": "43730"
+                "longitude": 14.516093296371812,
+                "latitude": 58.53019034389921,
+                "city": "Karlsborg",
+                "cp": "54630"
             },
             "metadata": {
-                "address": "Almåsgången 7, 437 30, Lindome",
+                "address": "Kärleksstigen 4B, 546 30, Karlsborg",
                 "business_hours": null,
-                "phone_number": "010-473 39 20"
+                "phone_number": "0505-183 00"
             },
             "prochain_rdv": null,
-            "plateforme": "1177",
+            "plateforme": null,
             "type": "vaccination-center",
             "appointment_count": 1,
             "internal_id": null,
@@ -105,7 +105,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 93,
+            "appointment_count": 92,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -133,10 +133,66 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 18,
+            "appointment_count": 16,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Ågårdsskogen",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Ågårdsskogen vårdcentral, Lidköping",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.136437416624878,
+                "latitude": 58.49300116191721,
+                "city": "Lidköping",
+                "cp": "53151"
+            },
+            "metadata": {
+                "address": "Tallskogsvägen 2, 531 51, Lidköping",
+                "business_hours": null,
+                "phone_number": "0510-854 12"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -158,10 +214,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-04 08:30:00",
+            "prochain_rdv": "2021-06-04 08:35:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 99,
+            "appointment_count": 86,
             "internal_id": 30633,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -5129,34 +5185,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Karlsborg vårdcentral, Karlsborg",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 14.516093296371812,
-                "latitude": 58.53019034389921,
-                "city": "Karlsborg",
-                "cp": "54630"
-            },
-            "metadata": {
-                "address": "Kärleksstigen 4B, 546 30, Karlsborg",
-                "business_hours": null,
-                "phone_number": "0505-183 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Kinna vårdcentral, Kinna",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -5449,6 +5477,34 @@
                 "address": "",
                 "business_hours": null,
                 "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Lindome vårdcentral, Lindome",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.088026338281288,
+                "latitude": 57.57627864929656,
+                "city": "Mölndal",
+                "cp": "43730"
+            },
+            "metadata": {
+                "address": "Almåsgången 7, 437 30, Lindome",
+                "business_hours": null,
+                "phone_number": "010-473 39 20"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -6992,62 +7048,6 @@
             },
             "prochain_rdv": null,
             "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Ågårdsskogen",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Ågårdsskogen vårdcentral, Lidköping",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.136437416624878,
-                "latitude": 58.49300116191721,
-                "city": "Lidköping",
-                "cp": "53151"
-            },
-            "metadata": {
-                "address": "Tallskogsvägen 2, 531 51, Lidköping",
-                "business_hours": null,
-                "phone_number": "0510-854 12"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
