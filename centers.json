@@ -555,7 +555,7 @@
         "name": "Berga Läkarhus, Helsingborg",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Berga-Lakarhus-Helsingborg/",
-        "platform_url": "https://m05-mg-local.idp.funktionstjanster.se/samlv2/idp/sign_in/e515df0d202ae52fcebb14295743063b",
+        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?hsaid=SE162321000255-O18986&dynamicid=KONT-9Q5ECC",
         "location": {
             "longitude": 12.710842758526377,
             "latitude": 56.0638806521683,
@@ -567,7 +567,7 @@
             "business_hours": null,
             "phone_number": "042-15 50 00"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O18986",
         "platform_id": null,
@@ -4477,7 +4477,7 @@
         "name": "Kronans Apotek Ängelholm",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Angelholm/",
-        "platform_url": null,
+        "platform_url": "https://bokning.mittvaccin.se/klinik/1534",
         "location": {
             "longitude": 12.863032774480862,
             "latitude": 56.24253762960139,
@@ -4489,12 +4489,12 @@
             "business_hours": null,
             "phone_number": "08-128 446 21"
         },
-        "platform": null,
+        "platform": "MittVaccin",
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O28423",
-        "platform_id": null,
+        "platform_id": "1534",
         "vaccine_type": null,
-        "appointment_by_phone_only": true
+        "appointment_by_phone_only": false
     },
     {
         "name": "Kronans Apotek Överby Köpcenter",
@@ -8998,7 +8998,7 @@
         "name": "Näsets Läkargrupp- Filial Specialmottagning, Höllviken",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Nasets-Lakargrupp-Filial-Specialmottagning-Hollviken/",
-        "platform_url": "https://m05-mg-local.idp.funktionstjanster.se/samlv2/idp/sign_in/e515df0d202ae52fcebb14295743063b",
+        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?hsaid=SE162321000255-O15493&dynamicid=KONT-9Q5ECC",
         "location": {
             "longitude": 12.951769185524748,
             "latitude": 55.418314167332284,
@@ -9010,7 +9010,7 @@
             "business_hours": null,
             "phone_number": "040-45 62 72"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O24351",
         "platform_id": null,
@@ -10051,7 +10051,7 @@
         "name": "Solljungahälsan, Örkelljunga",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Solljungahalsan-Orkelljunga-1/",
-        "platform_url": "https://m05-mg-local.idp.funktionstjanster.se/samlv2/idp/sign_in/e515df0d202ae52fcebb14295743063b",
+        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?hsaid=SE162321000255-O17983&dynamicid=KONT-9Q5ECC",
         "location": {
             "longitude": 13.28098597910582,
             "latitude": 56.281596651484406,
@@ -10063,7 +10063,7 @@
             "business_hours": null,
             "phone_number": "0435-78 24 00"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O17983",
         "platform_id": null,
@@ -10278,7 +10278,7 @@
         "name": "Svea Vaccin Malmö City",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Svea-Vaccin-Malmo-City/",
-        "platform_url": null,
+        "platform_url": "https://sveavaccinmalmog.bokamera.se",
         "location": {
             "longitude": 12.995192498856824,
             "latitude": 55.60777261650212,
@@ -10416,7 +10416,7 @@
         "name": "Sveakliniken, Svedala",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Sveakliniken-Svedala/",
-        "platform_url": null,
+        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?hsaid=SE162321000255-O17311&dynamicid=KONT-AJ7LTR",
         "location": {
             "longitude": 13.230728219381895,
             "latitude": 55.51831588878077,
@@ -10428,7 +10428,7 @@
             "business_hours": null,
             "phone_number": "040-618 80 00"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O17311",
         "platform_id": null,
@@ -10613,6 +10613,29 @@
         "type": "vaccination-center",
         "1177_id": "SE2321000081-b3234",
         "platform_id": "576",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Sölvesborgs vårdcentral",
+        "region": "10",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Solvesborgs-vardcentral/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/597/bokning",
+        "location": {
+            "longitude": 14.583232678821236,
+            "latitude": 56.05609832639761,
+            "city": "Sölvesborg",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Markgatan 30",
+            "business_hours": null,
+            "phone_number": "0456-73 13 10"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000081-b3234",
+        "platform_id": "597",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
@@ -12821,7 +12844,7 @@
         "name": "Vaccinova Kävlinge",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinova-Kavlinge/",
-        "platform_url": null,
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2023",
         "location": {
             "longitude": 12.99314059481008,
             "latitude": 55.770330840828976,
@@ -12833,18 +12856,18 @@
             "business_hours": null,
             "phone_number": "070-768 74 68"
         },
-        "platform": null,
+        "platform": "MittVaccin",
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O28461",
-        "platform_id": null,
+        "platform_id": "2023",
         "vaccine_type": null,
-        "appointment_by_phone_only": true
+        "appointment_by_phone_only": false
     },
     {
         "name": "Vaccinova Tomelilla",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinova-Tomelilla/",
-        "platform_url": null,
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2021",
         "location": {
             "longitude": 13.95288969518006,
             "latitude": 55.5437816050211,
@@ -12856,12 +12879,12 @@
             "business_hours": null,
             "phone_number": "070-768 74 68"
         },
-        "platform": null,
+        "platform": "MittVaccin",
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O28465",
-        "platform_id": null,
+        "platform_id": "2021",
         "vaccine_type": null,
-        "appointment_by_phone_only": true
+        "appointment_by_phone_only": false
     },
     {
         "name": "Vaccinova Åhus",
@@ -12882,29 +12905,6 @@
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O28458",
         "platform_id": "2024",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Valjehälsan, Sölvesborg",
-        "region": "10",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Valjehalsan-Solvesborg/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/597/bokning",
-        "location": {
-            "longitude": 14.55505971137131,
-            "latitude": 56.04871111917787,
-            "city": "Sölvesborg",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Herrgårdsvägen 97",
-            "business_hours": null,
-            "phone_number": "0456-329 60"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE8362008628-b3212",
-        "platform_id": "597",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
@@ -13000,7 +13000,7 @@
         "name": "Victoria Vård och Hälsa Kalkbrottet, Limhamn",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Victoria-Vard-och-Halsa-Kalkbrottet-Limhamn/",
-        "platform_url": "https://m05-mg-local.idp.funktionstjanster.se/samlv2/idp/sign_in/e515df0d202ae52fcebb14295743063b",
+        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?hsaid=SE162321000255-O24956&dynamicid=KONT-9Q5ECC",
         "location": {
             "longitude": 12.933095433276113,
             "latitude": 55.572796864685756,
@@ -13012,7 +13012,7 @@
             "business_hours": null,
             "phone_number": "040-602 80 30"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O24956",
         "platform_id": null,
