@@ -1,38 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-06-04 23:49:38.434532+02:00",
+    "last_updated": "2021-06-05 01:03:39.779726+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "18",
-            "nom": "Vaccinationsmottagningen Covid 19 Lindesberg",
-            "url": "https://www.1177.se/Orebrolan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccination-mot-covid-19-region-orebro-lan/",
-            "location": {
-                "longitude": 15.22503917660434,
-                "latitude": 59.59984521812295,
-                "city": "Lindesberg",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Banvägen 28, Lindesberg",
-                "business_hours": null,
-                "phone_number": "019-602 80 00"
-            },
-            "prochain_rdv": "2021-06-07 09:50:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 41,
-            "internal_id": "1348",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        }
-    ],
-    "centres_indisponibles": [
         {
             "departement": "18",
             "nom": "Vaccinationsmottagningen Covid 19 Hallsberg",
@@ -48,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": "019-602 80 00"
             },
-            "prochain_rdv": null,
+            "prochain_rdv": "2021-06-08 10:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 0,
+            "appointment_count": 69,
             "internal_id": "1350",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -76,10 +46,10 @@
                 "business_hours": null,
                 "phone_number": "019-602 80 00"
             },
-            "prochain_rdv": null,
+            "prochain_rdv": "2021-06-08 19:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 0,
+            "appointment_count": 5,
             "internal_id": "1349",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -91,24 +61,24 @@
         },
         {
             "departement": "18",
-            "nom": "Vaccinationsmottagningen Covid 19 Örebro Boglundsängen",
+            "nom": "Vaccinationsmottagningen Covid 19 Lindesberg",
             "url": "https://www.1177.se/Orebrolan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccination-mot-covid-19-region-orebro-lan/",
             "location": {
-                "longitude": 15.198212746374612,
-                "latitude": 59.296286646575545,
-                "city": "Örebro",
+                "longitude": 15.22503917660434,
+                "latitude": 59.59984521812295,
+                "city": "Lindesberg",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Prologgatan 3, Örebro",
+                "address": "Banvägen 28, Lindesberg",
                 "business_hours": null,
                 "phone_number": "019-602 80 00"
             },
-            "prochain_rdv": null,
+            "prochain_rdv": "2021-06-07 09:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1351",
+            "appointment_count": 75,
+            "internal_id": "1348",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -132,11 +102,41 @@
                 "business_hours": null,
                 "phone_number": "019-602 80 00"
             },
+            "prochain_rdv": "2021-06-08 12:48:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 114,
+            "internal_id": "1352",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        }
+    ],
+    "centres_indisponibles": [
+        {
+            "departement": "18",
+            "nom": "Vaccinationsmottagningen Covid 19 Örebro Boglundsängen",
+            "url": "https://www.1177.se/Orebrolan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccination-mot-covid-19-region-orebro-lan/",
+            "location": {
+                "longitude": 15.198212746374612,
+                "latitude": 59.296286646575545,
+                "city": "Örebro",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Prologgatan 3, Örebro",
+                "business_hours": null,
+                "phone_number": "019-602 80 00"
+            },
             "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": "1352",
+            "internal_id": "1351",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
