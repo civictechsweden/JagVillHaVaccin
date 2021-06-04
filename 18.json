@@ -1,36 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-06-04 14:30:50.510121+02:00",
+    "last_updated": "2021-06-04 16:15:49.100784+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "18",
-            "nom": "Vaccinationsmottagningen Covid 19 Hallsberg",
-            "url": "https://www.1177.se/Orebrolan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccination-mot-covid-19-region-orebro-lan/",
-            "location": {
-                "longitude": 15.098423102618073,
-                "latitude": 59.06695698446932,
-                "city": "Hallsberg",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Esplanaden 1, Hallsberg",
-                "business_hours": null,
-                "phone_number": "019-602 80 00"
-            },
-            "prochain_rdv": "2021-06-04 15:50:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 3,
-            "internal_id": "1350",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "18",
             "nom": "Vaccinationsmottagningen Covid 19 Lindesberg",
@@ -46,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": "019-602 80 00"
             },
-            "prochain_rdv": "2021-06-07 09:20:00",
+            "prochain_rdv": "2021-06-07 09:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 56,
+            "appointment_count": 52,
             "internal_id": "1348",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -61,6 +33,34 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "18",
+            "nom": "Vaccinationsmottagningen Covid 19 Hallsberg",
+            "url": "https://www.1177.se/Orebrolan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccination-mot-covid-19-region-orebro-lan/",
+            "location": {
+                "longitude": 15.098423102618073,
+                "latitude": 59.06695698446932,
+                "city": "Hallsberg",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Esplanaden 1, Hallsberg",
+                "business_hours": null,
+                "phone_number": "019-602 80 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1350",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "18",
             "nom": "Vaccinationsmottagningen Covid 19 Karlskoga",
