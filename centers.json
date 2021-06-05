@@ -529,29 +529,6 @@
         "appointment_by_phone_only": true
     },
     {
-        "name": "Barnavårdscentralen Adina Hälsans Vårdcentral Nol, Nol",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Barnavardscentralen-Adina-Halsans-Vardcentral-Nol-Nol/",
-        "platform_url": "https://patient.nu/portal/public/calendar/77cc98db-b7a0-11eb-91e2-fa163e329242",
-        "location": {
-            "longitude": 12.066285398600257,
-            "latitude": 57.916954178055235,
-            "city": "Ale",
-            "cp": "44942"
-        },
-        "metadata": {
-            "address": "Noltorget 12, 449 42, Nol",
-            "business_hours": null,
-            "phone_number": "031-383 04 22"
-        },
-        "platform": null,
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-F000000001310",
-        "platform_id": null,
-        "vaccine_type": null,
-        "appointment_by_phone_only": true
-    },
-    {
         "name": "Berga Läkarhus, Helsingborg",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Berga-Lakarhus-Helsingborg/",
@@ -1587,10 +1564,10 @@
         "appointment_by_phone_only": true
     },
     {
-        "name": "Bräcke Diakoni Vårdcentralen Centrum, Alingsås (18+ LSS/assistans/vårdnära)",
+        "name": "Bräcke Diakoni Vårdcentralen Centrum, Alingsås",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bracke-Diakoni-Vardcentralen-Centrum-Alingsas/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/1509",
+        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000007983&hsaid=SE2321000131-E000000007506&dynamicid=8935ceca-b050-4ac7-8666-3e178c88a6d4",
         "location": {
             "longitude": 12.530026332606003,
             "latitude": 57.93058005544264,
@@ -1602,33 +1579,33 @@
             "business_hours": null,
             "phone_number": "0322-28 01 50"
         },
-        "platform": "MittVaccin",
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000007506",
-        "platform_id": "1509",
+        "platform_id": null,
         "vaccine_type": null,
-        "appointment_by_phone_only": false
+        "appointment_by_phone_only": true
     },
     {
-        "name": "Bräcke Diakoni Vårdcentralen Centrum, Alingsås (åldersgrupp eller riksgrupp)",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bracke-Diakoni-Vardcentralen-Centrum-Alingsas/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/1224",
+        "name": "Bräcke Diakoni vårdcentralen Nyhälsan Nässjö (18+ LSS/assistans/vårdnära)",
+        "region": "06",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bracke-Diakoni-vardcentralen-Nyhalsan-Nassjo/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/1509",
         "location": {
-            "longitude": 12.530026332606003,
-            "latitude": 57.93058005544264,
-            "city": "Alingsås",
-            "cp": "44130"
+            "longitude": 14.706270565158187,
+            "latitude": 57.64878432193302,
+            "city": "Nässjö",
+            "cp": "00000"
         },
         "metadata": {
-            "address": "Kungsgatan 5, 441 30, Alingsås",
+            "address": "Nyhemsgatan 6, Nässjö",
             "business_hours": null,
-            "phone_number": "0322-28 01 50"
+            "phone_number": "010-243 39 00"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000007506",
-        "platform_id": "1224",
+        "1177_id": "SE2321000057-5SRR",
+        "platform_id": "1509",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
@@ -1652,6 +1629,29 @@
         "type": "vaccination-center",
         "1177_id": "SE2321000057-5SRR",
         "platform_id": "1510",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Bräcke Diakoni vårdcentralen Nyhälsan Nässjö (åldersgrupp eller riksgrupp)",
+        "region": "06",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bracke-Diakoni-vardcentralen-Nyhalsan-Nassjo/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/1224",
+        "location": {
+            "longitude": 14.706270565158187,
+            "latitude": 57.64878432193302,
+            "city": "Nässjö",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Nyhemsgatan 6, Nässjö",
+            "business_hours": null,
+            "phone_number": "010-243 39 00"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000057-5SRR",
+        "platform_id": "1224",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
@@ -2162,6 +2162,52 @@
         "appointment_by_phone_only": true
     },
     {
+        "name": "Capio Vårdcentral Wasa, Södertälje (18+ LSS/assistans/vårdnära)",
+        "region": "01",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Capio-Vardcentral-Wasa-Sodertalje/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/1518",
+        "location": {
+            "longitude": 17.584178812426718,
+            "latitude": 59.19558655879203,
+            "city": "Södertälje",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Prästgårdsvägen 4, SÖDERTÄLJE",
+            "business_hours": null,
+            "phone_number": "08-550 288 00"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000016-11G5",
+        "platform_id": "1518",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Capio Vårdcentral Wasa, Södertälje (åldersgrupp eller riksgrupp)",
+        "region": "01",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Capio-Vardcentral-Wasa-Sodertalje/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/1256",
+        "location": {
+            "longitude": 17.584178812426718,
+            "latitude": 59.19558655879203,
+            "city": "Södertälje",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Prästgårdsvägen 4, SÖDERTÄLJE",
+            "business_hours": null,
+            "phone_number": "08-550 288 00"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000016-11G5",
+        "platform_id": "1256",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
         "name": "Capio hälsocentral Dragonen",
         "region": "24",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Capio-halsocentral-Dragonen/",
@@ -2644,7 +2690,7 @@
         "name": "Doktor se Adina Hälsans vårdcentral Nol, Nol",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Doktor-se-Adina-Halsans-vardcentral-Nol-Nol/",
-        "platform_url": null,
+        "platform_url": "https://patient.nu/portal/public/calendar/77cc98db-b7a0-11eb-91e2-fa163e329242",
         "location": {
             "longitude": 12.066285398600257,
             "latitude": 57.916954178055235,
@@ -3172,7 +3218,7 @@
         "name": "Hallstavik Sporthall - vaccination covid - Prosalus",
         "region": "01",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Hallstavik-Sporthall-vaccination-covid-Prosalus/",
-        "platform_url": null,
+        "platform_url": "https://www.1177.se/stockholm/boka-vaccin-covid-19",
         "location": {
             "longitude": 18.597218722489295,
             "latitude": 60.05412258739656,
@@ -3575,6 +3621,52 @@
         "platform": null,
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O21821",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Hälsomedicinskt Center i Lomma",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Halsomedicinskt-Center-i-Lomma/",
+        "platform_url": "https://se.visibacare.com/hmconline/vaccination/booking?rfv=3933&l=239<=physical&lock=true&dom=-",
+        "location": {
+            "longitude": 13.061973404891575,
+            "latitude": 55.67726189415099,
+            "city": "Lomma",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Esplanaden 15, Lomma",
+            "business_hours": null,
+            "phone_number": "040-41 80 00"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O19863",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Hälsomedicinskt Center i Staffanstorp",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Halsomedicinskt-Center-i-Staffanstorp/",
+        "platform_url": "https://se.visibacare.com/hmconline/vaccination/booking?rfv=3933&l=240<=physical&lock=true&dom=-",
+        "location": {
+            "longitude": 13.21310185718876,
+            "latitude": 55.64096969227716,
+            "city": "Staffanstorp",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Malmövägen 2, Staffanstorp",
+            "business_hours": null,
+            "phone_number": "040-41 80 00"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O24528",
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
@@ -8583,7 +8675,7 @@
         "name": "Närhälsan Tibro vårdcentral, Tibro",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tibro-vardcentral-Tibro/",
-        "platform_url": "https://arende.1177.se/form?hsaid=SE2321000131-E000000000464&dynamicid=KONT-8F7HK7",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000464&hsaid=SE2321000131-E000000000464&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 14.164658893358924,
             "latitude": 58.42518700110039,
@@ -12199,7 +12291,7 @@
         "name": "Vaccinationsmottagning Covid 19 Skövde, Skövde",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsmottagning-Covid-19-Skovde-Skovde/",
-        "platform_url": null,
+        "platform_url": "https://arende.1177.se/form?hsaid=SE2321000131-E000000016103&dynamicid=364e156a-1406-432a-92cb-1848ba89bff0",
         "location": {
             "longitude": 13.848292491093101,
             "latitude": 58.42622183070812,
@@ -12211,7 +12303,7 @@
             "business_hours": null,
             "phone_number": "0500-49 33 93"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000016103",
         "platform_id": null,
@@ -12806,8 +12898,7 @@
         },
         "metadata": {
             "address": "Storgatan 42, Bromölla",
-            "business_hours": null,
-            "phone_number": "070-768 74 68"
+            "business_hours": null
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
@@ -12829,8 +12920,7 @@
         },
         "metadata": {
             "address": "Norregatan 6, Eslöv",
-            "business_hours": null,
-            "phone_number": "070-768 74 68"
+            "business_hours": null
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
@@ -12852,8 +12942,7 @@
         },
         "metadata": {
             "address": "Vramsvägen 9, Åstorp",
-            "business_hours": null,
-            "phone_number": "070-768 74 68"
+            "business_hours": null
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
@@ -12875,8 +12964,7 @@
         },
         "metadata": {
             "address": "Östra Parkgatan 2, Höganäs",
-            "business_hours": null,
-            "phone_number": "070-768 74 68"
+            "business_hours": null
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
@@ -12898,8 +12986,7 @@
         },
         "metadata": {
             "address": "Marknadsvägen 7, Löddeköpinge",
-            "business_hours": null,
-            "phone_number": "070-768 74 68"
+            "business_hours": null
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
@@ -12921,8 +13008,7 @@
         },
         "metadata": {
             "address": "Östergatan 21, Tomelilla",
-            "business_hours": null,
-            "phone_number": "070-768 74 68"
+            "business_hours": null
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
@@ -14236,52 +14322,6 @@
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
-    },
-    {
-        "name": "Wasa vårdcentral, Jönköping (18+ LSS/assistans/vårdnära)",
-        "region": "06",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Wasa-vardcentral-Jonkoping/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/1518",
-        "location": {
-            "longitude": 14.536940894451295,
-            "latitude": 58.381664894315385,
-            "city": "Jönköping",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Kungsängstorget 4, Kungsängen, Jönköping",
-            "business_hours": null,
-            "phone_number": "010-242 88 00"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000057-5SRN",
-        "platform_id": "1518",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Wasa vårdcentral, Jönköping (åldersgrupp eller riksgrupp)",
-        "region": "06",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Wasa-vardcentral-Jonkoping/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/1256",
-        "location": {
-            "longitude": 14.536940894451295,
-            "latitude": 58.381664894315385,
-            "city": "Jönköping",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Kungsängstorget 4, Kungsängen, Jönköping",
-            "business_hours": null,
-            "phone_number": "010-242 88 00"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000057-5SRN",
-        "platform_id": "1256",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
     },
     {
         "name": "Wetterhälsan, Jönköping",
