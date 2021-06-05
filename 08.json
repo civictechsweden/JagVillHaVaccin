@@ -1,8 +1,37 @@
 {
     "version": 1,
-    "last_updated": "2021-06-05 01:52:56.004210+02:00",
+    "last_updated": "2021-06-05 03:44:49.285584+02:00",
     "last_scrap": [],
-    "centres_disponibles": [],
+    "centres_disponibles": [
+        {
+            "departement": "08",
+            "nom": "Vaccinationscentral covid-19 Kalmar",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.35640759555987,
+                "latitude": 56.66417229353723,
+                "city": "Kalmar",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tullslätten 4, Kalmar",
+                "business_hours": null,
+                "phone_number": "0480-844 44"
+            },
+            "prochain_rdv": "2021-06-09 15:06:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 8,
+            "internal_id": "1546",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        }
+    ],
     "centres_indisponibles": [
         {
             "departement": "08",
@@ -696,34 +725,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2056",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Vaccinationscentral covid-19 Kalmar",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.35640759555987,
-                "latitude": 56.66417229353723,
-                "city": "Kalmar",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tullslätten 4, Kalmar",
-                "business_hours": null,
-                "phone_number": "0480-844 44"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1546",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
