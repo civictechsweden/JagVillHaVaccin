@@ -1,28 +1,28 @@
 {
     "version": 1,
-    "last_updated": "2021-06-06 13:55:58.768992+02:00",
+    "last_updated": "2021-06-06 15:07:04.275422+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "07",
-            "nom": "Aktivitetshuset",
+            "nom": "Garvaren",
             "url": "https://www.1177.se/Kronoberg/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-kronoberg/",
             "location": {
-                "longitude": 14.1297382,
-                "latitude": 56.5491377,
-                "city": "Älmhult",
-                "cp": "34336"
+                "longitude": 13.9309756,
+                "latitude": 56.83242,
+                "city": "Ljungby",
+                "cp": "34160"
             },
             "metadata": {
-                "address": "Ikeagatan 8, 343 36 Älmhult",
+                "address": "Stationsgatan 2, 341 60 Ljungby",
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-11 15:35:00",
+            "prochain_rdv": "2021-06-11 10:20:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 3,
-            "internal_id": 29997,
+            "appointment_count": 1,
+            "internal_id": 30000,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -49,7 +49,7 @@
             "prochain_rdv": "2021-06-16 09:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 22,
+            "appointment_count": 20,
             "internal_id": "1556",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -130,7 +130,7 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-07 11:32:00",
+            "prochain_rdv": "2021-06-07 16:08:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 1617,
@@ -145,6 +145,34 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "07",
+            "nom": "Aktivitetshuset",
+            "url": "https://www.1177.se/Kronoberg/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-kronoberg/",
+            "location": {
+                "longitude": 14.1297382,
+                "latitude": 56.5491377,
+                "city": "Älmhult",
+                "cp": "34336"
+            },
+            "metadata": {
+                "address": "Ikeagatan 8, 343 36 Älmhult",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": 29997,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "07",
             "nom": "Folkets Hus",
@@ -165,34 +193,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": 29999,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "07",
-            "nom": "Garvaren",
-            "url": "https://www.1177.se/Kronoberg/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-kronoberg/",
-            "location": {
-                "longitude": 13.9309756,
-                "latitude": 56.83242,
-                "city": "Ljungby",
-                "cp": "34160"
-            },
-            "metadata": {
-                "address": "Stationsgatan 2, 341 60 Ljungby",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 30000,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
