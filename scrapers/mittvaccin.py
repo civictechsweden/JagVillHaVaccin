@@ -5,6 +5,8 @@ from time import mktime
 from service.downloader import Downloader
 
 BASE_URL = 'https://booking-api.mittvaccin.se/clinique/'
+DATE_STRUCT = "%y%m%d"
+
 NO_SLOTS = {'next': None, 'amount_of_slots': 0}
 
 
@@ -13,9 +15,12 @@ def get_appointment_types(id):
 
 
 def get_slots(id, appointment_type_id, start_date, end_date):
+    start = start_date.strftime(DATE_STRUCT)
+    end = end_date.strftime(DATE_STRUCT)
+
     url = '{}{}/appointments/{}/slots/{}-{}'.format(BASE_URL, id,
-                                                    appointment_type_id,
-                                                    start_date, end_date)
+                                                    appointment_type_id, start,
+                                                    end)
     return Downloader.get_json(url)
 
 
@@ -69,3 +74,28 @@ def get_id_from_url(url):
 def date_from(slotDate, slotTime):
     struct = time.strptime('{}{}'.format(slotDate, slotTime), "%y%m%d%H:%M")
     return datetime.fromtimestamp(mktime(struct))
+
+
+def get_info(id):
+    url = BASE_URL + str(id)
+    json = Downloader.get_json(url)
+    if len(json) == 0:
+        print("Id not used: {}".format(id))
+    else:
+        json = json[0]
+        name = json['name']
+        style = json['style']
+        print("{} - {}".format(name, style))
+        if style != 0:
+            types = get_appointment_types(id)
+            covid_vaccine_types = [
+                type['name'] for type in types
+                if "covid" in type['name'].lower()
+                and "vaccin" in type['name'].lower()
+            ]
+            return {
+                "id": id,
+                "name": name,
+                "style": style,
+                "covid_types": covid_vaccine_types
+            }

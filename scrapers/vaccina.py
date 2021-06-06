@@ -5,6 +5,7 @@ from time import mktime
 from service.downloader import Downloader
 
 BASE_URL = 'https://apibk.cliento.com/api/v2/partner/cliento/'
+DATE_STRUCT = "%Y-%m-%d"
 
 REGION_CODES = {
     '04': '6YoV801j3oiq2bf5pSb92o',
@@ -16,8 +17,11 @@ REGION_CODES = {
 
 
 def get_slots(region_id, center_id, start_date, end_date):
+    start = start_date.strftime(DATE_STRUCT)
+    end = end_date.strftime(DATE_STRUCT)
+
     url = '{}{}/resources/slots?srvIds={}&fromDate={}&toDate={}'.format(
-        BASE_URL, region_id, center_id, start_date, end_date)
+        BASE_URL, region_id, center_id, start, end)
     return Downloader.get_json(url)['resourceSlots']
 
 

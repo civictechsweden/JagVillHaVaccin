@@ -5,15 +5,17 @@ from datetime import datetime
 
 import scrapers.vaccina as vaccina
 import scrapers.mittvaccin as mittvaccin
+import scrapers.patient_nu as patient_nu
 import scrapers.vgr as vgr
+import scrapers.macc as macc
+import scrapers.skane as skane
 from service.writer import Writer
+from service.dater import Dater
 
 
 class VMD(object):
     @staticmethod
     def convert(region_number):
-        now = str(datetime.now(pytz.timezone('Europe/Stockholm')))
-
         with open('centers.json') as json_file:
             centers = json.load(json_file)
 
@@ -32,7 +34,10 @@ class VMD(object):
         ]
 
         if (region_number == '14'):
-            centers_vgr = vgr.get_centers()
+            centers_vgr = vgr.get_centers_from_API()
+        elif (region_number == '12'):
+            centers_macc = macc.get_centers()
+            centers_1177_skane = skane.get_centers()
 
         for center in region_centers:
             print(center['name'])
@@ -40,7 +45,8 @@ class VMD(object):
             if center['platform'] == 'MittVaccin':
                 url = center['platform_url']
                 next_time_and_slots = mittvaccin.get_next_time_and_slots(
-                    center['platform_id'], '210517', '210630')
+                    center['platform_id'], Dater.today(), Dater.in_3_months())
+
                 prochain_rdv = next_time_and_slots['next']
                 appointment_count = next_time_and_slots['amount_of_slots']
             elif center['platform'] == 'Vaccina' and center['platform_id']:
@@ -49,12 +55,18 @@ class VMD(object):
                 region_vaccina_code = vaccina.REGION_CODES[center['region']]
 
                 next_time_and_slots = vaccina.get_next_time_and_slots(
-                    region_vaccina_code, center_id, '2021-05-17', '2021-06-30')
+                    region_vaccina_code, center_id, Dater.today(),
+                    Dater.in_3_months())
 
                 prochain_rdv = next_time_and_slots['next']
                 appointment_count = next_time_and_slots['amount_of_slots']
+            elif center['platform'] == 'Patient':
+                url = center['platform_url']
+                next_time_and_slots = patient_nu.get_next_time_and_slots(
+                    center['platform_id'], Dater.today(), Dater.in_3_months())
             else:
                 url = center['1177_url']
+
                 prochain_rdv = None
                 appointment_count = 0
 
@@ -65,6 +77,24 @@ class VMD(object):
                 if (center_vgr):
                     next_time_and_slots = vgr.get_next_time_and_slots(
                         center_vgr)
+                    prochain_rdv = next_time_and_slots['next']
+                    appointment_count = next_time_and_slots['amount_of_slots']
+            elif (region_number == '12'):
+                center_1177_skane = skane.get_center_from(
+                    centers_1177_skane, center['1177_id'])
+
+                if (center_1177_skane):
+                    next_time_and_slots = skane.get_next_time_and_slots(
+                        center_1177_skane)
+                    prochain_rdv = next_time_and_slots['next']
+                    appointment_count = next_time_and_slots['amount_of_slots']
+
+                center_macc = macc.get_center_from(centers_macc,
+                                                   center['1177_id'])
+
+                if (center_macc):
+                    next_time_and_slots = macc.get_next_time_and_slots(
+                        center_macc)
                     prochain_rdv = next_time_and_slots['next']
                     appointment_count = next_time_and_slots['amount_of_slots']
 
@@ -102,7 +132,7 @@ class VMD(object):
 
         vmd_data = {
             'version': 1,
-            'last_updated': now,
+            'last_updated': str(Dater.now()),
             'last_scrap': [],
             'centres_disponibles': centres_disponibles,
             'centres_indisponibles': centres_indisponibles

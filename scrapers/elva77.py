@@ -2,15 +2,14 @@ import json
 import re
 import urllib
 
-from time import mktime
-
 import scrapers.mittvaccin as mittvaccin
+import scrapers.patient_nu as patient_nu
 
 from service.downloader import Downloader
 
 BASE_URL = 'https://www.1177.se'
 ALL_COVID_CENTERS = '/hitta-vard/?caretype=Covid-19%20vaccination&batchsize='
-BATCH_SIZE = 500
+BATCH_SIZE = 1000
 
 
 def get_vaccination_centers():
@@ -26,8 +25,15 @@ def search_center(name):
                                           name})))['Units'][0]['FriendlyUrl']
 
 
-def get_center_url(center):
-    return center['Url']
+def get_id_from_url(platform_url):
+    platform = get_platform(platform_url)
+
+    if platform == 'MittVaccin':
+        return mittvaccin.get_id_from_url(platform_url)
+    elif platform == 'Patient':
+        return patient_nu.get_id_from_url(platform_url)
+
+    return None
 
 
 def get_center_info(center_url):
@@ -49,10 +55,6 @@ def get_center_info(center_url):
 
     platform_url = next(iter(covid_vaccination_services or []), None)
     platform = get_platform(platform_url)
-
-    platform_id = None
-    if platform == 'MittVaccin':
-        platform_id = mittvaccin.get_id_from_url(platform_url)
 
     center_info = {
         'name': card.get('DisplayName'),
@@ -76,7 +78,7 @@ def get_center_info(center_url):
         'platform': platform,
         'type': 'vaccination-center',
         '1177_id': card.get('HsaId'),
-        'platform_id': platform_id,
+        'platform_id': get_id_from_url(platform_url),
         'vaccine_type': None,
         'appointment_by_phone_only': not is_fetchable(platform),
     }
@@ -134,6 +136,8 @@ def get_platform(url):
         return 'MittVaccin'
     if 'https://www.vaccina.se/' in url:
         return 'Vaccina'
+    if 'https://patient.nu/' in url:
+        return 'Patient'
     if 'https://e-tjanster.1177.se/' in url: return '1177'
     if 'https://formular.1177.se/' in url: return '1177'
     if 'https://arende.1177.se/' in url: return '1177'
@@ -144,14 +148,22 @@ def get_platform(url):
 def is_fetchable(platform):
     if platform == 'MittVaccin': return True
     if platform == 'Vaccina': return True
+    if platform == 'Patient': return True
     return False
 
 
 def create_unlisted_center(center):
+    print('Writing unlisted center {}'.format(
+        center.get('vaccination_center'), ))
     platform_url = center['link']
     platform = get_platform(platform_url)
-    platform_id = mittvaccin.get_id_from_url(
-        platform_url) if platform == 'MittVaccin' else center.get('id')
+
+    platform_id = get_id_from_url(platform_url)
+    if not platform_id:
+        platform_id = center.get('id')
+
+    longitude = center.get('longitude') if center.get('longitude') else ''
+    latitude = center.get('latitude') if center.get('latitude') else ''
 
     return {
         'name':
@@ -164,8 +176,8 @@ def create_unlisted_center(center):
         'platform_url':
         platform_url,
         'location': {
-            'longitude': center['longitude'],
-            'latitude': center['latitude'],
+            'longitude': longitude,
+            'latitude': latitude,
             'city': center['municipality'],
             'cp': match_postcode(center['address'])
         },

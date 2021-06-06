@@ -29,13 +29,15 @@ class Scraper(object):
     def scrape_centers_from_manual_lists():
 
         regions = [
-            'blekinge', 'jonkoping', 'kalmar', 'kronoberg', 'orebro', 'skane',
-            'sodermanland', 'vasterbotten', 'vastragotaland'
+            'blekinge', 'dalarna', 'jonkoping', 'kalmar', 'kronoberg',
+            'orebro', 'skane', 'sodermanland', 'vasterbotten',
+            'vastragotaland', 'ostergotland'
         ]
 
         centers_json = []
 
         for region in regions:
+            print(region)
             with open('centers/' + region + '.json') as json_file:
                 region_centers = json.load(json_file)
 
@@ -46,7 +48,7 @@ class Scraper(object):
                     else:
                         url = elva77.search_center(
                             center['vaccination_center'] + ' ' +
-                            center['municipality'])
+                            str(center.get('municipality')))
 
                         if url:
                             center_info = dict(elva77.get_center_info(url))
@@ -55,10 +57,11 @@ class Scraper(object):
                                 platform = elva77.get_platform(center['link'])
                                 center_info['platform'] = platform
 
-                                if platform == 'MittVaccin':
-                                    center_info[
-                                        'platform_id'] = mittvaccin.get_id_from_url(
-                                            center['link'])
+                                platform_id = elva77.get_id_from_url(
+                                    center['link'])
+                                if platform_id:
+                                    center_info['platform_id'] = platform_id
+
                                 center_info[
                                     'appointment_by_phone_only'] = not elva77.is_fetchable(
                                         platform)
@@ -79,7 +82,7 @@ class Scraper(object):
         return centers_json
 
     def scrape_centers_from_vgr(already_fetched_urls):
-        centers = vgr.get_centers()
+        centers = vgr.get_centers_from_API()
 
         centers_json = []
 

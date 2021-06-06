@@ -1,6 +1,7 @@
 import html
 import time
 import json
+import brotli
 import urllib.request
 
 from bs4 import BeautifulSoup
@@ -19,10 +20,15 @@ class Downloader(object):
             for header_name in headers.keys():
                 request.add_header(header_name, headers[header_name])
         try:
-            return urllib.request.urlopen(request).read()
-        except urllib.error.HTTPError as err:
+            response = urllib.request.urlopen(request)
+
+            if response.getheader('Content-Encoding') == 'br':
+                return brotli.decompress(response.read())
+
+            return response.read()
+        except urllib.error.Error as err:
             print(f'ERROR {err.code}: Could not download {url}.')
-            if (err.code == 429):
+            if (err.code == 429 or err.code == 60):
                 print('Retrying in 3 seconds')
                 time.sleep(3)
                 return Downloader.get(url)
