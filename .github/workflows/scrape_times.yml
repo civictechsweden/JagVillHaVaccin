@@ -2,7 +2,7 @@ name: Scrape Times
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '0/30 * * * *'
+    - cron:  '0,15,30,45 * * * *'
 jobs:
   scrape:
     name: Scrape times

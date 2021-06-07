@@ -18,12 +18,16 @@ jobs:
         env:
           VGR_CLIENT_ID: ${{ secrets.VGR_CLIENT_ID }}
           VGR_CLIENT_SECRET: ${{ secrets.VGR_CLIENT_SECRET }}
-      - name: Set autostash
-        run: git config rebase.autoStash true
       - name: Commit the data
-        uses: EndBug/add-and-commit@v7
+        uses: nick-invision/retry@v2
         with:
-          author_name: Pierre Mesure (Github Actions)
-          author_email: pierre@mesu.re
-          message: 'Updating the centers'
-          add: 'centers.json'
+          timeout_seconds: 10
+          max_attempts: 5
+          command: |
+            git config --global user.name 'Pierre Mesure (Github Actions)'
+            git config --global user.email 'pierre@mesu.re'
+            git config --global rebase.autoStash true
+            git pull --rebase
+            git add centers.json
+            git commit -am "Updating the centers"
+            git push
