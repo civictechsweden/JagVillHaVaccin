@@ -50,13 +50,6 @@ def get_next_time_and_slots(region_id, center_id, start_date, end_date):
     return {'next': None, 'amount_of_slots': 0}
 
 
-def get_id_from_url(url):
-    id = url.replace('https://bokning.mittvaccin.se/klinik/', '')
-    id = id.replace('/bokning', '')
-    id = id.replace('/min-bokning', '')
-    return id
-
-
 def date_from(date_and_time):
     struct = time.strptime(date_and_time, "%Y-%m-%d %H:%M:%S")
     return datetime.fromtimestamp(mktime(struct))

@@ -138,6 +138,8 @@ def get_platform(url):
         return 'Vaccina'
     if 'https://patient.nu/' in url:
         return 'Patient'
+    if 'https://covidvaccinering.com/' in url:
+        return 'MACC'
     if 'https://e-tjanster.1177.se/' in url: return '1177'
     if 'https://formular.1177.se/' in url: return '1177'
     if 'https://arende.1177.se/' in url: return '1177'
@@ -149,6 +151,7 @@ def is_fetchable(platform):
     if platform == 'MittVaccin': return True
     if platform == 'Vaccina': return True
     if platform == 'Patient': return True
+    if platform == 'MACC': return True
     return False
 
 
