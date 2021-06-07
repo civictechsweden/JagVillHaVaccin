@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-07 00:57:35.168766+02:00",
+    "last_updated": "2021-06-07 09:51:00.875609+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-19 16:35:00",
+            "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 760,
+            "appointment_count": 408,
             "internal_id": 30007,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,11 +46,39 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-19 17:15:00",
+            "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 840,
+            "appointment_count": 408,
             "internal_id": 30009,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "HörselspecKlippan",
+            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 13.134275837900237,
+                "latitude": 56.134832049227946,
+                "city": "Klippan",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Norra Skolgatan 2A, Klippan",
+                "business_hours": null,
+                "phone_number": "0435-105 55"
+            },
+            "prochain_rdv": "2021-06-07 10:05:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 111,
+            "internal_id": "231",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -74,10 +102,10 @@
                 "business_hours": null,
                 "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": "2021-06-15 12:35:00",
+            "prochain_rdv": "2021-06-15 14:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 574,
+            "appointment_count": 844,
             "internal_id": "1535",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -101,10 +129,10 @@
                 "address": "Föreningsgatan 7, Höör",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-06-18 10:50:00",
+            "prochain_rdv": "2021-06-21 12:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 360,
+            "appointment_count": 432,
             "internal_id": "1538",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -129,13 +157,178 @@
                 "business_hours": null,
                 "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": "2021-06-24 11:45:00",
+            "prochain_rdv": "2021-06-28 10:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 162,
+            "appointment_count": 348,
             "internal_id": "1534",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Arlöv",
+            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 13.082744179056563,
+                "latitude": 55.64496367176086,
+                "city": "Burlöv",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Företagsvägen 29, Arlöv",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 1924,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Hässleholm",
+            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 13.77676231700418,
+                "latitude": 56.155208336309215,
+                "city": "Hässleholm",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Östra Hagagatan 2, Hässleholm",
+                "business_hours": null,
+                "phone_number": "010-330 04 43"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 1690,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Hörby",
+            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 13.685091759872158,
+                "latitude": 55.86245628529676,
+                "city": "Hörby",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Silvergatan 4, Hörby",
+                "business_hours": null,
+                "phone_number": "010-330 04 43"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 891,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Svalöv",
+            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 13.108292309388082,
+                "latitude": 55.912696847709256,
+                "city": "Svalöv",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Herrevadsgatan 10A, Svalöv",
+                "business_hours": null,
+                "phone_number": "010-330 04 43"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 572,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Ängelholm",
+            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 12.8446722534569,
+                "latitude": 56.28698187117767,
+                "city": "Ängelholm",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Stjernsvärds allé 51, Ängelholm",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 2111,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Östra Göinge",
+            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 14.076128091192832,
+                "latitude": 56.259109746567425,
+                "city": "Östra Göinge",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Pappersbruksvägen 4, Broby",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 182,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -157,13 +350,41 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-22 10:25:00",
+            "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 848,
+            "appointment_count": 408,
             "internal_id": 30008,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Sveakliniken, Svedala",
+            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 13.230728219381895,
+                "latitude": 55.51831588878077,
+                "city": "Svedala",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Toftavägen 25, Svedala",
+                "business_hours": null,
+                "phone_number": "040-618 80 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 21,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -185,10 +406,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-22 10:45:00",
+            "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 434,
+            "appointment_count": 408,
             "internal_id": 31153,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -200,23 +421,107 @@
         },
         {
             "departement": "12",
-            "nom": "Vaccinova Åhus",
+            "nom": "Vaccina Trelleborg",
             "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
             "location": {
-                "longitude": 14.293642027570382,
-                "latitude": 55.922462664842925,
-                "city": "Kristianstad",
+                "longitude": 13.159206589534788,
+                "latitude": 55.3736866923838,
+                "city": "Trelleborg",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Companiegatan 2A, Åhus",
+                "address": "Algatan 4, Trelleborg",
+                "business_hours": null,
+                "phone_number": "010-750 09 45"
+            },
+            "prochain_rdv": "2021-06-23 13:25:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 90,
+            "internal_id": 30010,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccinova Eslöv",
+            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 13.303797540331132,
+                "latitude": 55.84018749196131,
+                "city": "Eslöv",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Norregatan 6, Eslöv",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-06-12 12:25:00",
+            "prochain_rdv": "2021-06-10 11:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 17,
-            "internal_id": "2024",
+            "appointment_count": 2,
+            "internal_id": "2022",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Victoria Vård och Hälsa Kalkbrottet, Limhamn",
+            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 12.933095433276113,
+                "latitude": 55.572796864685756,
+                "city": "Malmö",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Lilla Högestensgatan 2, Limhamn",
+                "business_hours": null,
+                "phone_number": "040-602 80 30"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1515,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vårdcentralen Solbrinken",
+            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 13.786863823799646,
+                "latitude": 56.1666836782912,
+                "city": "Hässleholm",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Norra Kringelvägen 44, Hässleholm",
+                "business_hours": null,
+                "phone_number": "0451-29 82 00"
+            },
+            "prochain_rdv": "2021-06-23 09:50:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 88,
+            "internal_id": "786",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -239,10 +544,10 @@
                 "address": "Derbyvägen 6E, Malmö",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-06-10 09:50:00",
+            "prochain_rdv": "2021-06-10 10:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 206,
+            "appointment_count": 197,
             "internal_id": "2072",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -267,10 +572,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-20 13:20:00",
+            "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 438,
+            "appointment_count": 408,
             "internal_id": 30011,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -589,25 +894,26 @@
         },
         {
             "departement": "12",
-            "nom": "MACC Arlöv",
+            "nom": "Kävlinge Tandvård, Kävlinge",
             "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
             "location": {
-                "longitude": 13.082744179056563,
-                "latitude": 55.64496367176086,
-                "city": "Burlöv",
+                "longitude": 13.1089287825756,
+                "latitude": 55.79037731336482,
+                "city": "Kävlinge",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Företagsvägen 29, Arlöv",
-                "business_hours": null
+                "address": "Unionsgatan 7, Kävlinge",
+                "business_hours": null,
+                "phone_number": "046-73 54 50"
             },
             "prochain_rdv": null,
-            "plateforme": null,
+            "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": null,
+            "internal_id": "2048",
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -616,54 +922,26 @@
         },
         {
             "departement": "12",
-            "nom": "MACC Hässleholm",
+            "nom": "Landskronatandläkarna Smile, Landskrona",
             "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
             "location": {
-                "longitude": 13.77676231700418,
-                "latitude": 56.155208336309215,
-                "city": "Hässleholm",
+                "longitude": 12.83191180399946,
+                "latitude": 55.87431074285744,
+                "city": "Landskrona",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Östra Hagagatan 2, Hässleholm",
+                "address": "Säbygatan 16, Landskrona",
                 "business_hours": null,
-                "phone_number": "010-330 04 43"
+                "phone_number": "0418-279 00"
             },
             "prochain_rdv": null,
-            "plateforme": null,
+            "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": null,
+            "internal_id": "2047",
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "MACC Hörby",
-            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
-            "location": {
-                "longitude": 13.685091759872158,
-                "latitude": 55.86245628529676,
-                "city": "Hörby",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Silvergatan 4, Hörby",
-                "business_hours": null,
-                "phone_number": "010-330 04 43"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -755,88 +1033,6 @@
         },
         {
             "departement": "12",
-            "nom": "MACC Svalöv",
-            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
-            "location": {
-                "longitude": 13.108292309388082,
-                "latitude": 55.912696847709256,
-                "city": "Svalöv",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Herrevadsgatan 10A, Svalöv",
-                "business_hours": null,
-                "phone_number": "010-330 04 43"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "MACC Ängelholm",
-            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
-            "location": {
-                "longitude": 12.8446722534569,
-                "latitude": 56.28698187117767,
-                "city": "Ängelholm",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Stjernsvärds allé 51, Ängelholm",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "MACC Östra Göinge",
-            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
-            "location": {
-                "longitude": 14.076128091192832,
-                "latitude": 56.259109746567425,
-                "city": "Östra Göinge",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Pappersbruksvägen 4, Broby",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Min Doktor STADIONMÄSSAN",
             "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
             "location": {
@@ -884,6 +1080,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Psykoterapimottagning Helena Tuononen-Dressel, Malmö",
+            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 12.990484141981883,
+                "latitude": 55.57247605153178,
+                "city": "Malmö",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Justinsgatan 31, Malmö",
+                "business_hours": null,
+                "phone_number": "073-399 66 07"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "806",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -1002,26 +1226,25 @@
         },
         {
             "departement": "12",
-            "nom": "Sveakliniken, Svedala",
+            "nom": "Trelleborgs tandvården AB, Trelleborg",
             "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
             "location": {
-                "longitude": 13.230728219381895,
-                "latitude": 55.51831588878077,
-                "city": "Svedala",
+                "longitude": 13.15760395643071,
+                "latitude": 55.374056314497146,
+                "city": "Trelleborg",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Toftavägen 25, Svedala",
-                "business_hours": null,
-                "phone_number": "040-618 80 00"
+                "address": "Algatan 24, Trelleborg",
+                "business_hours": null
             },
             "prochain_rdv": null,
-            "plateforme": "1177",
+            "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": null,
+            "internal_id": "230",
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -1195,34 +1418,6 @@
         },
         {
             "departement": "12",
-            "nom": "Vaccina Trelleborg",
-            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
-            "location": {
-                "longitude": 13.159206589534788,
-                "latitude": 55.3736866923838,
-                "city": "Trelleborg",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Algatan 4, Trelleborg",
-                "business_hours": null,
-                "phone_number": "010-750 09 45"
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Vaccina Ystad",
             "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
             "location": {
@@ -1240,7 +1435,7 @@
             "plateforme": "Vaccina",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": null,
+            "internal_id": 30015,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -1296,33 +1491,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2025",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Vaccinova Eslöv",
-            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
-            "location": {
-                "longitude": 13.303797540331132,
-                "latitude": 55.84018749196131,
-                "city": "Eslöv",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Norregatan 6, Eslöv",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2022",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -1441,26 +1609,53 @@
         },
         {
             "departement": "12",
-            "nom": "Victoria Vård och Hälsa Kalkbrottet, Limhamn",
+            "nom": "Vaccinova Åhus",
             "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
             "location": {
-                "longitude": 12.933095433276113,
-                "latitude": 55.572796864685756,
-                "city": "Malmö",
+                "longitude": 14.293642027570382,
+                "latitude": 55.922462664842925,
+                "city": "Kristianstad",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Lilla Högestensgatan 2, Limhamn",
-                "business_hours": null,
-                "phone_number": "040-602 80 30"
+                "address": "Companiegatan 2A, Åhus",
+                "business_hours": null
             },
             "prochain_rdv": null,
-            "plateforme": "1177",
+            "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": null,
+            "internal_id": "2024",
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vårdcentralen Rydebäck",
+            "url": "https://www.1177.se/Skane/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 12.775000580598281,
+                "latitude": 55.966008313293464,
+                "city": "Helsingborg",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Frösögatan 19, Rydebäck",
+                "business_hours": null,
+                "phone_number": "042-406 05 50"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "780",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
