@@ -1,37 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-06-07 06:36:54.865969+02:00",
+    "last_updated": "2021-06-07 09:01:44.525770+02:00",
     "last_scrap": [],
-    "centres_disponibles": [],
-    "centres_indisponibles": [
-        {
-            "departement": "08",
-            "nom": "Ankarsrums hälsocentral",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.333555295363333,
-                "latitude": 57.699563322789174,
-                "city": "Västervik",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kungsvägen 40, Ankarsrum",
-                "business_hours": null,
-                "phone_number": "0490-504 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "520",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
+    "centres_disponibles": [
         {
             "departement": "08",
             "nom": "Astrakanen Emmaboda läkarcentrum",
@@ -47,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": "0471-79 91 11"
             },
-            "prochain_rdv": null,
+            "prochain_rdv": "2021-06-10 08:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 0,
+            "appointment_count": 206,
             "internal_id": "528",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -75,11 +46,69 @@
                 "business_hours": null,
                 "phone_number": "0481-696 96"
             },
+            "prochain_rdv": "2021-06-09 10:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 7,
+            "internal_id": "526",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Hultsfreds hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 15.842211833484315,
+                "latitude": 57.48814139634313,
+                "city": "Hultsfred",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Västra Långgatan 46, Hultsfred",
+                "business_hours": null,
+                "phone_number": "0495-155 02"
+            },
+            "prochain_rdv": "2021-06-08 10:25:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 7,
+            "internal_id": "505",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        }
+    ],
+    "centres_indisponibles": [
+        {
+            "departement": "08",
+            "nom": "Ankarsrums hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.333555295363333,
+                "latitude": 57.699563322789174,
+                "city": "Västervik",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Kungsvägen 40, Ankarsrum",
+                "business_hours": null,
+                "phone_number": "0490-504 00"
+            },
             "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": "526",
+            "internal_id": "520",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -304,34 +333,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "495",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Hultsfreds hälsocentral",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 15.842211833484315,
-                "latitude": 57.48814139634313,
-                "city": "Hultsfred",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Västra Långgatan 46, Hultsfred",
-                "business_hours": null,
-                "phone_number": "0495-155 02"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "505",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
