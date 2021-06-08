@@ -1,28 +1,28 @@
 {
     "version": 1,
-    "last_updated": "2021-06-08 16:33:58.319964+02:00",
+    "last_updated": "2021-06-08 17:02:02.728730+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "14",
-            "nom": "Närhälsan Tjörn vårdcentral, Kållekärr",
+            "nom": "Kronans Apotek Överby Köpcenter",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 11.657691156758297,
-                "latitude": 58.0259042685755,
-                "city": "Tjörn",
-                "cp": "47194"
+                "longitude": 12.302888643822998,
+                "latitude": 58.31412476754702,
+                "city": "Trollhättan",
+                "cp": "46170"
             },
             "metadata": {
-                "address": "Syster Ebbas väg 1, 471 94, Kållekärr",
+                "address": "Överby Köpcentrum, 461 70, Trollhättan",
                 "business_hours": null,
-                "phone_number": "010-473 46 00"
+                "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": null,
-            "plateforme": "1177",
+            "prochain_rdv": "2021-06-14 10:55:00",
+            "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2,
-            "internal_id": null,
+            "appointment_count": 1,
+            "internal_id": "2093",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -49,8 +49,36 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 130,
+            "appointment_count": 128,
             "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Skövde, Kungsgatan 22",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.8454331,
+                "latitude": 58.3881931,
+                "city": "Skövde",
+                "cp": "54131"
+            },
+            "metadata": {
+                "address": "Kungsgatan 22, 54131 Skövde",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-06-09 14:30:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": 30633,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -2767,34 +2795,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2092",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek Överby Köpcenter",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.302888643822998,
-                "latitude": 58.31412476754702,
-                "city": "Trollhättan",
-                "cp": "46170"
-            },
-            "metadata": {
-                "address": "Överby Köpcentrum, 461 70, Trollhättan",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2093",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -6697,6 +6697,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Tjörn vårdcentral, Kållekärr",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.657691156758297,
+                "latitude": 58.0259042685755,
+                "city": "Tjörn",
+                "cp": "47194"
+            },
+            "metadata": {
+                "address": "Syster Ebbas väg 1, 471 94, Kållekärr",
+                "business_hours": null,
+                "phone_number": "010-473 46 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Torpavallen vårdcentral, Göteborg",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7836,34 +7864,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Skövde, Kungsgatan 22",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.8454331,
-                "latitude": 58.3881931,
-                "city": "Skövde",
-                "cp": "54131"
-            },
-            "metadata": {
-                "address": "Kungsgatan 22, 54131 Skövde",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 30633,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
