@@ -1,5 +1,6 @@
 import json
 import pandas as pd
+from service.writer import Writer
 
 with open('regions.json') as regions_json:
     regions = json.load(regions_json)
@@ -47,5 +48,4 @@ output['tout_departement'] = {
     'creneaux': int(dose_count),
 }
 
-with open('stats.json', 'w') as output_file:
-    json.dump(output, output_file)
+Writer.write_json(output, 'data/output/stats.json')

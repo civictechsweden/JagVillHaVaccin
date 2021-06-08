@@ -58,10 +58,10 @@ jobs:
           timeout_seconds: 10
           max_attempts: 5
           command: |
-            git config --global user.name 'Pierre Mesure (Github Actions)'
-            git config --global user.email 'pierre@mesu.re'
+            git config --global user.name 'Ana Bulas Cruz (Github Actions)'
+            git config --global user.email 'anabulascruz@gmail.com'
             git config --global rebase.autoStash true
             git pull --rebase
-            git add stats.json
+            git add data/output/stats.json
             git commit -am "Updating the stats"
             git push
