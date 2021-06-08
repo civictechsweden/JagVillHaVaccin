@@ -1,8 +1,93 @@
 {
     "version": 1,
-    "last_updated": "2021-06-08 09:12:43.349776+02:00",
+    "last_updated": "2021-06-08 10:14:00.252641+02:00",
     "last_scrap": [],
-    "centres_disponibles": [],
+    "centres_disponibles": [
+        {
+            "departement": "14",
+            "nom": "Närhälsan Mariestad vårdcentral, Mariestad",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.795835210967395,
+                "latitude": 58.705113794460196,
+                "city": "Mariestad",
+                "cp": "54245"
+            },
+            "metadata": {
+                "address": "Lockerudsvägen 12, 542 45, Mariestad",
+                "business_hours": null,
+                "phone_number": "0501-627 50"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Vara vårdcentral, Vara",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.965439010152812,
+                "latitude": 58.264280183788806,
+                "city": "Vara",
+                "cp": "53432"
+            },
+            "metadata": {
+                "address": "Allégatan 46, 534 32, Vara",
+                "business_hours": null,
+                "phone_number": "0512-78 60 32"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Vara Konserthus",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        }
+    ],
     "centres_indisponibles": [
         {
             "departement": "14",
@@ -5576,34 +5661,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Mariestad vårdcentral, Mariestad",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.795835210967395,
-                "latitude": 58.705113794460196,
-                "city": "Mariestad",
-                "cp": "54245"
-            },
-            "metadata": {
-                "address": "Lockerudsvägen 12, 542 45, Mariestad",
-                "business_hours": null,
-                "phone_number": "0501-627 50"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Masthugget vårdcentral, Göteborg",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6876,34 +6933,6 @@
                 "address": "Nygatan 7, 523 34, Ulricehamn",
                 "business_hours": null,
                 "phone_number": "0321-291 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Vara vårdcentral, Vara",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.965439010152812,
-                "latitude": 58.264280183788806,
-                "city": "Vara",
-                "cp": "53432"
-            },
-            "metadata": {
-                "address": "Allégatan 46, 534 32, Vara",
-                "business_hours": null,
-                "phone_number": "0512-78 60 32"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -8555,34 +8584,6 @@
                 "address": "Lövängsvägen 1, 541 42, Skövde",
                 "business_hours": null,
                 "phone_number": "0500-49 33 93"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Vara Konserthus",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
             },
             "prochain_rdv": null,
             "plateforme": "1177",
