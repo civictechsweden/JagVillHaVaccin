@@ -47,5 +47,5 @@ output['tout_departement'] = {
     'creneaux': int(dose_count),
 }
 
-with open('data/output/stats.json', 'w') as output_file:
+with open('stats.json', 'w') as output_file:
     json.dump(output, output_file)
