@@ -72,7 +72,7 @@
         "name": "Alingsås Nolhalla",
         "region": "14",
         "1177_url": null,
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?hsaid=SE2321000131-E000000007983&dynamicid=bb0225fc-7c37-47c1-8558-ddb991501c2c",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000007983",
         "location": {
             "longitude": "",
             "latitude": "",
@@ -141,7 +141,7 @@
         "name": "Allékliniken Sleipner Vårdcentral, Borås",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Allekliniken-Sleipner-Vardcentral-Boras/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000005877&hsaid=SE2321000131-E000000007503&dynamicid=7532d3c1-4f22-4e26-96b1-adc764932045",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000007503&hsaid=SE2321000131-E000000007503&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.942436053741043,
             "latitude": 57.7209751478739,
@@ -483,29 +483,6 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "BVC- Vårdcentralen Carlanderska, Centrum",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/BVC-Vardcentralen-Carlanderska-Centrum/",
-        "platform_url": "https://patient.nu/portal/public/calendar/9926e9dd-a824-11eb-a8eb-fa163e329242",
-        "location": {
-            "longitude": 11.988959604251807,
-            "latitude": 57.69264660443165,
-            "city": "Göteborg",
-            "cp": "40545"
-        },
-        "metadata": {
-            "address": "Carlandersparken 20, 405 45, Göteborg",
-            "business_hours": null,
-            "phone_number": "031-81 80 01"
-        },
-        "platform": "Patient",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-F000000000619",
-        "platform_id": "9926e9dd-a824-11eb-a8eb-fa163e329242",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
         "name": "Backaplan Vårdcentral och BVC",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Backaplan-Vardcentral-och-BVC/",
@@ -575,94 +552,71 @@
         "appointment_by_phone_only": true
     },
     {
-        "name": "Barnavårdscentralen, Capio Vårdcentral Vasastaden",
+        "name": "Barnavårdscentralen, Helsa Vårdcentral Östertull",
         "region": "05",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Barnavardscentralen-Capio-Vardcentral-Vasastaden/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/765",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Barnavardscentralen-Helsa-Vardcentral-Ostertull/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/768",
         "location": {
-            "longitude": 15.609051587827588,
-            "latitude": 58.41954779749085,
-            "city": "Linköping",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Nordengatan 49, Linköping",
-            "business_hours": null,
-            "phone_number": "010-105 96 01"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000040-7PHR",
-        "platform_id": "765",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Barnavårdscentralen, Johannelunds Vårdcentral AB",
-        "region": "05",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Barnavardscentralen-Johannelunds-Vardcentral-AB/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/764",
-        "location": {
-            "longitude": 15.662999601233167,
-            "latitude": 58.39546904161457,
-            "city": "Linköping",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Skogslyckegatan 5 B, Linköping",
-            "business_hours": null,
-            "phone_number": "010-105 94 40"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000040-5BH8",
-        "platform_id": "764",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Barnavårdscentralen, Vårdcentralen Cityhälsan Söder",
-        "region": "05",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Barnavardscentralen-Vardcentralen-Cityhalsan-Soder/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/798",
-        "location": {
-            "longitude": 16.203069645521975,
-            "latitude": 58.57508379286415,
+            "longitude": 16.20340478782557,
+            "latitude": 58.58798369531184,
             "city": "Norrköping",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Plåtslagaregatan 10, Norrköping",
+            "address": "Helsa VC Östertull, Vikboplan 7, Norrköping",
             "business_hours": null,
-            "phone_number": "010-105 92 20"
+            "phone_number": "011-440 91 00"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000040-4HHK",
-        "platform_id": "798",
+        "1177_id": "SE2321000040-6VXG",
+        "platform_id": "768",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
     {
-        "name": "Barnavårdscentralen, Vårdcentralen Mirum",
+        "name": "Barnavårdscentralen, Vårdcentralen Cityhälsan Centrum",
         "region": "05",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Barnavardscentralen-Vardcentralen-Mirum/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/773",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Barnavardscentralen-Vardcentralen-Cityhalsan-Centrum/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/797",
         "location": {
-            "longitude": 16.2095815992703,
-            "latitude": 58.57340265232764,
+            "longitude": 16.178457241181867,
+            "latitude": 58.58320140970447,
             "city": "Norrköping",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Lidaleden 12, Norrköping",
+            "address": "Gamla Lasarettsgatan 18, Norrköping",
             "business_hours": null,
-            "phone_number": "011-496 11 08"
+            "phone_number": "010-104 42 19"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000040-79ZG",
-        "platform_id": "773",
+        "1177_id": "SE2321000040-59WJ",
+        "platform_id": "797",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Barnhälsovård, Capio Vårdcentral Berga",
+        "region": "05",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Barnhalsovard-Capio-Vardcentral-Berga/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/766",
+        "location": {
+            "longitude": 15.642545568788469,
+            "latitude": 58.392320237566274,
+            "city": "Linköping",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Söderleden 35-37, Linköping",
+            "business_hours": null,
+            "phone_number": "010-105 96 11"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000040-5C59",
+        "platform_id": "766",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
@@ -854,7 +808,7 @@
         "name": "Borås Vårdcentral",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Boras-Vardcentral/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000005877&hsaid=SE2321000131-E000000014544&dynamicid=7532d3c1-4f22-4e26-96b1-adc764932045",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000014544&hsaid=SE2321000131-E000000014544&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.939630803111443,
             "latitude": 57.73436013122904,
@@ -1725,10 +1679,10 @@
         "appointment_by_phone_only": true
     },
     {
-        "name": "Bräcke Diakoni Vårdcentralen Centrum, Alingsås (18+ LSS/assistans/vårdnära)",
+        "name": "Bräcke Diakoni Vårdcentralen Centrum, Alingsås",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bracke-Diakoni-Vardcentralen-Centrum-Alingsas/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/1509",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000007506&hsaid=SE2321000131-E000000007506&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.530026332606003,
             "latitude": 57.93058005544264,
@@ -1740,32 +1694,55 @@
             "business_hours": null,
             "phone_number": "0322-28 01 50"
         },
-        "platform": "MittVaccin",
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000007506",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Bräcke Diakoni vårdcentralen Lokstallarna, Jönköping (18+ LSS/assistans/vårdnära)",
+        "region": "06",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bracke-Diakoni-vardcentralen-Lokstallarna-Jonkoping/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/1509",
+        "location": {
+            "longitude": 14.150961812634723,
+            "latitude": 57.78769726541282,
+            "city": "Jönköping",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Kortebovägen 6, Jönköping",
+            "business_hours": null,
+            "phone_number": "010-242 89 00"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000057-5SRJ",
         "platform_id": "1509",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
     {
-        "name": "Bräcke Diakoni Vårdcentralen Centrum, Alingsås (åldersgrupp eller riksgrupp)",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bracke-Diakoni-Vardcentralen-Centrum-Alingsas/",
+        "name": "Bräcke Diakoni vårdcentralen Lokstallarna, Jönköping (åldersgrupp eller riksgrupp)",
+        "region": "06",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bracke-Diakoni-vardcentralen-Lokstallarna-Jonkoping/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/1224",
         "location": {
-            "longitude": 12.530026332606003,
-            "latitude": 57.93058005544264,
-            "city": "Alingsås",
-            "cp": "44130"
+            "longitude": 14.150961812634723,
+            "latitude": 57.78769726541282,
+            "city": "Jönköping",
+            "cp": "00000"
         },
         "metadata": {
-            "address": "Kungsgatan 5, 441 30, Alingsås",
+            "address": "Kortebovägen 6, Jönköping",
             "business_hours": null,
-            "phone_number": "0322-28 01 50"
+            "phone_number": "010-242 89 00"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000007506",
+        "1177_id": "SE2321000057-5SRJ",
         "platform_id": "1224",
         "vaccine_type": null,
         "appointment_by_phone_only": false
@@ -1843,7 +1820,7 @@
         "name": "Brämhults Vårdcentral, Brämhult, Borås",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bramhults-Vardcentral-Bramhult-Boras/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000005877&hsaid=SE2321000131-E000000007508&dynamicid=7532d3c1-4f22-4e26-96b1-adc764932045",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000007508&hsaid=SE2321000131-E000000007508&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 13.004057006685217,
             "latitude": 57.72592102822638,
@@ -2300,6 +2277,29 @@
         "appointment_by_phone_only": false
     },
     {
+        "name": "Capio Vårdcentral Vasastaden, Linköping",
+        "region": "05",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Capio-Vardcentral-Vasastaden-Linkoping/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/765",
+        "location": {
+            "longitude": 15.609051587827588,
+            "latitude": 58.41954779749085,
+            "city": "Linköping",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Nordengatan 49, Linköping",
+            "business_hours": null,
+            "phone_number": "010-105 96 00"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000040-7MDF",
+        "platform_id": "765",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
         "name": "Capio hälsocentral Dragonen",
         "region": "24",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Capio-halsocentral-Dragonen/",
@@ -2416,7 +2416,7 @@
         "name": "Cityläkarna Borås, Borås",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Citylakarna-boras-Boras/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbList.xhtml?childhsaid=SE2321000131-E000000005877&hsaid=SE2321000131-E000000008803&dynamicid=2fe76770-e215-4c53-9ee3-0d7cb8e5346a",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000008803&hsaid=SE2321000131-E000000008803&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.928673696383097,
             "latitude": 57.72112111772995,
@@ -2754,29 +2754,6 @@
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
-    },
-    {
-        "name": "Distriktssköterskemottagningen, Capio Vårdcentral Berga",
-        "region": "05",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Distriktsskoterskemottagningen-Capio-Vardcentral-Berga/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/766",
-        "location": {
-            "longitude": 15.642545568788469,
-            "latitude": 58.392320237566274,
-            "city": "Linköping",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Söderleden 35-37, Linköping",
-            "business_hours": null,
-            "phone_number": "010-105 96 10"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000040-5C5K",
-        "platform_id": "766",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
     },
     {
         "name": "Doktor 24 Segevångsskolan",
@@ -3172,7 +3149,7 @@
         "name": "Drive-In Nötkärnan Göteborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Drive-In-Notkarnan-Goteborg/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000016315&hsaid=SE2321000131-E000000016315&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.933909038369034,
             "latitude": 57.68149011642591,
@@ -3184,7 +3161,7 @@
             "business_hours": null,
             "phone_number": "031-792 25 22"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000016315",
         "platform_id": null,
@@ -3325,6 +3302,28 @@
         "platform": null,
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000010615",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Farsta Centrumkyrkan - vaccination covid - SveaVaccin",
+        "region": "01",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Farsta-Centrumkyrkan-vaccination-covid-SveaVaccin/",
+        "platform_url": null,
+        "location": {
+            "longitude": 18.092323236368184,
+            "latitude": 59.2438662246088,
+            "city": "Stockholm",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Farstaplan 15, FARSTA",
+            "business_hours": null
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE2321000016-FD2P",
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
@@ -3696,33 +3695,10 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Helsa Vårdcentral Östertull, Norrköping",
-        "region": "05",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Helsa-Vardcentral-Ostertull-Norrkoping/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/768",
-        "location": {
-            "longitude": 16.20340478782557,
-            "latitude": 58.58798369531184,
-            "city": "Norrköping",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Helsa VC Östertull, Vikboplan 7, Norrköping",
-            "business_hours": null,
-            "phone_number": "011-440 91 00"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000040-6VS1",
-        "platform_id": "768",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
         "name": "Herkules Vårdcentral, Borås",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Herkules-Vardcentral-Boras/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000005877&hsaid=SE2321000131-E000000007509&dynamicid=7532d3c1-4f22-4e26-96b1-adc764932045",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000007509&hsaid=SE2321000131-E000000007509&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.938715782395036,
             "latitude": 57.722795434053936,
@@ -4244,6 +4220,29 @@
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
+    },
+    {
+        "name": "Johannelunds Vårdcentral AB, Linköping",
+        "region": "05",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Johannelunds-Vardcentral-AB-Linkoping/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/764",
+        "location": {
+            "longitude": 15.664319141264581,
+            "latitude": 58.39476125908773,
+            "city": "Linköping",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Johannelunds centrum, Linköping",
+            "business_hours": null,
+            "phone_number": "010-105 94 30"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000040-5B78",
+        "platform_id": "764",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
     },
     {
         "name": "JohannesVården - Vårdcentral och BVC, Tynnered",
@@ -7157,7 +7156,7 @@
         "name": "Närhälsan Angered vårdcentral, Angered",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Angered-vardcentral-Angered/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000006727&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000006727&hsaid=SE2321000131-E000000006727&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.047973336158215,
             "latitude": 57.79711951889811,
@@ -7180,7 +7179,7 @@
         "name": "Närhälsan Backa vårdcentral, Hisings Backa",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Backa-vardcentral-Hisings-Backa/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000000310&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000310&hsaid=SE2321000131-E000000000310&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.98674033638669,
             "latitude": 57.74745662209048,
@@ -7203,7 +7202,7 @@
         "name": "Närhälsan Bengtsfors vårdcentral, Bengtsfors",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Bengtsfors-vardcentral-Bengtsfors/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000002032&hsaid=SE2321000131-E000000004895&dynamicid=99040f88-98aa-4adf-a3d5-60a0607f0daa",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000004895&hsaid=SE2321000131-E000000004895&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.226112097775328,
             "latitude": 59.028727419559125,
@@ -7249,7 +7248,7 @@
         "name": "Närhälsan Biskopsgården vårdcentral, Göteborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Biskopsgarden-vardcentral-Goteborg/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000001655&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000001655&hsaid=SE2321000131-E000000001655&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.893887978571197,
             "latitude": 57.713548415239046,
@@ -7272,7 +7271,7 @@
         "name": "Närhälsan Bjurslätt vårdcentral, Hisingen Göteborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Bjurslatt-vardcentral-Hisingen-Goteborg/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000001708&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000001708&hsaid=SE2321000131-E000000001708&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.926242539054694,
             "latitude": 57.72944694018122,
@@ -7295,7 +7294,7 @@
         "name": "Närhälsan Björkekärr vårdcentral, Björkekärr",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Bjorkekarr-vardcentral-Bjorkekarr/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000001638&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000001638&hsaid=SE2321000131-E000000001638&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.047195375941508,
             "latitude": 57.715484587258814,
@@ -7318,7 +7317,7 @@
         "name": "Närhälsan Boda vårdcentral, Borås",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Boda-vardcentral-Boras/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000005877&hsaid=SE2321000131-E000000000419&dynamicid=7532d3c1-4f22-4e26-96b1-adc764932045",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000419&hsaid=SE2321000131-E000000000419&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.989126086078096,
             "latitude": 57.729416519394974,
@@ -7364,7 +7363,7 @@
         "name": "Närhälsan Brämaregården vårdcentral, Göteborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Bramaregarden-vardcentral-Goteborg/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000000312&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000312&hsaid=SE2321000131-E000000000312&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.940018006124308,
             "latitude": 57.72049470911521,
@@ -7387,7 +7386,7 @@
         "name": "Närhälsan Bäckefors Dalslands Sjukhus",
         "region": "14",
         "1177_url": null,
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?hsaid=SE2321000131-E000000002032&dynamicid=bb0225fc-7c37-47c1-8558-ddb991501c2c",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000002032",
         "location": {
             "longitude": "",
             "latitude": "",
@@ -7410,7 +7409,7 @@
         "name": "Närhälsan Bäckefors vårdcentral, Bäckefors",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Backefors-vardcentral-Backefors/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000002032&hsaid=SE2321000131-E000000004905&dynamicid=99040f88-98aa-4adf-a3d5-60a0607f0daa",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000004905&hsaid=SE2321000131-E000000004905&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.160720841982258,
             "latitude": 58.79796664305947,
@@ -7479,7 +7478,7 @@
         "name": "Närhälsan Dals-Ed vårdcentral, Ed",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Dals-Ed-vardcentral-Ed/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000002032&hsaid=SE2321000131-E000000004897&dynamicid=99040f88-98aa-4adf-a3d5-60a0607f0daa",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000004897&hsaid=SE2321000131-E000000004897&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.939899066195611,
             "latitude": 58.910982603685525,
@@ -7502,7 +7501,7 @@
         "name": "Närhälsan Dalsjöfors vårdcentral, Dalsjöfors",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Dalsjofors-vardcentral-Dalsjofors/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000005877&hsaid=SE2321000131-E000000000421&dynamicid=7532d3c1-4f22-4e26-96b1-adc764932045",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000421&hsaid=SE2321000131-E000000000421&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 13.096168202073974,
             "latitude": 57.713877232505055,
@@ -7525,7 +7524,7 @@
         "name": "Närhälsan Dingle Lantbruksskolan",
         "region": "14",
         "1177_url": null,
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?hsaid=SE2321000131-E000000011860&dynamicid=bb0225fc-7c37-47c1-8558-ddb991501c2c",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000011860",
         "location": {
             "longitude": "",
             "latitude": "",
@@ -7548,7 +7547,7 @@
         "name": "Närhälsan Ekmanska vårdcentral, Göteborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Ekmanska-vardcentral-Goteborg/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000000313&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000313&hsaid=SE2321000131-E000000000313&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.009477871610882,
             "latitude": 57.70073301440747,
@@ -7594,7 +7593,7 @@
         "name": "Närhälsan Fjällbacka vårdcentral, Fjällbacka",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Fjallbacka-vardcentral-Fjallbacka/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000011860&hsaid=SE2321000131-E000000005926&dynamicid=117e6c4d-2b1a-4b36-b32c-243ec967ff09",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000005926&hsaid=SE2321000131-E000000005926&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.291423918356116,
             "latitude": 58.596945683192644,
@@ -7617,7 +7616,7 @@
         "name": "Närhälsan Floda vårdcentral, Floda",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Floda-vardcentral-Floda/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000000431&hsaid=SE2321000131-E000000000429&dynamicid=bf27a7cb-72b6-48c2-a5be-497748f5dc63",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000429&hsaid=SE2321000131-E000000000429&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.36108286359278,
             "latitude": 57.808081087244574,
@@ -7640,7 +7639,7 @@
         "name": "Närhälsan Fristad vårdcentral, Borås",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Fristad-vardcentral-Boras/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000005877&hsaid=SE2321000131-E000000000422&dynamicid=7532d3c1-4f22-4e26-96b1-adc764932045",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000422&hsaid=SE2321000131-E000000000422&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 13.014854344290775,
             "latitude": 57.82805751912103,
@@ -7663,7 +7662,7 @@
         "name": "Närhälsan Frölunda vårdcentral, Västra Frölunda",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Frolunda-vardcentral-Vastra-Frolunda/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000006736&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000006736&hsaid=SE2321000131-E000000006736&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.910853666570732,
             "latitude": 57.65072640046686,
@@ -7686,7 +7685,7 @@
         "name": "Närhälsan Furulund vårdcentral, Partille",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Furulund-vardcentral-Partille/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000004567&hsaid=SE2321000131-E000000004567&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.129754883474396,
             "latitude": 57.72520887265115,
@@ -7698,7 +7697,7 @@
             "business_hours": null,
             "phone_number": "010-473 39 25"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000004567",
         "platform_id": null,
@@ -7709,7 +7708,7 @@
         "name": "Närhälsan Färgelanda vårdcentral, Färgelanda",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Fargelanda-vardcentral-Fargelanda/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000002032&hsaid=SE2321000131-E000000004901&dynamicid=99040f88-98aa-4adf-a3d5-60a0607f0daa",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000004901&hsaid=SE2321000131-E000000004901&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.988027196467597,
             "latitude": 58.559789793484924,
@@ -7732,7 +7731,7 @@
         "name": "Närhälsan Gamlestadstorget vårdcentral, Göteborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Gamlestadstorget-vardcentral-Goteborg/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000005063&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000005063&hsaid=SE2321000131-E000000005063&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.006602322684397,
             "latitude": 57.726871606710695,
@@ -7755,7 +7754,7 @@
         "name": "Närhälsan Gibraltargatan vårdcentral, Göteborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Gibraltargatan-vardcentral-Goteborg/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000000316&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000316&hsaid=SE2321000131-E000000000316&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.977675883436318,
             "latitude": 57.69190090906697,
@@ -7778,7 +7777,7 @@
         "name": "Närhälsan Gråbo vårdcentral, Gråbo",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Grabo-vardcentral-Grabo/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000000431&hsaid=SE2321000131-E000000000430&dynamicid=bf27a7cb-72b6-48c2-a5be-497748f5dc63",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000430&hsaid=SE2321000131-E000000000430&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.299116297268576,
             "latitude": 57.833707007952505,
@@ -7847,7 +7846,7 @@
         "name": "Närhälsan Gullspång vårdcentral, Gullspång",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Gullspang-vardcentral-Gullspang/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000002609&hsaid=SE2321000131-E000000002609&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 14.087201565584614,
             "latitude": 58.980150476140516,
@@ -7859,7 +7858,7 @@
             "business_hours": null,
             "phone_number": "0551-283 00"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000002609",
         "platform_id": null,
@@ -7893,7 +7892,7 @@
         "name": "Närhälsan Heimdal vårdcentral, Borås",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Heimdal-vardcentral-Boras/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000005877&hsaid=SE2321000131-E000000000423&dynamicid=7532d3c1-4f22-4e26-96b1-adc764932045",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000423&hsaid=SE2321000131-E000000000423&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.941817893326338,
             "latitude": 57.72284771980293,
@@ -7939,7 +7938,7 @@
         "name": "Närhälsan Herrestad vårdcentral, Uddevalla",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Herrestad-vardcentral-Uddevalla/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000539&hsaid=SE2321000131-E000000000539&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.84496382791307,
             "latitude": 58.35033088496779,
@@ -7951,7 +7950,7 @@
             "business_hours": null,
             "phone_number": "010-441 64 40"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000539",
         "platform_id": null,
@@ -8008,7 +8007,7 @@
         "name": "Närhälsan Hjällbo vårdcentral, Angered",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Hjallbo-vardcentral-Angered/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000006731&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000006731&hsaid=SE2321000131-E000000006731&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.019113619366982,
             "latitude": 57.76865101484537,
@@ -8054,7 +8053,7 @@
         "name": "Närhälsan Högsbo vårdcentral, Högsbo",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Hogsbo-vardcentral-Hogsbo/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000006737&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000006737&hsaid=SE2321000131-E000000006737&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.92872453223031,
             "latitude": 57.67003361491877,
@@ -8077,7 +8076,7 @@
         "name": "Närhälsan Karlsborg vårdcentral, Karlsborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Karlsborg-vardcentral-Karlsborg/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000002615&hsaid=SE2321000131-E000000002615&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 14.516093296371812,
             "latitude": 58.53019034389921,
@@ -8089,7 +8088,7 @@
             "business_hours": null,
             "phone_number": "0505-183 00"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000002615",
         "platform_id": null,
@@ -8146,7 +8145,7 @@
         "name": "Närhälsan Krokslätt vårdcentral, Mölndal",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Krokslatt-vardcentral-Molndal/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000000213&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000213&hsaid=SE2321000131-E000000000213&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.008058058860863,
             "latitude": 57.6737553412858,
@@ -8169,7 +8168,7 @@
         "name": "Närhälsan Kungshamn vårdcentral, Kungshamn",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Kungshamn-vardcentral-Kungshamn/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000011860&hsaid=SE2321000131-E000000005019&dynamicid=117e6c4d-2b1a-4b36-b32c-243ec967ff09",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000005019&hsaid=SE2321000131-E000000005019&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.256752852814778,
             "latitude": 58.36036501444557,
@@ -8192,7 +8191,7 @@
         "name": "Närhälsan Kungshöjd vårdcentral, Göteborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Kungshojd-vardcentral-Goteborg/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000000320&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000320&hsaid=SE2321000131-E000000000320&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.96116065276148,
             "latitude": 57.70313731917365,
@@ -8215,7 +8214,7 @@
         "name": "Närhälsan Kungssten vårdcentral, Göteborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Kungssten-vardcentral-Goteborg/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000006740&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000006740&hsaid=SE2321000131-E000000006740&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.908218264416664,
             "latitude": 57.68229113394415,
@@ -8261,7 +8260,7 @@
         "name": "Närhälsan Kärra vårdcentral, Hisings Kärra",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Karra-vardcentral-Hisings-Karra/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000000329&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000329&hsaid=SE2321000131-E000000000329&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.99580086969242,
             "latitude": 57.79387070729637,
@@ -8284,7 +8283,7 @@
         "name": "Närhälsan Landvetter vårdcentral, Landvetter",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Landvetter-vardcentral-Landvetter/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000004575&hsaid=SE2321000131-E000000004575&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.211113815508927,
             "latitude": 57.686865806129774,
@@ -8296,7 +8295,7 @@
             "business_hours": null,
             "phone_number": "010-473 37 00"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000004575",
         "platform_id": null,
@@ -8307,7 +8306,7 @@
         "name": "Närhälsan Lerum vårdcentral, Lerum",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Lerum-vardcentral-Lerum/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000431&hsaid=SE2321000131-E000000000431&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.265754618589991,
             "latitude": 57.76853764400082,
@@ -8319,7 +8318,7 @@
             "business_hours": null,
             "phone_number": "0302-551 20"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000431",
         "platform_id": null,
@@ -8330,7 +8329,7 @@
         "name": "Närhälsan Lerums Gymnasium Häggen",
         "region": "14",
         "1177_url": null,
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?hsaid=SE2321000131-E000000000431&dynamicid=bb0225fc-7c37-47c1-8558-ddb991501c2c",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000431",
         "location": {
             "longitude": "",
             "latitude": "",
@@ -8353,7 +8352,7 @@
         "name": "Närhälsan Lindome vårdcentral, Lindome",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Lindome-vardcentral-Lindome/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000000214&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000214&hsaid=SE2321000131-E000000000214&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.088026338281288,
             "latitude": 57.57627864929656,
@@ -8376,7 +8375,7 @@
         "name": "Närhälsan Ljungskile vårdcentral, Ljungskile",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Ljungskile-vardcentral-Ljungskile/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000541&hsaid=SE2321000131-E000000000541&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.918421532444144,
             "latitude": 58.226476720264,
@@ -8388,7 +8387,7 @@
             "business_hours": null,
             "phone_number": "010-441 53 00"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000541",
         "platform_id": null,
@@ -8399,7 +8398,7 @@
         "name": "Närhälsan Lysekil vårdcentral, Lysekil",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Lysekil-vardcentral-Lysekil/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000011860&hsaid=SE2321000131-E000000004944&dynamicid=117e6c4d-2b1a-4b36-b32c-243ec967ff09",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000004944&hsaid=SE2321000131-E000000004944&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.43955308440697,
             "latitude": 58.28010803864042,
@@ -8422,7 +8421,7 @@
         "name": "Närhälsan Lövgärdet vårdcentral, Angered",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Lovgardet-vardcentral-Angered/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000006726&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000006726&hsaid=SE2321000131-E000000006726&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.040498501024537,
             "latitude": 57.81568945523752,
@@ -8445,7 +8444,7 @@
         "name": "Närhälsan Majorna vårdcentral, Majorna",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Majorna-vardcentral-Majorna/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000000712&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000712&hsaid=SE2321000131-E000000000712&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.923368686741194,
             "latitude": 57.69734458527386,
@@ -8468,7 +8467,7 @@
         "name": "Närhälsan Mariestad vårdcentral, Mariestad",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Mariestad-vardcentral-Mariestad/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000007323&hsaid=SE2321000131-E000000007323&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 13.795835210967395,
             "latitude": 58.705113794460196,
@@ -8480,7 +8479,7 @@
             "business_hours": null,
             "phone_number": "0501-627 50"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000007323",
         "platform_id": null,
@@ -8491,7 +8490,7 @@
         "name": "Närhälsan Masthugget vårdcentral, Göteborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Masthugget-vardcentral-Goteborg/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000000324&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000324&hsaid=SE2321000131-E000000000324&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.94392507961272,
             "latitude": 57.698037244169065,
@@ -8514,7 +8513,7 @@
         "name": "Närhälsan Mellerud vårdcentral, Mellerud",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Mellerud-vardcentral-Mellerud/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000002032&hsaid=SE2321000131-E000000004899&dynamicid=99040f88-98aa-4adf-a3d5-60a0607f0daa",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000004899&hsaid=SE2321000131-E000000004899&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.453802084584861,
             "latitude": 58.70002162115754,
@@ -8537,7 +8536,7 @@
         "name": "Närhälsan Munkedal vårdcentral, Munkedal",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Munkedal-vardcentral-Munkedal/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000011860&hsaid=SE2321000131-E000000004951&dynamicid=117e6c4d-2b1a-4b36-b32c-243ec967ff09",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000004951&hsaid=SE2321000131-E000000004951&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.669117782750165,
             "latitude": 58.4676225946603,
@@ -8583,7 +8582,7 @@
         "name": "Närhälsan Mösseberg vårdcentral, Falköping",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Mosseberg-vardcentral-Falkoping/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000456&hsaid=SE2321000131-E000000000456&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 13.551919293701959,
             "latitude": 58.18771634979414,
@@ -8595,7 +8594,7 @@
             "business_hours": null,
             "phone_number": "0515-878 90"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000456",
         "platform_id": null,
@@ -8652,7 +8651,7 @@
         "name": "Närhälsan Oden vårdcentral, Falköping",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Oden-vardcentral-Falkoping/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000454&hsaid=SE2321000131-E000000000454&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 13.552551416477767,
             "latitude": 58.1640349914607,
@@ -8664,7 +8663,7 @@
             "business_hours": null,
             "phone_number": "0515-878 60"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000454",
         "platform_id": null,
@@ -8675,7 +8674,7 @@
         "name": "Närhälsan Olskroken vårdcentral, Göteborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Olskroken-vardcentral-Goteborg/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000000380&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000380&hsaid=SE2321000131-E000000000380&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.99728177464694,
             "latitude": 57.714548208152515,
@@ -8698,7 +8697,7 @@
         "name": "Närhälsan Opaltorget vårdcentral, Västra Frölunda",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Opaltorget-vardcentral-Vastra-Frolunda/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000006713&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000006713&hsaid=SE2321000131-E000000006713&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.899381768423115,
             "latitude": 57.64220212443482,
@@ -8721,7 +8720,7 @@
         "name": "Närhälsan Partille vårdcentral, Partille",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Partille-vardcentral-Partille/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000269&hsaid=SE2321000131-E000000000269&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.105065292239862,
             "latitude": 57.73914640025265,
@@ -8733,7 +8732,7 @@
             "business_hours": null,
             "phone_number": "010-473 33 00"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000269",
         "platform_id": null,
@@ -8744,7 +8743,7 @@
         "name": "Närhälsan Sandared vårdcentral, Sandared",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Sandared-vardcentral-Sandared/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000005877&hsaid=SE2321000131-E000000000424&dynamicid=7532d3c1-4f22-4e26-96b1-adc764932045",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000424&hsaid=SE2321000131-E000000000424&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.798863329868825,
             "latitude": 57.70945083373726,
@@ -8767,7 +8766,7 @@
         "name": "Närhälsan Sannegården vårdcentral, Göteborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Sannegarden-vardcentral-Goteborg/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000000321&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000321&hsaid=SE2321000131-E000000000321&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.927636665611784,
             "latitude": 57.709537078213245,
@@ -8790,7 +8789,7 @@
         "name": "Närhälsan Scandinavium",
         "region": "14",
         "1177_url": null,
-        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000005543",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000016395",
         "location": {
             "longitude": "",
             "latitude": "",
@@ -8813,7 +8812,7 @@
         "name": "Närhälsan Sisjön vårdcentral, Askim",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Sisjon-vardcentral-Askim/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000006738&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000006738&hsaid=SE2321000131-E000000006738&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.952287029726552,
             "latitude": 57.63927990133502,
@@ -8836,7 +8835,7 @@
         "name": "Närhälsan Sjöbo vårdcentral, Borås",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Sjobo-vardcentral-Boras/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000005877&hsaid=SE2321000131-E000000000425&dynamicid=7532d3c1-4f22-4e26-96b1-adc764932045",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000425&hsaid=SE2321000131-E000000000425&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.944342794088731,
             "latitude": 57.74975684772514,
@@ -8859,7 +8858,7 @@
         "name": "Närhälsan Skene Lasarett",
         "region": "14",
         "1177_url": null,
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?hsaid=SE2321000131-E000000000439&dynamicid=bb0225fc-7c37-47c1-8558-ddb991501c2c",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000439",
         "location": {
             "longitude": "",
             "latitude": "",
@@ -8882,7 +8881,7 @@
         "name": "Närhälsan Skene vårdcentral, Skene",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Skene-vardcentral-Skene/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000439&hsaid=SE2321000131-E000000000439&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.648362857197943,
             "latitude": 57.49188236966391,
@@ -8894,7 +8893,7 @@
             "business_hours": null,
             "phone_number": "0320-77 93 01"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000439",
         "platform_id": null,
@@ -8951,7 +8950,7 @@
         "name": "Närhälsan Slottsskogen vårdcentral, Göteborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Slottsskogen-vardcentral-Goteborg/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000000328&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000328&hsaid=SE2321000131-E000000000328&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.947900574341565,
             "latitude": 57.69065400397386,
@@ -8974,7 +8973,7 @@
         "name": "Närhälsan Solgärde vårdcentral, Kungälv",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Solgarde-vardcentral-Kungalv/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000005569&hsaid=SE2321000131-E000000005569&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.950282789807154,
             "latitude": 57.88860469007531,
@@ -8986,7 +8985,7 @@
             "business_hours": null,
             "phone_number": "010-473 38 30"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000005569",
         "platform_id": null,
@@ -8997,7 +8996,7 @@
         "name": "Närhälsan Sollebrunn vårdcentral, Sollebrunn",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Sollebrunn-vardcentral-Sollebrunn/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000007983&hsaid=SE2321000131-E000000001690&dynamicid=8935ceca-b050-4ac7-8666-3e178c88a6d4",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000001690&hsaid=SE2321000131-E000000001690&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.530482670618245,
             "latitude": 58.1200728689759,
@@ -9020,7 +9019,7 @@
         "name": "Närhälsan Stenstorp vårdcentral, Stenstorp",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stenstorp-vardcentral-Stenstorp/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000457&hsaid=SE2321000131-E000000000457&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 13.717400041889025,
             "latitude": 58.273721072294435,
@@ -9032,7 +9031,7 @@
             "business_hours": null,
             "phone_number": "0500-47 29 50"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000457",
         "platform_id": null,
@@ -9043,7 +9042,7 @@
         "name": "Närhälsan Stenungsund vårdcentral, Stenungsund",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stenungsund-vardcentral-Stenungsund/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000216&hsaid=SE2321000131-E000000000216&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.817927130264705,
             "latitude": 58.066481774303924,
@@ -9055,7 +9054,7 @@
             "business_hours": null,
             "phone_number": "010-473 32 20"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000216",
         "platform_id": null,
@@ -9066,7 +9065,7 @@
         "name": "Närhälsan Stora Höga vårdcentral, Stora Höga",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stora-Hoga-vardcentral-Stora-Hoga/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000005470&hsaid=SE2321000131-E000000005470&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.83182008976126,
             "latitude": 58.0167553326847,
@@ -9078,7 +9077,7 @@
             "business_hours": null,
             "phone_number": "010-473 35 00"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000005470",
         "platform_id": null,
@@ -9089,7 +9088,7 @@
         "name": "Närhälsan Styrsö vårdcentral, Styrsö",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Styrso-vardcentral-Styrso/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000006741&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000006741&hsaid=SE2321000131-E000000006741&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.791768928368663,
             "latitude": 57.61661672393907,
@@ -9112,7 +9111,7 @@
         "name": "Närhälsan Svenljunga vårdcentral, Svenljunga",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Svenljunga-vardcentral-Svenljunga/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000441&hsaid=SE2321000131-E000000000441&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 13.116587190134467,
             "latitude": 57.49409892182026,
@@ -9124,7 +9123,7 @@
             "business_hours": null,
             "phone_number": "0325-61 91 00"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000441",
         "platform_id": null,
@@ -9181,7 +9180,7 @@
         "name": "Närhälsan Södra torget vårdcentral, Borås",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Sodra-torget-vardcentral-Boras/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000005877&hsaid=SE2321000131-E000000000426&dynamicid=7532d3c1-4f22-4e26-96b1-adc764932045",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000426&hsaid=SE2321000131-E000000000426&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.942162945391855,
             "latitude": 57.718058269930076,
@@ -9204,7 +9203,7 @@
         "name": "Närhälsan Sörhaga vårdcentral, Alingsås",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Sorhaga-vardcentral-Alingsas/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000007983&hsaid=SE2321000131-E000000000433&dynamicid=8935ceca-b050-4ac7-8666-3e178c88a6d4",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000433&hsaid=SE2321000131-E000000000433&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.519270068574192,
             "latitude": 57.92907109760672,
@@ -9227,7 +9226,7 @@
         "name": "Närhälsan Tanumshede vårdcentral, Tanumshede",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tanumshede-vardcentral-Tanumshede/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000011860&hsaid=SE2321000131-E000000005013&dynamicid=117e6c4d-2b1a-4b36-b32c-243ec967ff09",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000005013&hsaid=SE2321000131-E000000005013&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.321784419297439,
             "latitude": 58.72406096672031,
@@ -9296,7 +9295,7 @@
         "name": "Närhälsan Tidaholm vårdcentral, Tidaholm",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidaholm-vardcentral-Tidaholm/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000466&hsaid=SE2321000131-E000000000466&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 13.956163123936285,
             "latitude": 58.17816034620173,
@@ -9308,7 +9307,7 @@
             "business_hours": null,
             "phone_number": "0502-180 11"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000466",
         "platform_id": null,
@@ -9319,7 +9318,7 @@
         "name": "Närhälsan Tidan vårdcentral, Tidan",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidan-vardcentral-Tidan/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000552&hsaid=SE2321000131-E000000000552&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 14.006912271545554,
             "latitude": 58.574153031899016,
@@ -9331,7 +9330,7 @@
             "business_hours": null,
             "phone_number": "0500-49 51 00"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000552",
         "platform_id": null,
@@ -9342,7 +9341,7 @@
         "name": "Närhälsan Tjörn vårdcentral, Kållekärr",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tjorn-vardcentral-Kallekarr/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000005514&hsaid=SE2321000131-E000000005514&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.657691156758297,
             "latitude": 58.0259042685755,
@@ -9354,7 +9353,7 @@
             "business_hours": null,
             "phone_number": "010-473 46 00"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000005514",
         "platform_id": null,
@@ -9365,7 +9364,7 @@
         "name": "Närhälsan Torpavallen vårdcentral, Göteborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Torpavallen-vardcentral-Goteborg/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000007248&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000007248&hsaid=SE2321000131-E000000007248&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.033765303431865,
             "latitude": 57.72398197393295,
@@ -9388,7 +9387,7 @@
         "name": "Närhälsan Torslanda vårdcentral, Torslanda",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Torslanda-vardcentral-Torslanda/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbList.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000000326&dynamicid=41e05b84-9cb8-495c-8aac-d534024fc5e2",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000326&hsaid=SE2321000131-E000000000326&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.774113687803498,
             "latitude": 57.71908827434783,
@@ -9411,7 +9410,7 @@
         "name": "Närhälsan Trandared vårdcentral, Borås",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Trandared-vardcentral-Boras/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000005877&hsaid=SE2321000131-E000000000427&dynamicid=7532d3c1-4f22-4e26-96b1-adc764932045",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000427&hsaid=SE2321000131-E000000000427&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.95257608143609,
             "latitude": 57.70819595574002,
@@ -9457,7 +9456,7 @@
         "name": "Närhälsan Tuve vårdcentral, Göteborg, Tuve",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tuve-vardcentral-Goteborg-Tuve/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000000327&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000327&hsaid=SE2321000131-E000000000327&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.926842338474875,
             "latitude": 57.755196991597344,
@@ -9503,7 +9502,7 @@
         "name": "Närhälsan Ulricehamn",
         "region": "14",
         "1177_url": null,
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?hsaid=SE2321000131-E000000000444&dynamicid=bb0225fc-7c37-47c1-8558-ddb991501c2c",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000444",
         "location": {
             "longitude": "",
             "latitude": "",
@@ -9526,7 +9525,7 @@
         "name": "Närhälsan Ulricehamn vårdcentral, Ulricehamn",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Ulricehamn-vardcentral-Ulricehamn/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000444&hsaid=SE2321000131-E000000000444&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 13.416478615626206,
             "latitude": 57.793858457925545,
@@ -9538,7 +9537,7 @@
             "business_hours": null,
             "phone_number": "0321-291 00"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000444",
         "platform_id": null,
@@ -9549,7 +9548,7 @@
         "name": "Närhälsan Vara vårdcentral, Vara",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Vara-vardcentral-Vara/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000489&hsaid=SE2321000131-E000000000489&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.965439010152812,
             "latitude": 58.264280183788806,
@@ -9561,7 +9560,7 @@
             "business_hours": null,
             "phone_number": "0512-78 60 32"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000489",
         "platform_id": null,
@@ -9595,7 +9594,7 @@
         "name": "Närhälsan Vänerparken vårdcentral, Vänersborg",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Vanerparken-vardcentral-Vanersborg/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000543&hsaid=SE2321000131-E000000000543&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.320768911766642,
             "latitude": 58.374752961014416,
@@ -9607,7 +9606,7 @@
             "business_hours": null,
             "phone_number": "010-441 62 00"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000543",
         "platform_id": null,
@@ -9664,7 +9663,7 @@
         "name": "Närhälsan Ängabo vårdcentral, Alingsås",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Angabo-vardcentral-Alingsas/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000007983&hsaid=SE2321000131-E000000000434&dynamicid=8935ceca-b050-4ac7-8666-3e178c88a6d4",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000434&hsaid=SE2321000131-E000000000434&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.568003598005491,
             "latitude": 57.91812209761183,
@@ -9710,7 +9709,7 @@
         "name": "Närhälsan Ågårdsskogen vårdcentral, Lidköping",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Agardsskogen-vardcentral-Lidkoping/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000458&hsaid=SE2321000131-E000000000458&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 13.136437416624878,
             "latitude": 58.49300116191721,
@@ -9722,7 +9721,7 @@
             "business_hours": null,
             "phone_number": "0510-854 12"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000458",
         "platform_id": null,
@@ -9733,7 +9732,7 @@
         "name": "Närhälsan Öckerö vårdcentral, Öckerö",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Ockero-vardcentral-Ockero/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?childhsaid=SE2321000131-E000000016395&hsaid=SE2321000131-E000000005543&dynamicid=3c07fc57-7a7e-4634-b02e-2a31f3c9de95",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000005543&hsaid=SE2321000131-E000000005543&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 11.65499605369803,
             "latitude": 57.70855441841233,
@@ -10604,7 +10603,7 @@
         "name": "Rävlanda Vårdcentral",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Ravlanda-Vardcentral/",
-        "platform_url": null,
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000014971&hsaid=SE2321000131-E000000014971&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.496931853385187,
             "latitude": 57.653517185751305,
@@ -10616,7 +10615,7 @@
             "business_hours": null,
             "phone_number": "0301-452 55"
         },
-        "platform": null,
+        "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000014971",
         "platform_id": null,
@@ -11220,7 +11219,7 @@
         "name": "Sätila Vårdcentral",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Satila-Vardcentral/",
-        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?hsaid=SE2321000131-E000000014974&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000014974&hsaid=SE2321000131-E000000014974&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 12.432784951816199,
             "latitude": 57.543023107981,
@@ -11398,29 +11397,6 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Sölvesborgs vårdcentral",
-        "region": "10",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Solvesborgs-vardcentral/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/597/bokning",
-        "location": {
-            "longitude": 14.583232678821236,
-            "latitude": 56.05609832639761,
-            "city": "Sölvesborg",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Markgatan 30",
-            "business_hours": null,
-            "phone_number": "0456-73 13 10"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000081-b3234",
-        "platform_id": "597",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
         "name": "TEAM hälso och friskvård Mölndal",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Team-halso-och-friskvard-Molndal/",
@@ -11559,23 +11535,24 @@
         "appointment_by_phone_only": true
     },
     {
-        "name": "Trelleborgs tandvården AB, Trelleborg",
+        "name": "Trelleborgs Psoriasisförening, Trelleborg",
         "region": "12",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Trelleborgs-tandvarden-AB-Trelleborg/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Trelleborgs-Psoriasisforening-Trelleborg/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/230",
         "location": {
-            "longitude": 13.15760395643071,
-            "latitude": 55.374056314497146,
+            "longitude": 13.165816839414385,
+            "latitude": 55.371574335186274,
             "city": "Trelleborg",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Algatan 24, Trelleborg",
-            "business_hours": null
+            "address": "Östergatan 51, Trelleborg",
+            "business_hours": null,
+            "phone_number": "0410-171 51"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE162321000255-O24266",
+        "1177_id": "SE162321000255-O23282",
         "platform_id": "230",
         "vaccine_type": null,
         "appointment_by_phone_only": false
@@ -12290,7 +12267,7 @@
         "name": "Vaccina Strängnäs, Strängnäs",
         "region": "04",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccina-Strangnas-Strangnas/",
-        "platform_url": null,
+        "platform_url": "https://www.vaccina.se/covidvaccin/sormland/tidsbokning/#/service",
         "location": {
             "longitude": 17.01994084720094,
             "latitude": 59.3791697143613,
@@ -12302,12 +12279,12 @@
             "business_hours": null,
             "phone_number": "010-750 09 45"
         },
-        "platform": null,
+        "platform": "Vaccina",
         "type": "vaccination-center",
         "1177_id": "SE2321000032-5HCH",
-        "platform_id": null,
+        "platform_id": 30003,
         "vaccine_type": null,
-        "appointment_by_phone_only": true
+        "appointment_by_phone_only": false
     },
     {
         "name": "Vaccina Trelleborg",
@@ -12398,6 +12375,28 @@
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O28606",
         "platform_id": 30015,
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Vaccination Covid19 Öresundshälsan, Malmö",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccination-Covid19-Oresundshalsan-Malmo/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2072",
+        "location": {
+            "longitude": 13.065192840175026,
+            "latitude": 55.5784745846457,
+            "city": "Malmö",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Derbyvägen 6E, Malmö",
+            "business_hours": null
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O28637",
+        "platform_id": "2072",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
@@ -12934,7 +12933,7 @@
         "name": "Vaccinationsmottagning Covid 19 Lidköping, Lidköping",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsmottagning-Covid-19-Lidkoping-Lidkoping/",
-        "platform_url": "https://arende.1177.se/form?hsaid=SE2321000131-E000000016104&dynamicid=846d59fe-0759-4059-a421-4242d1717222",
+        "platform_url": "https://arende.1177.se/form?hsaid=SE2321000131-E000000016104&dynamicid=841b3579-248a-4b51-9f69-c89d76081c62",
         "location": {
             "longitude": 13.15188985868376,
             "latitude": 58.49806441659296,
@@ -12957,7 +12956,7 @@
         "name": "Vaccinationsmottagning Covid 19 Skövde, Skövde",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsmottagning-Covid-19-Skovde-Skovde/",
-        "platform_url": "https://arende.1177.se/form?hsaid=SE2321000131-E000000016103&dynamicid=364e156a-1406-432a-92cb-1848ba89bff0",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000016103&hsaid=SE2321000131-E000000016103&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
         "location": {
             "longitude": 13.848292491093101,
             "latitude": 58.42622183070812,
@@ -13072,7 +13071,7 @@
         "name": "Vaccinationsmottagningen Campushallen Strängnäs, Strängnäs",
         "region": "04",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsmottagningen-Campushallen-Strangnas-Strangnas/",
-        "platform_url": "https://www.vaccina.se/covidvaccin/sormland/tidsbokning/#/service",
+        "platform_url": null,
         "location": {
             "longitude": 17.005272966044274,
             "latitude": 59.38581396302979,
@@ -13084,12 +13083,12 @@
             "business_hours": null,
             "phone_number": "0155-24 50 00"
         },
-        "platform": "Vaccina",
+        "platform": null,
         "type": "vaccination-center",
         "1177_id": "SE2321000032-5GCZ",
-        "platform_id": 30003,
+        "platform_id": null,
         "vaccine_type": null,
-        "appointment_by_phone_only": false
+        "appointment_by_phone_only": true
     },
     {
         "name": "Vaccinationsmottagningen Covid 19 Hallsberg",
@@ -13662,6 +13661,28 @@
         "appointment_by_phone_only": false
     },
     {
+        "name": "Vaccinova Simrishamn",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinova-Simrishamn/",
+        "platform_url": null,
+        "location": {
+            "longitude": 14.341650661166378,
+            "latitude": 55.55262089843178,
+            "city": "Simrishamn",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Sjukhusvägen 1, Simrishamn",
+            "business_hours": null
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O28474",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
         "name": "Vaccinova Tomelilla",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinova-Tomelilla/",
@@ -13706,6 +13727,29 @@
         "appointment_by_phone_only": false
     },
     {
+        "name": "Valjehälsan, Sölvesborg",
+        "region": "10",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Valjehalsan-Solvesborg/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/597/bokning",
+        "location": {
+            "longitude": 14.55505971137131,
+            "latitude": 56.04871111917787,
+            "city": "Sölvesborg",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Herrgårdsvägen 97",
+            "business_hours": null,
+            "phone_number": "0456-329 60"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE8362008628-b3212",
+        "platform_id": "597",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
         "name": "Vallentuna - vaccination covid - Prosalus",
         "region": "01",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vallentuna-vaccination-covid-Prosalus/",
@@ -13731,7 +13775,7 @@
         "name": "Vara Konserthus",
         "region": "14",
         "1177_url": null,
-        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000489&hsaid=SE2321000131-E000000000489",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000000489",
         "location": {
             "longitude": "",
             "latitude": "",
@@ -14211,7 +14255,7 @@
         "name": "Vårdcentralen Carlanderska, Centrum",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Carlanderska-Centrum/",
-        "platform_url": "https://arende.1177.se/form?hsaid=SE2321000131-E000000007623&dynamicid=9070ebed-15fd-459e-b554-23612ff960e3",
+        "platform_url": "https://patient.nu/portal/public/calendar/9926e9dd-a824-11eb-a8eb-fa163e329242",
         "location": {
             "longitude": 11.989253454144604,
             "latitude": 57.692565603875366,
@@ -14223,12 +14267,12 @@
             "business_hours": null,
             "phone_number": "031-81 80 80"
         },
-        "platform": "1177",
+        "platform": "Patient",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000007623",
-        "platform_id": null,
+        "platform_id": "9926e9dd-a824-11eb-a8eb-fa163e329242",
         "vaccine_type": null,
-        "appointment_by_phone_only": true
+        "appointment_by_phone_only": false
     },
     {
         "name": "Vårdcentralen Centrum Flen, Flen",
@@ -14300,29 +14344,6 @@
         "appointment_by_phone_only": true
     },
     {
-        "name": "Vårdcentralen Cityhälsan Centrum, Norrköping",
-        "region": "05",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Cityhalsan-Centrum-Norrkoping/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/797",
-        "location": {
-            "longitude": 16.178457241181867,
-            "latitude": 58.58320140970447,
-            "city": "Norrköping",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Gamla Lasarettsgatan 18, Norrköping",
-            "business_hours": null,
-            "phone_number": "010-105 91 40"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000040-4FJH",
-        "platform_id": "797",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
         "name": "Vårdcentralen Cityhälsan Norr, Norrköping",
         "region": "05",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Cityhalsan-Norr-Norrkoping/",
@@ -14342,6 +14363,29 @@
         "type": "vaccination-center",
         "1177_id": "SE2321000040-4FJ7",
         "platform_id": "799",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Vårdcentralen Cityhälsan Söder, Norrköping",
+        "region": "05",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Cityhalsan-Soder-Norrkoping/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/798",
+        "location": {
+            "longitude": 16.203069645521975,
+            "latitude": 58.57508379286415,
+            "city": "Norrköping",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Södra Torget 2, Norrköping",
+            "business_hours": null,
+            "phone_number": "010-105 92 20"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000040-4FJF",
+        "platform_id": "798",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
@@ -14549,6 +14593,29 @@
         "type": "vaccination-center",
         "1177_id": "SE2321000040-4FJ9",
         "platform_id": "803",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Vårdcentralen Kryddgården",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Kryddgarden/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/780",
+        "location": {
+            "longitude": 13.048730001330707,
+            "latitude": 55.58613833718512,
+            "city": "Malmö",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Von Troils väg 1, Malmö",
+            "business_hours": null,
+            "phone_number": "040-623 48 80"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O11105",
+        "platform_id": "780",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
@@ -14898,6 +14965,29 @@
         "appointment_by_phone_only": true
     },
     {
+        "name": "Vårdcentralen Mirum, Norrköping",
+        "region": "05",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Mirum-Norrkoping/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/773",
+        "location": {
+            "longitude": 16.2095815992703,
+            "latitude": 58.57340265232764,
+            "city": "Norrköping",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Lidaleden 12, Norrköping",
+            "business_hours": null,
+            "phone_number": "011-496 11 00"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000040-775L",
+        "platform_id": "773",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
         "name": "Vårdcentralen Mjölby",
         "region": "05",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Mjolby/",
@@ -15011,29 +15101,6 @@
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
-    },
-    {
-        "name": "Vårdcentralen Rydebäck",
-        "region": "12",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Rydeback/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/780",
-        "location": {
-            "longitude": 12.775000580598281,
-            "latitude": 55.966008313293464,
-            "city": "Helsingborg",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Frösögatan 19, Rydebäck",
-            "business_hours": null,
-            "phone_number": "042-406 05 50"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE162321000255-O11639",
-        "platform_id": "780",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
     },
     {
         "name": "Vårdcentralen Skiftinge Eskilstuna, Eskilstuna",
@@ -15930,28 +15997,6 @@
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
-    },
-    {
-        "name": "Öresundshälsan, Malmö",
-        "region": "12",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Oresundshalsan-Malmo/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/2072",
-        "location": {
-            "longitude": 13.065192840175026,
-            "latitude": 55.5784745846457,
-            "city": "Malmö",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Derbyvägen 6E, Malmö",
-            "business_hours": null
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE162321000255-O28637",
-        "platform_id": "2072",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
     },
     {
         "name": "Östermalm - vaccination covid - Sophiahemmet",
