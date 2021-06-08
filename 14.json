@@ -1,28 +1,28 @@
 {
     "version": 1,
-    "last_updated": "2021-06-08 19:37:24.012604+02:00",
+    "last_updated": "2021-06-08 20:33:53.190922+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "14",
-            "nom": "Närhälsan Dingle Lantbruksskolan",
+            "nom": "Kronans Apotek Mölnlycke Centrum",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
+                "longitude": 12.117072418558651,
+                "latitude": 57.65809431018721,
+                "city": "Härryda",
+                "cp": "43530"
             },
             "metadata": {
-                "address": "",
+                "address": "Biblioteksgatan 4A, 435 30, Mölnlycke",
                 "business_hours": null,
-                "phone_number": ""
+                "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": null,
-            "plateforme": "1177",
+            "prochain_rdv": "2021-06-09 12:20:00",
+            "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 1,
-            "internal_id": null,
+            "internal_id": "2095",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -49,7 +49,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 110,
+            "appointment_count": 105,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2497,34 +2497,6 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek Mölnlycke Centrum",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.117072418558651,
-                "latitude": 57.65809431018721,
-                "city": "Härryda",
-                "cp": "43530"
-            },
-            "metadata": {
-                "address": "Biblioteksgatan 4A, 435 30, Mölnlycke",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2095",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Kronans Apotek Nordby Shoppingcenter",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -4477,6 +4449,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Dingle Lantbruksskolan",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
