@@ -4,40 +4,40 @@ on:
   schedule:
     - cron:  '0,15,30,45 * * * *'
 jobs:
-  # scrape:
-  #   name: Scrape times
-  #   runs-on: ubuntu-latest
-  #   strategy:
-  #     max-parallel: 1
-  #     matrix:
-  #       region: ['10', '20', '09', '21', '13', '23', '06', '08', '07', '25', '01', '04', '03', '17', '24', '22', '19', '14', '18', '05','12']
-  #   steps:
-  #     - name: Download the code
-  #       uses: actions/checkout@v2
-  #     - name: Install Python
-  #       uses: actions/setup-python@v2
-  #       with:
-  #         python-version: 3.9
-  #     - name: Install the Python dependencies
-  #       run: pip3 install -r requirements.txt
-  #     - name: Scrape the data
-  #       run: python3 scrape_times.py ${{ matrix.region }}
-  #       env:
-  #         VGR_CLIENT_ID: ${{ secrets.VGR_CLIENT_ID }}
-  #         VGR_CLIENT_SECRET: ${{ secrets.VGR_CLIENT_SECRET }}
-  #     - name: Commit the data
-  #       uses: nick-invision/retry@v2
-  #       with:
-  #         timeout_seconds: 10
-  #         max_attempts: 5
-  #         command: |
-  #           git config --global user.name 'Pierre Mesure (Github Actions)'
-  #           git config --global user.email 'pierre@mesu.re'
-  #           git config --global rebase.autoStash true
-  #           git pull --rebase
-  #           git add *.json
-  #           git commit -am "Updating the times for Region ${{ matrix.region }}"
-  #           git push
+  scrape:
+    name: Scrape times
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 1
+      matrix:
+        region: ['10', '20', '09', '21', '13', '23', '06', '08', '07', '25', '01', '04', '03', '17', '24', '22', '19', '14', '18', '05','12']
+    steps:
+      - name: Download the code
+        uses: actions/checkout@v2
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Install the Python dependencies
+        run: pip3 install -r requirements.txt
+      - name: Scrape the data
+        run: python3 scrape_times.py ${{ matrix.region }}
+        env:
+          VGR_CLIENT_ID: ${{ secrets.VGR_CLIENT_ID }}
+          VGR_CLIENT_SECRET: ${{ secrets.VGR_CLIENT_SECRET }}
+      - name: Commit the data
+        uses: nick-invision/retry@v2
+        with:
+          timeout_seconds: 10
+          max_attempts: 5
+          command: |
+            git config --global user.name 'Pierre Mesure (Github Actions)'
+            git config --global user.email 'pierre@mesu.re'
+            git config --global rebase.autoStash true
+            git pull --rebase
+            git add *.json
+            git commit -am "Updating the times for Region ${{ matrix.region }}"
+            git push
   generate_stats:
     name: Generate the stats
     runs-on: ubuntu-latest
