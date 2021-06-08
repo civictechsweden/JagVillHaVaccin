@@ -12,7 +12,7 @@ dose_count = 0
 
 for region in regions:
 
-    with open(region['code'] + '.json') as region_json:
+    with open('{}.json'.format(region['code'])) as region_json:
         appointments = json.load(region_json)
 
     # Number of vaccination centres that have available vaccines
