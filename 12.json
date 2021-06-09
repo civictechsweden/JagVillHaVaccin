@@ -1,6 +1,10 @@
 {
     "version": 1,
+<<<<<<< Updated upstream
     "last_updated": "2021-06-09 16:14:15.411899+02:00",
+=======
+    "last_updated": "2021-06-09 16:27:41.055957+02:00",
+>>>>>>> Stashed changes
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +25,11 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 617,
+=======
+            "appointment_count": 604,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -49,7 +57,11 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 277,
+=======
+            "appointment_count": 272,
+>>>>>>> Stashed changes
             "internal_id": 30007,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -73,10 +85,17 @@
                 "address": "Storgatan 19, Klippan",
                 "business_hours": null
             },
+<<<<<<< Updated upstream
             "prochain_rdv": "2021-06-11 14:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 94,
+=======
+            "prochain_rdv": "2021-06-14 13:20:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 90,
+>>>>>>> Stashed changes
             "internal_id": "231",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -104,7 +123,11 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 277,
+=======
+            "appointment_count": 272,
+>>>>>>> Stashed changes
             "internal_id": 30009,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -131,7 +154,11 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 278,
+=======
+            "appointment_count": 272,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -143,6 +170,7 @@
         },
         {
             "departement": "12",
+<<<<<<< Updated upstream
             "nom": "MACC Hörby",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Horby/",
             "location": {
@@ -153,13 +181,29 @@
             },
             "metadata": {
                 "address": "Silvergatan 4, Hörby",
+=======
+            "nom": "MACC Hässleholm",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Hassleholm/",
+            "location": {
+                "longitude": 13.77676231700418,
+                "latitude": 56.155208336309215,
+                "city": "Hässleholm",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Östra Hagagatan 2, Hässleholm",
+>>>>>>> Stashed changes
                 "business_hours": null,
                 "phone_number": "010-330 04 43"
             },
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 1,
+=======
+            "appointment_count": 2,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -187,7 +231,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -242,7 +286,11 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 277,
+=======
+            "appointment_count": 272,
+>>>>>>> Stashed changes
             "internal_id": 30008,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -270,7 +318,11 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 277,
+=======
+            "appointment_count": 272,
+>>>>>>> Stashed changes
             "internal_id": 31153,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -310,6 +362,33 @@
         },
         {
             "departement": "12",
+            "nom": "Vaccinova Eslöv",
+            "url": "https://bokning.mittvaccin.se/klinik/2022",
+            "location": {
+                "longitude": 13.303797540331134,
+                "latitude": 55.84018749196131,
+                "city": "Eslöv",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Norregatan 6, Eslöv",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-06-10 14:35:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "2022",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
             "nom": "Victoria Vård och Hälsa Kalkbrottet, Limhamn",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Victoria-Vard-och-Halsa-Kalkbrottet-Limhamn/",
             "location": {
@@ -326,7 +405,11 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 274,
+=======
+            "appointment_count": 272,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -354,7 +437,11 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 277,
+=======
+            "appointment_count": 272,
+>>>>>>> Stashed changes
             "internal_id": 30011,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -785,6 +872,7 @@
         },
         {
             "departement": "12",
+<<<<<<< Updated upstream
             "nom": "MACC Hässleholm",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Hassleholm/",
             "location": {
@@ -795,6 +883,18 @@
             },
             "metadata": {
                 "address": "Östra Hagagatan 2, Hässleholm",
+=======
+            "nom": "MACC Hörby",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Horby/",
+            "location": {
+                "longitude": 13.685091759872158,
+                "latitude": 55.86245628529676,
+                "city": "Hörby",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Silvergatan 4, Hörby",
+>>>>>>> Stashed changes
                 "business_hours": null,
                 "phone_number": "010-330 04 43"
             },
@@ -1381,33 +1481,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2025",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Vaccinova Eslöv",
-            "url": "https://bokning.mittvaccin.se/klinik/2022",
-            "location": {
-                "longitude": 13.303797540331134,
-                "latitude": 55.84018749196131,
-                "city": "Eslöv",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Norregatan 6, Eslöv",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2022",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
