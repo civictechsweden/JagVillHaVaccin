@@ -27,7 +27,8 @@ class VMD(object):
 
         region_url = next(
             (region['1177_url']
-             for region in regions if region['code'] == region_number), None)
+             for region in regions if region['code'] == int(region_number)),
+            None)
 
         region_centers = [
             center for center in centers if center['region'] == region_number
