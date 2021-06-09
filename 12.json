@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-09 09:37:35.870874+02:00",
+    "last_updated": "2021-06-09 10:26:22.629857+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 80,
+            "appointment_count": 54,
             "internal_id": 30007,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +49,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 80,
+            "appointment_count": 54,
             "internal_id": 30009,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -76,7 +76,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 559,
+            "appointment_count": 479,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -98,34 +98,6 @@
             },
             "metadata": {
                 "address": "Östra Hagagatan 2, Hässleholm",
-                "business_hours": null,
-                "phone_number": "010-330 04 43"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MACC",
-            "type": "vaccination-center",
-            "appointment_count": 22,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "MACC Svalöv",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Svalov/",
-            "location": {
-                "longitude": 13.108292309388082,
-                "latitude": 55.912696847709256,
-                "city": "Svalöv",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Herrevadsgatan 10A, Svalöv",
                 "business_hours": null,
                 "phone_number": "010-330 04 43"
             },
@@ -159,7 +131,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 185,
+            "appointment_count": 129,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -187,7 +159,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 80,
+            "appointment_count": 54,
             "internal_id": 30008,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -215,8 +187,35 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 80,
+            "appointment_count": 54,
             "internal_id": 31153,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccinova Eslöv",
+            "url": "https://bokning.mittvaccin.se/klinik/2022",
+            "location": {
+                "longitude": 13.303797540331134,
+                "latitude": 55.84018749196131,
+                "city": "Eslöv",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Norregatan 6, Eslöv",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-06-11 11:35:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "2022",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -243,7 +242,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 526,
+            "appointment_count": 455,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -271,7 +270,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 80,
+            "appointment_count": 54,
             "internal_id": 30011,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -868,6 +867,34 @@
         },
         {
             "departement": "12",
+            "nom": "MACC Svalöv",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Svalov/",
+            "location": {
+                "longitude": 13.108292309388082,
+                "latitude": 55.912696847709256,
+                "city": "Svalöv",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Herrevadsgatan 10A, Svalöv",
+                "business_hours": null,
+                "phone_number": "010-330 04 43"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MACC",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
             "nom": "MACC Östra Göinge",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Ostra-Goinge/",
             "location": {
@@ -1381,33 +1408,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2025",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Vaccinova Eslöv",
-            "url": "https://bokning.mittvaccin.se/klinik/2022",
-            "location": {
-                "longitude": 13.303797540331134,
-                "latitude": 55.84018749196131,
-                "city": "Eslöv",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Norregatan 6, Eslöv",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2022",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
