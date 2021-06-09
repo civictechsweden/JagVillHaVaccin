@@ -1,12 +1,17 @@
 {
     "version": 1,
+<<<<<<< Updated upstream
     "last_updated": "2021-06-09 16:09:55.984697+02:00",
+=======
+    "last_updated": "2021-06-09 16:24:17.051115+02:00",
+>>>>>>> Stashed changes
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "14",
             "nom": "Närhälsan Bäckefors Dalslands Sjukhus",
             "url": null,
+<<<<<<< Updated upstream
             "location": {
                 "longitude": "",
                 "latitude": "",
@@ -35,20 +40,23 @@
             "departement": "14",
             "nom": "Närhälsan Mariestad vårdcentral, Mariestad",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Mariestad-vardcentral-Mariestad/",
+=======
+>>>>>>> Stashed changes
             "location": {
-                "longitude": 13.795835210967395,
-                "latitude": 58.7051137944602,
-                "city": "Mariestad",
-                "cp": "54245"
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
             },
             "metadata": {
-                "address": "Lockerudsvägen 12, 542 45, Mariestad",
+                "address": "",
                 "business_hours": null,
-                "phone_number": "0501-627 50"
+                "phone_number": ""
             },
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 141,
             "internal_id": null,
             "vaccine_type": null,
@@ -78,6 +86,9 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 2,
+=======
+            "appointment_count": 182,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -89,23 +100,27 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidaholm-vardcentral-Tidaholm/",
+            "nom": "Närhälsan Mariestad vårdcentral, Mariestad",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Mariestad-vardcentral-Mariestad/",
             "location": {
-                "longitude": 13.956163123936285,
-                "latitude": 58.17816034620173,
-                "city": "Tidaholm",
-                "cp": "52230"
+                "longitude": 13.795835210967395,
+                "latitude": 58.7051137944602,
+                "city": "Mariestad",
+                "cp": "54245"
             },
             "metadata": {
-                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
+                "address": "Lockerudsvägen 12, 542 45, Mariestad",
                 "business_hours": null,
-                "phone_number": "0502-180 11"
+                "phone_number": "0501-627 50"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 2,
+=======
+            "appointment_count": 133,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -117,6 +132,7 @@
         },
         {
             "departement": "14",
+<<<<<<< Updated upstream
             "nom": "Vaccinationsmottagning Covid 19 Skövde, Skövde",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsmottagning-Covid-19-Skovde-Skovde/",
             "location": {
@@ -129,11 +145,29 @@
                 "address": "Lövängsvägen 1, 541 42, Skövde",
                 "business_hours": null,
                 "phone_number": "0500-49 33 93"
+=======
+            "nom": "Närhälsan Stenstorp vårdcentral, Stenstorp",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stenstorp-vardcentral-Stenstorp/",
+            "location": {
+                "longitude": 13.717400041889025,
+                "latitude": 58.273721072294435,
+                "city": "Falköping",
+                "cp": "52160"
+            },
+            "metadata": {
+                "address": "Storgatan 14 A, 521 60, Stenstorp",
+                "business_hours": null,
+                "phone_number": "0500-47 29 50"
+>>>>>>> Stashed changes
             },
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 14,
+=======
+            "appointment_count": 2,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -6577,6 +6611,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidaholm-vardcentral-Tidaholm/",
+            "location": {
+                "longitude": 13.956163123936285,
+                "latitude": 58.17816034620173,
+                "city": "Tidaholm",
+                "cp": "52230"
+            },
+            "metadata": {
+                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
+                "business_hours": null,
+                "phone_number": "0502-180 11"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
