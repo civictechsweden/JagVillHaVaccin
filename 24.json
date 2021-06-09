@@ -1,37 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-06-09 14:04:18.141862+02:00",
+    "last_updated": "2021-06-09 14:32:48.921759+02:00",
     "last_scrap": [],
-    "centres_disponibles": [
-        {
-            "departement": "24",
-            "nom": "Skellefteå -",
-            "url": "https://www.vaccina.se/covidvaccin/vasterbotten/tidsbokning/#/service",
-            "location": {
-                "longitude": 20.9456521,
-                "latitude": 64.7500814,
-                "city": "Skellefteå",
-                "cp": "93131"
-            },
-            "metadata": {
-                "address": "Nygatan 50, 931 31 Skellefteå",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-06-15 11:30:00",
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": 30617,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        }
-    ],
+    "centres_disponibles": [],
     "centres_indisponibles": [
         {
             "departement": "24",
@@ -837,6 +808,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Skellefteå -",
+            "url": "https://www.vaccina.se/covidvaccin/vasterbotten/tidsbokning/#/service",
+            "location": {
+                "longitude": 20.9456521,
+                "latitude": 64.7500814,
+                "city": "Skellefteå",
+                "cp": "93131"
+            },
+            "metadata": {
+                "address": "Nygatan 50, 931 31 Skellefteå",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": 30617,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
