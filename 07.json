@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-09 17:43:21.402197+02:00",
+    "last_updated": "2021-06-09 18:20:41.308840+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-06-12 09:35:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 158,
+            "appointment_count": 156,
             "internal_id": 29997,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,10 +46,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-15 09:40:00",
+            "prochain_rdv": "2021-06-12 15:35:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 76,
+            "appointment_count": 78,
             "internal_id": 29999,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -74,39 +74,11 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-10 09:35:00",
+            "prochain_rdv": "2021-06-10 09:45:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 195,
+            "appointment_count": 192,
             "internal_id": 30000,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "07",
-            "nom": "Lillgatan 1, lokal ovan Åseda bilservice AB",
-            "url": "https://www.1177.se/Kronoberg/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-kronoberg/",
-            "location": {
-                "longitude": 15.3520379,
-                "latitude": 57.1664611,
-                "city": "Uppvidinge",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Lillgatan 1, lokal ovan Åseda bilservice AB",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-06-22 16:00:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "1556",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -133,7 +105,7 @@
             "prochain_rdv": "2021-06-15 14:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 56,
+            "appointment_count": 55,
             "internal_id": "2052",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -158,10 +130,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-16 13:40:00",
+            "prochain_rdv": "2021-06-10 13:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 46,
+            "appointment_count": 48,
             "internal_id": "1557",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -189,7 +161,7 @@
             "prochain_rdv": "2021-06-10 09:08:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 4074,
+            "appointment_count": 4053,
             "internal_id": "2063",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -201,6 +173,34 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "07",
+            "nom": "Lillgatan 1, lokal ovan Åseda bilservice AB",
+            "url": "https://www.1177.se/Kronoberg/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-kronoberg/",
+            "location": {
+                "longitude": 15.3520379,
+                "latitude": 57.1664611,
+                "city": "Uppvidinge",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Lillgatan 1, lokal ovan Åseda bilservice AB",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1556",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "07",
             "nom": "Nibehallen",
