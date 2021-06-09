@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-09 13:48:33.654638+02:00",
+    "last_updated": "2021-06-09 14:09:12.088817+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-06-29 09:31:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 888,
+            "appointment_count": 894,
             "internal_id": "1321",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,67 +46,11 @@
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-06-28 09:12:00",
+            "prochain_rdv": "2021-06-28 08:51:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 4602,
+            "appointment_count": 3514,
             "internal_id": "1514",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Vaccinationsenhet Husumgården",
-            "url": "https://bokning.mittvaccin.se/klinik/1327",
-            "location": {
-                "longitude": 19.16616919246284,
-                "latitude": 63.335090194766195,
-                "city": "Örnsköldsvik",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Blåsåsen 2, Husum",
-                "business_hours": null,
-                "phone_number": "0611-804 00"
-            },
-            "prochain_rdv": "2021-06-17 13:36:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 13,
-            "internal_id": "1327",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Vaccinationsenhet Kramfors",
-            "url": "https://bokning.mittvaccin.se/klinik/1323",
-            "location": {
-                "longitude": 17.771429954085686,
-                "latitude": 62.929766178980955,
-                "city": "Kramfors",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Folkets park, Parkgatan 14",
-                "business_hours": null,
-                "phone_number": "0611-804 00"
-            },
-            "prochain_rdv": "2021-06-10 09:25:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 162,
-            "internal_id": "1323",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -130,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-06-09 13:50:00",
+            "prochain_rdv": "2021-06-09 14:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 400,
+            "appointment_count": 398,
             "internal_id": "1325",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -203,6 +147,34 @@
         },
         {
             "departement": "22",
+            "nom": "Vaccinationsenhet Husumgården",
+            "url": "https://bokning.mittvaccin.se/klinik/1327",
+            "location": {
+                "longitude": 19.16616919246284,
+                "latitude": 63.335090194766195,
+                "city": "Örnsköldsvik",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Blåsåsen 2, Husum",
+                "business_hours": null,
+                "phone_number": "0611-804 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1327",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
             "nom": "Vaccinationsenhet Härnösand",
             "url": "https://bokning.mittvaccin.se/klinik/1309",
             "location": {
@@ -249,6 +221,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "910",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Kramfors",
+            "url": "https://bokning.mittvaccin.se/klinik/1323",
+            "location": {
+                "longitude": 17.771429954085686,
+                "latitude": 62.929766178980955,
+                "city": "Kramfors",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Folkets park, Parkgatan 14",
+                "business_hours": null,
+                "phone_number": "0611-804 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1323",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
