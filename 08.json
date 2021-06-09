@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-09 15:16:05.036501+02:00",
+    "last_updated": "2021-06-09 15:53:23.254592+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,36 +21,8 @@
             "prochain_rdv": "2021-06-17 08:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 28,
+            "appointment_count": 165,
             "internal_id": "521",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Cityläkarna i Nybro",
-            "url": "https://bokning.mittvaccin.se/klinik/525",
-            "location": {
-                "longitude": 15.91011942888134,
-                "latitude": 56.74309528394747,
-                "city": "Nybro",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Stora Nygatan 15, Nybro",
-                "business_hours": null,
-                "phone_number": "0481-49 07 00"
-            },
-            "prochain_rdv": "2021-06-17 14:10:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 8,
-            "internal_id": "525",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -77,7 +49,7 @@
             "prochain_rdv": "2021-06-16 10:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 62,
+            "appointment_count": 46,
             "internal_id": "519",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -130,10 +102,10 @@
                 "business_hours": null,
                 "phone_number": "0486-412 30"
             },
-            "prochain_rdv": "2021-06-17 09:20:00",
+            "prochain_rdv": "2021-06-17 09:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 197,
+            "appointment_count": 172,
             "internal_id": "493",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -173,34 +145,6 @@
         },
         {
             "departement": "08",
-            "nom": "Vaccinationscentral covid-19 Borgholm",
-            "url": "https://bokning.mittvaccin.se/klinik/2056",
-            "location": {
-                "longitude": 16.64780260606582,
-                "latitude": 56.87868831899666,
-                "city": "Borgholm",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Villagatan 4, Borgholm",
-                "business_hours": null,
-                "phone_number": "0480-844 44"
-            },
-            "prochain_rdv": "2021-06-15 14:24:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 8,
-            "internal_id": "2056",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
             "nom": "Vaccinationscentral covid-19 Kalmar",
             "url": "https://bokning.mittvaccin.se/klinik/1546",
             "location": {
@@ -214,10 +158,10 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-06-17 08:36:00",
+            "prochain_rdv": "2021-06-17 08:38:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1370,
+            "appointment_count": 1362,
             "internal_id": "1546",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -242,7 +186,7 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-06-15 15:12:00",
+            "prochain_rdv": "2021-06-14 13:48:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 1032,
@@ -270,7 +214,7 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-06-15 13:57:00",
+            "prochain_rdv": "2021-06-09 16:06:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 958,
@@ -417,6 +361,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "490",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Cityläkarna i Nybro",
+            "url": "https://bokning.mittvaccin.se/klinik/525",
+            "location": {
+                "longitude": 15.91011942888134,
+                "latitude": 56.74309528394747,
+                "city": "Nybro",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Stora Nygatan 15, Nybro",
+                "business_hours": null,
+                "phone_number": "0481-49 07 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "525",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -781,6 +753,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "498",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Vaccinationscentral covid-19 Borgholm",
+            "url": "https://bokning.mittvaccin.se/klinik/2056",
+            "location": {
+                "longitude": 16.64780260606582,
+                "latitude": 56.87868831899666,
+                "city": "Borgholm",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Villagatan 4, Borgholm",
+                "business_hours": null,
+                "phone_number": "0480-844 44"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2056",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
