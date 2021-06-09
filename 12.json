@@ -1,6 +1,10 @@
 {
     "version": 1,
+<<<<<<< Updated upstream
     "last_updated": "2021-06-09 18:05:56.819044+02:00",
+=======
+    "last_updated": "2021-06-09 18:26:34.652091+02:00",
+>>>>>>> Stashed changes
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +25,11 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 493,
+=======
+            "appointment_count": 473,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -49,7 +57,11 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 238,
+=======
+            "appointment_count": 228,
+>>>>>>> Stashed changes
             "internal_id": 30007,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -73,10 +85,17 @@
                 "address": "Storgatan 19, Klippan",
                 "business_hours": null
             },
+<<<<<<< Updated upstream
             "prochain_rdv": "2021-06-14 15:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 248,
+=======
+            "prochain_rdv": "2021-06-14 13:50:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 232,
+>>>>>>> Stashed changes
             "internal_id": "231",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -104,8 +123,40 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 238,
+=======
+            "appointment_count": 228,
+>>>>>>> Stashed changes
             "internal_id": 30009,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Kronans Apotek Båstad",
+            "url": "https://bokning.mittvaccin.se/klinik/1535",
+            "location": {
+                "longitude": 12.837022713078733,
+                "latitude": 56.433153288605794,
+                "city": "Båstad",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Kyrkogatan 21, Båstad",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-06-16 10:40:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 22,
+            "internal_id": "1535",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -131,7 +182,11 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 237,
+=======
+            "appointment_count": 227,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -159,7 +214,11 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 560,
+=======
+            "appointment_count": 555,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -187,7 +246,94 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 1120,
+=======
+            "appointment_count": 1117,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Osby",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Osby/",
+            "location": {
+                "longitude": 13.991146252719732,
+                "latitude": 56.380297879671815,
+                "city": "Osby",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Fabriksgatan 7, Osby",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": "MACC",
+            "type": "vaccination-center",
+            "appointment_count": 194,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Sjöbo",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Sjobo/",
+            "location": {
+                "longitude": 13.693634123512222,
+                "latitude": 55.635076880844345,
+                "city": "Sjöbo",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Industrigatan 1C, Sjöbo",
+                "business_hours": null,
+                "phone_number": "073-143 84 58"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MACC",
+            "type": "vaccination-center",
+            "appointment_count": 194,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Skurup",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Skurup/",
+            "location": {
+                "longitude": 13.503898394470399,
+                "latitude": 55.475824351719375,
+                "city": "Skurup",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Vaktgatan 10, Skurup",
+                "business_hours": null,
+                "phone_number": "010-330 04 43"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MACC",
+            "type": "vaccination-center",
+            "appointment_count": 198,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -215,7 +361,11 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 2,
+=======
+            "appointment_count": 202,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -227,22 +377,26 @@
         },
         {
             "departement": "12",
-            "nom": "MACC Ängelholm",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Angelholm/",
+            "nom": "MACC Östra Göinge",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Ostra-Goinge/",
             "location": {
-                "longitude": 12.8446722534569,
-                "latitude": 56.28698187117768,
-                "city": "Ängelholm",
+                "longitude": 14.07612809119283,
+                "latitude": 56.25910974656744,
+                "city": "Östra Göinge",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Stjernsvärds allé 51, Ängelholm",
+                "address": "Pappersbruksvägen 4, Broby",
                 "business_hours": null
             },
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 1,
+=======
+            "appointment_count": 200,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -270,7 +424,11 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 238,
+=======
+            "appointment_count": 228,
+>>>>>>> Stashed changes
             "internal_id": 30008,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -298,7 +456,11 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 238,
+=======
+            "appointment_count": 228,
+>>>>>>> Stashed changes
             "internal_id": 31153,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -354,7 +516,11 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 268,
+=======
+            "appointment_count": 253,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -382,7 +548,11 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 238,
+=======
+            "appointment_count": 228,
+>>>>>>> Stashed changes
             "internal_id": 30011,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -648,34 +818,6 @@
         },
         {
             "departement": "12",
-            "nom": "Kronans Apotek Båstad",
-            "url": "https://bokning.mittvaccin.se/klinik/1535",
-            "location": {
-                "longitude": 12.837022713078733,
-                "latitude": 56.433153288605794,
-                "city": "Båstad",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kyrkogatan 21, Båstad",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1535",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Kronans Apotek Höör",
             "url": "https://bokning.mittvaccin.se/klinik/1538",
             "location": {
@@ -813,6 +955,7 @@
         },
         {
             "departement": "12",
+<<<<<<< Updated upstream
             "nom": "MACC Osby",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Osby/",
             "location": {
@@ -898,14 +1041,18 @@
             "departement": "12",
             "nom": "MACC Östra Göinge",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Ostra-Goinge/",
+=======
+            "nom": "MACC Ängelholm",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Angelholm/",
+>>>>>>> Stashed changes
             "location": {
-                "longitude": 14.07612809119283,
-                "latitude": 56.25910974656744,
-                "city": "Östra Göinge",
+                "longitude": 12.8446722534569,
+                "latitude": 56.28698187117768,
+                "city": "Ängelholm",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Pappersbruksvägen 4, Broby",
+                "address": "Stjernsvärds allé 51, Ängelholm",
                 "business_hours": null
             },
             "prochain_rdv": null,
