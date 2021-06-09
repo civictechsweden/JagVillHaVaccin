@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-09 12:43:55.249998+02:00",
+    "last_updated": "2021-06-09 13:05:39.981084+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-06-10 10:27:00",
+            "prochain_rdv": "2021-06-18 15:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 52,
+            "appointment_count": 952,
             "internal_id": "1321",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,39 +46,11 @@
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-06-14 11:48:00",
+            "prochain_rdv": "2021-06-21 13:36:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 3572,
+            "appointment_count": 2069,
             "internal_id": "1514",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Vaccinationsenhet Fränsta",
-            "url": "https://bokning.mittvaccin.se/klinik/926",
-            "location": {
-                "longitude": 16.166493074132607,
-                "latitude": 62.500909094703054,
-                "city": "Ånge",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Mårtensvägen 2, Fränsta",
-                "business_hours": null,
-                "phone_number": "0611-804 00"
-            },
-            "prochain_rdv": "2021-06-21 13:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 14,
-            "internal_id": "926",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -102,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-06-17 11:48:00",
+            "prochain_rdv": "2021-06-17 12:48:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 78,
+            "appointment_count": 39,
             "internal_id": "1327",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -130,10 +102,10 @@
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-06-21 09:50:00",
+            "prochain_rdv": "2021-06-21 13:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1820,
+            "appointment_count": 1358,
             "internal_id": "1309",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -161,7 +133,7 @@
             "prochain_rdv": "2021-06-09 13:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1148,
+            "appointment_count": 1042,
             "internal_id": "1323",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -186,10 +158,10 @@
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-06-22 10:21:00",
+            "prochain_rdv": "2021-06-22 14:06:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1910,
+            "appointment_count": 998,
             "internal_id": "1291",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -214,10 +186,10 @@
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-06-17 09:40:00",
+            "prochain_rdv": "2021-06-17 10:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1147,
+            "appointment_count": 1054,
             "internal_id": "1325",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -229,6 +201,34 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Fränsta",
+            "url": "https://bokning.mittvaccin.se/klinik/926",
+            "location": {
+                "longitude": 16.166493074132607,
+                "latitude": 62.500909094703054,
+                "city": "Ånge",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Mårtensvägen 2, Fränsta",
+                "business_hours": null,
+                "phone_number": "0611-804 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "926",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "22",
             "nom": "Vaccinationsenhet Församlingshemmet Björna",
