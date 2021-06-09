@@ -37,6 +37,9 @@ def get_id_from_url(platform_url):
 
 
 def get_center_info(center_url):
+    with open('regions.json') as json_file:
+        regions = json.load(json_file)
+
     content = get_preloaded_state_content('{}{}'.format(BASE_URL, center_url))
 
     card = content['Card']
@@ -56,9 +59,18 @@ def get_center_info(center_url):
     platform_url = next(iter(covid_vaccination_services or []), None)
     platform = get_platform(platform_url)
 
+    region_code = [
+        region['code'] for region in regions
+        if region['1177_name'] == card.get('County')
+    ]
+    if len(region_code) > 0:
+        region_code = str(region_code[0])
+    else:
+        region_code = None
+
     center_info = {
         'name': card.get('DisplayName'),
-        'region': card.get('CountyCode'),
+        'region': region_code,
         '1177_url': url,
         'platform_url': platform_url,
         'location': {

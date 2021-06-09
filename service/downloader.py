@@ -26,9 +26,9 @@ class Downloader(object):
                 return brotli.decompress(response.read())
 
             return response.read()
-        except urllib.error.Error as err:
+        except urllib.error.HTTPError as err:
             print(f'ERROR {err.code}: Could not download {url}.')
-            if (err.code == 429 or err.code == 60):
+            if (err.code == 429):
                 print('Retrying in 3 seconds')
                 time.sleep(3)
                 return Downloader.get(url)

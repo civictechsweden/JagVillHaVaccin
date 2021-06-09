@@ -71,6 +71,12 @@ def get_id_from_url(url):
     return id
 
 
+def get_url_from_id(id):
+    return 'https://bokning.mittvaccin.se/klinik/{}'.format(id)
+
+def normalise_url(url):
+    return get_url_from_id(get_id_from_url(url))
+
 def date_from(slotDate, slotTime):
     struct = time.strptime('{}{}'.format(slotDate, slotTime), "%y%m%d%H:%M")
     return datetime.fromtimestamp(mktime(struct))

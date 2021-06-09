@@ -44,6 +44,8 @@ class VMD(object):
 
             if center['platform'] == 'MittVaccin':
                 url = center['platform_url']
+                url = mittvaccin.normalise_url(url)
+
                 next_time_and_slots = mittvaccin.get_next_time_and_slots(
                     center['platform_id'], Dater.today(), Dater.in_3_months())
 
@@ -98,7 +100,11 @@ class VMD(object):
                     prochain_rdv = next_time_and_slots['next']
                     appointment_count = next_time_and_slots['amount_of_slots']
 
-            url = region_url
+            if center['region'] in ['10', '06']:
+                print(
+                    'Replacing URL to satisfy request from Blekinge and Jönköping'
+                )
+                url = region_url
 
             id = center[
                 'internal_id'] if 'internal_id' in center else center.get(

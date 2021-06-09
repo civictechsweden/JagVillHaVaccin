@@ -37,7 +37,8 @@ class Scraper(object):
         centers_json = []
 
         for region in regions:
-            print(region)
+            print('Fetching centers from manual list for region {}'.format(
+                region))
             with open('centers/' + region + '.json') as json_file:
                 region_centers = json.load(json_file)
 
@@ -93,16 +94,16 @@ class Scraper(object):
                 short_url = url.replace(elva77.BASE_URL + '/Vastra-Gotaland',
                                         '')
 
-                print('1177:    ' + short_url)
+                print('Center is on 1177:    ' + short_url)
 
                 if url not in already_fetched_urls:
                     center_json = elva77.get_center_info(short_url)
 
                 else:
-                    print('Not fetching this one: {}'.format(url))
+                    print('Center already fetched: {}'.format(url))
 
             else:
-                print('Not 1177:    ' + url)
+                print('Center is not on 1177:    ' + url)
                 center_json = elva77.create_unlisted_center(
                     vgr.convert_center(center))
 
