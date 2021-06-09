@@ -1,12 +1,37 @@
 {
     "version": 1,
-<<<<<<< Updated upstream
-    "last_updated": "2021-06-09 16:11:03.208708+02:00",
-=======
-    "last_updated": "2021-06-09 16:24:53.114201+02:00",
->>>>>>> Stashed changes
+    "last_updated": "2021-06-09 16:54:56.549692+02:00",
     "last_scrap": [],
-    "centres_disponibles": [],
+    "centres_disponibles": [
+        {
+            "departement": "18",
+            "nom": "Vaccinationsmottagningen Covid 19 Karlskoga",
+            "url": "https://bokning.mittvaccin.se/klinik/1349",
+            "location": {
+                "longitude": 14.492074346216494,
+                "latitude": 59.313897585665536,
+                "city": "Karlskoga",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Skrantahöjdsvägen 42, hus 10, Karlskoga",
+                "business_hours": null,
+                "phone_number": "019-602 80 00"
+            },
+            "prochain_rdv": "2021-06-09 17:25:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "1349",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        }
+    ],
     "centres_indisponibles": [
         {
             "departement": "18",
@@ -28,34 +53,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "1350",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "18",
-            "nom": "Vaccinationsmottagningen Covid 19 Karlskoga",
-            "url": "https://bokning.mittvaccin.se/klinik/1349",
-            "location": {
-                "longitude": 14.492074346216494,
-                "latitude": 59.313897585665536,
-                "city": "Karlskoga",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Skrantahöjdsvägen 42, hus 10, Karlskoga",
-                "business_hours": null,
-                "phone_number": "019-602 80 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1349",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
