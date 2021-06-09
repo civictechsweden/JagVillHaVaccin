@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-09 10:26:22.629857+02:00",
+    "last_updated": "2021-06-09 10:53:38.167922+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 54,
+            "appointment_count": 38,
             "internal_id": 30007,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +49,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 54,
+            "appointment_count": 38,
             "internal_id": 30009,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -76,35 +76,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 479,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "MACC Hässleholm",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Hassleholm/",
-            "location": {
-                "longitude": 13.77676231700418,
-                "latitude": 56.155208336309215,
-                "city": "Hässleholm",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Östra Hagagatan 2, Hässleholm",
-                "business_hours": null,
-                "phone_number": "010-330 04 43"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MACC",
-            "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 451,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -131,7 +103,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 129,
+            "appointment_count": 106,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -159,7 +131,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 54,
+            "appointment_count": 38,
             "internal_id": 30008,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -187,35 +159,8 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 54,
+            "appointment_count": 38,
             "internal_id": 31153,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Vaccinova Eslöv",
-            "url": "https://bokning.mittvaccin.se/klinik/2022",
-            "location": {
-                "longitude": 13.303797540331134,
-                "latitude": 55.84018749196131,
-                "city": "Eslöv",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Norregatan 6, Eslöv",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-06-11 11:35:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "2022",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -242,7 +187,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 455,
+            "appointment_count": 425,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -270,7 +215,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 54,
+            "appointment_count": 38,
             "internal_id": 30011,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -282,6 +227,34 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "12",
+            "nom": "Akutmottagning Trelleborg",
+            "url": "https://bokning.mittvaccin.se/klinik/230",
+            "location": {
+                "longitude": 13.161081419691643,
+                "latitude": 55.3812931778886,
+                "city": "Trelleborg",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Frans Malmrosgatan 10, Trelleborg",
+                "business_hours": null,
+                "phone_number": "0410-550 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "230",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "12",
             "nom": "Berga Läkarhus, Helsingborg",
@@ -357,34 +330,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "231",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Endoskopimottagning Trelleborg",
-            "url": "https://bokning.mittvaccin.se/klinik/230",
-            "location": {
-                "longitude": 13.16112078422732,
-                "latitude": 55.380467354373934,
-                "city": "Trelleborg",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Hedvägen 46, Trelleborg",
-                "business_hours": null,
-                "phone_number": "0410-552 50"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "230",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -563,34 +508,6 @@
         },
         {
             "departement": "12",
-            "nom": "Kirurgimottagning Landskrona",
-            "url": "https://bokning.mittvaccin.se/klinik/2047",
-            "location": {
-                "longitude": 12.841158725067878,
-                "latitude": 55.87755327591269,
-                "city": "Landskrona",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Vattenverksallén 15, Landskrona",
-                "business_hours": null,
-                "phone_number": "0418-45 41 60"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2047",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Kronans Apotek Båstad",
             "url": "https://bokning.mittvaccin.se/klinik/1535",
             "location": {
@@ -746,6 +663,62 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2048",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Logopedmottagning Landskrona",
+            "url": "https://bokning.mittvaccin.se/klinik/2047",
+            "location": {
+                "longitude": 12.841158725067878,
+                "latitude": 55.87755327591269,
+                "city": "Landskrona",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Vattenverksallén 15, Landskrona",
+                "business_hours": null,
+                "phone_number": "0418-45 42 88"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2047",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Hässleholm",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Hassleholm/",
+            "location": {
+                "longitude": 13.77676231700418,
+                "latitude": 56.155208336309215,
+                "city": "Hässleholm",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Östra Hagagatan 2, Hässleholm",
+                "business_hours": null,
+                "phone_number": "010-330 04 43"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MACC",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -1408,6 +1381,33 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2025",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccinova Eslöv",
+            "url": "https://bokning.mittvaccin.se/klinik/2022",
+            "location": {
+                "longitude": 13.303797540331134,
+                "latitude": 55.84018749196131,
+                "city": "Eslöv",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Norregatan 6, Eslöv",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2022",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
