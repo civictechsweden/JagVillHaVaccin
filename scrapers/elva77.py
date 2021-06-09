@@ -64,7 +64,9 @@ def get_center_info(center_url):
         if region['1177_name'] == card.get('County')
     ]
     if len(region_code) > 0:
-        region_code = str(region_code[0])
+        region_code = region_code[0]
+        region_code = str(
+            region_code) if region_code > 9 else "0" + str(region_code)
     else:
         region_code = None
 
