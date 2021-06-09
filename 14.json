@@ -1,57 +1,28 @@
 {
     "version": 1,
-<<<<<<< Updated upstream
-    "last_updated": "2021-06-09 12:04:03.251751+02:00",
+    "last_updated": "2021-06-09 12:45:39.006169+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "14",
-            "nom": "Närhälsan Dingle Lantbruksskolan",
-            "url": null,
+            "nom": "Kronans Apotek Mariestad Vårdcentral",
+            "url": "https://bokning.mittvaccin.se/klinik/2079",
             "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
+                "longitude": 13.796178135977993,
+                "latitude": 58.705451405375015,
+                "city": "Mariestad",
+                "cp": 0
             },
             "metadata": {
                 "address": "",
                 "business_hours": null,
-                "phone_number": ""
+                "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": null,
-            "plateforme": "1177",
+            "prochain_rdv": "2021-06-14 11:40:00",
+            "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tranemo-vardcentral-Tranemo/",
-            "location": {
-                "longitude": 13.346591812509288,
-                "latitude": 57.48063225486268,
-                "city": "Tranemo",
-                "cp": "51434"
-            },
-            "metadata": {
-                "address": "Storgatan 42, 514 34, Tranemo",
-                "business_hours": null,
-                "phone_number": "0325-472 10"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
+            "internal_id": "2079",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -61,11 +32,6 @@
             "gid": null
         }
     ],
-=======
-    "last_updated": "2021-06-09 12:17:09.941371+02:00",
-    "last_scrap": [],
-    "centres_disponibles": [],
->>>>>>> Stashed changes
     "centres_indisponibles": [
         {
             "departement": "14",
@@ -2475,34 +2441,6 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek Mariestad Vårdcentral",
-            "url": "https://bokning.mittvaccin.se/klinik/2079",
-            "location": {
-                "longitude": 13.796178135977993,
-                "latitude": 58.705451405375015,
-                "city": "Mariestad",
-                "cp": 0
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2079",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Kronans Apotek Mölnlycke Centrum",
             "url": "https://bokning.mittvaccin.se/klinik/2095",
             "location": {
@@ -4455,6 +4393,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Dingle Lantbruksskolan",
+            "url": null,
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
