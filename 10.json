@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-09 11:45:33.831874+02:00",
+    "last_updated": "2021-06-09 11:58:34.244213+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-06-22 08:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 22,
+            "appointment_count": 21,
             "internal_id": "580",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -51,6 +51,34 @@
             "type": "vaccination-center",
             "appointment_count": 114,
             "internal_id": "591",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "10",
+            "nom": "Jämjö vårdcentral, Jämjö",
+            "url": null,
+            "location": {
+                "longitude": 15.833080809564901,
+                "latitude": 56.189211017141744,
+                "city": "Karlskrona",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Hammarbyvägen 6",
+                "business_hours": null,
+                "phone_number": "0455-73 56 00"
+            },
+            "prochain_rdv": "2021-06-16 13:45:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "575",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -102,10 +130,10 @@
                 "business_hours": null,
                 "phone_number": "0455-73 55 00"
             },
-            "prochain_rdv": "2021-06-24 15:10:00",
+            "prochain_rdv": "2021-06-10 10:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 7,
+            "appointment_count": 8,
             "internal_id": "584",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -158,10 +186,10 @@
                 "business_hours": null,
                 "phone_number": "0455-73 57 20"
             },
-            "prochain_rdv": "2021-06-23 10:30:00",
+            "prochain_rdv": "2021-06-23 10:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 50,
+            "appointment_count": 49,
             "internal_id": "587",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -186,10 +214,10 @@
                 "business_hours": null,
                 "phone_number": "0454-73 31 00"
             },
-            "prochain_rdv": "2021-06-24 13:00:00",
+            "prochain_rdv": "2021-06-24 13:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 7,
+            "appointment_count": 6,
             "internal_id": "578",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -214,7 +242,7 @@
                 "business_hours": null,
                 "phone_number": "0454-919 99"
             },
-            "prochain_rdv": "2021-06-22 10:10:00",
+            "prochain_rdv": "2021-06-22 10:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 43,
@@ -242,10 +270,10 @@
                 "business_hours": null,
                 "phone_number": "0457-73 14 00"
             },
-            "prochain_rdv": "2021-06-22 16:00:00",
+            "prochain_rdv": "2021-06-11 08:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 23,
+            "appointment_count": 33,
             "internal_id": "579",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -273,36 +301,8 @@
             "prochain_rdv": "2021-06-19 11:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 85,
+            "appointment_count": 89,
             "internal_id": "577",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "10",
-            "nom": "Sölvesborgs vårdcentral",
-            "url": null,
-            "location": {
-                "longitude": 14.583232678821236,
-                "latitude": 56.05609832639761,
-                "city": "Sölvesborg",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Markgatan 30",
-                "business_hours": null,
-                "phone_number": "0456-73 13 10"
-            },
-            "prochain_rdv": "2021-06-10 11:45:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "576",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -357,7 +357,7 @@
             "prochain_rdv": "2021-06-10 14:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 7,
+            "appointment_count": 6,
             "internal_id": "581",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -427,34 +427,6 @@
         },
         {
             "departement": "10",
-            "nom": "Jämjö vårdcentral, Jämjö",
-            "url": null,
-            "location": {
-                "longitude": 15.833080809564901,
-                "latitude": 56.189211017141744,
-                "city": "Karlskrona",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Hammarbyvägen 6",
-                "business_hours": null,
-                "phone_number": "0455-73 56 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "575",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "10",
             "nom": "Kungsmarkens vårdcentral, Karlskrona",
             "url": null,
             "location": {
@@ -501,6 +473,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "585",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "10",
+            "nom": "Sölvesborgs vårdcentral",
+            "url": null,
+            "location": {
+                "longitude": 14.583232678821236,
+                "latitude": 56.05609832639761,
+                "city": "Sölvesborg",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Markgatan 30",
+                "business_hours": null,
+                "phone_number": "0456-73 13 10"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "576",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
