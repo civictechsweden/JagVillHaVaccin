@@ -1,8 +1,148 @@
 {
     "version": 1,
-    "last_updated": "2021-06-10 12:56:33.173687+02:00",
+    "last_updated": "2021-06-10 13:46:57.189188+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Ale Torg",
+            "url": "https://bokning.mittvaccin.se/klinik/2096",
+            "location": {
+                "longitude": 12.044997375261856,
+                "latitude": 57.89219488653275,
+                "city": "Ale",
+                "cp": "44931"
+            },
+            "metadata": {
+                "address": "Ale Torg 7, 449 31, Nödinge",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-06-16 10:40:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 14,
+            "internal_id": "2096",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Herrljunga vårdcentral, Herrljunga",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Herrljunga-vardcentral-Herrljunga/",
+            "location": {
+                "longitude": 13.014756700887173,
+                "latitude": 58.07601692547374,
+                "city": "Herrljunga",
+                "cp": "52432"
+            },
+            "metadata": {
+                "address": "Horsbyvägen 16A, 524 32, Herrljunga",
+                "business_hours": null,
+                "phone_number": "0513-177 20"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Mariestad vårdcentral, Mariestad",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Mariestad-vardcentral-Mariestad/",
+            "location": {
+                "longitude": 13.795835210967395,
+                "latitude": 58.7051137944602,
+                "city": "Mariestad",
+                "cp": "54245"
+            },
+            "metadata": {
+                "address": "Lockerudsvägen 12, 542 45, Mariestad",
+                "business_hours": null,
+                "phone_number": "0501-627 50"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidaholm-vardcentral-Tidaholm/",
+            "location": {
+                "longitude": 13.956163123936285,
+                "latitude": 58.17816034620173,
+                "city": "Tidaholm",
+                "cp": "52230"
+            },
+            "metadata": {
+                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
+                "business_hours": null,
+                "phone_number": "0502-180 11"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 11,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tranemo-vardcentral-Tranemo/",
+            "location": {
+                "longitude": 13.346591812509288,
+                "latitude": 57.48063225486268,
+                "city": "Tranemo",
+                "cp": "51434"
+            },
+            "metadata": {
+                "address": "Storgatan 42, 514 34, Tranemo",
+                "business_hours": null,
+                "phone_number": "0325-472 10"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "14",
             "nom": "Skövde, Kungsgatan 22",
@@ -18,10 +158,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-17 08:55:00",
+            "prochain_rdv": "2021-06-17 09:50:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 84,
+            "appointment_count": 23,
             "internal_id": 30633,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2097,34 +2237,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Ale Torg",
-            "url": "https://bokning.mittvaccin.se/klinik/2096",
-            "location": {
-                "longitude": 12.044997375261856,
-                "latitude": 57.89219488653275,
-                "city": "Ale",
-                "cp": "44931"
-            },
-            "metadata": {
-                "address": "Ale Torg 7, 449 31, Nödinge",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2096",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -4961,34 +5073,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Herrljunga vårdcentral, Herrljunga",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Herrljunga-vardcentral-Herrljunga/",
-            "location": {
-                "longitude": 13.014756700887173,
-                "latitude": 58.07601692547374,
-                "city": "Herrljunga",
-                "cp": "52432"
-            },
-            "metadata": {
-                "address": "Horsbyvägen 16A, 524 32, Herrljunga",
-                "business_hours": null,
-                "phone_number": "0513-177 20"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Hjo vårdcentral, Hjo",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Hjo-vardcentral-Hjo/",
             "location": {
@@ -5569,34 +5653,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Mariestad vårdcentral, Mariestad",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Mariestad-vardcentral-Mariestad/",
-            "location": {
-                "longitude": 13.795835210967395,
-                "latitude": 58.7051137944602,
-                "city": "Mariestad",
-                "cp": "54245"
-            },
-            "metadata": {
-                "address": "Lockerudsvägen 12, 542 45, Mariestad",
-                "business_hours": null,
-                "phone_number": "0501-627 50"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -6557,34 +6613,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidaholm-vardcentral-Tidaholm/",
-            "location": {
-                "longitude": 13.956163123936285,
-                "latitude": 58.17816034620173,
-                "city": "Tidaholm",
-                "cp": "52230"
-            },
-            "metadata": {
-                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
-                "business_hours": null,
-                "phone_number": "0502-180 11"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Tidan vårdcentral, Tidan",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidan-vardcentral-Tidan/",
             "location": {
@@ -6717,34 +6745,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tranemo-vardcentral-Tranemo/",
-            "location": {
-                "longitude": 13.346591812509288,
-                "latitude": 57.48063225486268,
-                "city": "Tranemo",
-                "cp": "51434"
-            },
-            "metadata": {
-                "address": "Storgatan 42, 514 34, Tranemo",
-                "business_hours": null,
-                "phone_number": "0325-472 10"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
