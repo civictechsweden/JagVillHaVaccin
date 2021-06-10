@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-10 04:14:00.341581+02:00",
+    "last_updated": "2021-06-10 05:11:53.604654+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 191,
+            "appointment_count": 189,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -76,7 +76,7 @@
             "prochain_rdv": "2021-06-18 13:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 202,
+            "appointment_count": 201,
             "internal_id": "231",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -132,7 +132,7 @@
             "prochain_rdv": "2021-06-18 10:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 129,
+            "appointment_count": 130,
             "internal_id": "1535",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -214,7 +214,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 143,
+            "appointment_count": 142,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -242,7 +242,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 439,
+            "appointment_count": 440,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -353,7 +353,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 60,
+            "appointment_count": 59,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -435,7 +435,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 155,
+            "appointment_count": 153,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -589,6 +589,34 @@
     "centres_indisponibles": [
         {
             "departement": "12",
+            "nom": "Akutmottagning Trelleborg",
+            "url": "https://bokning.mittvaccin.se/klinik/230",
+            "location": {
+                "longitude": 13.161081419691643,
+                "latitude": 55.3812931778886,
+                "city": "Trelleborg",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Frans Malmrosgatan 10, Trelleborg",
+                "business_hours": null,
+                "phone_number": "0410-550 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "230",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
             "nom": "Doktor 24 Segevångsskolan",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Doktor-24-Segevangsskolan/",
             "location": {
@@ -609,34 +637,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Endoskopimottagning Trelleborg",
-            "url": "https://bokning.mittvaccin.se/klinik/230",
-            "location": {
-                "longitude": 13.16112078422732,
-                "latitude": 55.380467354373934,
-                "city": "Trelleborg",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Hedvägen 46, Trelleborg",
-                "business_hours": null,
-                "phone_number": "0410-552 50"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "230",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -813,34 +813,6 @@
         },
         {
             "departement": "12",
-            "nom": "Kirurgimottagning Landskrona",
-            "url": "https://bokning.mittvaccin.se/klinik/2047",
-            "location": {
-                "longitude": 12.841158725067878,
-                "latitude": 55.87755327591269,
-                "city": "Landskrona",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Vattenverksallén 15, Landskrona",
-                "business_hours": null,
-                "phone_number": "0418-45 41 60"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2047",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Kry Lund",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Kry-Lund/",
             "location": {
@@ -913,6 +885,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2048",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Logopedmottagning Landskrona",
+            "url": "https://bokning.mittvaccin.se/klinik/2047",
+            "location": {
+                "longitude": 12.841158725067878,
+                "latitude": 55.87755327591269,
+                "city": "Landskrona",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Vattenverksallén 15, Landskrona",
+                "business_hours": null,
+                "phone_number": "0418-45 42 88"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2047",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
