@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-10 04:53:03.505322+02:00",
+    "last_updated": "2021-06-10 05:39:12.778498+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -49,36 +49,8 @@
             "prochain_rdv": "2021-06-28 08:39:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 308,
+            "appointment_count": 238,
             "internal_id": "1514",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Vaccinationsenhet Fränsta",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/#:~:text=Du%20som%20har%20fyllt%2018,f%C3%B6r%20vaccination%20mot%20covid%2D19.",
-            "location": {
-                "longitude": 16.166493074132607,
-                "latitude": 62.500909094703054,
-                "city": "Ånge",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Mårtensvägen 2, Fränsta",
-                "business_hours": null,
-                "phone_number": "0611-804 00"
-            },
-            "prochain_rdv": "2021-06-11 10:05:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 14,
-            "internal_id": "926",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -102,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-06-23 09:25:00",
+            "prochain_rdv": "2021-06-23 08:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1106,
+            "appointment_count": 1022,
             "internal_id": "1309",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -130,10 +102,10 @@
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-06-14 17:13:00",
+            "prochain_rdv": "2021-06-14 18:09:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 299,
+            "appointment_count": 195,
             "internal_id": "1323",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -158,10 +130,10 @@
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-06-23 10:54:00",
+            "prochain_rdv": "2021-06-23 13:48:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 714,
+            "appointment_count": 224,
             "internal_id": "1291",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -201,6 +173,34 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Fränsta",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/#:~:text=Du%20som%20har%20fyllt%2018,f%C3%B6r%20vaccination%20mot%20covid%2D19.",
+            "location": {
+                "longitude": 16.166493074132607,
+                "latitude": 62.500909094703054,
+                "city": "Ånge",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Mårtensvägen 2, Fränsta",
+                "business_hours": null,
+                "phone_number": "0611-804 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "926",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "22",
             "nom": "Vaccinationsenhet Församlingshemmet Björna",
