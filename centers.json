@@ -46,6 +46,29 @@
         "appointment_by_phone_only": false
     },
     {
+        "name": "Akutmottagning Trelleborg",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Akutmottagning-Trelleborg/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/230",
+        "location": {
+            "longitude": 13.161081419691643,
+            "latitude": 55.3812931778886,
+            "city": "Trelleborg",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Frans Malmrosgatan 10, Trelleborg",
+            "business_hours": null,
+            "phone_number": "0410-550 00"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O14022",
+        "platform_id": "230",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
         "name": "Alepraktiken, Nödinge",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Alepraktiken-Nodinge/",
@@ -571,29 +594,6 @@
         "type": "vaccination-center",
         "1177_id": "SE2321000040-79ZG",
         "platform_id": "773",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Barnavårdscentralen, Vårdcentralen Tannefors",
-        "region": "05",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Barnavardscentralen-Vardcentralen-Tannefors/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/776",
-        "location": {
-            "longitude": 15.641605076152151,
-            "latitude": 58.40700681515643,
-            "city": "Linköping",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Nya Tanneforsvägen 43 C, Linköping",
-            "business_hours": null,
-            "phone_number": "010-105 96 64"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000040-56WW",
-        "platform_id": "776",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
@@ -3284,29 +3284,6 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Endoskopimottagning Trelleborg",
-        "region": "12",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Endoskopimottagning-Trelleborg/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/230",
-        "location": {
-            "longitude": 13.16112078422732,
-            "latitude": 55.380467354373934,
-            "city": "Trelleborg",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Hedvägen 46, Trelleborg",
-            "business_hours": null,
-            "phone_number": "0410-552 50"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE162321000255-O14034",
-        "platform_id": "230",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
         "name": "Erikslids hälsocentral",
         "region": "24",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Erikslids-halsocentral/",
@@ -4612,29 +4589,6 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Kirurgimottagning Landskrona",
-        "region": "12",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kirurgimottagning-Landskrona-1/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/2047",
-        "location": {
-            "longitude": 12.841158725067878,
-            "latitude": 55.87755327591269,
-            "city": "Landskrona",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Vattenverksallén 15, Landskrona",
-            "business_hours": null,
-            "phone_number": "0418-45 41 60"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE162321000255-O24872",
-        "platform_id": "2047",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
         "name": "Kistamässan - vaccination covid - Werlabs",
         "region": "01",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kistamassan-vaccination-covid-Werlabs/",
@@ -4680,75 +4634,6 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Kronans Apotek Ale Torg",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Ale-Torg/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/2096",
-        "location": {
-            "longitude": 12.044997375261856,
-            "latitude": 57.89219488653275,
-            "city": "Ale",
-            "cp": "44931"
-        },
-        "metadata": {
-            "address": "Ale Torg 7, 449 31, Nödinge",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016293",
-        "platform_id": "2096",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Kronans Apotek Alingsås",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Alingsas/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/2086",
-        "location": {
-            "longitude": 12.537011564676016,
-            "latitude": 57.930104216081595,
-            "city": "Alingsås",
-            "cp": "44131"
-        },
-        "metadata": {
-            "address": "Kungsgatan 34, 441 31, Alingsås",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016296",
-        "platform_id": "2086",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Kronans Apotek Borås",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Boras/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/2081",
-        "location": {
-            "longitude": 12.942756406174066,
-            "latitude": 57.72053321567715,
-            "city": "Borås",
-            "cp": "50337"
-        },
-        "metadata": {
-            "address": "Allégatan 43, 503 37, Borås",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016297",
-        "platform_id": "2081",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
         "name": "Kronans Apotek Båstad",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Bastad/",
@@ -4772,144 +4657,6 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Kronans Apotek Eriksbergs Köpcentrum",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Eriksbergs-Kopcentrum/",
-        "platform_url": null,
-        "location": {
-            "longitude": 11.920836722421315,
-            "latitude": 57.7093732335908,
-            "city": "Mölndal",
-            "cp": "41761"
-        },
-        "metadata": {
-            "address": "Kolhamnsgatan 1, 417 61, Göteborg",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": null,
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016298",
-        "platform_id": null,
-        "vaccine_type": null,
-        "appointment_by_phone_only": true
-    },
-    {
-        "name": "Kronans Apotek Falköping",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Falkoping/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/2085",
-        "location": {
-            "longitude": 13.554253617544363,
-            "latitude": 58.1892574341603,
-            "city": "Göteborg",
-            "cp": "52137"
-        },
-        "metadata": {
-            "address": "Danska vägen 62, 521 37, Falköping",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016300",
-        "platform_id": "2085",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Kronans Apotek Färgelanda",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Fargelanda/",
-        "platform_url": null,
-        "location": {
-            "longitude": 11.997559328231395,
-            "latitude": 58.56797236280273,
-            "city": "Färgelanda",
-            "cp": "45830"
-        },
-        "metadata": {
-            "address": "Centrumvägen 10, 458 30, Färgelanda",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": null,
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016321",
-        "platform_id": null,
-        "vaccine_type": null,
-        "appointment_by_phone_only": true
-    },
-    {
-        "name": "Kronans Apotek Henån",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Henan/",
-        "platform_url": null,
-        "location": {
-            "longitude": 11.678746102430615,
-            "latitude": 58.235385114105505,
-            "city": "Orust",
-            "cp": "47332"
-        },
-        "metadata": {
-            "address": "Centrumhuset, 473 32, Henån",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": null,
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016322",
-        "platform_id": null,
-        "vaccine_type": null,
-        "appointment_by_phone_only": true
-    },
-    {
-        "name": "Kronans Apotek Hisingsbacka",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Hisingsbacka/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/2091",
-        "location": {
-            "longitude": 11.98214942257889,
-            "latitude": 57.75033771020452,
-            "city": "Göteborg",
-            "cp": "42248"
-        },
-        "metadata": {
-            "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016301",
-        "platform_id": "2091",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Kronans Apotek Hjo",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Hjo/",
-        "platform_url": null,
-        "location": {
-            "longitude": 14.293389746449353,
-            "latitude": 58.30557753778634,
-            "city": "Hjo",
-            "cp": "54433"
-        },
-        "metadata": {
-            "address": "Bangatan 13, 544 33, Hjo",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": null,
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016323",
-        "platform_id": null,
-        "vaccine_type": null,
-        "appointment_by_phone_only": true
-    },
-    {
         "name": "Kronans Apotek Höör",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Hoor/",
@@ -4930,75 +4677,6 @@
         "platform_id": "1538",
         "vaccine_type": null,
         "appointment_by_phone_only": false
-    },
-    {
-        "name": "Kronans Apotek Kongahälla Shoppingcenter",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Kongahalla-Shoppingcenter/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/2082",
-        "location": {
-            "longitude": 11.968365285147007,
-            "latitude": 57.8728591232219,
-            "city": "Kungälv",
-            "cp": "44248"
-        },
-        "metadata": {
-            "address": "Älvebacken 1, 442 48, Kungälv",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016302",
-        "platform_id": "2082",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Kronans Apotek Kungsportsplatsen",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Kungsportsplatsen/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/2087",
-        "location": {
-            "longitude": 11.968732780142346,
-            "latitude": 57.70440095117113,
-            "city": "Göteborg",
-            "cp": "41116"
-        },
-        "metadata": {
-            "address": "Vallgatan 42, 411 16, Göteborg",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016303",
-        "platform_id": "2087",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Kronans Apotek Lerum Vårdcentral",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Lerum-Vardcentral/",
-        "platform_url": null,
-        "location": {
-            "longitude": 12.266172128543943,
-            "latitude": 57.76856729235699,
-            "city": "Lerum",
-            "cp": "44330"
-        },
-        "metadata": {
-            "address": "Göteborgsvägen 9, 443 30, Lerum",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": null,
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016325",
-        "platform_id": null,
-        "vaccine_type": null,
-        "appointment_by_phone_only": true
     },
     {
         "name": "Kronans Apotek Malung",
@@ -5024,7 +4702,283 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Kronans Apotek Mariestad Vårdcentral",
+        "name": "Kronans Apotek MediCheck Ale Torg",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Ale-Torg/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2096",
+        "location": {
+            "longitude": 12.044997375261856,
+            "latitude": 57.89219488653275,
+            "city": "Ale",
+            "cp": "44931"
+        },
+        "metadata": {
+            "address": "Ale Torg 7, 449 31, Nödinge",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016293",
+        "platform_id": "2096",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Kronans Apotek MediCheck Alingsås",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Alingsas/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2086",
+        "location": {
+            "longitude": 12.537011564676016,
+            "latitude": 57.930104216081595,
+            "city": "Alingsås",
+            "cp": "44131"
+        },
+        "metadata": {
+            "address": "Kungsgatan 34, 441 31, Alingsås",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016296",
+        "platform_id": "2086",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Kronans Apotek MediCheck Borås",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Boras/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2081",
+        "location": {
+            "longitude": 12.942756406174066,
+            "latitude": 57.72053321567715,
+            "city": "Borås",
+            "cp": "50337"
+        },
+        "metadata": {
+            "address": "Allégatan 43, 503 37, Borås",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016297",
+        "platform_id": "2081",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Kronans Apotek MediCheck Eriksbergs Köpcentrum",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Eriksbergs-Kopcentrum/",
+        "platform_url": null,
+        "location": {
+            "longitude": 11.920836722421315,
+            "latitude": 57.7093732335908,
+            "city": "Mölndal",
+            "cp": "41761"
+        },
+        "metadata": {
+            "address": "Kolhamnsgatan 1, 417 61, Göteborg",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016298",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Kronans Apotek MediCheck Falköping",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Falkoping/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2085",
+        "location": {
+            "longitude": 13.554253617544363,
+            "latitude": 58.1892574341603,
+            "city": "Göteborg",
+            "cp": "52137"
+        },
+        "metadata": {
+            "address": "Danska vägen 62, 521 37, Falköping",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016300",
+        "platform_id": "2085",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Kronans Apotek MediCheck Färgelanda",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Fargelanda/",
+        "platform_url": null,
+        "location": {
+            "longitude": 11.997559328231395,
+            "latitude": 58.56797236280273,
+            "city": "Färgelanda",
+            "cp": "45830"
+        },
+        "metadata": {
+            "address": "Centrumvägen 10, 458 30, Färgelanda",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016321",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Kronans Apotek MediCheck Henån",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Henan/",
+        "platform_url": null,
+        "location": {
+            "longitude": 11.678746102430615,
+            "latitude": 58.235385114105505,
+            "city": "Orust",
+            "cp": "47332"
+        },
+        "metadata": {
+            "address": "Centrumhuset, 473 32, Henån",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016322",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Kronans Apotek MediCheck Hisingsbacka",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Hisingsbacka/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2091",
+        "location": {
+            "longitude": 11.98214942257889,
+            "latitude": 57.75033771020452,
+            "city": "Göteborg",
+            "cp": "42248"
+        },
+        "metadata": {
+            "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016301",
+        "platform_id": "2091",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Kronans Apotek MediCheck Hjo",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Hjo/",
+        "platform_url": null,
+        "location": {
+            "longitude": 14.293389746449353,
+            "latitude": 58.30557753778634,
+            "city": "Hjo",
+            "cp": "54433"
+        },
+        "metadata": {
+            "address": "Bangatan 13, 544 33, Hjo",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016323",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Kronans Apotek MediCheck Kongahälla Shoppingcenter",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-MediCheck-Kongahalla-Shoppingcenter/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2082",
+        "location": {
+            "longitude": 11.968365285147007,
+            "latitude": 57.8728591232219,
+            "city": "Kungälv",
+            "cp": "44248"
+        },
+        "metadata": {
+            "address": "Älvebacken 1, 442 48, Kungälv",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016302",
+        "platform_id": "2082",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Kronans Apotek MediCheck Kungsportsplatsen",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Kungsportsplatsen/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2087",
+        "location": {
+            "longitude": 11.968732780142346,
+            "latitude": 57.70440095117113,
+            "city": "Göteborg",
+            "cp": "41116"
+        },
+        "metadata": {
+            "address": "Vallgatan 42, 411 16, Göteborg",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016303",
+        "platform_id": "2087",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Kronans Apotek MediCheck Lerum Vårdcentral",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Lerum-Vardcentral/",
+        "platform_url": null,
+        "location": {
+            "longitude": 12.266172128543943,
+            "latitude": 57.76856729235699,
+            "city": "Lerum",
+            "cp": "44330"
+        },
+        "metadata": {
+            "address": "Göteborgsvägen 9, 443 30, Lerum",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016325",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Kronans Apotek MediCheck Mariestad Vårdcentral",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Mariestad-Vardcentral/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/2079",
@@ -5047,7 +5001,7 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Kronans Apotek Mölnlycke Centrum",
+        "name": "Kronans Apotek MediCheck Mölnlycke Centrum",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Molnlycke-Centrum/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/2095",
@@ -5070,7 +5024,7 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Kronans Apotek Nordby Shoppingcenter",
+        "name": "Kronans Apotek MediCheck Nordby Shoppingcenter",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Nordby-Shoppingcenter/",
         "platform_url": null,
@@ -5093,7 +5047,7 @@
         "appointment_by_phone_only": true
     },
     {
-        "name": "Kronans Apotek Partille Port",
+        "name": "Kronans Apotek MediCheck Partille Port",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Partille-Port/",
         "platform_url": null,
@@ -5116,7 +5070,7 @@
         "appointment_by_phone_only": true
     },
     {
-        "name": "Kronans Apotek Skene",
+        "name": "Kronans Apotek MediCheck Skene",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Skene/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/2084",
@@ -5139,7 +5093,7 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Kronans Apotek Strömstad",
+        "name": "Kronans Apotek MediCheck Strömstad",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Stromstad/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/2083",
@@ -5158,6 +5112,144 @@
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000016308",
         "platform_id": "2083",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Kronans Apotek MediCheck Torslanda",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Torslanda/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2090",
+        "location": {
+            "longitude": 11.774456734363756,
+            "latitude": 57.709823197639466,
+            "city": "Göteborg",
+            "cp": "42337"
+        },
+        "metadata": {
+            "address": "Gamla flygplatsvägen 40, 423 37, Torslanda",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016309",
+        "platform_id": "2090",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Kronans Apotek MediCheck Uddevalla",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Uddevalla/",
+        "platform_url": null,
+        "location": {
+            "longitude": 11.932627200026982,
+            "latitude": 58.3492876506819,
+            "city": "Uddevalla",
+            "cp": "45131"
+        },
+        "metadata": {
+            "address": "Västerlånggatan 2, 451 31, Uddevalla",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016310",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Kronans Apotek MediCheck Vara Vårdcentral",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Vara-Vardcentral/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2089",
+        "location": {
+            "longitude": 12.9674298537439,
+            "latitude": 58.264324445520145,
+            "city": "Vara",
+            "cp": "53432"
+        },
+        "metadata": {
+            "address": "Allégatan 46, 534 32, Vara",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016312",
+        "platform_id": "2089",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Kronans Apotek MediCheck Wieselgrensplatsen",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Wieselgrensplatsen/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2078",
+        "location": {
+            "longitude": 11.93755204751039,
+            "latitude": 57.72172249873233,
+            "city": "Göteborg",
+            "cp": "41717"
+        },
+        "metadata": {
+            "address": "Wieselgrensplatsen 5, 417 17, Göteborg",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016311",
+        "platform_id": "2078",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Kronans Apotek MediCheck Överby Köpcenter",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Overby-Kopcenter/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2092",
+        "location": {
+            "longitude": 12.302888643822998,
+            "latitude": 58.31412476754703,
+            "city": "Trollhättan",
+            "cp": "46170"
+        },
+        "metadata": {
+            "address": "Överby Köpcentrum, 461 70, Trollhättan",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016313",
+        "platform_id": "2092",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Kronans Apotek MediCheck Överby Köpcenter",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Overby-Kopcenter/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2093",
+        "location": {
+            "longitude": 12.302888643822998,
+            "latitude": 58.31412476754703,
+            "city": "Trollhättan",
+            "cp": "46170"
+        },
+        "metadata": {
+            "address": "Överby Köpcentrum, 461 70, Trollhättan",
+            "business_hours": null,
+            "phone_number": "08-128 446 21"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000016313",
+        "platform_id": "2093",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
@@ -5208,98 +5300,6 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Kronans Apotek Torslanda",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Torslanda/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/2090",
-        "location": {
-            "longitude": 11.774456734363756,
-            "latitude": 57.709823197639466,
-            "city": "Göteborg",
-            "cp": "42337"
-        },
-        "metadata": {
-            "address": "Gamla flygplatsvägen 40, 423 37, Torslanda",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016309",
-        "platform_id": "2090",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Kronans Apotek Uddevalla",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Uddevalla/",
-        "platform_url": null,
-        "location": {
-            "longitude": 11.932627200026982,
-            "latitude": 58.3492876506819,
-            "city": "Uddevalla",
-            "cp": "45131"
-        },
-        "metadata": {
-            "address": "Västerlånggatan 2, 451 31, Uddevalla",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": null,
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016310",
-        "platform_id": null,
-        "vaccine_type": null,
-        "appointment_by_phone_only": true
-    },
-    {
-        "name": "Kronans Apotek Vara Vårdcentral",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Vara-Vardcentral/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/2089",
-        "location": {
-            "longitude": 12.9674298537439,
-            "latitude": 58.264324445520145,
-            "city": "Vara",
-            "cp": "53432"
-        },
-        "metadata": {
-            "address": "Allégatan 46, 534 32, Vara",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016312",
-        "platform_id": "2089",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Kronans Apotek Wieselgrensplatsen",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Wieselgrensplatsen/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/2078",
-        "location": {
-            "longitude": 11.93755204751039,
-            "latitude": 57.72172249873233,
-            "city": "Göteborg",
-            "cp": "41717"
-        },
-        "metadata": {
-            "address": "Wieselgrensplatsen 5, 417 17, Göteborg",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016311",
-        "platform_id": "2078",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
         "name": "Kronans Apotek Ängelholm",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Angelholm/",
@@ -5319,52 +5319,6 @@
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O28423",
         "platform_id": "1534",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Kronans Apotek Överby Köpcenter",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Overby-Kopcenter/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/2092",
-        "location": {
-            "longitude": 12.302888643822998,
-            "latitude": 58.31412476754703,
-            "city": "Trollhättan",
-            "cp": "46170"
-        },
-        "metadata": {
-            "address": "Överby Köpcentrum, 461 70, Trollhättan",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016313",
-        "platform_id": "2092",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Kronans Apotek Överby Köpcenter",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Overby-Kopcenter/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/2093",
-        "location": {
-            "longitude": 12.302888643822998,
-            "latitude": 58.31412476754703,
-            "city": "Trollhättan",
-            "cp": "46170"
-        },
-        "metadata": {
-            "address": "Överby Köpcentrum, 461 70, Trollhättan",
-            "business_hours": null,
-            "phone_number": "08-128 446 21"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016313",
-        "platform_id": "2093",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
@@ -6191,6 +6145,29 @@
         "type": "vaccination-center",
         "1177_id": "SE2321000073-4C03",
         "platform_id": "496",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Logopedmottagning Landskrona",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Logopedmottagning-Landskrona/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/2047",
+        "location": {
+            "longitude": 12.841158725067878,
+            "latitude": 55.87755327591269,
+            "city": "Landskrona",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Vattenverksallén 15, Landskrona",
+            "business_hours": null,
+            "phone_number": "0418-45 42 88"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE162321000255-O23628",
+        "platform_id": "2047",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
@@ -15331,6 +15308,29 @@
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
+    },
+    {
+        "name": "Vårdcentralen Tannefors, Linköping",
+        "region": "05",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Tannefors-Linkoping/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/776",
+        "location": {
+            "longitude": 15.641605076152151,
+            "latitude": 58.40700681515643,
+            "city": "Linköping",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Nya Tanneforsvägen 43 C, Linköping",
+            "business_hours": null,
+            "phone_number": "010-105 96 70"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000040-4G03",
+        "platform_id": "776",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
     },
     {
         "name": "Vårdcentralen Torshälla, Eskilstuna",
