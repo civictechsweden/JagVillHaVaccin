@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-10 11:06:56.156214+02:00",
+    "last_updated": "2021-06-10 11:25:21.143908+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -23,6 +23,34 @@
             "type": "vaccination-center",
             "appointment_count": 584,
             "internal_id": "773",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "05",
+            "nom": "Barnavårdscentralen, Vårdcentralen Vikbolandet",
+            "url": "https://bokning.mittvaccin.se/klinik/805",
+            "location": {
+                "longitude": 16.565409757301243,
+                "latitude": 58.57525916232211,
+                "city": "Norrköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Bygdevägen 13, Östra Husby",
+                "business_hours": null,
+                "phone_number": "010-104 48 14"
+            },
+            "prochain_rdv": "2021-06-16 09:45:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 8,
+            "internal_id": "805",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -102,10 +130,10 @@
                 "business_hours": null,
                 "phone_number": "010-105 92 25"
             },
-            "prochain_rdv": "2021-06-17 09:40:00",
+            "prochain_rdv": "2021-06-17 09:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 134,
+            "appointment_count": 132,
             "internal_id": "767",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -130,7 +158,7 @@
                 "business_hours": null,
                 "phone_number": "010-105 92 60"
             },
-            "prochain_rdv": "2021-06-18 12:10:00",
+            "prochain_rdv": "2021-06-10 18:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 656,
@@ -214,10 +242,10 @@
                 "business_hours": null,
                 "phone_number": "010-105 94 60"
             },
-            "prochain_rdv": "2021-06-10 11:10:00",
+            "prochain_rdv": "2021-06-10 11:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 96,
+            "appointment_count": 84,
             "internal_id": "784",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -245,7 +273,7 @@
             "prochain_rdv": "2021-06-16 13:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 38,
+            "appointment_count": 36,
             "internal_id": "792",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -382,10 +410,10 @@
                 "business_hours": null,
                 "phone_number": "010-105 97 30"
             },
-            "prochain_rdv": "2021-06-10 11:10:00",
+            "prochain_rdv": "2021-06-10 11:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 26,
+            "appointment_count": 10,
             "internal_id": "795",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -413,7 +441,7 @@
             "prochain_rdv": "2021-06-10 11:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 177,
+            "appointment_count": 183,
             "internal_id": "796",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -529,34 +557,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "777",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "05",
-            "nom": "Barnavårdscentralen, Vårdcentralen Vikbolandet",
-            "url": "https://bokning.mittvaccin.se/klinik/805",
-            "location": {
-                "longitude": 16.565409757301243,
-                "latitude": 58.57525916232211,
-                "city": "Norrköping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Bygdevägen 13, Östra Husby",
-                "business_hours": null,
-                "phone_number": "010-104 48 14"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "805",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
