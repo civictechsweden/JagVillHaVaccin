@@ -2,17 +2,21 @@ import json
 import pandas as pd
 from service.writer import Writer
 
-with open('regions.json') as regions_json:
+with open('departements.json') as regions_json:
     regions = json.load(regions_json)
 
-output = {}
+stats = {}
 centre_count = 0
 supported_centre_count = 0
 dose_count = 0
+info_centres = {}
 
 for region in regions:
-
-    with open('{}.json'.format(region['code'])) as region_json:
+    region_code = region['code_departement']
+    # if len(str(region_code)) < 2:
+    #     region_code = '0{}'.format(region_code)
+    
+    with open('{}.json'.format(region_code)) as region_json:
         appointments = json.load(region_json)
 
     # Number of vaccination centres that have available vaccines
@@ -36,16 +40,22 @@ for region in regions:
     else:
         supported_centre_count_by_region = 0
 
-    output[region['code']] = {
+    stats[region_code] = {
         'disponibles': int(centre_count_by_region),
         'total': int(supported_centre_count_by_region),
         'creneaux': int(dose_count_by_region),
     }
+    print(appointments)
+    info_centres[region_code] = appointments
 
-output['tout_departement'] = {
+
+
+
+stats['tout_departement'] = {
     'disponibles': int(centre_count),
     'total': int(supported_centre_count),
     'creneaux': int(dose_count),
 }
-
-Writer.write_json(output, 'data/output/stats.json')
+print(info_centres)
+Writer.write_json(stats, 'data/output/stats.json')
+Writer.write_json(info_centres, 'data/output/info_centres.json')
