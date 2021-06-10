@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-10 10:50:55.161463+02:00",
+    "last_updated": "2021-06-10 11:07:16.478256+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -33,6 +33,34 @@
         },
         {
             "departement": "22",
+            "nom": "Vaccinationsenhet Härnösand",
+            "url": "https://bokning.mittvaccin.se/klinik/1309",
+            "location": {
+                "longitude": 17.9298362078272,
+                "latitude": 62.62440429993568,
+                "city": "Härnösand",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Södra vägen 3-5",
+                "business_hours": null,
+                "phone_number": "0611-804 00"
+            },
+            "prochain_rdv": "2021-06-10 11:10:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 14,
+            "internal_id": "1309",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
             "nom": "Vaccinationsenhet Sollefteå, Hullsta gård",
             "url": "https://bokning.mittvaccin.se/klinik/1325",
             "location": {
@@ -46,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-06-10 11:00:00",
+            "prochain_rdv": "2021-06-10 11:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 392,
+            "appointment_count": 391,
             "internal_id": "1325",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -165,34 +193,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "1327",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Vaccinationsenhet Härnösand",
-            "url": "https://bokning.mittvaccin.se/klinik/1309",
-            "location": {
-                "longitude": 17.9298362078272,
-                "latitude": 62.62440429993568,
-                "city": "Härnösand",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Södra vägen 3-5",
-                "business_hours": null,
-                "phone_number": "0611-804 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1309",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
