@@ -1,36 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-06-10 13:50:32.136279+02:00",
+    "last_updated": "2021-06-10 14:17:45.014119+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "20",
-            "nom": "Doktor.se / Avesta",
-            "url": "https://bokning.mittvaccin.se/klinik/2114",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "Avesta",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Avesta parken, Frejgatan 25",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-06-24 09:52:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "2114",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "20",
             "nom": "Doktor.se / Borlänge",
@@ -49,7 +21,7 @@
             "prochain_rdv": "2021-06-10 14:32:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 13,
+            "appointment_count": 7,
             "internal_id": "2112",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,36 +49,8 @@
             "prochain_rdv": "2021-06-23 12:04:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 3,
             "internal_id": "2111",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "20",
-            "nom": "Doktor.se / Ludvika",
-            "url": "https://bokning.mittvaccin.se/klinik/2115",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "Ludvika",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Sporthallen Ludvika, Tingshusgatan 18",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-06-14 10:04:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "2115",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -130,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-22 14:15:00",
+            "prochain_rdv": "2021-06-24 11:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 239,
+            "appointment_count": 238,
             "internal_id": "2102",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -173,6 +117,62 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "20",
+            "nom": "Doktor.se / Avesta",
+            "url": "https://bokning.mittvaccin.se/klinik/2114",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Avesta",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Avesta parken, Frejgatan 25",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2114",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "20",
+            "nom": "Doktor.se / Ludvika",
+            "url": "https://bokning.mittvaccin.se/klinik/2115",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Ludvika",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Sporthallen Ludvika, Tingshusgatan 18",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2115",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "20",
             "nom": "Doktor.se / Mora",
