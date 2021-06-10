@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-06-10 09:04:04.468192+02:00",
+    "last_updated": "2021-06-10 09:35:58.838472+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "08",
+            "nom": "Astrakanen läkarcentrum Nybro",
+            "url": "https://bokning.mittvaccin.se/klinik/526",
+            "location": {
+                "longitude": 15.912165806501925,
+                "latitude": 56.744368754526384,
+                "city": "Nybro",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tunnelgatan 8, Nybro",
+                "business_hours": null,
+                "phone_number": "0481-696 96"
+            },
+            "prochain_rdv": "2021-06-15 13:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 78,
+            "internal_id": "526",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "08",
             "nom": "Blomstermåla hälsocentral",
@@ -18,39 +46,11 @@
                 "business_hours": null,
                 "phone_number": "0499-209 30"
             },
-            "prochain_rdv": "2021-06-17 08:55:00",
+            "prochain_rdv": "2021-06-17 10:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 83,
+            "appointment_count": 51,
             "internal_id": "521",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Högsby hälsocentral",
-            "url": "https://bokning.mittvaccin.se/klinik/519",
-            "location": {
-                "longitude": 16.025529740353928,
-                "latitude": 57.171486143323655,
-                "city": "Högsby",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Dr Mobergers väg 6, Högsby",
-                "business_hours": null,
-                "phone_number": "0491-283 00"
-            },
-            "prochain_rdv": "2021-06-16 11:10:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 7,
-            "internal_id": "519",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -74,11 +74,39 @@
                 "business_hours": null,
                 "phone_number": "0485-491 00"
             },
-            "prochain_rdv": "2021-06-16 13:40:00",
+            "prochain_rdv": "2021-06-16 13:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 181,
+            "appointment_count": 172,
             "internal_id": "500",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Nybro hälsocentral",
+            "url": "https://bokning.mittvaccin.se/klinik/499",
+            "location": {
+                "longitude": 15.91133031488841,
+                "latitude": 56.74365104347946,
+                "city": "Nybro",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tunnelgatan 6, Nybro",
+                "business_hours": null,
+                "phone_number": "0481-447 60"
+            },
+            "prochain_rdv": "2021-06-10 17:50:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 7,
+            "internal_id": "499",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -102,39 +130,11 @@
                 "business_hours": null,
                 "phone_number": "0486-412 30"
             },
-            "prochain_rdv": "2021-06-17 09:55:00",
+            "prochain_rdv": "2021-06-17 09:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 126,
+            "appointment_count": 110,
             "internal_id": "493",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Ungdomsmottagningen Hultsfred",
-            "url": "https://bokning.mittvaccin.se/klinik/505",
-            "location": {
-                "longitude": 15.83567058643755,
-                "latitude": 57.48173197820597,
-                "city": "Hultsfred",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Granitvägen 16A, Hultsfred",
-                "business_hours": null,
-                "phone_number": "0495-155 33"
-            },
-            "prochain_rdv": "2021-06-15 18:35:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 14,
-            "internal_id": "505",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -158,10 +158,10 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-06-10 15:24:00",
+            "prochain_rdv": "2021-06-17 11:12:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1831,
+            "appointment_count": 459,
             "internal_id": "1546",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -186,10 +186,10 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-06-16 10:36:00",
+            "prochain_rdv": "2021-06-18 10:21:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 760,
+            "appointment_count": 488,
             "internal_id": "2053",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -214,10 +214,10 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-06-15 14:09:00",
+            "prochain_rdv": "2021-06-16 13:42:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 4101,
+            "appointment_count": 3714,
             "internal_id": "1547",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -242,10 +242,10 @@
                 "business_hours": null,
                 "phone_number": "0492-176 00"
             },
-            "prochain_rdv": "2021-06-17 11:20:00",
+            "prochain_rdv": "2021-06-17 13:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 177,
+            "appointment_count": 62,
             "internal_id": "491",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -277,34 +277,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "528",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Astrakanen läkarcentrum Nybro",
-            "url": "https://bokning.mittvaccin.se/klinik/526",
-            "location": {
-                "longitude": 15.912165806501925,
-                "latitude": 56.744368754526384,
-                "city": "Nybro",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tunnelgatan 8, Nybro",
-                "business_hours": null,
-                "phone_number": "0481-696 96"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "526",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -539,6 +511,34 @@
         },
         {
             "departement": "08",
+            "nom": "Högsby hälsocentral",
+            "url": "https://bokning.mittvaccin.se/klinik/519",
+            "location": {
+                "longitude": 16.025529740353928,
+                "latitude": 57.171486143323655,
+                "city": "Högsby",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Dr Mobergers väg 6, Högsby",
+                "business_hours": null,
+                "phone_number": "0491-283 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "519",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
             "nom": "Kristinebergs hälsocentral",
             "url": "https://bokning.mittvaccin.se/klinik/513",
             "location": {
@@ -707,34 +707,6 @@
         },
         {
             "departement": "08",
-            "nom": "Nybro hälsocentral",
-            "url": "https://bokning.mittvaccin.se/klinik/499",
-            "location": {
-                "longitude": 15.91133031488841,
-                "latitude": 56.74365104347946,
-                "city": "Nybro",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tunnelgatan 6, Nybro",
-                "business_hours": null,
-                "phone_number": "0481-447 60"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "499",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
             "nom": "Smedby hälsocentral",
             "url": "https://bokning.mittvaccin.se/klinik/498",
             "location": {
@@ -753,6 +725,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "498",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Ungdomsmottagningen Hultsfred",
+            "url": "https://bokning.mittvaccin.se/klinik/505",
+            "location": {
+                "longitude": 15.83567058643755,
+                "latitude": 57.48173197820597,
+                "city": "Hultsfred",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Granitvägen 16A, Hultsfred",
+                "business_hours": null,
+                "phone_number": "0495-155 33"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "505",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
