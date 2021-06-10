@@ -1,27 +1,55 @@
 {
     "version": 1,
-    "last_updated": "2021-06-10 11:46:05.722875+02:00",
+    "last_updated": "2021-06-10 12:04:39.149926+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "14",
-            "nom": "Närhälsan Bäckefors Dalslands Sjukhus",
-            "url": null,
+            "nom": "Kronans Apotek MediCheck Hisingsbacka",
+            "url": "https://bokning.mittvaccin.se/klinik/2091",
             "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
+                "longitude": 11.98214942257889,
+                "latitude": 57.75033771020452,
+                "city": "Göteborg",
+                "cp": "42248"
             },
             "metadata": {
-                "address": "",
+                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
                 "business_hours": null,
-                "phone_number": ""
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-06-10 12:20:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "2091",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidaholm-vardcentral-Tidaholm/",
+            "location": {
+                "longitude": 13.956163123936285,
+                "latitude": 58.17816034620173,
+                "city": "Tidaholm",
+                "cp": "52230"
+            },
+            "metadata": {
+                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
+                "business_hours": null,
+                "phone_number": "0502-180 11"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-15 08:50:00",
+            "prochain_rdv": "2021-06-15 09:10:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 173,
+            "appointment_count": 149,
             "internal_id": 30633,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2329,34 +2357,6 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Hisingsbacka",
-            "url": "https://bokning.mittvaccin.se/klinik/2091",
-            "location": {
-                "longitude": 11.98214942257889,
-                "latitude": 57.75033771020452,
-                "city": "Göteborg",
-                "cp": "42248"
-            },
-            "metadata": {
-                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2091",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Kronans Apotek MediCheck Hjo",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Hjo/",
             "location": {
@@ -4281,6 +4281,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Bäckefors Dalslands Sjukhus",
+            "url": null,
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -6549,34 +6577,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidaholm-vardcentral-Tidaholm/",
-            "location": {
-                "longitude": 13.956163123936285,
-                "latitude": 58.17816034620173,
-                "city": "Tidaholm",
-                "cp": "52230"
-            },
-            "metadata": {
-                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
-                "business_hours": null,
-                "phone_number": "0502-180 11"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
