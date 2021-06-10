@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-06-10 17:49:07.994511+02:00",
+    "last_updated": "2021-06-10 18:09:56.274384+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "08",
+            "nom": "Astrakanen läkarcentrum Nybro",
+            "url": "https://bokning.mittvaccin.se/klinik/526",
+            "location": {
+                "longitude": 15.912165806501925,
+                "latitude": 56.744368754526384,
+                "city": "Nybro",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tunnelgatan 8, Nybro",
+                "business_hours": null,
+                "phone_number": "0481-696 96"
+            },
+            "prochain_rdv": "2021-06-16 15:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 7,
+            "internal_id": "526",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "08",
             "nom": "Vaccinationscentral covid-19 Kalmar",
@@ -18,10 +46,10 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-06-11 08:04:00",
+            "prochain_rdv": "2021-06-11 09:46:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1222,
+            "appointment_count": 412,
             "internal_id": "1546",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -53,34 +81,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "528",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Astrakanen läkarcentrum Nybro",
-            "url": "https://bokning.mittvaccin.se/klinik/526",
-            "location": {
-                "longitude": 15.912165806501925,
-                "latitude": 56.744368754526384,
-                "city": "Nybro",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tunnelgatan 8, Nybro",
-                "business_hours": null,
-                "phone_number": "0481-696 96"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "526",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
