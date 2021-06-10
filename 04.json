@@ -1,28 +1,56 @@
 {
     "version": 1,
-    "last_updated": "2021-06-10 12:54:32.488565+02:00",
+    "last_updated": "2021-06-10 13:44:28.149027+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "04",
-            "nom": "Vaccina Gnesta, Gnesta",
+            "nom": "Vaccina Flen, Flen",
             "url": "https://www.vaccina.se/covidvaccin/sormland/tidsbokning/#/service",
             "location": {
-                "longitude": 17.326507675212333,
-                "latitude": 59.03994773439347,
-                "city": "Gnesta",
-                "cp": "64630"
+                "longitude": 16.589337823953205,
+                "latitude": 59.059055712999836,
+                "city": "Flen",
+                "cp": "64237"
             },
             "metadata": {
-                "address": "Dansutvägen 2, 646 30 Gnesta",
+                "address": "Götgatan 6, 642 37 Flen",
                 "business_hours": null,
                 "phone_number": "010-750 09 45"
             },
-            "prochain_rdv": "2021-06-10 13:40:00",
+            "prochain_rdv": "2021-06-12 11:20:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
             "appointment_count": 3,
-            "internal_id": 30004,
+            "internal_id": 30005,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "04",
+            "nom": "Vaccina Strängnäs, Strängnäs",
+            "url": "https://www.vaccina.se/covidvaccin/sormland/tidsbokning/#/service",
+            "location": {
+                "longitude": 17.01994084720094,
+                "latitude": 59.3791697143613,
+                "city": "Strängnäs",
+                "cp": "64533"
+            },
+            "metadata": {
+                "address": "Seminarievägen 10A, 645 33 Strängnäs",
+                "business_hours": null,
+                "phone_number": "010-750 09 45"
+            },
+            "prochain_rdv": "2021-06-10 19:10:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": 30003,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -46,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": "0155-60 60 40"
             },
-            "prochain_rdv": "2021-06-16 18:06:00",
+            "prochain_rdv": "2021-06-16 18:18:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2448,
+            "appointment_count": 2434,
             "internal_id": "45",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -74,10 +102,10 @@
                 "business_hours": null,
                 "phone_number": "011-473 53 70"
             },
-            "prochain_rdv": "2021-06-15 09:16:00",
+            "prochain_rdv": "2021-06-16 18:08:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2724,
+            "appointment_count": 2718,
             "internal_id": "2069",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -175,16 +203,16 @@
         },
         {
             "departement": "04",
-            "nom": "Vaccina Flen, Flen",
+            "nom": "Vaccina Gnesta, Gnesta",
             "url": "https://www.vaccina.se/covidvaccin/sormland/tidsbokning/#/service",
             "location": {
-                "longitude": 16.589337823953205,
-                "latitude": 59.059055712999836,
-                "city": "Flen",
-                "cp": "64237"
+                "longitude": 17.326507675212333,
+                "latitude": 59.03994773439347,
+                "city": "Gnesta",
+                "cp": "64630"
             },
             "metadata": {
-                "address": "Götgatan 6, 642 37 Flen",
+                "address": "Dansutvägen 2, 646 30 Gnesta",
                 "business_hours": null,
                 "phone_number": "010-750 09 45"
             },
@@ -192,35 +220,7 @@
             "plateforme": "Vaccina",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": 30005,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "04",
-            "nom": "Vaccina Strängnäs, Strängnäs",
-            "url": "https://www.vaccina.se/covidvaccin/sormland/tidsbokning/#/service",
-            "location": {
-                "longitude": 17.01994084720094,
-                "latitude": 59.3791697143613,
-                "city": "Strängnäs",
-                "cp": "64533"
-            },
-            "metadata": {
-                "address": "Seminarievägen 10A, 645 33 Strängnäs",
-                "business_hours": null,
-                "phone_number": "010-750 09 45"
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 30003,
+            "internal_id": 30004,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
