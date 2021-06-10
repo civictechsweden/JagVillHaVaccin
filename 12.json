@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-11 00:44:57.559242+02:00",
+    "last_updated": "2021-06-11 01:03:34.526562+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -48,7 +48,7 @@
             "prochain_rdv": "2021-06-21 13:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 170,
+            "appointment_count": 171,
             "internal_id": "231",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -129,10 +129,10 @@
                 "business_hours": null,
                 "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": "2021-07-08 12:15:00",
+            "prochain_rdv": "2021-07-09 11:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 17,
+            "appointment_count": 15,
             "internal_id": "1534",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -383,33 +383,6 @@
             "type": "vaccination-center",
             "appointment_count": 71,
             "internal_id": 31153,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Vaccination Covid19 Öresundshälsan, Malmö",
-            "url": "https://bokning.mittvaccin.se/klinik/2072",
-            "location": {
-                "longitude": 13.065192840175026,
-                "latitude": 55.5784745846457,
-                "city": "Malmö",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Derbyvägen 6E, Malmö",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-06-14 14:20:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "2072",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -1354,6 +1327,33 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": 30015,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccination Covid19 Öresundshälsan, Malmö",
+            "url": "https://bokning.mittvaccin.se/klinik/2072",
+            "location": {
+                "longitude": 13.065192840175026,
+                "latitude": 55.5784745846457,
+                "city": "Malmö",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Derbyvägen 6E, Malmö",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2072",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
