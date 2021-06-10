@@ -38,3 +38,30 @@ jobs:
             git add *.json
             git commit -am "Updating the times for Region ${{ matrix.region }}"
             git push
+  generate_stats:
+    name: Generate the stats
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download the code
+        uses: actions/checkout@v2
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Install the Python dependencies
+        run: pip3 install -r requirements.txt
+      - name: Generate the stats
+        run: python3 generate_stats.py
+      - name: Commit the data
+        uses: nick-invision/retry@v2
+        with:
+          timeout_seconds: 10
+          max_attempts: 5
+          command: |
+            git config --global user.name 'Ana Bulas Cruz (Github Actions)'
+            git config --global user.email 'anabulascruz@gmail.com'
+            git config --global rebase.autoStash true
+            git pull --rebase
+            git add data/output/stats.json
+            git commit -am "Updating the stats"
+            git push
