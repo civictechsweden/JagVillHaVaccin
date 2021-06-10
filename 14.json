@@ -1,36 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-06-10 18:14:39.776343+02:00",
+    "last_updated": "2021-06-10 19:19:31.843238+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Mariestad Vårdcentral",
-            "url": "https://bokning.mittvaccin.se/klinik/2079",
-            "location": {
-                "longitude": 13.796178135977993,
-                "latitude": 58.705451405375015,
-                "city": "Mariestad",
-                "cp": 0
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": "2021-06-11 12:10:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "2079",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "14",
             "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
@@ -49,7 +21,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 12,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2461,6 +2433,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Mariestad Vårdcentral",
+            "url": "https://bokning.mittvaccin.se/klinik/2079",
+            "location": {
+                "longitude": 13.796178135977993,
+                "latitude": 58.705451405375015,
+                "city": "Mariestad",
+                "cp": 0
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2079",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
