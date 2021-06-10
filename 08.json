@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-06-10 11:42:29.882233+02:00",
+    "last_updated": "2021-06-10 12:01:13.784456+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "08",
+            "nom": "Vaccinationscentral covid-19 Kalmar",
+            "url": "https://bokning.mittvaccin.se/klinik/1546",
+            "location": {
+                "longitude": 16.35640759555987,
+                "latitude": 56.66417229353723,
+                "city": "Kalmar",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tullslätten 4, Kalmar",
+                "business_hours": null,
+                "phone_number": "0480-844 44"
+            },
+            "prochain_rdv": "2021-06-21 09:26:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 6,
+            "internal_id": "1546",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "08",
             "nom": "Vaccinationscentral covid-19 Oskarshamn",
@@ -18,10 +46,10 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-06-21 09:21:00",
+            "prochain_rdv": "2021-06-21 13:12:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 783,
+            "appointment_count": 1599,
             "internal_id": "2053",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-06-24 09:36:00",
+            "prochain_rdv": "2021-06-23 11:24:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 786,
+            "appointment_count": 743,
             "internal_id": "1547",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -725,34 +753,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2056",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Vaccinationscentral covid-19 Kalmar",
-            "url": "https://bokning.mittvaccin.se/klinik/1546",
-            "location": {
-                "longitude": 16.35640759555987,
-                "latitude": 56.66417229353723,
-                "city": "Kalmar",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tullslätten 4, Kalmar",
-                "business_hours": null,
-                "phone_number": "0480-844 44"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1546",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
