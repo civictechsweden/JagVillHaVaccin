@@ -1,28 +1,28 @@
 {
     "version": 1,
-    "last_updated": "2021-06-08 09:15:03.033534+02:00",
+    "last_updated": "2021-06-10 09:09:48.706521+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "05",
-            "nom": "Geria Vårdcentral i Söderköping",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "nom": "Barnavårdscentralen, Vårdcentralen Mirum",
+            "url": "https://bokning.mittvaccin.se/klinik/773",
             "location": {
-                "longitude": 16.32833604606261,
-                "latitude": 58.48053939836682,
-                "city": "Söderköping",
+                "longitude": 16.2095815992703,
+                "latitude": 58.57340265232764,
+                "city": "Norrköping",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Ågatan 53, Söderköping",
+                "address": "Lidaleden 12, Norrköping",
                 "business_hours": null,
-                "phone_number": "010-105 92 25"
+                "phone_number": "011-496 11 08"
             },
-            "prochain_rdv": "2021-06-16 18:20:00",
+            "prochain_rdv": "2021-06-22 10:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 148,
-            "internal_id": "767",
+            "appointment_count": 588,
+            "internal_id": "773",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -33,23 +33,23 @@
         },
         {
             "departement": "05",
-            "nom": "Helsa Vårdcentral Kneippen, Norrköping",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "nom": "Barnhälsovården VVC, Helsa Vårdcentral Kneippen",
+            "url": "https://bokning.mittvaccin.se/klinik/770",
             "location": {
-                "longitude": 16.162665388283727,
-                "latitude": 58.58559830320592,
+                "longitude": 16.17089235009939,
+                "latitude": 58.57157006021294,
                 "city": "Norrköping",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Helsa VC Kneippen, Kneippgatan 4, Norrköping",
+                "address": "Helsa VC Vilbergen, Urbergsgatan 90, Norrköping",
                 "business_hours": null,
-                "phone_number": "011-19 09 00"
+                "phone_number": "011-21 56 09"
             },
-            "prochain_rdv": "2021-06-22 11:00:00",
+            "prochain_rdv": "2021-06-22 13:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 40,
+            "appointment_count": 30,
             "internal_id": "770",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -61,11 +61,67 @@
         },
         {
             "departement": "05",
+            "nom": "Capio Vårdcentral Berga, Linköping",
+            "url": "https://bokning.mittvaccin.se/klinik/766",
+            "location": {
+                "longitude": 15.642545568788469,
+                "latitude": 58.39232023756628,
+                "city": "Linköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Söderleden 35-37, Linköping",
+                "business_hours": null,
+                "phone_number": "010-105 96 10"
+            },
+            "prochain_rdv": "2021-06-17 15:42:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 76,
+            "internal_id": "766",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "05",
+            "nom": "Geria Vårdcentral i Söderköping",
+            "url": "https://bokning.mittvaccin.se/klinik/767",
+            "location": {
+                "longitude": 16.32833604606261,
+                "latitude": 58.48053939836682,
+                "city": "Söderköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ågatan 53, Söderköping",
+                "business_hours": null,
+                "phone_number": "010-105 92 25"
+            },
+            "prochain_rdv": "2021-06-17 09:40:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 134,
+            "internal_id": "767",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "05",
             "nom": "Jourcentralen Finspång, Vårdcentralen Finspång",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/800",
             "location": {
                 "longitude": 15.770533893929782,
-                "latitude": 58.70608051396253,
+                "latitude": 58.70608051396251,
                 "city": "Finspång",
                 "cp": "00000"
             },
@@ -74,10 +130,10 @@
                 "business_hours": null,
                 "phone_number": "010-105 92 60"
             },
-            "prochain_rdv": "2021-06-18 10:30:00",
+            "prochain_rdv": "2021-06-18 12:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 776,
+            "appointment_count": 654,
             "internal_id": "800",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -90,10 +146,10 @@
         {
             "departement": "05",
             "nom": "Vårdcentralen Boxholm",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/793",
             "location": {
                 "longitude": 15.054893601198318,
-                "latitude": 58.19701660813657,
+                "latitude": 58.197016608136565,
                 "city": "Boxholm",
                 "cp": "00000"
             },
@@ -102,10 +158,10 @@
                 "business_hours": null,
                 "phone_number": "010-105 99 30"
             },
-            "prochain_rdv": "2021-06-16 09:20:00",
+            "prochain_rdv": "2021-06-16 10:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 44,
+            "appointment_count": 24,
             "internal_id": "793",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -117,11 +173,39 @@
         },
         {
             "departement": "05",
+            "nom": "Vårdcentralen Brinken, Motala",
+            "url": "https://bokning.mittvaccin.se/klinik/786",
+            "location": {
+                "longitude": 15.05121994624728,
+                "latitude": 58.52910929962361,
+                "city": "Motala",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Sveavägen 32, Motala",
+                "business_hours": null,
+                "phone_number": "010-105 98 40"
+            },
+            "prochain_rdv": "2021-06-23 13:20:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 76,
+            "internal_id": "786",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "05",
             "nom": "Vårdcentralen Kisa",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/784",
             "location": {
                 "longitude": 15.636577186617247,
-                "latitude": 57.99305387324729,
+                "latitude": 57.993053873247284,
                 "city": "Kinda",
                 "cp": "00000"
             },
@@ -130,10 +214,10 @@
                 "business_hours": null,
                 "phone_number": "010-105 94 60"
             },
-            "prochain_rdv": "2021-06-23 09:30:00",
+            "prochain_rdv": "2021-06-10 09:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 40,
+            "appointment_count": 108,
             "internal_id": "784",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -145,24 +229,24 @@
         },
         {
             "departement": "05",
-            "nom": "Vårdcentralen Kolmården",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "nom": "Vårdcentralen Mantorp",
+            "url": "https://bokning.mittvaccin.se/klinik/792",
             "location": {
-                "longitude": 16.36261708710113,
-                "latitude": 58.66893796819196,
-                "city": "Norrköping",
+                "longitude": 15.287267325801164,
+                "latitude": 58.34958078726661,
+                "city": "Mjölby",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Munkvägen 13, Kolmården",
+                "address": "Häradstorget 1, Mantorp",
                 "business_hours": null,
-                "phone_number": "010-105 92 40"
+                "phone_number": "010-105 98 20"
             },
-            "prochain_rdv": "2021-06-23 13:10:00",
+            "prochain_rdv": "2021-06-16 13:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 6,
-            "internal_id": "803",
+            "appointment_count": 40,
+            "internal_id": "792",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -174,7 +258,7 @@
         {
             "departement": "05",
             "nom": "Vårdcentralen Marieberg, Motala",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/787",
             "location": {
                 "longitude": 15.000857221179281,
                 "latitude": 58.54028627387187,
@@ -186,10 +270,10 @@
                 "business_hours": null,
                 "phone_number": "010-105 98 50"
             },
-            "prochain_rdv": "2021-06-23 13:30:00",
+            "prochain_rdv": "2021-06-23 13:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 14,
+            "appointment_count": 4,
             "internal_id": "787",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -201,52 +285,24 @@
         },
         {
             "departement": "05",
-            "nom": "Vårdcentralen Mirum, Norrköping",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "nom": "Vårdcentralen Vadstena",
+            "url": "https://bokning.mittvaccin.se/klinik/790",
             "location": {
-                "longitude": 16.2095815992703,
-                "latitude": 58.57340265232764,
-                "city": "Norrköping",
+                "longitude": 14.900405322256093,
+                "latitude": 58.453049173463825,
+                "city": "Vadstena",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Lidaleden 12, Norrköping",
+                "address": "Jungfruvägen 5, Vadstena",
                 "business_hours": null,
-                "phone_number": "011-496 11 00"
+                "phone_number": "010-105 98 30"
             },
-            "prochain_rdv": "2021-06-08 13:10:00",
+            "prochain_rdv": "2021-06-15 10:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 592,
-            "internal_id": "773",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "05",
-            "nom": "Vårdcentralen Tannefors, Linköping",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
-            "location": {
-                "longitude": 15.641605076152151,
-                "latitude": 58.40700681515644,
-                "city": "Linköping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nya Tanneforsvägen 43 C, Linköping",
-                "business_hours": null,
-                "phone_number": "010-105 96 70"
-            },
-            "prochain_rdv": "2021-06-15 10:20:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 8,
-            "internal_id": "776",
+            "appointment_count": 204,
+            "internal_id": "790",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -258,7 +314,7 @@
         {
             "departement": "05",
             "nom": "Vårdcentralen Valdemarsvik",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/804",
             "location": {
                 "longitude": 16.591930415712007,
                 "latitude": 58.202359139360105,
@@ -270,10 +326,10 @@
                 "business_hours": null,
                 "phone_number": "010-105 92 90"
             },
-            "prochain_rdv": "2021-06-16 13:20:00",
+            "prochain_rdv": "2021-06-11 15:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 114,
+            "appointment_count": 172,
             "internal_id": "804",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -286,7 +342,7 @@
         {
             "departement": "05",
             "nom": "Vårdcentralen Åtvidaberg",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/795",
             "location": {
                 "longitude": 15.99961132464145,
                 "latitude": 58.201514172606394,
@@ -298,10 +354,10 @@
                 "business_hours": null,
                 "phone_number": "010-105 97 30"
             },
-            "prochain_rdv": "2021-06-09 09:10:00",
+            "prochain_rdv": "2021-06-10 10:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 18,
+            "appointment_count": 40,
             "internal_id": "795",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -314,10 +370,10 @@
         {
             "departement": "05",
             "nom": "Vårdcentralen Ödeshög",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/796",
             "location": {
                 "longitude": 14.653408442038854,
-                "latitude": 58.22698409718736,
+                "latitude": 58.22698409718737,
                 "city": "Ödeshög",
                 "cp": "00000"
             },
@@ -329,7 +385,7 @@
             "prochain_rdv": "2021-06-10 10:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 63,
+            "appointment_count": 198,
             "internal_id": "796",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -342,10 +398,10 @@
         {
             "departement": "05",
             "nom": "Vårdcentralen Österbymo",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/775",
             "location": {
                 "longitude": 15.276615669711807,
-                "latitude": 57.825231189431236,
+                "latitude": 57.825231189431214,
                 "city": "Ydre",
                 "cp": "00000"
             },
@@ -354,10 +410,10 @@
                 "business_hours": null,
                 "phone_number": "010-105 97 40"
             },
-            "prochain_rdv": "2021-06-08 14:30:00",
+            "prochain_rdv": "2021-06-15 10:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 236,
+            "appointment_count": 366,
             "internal_id": "775",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -371,24 +427,24 @@
     "centres_indisponibles": [
         {
             "departement": "05",
-            "nom": "Barnavårdscentralen, Helsa Vårdcentral Östertull",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "nom": "Barnavårdscentralen, Vårdcentralen Cityhälsan Söder",
+            "url": "https://bokning.mittvaccin.se/klinik/798",
             "location": {
-                "longitude": 16.20340478782557,
-                "latitude": 58.58798369531184,
+                "longitude": 16.203069645521975,
+                "latitude": 58.575083792864135,
                 "city": "Norrköping",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Helsa VC Östertull, Vikboplan 7, Norrköping",
+                "address": "Plåtslagaregatan 10, Norrköping",
                 "business_hours": null,
-                "phone_number": "011-440 91 00"
+                "phone_number": "010-105 92 20"
             },
             "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": "768",
+            "internal_id": "798",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -399,52 +455,24 @@
         },
         {
             "departement": "05",
-            "nom": "Barnavårdscentralen, Vårdcentralen Cityhälsan Centrum",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "nom": "Barnavårdscentralen, Vårdcentralen Lambohov",
+            "url": "https://bokning.mittvaccin.se/klinik/779",
             "location": {
-                "longitude": 16.178457241181867,
-                "latitude": 58.58320140970447,
-                "city": "Norrköping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Gamla Lasarettsgatan 18, Norrköping",
-                "business_hours": null,
-                "phone_number": "010-104 42 19"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "797",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "05",
-            "nom": "Barnhälsovård, Capio Vårdcentral Berga",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
-            "location": {
-                "longitude": 15.642545568788469,
-                "latitude": 58.392320237566274,
+                "longitude": 15.563992851510502,
+                "latitude": 58.387697845588555,
                 "city": "Linköping",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Söderleden 35-37, Linköping",
+                "address": "Tröskaregatan 28, Linköping",
                 "business_hours": null,
-                "phone_number": "010-105 96 11"
+                "phone_number": "010-105 94 82"
             },
             "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": "766",
+            "internal_id": "779",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -455,24 +483,52 @@
         },
         {
             "departement": "05",
-            "nom": "Barnhälsovården, Helsa Vårdcentral Skarptorp",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "nom": "Barnavårdscentralen, Vårdcentralen Valla",
+            "url": "https://bokning.mittvaccin.se/klinik/777",
             "location": {
-                "longitude": 16.147567107807173,
-                "latitude": 58.57291791603411,
-                "city": "Norrköping",
+                "longitude": 15.604049195137922,
+                "latitude": 58.402643680358885,
+                "city": "Linköping",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Helsa VC Skarptorp, Dalviksgatan 69, Norrköping",
+                "address": "Westmansgatan 25, Linköping",
                 "business_hours": null,
-                "phone_number": "011-19 08 00"
+                "phone_number": "010-105 96 80"
             },
             "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": "772",
+            "internal_id": "777",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "05",
+            "nom": "Barnavårdscentralen, Vårdcentralen Vikbolandet",
+            "url": "https://bokning.mittvaccin.se/klinik/805",
+            "location": {
+                "longitude": 16.565409757301243,
+                "latitude": 58.57525916232211,
+                "city": "Norrköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Bygdevägen 13, Östra Husby",
+                "business_hours": null,
+                "phone_number": "010-104 48 14"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "805",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -484,7 +540,7 @@
         {
             "departement": "05",
             "nom": "Capio Vårdcentral Vasastaden, Linköping",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/765",
             "location": {
                 "longitude": 15.609051587827588,
                 "latitude": 58.41954779749085,
@@ -511,8 +567,64 @@
         },
         {
             "departement": "05",
+            "nom": "HandCenter Linköping, Linköping",
+            "url": "https://bokning.mittvaccin.se/klinik/806",
+            "location": {
+                "longitude": 15.623713266407199,
+                "latitude": 58.41350947405841,
+                "city": "Linköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "S:t Larsgatan 15, Linköping",
+                "business_hours": null,
+                "phone_number": "013-470 06 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "806",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "05",
+            "nom": "Helsa Vårdcentral Skarptorp, Norrköping",
+            "url": "https://bokning.mittvaccin.se/klinik/772",
+            "location": {
+                "longitude": 16.147567107807173,
+                "latitude": 58.57291791603411,
+                "city": "Norrköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Helsa VC Skarptorp, Dalviksgatan 69, Norrköping",
+                "business_hours": null,
+                "phone_number": "011-19 08 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "772",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "05",
             "nom": "Helsa Vårdcentral Spiran, Norrköping",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/769",
             "location": {
                 "longitude": 16.188762774328417,
                 "latitude": 58.58706747474632,
@@ -539,24 +651,24 @@
         },
         {
             "departement": "05",
-            "nom": "Hierta Vårdcentral Vilbergen, Norrköping",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "nom": "Helsa Vårdcentral Östertull, Norrköping",
+            "url": "https://bokning.mittvaccin.se/klinik/768",
             "location": {
-                "longitude": 16.17089235009939,
-                "latitude": 58.571570060212935,
+                "longitude": 16.20340478782557,
+                "latitude": 58.58798369531184,
                 "city": "Norrköping",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Hierta VC Vilbergen, Urbergsgatan 90, Norrköping",
+                "address": "Helsa VC Östertull, Vikboplan 7, Norrköping",
                 "business_hours": null,
-                "phone_number": "011-338 33 00"
+                "phone_number": "011-440 91 00"
             },
             "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": "771",
+            "internal_id": "768",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -568,10 +680,10 @@
         {
             "departement": "05",
             "nom": "Hierta Vårdcentral Vilbergen, Norrköping",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/774",
             "location": {
                 "longitude": 16.17089235009939,
-                "latitude": 58.571570060212935,
+                "latitude": 58.57157006021294,
                 "city": "Norrköping",
                 "cp": "00000"
             },
@@ -596,7 +708,7 @@
         {
             "departement": "05",
             "nom": "Johannelunds Vårdcentral AB, Linköping",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/764",
             "location": {
                 "longitude": 15.664319141264581,
                 "latitude": 58.39476125908773,
@@ -624,7 +736,7 @@
         {
             "departement": "05",
             "nom": "Vårdcentralen Borensberg",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/788",
             "location": {
                 "longitude": 15.27725651498119,
                 "latitude": 58.56199377653779,
@@ -651,8 +763,36 @@
         },
         {
             "departement": "05",
+            "nom": "Vårdcentralen Cityhälsan Centrum, Norrköping",
+            "url": "https://bokning.mittvaccin.se/klinik/797",
+            "location": {
+                "longitude": 16.178457241181867,
+                "latitude": 58.58320140970447,
+                "city": "Norrköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Gamla Lasarettsgatan 18, Norrköping",
+                "business_hours": null,
+                "phone_number": "010-105 91 40"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "797",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "05",
             "nom": "Vårdcentralen Cityhälsan Norr, Norrköping",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/799",
             "location": {
                 "longitude": 16.16109550257743,
                 "latitude": 58.605452225743285,
@@ -679,24 +819,24 @@
         },
         {
             "departement": "05",
-            "nom": "Vårdcentralen Cityhälsan Söder, Norrköping",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "nom": "Vårdcentralen Kolmården",
+            "url": "https://bokning.mittvaccin.se/klinik/803",
             "location": {
-                "longitude": 16.203069645521975,
-                "latitude": 58.57508379286415,
+                "longitude": 16.36261708710113,
+                "latitude": 58.66893796819196,
                 "city": "Norrköping",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Södra Torget 2, Norrköping",
+                "address": "Munkvägen 13, Kolmården",
                 "business_hours": null,
-                "phone_number": "010-105 92 20"
+                "phone_number": "010-105 92 40"
             },
             "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": "798",
+            "internal_id": "803",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -708,7 +848,7 @@
         {
             "departement": "05",
             "nom": "Vårdcentralen Kungsgatan",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/778",
             "location": {
                 "longitude": 15.619866827077075,
                 "latitude": 58.4129383330745,
@@ -735,39 +875,11 @@
         },
         {
             "departement": "05",
-            "nom": "Vårdcentralen Lambohov, Linköping",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
-            "location": {
-                "longitude": 15.563992851510502,
-                "latitude": 58.38769784558856,
-                "city": "Linköping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tröskaregatan 28, Linköping",
-                "business_hours": null,
-                "phone_number": "010-105 94 80"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "779",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "05",
             "nom": "Vårdcentralen Linghem",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/781",
             "location": {
                 "longitude": 15.782113081886944,
-                "latitude": 58.42714883556225,
+                "latitude": 58.427148835562235,
                 "city": "Linköping",
                 "cp": "00000"
             },
@@ -792,7 +904,7 @@
         {
             "departement": "05",
             "nom": "Vårdcentralen Ljungsbro",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/785",
             "location": {
                 "longitude": 15.503412698459524,
                 "latitude": 58.508231047660395,
@@ -820,7 +932,7 @@
         {
             "departement": "05",
             "nom": "Vårdcentralen Lyckorna, Motala",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/789",
             "location": {
                 "longitude": 15.029122607609523,
                 "latitude": 58.54408750788958,
@@ -847,36 +959,8 @@
         },
         {
             "departement": "05",
-            "nom": "Vårdcentralen Mantorp",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
-            "location": {
-                "longitude": 15.287267325801164,
-                "latitude": 58.34958078726661,
-                "city": "Mjölby",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Häradstorget 1, Mantorp",
-                "business_hours": null,
-                "phone_number": "010-105 98 20"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "792",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "05",
             "nom": "Vårdcentralen Mjölby",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/791",
             "location": {
                 "longitude": 15.123528222173523,
                 "latitude": 58.32447231689655,
@@ -904,7 +988,7 @@
         {
             "departement": "05",
             "nom": "Vårdcentralen Skäggetorp, Linköping",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/782",
             "location": {
                 "longitude": 15.5838806459751,
                 "latitude": 58.42764950087701,
@@ -932,7 +1016,7 @@
         {
             "departement": "05",
             "nom": "Vårdcentralen Skänninge",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/794",
             "location": {
                 "longitude": 15.087978265596139,
                 "latitude": 58.388454048032536,
@@ -960,7 +1044,7 @@
         {
             "departement": "05",
             "nom": "Vårdcentralen Skärblacka",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/802",
             "location": {
                 "longitude": 15.914165170530007,
                 "latitude": 58.58066938685628,
@@ -987,52 +1071,24 @@
         },
         {
             "departement": "05",
-            "nom": "Vårdcentralen Vadstena",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "nom": "Vårdcentralen Tannefors, Linköping",
+            "url": "https://bokning.mittvaccin.se/klinik/776",
             "location": {
-                "longitude": 14.900405322256093,
-                "latitude": 58.453049173463825,
-                "city": "Vadstena",
+                "longitude": 15.641605076152151,
+                "latitude": 58.40700681515643,
+                "city": "Linköping",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Jungfruvägen 5, Vadstena",
+                "address": "Nya Tanneforsvägen 43 C, Linköping",
                 "business_hours": null,
-                "phone_number": "010-105 98 30"
+                "phone_number": "010-105 96 70"
             },
             "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": "790",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "05",
-            "nom": "Vårdcentralen Vikbolandet, Östra Husby",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
-            "location": {
-                "longitude": 16.565409757301243,
-                "latitude": 58.57525916232211,
-                "city": "Norrköping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Bygdevägen 13, Östra Husby",
-                "business_hours": null,
-                "phone_number": "010-105 92 80"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "805",
+            "internal_id": "776",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -1044,7 +1100,7 @@
         {
             "departement": "05",
             "nom": "Vårdcentralen Åby",
-            "url": "https://www.1177.se/Ostergotland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/#:~:text=i%20st%C3%B6rre%20storlek-,Vaccination%20mot%20covid%2D19%20i%20Region%20%C3%96sterg%C3%B6tland,sig%20%C3%A4r%20gratis%20och%20frivilligt.",
+            "url": "https://bokning.mittvaccin.se/klinik/801",
             "location": {
                 "longitude": 16.18198682388985,
                 "latitude": 58.665479986213434,
