@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-11 04:03:38.658664+02:00",
+    "last_updated": "2021-06-11 04:51:38.228232+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -129,10 +129,10 @@
                 "business_hours": null,
                 "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": "2021-07-09 12:10:00",
+            "prochain_rdv": "2021-07-09 12:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 11,
+            "appointment_count": 9,
             "internal_id": "1534",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -479,34 +479,6 @@
     "centres_indisponibles": [
         {
             "departement": "12",
-            "nom": "Akutmottagning Trelleborg",
-            "url": "https://bokning.mittvaccin.se/klinik/230",
-            "location": {
-                "longitude": 13.161081419691643,
-                "latitude": 55.3812931778886,
-                "city": "Trelleborg",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Frans Malmrosgatan 10, Trelleborg",
-                "business_hours": null,
-                "phone_number": "0410-550 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "230",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Berga Läkarhus, Helsingborg",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Berga-Lakarhus-Helsingborg/",
             "location": {
@@ -555,6 +527,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Endoskopimottagning Trelleborg",
+            "url": "https://bokning.mittvaccin.se/klinik/230",
+            "location": {
+                "longitude": 13.16112078422732,
+                "latitude": 55.380467354373934,
+                "city": "Trelleborg",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Hedvägen 46, Trelleborg",
+                "business_hours": null,
+                "phone_number": "0410-552 50"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "230",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
