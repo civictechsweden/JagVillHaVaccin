@@ -1,27 +1,83 @@
 {
     "version": 1,
-    "last_updated": "2021-06-11 08:51:53.436506+02:00",
+    "last_updated": "2021-06-11 09:11:59.399198+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "14",
-            "nom": "Närhälsan Dingle Lantbruksskolan",
-            "url": null,
+            "nom": "Kronans Apotek MediCheck Hisingsbacka",
+            "url": "https://bokning.mittvaccin.se/klinik/2091",
             "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
+                "longitude": 11.98214942257889,
+                "latitude": 57.75033771020452,
+                "city": "Göteborg",
+                "cp": "42248"
             },
             "metadata": {
-                "address": "",
+                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-06-11 14:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "2091",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Lidköping, Framnäsvägen 3",
+            "url": "https://www.vaccina.se/covidvaccin/vastra-gotaland/tidsbokning/#/service",
+            "location": {
+                "longitude": 13.1407915,
+                "latitude": 58.5081575,
+                "city": "Lidköping",
+                "cp": "53154"
+            },
+            "metadata": {
+                "address": "Framnäsvägen 3, 531 54 Lidköping",
                 "business_hours": null,
                 "phone_number": ""
+            },
+            "prochain_rdv": "2021-06-16 09:35:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 96,
+            "internal_id": 30632,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Karlsborg vårdcentral, Karlsborg",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Karlsborg-vardcentral-Karlsborg/",
+            "location": {
+                "longitude": 14.516093296371812,
+                "latitude": 58.530190343899214,
+                "city": "Karlsborg",
+                "cp": "54630"
+            },
+            "metadata": {
+                "address": "Kärleksstigen 4B, 546 30, Karlsborg",
+                "business_hours": null,
+                "phone_number": "0505-183 00"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 75,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2329,34 +2385,6 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Hisingsbacka",
-            "url": "https://bokning.mittvaccin.se/klinik/2091",
-            "location": {
-                "longitude": 11.98214942257889,
-                "latitude": 57.75033771020452,
-                "city": "Göteborg",
-                "cp": "42248"
-            },
-            "metadata": {
-                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2091",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Kronans Apotek MediCheck Hjo",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Hjo/",
             "location": {
@@ -3589,34 +3617,6 @@
         },
         {
             "departement": "14",
-            "nom": "Lidköping, Framnäsvägen 3",
-            "url": "https://www.vaccina.se/covidvaccin/vastra-gotaland/tidsbokning/#/service",
-            "location": {
-                "longitude": 13.1407915,
-                "latitude": 58.5081575,
-                "city": "Lidköping",
-                "cp": "53154"
-            },
-            "metadata": {
-                "address": "Framnäsvägen 3, 531 54 Lidköping",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 30632,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Läkargruppen Mölndalsbro, Mölndal",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Lakargruppen-Molndalsbro-Molndal/",
             "location": {
@@ -4457,6 +4457,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Dingle Lantbruksskolan",
+            "url": null,
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Ekmanska vårdcentral, Göteborg",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Ekmanska-vardcentral-Goteborg/",
             "location": {
@@ -5093,34 +5121,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Karlsborg vårdcentral, Karlsborg",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Karlsborg-vardcentral-Karlsborg/",
-            "location": {
-                "longitude": 14.516093296371812,
-                "latitude": 58.530190343899214,
-                "city": "Karlsborg",
-                "cp": "54630"
-            },
-            "metadata": {
-                "address": "Kärleksstigen 4B, 546 30, Karlsborg",
-                "business_hours": null,
-                "phone_number": "0505-183 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
