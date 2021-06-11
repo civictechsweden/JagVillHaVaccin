@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-06-11 13:21:51.338222+02:00",
+    "last_updated": "2021-06-11 13:39:51.877808+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "05",
+            "nom": "Barnavårdscentralen, Vårdcentralen Cityhälsan Söder",
+            "url": "https://bokning.mittvaccin.se/klinik/798",
+            "location": {
+                "longitude": 16.203069645521975,
+                "latitude": 58.575083792864135,
+                "city": "Norrköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Plåtslagaregatan 10, Norrköping",
+                "business_hours": null,
+                "phone_number": "010-105 92 20"
+            },
+            "prochain_rdv": "2021-06-17 10:15:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 24,
+            "internal_id": "798",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "05",
             "nom": "Barnavårdscentralen, Vårdcentralen Mirum",
@@ -21,7 +49,7 @@
             "prochain_rdv": "2021-06-23 11:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 458,
+            "appointment_count": 456,
             "internal_id": "773",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -74,10 +102,10 @@
                 "business_hours": null,
                 "phone_number": "010-105 96 10"
             },
-            "prochain_rdv": "2021-06-23 15:42:00",
+            "prochain_rdv": "2021-06-23 15:48:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 60,
+            "appointment_count": 58,
             "internal_id": "766",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -301,7 +329,7 @@
             "prochain_rdv": "2021-06-14 10:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 160,
+            "appointment_count": 162,
             "internal_id": "796",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -341,34 +369,6 @@
         }
     ],
     "centres_indisponibles": [
-        {
-            "departement": "05",
-            "nom": "Barnavårdscentralen, Vårdcentralen Cityhälsan Söder",
-            "url": "https://bokning.mittvaccin.se/klinik/798",
-            "location": {
-                "longitude": 16.203069645521975,
-                "latitude": 58.575083792864135,
-                "city": "Norrköping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Plåtslagaregatan 10, Norrköping",
-                "business_hours": null,
-                "phone_number": "010-105 92 20"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "798",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "05",
             "nom": "Barnavårdscentralen, Vårdcentralen Lambohov",
