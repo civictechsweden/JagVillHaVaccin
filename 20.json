@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-11 09:02:07.546673+02:00",
+    "last_updated": "2021-06-11 09:32:41.649789+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-15 13:40:00",
+            "prochain_rdv": "2021-07-02 15:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 5,
+            "appointment_count": 1,
             "internal_id": "2114",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,10 +46,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-14 14:52:00",
+            "prochain_rdv": "2021-06-14 13:56:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1431,
+            "appointment_count": 1421,
             "internal_id": "2112",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -74,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-06 16:56:00",
+            "prochain_rdv": "2021-06-14 10:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 1350,
             "internal_id": "2111",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -102,11 +102,39 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-11 09:08:00",
+            "prochain_rdv": "2021-06-21 12:28:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 113,
+            "appointment_count": 1215,
             "internal_id": "2115",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "20",
+            "nom": "Doktor.se / Mora",
+            "url": "https://bokning.mittvaccin.se/klinik/2113",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Mora",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Mora Parken restaurang och konferens, Parkvägen",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-06-28 09:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 600,
+            "internal_id": "2113",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -186,10 +214,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-15 15:05:00",
+            "prochain_rdv": "2021-06-15 15:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 78,
+            "appointment_count": 76,
             "internal_id": "2103",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -200,34 +228,5 @@
             "gid": null
         }
     ],
-    "centres_indisponibles": [
-        {
-            "departement": "20",
-            "nom": "Doktor.se / Mora",
-            "url": "https://bokning.mittvaccin.se/klinik/2113",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "Mora",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Mora Parken restaurang och konferens, Parkvägen",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2113",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        }
-    ]
+    "centres_indisponibles": []
 }
