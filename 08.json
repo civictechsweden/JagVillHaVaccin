@@ -1,8 +1,37 @@
 {
     "version": 1,
-    "last_updated": "2021-06-11 17:43:59.079270+02:00",
+    "last_updated": "2021-06-11 18:04:29.536906+02:00",
     "last_scrap": [],
-    "centres_disponibles": [],
+    "centres_disponibles": [
+        {
+            "departement": "08",
+            "nom": "Vaccinationscentral covid-19 Västervik",
+            "url": "https://bokning.mittvaccin.se/klinik/1547",
+            "location": {
+                "longitude": 16.63873172343222,
+                "latitude": 57.75759132785008,
+                "city": "Västervik",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Spötorget 1, Västervik",
+                "business_hours": null,
+                "phone_number": "0480-844 44"
+            },
+            "prochain_rdv": "2021-06-17 09:54:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 8,
+            "internal_id": "1547",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        }
+    ],
     "centres_indisponibles": [
         {
             "departement": "08",
@@ -724,34 +753,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2053",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Vaccinationscentral covid-19 Västervik",
-            "url": "https://bokning.mittvaccin.se/klinik/1547",
-            "location": {
-                "longitude": 16.63873172343222,
-                "latitude": 57.75759132785008,
-                "city": "Västervik",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Spötorget 1, Västervik",
-                "business_hours": null,
-                "phone_number": "0480-844 44"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1547",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
