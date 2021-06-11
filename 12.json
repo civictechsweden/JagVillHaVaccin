@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-11 17:03:17.432024+02:00",
+    "last_updated": "2021-06-11 17:24:50.734489+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -73,10 +73,10 @@
                 "address": "Storgatan 19, Klippan",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-06-18 10:05:00",
+            "prochain_rdv": "2021-06-21 11:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 419,
+            "appointment_count": 415,
             "internal_id": "231",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -143,6 +143,34 @@
         },
         {
             "departement": "12",
+            "nom": "Kronans Apotek Ängelholm",
+            "url": "https://bokning.mittvaccin.se/klinik/1534",
+            "location": {
+                "longitude": 12.863032774480866,
+                "latitude": 56.24253762960139,
+                "city": "Ängelholm",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Laxgatan 6, Ängelholm",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-06-16 12:15:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "1534",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
             "nom": "MACC Arlöv",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Arlov/",
             "location": {
@@ -186,7 +214,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 262,
+            "appointment_count": 260,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -214,7 +242,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 872,
+            "appointment_count": 871,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -241,7 +269,35 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 7,
+            "appointment_count": 4,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Sjöbo",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Sjobo/",
+            "location": {
+                "longitude": 13.693634123512222,
+                "latitude": 55.635076880844345,
+                "city": "Sjöbo",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Industrigatan 1C, Sjöbo",
+                "business_hours": null,
+                "phone_number": "073-143 84 58"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MACC",
+            "type": "vaccination-center",
+            "appointment_count": 3,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -323,7 +379,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 97,
+            "appointment_count": 99,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -379,7 +435,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 66,
+            "appointment_count": 62,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -459,10 +515,10 @@
                 "address": "Norregatan 6, Eslöv",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-06-17 12:15:00",
+            "prochain_rdv": "2021-06-17 12:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 78,
+            "appointment_count": 77,
             "internal_id": "2022",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -489,7 +545,7 @@
             "prochain_rdv": "2021-06-17 11:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 120,
+            "appointment_count": 114,
             "internal_id": "2024",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -517,7 +573,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 24,
+            "appointment_count": 17,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -811,34 +867,6 @@
         },
         {
             "departement": "12",
-            "nom": "Kronans Apotek Ängelholm",
-            "url": "https://bokning.mittvaccin.se/klinik/1534",
-            "location": {
-                "longitude": 12.863032774480866,
-                "latitude": 56.24253762960139,
-                "city": "Ängelholm",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Laxgatan 6, Ängelholm",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1534",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Kry Lund",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Kry-Lund/",
             "location": {
@@ -939,34 +967,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2047",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "MACC Sjöbo",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Sjobo/",
-            "location": {
-                "longitude": 13.693634123512222,
-                "latitude": 55.635076880844345,
-                "city": "Sjöbo",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Industrigatan 1C, Sjöbo",
-                "business_hours": null,
-                "phone_number": "073-143 84 58"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MACC",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
