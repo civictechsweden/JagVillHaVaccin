@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-11 08:02:55.130099+02:00",
+    "last_updated": "2021-06-11 08:25:51.001211+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": "011-496 11 08"
             },
-            "prochain_rdv": "2021-06-23 09:50:00",
+            "prochain_rdv": "2021-06-23 10:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 486,
+            "appointment_count": 484,
             "internal_id": "773",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -74,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": "010-105 92 25"
             },
-            "prochain_rdv": "2021-06-18 13:40:00",
+            "prochain_rdv": "2021-06-18 13:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 6,
+            "appointment_count": 8,
             "internal_id": "767",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -214,10 +214,10 @@
                 "business_hours": null,
                 "phone_number": "010-105 96 70"
             },
-            "prochain_rdv": "2021-06-15 11:30:00",
+            "prochain_rdv": "2021-06-15 11:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 6,
+            "appointment_count": 4,
             "internal_id": "776",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -285,6 +285,34 @@
         },
         {
             "departement": "05",
+            "nom": "Vårdcentralen Åtvidaberg",
+            "url": "https://bokning.mittvaccin.se/klinik/795",
+            "location": {
+                "longitude": 15.99961132464145,
+                "latitude": 58.201514172606394,
+                "city": "Åtvidaberg",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Adelswärdsgatan 2, Åtvidaberg",
+                "business_hours": null,
+                "phone_number": "010-105 97 30"
+            },
+            "prochain_rdv": "2021-06-11 13:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "795",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "05",
             "nom": "Vårdcentralen Ödeshög",
             "url": "https://bokning.mittvaccin.se/klinik/796",
             "location": {
@@ -301,7 +329,7 @@
             "prochain_rdv": "2021-06-14 10:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 168,
+            "appointment_count": 166,
             "internal_id": "796",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1089,34 +1117,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "801",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "05",
-            "nom": "Vårdcentralen Åtvidaberg",
-            "url": "https://bokning.mittvaccin.se/klinik/795",
-            "location": {
-                "longitude": 15.99961132464145,
-                "latitude": 58.201514172606394,
-                "city": "Åtvidaberg",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Adelswärdsgatan 2, Åtvidaberg",
-                "business_hours": null,
-                "phone_number": "010-105 97 30"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "795",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
