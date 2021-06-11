@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-06-11 16:38:26.961621+02:00",
+    "last_updated": "2021-06-11 17:00:05.026547+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Alingsås",
+            "url": "https://bokning.mittvaccin.se/klinik/2086",
+            "location": {
+                "longitude": 12.537011564676016,
+                "latitude": 57.930104216081595,
+                "city": "Alingsås",
+                "cp": "44131"
+            },
+            "metadata": {
+                "address": "Kungsgatan 34, 441 31, Alingsås",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-06-16 10:25:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 36,
+            "internal_id": "2086",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "14",
             "nom": "Närhälsan Dingle Lantbruksskolan",
@@ -21,7 +49,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 585,
+            "appointment_count": 568,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +77,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 6,
+            "appointment_count": 4,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,7 +105,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 121,
+            "appointment_count": 104,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -105,7 +133,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 121,
+            "appointment_count": 104,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -133,7 +161,63 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 76,
+            "appointment_count": 70,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Stora Höga vårdcentral, Stora Höga",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stora-Hoga-vardcentral-Stora-Hoga/",
+            "location": {
+                "longitude": 11.83182008976126,
+                "latitude": 58.016755332684724,
+                "city": "Stenungsund",
+                "cp": "44460"
+            },
+            "metadata": {
+                "address": "Stora vägen 2, 444 60, Stora Höga",
+                "business_hours": null,
+                "phone_number": "010-473 35 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Svenljunga vårdcentral, Svenljunga",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Svenljunga-vardcentral-Svenljunga/",
+            "location": {
+                "longitude": 13.116587190134467,
+                "latitude": 57.494098921820274,
+                "city": "Svenljunga",
+                "cp": "51254"
+            },
+            "metadata": {
+                "address": "Klockaregatan 3, 512 54, Svenljunga",
+                "business_hours": null,
+                "phone_number": "0325-61 91 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -161,7 +245,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 96,
+            "appointment_count": 91,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -185,6 +269,34 @@
                 "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
                 "business_hours": null,
                 "phone_number": "0502-180 11"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 3,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tranemo-vardcentral-Tranemo/",
+            "location": {
+                "longitude": 13.346591812509288,
+                "latitude": 57.48063225486268,
+                "city": "Tranemo",
+                "cp": "51434"
+            },
+            "metadata": {
+                "address": "Storgatan 42, 514 34, Tranemo",
+                "business_hours": null,
+                "phone_number": "0325-472 10"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -2291,34 +2403,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2096",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Alingsås",
-            "url": "https://bokning.mittvaccin.se/klinik/2086",
-            "location": {
-                "longitude": 12.537011564676016,
-                "latitude": 57.930104216081595,
-                "city": "Alingsås",
-                "cp": "44131"
-            },
-            "metadata": {
-                "address": "Kungsgatan 34, 441 31, Alingsås",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2086",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -6333,34 +6417,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Stora Höga vårdcentral, Stora Höga",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stora-Hoga-vardcentral-Stora-Hoga/",
-            "location": {
-                "longitude": 11.83182008976126,
-                "latitude": 58.016755332684724,
-                "city": "Stenungsund",
-                "cp": "44460"
-            },
-            "metadata": {
-                "address": "Stora vägen 2, 444 60, Stora Höga",
-                "business_hours": null,
-                "phone_number": "010-473 35 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Styrsö vårdcentral, Styrsö",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Styrso-vardcentral-Styrso/",
             "location": {
@@ -6381,34 +6437,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Svenljunga vårdcentral, Svenljunga",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Svenljunga-vardcentral-Svenljunga/",
-            "location": {
-                "longitude": 13.116587190134467,
-                "latitude": 57.494098921820274,
-                "city": "Svenljunga",
-                "cp": "51254"
-            },
-            "metadata": {
-                "address": "Klockaregatan 3, 512 54, Svenljunga",
-                "business_hours": null,
-                "phone_number": "0325-61 91 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -6689,34 +6717,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tranemo-vardcentral-Tranemo/",
-            "location": {
-                "longitude": 13.346591812509288,
-                "latitude": 57.48063225486268,
-                "city": "Tranemo",
-                "cp": "51434"
-            },
-            "metadata": {
-                "address": "Storgatan 42, 514 34, Tranemo",
-                "business_hours": null,
-                "phone_number": "0325-472 10"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
