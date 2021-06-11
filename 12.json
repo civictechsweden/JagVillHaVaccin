@@ -1,16 +1,36 @@
 {
     "version": 1,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "last_updated": "2021-06-11 13:40:04.157491+02:00",
-=======
-    "last_updated": "2021-06-11 13:52:42.938004+02:00",
->>>>>>> Stashed changes
-=======
-    "last_updated": "2021-06-11 14:00:12.545854+02:00",
->>>>>>> Stashed changes
+    "last_updated": "2021-06-11 14:29:06.646270+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "12",
+            "nom": "Berga Läkarhus, Helsingborg",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Berga-Lakarhus-Helsingborg/",
+            "location": {
+                "longitude": 12.710842758526377,
+                "latitude": 56.0638806521683,
+                "city": "Helsingborg",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Rundgången 26, Helsingborg",
+                "business_hours": null,
+                "phone_number": "042-15 50 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 6,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "12",
             "nom": "Clarion Hotel Sea U",
@@ -29,7 +49,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 6,
+            "appointment_count": 98,
             "internal_id": 30007,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -56,7 +76,7 @@
             "prochain_rdv": "2021-06-22 10:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 420,
+            "appointment_count": 418,
             "internal_id": "231",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -84,7 +104,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 6,
+            "appointment_count": 98,
             "internal_id": 30009,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -96,39 +116,6 @@
         },
         {
             "departement": "12",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-            "nom": "Kronans Apotek Båstad",
-            "url": "https://bokning.mittvaccin.se/klinik/1535",
-            "location": {
-                "longitude": 12.837022713078733,
-                "latitude": 56.433153288605794,
-                "city": "Båstad",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kyrkogatan 21, Båstad",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": "2021-06-22 12:25:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "1535",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-=======
->>>>>>> Stashed changes
             "nom": "Kronans Apotek Höör",
             "url": "https://bokning.mittvaccin.se/klinik/1538",
             "location": {
@@ -141,17 +128,10 @@
                 "address": "Föreningsgatan 7, Höör",
                 "business_hours": null
             },
-<<<<<<< Updated upstream
-            "prochain_rdv": "2021-06-24 12:45:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-=======
             "prochain_rdv": "2021-06-23 10:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2,
->>>>>>> Stashed changes
+            "appointment_count": 1,
             "internal_id": "1538",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -163,10 +143,6 @@
         },
         {
             "departement": "12",
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
             "nom": "MACC Arlöv",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Arlov/",
             "location": {
@@ -210,15 +186,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            "appointment_count": 281,
-=======
-            "appointment_count": 278,
->>>>>>> Stashed changes
-=======
-            "appointment_count": 278,
->>>>>>> Stashed changes
+            "appointment_count": 273,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -246,15 +214,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            "appointment_count": 874,
-=======
             "appointment_count": 873,
->>>>>>> Stashed changes
-=======
-            "appointment_count": 872,
->>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -281,35 +241,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 9,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "MACC Skurup",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Skurup/",
-            "location": {
-                "longitude": 13.503898394470399,
-                "latitude": 55.475824351719375,
-                "city": "Skurup",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Vaktgatan 10, Skurup",
-                "business_hours": null,
-                "phone_number": "010-330 04 43"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MACC",
-            "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 6,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -337,42 +269,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            "appointment_count": 107,
-=======
-            "appointment_count": 106,
->>>>>>> Stashed changes
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "MACC Ängelholm",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Angelholm/",
-            "location": {
-                "longitude": 12.8446722534569,
-                "latitude": 56.28698187117768,
-                "city": "Ängelholm",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Stjernsvärds allé 51, Ängelholm",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "MACC",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-=======
-            "appointment_count": 104,
->>>>>>> Stashed changes
+            "appointment_count": 103,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -427,7 +324,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 6,
+            "appointment_count": 98,
             "internal_id": 30008,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -483,7 +380,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 6,
+            "appointment_count": 98,
             "internal_id": 31153,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -535,25 +432,38 @@
                 "address": "Norregatan 6, Eslöv",
                 "business_hours": null
             },
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            "prochain_rdv": "2021-06-17 10:50:00",
+            "prochain_rdv": "2021-06-17 11:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 113,
-=======
-            "prochain_rdv": "2021-06-17 11:20:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 107,
->>>>>>> Stashed changes
-=======
-            "prochain_rdv": "2021-06-17 11:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 108,
->>>>>>> Stashed changes
+            "appointment_count": 100,
             "internal_id": "2022",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccinova Tomelilla",
+            "url": "https://bokning.mittvaccin.se/klinik/2021",
+            "location": {
+                "longitude": 13.958137668340374,
+                "latitude": 55.544381938827925,
+                "city": "Tomelilla",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Östergatan 21, Tomelilla",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-06-11 14:45:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "2021",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -576,24 +486,10 @@
                 "address": "Companiegatan 2A, Åhus",
                 "business_hours": null
             },
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            "prochain_rdv": "2021-06-17 09:40:00",
+            "prochain_rdv": "2021-06-17 10:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 162,
-=======
-            "prochain_rdv": "2021-06-17 10:00:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 157,
->>>>>>> Stashed changes
-=======
-            "prochain_rdv": "2021-06-17 10:00:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 155,
->>>>>>> Stashed changes
+            "appointment_count": 146,
             "internal_id": "2024",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -621,7 +517,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 24,
+            "appointment_count": 25,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -649,7 +545,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 6,
+            "appointment_count": 98,
             "internal_id": 30011,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -661,34 +557,6 @@
         }
     ],
     "centres_indisponibles": [
-        {
-            "departement": "12",
-            "nom": "Berga Läkarhus, Helsingborg",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Berga-Lakarhus-Helsingborg/",
-            "location": {
-                "longitude": 12.710842758526377,
-                "latitude": 56.0638806521683,
-                "city": "Helsingborg",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Rundgången 26, Helsingborg",
-                "business_hours": null,
-                "phone_number": "042-15 50 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "12",
             "nom": "Doktor 24 Segevångsskolan",
@@ -915,7 +783,6 @@
         },
         {
             "departement": "12",
-<<<<<<< Updated upstream
             "nom": "Kronans Apotek Båstad",
             "url": "https://bokning.mittvaccin.se/klinik/1535",
             "location": {
@@ -944,38 +811,6 @@
         },
         {
             "departement": "12",
-<<<<<<< Updated upstream
-            "nom": "Kronans Apotek Höör",
-            "url": "https://bokning.mittvaccin.se/klinik/1538",
-            "location": {
-                "longitude": 13.540319233929354,
-                "latitude": 55.93385874871056,
-                "city": "Höör",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Föreningsgatan 7, Höör",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1538",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
             "nom": "Kronans Apotek Ängelholm",
             "url": "https://bokning.mittvaccin.se/klinik/1534",
             "location": {
@@ -1126,6 +961,34 @@
                 "address": "Industrigatan 1C, Sjöbo",
                 "business_hours": null,
                 "phone_number": "073-143 84 58"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MACC",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Skurup",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Skurup/",
+            "location": {
+                "longitude": 13.503898394470399,
+                "latitude": 55.475824351719375,
+                "city": "Skurup",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Vaktgatan 10, Skurup",
+                "business_hours": null,
+                "phone_number": "010-330 04 43"
             },
             "prochain_rdv": null,
             "plateforme": "MACC",
@@ -1707,33 +1570,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2020",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Vaccinova Tomelilla",
-            "url": "https://bokning.mittvaccin.se/klinik/2021",
-            "location": {
-                "longitude": 13.958137668340374,
-                "latitude": 55.544381938827925,
-                "city": "Tomelilla",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Östergatan 21, Tomelilla",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2021",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
