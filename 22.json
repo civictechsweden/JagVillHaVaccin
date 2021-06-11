@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-11 08:25:03.876384+02:00",
+    "last_updated": "2021-06-11 08:53:56.856484+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -33,36 +33,6 @@
         },
         {
             "departement": "22",
-            "nom": "Vaccinationsenhet Sollefteå, Hullsta gård",
-            "url": "https://bokning.mittvaccin.se/klinik/1325",
-            "location": {
-                "longitude": 17.273690876743526,
-                "latitude": 63.166387061033475,
-                "city": "Sollefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Hullsta gård, Storgatan 69",
-                "business_hours": null,
-                "phone_number": "0611-804 00"
-            },
-            "prochain_rdv": "2021-06-11 08:40:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 380,
-            "internal_id": "1325",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        }
-    ],
-    "centres_indisponibles": [
-        {
-            "departement": "22",
             "nom": "Vaccinationsenhet Curlinghallen Skyttis",
             "url": "https://bokning.mittvaccin.se/klinik/1514",
             "location": {
@@ -76,10 +46,10 @@
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": null,
+            "prochain_rdv": "2021-06-22 10:54:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 0,
+            "appointment_count": 14,
             "internal_id": "1514",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -89,6 +59,36 @@
             "appointment_schedules": [],
             "gid": null
         },
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Sollefteå, Hullsta gård",
+            "url": "https://bokning.mittvaccin.se/klinik/1325",
+            "location": {
+                "longitude": 17.273690876743526,
+                "latitude": 63.166387061033475,
+                "city": "Sollefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Hullsta gård, Storgatan 69",
+                "business_hours": null,
+                "phone_number": "0611-804 00"
+            },
+            "prochain_rdv": "2021-06-11 09:50:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 379,
+            "internal_id": "1325",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "22",
             "nom": "Vaccinationsenhet Fränsta",
