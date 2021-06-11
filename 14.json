@@ -1,36 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-06-11 14:25:53.072537+02:00",
+    "last_updated": "2021-06-11 15:32:21.878212+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Hisingsbacka",
-            "url": "https://bokning.mittvaccin.se/klinik/2091",
-            "location": {
-                "longitude": 11.98214942257889,
-                "latitude": 57.75033771020452,
-                "city": "Göteborg",
-                "cp": "42248"
-            },
-            "metadata": {
-                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": "2021-06-14 09:45:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 48,
-            "internal_id": "2091",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "14",
             "nom": "Närhälsan Dingle Lantbruksskolan",
@@ -49,7 +21,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 612,
+            "appointment_count": 602,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,7 +49,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 5,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -105,7 +77,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 160,
+            "appointment_count": 144,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -133,10 +105,94 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 160,
+            "appointment_count": 144,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Scandinavium",
+            "url": null,
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 191,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Stenstorp vårdcentral, Stenstorp",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stenstorp-vardcentral-Stenstorp/",
+            "location": {
+                "longitude": 13.717400041889025,
+                "latitude": 58.273721072294435,
+                "city": "Falköping",
+                "cp": "52160"
+            },
+            "metadata": {
+                "address": "Storgatan 14 A, 521 60, Stenstorp",
+                "business_hours": null,
+                "phone_number": "0500-47 29 50"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 86,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Stora Höga vårdcentral, Stora Höga",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stora-Hoga-vardcentral-Stora-Hoga/",
+            "location": {
+                "longitude": 11.83182008976126,
+                "latitude": 58.016755332684724,
+                "city": "Stenungsund",
+                "cp": "44460"
+            },
+            "metadata": {
+                "address": "Stora vägen 2, 444 60, Stora Höga",
+                "business_hours": null,
+                "phone_number": "010-473 35 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 3,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -161,7 +217,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 113,
+            "appointment_count": 105,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -173,23 +229,23 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidaholm-vardcentral-Tidaholm/",
+            "nom": "Närhälsan Vänerparken vårdcentral, Vänersborg",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Vanerparken-vardcentral-Vanersborg/",
             "location": {
-                "longitude": 13.956163123936285,
-                "latitude": 58.17816034620173,
-                "city": "Tidaholm",
-                "cp": "52230"
+                "longitude": 12.320768911766642,
+                "latitude": 58.374752961014416,
+                "city": "Vänersborg",
+                "cp": "46235"
             },
             "metadata": {
-                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
+                "address": "Vänerparken 21, 462 35, Vänersborg",
                 "business_hours": null,
-                "phone_number": "0502-180 11"
+                "phone_number": "010-441 62 00"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 4,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2461,6 +2517,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Hisingsbacka",
+            "url": "https://bokning.mittvaccin.se/klinik/2091",
+            "location": {
+                "longitude": 11.98214942257889,
+                "latitude": 57.75033771020452,
+                "city": "Göteborg",
+                "cp": "42248"
+            },
+            "metadata": {
+                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2091",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -6025,34 +6109,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Scandinavium",
-            "url": null,
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Sisjön vårdcentral, Askim",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Sisjon-vardcentral-Askim/",
             "location": {
@@ -6277,34 +6333,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Stenstorp vårdcentral, Stenstorp",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stenstorp-vardcentral-Stenstorp/",
-            "location": {
-                "longitude": 13.717400041889025,
-                "latitude": 58.273721072294435,
-                "city": "Falköping",
-                "cp": "52160"
-            },
-            "metadata": {
-                "address": "Storgatan 14 A, 521 60, Stenstorp",
-                "business_hours": null,
-                "phone_number": "0500-47 29 50"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Stenungsund vårdcentral, Stenungsund",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stenungsund-vardcentral-Stenungsund/",
             "location": {
@@ -6317,34 +6345,6 @@
                 "address": "Jullen 3, 444 30, Stenungsund",
                 "business_hours": null,
                 "phone_number": "010-473 32 20"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Stora Höga vårdcentral, Stora Höga",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stora-Hoga-vardcentral-Stora-Hoga/",
-            "location": {
-                "longitude": 11.83182008976126,
-                "latitude": 58.016755332684724,
-                "city": "Stenungsund",
-                "cp": "44460"
-            },
-            "metadata": {
-                "address": "Stora vägen 2, 444 60, Stora Höga",
-                "business_hours": null,
-                "phone_number": "010-473 35 00"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -6549,6 +6549,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidaholm-vardcentral-Tidaholm/",
+            "location": {
+                "longitude": 13.956163123936285,
+                "latitude": 58.17816034620173,
+                "city": "Tidaholm",
+                "cp": "52230"
+            },
+            "metadata": {
+                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
+                "business_hours": null,
+                "phone_number": "0502-180 11"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -6852,34 +6880,6 @@
             },
             "prochain_rdv": null,
             "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Vänerparken vårdcentral, Vänersborg",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Vanerparken-vardcentral-Vanersborg/",
-            "location": {
-                "longitude": 12.320768911766642,
-                "latitude": 58.374752961014416,
-                "city": "Vänersborg",
-                "cp": "46235"
-            },
-            "metadata": {
-                "address": "Vänerparken 21, 462 35, Vänersborg",
-                "business_hours": null,
-                "phone_number": "010-441 62 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
