@@ -1,8 +1,64 @@
 {
     "version": 1,
-    "last_updated": "2021-06-11 21:44:28.664685+02:00",
+    "last_updated": "2021-06-11 21:56:44.860113+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Alingsås",
+            "url": "https://bokning.mittvaccin.se/klinik/2086",
+            "location": {
+                "longitude": 12.537011564676016,
+                "latitude": 57.930104216081595,
+                "city": "Alingsås",
+                "cp": "44131"
+            },
+            "metadata": {
+                "address": "Kungsgatan 34, 441 31, Alingsås",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-06-16 12:20:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "2086",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Borås",
+            "url": "https://bokning.mittvaccin.se/klinik/2081",
+            "location": {
+                "longitude": 12.942756406174066,
+                "latitude": 57.72053321567715,
+                "city": "Borås",
+                "cp": "50337"
+            },
+            "metadata": {
+                "address": "Allégatan 43, 503 37, Borås",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-06-16 12:55:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "2081",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "14",
             "nom": "Kronans Apotek MediCheck Falköping",
@@ -18,11 +74,39 @@
                 "business_hours": null,
                 "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": "2021-06-16 10:30:00",
+            "prochain_rdv": "2021-06-16 10:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 29,
+            "appointment_count": 22,
             "internal_id": "2085",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Hisingsbacka",
+            "url": "https://bokning.mittvaccin.se/klinik/2091",
+            "location": {
+                "longitude": 11.98214942257889,
+                "latitude": 57.75033771020452,
+                "city": "Göteborg",
+                "cp": "42248"
+            },
+            "metadata": {
+                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-06-16 10:20:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 3,
+            "internal_id": "2091",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -61,62 +145,6 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Skene",
-            "url": "https://bokning.mittvaccin.se/klinik/2084",
-            "location": {
-                "longitude": 12.645608292977906,
-                "latitude": 57.49131915795585,
-                "city": "Mark",
-                "cp": 0
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": "2021-06-16 12:25:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 5,
-            "internal_id": "2084",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Strömstad",
-            "url": "https://bokning.mittvaccin.se/klinik/2083",
-            "location": {
-                "longitude": 11.170701456759991,
-                "latitude": 58.93868539287202,
-                "city": "Strömstad",
-                "cp": "45230"
-            },
-            "metadata": {
-                "address": "Södra Hamngatan 4, 452 30, Strömstad",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": "2021-06-16 11:35:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 4,
-            "internal_id": "2083",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Kronans Apotek MediCheck Vara Vårdcentral",
             "url": "https://bokning.mittvaccin.se/klinik/2089",
             "location": {
@@ -130,10 +158,10 @@
                 "business_hours": null,
                 "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": "2021-06-16 10:00:00",
+            "prochain_rdv": "2021-06-16 10:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 35,
+            "appointment_count": 30,
             "internal_id": "2089",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -158,10 +186,10 @@
                 "business_hours": null,
                 "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": "2021-06-16 10:45:00",
+            "prochain_rdv": "2021-06-16 10:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 28,
+            "appointment_count": 27,
             "internal_id": "2093",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -189,7 +217,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 402,
+            "appointment_count": 392,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -217,7 +245,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 31,
+            "appointment_count": 26,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -245,7 +273,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 31,
+            "appointment_count": 26,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -273,7 +301,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 26,
+            "appointment_count": 27,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -301,7 +329,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -329,7 +357,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 42,
+            "appointment_count": 37,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2441,62 +2469,6 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Alingsås",
-            "url": "https://bokning.mittvaccin.se/klinik/2086",
-            "location": {
-                "longitude": 12.537011564676016,
-                "latitude": 57.930104216081595,
-                "city": "Alingsås",
-                "cp": "44131"
-            },
-            "metadata": {
-                "address": "Kungsgatan 34, 441 31, Alingsås",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2086",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Borås",
-            "url": "https://bokning.mittvaccin.se/klinik/2081",
-            "location": {
-                "longitude": 12.942756406174066,
-                "latitude": 57.72053321567715,
-                "city": "Borås",
-                "cp": "50337"
-            },
-            "metadata": {
-                "address": "Allégatan 43, 503 37, Borås",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2081",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Kronans Apotek MediCheck Eriksbergs Köpcentrum",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Kronans-Apotek-Eriksbergs-Kopcentrum/",
             "location": {
@@ -2573,34 +2545,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Hisingsbacka",
-            "url": "https://bokning.mittvaccin.se/klinik/2091",
-            "location": {
-                "longitude": 11.98214942257889,
-                "latitude": 57.75033771020452,
-                "city": "Göteborg",
-                "cp": "42248"
-            },
-            "metadata": {
-                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2091",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -2797,6 +2741,62 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Skene",
+            "url": "https://bokning.mittvaccin.se/klinik/2084",
+            "location": {
+                "longitude": 12.645608292977906,
+                "latitude": 57.49131915795585,
+                "city": "Mark",
+                "cp": 0
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2084",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Strömstad",
+            "url": "https://bokning.mittvaccin.se/klinik/2083",
+            "location": {
+                "longitude": 11.170701456759991,
+                "latitude": 58.93868539287202,
+                "city": "Strömstad",
+                "cp": "45230"
+            },
+            "metadata": {
+                "address": "Södra Hamngatan 4, 452 30, Strömstad",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2083",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
