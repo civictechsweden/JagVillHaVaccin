@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-12 12:04:38.506170+02:00",
+    "last_updated": "2021-06-12 12:24:16.325540+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -23,34 +23,6 @@
             "type": "vaccination-center",
             "appointment_count": 436,
             "internal_id": "773",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "05",
-            "nom": "Barnavårdscentralen, Vårdcentralen Tannefors",
-            "url": "https://bokning.mittvaccin.se/klinik/776",
-            "location": {
-                "longitude": 15.641605076152151,
-                "latitude": 58.40700681515643,
-                "city": "Linköping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nya Tanneforsvägen 43 C, Linköping",
-                "business_hours": null,
-                "phone_number": "010-105 96 64"
-            },
-            "prochain_rdv": "2021-06-15 11:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 2,
-            "internal_id": "776",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -107,34 +79,6 @@
             "type": "vaccination-center",
             "appointment_count": 54,
             "internal_id": "766",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "05",
-            "nom": "Geria Vårdcentral i Söderköping",
-            "url": "https://bokning.mittvaccin.se/klinik/767",
-            "location": {
-                "longitude": 16.32833604606261,
-                "latitude": 58.48053939836682,
-                "city": "Söderköping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ågatan 53, Söderköping",
-                "business_hours": null,
-                "phone_number": "010-105 92 25"
-            },
-            "prochain_rdv": "2021-06-18 15:20:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 2,
-            "internal_id": "767",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -427,6 +371,34 @@
         },
         {
             "departement": "05",
+            "nom": "Barnavårdscentralen, Vårdcentralen Tannefors",
+            "url": "https://bokning.mittvaccin.se/klinik/776",
+            "location": {
+                "longitude": 15.641605076152151,
+                "latitude": 58.40700681515643,
+                "city": "Linköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nya Tanneforsvägen 43 C, Linköping",
+                "business_hours": null,
+                "phone_number": "010-105 96 64"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "776",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "05",
             "nom": "Barnavårdscentralen, Vårdcentralen Valla",
             "url": "https://bokning.mittvaccin.se/klinik/777",
             "location": {
@@ -501,6 +473,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "765",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "05",
+            "nom": "Geria Vårdcentral i Söderköping",
+            "url": "https://bokning.mittvaccin.se/klinik/767",
+            "location": {
+                "longitude": 16.32833604606261,
+                "latitude": 58.48053939836682,
+                "city": "Söderköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ågatan 53, Söderköping",
+                "business_hours": null,
+                "phone_number": "010-105 92 25"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "767",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
