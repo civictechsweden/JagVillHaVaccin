@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-12 20:52:48.230336+02:00",
+    "last_updated": "2021-06-12 21:11:41.247096+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 147,
+            "appointment_count": 145,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -61,18 +61,18 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Skene Lasarett",
-            "url": null,
+            "nom": "Närhälsan Stenstorp vårdcentral, Stenstorp",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stenstorp-vardcentral-Stenstorp/",
             "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
+                "longitude": 13.717400041889025,
+                "latitude": 58.273721072294435,
+                "city": "Falköping",
+                "cp": "52160"
             },
             "metadata": {
-                "address": "",
+                "address": "Storgatan 14 A, 521 60, Stenstorp",
                 "business_hours": null,
-                "phone_number": ""
+                "phone_number": "0500-47 29 50"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -89,46 +89,18 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Skene vårdcentral, Skene",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Skene-vardcentral-Skene/",
+            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidaholm-vardcentral-Tidaholm/",
             "location": {
-                "longitude": 12.648362857197943,
-                "latitude": 57.49188236966391,
-                "city": "Mark",
-                "cp": "51181"
+                "longitude": 13.956163123936285,
+                "latitude": 58.17816034620173,
+                "city": "Tidaholm",
+                "cp": "52230"
             },
             "metadata": {
-                "address": "Varbergsvägen 50, 511 81, Skene",
+                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
                 "business_hours": null,
-                "phone_number": "0320-77 93 01"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Stenstorp vårdcentral, Stenstorp",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stenstorp-vardcentral-Stenstorp/",
-            "location": {
-                "longitude": 13.717400041889025,
-                "latitude": 58.273721072294435,
-                "city": "Falköping",
-                "cp": "52160"
-            },
-            "metadata": {
-                "address": "Storgatan 14 A, 521 60, Stenstorp",
-                "business_hours": null,
-                "phone_number": "0500-47 29 50"
+                "phone_number": "0502-180 11"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -6137,6 +6109,62 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Skene Lasarett",
+            "url": null,
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Skene vårdcentral, Skene",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Skene-vardcentral-Skene/",
+            "location": {
+                "longitude": 12.648362857197943,
+                "latitude": 57.49188236966391,
+                "city": "Mark",
+                "cp": "51181"
+            },
+            "metadata": {
+                "address": "Varbergsvägen 50, 511 81, Skene",
+                "business_hours": null,
+                "phone_number": "0320-77 93 01"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Skogslyckan vårdcentral, Uddevalla",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Skogslyckan-vardcentral-Uddevalla/",
             "location": {
@@ -6513,34 +6541,6 @@
                 "address": "Centrumgatan 17, 543 30, Tibro",
                 "business_hours": null,
                 "phone_number": "0504-403 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidaholm-vardcentral-Tidaholm/",
-            "location": {
-                "longitude": 13.956163123936285,
-                "latitude": 58.17816034620173,
-                "city": "Tidaholm",
-                "cp": "52230"
-            },
-            "metadata": {
-                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
-                "business_hours": null,
-                "phone_number": "0502-180 11"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
