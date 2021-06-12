@@ -1,6 +1,10 @@
 {
     "version": 1,
+<<<<<<< Updated upstream
     "last_updated": "2021-06-12 13:47:46.524710+02:00",
+=======
+    "last_updated": "2021-06-12 13:57:22.036351+02:00",
+>>>>>>> Stashed changes
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -49,6 +53,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 205,
             "internal_id": null,
             "vaccine_type": null,
@@ -78,6 +83,9 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 1,
+=======
+            "appointment_count": 202,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -173,6 +181,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidaholm-vardcentral-Tidaholm/",
+            "location": {
+                "longitude": 13.956163123936285,
+                "latitude": 58.17816034620173,
+                "city": "Tidaholm",
+                "cp": "52230"
+            },
+            "metadata": {
+                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
+                "business_hours": null,
+                "phone_number": "0502-180 11"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tranemo-vardcentral-Tranemo/",
             "location": {
@@ -191,6 +227,34 @@
             "type": "vaccination-center",
             "appointment_count": 1,
             "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Skövde, Kungsgatan 22",
+            "url": "https://www.vaccina.se/covidvaccin/vastra-gotaland/tidsbokning/#/service",
+            "location": {
+                "longitude": 13.8454331,
+                "latitude": 58.3881931,
+                "city": "Skövde",
+                "cp": "54131"
+            },
+            "metadata": {
+                "address": "Kungsgatan 22, 54131 Skövde",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-06-15 11:25:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": 30633,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -6557,34 +6621,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidaholm-vardcentral-Tidaholm/",
-            "location": {
-                "longitude": 13.956163123936285,
-                "latitude": 58.17816034620173,
-                "city": "Tidaholm",
-                "cp": "52230"
-            },
-            "metadata": {
-                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
-                "business_hours": null,
-                "phone_number": "0502-180 11"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Tidan vårdcentral, Tidan",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tidan-vardcentral-Tidan/",
             "location": {
@@ -7752,34 +7788,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Skövde, Kungsgatan 22",
-            "url": "https://www.vaccina.se/covidvaccin/vastra-gotaland/tidsbokning/#/service",
-            "location": {
-                "longitude": 13.8454331,
-                "latitude": 58.3881931,
-                "city": "Skövde",
-                "cp": "54131"
-            },
-            "metadata": {
-                "address": "Kungsgatan 22, 54131 Skövde",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 30633,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
