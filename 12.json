@@ -1,6 +1,10 @@
 {
     "version": 1,
+<<<<<<< Updated upstream
     "last_updated": "2021-06-13 21:37:55.104980+02:00",
+=======
+    "last_updated": "2021-06-13 21:47:37.417018+02:00",
+>>>>>>> Stashed changes
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -45,10 +49,17 @@
                 "address": "Storgatan 19, Klippan",
                 "business_hours": null
             },
+<<<<<<< Updated upstream
             "prochain_rdv": "2021-06-14 16:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 331,
+=======
+            "prochain_rdv": "2021-06-22 13:40:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 330,
+>>>>>>> Stashed changes
             "internal_id": "231",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -78,6 +89,33 @@
             "type": "vaccination-center",
             "appointment_count": 104,
             "internal_id": 30009,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Kronans Apotek Höör",
+            "url": "https://bokning.mittvaccin.se/klinik/1538",
+            "location": {
+                "longitude": 13.540319233929354,
+                "latitude": 55.93385874871056,
+                "city": "Höör",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Föreningsgatan 7, Höör",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-06-22 10:25:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "1538",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -131,7 +169,11 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
+<<<<<<< Updated upstream
             "appointment_count": 96,
+=======
+            "appointment_count": 95,
+>>>>>>> Stashed changes
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -159,7 +201,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 777,
+            "appointment_count": 776,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -187,7 +229,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 69,
+            "appointment_count": 68,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -637,33 +679,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "1535",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Kronans Apotek Höör",
-            "url": "https://bokning.mittvaccin.se/klinik/1538",
-            "location": {
-                "longitude": 13.540319233929354,
-                "latitude": 55.93385874871056,
-                "city": "Höör",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Föreningsgatan 7, Höör",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1538",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
