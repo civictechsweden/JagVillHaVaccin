@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-13 08:25:25.323877+02:00",
+    "last_updated": "2021-06-13 08:54:17.720983+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-06-24 08:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 430,
+            "appointment_count": 428,
             "internal_id": "773",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -51,6 +51,34 @@
             "type": "vaccination-center",
             "appointment_count": 390,
             "internal_id": "805",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "05",
+            "nom": "Barnhälsovården VVC, Helsa Vårdcentral Kneippen",
+            "url": "https://bokning.mittvaccin.se/klinik/770",
+            "location": {
+                "longitude": 16.17089235009939,
+                "latitude": 58.57157006021294,
+                "city": "Norrköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Helsa VC Vilbergen, Urbergsgatan 90, Norrköping",
+                "business_hours": null,
+                "phone_number": "011-21 56 09"
+            },
+            "prochain_rdv": "2021-06-23 13:15:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "770",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -445,34 +473,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "777",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "05",
-            "nom": "Barnhälsovården VVC, Helsa Vårdcentral Kneippen",
-            "url": "https://bokning.mittvaccin.se/klinik/770",
-            "location": {
-                "longitude": 16.17089235009939,
-                "latitude": 58.57157006021294,
-                "city": "Norrköping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Helsa VC Vilbergen, Urbergsgatan 90, Norrköping",
-                "business_hours": null,
-                "phone_number": "011-21 56 09"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "770",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
