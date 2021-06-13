@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-13 13:21:54.335448+02:00",
+    "last_updated": "2021-06-13 13:39:07.899457+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 157,
+            "appointment_count": 154,
             "internal_id": 30007,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -76,8 +76,36 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 157,
+            "appointment_count": 154,
             "internal_id": 30009,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Kronans Apotek Ängelholm",
+            "url": "https://bokning.mittvaccin.se/klinik/1534",
+            "location": {
+                "longitude": 12.863032774480866,
+                "latitude": 56.24253762960139,
+                "city": "Ängelholm",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Laxgatan 6, Ängelholm",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-07-01 10:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "1534",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -103,7 +131,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 157,
+            "appointment_count": 154,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -131,7 +159,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 139,
+            "appointment_count": 138,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -171,17 +199,18 @@
         },
         {
             "departement": "12",
-            "nom": "MACC Osby",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Osby/",
+            "nom": "MACC Skurup",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Skurup/",
             "location": {
-                "longitude": 13.991146252719732,
-                "latitude": 56.380297879671815,
-                "city": "Osby",
+                "longitude": 13.503898394470399,
+                "latitude": 55.475824351719375,
+                "city": "Skurup",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Fabriksgatan 7, Osby",
-                "business_hours": null
+                "address": "Vaktgatan 10, Skurup",
+                "business_hours": null,
+                "phone_number": "010-330 04 43"
             },
             "prochain_rdv": null,
             "plateforme": "MACC",
@@ -241,7 +270,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 19,
+            "appointment_count": 6,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -296,7 +325,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 157,
+            "appointment_count": 154,
             "internal_id": 30008,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -324,7 +353,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 157,
+            "appointment_count": 154,
             "internal_id": 31153,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -348,7 +377,7 @@
                 "address": "Derbyvägen 6E, Malmö",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-06-14 15:35:00",
+            "prochain_rdv": "2021-06-14 11:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 296,
@@ -407,7 +436,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 157,
+            "appointment_count": 154,
             "internal_id": 30011,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -728,34 +757,6 @@
         },
         {
             "departement": "12",
-            "nom": "Kronans Apotek Ängelholm",
-            "url": "https://bokning.mittvaccin.se/klinik/1534",
-            "location": {
-                "longitude": 12.863032774480866,
-                "latitude": 56.24253762960139,
-                "city": "Ängelholm",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Laxgatan 6, Ängelholm",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1534",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Kry Lund",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Kry-Lund/",
             "location": {
@@ -838,18 +839,17 @@
         },
         {
             "departement": "12",
-            "nom": "MACC Sjöbo",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Sjobo/",
+            "nom": "MACC Osby",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Osby/",
             "location": {
-                "longitude": 13.693634123512222,
-                "latitude": 55.635076880844345,
-                "city": "Sjöbo",
+                "longitude": 13.991146252719732,
+                "latitude": 56.380297879671815,
+                "city": "Osby",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Industrigatan 1C, Sjöbo",
-                "business_hours": null,
-                "phone_number": "073-143 84 58"
+                "address": "Fabriksgatan 7, Osby",
+                "business_hours": null
             },
             "prochain_rdv": null,
             "plateforme": "MACC",
@@ -866,18 +866,18 @@
         },
         {
             "departement": "12",
-            "nom": "MACC Skurup",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Skurup/",
+            "nom": "MACC Sjöbo",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Sjobo/",
             "location": {
-                "longitude": 13.503898394470399,
-                "latitude": 55.475824351719375,
-                "city": "Skurup",
+                "longitude": 13.693634123512222,
+                "latitude": 55.635076880844345,
+                "city": "Sjöbo",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Vaktgatan 10, Skurup",
+                "address": "Industrigatan 1C, Sjöbo",
                 "business_hours": null,
-                "phone_number": "010-330 04 43"
+                "phone_number": "073-143 84 58"
             },
             "prochain_rdv": null,
             "plateforme": "MACC",
