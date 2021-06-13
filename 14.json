@@ -1,29 +1,28 @@
 {
     "version": 1,
-<<<<<<< Updated upstream
-    "last_updated": "2021-06-13 13:47:19.712089+02:00",
+    "last_updated": "2021-06-13 14:24:57.806601+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "14",
-            "nom": "Närhälsan Dingle Lantbruksskolan",
-            "url": null,
+            "nom": "Uddevalla, Bastiongatan 40",
+            "url": "https://www.vaccina.se/covidvaccin/vastra-gotaland/tidsbokning/#/service",
             "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
+                "longitude": 11.9080168,
+                "latitude": 58.3525243,
+                "city": "Uddevalla",
+                "cp": "45150"
             },
             "metadata": {
-                "address": "",
+                "address": "Bastiongatan 40, 451 50 Uddevalla",
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": null,
-            "plateforme": "1177",
+            "prochain_rdv": "2021-06-14 13:55:00",
+            "plateforme": "Vaccina",
             "type": "vaccination-center",
             "appointment_count": 1,
-            "internal_id": null,
+            "internal_id": 30645,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -33,11 +32,6 @@
             "gid": null
         }
     ],
-=======
-    "last_updated": "2021-06-13 13:57:02.112422+02:00",
-    "last_scrap": [],
-    "centres_disponibles": [],
->>>>>>> Stashed changes
     "centres_indisponibles": [
         {
             "departement": "14",
@@ -8094,34 +8088,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Uddevalla, Bastiongatan 40",
-            "url": "https://www.vaccina.se/covidvaccin/vastra-gotaland/tidsbokning/#/service",
-            "location": {
-                "longitude": 11.9080168,
-                "latitude": 58.3525243,
-                "city": "Uddevalla",
-                "cp": "45150"
-            },
-            "metadata": {
-                "address": "Bastiongatan 40, 451 50 Uddevalla",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 30645,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
