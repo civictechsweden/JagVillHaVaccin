@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-13 06:40:41.134934+02:00",
+    "last_updated": "2021-06-13 07:08:11.488600+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -78,34 +78,6 @@
             "type": "vaccination-center",
             "appointment_count": 232,
             "internal_id": 30009,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Kronans Apotek Båstad",
-            "url": "https://bokning.mittvaccin.se/klinik/1535",
-            "location": {
-                "longitude": 12.837022713078733,
-                "latitude": 56.433153288605794,
-                "city": "Båstad",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kyrkogatan 21, Båstad",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": "2021-06-21 14:45:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "1535",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -353,7 +325,7 @@
             "prochain_rdv": "2021-06-15 09:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 298,
+            "appointment_count": 297,
             "internal_id": "2072",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -667,6 +639,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Kronans Apotek Båstad",
+            "url": "https://bokning.mittvaccin.se/klinik/1535",
+            "location": {
+                "longitude": 12.837022713078733,
+                "latitude": 56.433153288605794,
+                "city": "Båstad",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Kyrkogatan 21, Båstad",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1535",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
