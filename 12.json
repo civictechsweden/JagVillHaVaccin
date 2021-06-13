@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-13 08:00:52.505833+02:00",
+    "last_updated": "2021-06-13 08:25:30.344252+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 228,
+            "appointment_count": 227,
             "internal_id": 30007,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -45,10 +45,10 @@
                 "address": "Storgatan 19, Klippan",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-06-16 11:15:00",
+            "prochain_rdv": "2021-06-22 09:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 362,
+            "appointment_count": 361,
             "internal_id": "231",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -76,7 +76,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 228,
+            "appointment_count": 227,
             "internal_id": 30009,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -103,7 +103,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 228,
+            "appointment_count": 227,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -159,7 +159,35 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 814,
+            "appointment_count": 812,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Skurup",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Skurup/",
+            "location": {
+                "longitude": 13.503898394470399,
+                "latitude": 55.475824351719375,
+                "city": "Skurup",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Vaktgatan 10, Skurup",
+                "business_hours": null,
+                "phone_number": "010-330 04 43"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MACC",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -242,7 +270,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 228,
+            "appointment_count": 227,
             "internal_id": 30008,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -270,7 +298,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 228,
+            "appointment_count": 227,
             "internal_id": 31153,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -337,6 +365,33 @@
         },
         {
             "departement": "12",
+            "nom": "Vaccinova Eslöv",
+            "url": "https://bokning.mittvaccin.se/klinik/2022",
+            "location": {
+                "longitude": 13.303797540331134,
+                "latitude": 55.84018749196131,
+                "city": "Eslöv",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Norregatan 6, Eslöv",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-06-18 11:10:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "2022",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
             "nom": "Östra Boulevarden 56 (Gamla Intersport)",
             "url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
             "location": {
@@ -353,7 +408,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 228,
+            "appointment_count": 227,
             "internal_id": 30011,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -823,34 +878,6 @@
                 "address": "Industrigatan 1C, Sjöbo",
                 "business_hours": null,
                 "phone_number": "073-143 84 58"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MACC",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "MACC Skurup",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Skurup/",
-            "location": {
-                "longitude": 13.503898394470399,
-                "latitude": 55.475824351719375,
-                "city": "Skurup",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Vaktgatan 10, Skurup",
-                "business_hours": null,
-                "phone_number": "010-330 04 43"
             },
             "prochain_rdv": null,
             "plateforme": "MACC",
@@ -1353,33 +1380,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2025",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Vaccinova Eslöv",
-            "url": "https://bokning.mittvaccin.se/klinik/2022",
-            "location": {
-                "longitude": 13.303797540331134,
-                "latitude": 55.84018749196131,
-                "city": "Eslöv",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Norregatan 6, Eslöv",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2022",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
