@@ -1,6 +1,10 @@
 {
     "version": 1,
+<<<<<<< Updated upstream
     "last_updated": "2021-06-13 16:48:36.356329+02:00",
+=======
+    "last_updated": "2021-06-13 16:54:45.934131+02:00",
+>>>>>>> Stashed changes
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -33,6 +37,34 @@
         },
         {
             "departement": "04",
+            "nom": "Vaccina Trosa, Trosa",
+            "url": "https://www.vaccina.se/covidvaccin/sormland/tidsbokning/#/service",
+            "location": {
+                "longitude": 17.54861749910625,
+                "latitude": 58.8965322283658,
+                "city": "Trosa",
+                "cp": "61930"
+            },
+            "metadata": {
+                "address": "Busstorget 5, 619 30 Trosa",
+                "business_hours": null,
+                "phone_number": "010-750 09 45"
+            },
+            "prochain_rdv": "2021-06-15 16:55:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": 30006,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "04",
             "nom": "Vaccinkliniken Nyköping, Nyköping",
             "url": "https://bokning.mittvaccin.se/klinik/45",
             "location": {
@@ -46,10 +78,17 @@
                 "business_hours": null,
                 "phone_number": "0155-60 60 40"
             },
+<<<<<<< Updated upstream
             "prochain_rdv": "2021-06-23 09:33:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 1304,
+=======
+            "prochain_rdv": "2021-06-21 19:57:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1306,
+>>>>>>> Stashed changes
             "internal_id": "45",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -221,34 +260,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": 30004,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "04",
-            "nom": "Vaccina Trosa, Trosa",
-            "url": "https://www.vaccina.se/covidvaccin/sormland/tidsbokning/#/service",
-            "location": {
-                "longitude": 17.54861749910625,
-                "latitude": 58.8965322283658,
-                "city": "Trosa",
-                "cp": "61930"
-            },
-            "metadata": {
-                "address": "Busstorget 5, 619 30 Trosa",
-                "business_hours": null,
-                "phone_number": "010-750 09 45"
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 30006,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
