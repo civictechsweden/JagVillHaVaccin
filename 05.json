@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-14 07:09:49.873630+02:00",
+    "last_updated": "2021-06-14 07:34:56.038601+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -117,6 +117,34 @@
         },
         {
             "departement": "05",
+            "nom": "Geria Vårdcentral i Söderköping",
+            "url": "https://bokning.mittvaccin.se/klinik/767",
+            "location": {
+                "longitude": 16.32833604606261,
+                "latitude": 58.48053939836682,
+                "city": "Söderköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ågatan 53, Söderköping",
+                "business_hours": null,
+                "phone_number": "010-105 92 25"
+            },
+            "prochain_rdv": "2021-06-18 11:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "767",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "05",
             "nom": "Jourcentralen Finspång, Vårdcentralen Finspång",
             "url": "https://bokning.mittvaccin.se/klinik/800",
             "location": {
@@ -217,7 +245,7 @@
             "prochain_rdv": "2021-06-14 14:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 150,
+            "appointment_count": 148,
             "internal_id": "784",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -473,34 +501,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "765",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "05",
-            "nom": "Geria Vårdcentral i Söderköping",
-            "url": "https://bokning.mittvaccin.se/klinik/767",
-            "location": {
-                "longitude": 16.32833604606261,
-                "latitude": 58.48053939836682,
-                "city": "Söderköping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ågatan 53, Söderköping",
-                "business_hours": null,
-                "phone_number": "010-105 92 25"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "767",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
