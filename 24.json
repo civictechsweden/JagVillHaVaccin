@@ -1,29 +1,30 @@
 {
     "version": 1,
-    "last_updated": "2021-06-14 13:53:57.253368+02:00",
+    "last_updated": "2021-06-14 15:06:41.620659+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "24",
-            "nom": "Central vaccinationsmottagning Umeå",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Central-vaccinationsmottagning-Umea/",
+            "nom": "Citymottagningen hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Citymottagningen-halsocentral/",
             "location": {
-                "longitude": 20.24274041731457,
-                "latitude": 63.83290649714245,
+                "longitude": 20.26427806385064,
+                "latitude": 63.827668127510485,
                 "city": "Umeå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Nolia, Signalvägen 3, Umeå",
-                "business_hours": null
+                "address": "Nygatan 19B",
+                "business_hours": null,
+                "phone_number": "090-785 93 21"
             },
-            "prochain_rdv": "2021-06-21 00:00:00",
+            "prochain_rdv": "2021-06-16 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 5,
             "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -45,13 +46,96 @@
                 "business_hours": null,
                 "phone_number": "090-785 91 71"
             },
+            "prochain_rdv": "2021-06-17 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 6,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Tärnaby sjukstuga hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Tarnaby-sjukstuga-halsocentral/",
+            "location": {
+                "longitude": 15.31339230368373,
+                "latitude": 65.71588725571208,
+                "city": "Storuman",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Granvägen 7, Tärnaby",
+                "business_hours": null,
+                "phone_number": "090-785 44 70"
+            },
+            "prochain_rdv": "2021-06-18 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Lövångers hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Lovangers-halsocentral/",
+            "location": {
+                "longitude": 21.311303133544506,
+                "latitude": 64.36908137825338,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Skogstorpsvägen 12",
+                "business_hours": null,
+                "phone_number": "090-785 91 20"
+            },
+            "prochain_rdv": "2021-06-24 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Central vaccinationsmottagning Umeå",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Central-vaccinationsmottagning-Umea/",
+            "location": {
+                "longitude": 20.24274041731457,
+                "latitude": 63.83290649714245,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nolia, Signalvägen 3, Umeå",
+                "business_hours": null
+            },
             "prochain_rdv": "2021-06-30 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 15,
+            "appointment_count": 49,
             "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -79,7 +163,7 @@
             "appointment_count": 49,
             "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -104,10 +188,10 @@
             "prochain_rdv": "2021-07-01 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 25,
+            "appointment_count": 21,
             "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -116,18 +200,18 @@
         },
         {
             "departement": "24",
-            "nom": "Tärnaby sjukstuga hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Tarnaby-sjukstuga-halsocentral/",
+            "nom": "Norsjö hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Norsjo-halsocentral/",
             "location": {
-                "longitude": 15.31339230368373,
-                "latitude": 65.71588725571208,
-                "city": "Storuman",
+                "longitude": 19.492159861085895,
+                "latitude": 64.90894017118801,
+                "city": "Norsjö",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Granvägen 7, Tärnaby",
+                "address": "Storgatan 33",
                 "business_hours": null,
-                "phone_number": "090-785 44 70"
+                "phone_number": "090-785 91 16"
             },
             "prochain_rdv": "2021-07-02 00:00:00",
             "plateforme": "1177",
@@ -135,7 +219,7 @@
             "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -146,18 +230,17 @@
     "centres_indisponibles": [
         {
             "departement": "24",
-            "nom": "Anderstorps hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Anderstorps-halsocentral/",
+            "nom": "Central vaccinationsmottagning Skellefteå",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Central-vaccinationsmottagning-Skelleftea/",
             "location": {
-                "longitude": 20.988785517005645,
-                "latitude": 64.74597319664166,
+                "longitude": 20.967125563848267,
+                "latitude": 64.76118182308068,
                 "city": "Skellefteå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Anderstorpsleden 1",
-                "business_hours": null,
-                "phone_number": "090-785 91 14"
+                "address": "Skellefteå Kraft Arena, Mossgatan 27",
+                "business_hours": null
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -165,7 +248,7 @@
             "appointment_count": 0,
             "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -174,26 +257,54 @@
         },
         {
             "departement": "24",
-            "nom": "Backens hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Backens-halsocentral/",
+            "nom": "Vaccina Norsjö",
+            "url": null,
             "location": {
-                "longitude": 20.163080811099466,
-                "latitude": 63.83722988837268,
-                "city": "Umeå",
+                "longitude": "",
+                "latitude": "",
+                "city": "Norsjö",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Manusgränd 3",
+                "address": "Folkets hus, Nygatan 32, Norsjö",
                 "business_hours": null,
-                "phone_number": "090-785 44 43"
+                "phone_number": ""
             },
             "prochain_rdv": null,
-            "plateforme": "1177",
+            "plateforme": "Vaccina",
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Vaccina Skellefteå",
+            "url": null,
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Folkparken, Mossgatan 28, Skellefteå",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -221,202 +332,7 @@
             "appointment_count": 0,
             "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Bolidens hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Bolidens-halsocentral/",
-            "location": {
-                "longitude": 20.383782657759937,
-                "latitude": 64.86139958738863,
-                "city": "Skellefteå",
-                "cp": "93631"
-            },
-            "metadata": {
-                "address": "Ringen 76, 93631 Boliden",
-                "business_hours": null,
-                "phone_number": "090-785 91 23"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Bureå hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Burea-halsocentral/",
-            "location": {
-                "longitude": 21.19865212175603,
-                "latitude": 64.62215649223296,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nygatan 9",
-                "business_hours": null,
-                "phone_number": "090-785 91 13"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Burträsk hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Burtrask-halsocentral/",
-            "location": {
-                "longitude": 20.65436866394136,
-                "latitude": 64.5175640324598,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Björnåkersgatan 10",
-                "business_hours": null,
-                "phone_number": "090-785 91 73"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Byske hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Byske-halsocentral/",
-            "location": {
-                "longitude": 21.20716665139364,
-                "latitude": 64.950590882984,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ringvägen 8",
-                "business_hours": null,
-                "phone_number": "090-785 91 18"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Capio hälsocentral Dragonen",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Capio-halsocentral-Dragonen/",
-            "location": {
-                "longitude": 20.25250669887509,
-                "latitude": 63.832758648688774,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ridvägen 12",
-                "business_hours": null,
-                "phone_number": "090-785 91 48"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Central vaccinationsmottagning Skellefteå",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Central-vaccinationsmottagning-Skelleftea/",
-            "location": {
-                "longitude": 20.967125563848267,
-                "latitude": 64.76118182308068,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Skellefteå Kraft Arena, Mossgatan 27",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Citymottagningen hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Citymottagningen-halsocentral/",
-            "location": {
-                "longitude": 20.26427806385064,
-                "latitude": 63.827668127510485,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nygatan 19B",
-                "business_hours": null,
-                "phone_number": "090-785 93 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -444,287 +360,7 @@
             "appointment_count": 0,
             "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Erikslids hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Erikslids-halsocentral/",
-            "location": {
-                "longitude": 20.954013870665275,
-                "latitude": 64.7609101382686,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Annastigen 8",
-                "business_hours": null,
-                "phone_number": "090-785 91 10"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Ersboda hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Ersboda-halsocentral/",
-            "location": {
-                "longitude": 20.317044179291425,
-                "latitude": 63.85660370244311,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Hälsogränd 3, Umeå",
-                "business_hours": null,
-                "phone_number": "090-785 44 57"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Heimdalls hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Heimdalls-halsocentral-1/",
-            "location": {
-                "longitude": 20.948482561952545,
-                "latitude": 64.75145347569664,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Köpmangatan 15, Skellefteå",
-                "business_hours": null,
-                "phone_number": "090-785 91 11"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Holmsunds hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Holmsunds-halsocentral/",
-            "location": {
-                "longitude": 20.36503865828701,
-                "latitude": 63.70732398241559,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Himmelska Fridens Torg 7",
-                "business_hours": null,
-                "phone_number": "090-785 91 03"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Husläkarna Hälsocentral i Umeå",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Huslakarna-Halsocentral-i-Umea/",
-            "location": {
-                "longitude": 20.247261212432413,
-                "latitude": 63.82724933424847,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 28 B",
-                "business_hours": null,
-                "phone_number": "090-785 93 88"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Hörnefors hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Hornefors-halsocentral/",
-            "location": {
-                "longitude": 19.909182397089975,
-                "latitude": 63.624337480884165,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Bruksgatan 4",
-                "business_hours": null,
-                "phone_number": "090-785 91 05"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Kåge hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Kage-halsocentral/",
-            "location": {
-                "longitude": 20.983612223908484,
-                "latitude": 64.83156836940907,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nygatan 13",
-                "business_hours": null,
-                "phone_number": "090-785 93 57"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Lövångers hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Lovangers-halsocentral/",
-            "location": {
-                "longitude": 21.311303133544506,
-                "latitude": 64.36908137825338,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Skogstorpsvägen 12",
-                "business_hours": null,
-                "phone_number": "090-785 91 20"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Malå sjukstuga hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Mala-sjukstuga-halsocentral/",
-            "location": {
-                "longitude": 18.756251410101154,
-                "latitude": 65.17531659490669,
-                "city": "Malå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 2",
-                "business_hours": null,
-                "phone_number": "090-785 91 19"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Mariehems hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Mariehems-halsocentral/",
-            "location": {
-                "longitude": 20.328022983296588,
-                "latitude": 63.838617372997795,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Morkullevägen 9",
-                "business_hours": null,
-                "phone_number": "090-785 44 44"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -752,7 +388,7 @@
             "appointment_count": 0,
             "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -761,18 +397,18 @@
         },
         {
             "departement": "24",
-            "nom": "Morö Backe hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Moro-Backe-halsocentral-1/",
+            "nom": "Stenbergska hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Stenbergska-halsocentral/",
             "location": {
-                "longitude": 21.026742481432354,
-                "latitude": 64.75336170983184,
-                "city": "Skellefteå",
+                "longitude": 18.673473259388757,
+                "latitude": 64.59984994028584,
+                "city": "Lycksele",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Höjdgatan 14, Skellefteå",
+                "address": "Johan Skyttes väg 6",
                 "business_hours": null,
-                "phone_number": "090-785 91 15"
+                "phone_number": "090-785 44 48"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -780,7 +416,35 @@
             "appointment_count": 0,
             "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Malå sjukstuga hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Mala-sjukstuga-halsocentral/",
+            "location": {
+                "longitude": 18.756251410101154,
+                "latitude": 65.17531659490669,
+                "city": "Malå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 2",
+                "business_hours": null,
+                "phone_number": "090-785 91 19"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -808,7 +472,511 @@
             "appointment_count": 0,
             "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Robertsfors hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Robertsfors-halsocentral/",
+            "location": {
+                "longitude": 20.844570681764722,
+                "latitude": 64.1927516846582,
+                "city": "Robertsfors",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Fabriksvägen 3",
+                "business_hours": null,
+                "phone_number": "090-785 91 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Anderstorps hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Anderstorps-halsocentral/",
+            "location": {
+                "longitude": 20.988785517005645,
+                "latitude": 64.74597319664166,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Anderstorpsleden 1",
+                "business_hours": null,
+                "phone_number": "090-785 91 14"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Bolidens hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Bolidens-halsocentral/",
+            "location": {
+                "longitude": 20.383782657759937,
+                "latitude": 64.86139958738863,
+                "city": "Skellefteå",
+                "cp": "93631"
+            },
+            "metadata": {
+                "address": "Ringen 76, 93631 Boliden",
+                "business_hours": null,
+                "phone_number": "090-785 91 23"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Bureå hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Burea-halsocentral/",
+            "location": {
+                "longitude": 21.19865212175603,
+                "latitude": 64.62215649223296,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nygatan 9",
+                "business_hours": null,
+                "phone_number": "090-785 91 13"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Burträsk hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Burtrask-halsocentral/",
+            "location": {
+                "longitude": 20.65436866394136,
+                "latitude": 64.5175640324598,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Björnåkersgatan 10",
+                "business_hours": null,
+                "phone_number": "090-785 91 73"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Byske hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Byske-halsocentral/",
+            "location": {
+                "longitude": 21.20716665139364,
+                "latitude": 64.950590882984,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ringvägen 8",
+                "business_hours": null,
+                "phone_number": "090-785 91 18"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Erikslids hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Erikslids-halsocentral/",
+            "location": {
+                "longitude": 20.954013870665275,
+                "latitude": 64.7609101382686,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Annastigen 8",
+                "business_hours": null,
+                "phone_number": "090-785 91 10"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Heimdalls hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Heimdalls-halsocentral-1/",
+            "location": {
+                "longitude": 20.948482561952545,
+                "latitude": 64.75145347569664,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Köpmangatan 15, Skellefteå",
+                "business_hours": null,
+                "phone_number": "090-785 91 11"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Kåge hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Kage-halsocentral/",
+            "location": {
+                "longitude": 20.983612223908484,
+                "latitude": 64.83156836940907,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nygatan 13",
+                "business_hours": null,
+                "phone_number": "090-785 93 57"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Morö Backe hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Moro-Backe-halsocentral-1/",
+            "location": {
+                "longitude": 21.026742481432354,
+                "latitude": 64.75336170983184,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Höjdgatan 14, Skellefteå",
+                "business_hours": null,
+                "phone_number": "090-785 91 15"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Ursvikens hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Ursvikens-halsocentral-1/",
+            "location": {
+                "longitude": 21.188010806191546,
+                "latitude": 64.69952266126346,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Skelleftehamnsvägen 206 A, Ursviken",
+                "business_hours": null,
+                "phone_number": "090-785 91 12"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Backens hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Backens-halsocentral/",
+            "location": {
+                "longitude": 20.163080811099466,
+                "latitude": 63.83722988837268,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Manusgränd 3",
+                "business_hours": null,
+                "phone_number": "090-785 44 43"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Capio hälsocentral Dragonen",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Capio-halsocentral-Dragonen/",
+            "location": {
+                "longitude": 20.25250669887509,
+                "latitude": 63.832758648688774,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ridvägen 12",
+                "business_hours": null,
+                "phone_number": "090-785 91 48"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Ersboda hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Ersboda-halsocentral/",
+            "location": {
+                "longitude": 20.317044179291425,
+                "latitude": 63.85660370244311,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Hälsogränd 3, Umeå",
+                "business_hours": null,
+                "phone_number": "090-785 44 57"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Holmsunds hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Holmsunds-halsocentral/",
+            "location": {
+                "longitude": 20.36503865828701,
+                "latitude": 63.70732398241559,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Himmelska Fridens Torg 7",
+                "business_hours": null,
+                "phone_number": "090-785 91 03"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Husläkarna Hälsocentral i Umeå",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Huslakarna-Halsocentral-i-Umea/",
+            "location": {
+                "longitude": 20.247261212432413,
+                "latitude": 63.82724933424847,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 28 B",
+                "business_hours": null,
+                "phone_number": "090-785 93 88"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Hörnefors hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Hornefors-halsocentral/",
+            "location": {
+                "longitude": 19.909182397089975,
+                "latitude": 63.624337480884165,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Bruksgatan 4",
+                "business_hours": null,
+                "phone_number": "090-785 91 05"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Mariehems hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Mariehems-halsocentral/",
+            "location": {
+                "longitude": 20.328022983296588,
+                "latitude": 63.838617372997795,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Morkullevägen 9",
+                "business_hours": null,
+                "phone_number": "090-785 44 44"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -836,7 +1004,7 @@
             "appointment_count": 0,
             "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -845,18 +1013,18 @@
         },
         {
             "departement": "24",
-            "nom": "Norsjö hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Norsjo-halsocentral/",
+            "nom": "Sävar hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Savar-halsocentral/",
             "location": {
-                "longitude": 19.492159861085895,
-                "latitude": 64.90894017118801,
-                "city": "Norsjö",
+                "longitude": 20.551555586055475,
+                "latitude": 63.898436261079766,
+                "city": "Umeå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Storgatan 33",
+                "address": "Kungsvägen 8A",
                 "business_hours": null,
-                "phone_number": "090-785 91 16"
+                "phone_number": "090-785 44 47"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -864,7 +1032,147 @@
             "appointment_count": 0,
             "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Tegs hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Tegs-halsocentral/",
+            "location": {
+                "longitude": 20.253714356041783,
+                "latitude": 63.820570789783865,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tegsplan 2C",
+                "business_hours": null,
+                "phone_number": "090-785 44 56"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Ålidhems hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Alidhems-halsocentral/",
+            "location": {
+                "longitude": 20.316742449489357,
+                "latitude": 63.81499142292883,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tvistevägen 2",
+                "business_hours": null,
+                "phone_number": "090-785 44 58"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Vilhelmina sjukstuga hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vilhelmina-sjukstuga-halsocentral/",
+            "location": {
+                "longitude": 16.66232849898825,
+                "latitude": 64.625086471245,
+                "city": "Vilhelmina",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Volgsjövägen 37",
+                "business_hours": null,
+                "phone_number": "090-785 91 25"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Vindelns hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vindelns-halsocentral/",
+            "location": {
+                "longitude": 19.713726275515782,
+                "latitude": 64.20117474404158,
+                "city": "Vindeln",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storvägen 56",
+                "business_hours": null,
+                "phone_number": "090-785 44 42"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Vännäs hälsocentral",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vannas-halsocentral/",
+            "location": {
+                "longitude": 19.77323730765729,
+                "latitude": 63.90955870161272,
+                "city": "Vännäs",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Umevägen 56",
+                "business_hours": null,
+                "phone_number": "090-785 44 50"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -901,26 +1209,26 @@
         },
         {
             "departement": "24",
-            "nom": "Robertsfors hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Robertsfors-halsocentral/",
+            "nom": "Storuman - Folkets Hus",
+            "url": "https://www.vaccina.se/covidvaccin/vasterbotten/tidsbokning/#/service",
             "location": {
-                "longitude": 20.844570681764722,
-                "latitude": 64.1927516846582,
-                "city": "Robertsfors",
-                "cp": "00000"
+                "longitude": 17.1150976,
+                "latitude": 65.1025074,
+                "city": "Storuman",
+                "cp": "92331"
             },
             "metadata": {
-                "address": "Fabriksvägen 3",
+                "address": "Blå vägen 256, 923 31 Storuman",
                 "business_hours": null,
-                "phone_number": "090-785 91 21"
+                "phone_number": ""
             },
             "prochain_rdv": null,
-            "plateforme": "1177",
+            "plateforme": "Vaccina",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": null,
+            "internal_id": 30616,
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -957,118 +1265,6 @@
         },
         {
             "departement": "24",
-            "nom": "Stenbergska hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Stenbergska-halsocentral/",
-            "location": {
-                "longitude": 18.673473259388757,
-                "latitude": 64.59984994028584,
-                "city": "Lycksele",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Johan Skyttes väg 6",
-                "business_hours": null,
-                "phone_number": "090-785 44 48"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Storuman - Folkets Hus",
-            "url": "https://www.vaccina.se/covidvaccin/vasterbotten/tidsbokning/#/service",
-            "location": {
-                "longitude": 17.1150976,
-                "latitude": 65.1025074,
-                "city": "Storuman",
-                "cp": "92331"
-            },
-            "metadata": {
-                "address": "Blå vägen 256, 923 31 Storuman",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 30616,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Sävar hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Savar-halsocentral/",
-            "location": {
-                "longitude": 20.551555586055475,
-                "latitude": 63.898436261079766,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kungsvägen 8A",
-                "business_hours": null,
-                "phone_number": "090-785 44 47"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Tegs hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Tegs-halsocentral/",
-            "location": {
-                "longitude": 20.253714356041783,
-                "latitude": 63.820570789783865,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tegsplan 2C",
-                "business_hours": null,
-                "phone_number": "090-785 44 56"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Umeå, Avion Shopping",
             "url": "https://www.vaccina.se/covidvaccin/vasterbotten/tidsbokning/#/service",
             "location": {
@@ -1089,146 +1285,6 @@
             "internal_id": 30618,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Ursvikens hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Ursvikens-halsocentral-1/",
-            "location": {
-                "longitude": 21.188010806191546,
-                "latitude": 64.69952266126346,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Skelleftehamnsvägen 206 A, Ursviken",
-                "business_hours": null,
-                "phone_number": "090-785 91 12"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Vilhelmina sjukstuga hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vilhelmina-sjukstuga-halsocentral/",
-            "location": {
-                "longitude": 16.66232849898825,
-                "latitude": 64.625086471245,
-                "city": "Vilhelmina",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Volgsjövägen 37",
-                "business_hours": null,
-                "phone_number": "090-785 91 25"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Vindelns hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vindelns-halsocentral/",
-            "location": {
-                "longitude": 19.713726275515782,
-                "latitude": 64.20117474404158,
-                "city": "Vindeln",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storvägen 56",
-                "business_hours": null,
-                "phone_number": "090-785 44 42"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Vännäs hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vannas-halsocentral/",
-            "location": {
-                "longitude": 19.77323730765729,
-                "latitude": 63.90955870161272,
-                "city": "Vännäs",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Umevägen 56",
-                "business_hours": null,
-                "phone_number": "090-785 44 50"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Ålidhems hälsocentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Alidhems-halsocentral/",
-            "location": {
-                "longitude": 20.316742449489357,
-                "latitude": 63.81499142292883,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tvistevägen 2",
-                "business_hours": null,
-                "phone_number": "090-785 44 58"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
