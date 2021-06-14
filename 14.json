@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-14 03:57:37.588434+02:00",
+    "last_updated": "2021-06-14 04:44:41.862909+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -371,24 +371,52 @@
         },
         {
             "departement": "14",
-            "nom": "BVC Capio Läkarhus Hjortmossen, Trollhättan",
-            "url": "https://patient.nu/portal/public/calendar/86c49026-74bc-11eb-b72c-c1de16d3e1eb",
+            "nom": "BVC Bräcke Diakoni Vårdcentralen Centralhälsan, Falköping (18+ LSS/assistans/vårdnära)",
+            "url": "https://bokning.mittvaccin.se/klinik/1509",
             "location": {
-                "longitude": 12.290271953568565,
-                "latitude": 58.27371158179932,
-                "city": "Trollhättan",
-                "cp": "46152"
+                "longitude": 13.554135866320628,
+                "latitude": 58.167466873038066,
+                "city": "Falköping",
+                "cp": "52147"
             },
             "metadata": {
-                "address": "Lasarettsvägen 2, 461 52, Trollhättan",
+                "address": "Bryngelsgatan 2B, 521 47, Falköping",
                 "business_hours": null,
-                "phone_number": "0520-47 45 00"
+                "phone_number": "0515-60 08 13"
             },
             "prochain_rdv": null,
-            "plateforme": "Patient",
+            "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": "86c49026-74bc-11eb-b72c-c1de16d3e1eb",
+            "internal_id": "1509",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "BVC Bräcke Diakoni Vårdcentralen Centralhälsan, Falköping (åldersgrupp eller riksgrupp)",
+            "url": "https://bokning.mittvaccin.se/klinik/1224",
+            "location": {
+                "longitude": 13.554135866320628,
+                "latitude": 58.167466873038066,
+                "city": "Falköping",
+                "cp": "52147"
+            },
+            "metadata": {
+                "address": "Bryngelsgatan 2B, 521 47, Falköping",
+                "business_hours": null,
+                "phone_number": "0515-60 08 13"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1224",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -764,7 +792,7 @@
         {
             "departement": "14",
             "nom": "Capio Läkarhus Hjortmossen, Trollhättan",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Capio-Lakarhus-Hjortmossen-Trollhattan/",
+            "url": "https://patient.nu/portal/public/calendar/86c49026-74bc-11eb-b72c-c1de16d3e1eb",
             "location": {
                 "longitude": 12.290271953568565,
                 "latitude": 58.27371158179932,
@@ -777,12 +805,12 @@
                 "phone_number": "0520-47 45 00"
             },
             "prochain_rdv": null,
-            "plateforme": null,
+            "plateforme": "Patient",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": null,
+            "internal_id": "86c49026-74bc-11eb-b72c-c1de16d3e1eb",
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
