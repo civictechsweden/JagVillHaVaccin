@@ -1,39 +1,12 @@
 {
     "version": 1,
-    "last_updated": "2021-06-14 18:46:42.621904+02:00",
+    "last_updated": "2021-06-14 19:22:51.372620+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "19",
-            "nom": "Fagersta vaccinationsmottagning Folkets park",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Fagersta-vaccinationsmottagning-Folkets-park",
-            "location": {
-                "longitude": 15.804272003691354,
-                "latitude": 60.00754453389331,
-                "city": "Fagersta",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Aspvägen 27, Fagersta",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-06-15 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": null,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "19",
             "nom": "Västerås vaccinationsmottagning Gallerian",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vasteras-vaccinationsmottagning-Gallerian",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
                 "longitude": 16.54920331236794,
                 "latitude": 59.61059910908892,
@@ -59,8 +32,35 @@
         },
         {
             "departement": "19",
+            "nom": "Västerås vaccinationsmottagning Servicehälsan",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 16.55421068341796,
+                "latitude": 59.61671954977299,
+                "city": "Västerås",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Legeringsgatan 2, Västerås",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-06-21 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": null,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "19",
             "nom": "Arboga vaccinationsmottagning Medborgarhuset",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Arboga-vaccinationsmottagning-Medborgarhuset",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
                 "longitude": 15.839052192348248,
                 "latitude": 59.395007107695434,
@@ -87,7 +87,7 @@
         {
             "departement": "19",
             "nom": "Kungsör vaccinationsmottagning Kungsörs vårdcentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Kungsor-vaccinationsmottagning-Kungsors-vardcentral",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
                 "longitude": 16.09622339424755,
                 "latitude": 59.41848587888998,
@@ -110,25 +110,27 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "19",
-            "nom": "Västerås vaccinationsmottagning Hälla Syd",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vasteras-vaccinationsmottagning-Halla-Syd",
+            "nom": "Fagersta vaccinationsmottagning Folkets park",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 16.61106301907506,
-                "latitude": 59.609946622491734,
-                "city": "Västerås",
+                "longitude": 15.804272003691354,
+                "latitude": 60.00754453389331,
+                "city": "Fagersta",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Glasvingegatan 5, Västerås",
+                "address": "Aspvägen 27, Fagersta",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-06-24 00:00:00",
+            "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": null,
+            "appointment_count": 0,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -137,13 +139,11 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        }
-    ],
-    "centres_indisponibles": [
+        },
         {
             "departement": "19",
             "nom": "Hallstahammar vaccinationsmottagning Folkets hus",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Hallstahammar-vaccinationsmottagning-Folkets-hus",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
                 "longitude": 16.23251539364746,
                 "latitude": 59.61888734969954,
@@ -170,7 +170,7 @@
         {
             "departement": "19",
             "nom": "Köping vaccinationsmottagning Folkets hus",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Koping-vaccinationsmottagning-Folkets-hus",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
                 "longitude": 16.002459368320938,
                 "latitude": 59.51410625307515,
@@ -197,7 +197,7 @@
         {
             "departement": "19",
             "nom": "Köping vaccinationsmottagning Forum teatern",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Koping-vaccinationsmottagning-Forum-teatern",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
                 "longitude": 15.992138537331028,
                 "latitude": 59.51305314084937,
@@ -224,7 +224,7 @@
         {
             "departement": "19",
             "nom": "Norberg vaccinationsmottagning Folkets hus",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Norberg-vaccinationsmottagning-Folkets-hus",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
                 "longitude": 15.926652788486193,
                 "latitude": 60.06834413792669,
@@ -251,7 +251,7 @@
         {
             "departement": "19",
             "nom": "Sala vaccinationsmottagning Kungsängsgymnasiet",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Sala-vaccinationsmottagning-Kungsangsgymnasiet",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
                 "longitude": 16.61277760655463,
                 "latitude": 59.91094126921412,
@@ -278,7 +278,7 @@
         {
             "departement": "19",
             "nom": "Skinnskatteberg vaccinationsmottagning vårdcentralen",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Skinnskatteberg-vaccinationsmottagning-vardcentralen",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
                 "longitude": 15.686650961748416,
                 "latitude": 59.82767932453078,
@@ -305,7 +305,7 @@
         {
             "departement": "19",
             "nom": "Surahammar vaccinationsmottagning Surahammar vårdcentral",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Surahammar-vaccinationsmottagning-Surahammar-vardcentral",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
                 "longitude": 16.221683736373375,
                 "latitude": 59.707337675449665,
@@ -332,7 +332,7 @@
         {
             "departement": "19",
             "nom": "Västerås vaccinationsmottagning Bäckby torg",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vasteras-vaccinationsmottagning-Backby-torg",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
                 "longitude": 16.474547709487826,
                 "latitude": 59.5994393269413,
@@ -358,16 +358,16 @@
         },
         {
             "departement": "19",
-            "nom": "Västerås vaccinationsmottagning Servicehälsan",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vasteras-vaccinationsmottagning-Servicehalsan",
+            "nom": "Västerås vaccinationsmottagning Hälla Syd",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 16.55421068341796,
-                "latitude": 59.61671954977299,
+                "longitude": 16.61106301907506,
+                "latitude": 59.609946622491734,
                 "city": "Västerås",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Legeringsgatan 2, Västerås",
+                "address": "Glasvingegatan 5, Västerås",
                 "business_hours": null
             },
             "prochain_rdv": null,
@@ -386,7 +386,7 @@
         {
             "departement": "19",
             "nom": "Västerås vaccinationsmottagning Öster Mälarstrand",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vasteras-vaccinationsmottagning-oster-Malarstrand",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
                 "longitude": 16.588316914838465,
                 "latitude": 59.59767869371821,
