@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-14 17:18:40.170863+02:00",
+    "last_updated": "2021-06-14 17:46:28.941419+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-06-17 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 17,
+            "appointment_count": 14,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +49,7 @@
             "prochain_rdv": "2021-06-17 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 4,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -104,7 +104,7 @@
             "prochain_rdv": "2021-06-30 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 30,
+            "appointment_count": 27,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -188,7 +188,35 @@
             "prochain_rdv": "2021-07-01 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 18,
+            "appointment_count": 17,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Capio hälsocentral Dragonen",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Capio-halsocentral-Dragonen/",
+            "location": {
+                "longitude": 20.25250669887509,
+                "latitude": 63.832758648688774,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ridvägen 12",
+                "business_hours": null,
+                "phone_number": "090-785 91 48"
+            },
+            "prochain_rdv": "2021-07-01 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 19,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -801,34 +829,6 @@
                 "address": "Manusgränd 3",
                 "business_hours": null,
                 "phone_number": "090-785 44 43"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Capio hälsocentral Dragonen",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Capio-halsocentral-Dragonen/",
-            "location": {
-                "longitude": 20.25250669887509,
-                "latitude": 63.832758648688774,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ridvägen 12",
-                "business_hours": null,
-                "phone_number": "090-785 91 48"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
