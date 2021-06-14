@@ -165,7 +165,7 @@ class VMD(object):
                 centres_indisponibles.append(dict(vmd_center))
 
         centres_disponibles = sorted(centres_disponibles,
-                                     key=lambda k: k['prochain_rdv'])
+                                     key=lambda k: str(k['prochain_rdv']))
 
         vmd_data = {
             'version': 1,
