@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-06-14 12:53:46.246681+02:00",
+    "last_updated": "2021-06-14 13:09:47.214099+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "20",
+            "nom": "Kronans Apotek Sälen",
+            "url": "https://bokning.mittvaccin.se/klinik/2101",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Sälen",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Centrumhuset, Sälen",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-06-28 11:15:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "2101",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "20",
             "nom": "Doktor.se / Avesta",
@@ -18,11 +46,67 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-16 11:48:00",
+            "prochain_rdv": "2021-06-28 14:08:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 2,
             "internal_id": "2114",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "20",
+            "nom": "Kronans Apotek Säter",
+            "url": "https://bokning.mittvaccin.se/klinik/2103",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Säter",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Östra Långgatan 10, Säter",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-06-28 15:10:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 15,
+            "internal_id": "2103",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "20",
+            "nom": "Doktor.se / Mora",
+            "url": "https://bokning.mittvaccin.se/klinik/2113",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Mora",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Mora Parken restaurang och konferens, Parkvägen",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-06-29 11:24:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 364,
+            "internal_id": "2113",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -49,7 +133,7 @@
             "prochain_rdv": "2021-06-29 11:36:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1063,
+            "appointment_count": 1062,
             "internal_id": "2112",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -74,11 +158,39 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-30 10:24:00",
+            "prochain_rdv": "2021-06-29 13:04:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 836,
             "internal_id": "2111",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "20",
+            "nom": "Kronans Apotek Malung",
+            "url": "https://bokning.mittvaccin.se/klinik/2102",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Malung",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Lisagatan 37, Malung",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-06-30 11:40:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 149,
+            "internal_id": "2102",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -107,118 +219,6 @@
             "type": "vaccination-center",
             "appointment_count": 693,
             "internal_id": "2115",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "20",
-            "nom": "Doktor.se / Mora",
-            "url": "https://bokning.mittvaccin.se/klinik/2113",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "Mora",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Mora Parken restaurang och konferens, Parkvägen",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-06-29 11:24:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 365,
-            "internal_id": "2113",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "20",
-            "nom": "Kronans Apotek Malung",
-            "url": "https://bokning.mittvaccin.se/klinik/2102",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "Malung",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Lisagatan 37, Malung",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-06-30 11:40:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 150,
-            "internal_id": "2102",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "20",
-            "nom": "Kronans Apotek Sälen",
-            "url": "https://bokning.mittvaccin.se/klinik/2101",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "Sälen",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Centrumhuset, Sälen",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-06-28 11:15:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 3,
-            "internal_id": "2101",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "20",
-            "nom": "Kronans Apotek Säter",
-            "url": "https://bokning.mittvaccin.se/klinik/2103",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "Säter",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Östra Långgatan 10, Säter",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-06-29 12:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 14,
-            "internal_id": "2103",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
