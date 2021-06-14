@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-14 13:51:07.386258+02:00",
+    "last_updated": "2021-06-14 15:03:42.909225+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-15 09:10:00",
+            "prochain_rdv": "2021-06-15 10:45:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 518,
+            "appointment_count": 466,
             "internal_id": 29999,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,10 +46,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-16 17:10:00",
+            "prochain_rdv": "2021-06-17 13:55:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 314,
+            "appointment_count": 130,
             "internal_id": 30000,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -74,11 +74,39 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-18 09:25:00",
+            "prochain_rdv": "2021-06-18 10:45:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 51,
+            "appointment_count": 21,
             "internal_id": 29997,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "07",
+            "nom": "Tipshallen, västra sidan",
+            "url": "https://bokning.mittvaccin.se/klinik/2063",
+            "location": {
+                "longitude": 14.7739842,
+                "latitude": 56.8813345,
+                "city": "Växjö",
+                "cp": "35246"
+            },
+            "metadata": {
+                "address": "Bollgatan 1, 352 46 Växjö",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-06-23 11:08:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 8,
+            "internal_id": "2063",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -105,124 +133,10 @@
             "prochain_rdv": "2021-06-23 14:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 39,
+            "appointment_count": 36,
             "internal_id": "1557",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "07",
-            "nom": "Tipshallen, västra sidan",
-            "url": "https://bokning.mittvaccin.se/klinik/2063",
-            "location": {
-                "longitude": 14.7739842,
-                "latitude": 56.8813345,
-                "city": "Växjö",
-                "cp": "35246"
-            },
-            "metadata": {
-                "address": "Bollgatan 1, 352 46 Växjö",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-06-24 10:28:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 648,
-            "internal_id": "2063",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        }
-    ],
-    "centres_indisponibles": [
-        {
-            "departement": "07",
-            "nom": "Lillgatan 1, lokal ovan Åseda bilservice AB",
-            "url": "https://bokning.mittvaccin.se/klinik/1556",
-            "location": {
-                "longitude": 15.3520379,
-                "latitude": 57.1664611,
-                "city": "Uppvidinge",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Lillgatan 1, lokal ovan Åseda bilservice AB",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1556",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "07",
-            "nom": "Nibehallen",
-            "url": null,
-            "location": {
-                "longitude": 13.5868415,
-                "latitude": 56.4505806,
-                "city": "Markaryd",
-                "cp": "28532"
-            },
-            "metadata": {
-                "address": "Järnvägsgatan 17, 285 32 Markaryd",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "",
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "07",
-            "nom": "Previa",
-            "url": null,
-            "location": {
-                "longitude": 14.7761692,
-                "latitude": 56.8779855,
-                "city": "Växjö",
-                "cp": "35236"
-            },
-            "metadata": {
-                "address": "Honnörsgatan 16, 352 36 Växjö",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "",
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -244,10 +158,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": null,
+            "prochain_rdv": "2021-06-29 10:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 0,
+            "appointment_count": 25,
             "internal_id": "2052",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -256,7 +170,9 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "07",
             "nom": "Vårdcentralen Achima Care Vislanda",
@@ -271,118 +187,6 @@
                 "address": "Gröna Gatan 8-10, 342 50 Vislanda",
                 "business_hours": null,
                 "phone_number": "0472-65 09 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "07",
-            "nom": "Vårdcentralen Achima Care Växjö, Växjö",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Achima-Care-Vaxjo-Vaxjo/",
-            "location": {
-                "longitude": 14.797982221366297,
-                "latitude": 56.87915992912495,
-                "city": "Växjö",
-                "cp": "35232"
-            },
-            "metadata": {
-                "address": "Besöksadress vårdcentralen - Lärkgatan 4 E, 352 32 Växjö, Besöksadress BVC och Specialistvården - Storgatan 42, 352 32 Växjö",
-                "business_hours": null,
-                "phone_number": "0470-33 97 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "07",
-            "nom": "Vårdcentralen Achima Care Älmhult, Älmhult",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Achima-Care-Almhult-Almhult/",
-            "location": {
-                "longitude": 14.141156788034609,
-                "latitude": 56.54753030885746,
-                "city": "Älmhult",
-                "cp": "34332"
-            },
-            "metadata": {
-                "address": "Älmhults Vårdcentral, Kungsgatan 14, 343 32 Älmhult",
-                "business_hours": null,
-                "phone_number": "0476-65 08 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "07",
-            "nom": "Vårdcentralen Capio Hovshaga, Hovshaga centrum",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Capio-Hovshaga-Hovshaga-centrum/",
-            "location": {
-                "longitude": 14.798416797897593,
-                "latitude": 56.90932912766061,
-                "city": "Växjö",
-                "cp": "35261"
-            },
-            "metadata": {
-                "address": "Pomonavägen 2, 352 61 Växjö",
-                "business_hours": null,
-                "phone_number": "0470-75 91 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "07",
-            "nom": "Vårdcentralen Helsa Älmhult, Älmhult",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Helsa-Almhult-Almhult/",
-            "location": {
-                "longitude": 14.13471989484289,
-                "latitude": 56.554485786574254,
-                "city": "Älmhult",
-                "cp": "34336"
-            },
-            "metadata": {
-                "address": "Gotthards gata 5, 343 36 Älmhult",
-                "business_hours": null,
-                "phone_number": "0476-64 66 10"
             },
             "prochain_rdv": null,
             "plateforme": null,
@@ -427,26 +231,166 @@
         },
         {
             "departement": "07",
-            "nom": "Vårdcentralen Ryd, Ryd",
-            "url": "https://bokning.mittvaccin.se/klinik/780",
+            "nom": "Nibehallen",
+            "url": null,
             "location": {
-                "longitude": 14.69304570815703,
-                "latitude": 56.46511642426609,
-                "city": "Tingsryd",
-                "cp": "36256"
+                "longitude": 13.5868415,
+                "latitude": 56.4505806,
+                "city": "Markaryd",
+                "cp": "28532"
             },
             "metadata": {
-                "address": "Norra Hantverkaregatan 6, 362 56 Ryd",
+                "address": "Järnvägsgatan 17, 285 32 Markaryd",
                 "business_hours": null,
-                "phone_number": "0459-59 40 00"
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "",
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "07",
+            "nom": "Lillgatan 1, lokal ovan Åseda bilservice AB",
+            "url": "https://bokning.mittvaccin.se/klinik/1556",
+            "location": {
+                "longitude": 15.3520379,
+                "latitude": 57.1664611,
+                "city": "Uppvidinge",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Lillgatan 1, lokal ovan Åseda bilservice AB",
+                "business_hours": null,
+                "phone_number": ""
             },
             "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": "780",
+            "internal_id": "1556",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "07",
+            "nom": "Vårdcentralen Växjöhälsan Växjö, Växjö",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Vaxjohalsan-Vaxjo-Vaxjo/",
+            "location": {
+                "longitude": 14.819201332642796,
+                "latitude": 56.90676491216361,
+                "city": "Växjö",
+                "cp": "35245"
+            },
+            "metadata": {
+                "address": "Hjortvägen 1, 352 45 Växjö",
+                "business_hours": null,
+                "phone_number": "0470-73 81 80"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "07",
+            "nom": "Vårdcentralen Achima Care Växjö, Växjö",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Achima-Care-Vaxjo-Vaxjo/",
+            "location": {
+                "longitude": 14.797982221366297,
+                "latitude": 56.87915992912495,
+                "city": "Växjö",
+                "cp": "35232"
+            },
+            "metadata": {
+                "address": "Besöksadress vårdcentralen - Lärkgatan 4 E, 352 32 Växjö, Besöksadress BVC och Specialistvården - Storgatan 42, 352 32 Växjö",
+                "business_hours": null,
+                "phone_number": "0470-33 97 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "07",
+            "nom": "Vårdcentralen Capio Hovshaga, Hovshaga centrum",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Capio-Hovshaga-Hovshaga-centrum/",
+            "location": {
+                "longitude": 14.798416797897593,
+                "latitude": 56.90932912766061,
+                "city": "Växjö",
+                "cp": "35261"
+            },
+            "metadata": {
+                "address": "Pomonavägen 2, 352 61 Växjö",
+                "business_hours": null,
+                "phone_number": "0470-75 91 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "07",
+            "nom": "Previa",
+            "url": null,
+            "location": {
+                "longitude": 14.7761692,
+                "latitude": 56.8779855,
+                "city": "Växjö",
+                "cp": "35236"
+            },
+            "metadata": {
+                "address": "Honnörsgatan 16, 352 36 Växjö",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "",
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -483,18 +427,18 @@
         },
         {
             "departement": "07",
-            "nom": "Vårdcentralen Växjöhälsan Växjö, Växjö",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Vaxjohalsan-Vaxjo-Vaxjo/",
+            "nom": "Vårdcentralen Achima Care Älmhult, Älmhult",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Achima-Care-Almhult-Almhult/",
             "location": {
-                "longitude": 14.819201332642796,
-                "latitude": 56.90676491216361,
-                "city": "Växjö",
-                "cp": "35245"
+                "longitude": 14.141156788034609,
+                "latitude": 56.54753030885746,
+                "city": "Älmhult",
+                "cp": "34332"
             },
             "metadata": {
-                "address": "Hjortvägen 1, 352 45 Växjö",
+                "address": "Älmhults Vårdcentral, Kungsgatan 14, 343 32 Älmhult",
                 "business_hours": null,
-                "phone_number": "0470-73 81 80"
+                "phone_number": "0476-65 08 00"
             },
             "prochain_rdv": null,
             "plateforme": null,
@@ -503,6 +447,62 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "07",
+            "nom": "Vårdcentralen Helsa Älmhult, Älmhult",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Helsa-Almhult-Almhult/",
+            "location": {
+                "longitude": 14.13471989484289,
+                "latitude": 56.554485786574254,
+                "city": "Älmhult",
+                "cp": "34336"
+            },
+            "metadata": {
+                "address": "Gotthards gata 5, 343 36 Älmhult",
+                "business_hours": null,
+                "phone_number": "0476-64 66 10"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "07",
+            "nom": "Vårdcentralen Ryd, Ryd",
+            "url": "https://bokning.mittvaccin.se/klinik/780",
+            "location": {
+                "longitude": 14.69304570815703,
+                "latitude": 56.46511642426609,
+                "city": "Tingsryd",
+                "cp": "36256"
+            },
+            "metadata": {
+                "address": "Norra Hantverkaregatan 6, 362 56 Ryd",
+                "business_hours": null,
+                "phone_number": "0459-59 40 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "780",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
