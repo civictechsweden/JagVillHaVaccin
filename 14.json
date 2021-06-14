@@ -1,27 +1,83 @@
 {
     "version": 1,
-    "last_updated": "2021-06-14 08:54:08.172367+02:00",
+    "last_updated": "2021-06-14 09:14:35.918305+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "14",
-            "nom": "Närhälsan Stenstorp vårdcentral, Stenstorp",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stenstorp-vardcentral-Stenstorp/",
+            "nom": "BVC Bräcke Diakoni Vårdcentralen Centralhälsan, Falköping (åldersgrupp eller riksgrupp)",
+            "url": "https://bokning.mittvaccin.se/klinik/1224",
             "location": {
-                "longitude": 13.717400041889025,
-                "latitude": 58.273721072294435,
+                "longitude": 13.554135866320628,
+                "latitude": 58.167466873038066,
                 "city": "Falköping",
-                "cp": "52160"
+                "cp": "52147"
             },
             "metadata": {
-                "address": "Storgatan 14 A, 521 60, Stenstorp",
+                "address": "Bryngelsgatan 2B, 521 47, Falköping",
                 "business_hours": null,
-                "phone_number": "0500-47 29 50"
+                "phone_number": "0515-60 08 13"
+            },
+            "prochain_rdv": "2021-06-17 13:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 33,
+            "internal_id": "1224",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "BVC Capio Läkarhus Kvillebäcken, Hisingen",
+            "url": "https://patient.nu/portal/public/calendar/b1d9530d-74bd-11eb-b72c-c1de16d3e1eb",
+            "location": {
+                "longitude": 11.948395501444496,
+                "latitude": 57.72116398215221,
+                "city": "Göteborg",
+                "cp": "41722"
+            },
+            "metadata": {
+                "address": "Borstbindaregatan 6, 417 22, Göteborg",
+                "business_hours": null,
+                "phone_number": "031-744 23 30"
+            },
+            "prochain_rdv": "2021-06-17 13:30:00",
+            "plateforme": "Patient",
+            "type": "vaccination-center",
+            "appointment_count": 33,
+            "internal_id": "b1d9530d-74bd-11eb-b72c-c1de16d3e1eb",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Dingle Lantbruksskolan",
+            "url": null,
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
             },
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -33,24 +89,52 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tranemo-vardcentral-Tranemo/",
+            "nom": "Närhälsan Partille vårdcentral, Partille",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Partille-vardcentral-Partille/",
             "location": {
-                "longitude": 13.346591812509288,
-                "latitude": 57.48063225486268,
-                "city": "Tranemo",
-                "cp": "51434"
+                "longitude": 12.10506529223986,
+                "latitude": 57.73914640025265,
+                "city": "Partille",
+                "cp": "43333"
             },
             "metadata": {
-                "address": "Storgatan 42, 514 34, Tranemo",
+                "address": "Kyrktorget 13, 433 33, Partille",
                 "business_hours": null,
-                "phone_number": "0325-472 10"
+                "phone_number": "010-473 33 00"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 30,
             "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Vårdcentralen Kusten Kärna Filial, Kärna",
+            "url": "https://bokning.mittvaccin.se/klinik/783",
+            "location": {
+                "longitude": 11.79607707517296,
+                "latitude": 57.845999552475924,
+                "city": "Kungälv",
+                "cp": "44270"
+            },
+            "metadata": {
+                "address": "Kaprifolvägen 1c, 442 70, Kärna",
+                "business_hours": null,
+                "phone_number": "0303-37 97 00"
+            },
+            "prochain_rdv": "2021-06-17 16:05:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 297,
+            "internal_id": "783",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -389,62 +473,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "1509",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "BVC Bräcke Diakoni Vårdcentralen Centralhälsan, Falköping (åldersgrupp eller riksgrupp)",
-            "url": "https://bokning.mittvaccin.se/klinik/1224",
-            "location": {
-                "longitude": 13.554135866320628,
-                "latitude": 58.167466873038066,
-                "city": "Falköping",
-                "cp": "52147"
-            },
-            "metadata": {
-                "address": "Bryngelsgatan 2B, 521 47, Falköping",
-                "business_hours": null,
-                "phone_number": "0515-60 08 13"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1224",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "BVC Capio Läkarhus Kvillebäcken, Hisingen",
-            "url": "https://patient.nu/portal/public/calendar/b1d9530d-74bd-11eb-b72c-c1de16d3e1eb",
-            "location": {
-                "longitude": 11.948395501444496,
-                "latitude": 57.72116398215221,
-                "city": "Göteborg",
-                "cp": "41722"
-            },
-            "metadata": {
-                "address": "Borstbindaregatan 6, 417 22, Göteborg",
-                "business_hours": null,
-                "phone_number": "031-744 23 30"
-            },
-            "prochain_rdv": null,
-            "plateforme": "Patient",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "b1d9530d-74bd-11eb-b72c-c1de16d3e1eb",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -4485,34 +4513,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Dingle Lantbruksskolan",
-            "url": null,
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Ekmanska vårdcentral, Göteborg",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Ekmanska-vardcentral-Goteborg/",
             "location": {
@@ -5969,34 +5969,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Partille vårdcentral, Partille",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Partille-vardcentral-Partille/",
-            "location": {
-                "longitude": 12.10506529223986,
-                "latitude": 57.73914640025265,
-                "city": "Partille",
-                "cp": "43333"
-            },
-            "metadata": {
-                "address": "Kyrktorget 13, 433 33, Partille",
-                "business_hours": null,
-                "phone_number": "010-473 33 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Sandared vårdcentral, Sandared",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Sandared-vardcentral-Sandared/",
             "location": {
@@ -6297,6 +6269,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Stenstorp vårdcentral, Stenstorp",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stenstorp-vardcentral-Stenstorp/",
+            "location": {
+                "longitude": 13.717400041889025,
+                "latitude": 58.273721072294435,
+                "city": "Falköping",
+                "cp": "52160"
+            },
+            "metadata": {
+                "address": "Storgatan 14 A, 521 60, Stenstorp",
+                "business_hours": null,
+                "phone_number": "0500-47 29 50"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -6745,6 +6745,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Tranemo-vardcentral-Tranemo/",
+            "location": {
+                "longitude": 13.346591812509288,
+                "latitude": 57.48063225486268,
+                "city": "Tranemo",
+                "cp": "51434"
+            },
+            "metadata": {
+                "address": "Storgatan 42, 514 34, Tranemo",
+                "business_hours": null,
+                "phone_number": "0325-472 10"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -8648,34 +8676,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Vårdcentralen Kusten Kärna Filial, Kärna",
-            "url": "https://bokning.mittvaccin.se/klinik/783",
-            "location": {
-                "longitude": 11.79607707517296,
-                "latitude": 57.845999552475924,
-                "city": "Kungälv",
-                "cp": "44270"
-            },
-            "metadata": {
-                "address": "Kaprifolvägen 1c, 442 70, Kärna",
-                "business_hours": null,
-                "phone_number": "0303-37 97 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "783",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
