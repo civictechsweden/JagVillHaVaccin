@@ -7,6 +7,8 @@ import scrapers.vaccina as vaccina
 import scrapers.mittvaccin as mittvaccin
 import scrapers.patient_nu as patient_nu
 import scrapers.vgr as vgr
+import scrapers.vasterbotten as vasterbotten
+import scrapers.vastmanland as vastmanland
 import scrapers.macc as macc
 import scrapers.skane as skane
 from service.writer import Writer
@@ -39,6 +41,11 @@ class VMD(object):
         elif (region_number == '12'):
             centers_macc = macc.get_centers()
             centers_1177_skane = skane.get_centers()
+        elif (region_number == '24'):
+            centers_vasterbotten = vasterbotten.get_centers()
+        elif (region_number == '19'):
+            centers_vastmanland = vastmanland.get_centers()
+            print(centers_vastmanland)
 
         for center in region_centers:
             print(center['name'])
@@ -100,6 +107,26 @@ class VMD(object):
                         center_macc)
                     prochain_rdv = next_time_and_slots['next']
                     appointment_count = next_time_and_slots['amount_of_slots']
+            elif (region_number == '24'):
+                center_vasterbotten = vasterbotten.get_center_from(
+                    centers_vasterbotten, center['1177_url'])
+
+                print(center_vasterbotten)
+
+                if (center['platform'] == '1177' and center_vasterbotten):
+                    next_time_and_slots = vasterbotten.get_next_time_and_slots(
+                        center_vasterbotten)
+                    prochain_rdv = next_time_and_slots['next']
+                    appointment_count = next_time_and_slots['amount_of_slots']
+            elif (region_number == '19'):
+                center_vastmanland = vastmanland.get_center_from(
+                    centers_vastmanland, center['1177_url'])
+
+                if (center_vastmanland):
+                    next_time_and_slots = vastmanland.get_next_time_and_slots(
+                        center_vastmanland)
+                    prochain_rdv = next_time_and_slots['next']
+                    appointment_count = next_time_and_slots['amount_of_slots']
 
             if center['region'] in ['10', '06']:
                 print(
@@ -132,10 +159,13 @@ class VMD(object):
                 'gid': None
             }
 
-            if appointment_count > 0:
+            if prochain_rdv or (appointment_count and appointment_count > 0):
                 centres_disponibles.append(dict(vmd_center))
             else:
                 centres_indisponibles.append(dict(vmd_center))
+
+        centres_disponibles = sorted(centres_disponibles,
+                                     key=lambda k: k['prochain_rdv'])
 
         vmd_data = {
             'version': 1,

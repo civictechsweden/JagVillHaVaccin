@@ -35,6 +35,15 @@ class Downloader(object):
             else:
                 print('Permanent error: skipping this center')
                 return None
+        except TimeoutError as err:
+            print(f'ERROR {err.code}: Could not download {url}.')
+            if (err.code == 60):
+                print('Retrying in 3 seconds')
+                time.sleep(3)
+                return Downloader.get(url)
+            else:
+                print('Permanent error: skipping this center')
+                return None
 
     @staticmethod
     def get_json(url):

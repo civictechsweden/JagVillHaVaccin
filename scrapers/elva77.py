@@ -169,6 +169,12 @@ def is_fetchable(platform):
     return False
 
 
+def get_short_url(elva77_url):
+    if elva77_url and BASE_URL in elva77_url:
+        return '/hitta-vard/' + elva77_url.split('/hitta-vard/')[1]
+    return None
+
+
 def create_unlisted_center(center):
     print('Writing unlisted center {}'.format(
         center.get('vaccination_center'), ))
