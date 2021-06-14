@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-06-14 11:22:06.381328+02:00",
+    "last_updated": "2021-06-14 11:45:35.252287+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "18",
+            "nom": "Vaccinationsmottagningen Covid 19 Hallsberg",
+            "url": "https://bokning.mittvaccin.se/klinik/1350",
+            "location": {
+                "longitude": 15.098423102618073,
+                "latitude": 59.06695698446932,
+                "city": "Hallsberg",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Esplanaden 1, Hallsberg",
+                "business_hours": null,
+                "phone_number": "019-602 80 00"
+            },
+            "prochain_rdv": "2021-06-15 10:05:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "1350",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "18",
             "nom": "Vaccinationsmottagningen Covid 19 Karlskoga",
@@ -21,7 +49,7 @@
             "prochain_rdv": "2021-06-16 13:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 39,
+            "appointment_count": 38,
             "internal_id": "1349",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,41 +74,11 @@
                 "business_hours": null,
                 "phone_number": "019-602 80 00"
             },
-            "prochain_rdv": "2021-06-14 17:10:00",
+            "prochain_rdv": "2021-06-15 14:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 39,
+            "appointment_count": 38,
             "internal_id": "1348",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        }
-    ],
-    "centres_indisponibles": [
-        {
-            "departement": "18",
-            "nom": "Vaccinationsmottagningen Covid 19 Hallsberg",
-            "url": "https://bokning.mittvaccin.se/klinik/1350",
-            "location": {
-                "longitude": 15.098423102618073,
-                "latitude": 59.06695698446932,
-                "city": "Hallsberg",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Esplanaden 1, Hallsberg",
-                "business_hours": null,
-                "phone_number": "019-602 80 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1350",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -104,10 +102,10 @@
                 "business_hours": null,
                 "phone_number": "019-602 80 00"
             },
-            "prochain_rdv": null,
+            "prochain_rdv": "2021-06-17 17:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 0,
+            "appointment_count": 1,
             "internal_id": "1351",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -116,7 +114,9 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "18",
             "nom": "Vaccinationsmottagningen Covid 19 Örebro Conventum",
