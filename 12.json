@@ -1,28 +1,27 @@
 {
     "version": 1,
-    "last_updated": "2021-06-14 12:49:55.807326+02:00",
+    "last_updated": "2021-06-14 16:03:34.366714+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "12",
-            "nom": "Clarion Hotel Sea U",
-            "url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
+            "nom": "Vaccination Covid19 Öresundshälsan, Malmö",
+            "url": "https://bokning.mittvaccin.se/klinik/2072",
             "location": {
-                "longitude": 12.687659,
-                "latitude": 56.0459685,
-                "city": "Helsingborg",
-                "cp": "25221"
+                "longitude": 13.065192840175026,
+                "latitude": 55.5784745846457,
+                "city": "Malmö",
+                "cp": "00000"
             },
             "metadata": {
-                "address": "Kungsgatan 1, 252 21 Helsingborg",
-                "business_hours": null,
-                "phone_number": ""
+                "address": "Derbyvägen 6E, Malmö",
+                "business_hours": null
             },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
+            "prochain_rdv": "2021-06-15 10:25:00",
+            "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 99,
-            "internal_id": 30007,
+            "appointment_count": 244,
+            "internal_id": "2072",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -45,39 +44,11 @@
                 "address": "Storgatan 19, Klippan",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-06-15 09:05:00",
+            "prochain_rdv": "2021-06-23 11:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 295,
+            "appointment_count": 285,
             "internal_id": "231",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Elite Hotel Ideon",
-            "url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
-            "location": {
-                "longitude": 13.1963902,
-                "latitude": 55.7176698,
-                "city": "Lund",
-                "cp": "22363"
-            },
-            "metadata": {
-                "address": "Scheelevägen 27, 223 63 Lund",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 99,
-            "internal_id": 30009,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -98,7 +69,8 @@
             },
             "metadata": {
                 "address": "Företagsvägen 29, Arlöv",
-                "business_hours": null
+                "business_hours": null,
+                "phone_number": "046-103300443"
             },
             "prochain_rdv": null,
             "plateforme": "MACC",
@@ -126,12 +98,12 @@
             "metadata": {
                 "address": "Östra Hagagatan 2, Hässleholm",
                 "business_hours": null,
-                "phone_number": "010-330 04 43"
+                "phone_number": "046-103300443"
             },
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 52,
+            "appointment_count": 48,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -154,12 +126,40 @@
             "metadata": {
                 "address": "Silvergatan 4, Hörby",
                 "business_hours": null,
-                "phone_number": "010-330 04 43"
+                "phone_number": "046-103300443"
             },
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 718,
+            "appointment_count": 700,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Osby",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Osby/",
+            "location": {
+                "longitude": 13.991146252719732,
+                "latitude": 56.380297879671815,
+                "city": "Osby",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Fabriksgatan 7, Osby",
+                "business_hours": null,
+                "phone_number": "046-103300443"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MACC",
+            "type": "vaccination-center",
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -182,12 +182,40 @@
             "metadata": {
                 "address": "Industrigatan 1C, Sjöbo",
                 "business_hours": null,
-                "phone_number": "073-143 84 58"
+                "phone_number": "046-103300443"
             },
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 6,
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Skurup",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Skurup/",
+            "location": {
+                "longitude": 13.503898394470399,
+                "latitude": 55.475824351719375,
+                "city": "Skurup",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Vaktgatan 10, Skurup",
+                "business_hours": null,
+                "phone_number": "046-103300443"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MACC",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -210,12 +238,12 @@
             "metadata": {
                 "address": "Herrevadsgatan 10A, Svalöv",
                 "business_hours": null,
-                "phone_number": "010-330 04 43"
+                "phone_number": "046-103300443"
             },
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 55,
+            "appointment_count": 56,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -237,96 +265,14 @@
             },
             "metadata": {
                 "address": "Pappersbruksvägen 4, Broby",
-                "business_hours": null
+                "business_hours": null,
+                "phone_number": "046-103300443"
             },
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 16,
+            "appointment_count": 11,
             "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Quality Hotel View",
-            "url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
-            "location": {
-                "longitude": 12.9568331,
-                "latitude": 55.5624905,
-                "city": "Malmö",
-                "cp": "21532"
-            },
-            "metadata": {
-                "address": "Hyllie stationstorg, 215 32 Malmö",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 99,
-            "internal_id": 30008,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Södra Storgatan 17",
-            "url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
-            "location": {
-                "longitude": 12.9188332,
-                "latitude": 56.083099,
-                "city": "Bjuv",
-                "cp": "26731"
-            },
-            "metadata": {
-                "address": "Södra Storgatan 17, 267 31 Bjuv",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 99,
-            "internal_id": 31153,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Vaccination Covid19 Öresundshälsan, Malmö",
-            "url": "https://bokning.mittvaccin.se/klinik/2072",
-            "location": {
-                "longitude": 13.065192840175026,
-                "latitude": 55.5784745846457,
-                "city": "Malmö",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Derbyvägen 6E, Malmö",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-06-15 10:05:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 257,
-            "internal_id": "2072",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -365,23 +311,80 @@
         },
         {
             "departement": "12",
-            "nom": "Vaccinova Simrishamn",
-            "url": "https://bokning.mittvaccin.se/klinik/2020",
+            "nom": "Clarion Hotel Sea U",
+            "url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
             "location": {
-                "longitude": 14.341650661166378,
-                "latitude": 55.55262089843178,
-                "city": "Simrishamn",
-                "cp": "00000"
+                "longitude": 12.687659,
+                "latitude": 56.0459685,
+                "city": "Helsingborg",
+                "cp": "25221"
             },
             "metadata": {
-                "address": "Sjukhusvägen 1, Simrishamn",
-                "business_hours": null
+                "address": "Kungsgatan 1, 252 21 Helsingborg",
+                "business_hours": null,
+                "phone_number": ""
             },
-            "prochain_rdv": "2021-06-21 13:50:00",
-            "plateforme": "MittVaccin",
+            "prochain_rdv": null,
+            "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "2020",
+            "appointment_count": 294,
+            "internal_id": 30007,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Quality Hotel View",
+            "url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
+            "location": {
+                "longitude": 12.9568331,
+                "latitude": 55.5624905,
+                "city": "Malmö",
+                "cp": "21532"
+            },
+            "metadata": {
+                "address": "Hyllie stationstorg, 215 32 Malmö",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 294,
+            "internal_id": 30008,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Elite Hotel Ideon",
+            "url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
+            "location": {
+                "longitude": 13.1963902,
+                "latitude": 55.7176698,
+                "city": "Lund",
+                "cp": "22363"
+            },
+            "metadata": {
+                "address": "Scheelevägen 27, 223 63 Lund",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 294,
+            "internal_id": 30009,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -408,8 +411,36 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 99,
+            "appointment_count": 294,
             "internal_id": 30011,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Södra Storgatan 17",
+            "url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
+            "location": {
+                "longitude": 12.9188332,
+                "latitude": 56.083099,
+                "city": "Bjuv",
+                "cp": "26731"
+            },
+            "metadata": {
+                "address": "Södra Storgatan 17, 267 31 Bjuv",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 294,
+            "internal_id": 31153,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -618,117 +649,6 @@
         },
         {
             "departement": "12",
-            "nom": "KRY Vårdcentral Lund Filial Stortorget, Malmö",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/KRY-Vardcentral-Lund-Filial-Stortorget-Malmo/",
-            "location": {
-                "longitude": 13.000495417979417,
-                "latitude": 55.60686975311932,
-                "city": "Malmö",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Stortorget 3, Malmö",
-                "business_hours": null,
-                "phone_number": "010-424 05 91"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Kronans Apotek Båstad",
-            "url": "https://bokning.mittvaccin.se/klinik/1535",
-            "location": {
-                "longitude": 12.837022713078733,
-                "latitude": 56.433153288605794,
-                "city": "Båstad",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kyrkogatan 21, Båstad",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1535",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Kronans Apotek Höör",
-            "url": "https://bokning.mittvaccin.se/klinik/1538",
-            "location": {
-                "longitude": 13.540319233929354,
-                "latitude": 55.93385874871056,
-                "city": "Höör",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Föreningsgatan 7, Höör",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1538",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Kronans Apotek Ängelholm",
-            "url": "https://bokning.mittvaccin.se/klinik/1534",
-            "location": {
-                "longitude": 12.863032774480866,
-                "latitude": 56.24253762960139,
-                "city": "Ängelholm",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Laxgatan 6, Ängelholm",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1534",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Kry Lund",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Kry-Lund/",
             "location": {
@@ -783,109 +703,26 @@
         },
         {
             "departement": "12",
-            "nom": "Kävlinge Tandvård, Kävlinge",
-            "url": "https://bokning.mittvaccin.se/klinik/2048",
+            "nom": "KRY Vårdcentral Lund Filial Stortorget, Malmö",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/KRY-Vardcentral-Lund-Filial-Stortorget-Malmo/",
             "location": {
-                "longitude": 13.1089287825756,
-                "latitude": 55.79037731336482,
-                "city": "Kävlinge",
+                "longitude": 13.000495417979417,
+                "latitude": 55.60686975311932,
+                "city": "Malmö",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Unionsgatan 7, Kävlinge",
+                "address": "Stortorget 3, Malmö",
                 "business_hours": null,
-                "phone_number": "046-73 54 50"
+                "phone_number": "010-424 05 91"
             },
             "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2048",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Logopedmottagning Landskrona",
-            "url": "https://bokning.mittvaccin.se/klinik/2047",
-            "location": {
-                "longitude": 12.841158725067878,
-                "latitude": 55.87755327591269,
-                "city": "Landskrona",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Vattenverksallén 15, Landskrona",
-                "business_hours": null,
-                "phone_number": "0418-45 42 88"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2047",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "MACC Osby",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Osby/",
-            "location": {
-                "longitude": 13.991146252719732,
-                "latitude": 56.380297879671815,
-                "city": "Osby",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Fabriksgatan 7, Osby",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "MACC",
+            "plateforme": null,
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "MACC Skurup",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/MACC-Skurup/",
-            "location": {
-                "longitude": 13.503898394470399,
-                "latitude": 55.475824351719375,
-                "city": "Skurup",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Vaktgatan 10, Skurup",
-                "business_hours": null,
-                "phone_number": "010-330 04 43"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MACC",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
+            "appointment_by_phone_only": true,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -904,7 +741,8 @@
             },
             "metadata": {
                 "address": "Stjernsvärds allé 51, Ängelholm",
-                "business_hours": null
+                "business_hours": null,
+                "phone_number": "046-103300443"
             },
             "prochain_rdv": null,
             "plateforme": "MACC",
@@ -968,34 +806,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Smile Trelleborg, Trelleborg",
-            "url": "https://bokning.mittvaccin.se/klinik/230",
-            "location": {
-                "longitude": 13.150163640066447,
-                "latitude": 55.374649593164136,
-                "city": "Trelleborg",
-                "cp": "23142"
-            },
-            "metadata": {
-                "address": "Algatan 71, 231 42  Trelleborg",
-                "business_hours": null,
-                "phone_number": "0410-101 14"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "230",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -1129,33 +939,6 @@
             },
             "prochain_rdv": null,
             "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "VaccinDirekt Lund",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/VaccinDirekt-Lund/",
-            "location": {
-                "longitude": 13.215756398734321,
-                "latitude": 55.69048894097376,
-                "city": "Lund",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kalkstensvägen 13A, Lund",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
@@ -1307,54 +1090,25 @@
         },
         {
             "departement": "12",
-            "nom": "Vaccina Trelleborg",
-            "url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
+            "nom": "VaccinDirekt Lund",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/VaccinDirekt-Lund/",
             "location": {
-                "longitude": 13.159206589534788,
-                "latitude": 55.37368669238379,
-                "city": "Trelleborg",
+                "longitude": 13.215756398734321,
+                "latitude": 55.69048894097376,
+                "city": "Lund",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Algatan 4, Trelleborg",
-                "business_hours": null,
-                "phone_number": "010-750 09 45"
+                "address": "Kalkstensvägen 13A, Lund",
+                "business_hours": null
             },
             "prochain_rdv": null,
-            "plateforme": "Vaccina",
+            "plateforme": null,
             "type": "vaccination-center",
             "appointment_count": 0,
-            "internal_id": 30010,
+            "internal_id": null,
             "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Vaccina Ystad",
-            "url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
-            "location": {
-                "longitude": 13.823960969621373,
-                "latitude": 55.431996929534286,
-                "city": "Ystad",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Blekegatan 8, Ystad",
-                "business_hours": null,
-                "phone_number": "010-750 09 45"
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 30015,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
+            "appointment_by_phone_only": true,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -1498,6 +1252,33 @@
         },
         {
             "departement": "12",
+            "nom": "Vaccinova Simrishamn",
+            "url": "https://bokning.mittvaccin.se/klinik/2020",
+            "location": {
+                "longitude": 14.341650661166378,
+                "latitude": 55.55262089843178,
+                "city": "Simrishamn",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Sjukhusvägen 1, Simrishamn",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2020",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
             "nom": "Vaccinova Tomelilla",
             "url": "https://bokning.mittvaccin.se/klinik/2021",
             "location": {
@@ -1572,6 +1353,229 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccina Trelleborg",
+            "url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
+            "location": {
+                "longitude": 13.159206589534788,
+                "latitude": 55.37368669238379,
+                "city": "Trelleborg",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Algatan 4, Trelleborg",
+                "business_hours": null,
+                "phone_number": "010-750 09 45"
+            },
+            "prochain_rdv": null,
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": 30010,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccina Ystad",
+            "url": "https://www.vaccina.se/covidvaccin/skane/tidsbokning/#/service",
+            "location": {
+                "longitude": 13.823960969621373,
+                "latitude": 55.431996929534286,
+                "city": "Ystad",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Blekegatan 8, Ystad",
+                "business_hours": null,
+                "phone_number": "010-750 09 45"
+            },
+            "prochain_rdv": null,
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": 30015,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vuxenpsykiatrimottagning Landskrona",
+            "url": "https://bokning.mittvaccin.se/klinik/2047",
+            "location": {
+                "longitude": 12.842486434895747,
+                "latitude": 55.88005640536395,
+                "city": "Landskrona",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Skiftesvägen 4A, våning 2, Landskrona",
+                "business_hours": null,
+                "phone_number": "0418-45 46 40"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2047",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Kävlinge Tandvård, Kävlinge",
+            "url": "https://bokning.mittvaccin.se/klinik/2048",
+            "location": {
+                "longitude": 13.1089287825756,
+                "latitude": 55.79037731336482,
+                "city": "Kävlinge",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Unionsgatan 7, Kävlinge",
+                "business_hours": null,
+                "phone_number": "046-73 54 50"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2048",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Smile Trelleborg, Trelleborg",
+            "url": "https://bokning.mittvaccin.se/klinik/230",
+            "location": {
+                "longitude": 13.150163640066447,
+                "latitude": 55.374649593164136,
+                "city": "Trelleborg",
+                "cp": "23142"
+            },
+            "metadata": {
+                "address": "Algatan 71, 231 42  Trelleborg",
+                "business_hours": null,
+                "phone_number": "0410-101 14"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "230",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Kronans Apotek Höör",
+            "url": "https://bokning.mittvaccin.se/klinik/1538",
+            "location": {
+                "longitude": 13.540319233929354,
+                "latitude": 55.93385874871056,
+                "city": "Höör",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Föreningsgatan 7, Höör",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1538",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Kronans Apotek Ängelholm",
+            "url": "https://bokning.mittvaccin.se/klinik/1534",
+            "location": {
+                "longitude": 12.863032774480866,
+                "latitude": 56.24253762960139,
+                "city": "Ängelholm",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Laxgatan 6, Ängelholm",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1534",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Kronans Apotek Båstad",
+            "url": "https://bokning.mittvaccin.se/klinik/1535",
+            "location": {
+                "longitude": 12.837022713078733,
+                "latitude": 56.433153288605794,
+                "city": "Båstad",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Kyrkogatan 21, Båstad",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1535",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
