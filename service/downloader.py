@@ -57,5 +57,8 @@ class Downloader(object):
     @staticmethod
     def get_html_soup(url):
         response = Downloader.get(url)
+        if not response:
+            return None
+
         htmlData = html.unescape(response.decode('utf-8'))
         return BeautifulSoup(htmlData, 'html.parser')

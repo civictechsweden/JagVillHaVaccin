@@ -16,6 +16,9 @@ def get_vaccination_centers():
     content = get_preloaded_state_content('{}{}{}'.format(
         BASE_URL, ALL_COVID_CENTERS, BATCH_SIZE))
 
+    if not content:
+        return []
+
     return content['SearchResult']['SearchHits']
 
 
@@ -41,6 +44,9 @@ def get_center_info(center_url):
         regions = json.load(json_file)
 
     content = get_preloaded_state_content('{}{}'.format(BASE_URL, center_url))
+
+    if not content:
+        return None
 
     card = content['Card']
     print('Fetching info from 1177 for {}'.format(card['DisplayName']))
@@ -105,6 +111,10 @@ def get_center_info(center_url):
 
 def get_preloaded_state_content(url):
     soup = Downloader.get_html_soup(url)
+
+    if not soup:
+        return None
+
     soup_text = str(soup)
     start = soup_text.index('{"__PRELOADED_STATE__":')
     end = soup_text.index('.__PRELOADED_STATE__</script>')

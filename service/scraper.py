@@ -21,10 +21,12 @@ class Scraper(object):
             url = elva77.BASE_URL + center['Url']
 
             if url not in already_fetched_urls:
-                centers_json.append(dict(elva77.get_center_info(
-                    center['Url'])))
+                center_json = elva77.get_center_info(center['Url'])
+
+                if center_json:
+                    centers_json.append(dict(center_json))
             else:
-                print('Not fetching this one: {}'.format(url))
+                print('Center already fetched: {}'.format(url))
 
         return centers_json
 
@@ -32,7 +34,7 @@ class Scraper(object):
 
         regions = [
             'blekinge', 'dalarna', 'jonkoping', 'kalmar', 'kronoberg',
-            'orebro', 'skane', 'sodermanland', 'vasterbotten',
+            'orebro', 'skane', 'sodermanland', 'vasterbotten', 'vasternorrland'
             'vastragotaland', 'ostergotland'
         ]
 
@@ -55,29 +57,35 @@ class Scraper(object):
 
                         if url:
                             center_info = dict(elva77.get_center_info(url))
-                            if center['link'] != '':
-                                center_info['platform_url'] = center['link']
-                                platform = elva77.get_platform(center['link'])
-                                center_info['platform'] = platform
 
-                                platform_id = elva77.get_id_from_url(
-                                    center['link'])
-                                if platform_id:
-                                    center_info['platform_id'] = platform_id
+                            if center_info:
+                                if center['link'] != '':
+                                    center_info['platform_url'] = center[
+                                        'link']
+                                    platform = elva77.get_platform(
+                                        center['link'])
+                                    center_info['platform'] = platform
 
-                                center_info[
-                                    'appointment_by_phone_only'] = not elva77.is_fetchable(
-                                        platform)
+                                    platform_id = elva77.get_id_from_url(
+                                        center['link'])
+                                    if platform_id:
+                                        center_info[
+                                            'platform_id'] = platform_id
 
-                            if 'category' in center and center[
-                                    'category'] != '':
-                                center_info['name'] = '{} ({})'.format(
-                                    center_info['name'], center['category'])
+                                    center_info[
+                                        'appointment_by_phone_only'] = not elva77.is_fetchable(
+                                            platform)
 
-                            if 'id' in center and center['id'] != '':
-                                center_info['platform_id'] = center['id']
+                                if 'category' in center and center[
+                                        'category'] != '':
+                                    center_info['name'] = '{} ({})'.format(
+                                        center_info['name'],
+                                        center['category'])
 
-                            centers_json.append(center_info)
+                                if 'id' in center and center['id'] != '':
+                                    center_info['platform_id'] = center['id']
+
+                                centers_json.append(center_info)
                         else:
                             print("Couldn't find {} on 1177".format(
                                 center['vaccination_center']))
@@ -96,8 +104,6 @@ class Scraper(object):
                 short_url = url.replace(elva77.BASE_URL + '/Vastra-Gotaland',
                                         '')
 
-                print('Center is on 1177:    ' + short_url)
-
                 if url not in already_fetched_urls:
                     center_json = elva77.get_center_info(short_url)
 
@@ -105,12 +111,12 @@ class Scraper(object):
                     print('Center already fetched: {}'.format(url))
 
             else:
-                print('Center is not on 1177:    ' + url)
                 center_json = elva77.create_unlisted_center(
                     vgr.convert_center(center))
 
-            center_json['appointment_by_phone_only'] = False
-            centers_json.append(dict(center_json))
+            if center_json:
+                center_json['appointment_by_phone_only'] = False
+                centers_json.append(dict(center_json))
 
         return centers_json
 
@@ -125,8 +131,6 @@ class Scraper(object):
             if elva77.BASE_URL in url:
                 short_url = url.replace(elva77.BASE_URL + '/Vasterbotten', '')
 
-                print('1177:    ' + short_url)
-
                 if url not in already_fetched_urls:
                     center_json = elva77.get_center_info(short_url)
 
@@ -134,11 +138,11 @@ class Scraper(object):
                     print('Not fetching this one: {}'.format(url))
 
             else:
-                print('Not 1177:    ' + url)
                 center_json = elva77.create_unlisted_center(center)
 
-            center_json['appointment_by_phone_only'] = False
-            centers_json.append(dict(center_json))
+            if center_json:
+                center_json['appointment_by_phone_only'] = False
+                centers_json.append(dict(center_json))
 
         return centers_json
 
@@ -153,21 +157,18 @@ class Scraper(object):
             if elva77.BASE_URL in url:
                 short_url = url.replace(elva77.BASE_URL, '')
 
-                print('1177:    ' + short_url)
-
                 if url not in already_fetched_urls:
-                    print(short_url)
                     center_json = elva77.get_center_info(short_url)
 
                 else:
-                    print('Not fetching this one: {}'.format(url))
+                    print('Center already fetched: {}'.format(url))
 
             else:
-                print('Not 1177:    ' + url)
                 center_json = center
 
-            center_json['appointment_by_phone_only'] = False
-            centers_json.append(dict(center_json))
+            if center_json:
+                center_json['appointment_by_phone_only'] = False
+                centers_json.append(dict(center_json))
 
         return centers_json
 
