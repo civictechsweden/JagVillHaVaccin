@@ -33,8 +33,8 @@ class Scraper(object):
     def scrape_centers_from_manual_lists():
 
         regions = [
-            'blekinge', 'dalarna', 'jonkoping', 'kalmar', 'kronoberg',
-            'orebro', 'skane', 'sodermanland', 'vasterbotten', 'vasternorrland'
+            'vasternorrland', 'blekinge', 'dalarna', 'jonkoping', 'kalmar',
+            'kronoberg', 'orebro', 'skane', 'sodermanland', 'vasterbotten',
             'vastragotaland', 'ostergotland'
         ]
 
@@ -56,9 +56,11 @@ class Scraper(object):
                             str(center.get('municipality')))
 
                         if url:
-                            center_info = dict(elva77.get_center_info(url))
+                            center_info = elva77.get_center_info(url)
 
                             if center_info:
+                                center_info = dict(center_info)
+
                                 if center['link'] != '':
                                     center_info['platform_url'] = center[
                                         'link']
