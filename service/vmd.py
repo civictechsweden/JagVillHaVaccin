@@ -128,11 +128,7 @@ class VMD(object):
                     prochain_rdv = next_time_and_slots['next']
                     appointment_count = next_time_and_slots['amount_of_slots']
 
-            if center['region'] in ['10', '06']:
-                print(
-                    'Replacing URL to satisfy request from Blekinge and Jönköping'
-                )
-                url = region_url
+            url = region_url
 
             id = center[
                 'internal_id'] if 'internal_id' in center else center.get(
