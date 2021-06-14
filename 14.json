@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-14 12:03:50.335212+02:00",
+    "last_updated": "2021-06-14 12:47:03.342645+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-06-22 13:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 180,
+            "appointment_count": 179,
             "internal_id": "1224",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +49,7 @@
             "prochain_rdv": "2021-06-22 13:15:00",
             "plateforme": "Patient",
             "type": "vaccination-center",
-            "appointment_count": 180,
+            "appointment_count": 179,
             "internal_id": "b1d9530d-74bd-11eb-b72c-c1de16d3e1eb",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -61,7 +61,35 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Dingle Lantbruksskolan",
+            "nom": "Närhälsan Lerum vårdcentral, Lerum",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Lerum-vardcentral-Lerum/",
+            "location": {
+                "longitude": 12.265754618589991,
+                "latitude": 57.76853764400082,
+                "city": "Lerum",
+                "cp": "44330"
+            },
+            "metadata": {
+                "address": "Göteborgsvägen 9, 443 30, Lerum",
+                "business_hours": null,
+                "phone_number": "0302-551 20"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Lerums Gymnasium Häggen",
             "url": null,
             "location": {
                 "longitude": "",
@@ -89,34 +117,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Mösseberg vårdcentral, Falköping",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Mosseberg-vardcentral-Falkoping/",
-            "location": {
-                "longitude": 13.551919293701959,
-                "latitude": 58.187716349794115,
-                "city": "Falköping",
-                "cp": "52137"
-            },
-            "metadata": {
-                "address": "Danska vägen 62, 521 37, Falköping",
-                "business_hours": null,
-                "phone_number": "0515-878 90"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 38,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Scandinavium",
             "url": null,
             "location": {
@@ -133,35 +133,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 71,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Stenungsund vårdcentral, Stenungsund",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stenungsund-vardcentral-Stenungsund/",
-            "location": {
-                "longitude": 11.817927130264705,
-                "latitude": 58.06648177430393,
-                "city": "Stenungsund",
-                "cp": "44430"
-            },
-            "metadata": {
-                "address": "Jullen 3, 444 30, Stenungsund",
-                "business_hours": null,
-                "phone_number": "010-473 32 20"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 11,
+            "appointment_count": 70,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -214,10 +186,10 @@
                 "business_hours": null,
                 "phone_number": "0303-37 97 00"
             },
-            "prochain_rdv": "2021-06-18 14:45:00",
+            "prochain_rdv": "2021-06-23 13:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 267,
+            "appointment_count": 255,
             "internal_id": "783",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -4597,6 +4569,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Dingle Lantbruksskolan",
+            "url": null,
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Ekmanska vårdcentral, Göteborg",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Ekmanska-vardcentral-Goteborg/",
             "location": {
@@ -5521,62 +5521,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Lerum vårdcentral, Lerum",
-            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Lerum-vardcentral-Lerum/",
-            "location": {
-                "longitude": 12.265754618589991,
-                "latitude": 57.76853764400082,
-                "city": "Lerum",
-                "cp": "44330"
-            },
-            "metadata": {
-                "address": "Göteborgsvägen 9, 443 30, Lerum",
-                "business_hours": null,
-                "phone_number": "0302-551 20"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Lerums Gymnasium Häggen",
-            "url": null,
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Lindome vårdcentral, Lindome",
             "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Lindome-vardcentral-Lindome/",
             "location": {
@@ -5877,6 +5821,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Mösseberg vårdcentral, Falköping",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Mosseberg-vardcentral-Falkoping/",
+            "location": {
+                "longitude": 13.551919293701959,
+                "latitude": 58.187716349794115,
+                "city": "Falköping",
+                "cp": "52137"
+            },
+            "metadata": {
+                "address": "Danska vägen 62, 521 37, Falköping",
+                "business_hours": null,
+                "phone_number": "0515-878 90"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -6345,6 +6317,34 @@
                 "address": "Storgatan 14 A, 521 60, Stenstorp",
                 "business_hours": null,
                 "phone_number": "0500-47 29 50"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Stenungsund vårdcentral, Stenungsund",
+            "url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Stenungsund-vardcentral-Stenungsund/",
+            "location": {
+                "longitude": 11.817927130264705,
+                "latitude": 58.06648177430393,
+                "city": "Stenungsund",
+                "cp": "44430"
+            },
+            "metadata": {
+                "address": "Jullen 3, 444 30, Stenungsund",
+                "business_hours": null,
+                "phone_number": "010-473 32 20"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
