@@ -1,50 +1,23 @@
 {
     "version": 1,
-    "last_updated": "2021-06-15 10:44:49.998455+02:00",
+    "last_updated": "2021-06-15 10:59:41.425876+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "19",
-            "nom": "Hallstahammar vaccinationsmottagning Folkets hus",
+            "nom": "Västerås vaccinationsmottagning Servicehälsan",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 16.23251539364746,
-                "latitude": 59.61888734969954,
-                "city": "Hallstahammar",
+                "longitude": 16.55421068341796,
+                "latitude": 59.61671954977299,
+                "city": "Västerås",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Parkgatan 24, Hallstahammar",
+                "address": "Legeringsgatan 2, Västerås",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-06-17 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": null,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "19",
-            "nom": "Arboga vaccinationsmottagning Medborgarhuset",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 15.839052192348248,
-                "latitude": 59.395007107695434,
-                "city": "Arboga",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ahllöfsgatan 5, Arboga",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-06-23 00:00:00",
+            "prochain_rdv": "2021-06-15 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": null,
@@ -69,6 +42,33 @@
             },
             "metadata": {
                 "address": "Aspvägen 27, Fagersta",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-06-28 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": null,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "19",
+            "nom": "Hallstahammar vaccinationsmottagning Folkets hus",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 16.23251539364746,
+                "latitude": 59.61888734969954,
+                "city": "Hallstahammar",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Parkgatan 24, Hallstahammar",
                 "business_hours": null
             },
             "prochain_rdv": "2021-06-28 00:00:00",
@@ -167,33 +167,6 @@
         },
         {
             "departement": "19",
-            "nom": "Västerås vaccinationsmottagning Servicehälsan",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 16.55421068341796,
-                "latitude": 59.61671954977299,
-                "city": "Västerås",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Legeringsgatan 2, Västerås",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-06-28 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": null,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "19",
             "nom": "Västerås vaccinationsmottagning Öster Mälarstrand",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
@@ -221,6 +194,33 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "19",
+            "nom": "Arboga vaccinationsmottagning Medborgarhuset",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 15.839052192348248,
+                "latitude": 59.395007107695434,
+                "city": "Arboga",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ahllöfsgatan 5, Arboga",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "19",
             "nom": "Köping vaccinationsmottagning Folkets hus",
