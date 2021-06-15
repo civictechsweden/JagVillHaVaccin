@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-15 09:57:10.407471+02:00",
+    "last_updated": "2021-06-15 10:21:36.329167+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -25,6 +25,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tjörn vårdcentral, Kållekärr",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.657691156758297,
+                "latitude": 58.02590426857552,
+                "city": "Tjörn",
+                "cp": "47194"
+            },
+            "metadata": {
+                "address": "Syster Ebbas väg 1, 471 94, Kållekärr",
+                "business_hours": null,
+                "phone_number": "010-473 46 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 4,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -73,6 +101,34 @@
                 "address": "Kyrktorget 13, 433 33, Partille",
                 "business_hours": null,
                 "phone_number": "010-473 33 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Lindome vårdcentral, Lindome",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.088026338281288,
+                "latitude": 57.57627864929657,
+                "city": "Mölndal",
+                "cp": "43730"
+            },
+            "metadata": {
+                "address": "Almåsgången 7, 437 30, Lindome",
+                "business_hours": null,
+                "phone_number": "010-473 39 20"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -6248,34 +6304,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tjörn vårdcentral, Kållekärr",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.657691156758297,
-                "latitude": 58.02590426857552,
-                "city": "Tjörn",
-                "cp": "47194"
-            },
-            "metadata": {
-                "address": "Syster Ebbas väg 1, 471 94, Kållekärr",
-                "business_hours": null,
-                "phone_number": "010-473 46 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Svenljunga vårdcentral, Svenljunga",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7072,34 +7100,6 @@
                 "address": "Lövskogsgatan 8, 451 72, Uddevalla",
                 "business_hours": null,
                 "phone_number": "010-441 68 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Lindome vårdcentral, Lindome",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.088026338281288,
-                "latitude": 57.57627864929657,
-                "city": "Mölndal",
-                "cp": "43730"
-            },
-            "metadata": {
-                "address": "Almåsgången 7, 437 30, Lindome",
-                "business_hours": null,
-                "phone_number": "010-473 39 20"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
