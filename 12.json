@@ -1,8 +1,35 @@
 {
     "version": 1,
-    "last_updated": "2021-06-16 10:28:32.042580+02:00",
+    "last_updated": "2021-06-16 11:27:55.254395+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "12",
+            "nom": "Doktor se Klippan Vaccinationsenhet",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 13.131591307620328,
+                "latitude": 56.13525910844287,
+                "city": "Klippan",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 19, Klippan",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-06-16 11:35:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 18,
+            "internal_id": "231",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "12",
             "nom": "Akutmottagning Trelleborg",
@@ -33,33 +60,6 @@
         },
         {
             "departement": "12",
-            "nom": "Doktor se Klippan Vaccinationsenhet",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 13.131591307620328,
-                "latitude": 56.13525910844287,
-                "city": "Klippan",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 19, Klippan",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-12 11:40:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 38,
-            "internal_id": "231",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "MACC Arlöv",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -76,7 +76,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 1418,
+            "appointment_count": 1365,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -104,7 +104,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 106,
+            "appointment_count": 65,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -132,7 +132,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 155,
+            "appointment_count": 125,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -144,16 +144,44 @@
         },
         {
             "departement": "12",
-            "nom": "MACC Osby",
+            "nom": "MACC Sjöbo",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
-                "longitude": 13.991146252719732,
-                "latitude": 56.380297879671815,
-                "city": "Osby",
+                "longitude": 13.693634123512222,
+                "latitude": 55.635076880844345,
+                "city": "Sjöbo",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Fabriksgatan 7, Osby",
+                "address": "Industrigatan 1C, Sjöbo",
+                "business_hours": null,
+                "phone_number": "010-330 04 43"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MACC",
+            "type": "vaccination-center",
+            "appointment_count": 5,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Skurup",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 13.503898394470399,
+                "latitude": 55.475824351719375,
+                "city": "Skurup",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Vaktgatan 10, Skurup",
                 "business_hours": null,
                 "phone_number": "010-330 04 43"
             },
@@ -188,7 +216,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 223,
+            "appointment_count": 196,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -244,7 +272,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 198,
+            "appointment_count": 121,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -272,7 +300,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 1420,
+            "appointment_count": 1365,
             "internal_id": 30007,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -300,7 +328,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 1420,
+            "appointment_count": 1365,
             "internal_id": 30008,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -328,7 +356,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 1420,
+            "appointment_count": 1365,
             "internal_id": 30009,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -356,7 +384,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 1420,
+            "appointment_count": 1365,
             "internal_id": 30011,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -384,7 +412,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 1420,
+            "appointment_count": 1365,
             "internal_id": 31153,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -676,44 +704,16 @@
         },
         {
             "departement": "12",
-            "nom": "MACC Sjöbo",
+            "nom": "MACC Osby",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
-                "longitude": 13.693634123512222,
-                "latitude": 55.635076880844345,
-                "city": "Sjöbo",
+                "longitude": 13.991146252719732,
+                "latitude": 56.380297879671815,
+                "city": "Osby",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Industrigatan 1C, Sjöbo",
-                "business_hours": null,
-                "phone_number": "010-330 04 43"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MACC",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "MACC Skurup",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 13.503898394470399,
-                "latitude": 55.475824351719375,
-                "city": "Skurup",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Vaktgatan 10, Skurup",
+                "address": "Fabriksgatan 7, Osby",
                 "business_hours": null,
                 "phone_number": "010-330 04 43"
             },
