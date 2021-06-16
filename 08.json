@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-06-16 23:18:40.602401+02:00",
+    "last_updated": "2021-06-17 00:19:20.341372+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "08",
+            "nom": "Torsås hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 15.996726089216628,
+                "latitude": 56.4113261043122,
+                "city": "Torsås",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Badhusgatan 20, Torsås",
+                "business_hours": null,
+                "phone_number": "0486-412 30"
+            },
+            "prochain_rdv": "2021-06-17 11:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 7,
+            "internal_id": "493",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "08",
             "nom": "Vaccinationscentral covid-19 Västervik",
@@ -21,7 +49,7 @@
             "prochain_rdv": "2021-06-17 14:12:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 59,
+            "appointment_count": 49,
             "internal_id": "1547",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -725,34 +753,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "513",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Torsås hälsocentral",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 15.996726089216628,
-                "latitude": 56.4113261043122,
-                "city": "Torsås",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Badhusgatan 20, Torsås",
-                "business_hours": null,
-                "phone_number": "0486-412 30"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "493",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
