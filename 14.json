@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-16 15:37:30.459729+02:00",
+    "last_updated": "2021-06-16 16:24:11.537788+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-17 10:40:00",
+            "prochain_rdv": "2021-06-17 10:45:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 78,
+            "appointment_count": 76,
             "internal_id": 30645,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +49,7 @@
             "prochain_rdv": "2021-06-17 10:45:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 77,
+            "appointment_count": 76,
             "internal_id": 30645,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -74,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": "0790980559"
             },
-            "prochain_rdv": "2021-06-23 10:00:00",
+            "prochain_rdv": "2021-06-23 10:04:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 461,
+            "appointment_count": 456,
             "internal_id": "2121",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -102,10 +102,10 @@
                 "business_hours": null,
                 "phone_number": "0790980559"
             },
-            "prochain_rdv": "2021-06-23 10:00:00",
+            "prochain_rdv": "2021-06-23 10:04:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 461,
+            "appointment_count": 456,
             "internal_id": "2121",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -133,7 +133,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 17,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -161,10 +161,66 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 36,
+            "appointment_count": 23,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tjörn vårdcentral, Kållekärr",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.657691156758297,
+                "latitude": 58.02590426857552,
+                "city": "Tjörn",
+                "cp": "47194"
+            },
+            "metadata": {
+                "address": "Syster Ebbas väg 1, 471 94, Kållekärr",
+                "business_hours": null,
+                "phone_number": "010-473 46 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 10,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Hjo vårdcentral, Hjo",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 14.300502447849361,
+                "latitude": 58.31001646470293,
+                "city": "Hjo",
+                "cp": "54436"
+            },
+            "metadata": {
+                "address": "Karlsborgsvägen 4A, 544 36, Hjo",
+                "business_hours": null,
+                "phone_number": "0503-227 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -189,7 +245,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 251,
+            "appointment_count": 95,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -217,7 +273,35 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 36,
+            "appointment_count": 23,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.956163123936285,
+                "latitude": 58.17816034620173,
+                "city": "Tidaholm",
+                "cp": "52230"
+            },
+            "metadata": {
+                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
+                "business_hours": null,
+                "phone_number": "0502-180 11"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -245,7 +329,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 17,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -274,6 +358,34 @@
             "plateforme": null,
             "type": "vaccination-center",
             "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Dingle Lantbruksskolan",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -6360,34 +6472,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tjörn vårdcentral, Kållekärr",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.657691156758297,
-                "latitude": 58.02590426857552,
-                "city": "Tjörn",
-                "cp": "47194"
-            },
-            "metadata": {
-                "address": "Syster Ebbas väg 1, 471 94, Kållekärr",
-                "business_hours": null,
-                "phone_number": "010-473 46 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Svenljunga vårdcentral, Svenljunga",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6487,34 +6571,6 @@
             },
             "prochain_rdv": null,
             "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Hjo vårdcentral, Hjo",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 14.300502447849361,
-                "latitude": 58.31001646470293,
-                "city": "Hjo",
-                "cp": "54436"
-            },
-            "metadata": {
-                "address": "Karlsborgsvägen 4A, 544 36, Hjo",
-                "business_hours": null,
-                "phone_number": "0503-227 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
@@ -6708,34 +6764,6 @@
                 "address": "Vänerparken 21, 462 35, Vänersborg",
                 "business_hours": null,
                 "phone_number": "010-441 62 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.956163123936285,
-                "latitude": 58.17816034620173,
-                "city": "Tidaholm",
-                "cp": "52230"
-            },
-            "metadata": {
-                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
-                "business_hours": null,
-                "phone_number": "0502-180 11"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -7296,34 +7324,6 @@
                 "address": "Storgatan 14 A, 521 60, Stenstorp",
                 "business_hours": null,
                 "phone_number": "0500-47 29 50"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Dingle Lantbruksskolan",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
             },
             "prochain_rdv": null,
             "plateforme": "1177",
