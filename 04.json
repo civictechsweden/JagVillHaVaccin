@@ -1,36 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-06-16 09:25:19.358821+02:00",
+    "last_updated": "2021-06-16 10:23:04.991239+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "04",
-            "nom": "Vaccinkliniken Nyköping, Nyköping",
-            "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
-            "location": {
-                "longitude": 16.989176783886634,
-                "latitude": 58.750340910185905,
-                "city": "Nyköping",
-                "cp": "61138"
-            },
-            "metadata": {
-                "address": "Norrköpingsvägen 13, 611 38 Nyköping",
-                "business_hours": null,
-                "phone_number": "0155-60 60 40"
-            },
-            "prochain_rdv": "2021-06-17 10:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 328,
-            "internal_id": "45",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "04",
             "nom": "iDoc Katrineholm, Katrineholm",
@@ -46,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": "0790980559"
             },
-            "prochain_rdv": "2021-06-17 14:16:00",
+            "prochain_rdv": "2021-06-23 19:16:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1960,
+            "appointment_count": 1938,
             "internal_id": "2069",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -61,24 +33,24 @@
         },
         {
             "departement": "04",
-            "nom": "Vaccina Trosa, Trosa",
+            "nom": "Vaccinkliniken Nyköping, Nyköping",
             "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
             "location": {
-                "longitude": 17.54861749910625,
-                "latitude": 58.8965322283658,
-                "city": "Trosa",
-                "cp": "61930"
+                "longitude": 16.989176783886634,
+                "latitude": 58.750340910185905,
+                "city": "Nyköping",
+                "cp": "61138"
             },
             "metadata": {
-                "address": "Busstorget 5, 619 30 Trosa",
+                "address": "Norrköpingsvägen 13, 611 38 Nyköping",
                 "business_hours": null,
-                "phone_number": "010-750 09 45"
+                "phone_number": "0155-60 60 40"
             },
-            "prochain_rdv": "2021-06-22 16:25:00",
-            "plateforme": "Vaccina",
+            "prochain_rdv": "2021-07-01 18:54:00",
+            "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": 30006,
+            "appointment_count": 308,
+            "internal_id": "45",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -1116,6 +1088,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": 30005,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "04",
+            "nom": "Vaccina Trosa, Trosa",
+            "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
+            "location": {
+                "longitude": 17.54861749910625,
+                "latitude": 58.8965322283658,
+                "city": "Trosa",
+                "cp": "61930"
+            },
+            "metadata": {
+                "address": "Busstorget 5, 619 30 Trosa",
+                "business_hours": null,
+                "phone_number": "010-750 09 45"
+            },
+            "prochain_rdv": null,
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": 30006,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
