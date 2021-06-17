@@ -1,38 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-06-17 11:15:56.770888+02:00",
+    "last_updated": "2021-06-17 12:38:16.096133+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "10",
-            "nom": "Hälsohuset för alla",
-            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
-            "location": {
-                "longitude": 15.58389613084896,
-                "latitude": 56.165124322364484,
-                "city": "Karlskrona",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Västra Vittusgatan 4",
-                "business_hours": null,
-                "phone_number": "0455-35 55 00"
-            },
-            "prochain_rdv": "2021-06-17 15:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "596",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        }
-    ],
-    "centres_indisponibles": [
         {
             "departement": "10",
             "nom": "Kungsmarkens vårdcentral, Karlskrona",
@@ -48,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": "0455-61 94 00"
             },
-            "prochain_rdv": null,
+            "prochain_rdv": "2021-06-18 10:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 0,
+            "appointment_count": 6,
             "internal_id": "595",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -61,6 +31,64 @@
             "appointment_schedules": [],
             "gid": null
         },
+        {
+            "departement": "10",
+            "nom": "Olofströmskliniken, Olofström",
+            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
+            "location": {
+                "longitude": 14.531238346499302,
+                "latitude": 56.27719149748352,
+                "city": "Olofström",
+                "cp": "29334"
+            },
+            "metadata": {
+                "address": "Olofströmskliniken, Jämshögsvägen 1, 293 34 Olofström",
+                "business_hours": null,
+                "phone_number": "0454-919 99"
+            },
+            "prochain_rdv": "2021-06-29 09:20:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 5,
+            "internal_id": "593",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "10",
+            "nom": "Trossö vårdcentral, Karlskrona",
+            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
+            "location": {
+                "longitude": 15.589586190296162,
+                "latitude": 56.160823506192735,
+                "city": "Karlskrona",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Fortifikationsgatan 9, Karlskrona",
+                "business_hours": null,
+                "phone_number": "0455-73 57 55"
+            },
+            "prochain_rdv": "2021-06-30 15:20:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "586",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "10",
             "nom": "Jämjö vårdcentral, Jämjö",
@@ -175,34 +203,6 @@
         },
         {
             "departement": "10",
-            "nom": "Trossö vårdcentral, Karlskrona",
-            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
-            "location": {
-                "longitude": 15.589586190296162,
-                "latitude": 56.160823506192735,
-                "city": "Karlskrona",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Fortifikationsgatan 9, Karlskrona",
-                "business_hours": null,
-                "phone_number": "0455-73 57 55"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "586",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "10",
             "nom": "Rödeby vårdcentral, Rödeby",
             "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
             "location": {
@@ -221,6 +221,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "585",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "10",
+            "nom": "Hälsohuset för alla",
+            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
+            "location": {
+                "longitude": 15.58389613084896,
+                "latitude": 56.165124322364484,
+                "city": "Karlskrona",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Västra Vittusgatan 4",
+                "business_hours": null,
+                "phone_number": "0455-35 55 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "596",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -473,34 +501,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "578",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "10",
-            "nom": "Olofströmskliniken, Olofström",
-            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
-            "location": {
-                "longitude": 14.531238346499302,
-                "latitude": 56.27719149748352,
-                "city": "Olofström",
-                "cp": "29334"
-            },
-            "metadata": {
-                "address": "Olofströmskliniken, Jämshögsvägen 1, 293 34 Olofström",
-                "business_hours": null,
-                "phone_number": "0454-919 99"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "593",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
