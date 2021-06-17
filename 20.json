@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-17 05:17:15.043498+02:00",
+    "last_updated": "2021-06-17 06:17:58.860702+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-06-18 14:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 1,
             "internal_id": "2103",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,36 +77,8 @@
             "prochain_rdv": "2021-06-28 09:12:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 511,
+            "appointment_count": 510,
             "internal_id": "2115",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "20",
-            "nom": "Doktor.se / Avesta",
-            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "Avesta",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Avesta parken, Frejgatan 25",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-06-28 13:16:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "2114",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -133,7 +105,7 @@
             "prochain_rdv": "2021-06-30 12:48:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 894,
+            "appointment_count": 893,
             "internal_id": "2112",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -161,7 +133,7 @@
             "prochain_rdv": "2021-06-30 13:28:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 206,
+            "appointment_count": 204,
             "internal_id": "2113",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -201,6 +173,34 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "20",
+            "nom": "Doktor.se / Avesta",
+            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Avesta",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Avesta parken, Frejgatan 25",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2114",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "20",
             "nom": "Kronans Apotek Sälen",
