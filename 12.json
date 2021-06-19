@@ -1,28 +1,55 @@
 {
     "version": 1,
-    "last_updated": "2021-06-19 15:59:10.433688+02:00",
+    "last_updated": "2021-06-19 16:25:55.850656+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "12",
-            "nom": "Kronans Apotek Båstad",
+            "nom": "Kronans Apotek Ängelholm",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
-                "longitude": 12.837022713078733,
-                "latitude": 56.433153288605794,
-                "city": "Båstad",
+                "longitude": 12.863032774480866,
+                "latitude": 56.24253762960139,
+                "city": "Ängelholm",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Kyrkogatan 21, Båstad",
+                "address": "Laxgatan 6, Ängelholm",
                 "business_hours": null,
                 "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": "2021-06-24 15:15:00",
+            "prochain_rdv": "2021-06-21 14:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 97,
-            "internal_id": "1535",
+            "appointment_count": 1,
+            "internal_id": "1534",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Doktor se Klippan Vaccinationsenhet",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 13.131591307620328,
+                "latitude": 56.13525910844287,
+                "city": "Klippan",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 19, Klippan",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-06-28 14:10:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "231",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -61,33 +88,6 @@
         },
         {
             "departement": "12",
-            "nom": "Doktor se Klippan Vaccinationsenhet",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 13.131591307620328,
-                "latitude": 56.13525910844287,
-                "city": "Klippan",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 19, Klippan",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-06-30 13:50:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "231",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Vaccination Covid19 Öresundshälsan, Malmö",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -115,6 +115,34 @@
         },
         {
             "departement": "12",
+            "nom": "Kronans Apotek Båstad",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 12.837022713078733,
+                "latitude": 56.433153288605794,
+                "city": "Båstad",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Kyrkogatan 21, Båstad",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-07-05 11:35:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 95,
+            "internal_id": "1535",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
             "nom": "MACC Arlöv",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -131,7 +159,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 956,
+            "appointment_count": 953,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -159,7 +187,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 13,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -187,7 +215,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 5,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -215,7 +243,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 502,
+            "appointment_count": 498,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -243,7 +271,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 122,
+            "appointment_count": 120,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -271,7 +299,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 227,
+            "appointment_count": 218,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -311,34 +339,6 @@
         },
         {
             "departement": "12",
-            "nom": "Victoria Vård och Hälsa Kalkbrottet, Limhamn",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 12.933095433276115,
-                "latitude": 55.572796864685735,
-                "city": "Malmö",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Lilla Högestensgatan 2, Limhamn",
-                "business_hours": null,
-                "phone_number": "040-602 80 30"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 7,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Clarion Hotel Sea U",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -355,7 +355,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 956,
+            "appointment_count": 955,
             "internal_id": 30007,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -383,7 +383,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 956,
+            "appointment_count": 955,
             "internal_id": 30008,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -411,7 +411,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 956,
+            "appointment_count": 955,
             "internal_id": 30009,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -439,7 +439,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 956,
+            "appointment_count": 955,
             "internal_id": 30011,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -467,7 +467,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 956,
+            "appointment_count": 955,
             "internal_id": 31153,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1417,6 +1417,34 @@
         },
         {
             "departement": "12",
+            "nom": "Victoria Vård och Hälsa Kalkbrottet, Limhamn",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 12.933095433276115,
+                "latitude": 55.572796864685735,
+                "city": "Malmö",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Lilla Högestensgatan 2, Limhamn",
+                "business_hours": null,
+                "phone_number": "040-602 80 30"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
             "nom": "Vaccina Trelleborg",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -1546,34 +1574,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "1538",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Kronans Apotek Ängelholm",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 12.863032774480866,
-                "latitude": 56.24253762960139,
-                "city": "Ängelholm",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Laxgatan 6, Ängelholm",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1534",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
