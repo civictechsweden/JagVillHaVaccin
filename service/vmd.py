@@ -45,7 +45,6 @@ class VMD(object):
             centers_vasterbotten = vasterbotten.get_centers()
         elif (region_number == '19'):
             centers_vastmanland = vastmanland.get_centers()
-            print(centers_vastmanland)
 
         for center in region_centers:
             print(center['name'])
@@ -110,8 +109,6 @@ class VMD(object):
             elif (region_number == '24'):
                 center_vasterbotten = vasterbotten.get_center_from(
                     centers_vasterbotten, center['1177_url'])
-
-                print(center_vasterbotten)
 
                 if (center['platform'] == '1177' and center_vasterbotten):
                     next_time_and_slots = vasterbotten.get_next_time_and_slots(

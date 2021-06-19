@@ -62,8 +62,6 @@ class Scraper(object):
                                 center_info = dict(center_info)
 
                                 if center['link'] != '':
-                                    print(center)
-                                    print(center_info)
                                     center_info['platform_url'] = center[
                                         'link']
                                     platform = elva77.get_platform(

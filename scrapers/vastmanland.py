@@ -23,7 +23,7 @@ def get_center_link(center_name):
 
 
 def get_coordinates(center):
-    coordinates = center.h3.a['href'].split('=')[2]
+    coordinates = center.find(class_='icon-map-pin-plus')['href'].split('=')[2]
     latitude = coordinates.split(',')[0]
     longitude = coordinates.split(',')[1]
     return latitude, longitude

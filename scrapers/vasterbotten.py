@@ -7,8 +7,8 @@ import scrapers.elva77 as elva77
 URL = 'https://vaccinationsbokning.regionvasterbotten.se/'
 
 MONTHS = [
-    'jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt',
-    'nov', 'dec'
+    'januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti',
+    'september', 'oktober', 'november', 'december'
 ]
 
 
@@ -19,6 +19,8 @@ def last_updated(soup):
 def get_slots(center):
     timeslots = {}
     available_slots = []
+    amount_of_slots = 0
+
     for timeslot in center.find_all(class_='timeslot col-xs-4 col-sm-4'):
         date = timeslot.find(class_='timeslot-date__inner').text.strip()
         availability = timeslot.find(
@@ -26,10 +28,13 @@ def get_slots(center):
         timeslots[date] = availability
         available_slots.append(date)
 
+        amount_of_slots += int(timeslots[date].split()[0])
+
+    print(amount_of_slots)
     if len(available_slots) > 0:
         next_slot = {
             'next': transform_date(available_slots[0]),
-            'amount_of_slots': int(timeslots[available_slots[0]].split()[0])
+            'amount_of_slots': amount_of_slots
         }
     else:
         next_slot = {'next': None, 'amount_of_slots': 0}
