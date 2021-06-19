@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-06-19 15:59:53.234297+02:00",
+    "last_updated": "2021-06-19 16:26:25.179767+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "24",
+            "nom": "Nordmalings hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.50699285552043,
+                "latitude": 63.56314110015042,
+                "city": "Nordmaling",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Hemvägen 12",
+                "business_hours": null,
+                "phone_number": "090-785 91 04"
+            },
+            "prochain_rdv": "2021-06-23 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "24",
             "nom": "Stenbergska hälsocentral",
@@ -104,7 +132,7 @@
             "prochain_rdv": "2021-07-07 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 281,
+            "appointment_count": 280,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -132,7 +160,7 @@
             "prochain_rdv": "2021-07-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 5,
+            "appointment_count": 3,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -381,34 +409,6 @@
                 "address": "Storgatan 2",
                 "business_hours": null,
                 "phone_number": "090-785 91 19"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Nordmalings hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.50699285552043,
-                "latitude": 63.56314110015042,
-                "city": "Nordmaling",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Hemvägen 12",
-                "business_hours": null,
-                "phone_number": "090-785 91 04"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
