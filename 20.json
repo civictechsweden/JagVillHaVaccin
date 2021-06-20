@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-20 23:45:51.465115+02:00",
+    "last_updated": "2021-06-21 00:20:56.054474+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,7 +18,7 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-21 09:30:00",
+            "prochain_rdv": "2021-06-22 15:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 2,
@@ -49,7 +49,7 @@
             "prochain_rdv": "2021-07-01 09:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 242,
+            "appointment_count": 327,
             "internal_id": "2115",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -61,24 +61,24 @@
         },
         {
             "departement": "20",
-            "nom": "Doktor.se / Mora",
+            "nom": "Doktor.se / Falun",
             "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
             "location": {
                 "longitude": "",
                 "latitude": "",
-                "city": "Mora",
+                "city": "Falun",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Mora Parken restaurang och konferens, Parkvägen",
+                "address": "Kulturhuset Tio14 (Folkets hus), Teatergatan 5",
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-02 12:12:00",
+            "prochain_rdv": "2021-07-01 10:04:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "2113",
+            "appointment_count": 208,
+            "internal_id": "2111",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -105,7 +105,7 @@
             "prochain_rdv": "2021-07-07 09:08:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 683,
+            "appointment_count": 816,
             "internal_id": "2112",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -115,36 +115,6 @@
             "appointment_schedules": [],
             "gid": null
         },
-        {
-            "departement": "20",
-            "nom": "Doktor.se / Falun",
-            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "Falun",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kulturhuset Tio14 (Folkets hus), Teatergatan 5",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-07-08 11:36:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 75,
-            "internal_id": "2111",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        }
-    ],
-    "centres_indisponibles": [
         {
             "departement": "20",
             "nom": "Doktor.se / Avesta",
@@ -160,10 +130,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": null,
+            "prochain_rdv": "2021-07-20 09:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 0,
+            "appointment_count": 87,
             "internal_id": "2114",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -173,6 +143,36 @@
             "appointment_schedules": [],
             "gid": null
         },
+        {
+            "departement": "20",
+            "nom": "Doktor.se / Mora",
+            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Mora",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Mora Parken restaurang och konferens, Parkvägen",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-07-20 09:04:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 44,
+            "internal_id": "2113",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "20",
             "nom": "Kronans Apotek Sälen",
