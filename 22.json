@@ -1,6 +1,10 @@
 {
     "version": 1,
+<<<<<<< Updated upstream
     "last_updated": "2021-06-21 00:55:03.627994+02:00",
+=======
+    "last_updated": "2021-06-21 01:03:54.224074+02:00",
+>>>>>>> Stashed changes
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -23,6 +27,34 @@
             "type": "vaccination-center",
             "appointment_count": 355,
             "internal_id": "1325",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Härnösand",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 17.9298362078272,
+                "latitude": 62.62440429993568,
+                "city": "Härnösand",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Södra vägen 3-5",
+                "business_hours": null,
+                "phone_number": "0611-804 00"
+            },
+            "prochain_rdv": "2021-06-21 09:25:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2954,
+            "internal_id": "1309",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -114,6 +146,7 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
+<<<<<<< Updated upstream
         },
         {
             "departement": "22",
@@ -142,6 +175,8 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
+=======
+>>>>>>> Stashed changes
         }
     ],
     "centres_indisponibles": [
