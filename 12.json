@@ -1,8 +1,35 @@
 {
     "version": 1,
-    "last_updated": "2021-06-21 11:30:28.400447+02:00",
+    "last_updated": "2021-06-21 11:55:37.521996+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "12",
+            "nom": "Vaccination Covid19 Öresundshälsan, Malmö",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 13.065192840175026,
+                "latitude": 55.5784745846457,
+                "city": "Malmö",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Derbyvägen 6E, Malmö",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-06-24 13:40:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 110,
+            "internal_id": "2072",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "12",
             "nom": "Smile Trelleborg, Trelleborg",
@@ -49,35 +76,8 @@
             "prochain_rdv": "2021-06-29 15:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 80,
+            "appointment_count": 79,
             "internal_id": "1535",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Vaccination Covid19 Öresundshälsan, Malmö",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 13.065192840175026,
-                "latitude": 55.5784745846457,
-                "city": "Malmö",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Derbyvägen 6E, Malmö",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-01 10:25:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 108,
-            "internal_id": "2072",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -116,33 +116,6 @@
         },
         {
             "departement": "12",
-            "nom": "Kronans Apotek Höör",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 13.540319233929354,
-                "latitude": 55.93385874871056,
-                "city": "Höör",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Föreningsgatan 7, Höör",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-07 12:25:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "1538",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "MACC Arlöv",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -159,7 +132,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 823,
+            "appointment_count": 820,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -181,34 +154,6 @@
             },
             "metadata": {
                 "address": "Östra Hagagatan 2, Hässleholm",
-                "business_hours": null,
-                "phone_number": "010-330 04 43"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MACC",
-            "type": "vaccination-center",
-            "appointment_count": 2,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "MACC Hörby",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 13.685091759872158,
-                "latitude": 55.86245628529676,
-                "city": "Hörby",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Silvergatan 4, Hörby",
                 "business_hours": null,
                 "phone_number": "010-330 04 43"
             },
@@ -243,7 +188,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 5,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -271,7 +216,63 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 9,
+            "appointment_count": 3,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Svalöv",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 13.108292309388082,
+                "latitude": 55.912696847709256,
+                "city": "Svalöv",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Herrevadsgatan 10A, Svalöv",
+                "business_hours": null,
+                "phone_number": "010-330 04 43"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MACC",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Östra Göinge",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 14.07612809119283,
+                "latitude": 56.25910974656744,
+                "city": "Östra Göinge",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Pappersbruksvägen 4, Broby",
+                "business_hours": null,
+                "phone_number": "010-330 04 43"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MACC",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -355,7 +356,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 17,
+            "appointment_count": 18,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -383,7 +384,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 825,
+            "appointment_count": 820,
             "internal_id": 30007,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -411,7 +412,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 825,
+            "appointment_count": 820,
             "internal_id": 30008,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -439,7 +440,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 825,
+            "appointment_count": 820,
             "internal_id": 30009,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -467,7 +468,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 825,
+            "appointment_count": 820,
             "internal_id": 30011,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -495,7 +496,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 825,
+            "appointment_count": 820,
             "internal_id": 31153,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -787,6 +788,34 @@
         },
         {
             "departement": "12",
+            "nom": "MACC Hörby",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 13.685091759872158,
+                "latitude": 55.86245628529676,
+                "city": "Hörby",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Silvergatan 4, Hörby",
+                "business_hours": null,
+                "phone_number": "010-330 04 43"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MACC",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
             "nom": "MACC Osby",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -815,34 +844,6 @@
         },
         {
             "departement": "12",
-            "nom": "MACC Svalöv",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 13.108292309388082,
-                "latitude": 55.912696847709256,
-                "city": "Svalöv",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Herrevadsgatan 10A, Svalöv",
-                "business_hours": null,
-                "phone_number": "010-330 04 43"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MACC",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "MACC Ängelholm",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -853,34 +854,6 @@
             },
             "metadata": {
                 "address": "Stjernsvärds allé 51, Ängelholm",
-                "business_hours": null,
-                "phone_number": "010-330 04 43"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MACC",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "MACC Östra Göinge",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 14.07612809119283,
-                "latitude": 56.25910974656744,
-                "city": "Östra Göinge",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Pappersbruksvägen 4, Broby",
                 "business_hours": null,
                 "phone_number": "010-330 04 43"
             },
@@ -1574,6 +1547,33 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "231",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Kronans Apotek Höör",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 13.540319233929354,
+                "latitude": 55.93385874871056,
+                "city": "Höör",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Föreningsgatan 7, Höör",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1538",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
