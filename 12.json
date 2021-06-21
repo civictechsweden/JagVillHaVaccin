@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-21 13:45:50.424513+02:00",
+    "last_updated": "2021-06-21 13:56:39.640493+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -131,7 +131,35 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 806,
+            "appointment_count": 803,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "MACC Hörby",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 13.685091759872158,
+                "latitude": 55.86245628529676,
+                "city": "Hörby",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Silvergatan 4, Hörby",
+                "business_hours": null,
+                "phone_number": "010-330 04 43"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MACC",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -159,7 +187,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 4,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -187,35 +215,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 2,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "MACC Svalöv",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 13.108292309388082,
-                "latitude": 55.912696847709256,
-                "city": "Svalöv",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Herrevadsgatan 10A, Svalöv",
-                "business_hours": null,
-                "phone_number": "010-330 04 43"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MACC",
-            "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 3,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -243,7 +243,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 107,
+            "appointment_count": 104,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -327,7 +327,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 806,
+            "appointment_count": 803,
             "internal_id": 30007,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -355,7 +355,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 806,
+            "appointment_count": 803,
             "internal_id": 30008,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -383,7 +383,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 806,
+            "appointment_count": 803,
             "internal_id": 30009,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -411,7 +411,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 806,
+            "appointment_count": 803,
             "internal_id": 30011,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -439,7 +439,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 806,
+            "appointment_count": 803,
             "internal_id": 31153,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -759,16 +759,16 @@
         },
         {
             "departement": "12",
-            "nom": "MACC Hörby",
+            "nom": "MACC Osby",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
-                "longitude": 13.685091759872158,
-                "latitude": 55.86245628529676,
-                "city": "Hörby",
+                "longitude": 13.991146252719732,
+                "latitude": 56.380297879671815,
+                "city": "Osby",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Silvergatan 4, Hörby",
+                "address": "Fabriksgatan 7, Osby",
                 "business_hours": null,
                 "phone_number": "010-330 04 43"
             },
@@ -787,16 +787,16 @@
         },
         {
             "departement": "12",
-            "nom": "MACC Osby",
+            "nom": "MACC Svalöv",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
-                "longitude": 13.991146252719732,
-                "latitude": 56.380297879671815,
-                "city": "Osby",
+                "longitude": 13.108292309388082,
+                "latitude": 55.912696847709256,
+                "city": "Svalöv",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Fabriksgatan 7, Osby",
+                "address": "Herrevadsgatan 10A, Svalöv",
                 "business_hours": null,
                 "phone_number": "010-330 04 43"
             },
