@@ -1,28 +1,28 @@
 {
     "version": 1,
-    "last_updated": "2021-06-21 16:41:58.654602+02:00",
+    "last_updated": "2021-06-21 16:50:56.780238+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "20",
-            "nom": "Doktor.se / Mora",
+            "nom": "Doktor.se / Ludvika",
             "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
             "location": {
                 "longitude": "",
                 "latitude": "",
-                "city": "Mora",
+                "city": "Ludvika",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Mora Parken restaurang och konferens, Parkvägen",
+                "address": "Sporthallen Ludvika, Tingshusgatan 18",
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-06-23 12:32:00",
+            "prochain_rdv": "2021-07-05 17:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "2113",
+            "appointment_count": 283,
+            "internal_id": "2115",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -74,39 +74,11 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-09 11:08:00",
+            "prochain_rdv": "2021-07-12 14:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 709,
+            "appointment_count": 707,
             "internal_id": "2112",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "20",
-            "nom": "Doktor.se / Ludvika",
-            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "Ludvika",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Sporthallen Ludvika, Tingshusgatan 18",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-07-15 09:16:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 282,
-            "internal_id": "2115",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -130,10 +102,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-19 14:16:00",
+            "prochain_rdv": "2021-07-19 10:52:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 144,
+            "appointment_count": 145,
             "internal_id": "2111",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -145,6 +117,34 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "20",
+            "nom": "Doktor.se / Mora",
+            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Mora",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Mora Parken restaurang och konferens, Parkvägen",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2113",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "20",
             "nom": "Doktor.se / Avesta",
