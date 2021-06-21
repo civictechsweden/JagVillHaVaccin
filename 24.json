@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-21 17:32:29.464791+02:00",
+    "last_updated": "2021-06-21 17:59:50.537477+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-06-22 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 386,
+            "appointment_count": 382,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -89,34 +89,6 @@
         },
         {
             "departement": "24",
-            "nom": "Burträsk hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.65436866394136,
-                "latitude": 64.5175640324598,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Björnåkersgatan 10",
-                "business_hours": null,
-                "phone_number": "090-785 91 73"
-            },
-            "prochain_rdv": "2021-07-01 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Malå sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -133,7 +105,7 @@
             "prochain_rdv": "2021-07-07 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 7,
+            "appointment_count": 6,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -188,7 +160,7 @@
             "prochain_rdv": "2021-07-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 422,
+            "appointment_count": 419,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -577,6 +549,34 @@
                 "address": "Nygatan 9",
                 "business_hours": null,
                 "phone_number": "090-785 91 13"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Burträsk hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.65436866394136,
+                "latitude": 64.5175640324598,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Björnåkersgatan 10",
+                "business_hours": null,
+                "phone_number": "090-785 91 73"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
