@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-21 23:22:30.125999+02:00",
+    "last_updated": "2021-06-21 23:47:55.326104+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-06-29 09:09:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 329,
+            "appointment_count": 327,
             "internal_id": 29997,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +49,7 @@
             "prochain_rdv": "2021-06-30 08:46:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 502,
+            "appointment_count": 580,
             "internal_id": 30000,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -74,11 +74,39 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-06 08:20:00",
+            "prochain_rdv": "2021-07-01 09:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 110,
+            "appointment_count": 111,
             "internal_id": "1557",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "07",
+            "nom": "Folkets Hus",
+            "url": "https://www.1177.se/Kronoberg/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-kronoberg/",
+            "location": {
+                "longitude": 14.5515003,
+                "latitude": 56.9011986,
+                "city": "Alvesta",
+                "cp": "34230"
+            },
+            "metadata": {
+                "address": "Allbogatan 15, 342 30 Alvesta",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-07-03 09:00:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 446,
+            "internal_id": 29999,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -105,7 +133,7 @@
             "prochain_rdv": "2021-07-06 08:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 109,
+            "appointment_count": 108,
             "internal_id": "2052",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -133,7 +161,7 @@
             "prochain_rdv": "2021-07-06 09:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 102,
+            "appointment_count": 100,
             "internal_id": "1556",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -158,10 +186,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-07 09:44:00",
+            "prochain_rdv": "2021-07-07 09:52:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2547,
+            "appointment_count": 2511,
             "internal_id": "2063",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -173,34 +201,6 @@
         }
     ],
     "centres_indisponibles": [
-        {
-            "departement": "07",
-            "nom": "Folkets Hus",
-            "url": "https://www.1177.se/Kronoberg/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-kronoberg/",
-            "location": {
-                "longitude": 14.5515003,
-                "latitude": 56.9011986,
-                "city": "Alvesta",
-                "cp": "34230"
-            },
-            "metadata": {
-                "address": "Allbogatan 15, 342 30 Alvesta",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 29999,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "07",
             "nom": "Vårdcentralen Achima Care Vislanda",
