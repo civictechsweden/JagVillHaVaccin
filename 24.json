@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-22 07:58:55.811573+02:00",
+    "last_updated": "2021-06-22 09:58:26.883087+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-06-29 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 503,
+            "appointment_count": 524,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -61,34 +61,6 @@
         },
         {
             "departement": "24",
-            "nom": "Tärnaby sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 15.31339230368373,
-                "latitude": 65.71588725571208,
-                "city": "Storuman",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Granvägen 7, Tärnaby",
-                "business_hours": null,
-                "phone_number": "090-785 44 70"
-            },
-            "prochain_rdv": "2021-06-30 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 5,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Åsele sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -117,23 +89,51 @@
         },
         {
             "departement": "24",
-            "nom": "Malå sjukstuga hälsocentral",
+            "nom": "Tärnaby sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 18.756251410101154,
-                "latitude": 65.17531659490669,
-                "city": "Malå",
+                "longitude": 15.31339230368373,
+                "latitude": 65.71588725571208,
+                "city": "Storuman",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Storgatan 2",
+                "address": "Granvägen 7, Tärnaby",
                 "business_hours": null,
-                "phone_number": "090-785 91 19"
+                "phone_number": "090-785 44 70"
+            },
+            "prochain_rdv": "2021-07-02 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 3,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Nordmalings hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.50699285552043,
+                "latitude": 63.56314110015042,
+                "city": "Nordmaling",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Hemvägen 12",
+                "business_hours": null,
+                "phone_number": "090-785 91 04"
             },
             "prochain_rdv": "2021-07-07 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 69,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -188,7 +188,7 @@
             "prochain_rdv": "2021-07-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 654,
+            "appointment_count": 644,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -425,18 +425,18 @@
         },
         {
             "departement": "24",
-            "nom": "Nordmalings hälsocentral",
+            "nom": "Malå sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 19.50699285552043,
-                "latitude": 63.56314110015042,
-                "city": "Nordmaling",
+                "longitude": 18.756251410101154,
+                "latitude": 65.17531659490669,
+                "city": "Malå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Hemvägen 12",
+                "address": "Storgatan 2",
                 "business_hours": null,
-                "phone_number": "090-785 91 04"
+                "phone_number": "090-785 91 19"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
