@@ -1,36 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-06-22 23:00:04.333121+02:00",
+    "last_updated": "2021-06-22 23:27:06.888671+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "14",
-            "nom": "iDoc vaccination Lerum/Floda lada",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.365361223720834,
-                "latitude": 57.80611268181714,
-                "city": "Lerum",
-                "cp": "44830"
-            },
-            "metadata": {
-                "address": "Floda allé 4, 448 30, Floda",
-                "business_hours": null,
-                "phone_number": "079-098 05 59"
-            },
-            "prochain_rdv": "2021-06-23 10:20:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 7,
-            "internal_id": "2121",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "14",
             "nom": "iDoc vaccination Lerum/Floda lada",
@@ -61,24 +33,24 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
+            "nom": "iDoc vaccination Lerum/Floda lada",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 13.346591812509288,
-                "latitude": 57.48063225486268,
-                "city": "Tranemo",
-                "cp": "51434"
+                "longitude": 12.365361223720834,
+                "latitude": 57.80611268181714,
+                "city": "Lerum",
+                "cp": "44830"
             },
             "metadata": {
-                "address": "Storgatan 42, 514 34, Tranemo",
+                "address": "Floda allé 4, 448 30, Floda",
                 "business_hours": null,
-                "phone_number": "0325-472 10"
+                "phone_number": "079-098 05 59"
             },
-            "prochain_rdv": null,
-            "plateforme": "1177",
+            "prochain_rdv": "2021-06-23 10:20:00",
+            "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
+            "appointment_count": 4,
+            "internal_id": "2121",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -6316,6 +6288,34 @@
                 "address": "Tingsvägen 2, 433 47, Partille",
                 "business_hours": null,
                 "phone_number": "010-473 39 25"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.346591812509288,
+                "latitude": 57.48063225486268,
+                "city": "Tranemo",
+                "cp": "51434"
+            },
+            "metadata": {
+                "address": "Storgatan 42, 514 34, Tranemo",
+                "business_hours": null,
+                "phone_number": "0325-472 10"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
