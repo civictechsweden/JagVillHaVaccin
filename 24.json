@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-23 00:29:35.642843+02:00",
+    "last_updated": "2021-06-23 00:51:26.211298+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-06-29 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 920,
+            "appointment_count": 918,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -48,7 +48,7 @@
             "prochain_rdv": "2021-06-29 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 620,
+            "appointment_count": 621,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,34 +77,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 42,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Tärnaby sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 15.31339230368373,
-                "latitude": 65.71588725571208,
-                "city": "Storuman",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Granvägen 7, Tärnaby",
-                "business_hours": null,
-                "phone_number": "090-785 44 70"
-            },
-            "prochain_rdv": "2021-06-30 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -829,6 +801,34 @@
                 "address": "Skelleftehamnsvägen 206 A, Ursviken",
                 "business_hours": null,
                 "phone_number": "090-785 91 12"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Tärnaby sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 15.31339230368373,
+                "latitude": 65.71588725571208,
+                "city": "Storuman",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Granvägen 7, Tärnaby",
+                "business_hours": null,
+                "phone_number": "090-785 44 70"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
