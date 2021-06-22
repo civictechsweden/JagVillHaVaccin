@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-22 21:42:51.141742+02:00",
+    "last_updated": "2021-06-22 21:55:29.947657+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -30,7 +30,9 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "18",
             "nom": "Vaccinationsmottagningen Covid 19 Hallsberg",
@@ -46,10 +48,10 @@
                 "business_hours": null,
                 "phone_number": "019-602 80 00"
             },
-            "prochain_rdv": "2021-06-23 19:25:00",
+            "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 0,
             "internal_id": "1350",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -58,9 +60,7 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        }
-    ],
-    "centres_indisponibles": [
+        },
         {
             "departement": "18",
             "nom": "Vaccinationsmottagningen Covid 19 Lindesberg",
