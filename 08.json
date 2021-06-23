@@ -1,28 +1,28 @@
 {
     "version": 1,
-    "last_updated": "2021-06-23 16:23:27.485444+02:00",
+    "last_updated": "2021-06-23 16:43:15.112668+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "08",
-            "nom": "Vimmerby hälsocentral",
+            "nom": "Vaccinationscentral covid-19 Kalmar",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
-                "longitude": 15.858660065659615,
-                "latitude": 57.668227743684724,
-                "city": "Vimmerby",
+                "longitude": 16.35640759555987,
+                "latitude": 56.66417229353723,
+                "city": "Kalmar",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Drottninggatan 22, Vimmerby",
+                "address": "Tullslätten 4, Kalmar",
                 "business_hours": null,
-                "phone_number": "0492-176 00"
+                "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-06-24 09:10:00",
+            "prochain_rdv": "2021-06-24 08:52:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 14,
-            "internal_id": "491",
+            "appointment_count": 8,
+            "internal_id": "1546",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -46,7 +46,7 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-07-01 09:03:00",
+            "prochain_rdv": "2021-07-01 10:33:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 891,
@@ -61,34 +61,6 @@
         }
     ],
     "centres_indisponibles": [
-        {
-            "departement": "08",
-            "nom": "Vaccinationscentral covid-19 Kalmar",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.35640759555987,
-                "latitude": 56.66417229353723,
-                "city": "Kalmar",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tullslätten 4, Kalmar",
-                "business_hours": null,
-                "phone_number": "0480-844 44"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1546",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "08",
             "nom": "Vaccinationscentral covid-19 Oskarshamn",
@@ -1033,6 +1005,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "493",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Vimmerby hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 15.858660065659615,
+                "latitude": 57.668227743684724,
+                "city": "Vimmerby",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Drottninggatan 22, Vimmerby",
+                "business_hours": null,
+                "phone_number": "0492-176 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "491",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
