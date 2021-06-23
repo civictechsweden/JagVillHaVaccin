@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-06-23 10:51:46.570774+02:00",
+    "last_updated": "2021-06-23 11:00:52.003629+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "24",
+            "nom": "Stenbergska hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 18.673473259388757,
+                "latitude": 64.59984994028584,
+                "city": "Lycksele",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Johan Skyttes väg 6",
+                "business_hours": null,
+                "phone_number": "090-785 44 48"
+            },
+            "prochain_rdv": "2021-06-23 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 612,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "24",
             "nom": "Vaccina Nordmaling, Församlingsgård",
@@ -33,61 +61,6 @@
         },
         {
             "departement": "24",
-            "nom": "Central vaccinationsmottagning Umeå",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.24274041731457,
-                "latitude": 63.83290649714245,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nolia, Signalvägen 3, Umeå",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-06-29 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 901,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Stenbergska hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 18.673473259388757,
-                "latitude": 64.59984994028584,
-                "city": "Lycksele",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Johan Skyttes väg 6",
-                "business_hours": null,
-                "phone_number": "090-785 44 48"
-            },
-            "prochain_rdv": "2021-06-29 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 613,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Vaccina Vännäs, Medborgarskolan",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -104,7 +77,7 @@
             "prochain_rdv": "2021-06-29 10:58:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 302,
+            "appointment_count": 301,
             "internal_id": 31519,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -189,6 +162,61 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Husläkarna Hälsocentral i Umeå",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.247261212432413,
+                "latitude": 63.82724933424847,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 28 B",
+                "business_hours": null,
+                "phone_number": "090-785 93 88"
+            },
+            "prochain_rdv": "2021-07-01 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Central vaccinationsmottagning Umeå",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.24274041731457,
+                "latitude": 63.83290649714245,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nolia, Signalvägen 3, Umeå",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-07 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 898,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1053,34 +1081,6 @@
                 "address": "Himmelska Fridens Torg 7",
                 "business_hours": null,
                 "phone_number": "090-785 91 03"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Husläkarna Hälsocentral i Umeå",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.247261212432413,
-                "latitude": 63.82724933424847,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 28 B",
-                "business_hours": null,
-                "phone_number": "090-785 93 88"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
