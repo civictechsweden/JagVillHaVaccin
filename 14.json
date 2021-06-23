@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-23 19:56:32.400627+02:00",
+    "last_updated": "2021-06-23 20:32:03.155935+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 77,
+            "appointment_count": 62,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -49,7 +49,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 242,
+            "appointment_count": 243,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,7 +77,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 48,
+            "appointment_count": 37,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -105,7 +105,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 9,
+            "appointment_count": 6,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -133,35 +133,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 67,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Oden vårdcentral, Falköping",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.552551416477767,
-                "latitude": 58.1640349914607,
-                "city": "Falköping",
-                "cp": "52146"
-            },
-            "metadata": {
-                "address": "Sankt Olofsgatan 8, 521 46, Falköping",
-                "business_hours": null,
-                "phone_number": "0515-878 60"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 65,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -189,7 +161,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 77,
+            "appointment_count": 62,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -217,35 +189,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 19,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Dalaberg vårdcentral, Uddevalla",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.93511532037346,
-                "latitude": 58.37135454226647,
-                "city": "Uddevalla",
-                "cp": "45172"
-            },
-            "metadata": {
-                "address": "Lövskogsgatan 8, 451 72, Uddevalla",
-                "business_hours": null,
-                "phone_number": "010-441 68 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 11,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -273,7 +217,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 131,
+            "appointment_count": 117,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -6836,6 +6780,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Oden vårdcentral, Falköping",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.552551416477767,
+                "latitude": 58.1640349914607,
+                "city": "Falköping",
+                "cp": "52146"
+            },
+            "metadata": {
+                "address": "Sankt Olofsgatan 8, 521 46, Falköping",
+                "business_hours": null,
+                "phone_number": "0515-878 60"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Lerums Gymnasium Häggen",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7044,6 +7016,34 @@
                 "address": "",
                 "business_hours": null,
                 "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Dalaberg vårdcentral, Uddevalla",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.93511532037346,
+                "latitude": 58.37135454226647,
+                "city": "Uddevalla",
+                "cp": "45172"
+            },
+            "metadata": {
+                "address": "Lövskogsgatan 8, 451 72, Uddevalla",
+                "business_hours": null,
+                "phone_number": "010-441 68 00"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
