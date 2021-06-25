@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-25 23:26:52.440552+02:00",
+    "last_updated": "2021-06-25 23:50:03.839515+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -114,7 +114,9 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "18",
             "nom": "Vaccinationsmottagningen Covid 19 Örebro Boglundsängen",
@@ -130,10 +132,10 @@
                 "business_hours": null,
                 "phone_number": "019-602 80 00"
             },
-            "prochain_rdv": "2021-06-30 17:15:00",
+            "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 0,
             "internal_id": "1351",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -143,6 +145,5 @@
             "appointment_schedules": [],
             "gid": null
         }
-    ],
-    "centres_indisponibles": []
+    ]
 }
