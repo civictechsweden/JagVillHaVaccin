@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-25 21:24:36.326016+02:00",
+    "last_updated": "2021-06-25 22:03:49.697915+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -72,10 +72,10 @@
                 "address": "Sjukhusvägen 1, Simrishamn",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-06-29 11:19:00",
+            "prochain_rdv": "2021-06-29 11:23:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 229,
+            "appointment_count": 226,
             "internal_id": "2020",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -127,10 +127,10 @@
                 "address": "Östergatan 21, Tomelilla",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-07-01 11:20:00",
+            "prochain_rdv": "2021-07-01 11:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 243,
+            "appointment_count": 242,
             "internal_id": "2021",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -196,33 +196,6 @@
         },
         {
             "departement": "12",
-            "nom": "Vaccinova Bromölla",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 14.467382912237964,
-                "latitude": 56.074198397712195,
-                "city": "Bromölla",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 42, Bromölla",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-01 16:50:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "2025",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Vaccinova Hyllinge",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -235,10 +208,10 @@
                 "address": "Vramsvägen 9, Åstorp",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-07-06 11:55:00",
+            "prochain_rdv": "2021-07-06 11:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 94,
+            "appointment_count": 87,
             "internal_id": "2018",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -265,7 +238,7 @@
             "prochain_rdv": "2021-07-07 10:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 260,
+            "appointment_count": 256,
             "internal_id": "2072",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -290,7 +263,7 @@
                 "business_hours": null,
                 "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": "2021-07-14 12:10:00",
+            "prochain_rdv": "2021-07-16 10:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 2,
@@ -377,7 +350,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 760,
+            "appointment_count": 759,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -405,7 +378,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 807,
+            "appointment_count": 805,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -433,7 +406,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 528,
+            "appointment_count": 520,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1466,6 +1439,33 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccinova Bromölla",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 14.467382912237964,
+                "latitude": 56.074198397712195,
+                "city": "Bromölla",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 42, Bromölla",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2025",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
