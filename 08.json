@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-27 17:30:21.088170+02:00",
+    "last_updated": "2021-06-27 17:54:49.750614+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-06-28 08:18:00",
+            "prochain_rdv": "2021-06-28 08:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1896,
+            "appointment_count": 1912,
             "internal_id": "1547",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -30,7 +30,9 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "08",
             "nom": "Vaccinationscentral covid-19 Kalmar",
@@ -46,10 +48,10 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-06-30 15:42:00",
+            "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 6,
+            "appointment_count": 0,
             "internal_id": "1546",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -58,9 +60,7 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        }
-    ],
-    "centres_indisponibles": [
+        },
         {
             "departement": "08",
             "nom": "Vaccinationscentral covid-19 Oskarshamn",
