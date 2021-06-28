@@ -1,8 +1,64 @@
 {
     "version": 1,
-    "last_updated": "2021-06-28 02:01:23.989464+02:00",
+    "last_updated": "2021-06-28 03:15:24.295438+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "14",
+            "nom": "iDoc vaccination Lerum/Floda lada",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.365361223720834,
+                "latitude": 57.80611268181714,
+                "city": "Lerum",
+                "cp": "44830"
+            },
+            "metadata": {
+                "address": "Floda allé 4, 448 30, Floda",
+                "business_hours": null,
+                "phone_number": "079-098 05 59"
+            },
+            "prochain_rdv": "2021-06-29 13:56:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 3,
+            "internal_id": "2121",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "iDoc vaccination Lerum/Floda lada",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.365361223720834,
+                "latitude": 57.80611268181714,
+                "city": "Lerum",
+                "cp": "44830"
+            },
+            "metadata": {
+                "address": "Floda allé 4, 448 30, Floda",
+                "business_hours": null,
+                "phone_number": "079-098 05 59"
+            },
+            "prochain_rdv": "2021-06-29 13:56:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 3,
+            "internal_id": "2121",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "14",
             "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
@@ -21,7 +77,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 56,
+            "appointment_count": 55,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -50,34 +106,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 30,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Scandinavium",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -129,34 +157,6 @@
                 "address": "Svenstorpsvägen 1, 446 37, Älvängen",
                 "business_hours": null,
                 "phone_number": "010-473 35 50"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Stenungsund vårdcentral, Stenungsund",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.817927130264705,
-                "latitude": 58.06648177430393,
-                "city": "Stenungsund",
-                "cp": "44430"
-            },
-            "metadata": {
-                "address": "Jullen 3, 444 30, Stenungsund",
-                "business_hours": null,
-                "phone_number": "010-473 32 20"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -6556,6 +6556,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Scandinavium",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Vara Konserthus",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7100,6 +7128,34 @@
                 "address": "Danska vägen 62, 521 37, Falköping",
                 "business_hours": null,
                 "phone_number": "0515-878 90"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Stenungsund vårdcentral, Stenungsund",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.817927130264705,
+                "latitude": 58.06648177430393,
+                "city": "Stenungsund",
+                "cp": "44430"
+            },
+            "metadata": {
+                "address": "Jullen 3, 444 30, Stenungsund",
+                "business_hours": null,
+                "phone_number": "010-473 32 20"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -8880,34 +8936,6 @@
         },
         {
             "departement": "14",
-            "nom": "iDoc vaccination Lerum/Floda lada",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.365361223720834,
-                "latitude": 57.80611268181714,
-                "city": "Lerum",
-                "cp": "44830"
-            },
-            "metadata": {
-                "address": "Floda allé 4, 448 30, Floda",
-                "business_hours": null,
-                "phone_number": "079-098 05 59"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2121",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "iDoc vaccination Partille Arena",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -10606,34 +10634,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "a5acef14-9dba-11eb-a8eb-fa163e329242",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "iDoc vaccination Lerum/Floda lada",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.365361223720834,
-                "latitude": 57.80611268181714,
-                "city": "Lerum",
-                "cp": "44830"
-            },
-            "metadata": {
-                "address": "Floda allé 4, 448 30, Floda",
-                "business_hours": null,
-                "phone_number": "079-098 05 59"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2121",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
