@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-29 14:41:12.940062+02:00",
+    "last_updated": "2021-06-29 15:15:07.979759+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-06-30 10:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 1,
             "internal_id": "2096",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,38 +49,10 @@
             "prochain_rdv": "2021-06-30 10:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 1,
             "internal_id": "2096",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Lerum vårdcentral, Lerum",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.265754618589991,
-                "latitude": 57.76853764400082,
-                "city": "Lerum",
-                "cp": "44330"
-            },
-            "metadata": {
-                "address": "Göteborgsvägen 9, 443 30, Lerum",
-                "business_hours": null,
-                "phone_number": "0302-551 20"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -105,7 +77,35 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 42,
+            "appointment_count": 45,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Vara vårdcentral, Vara",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.965439010152812,
+                "latitude": 58.264280183788806,
+                "city": "Vara",
+                "cp": "53432"
+            },
+            "metadata": {
+                "address": "Allégatan 46, 534 32, Vara",
+                "business_hours": null,
+                "phone_number": "0512-78 60 32"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -145,23 +145,23 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Partille vårdcentral, Partille",
+            "nom": "Närhälsan Hjo vårdcentral, Hjo",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 12.10506529223986,
-                "latitude": 57.73914640025265,
-                "city": "Partille",
-                "cp": "43333"
+                "longitude": 14.300502447849361,
+                "latitude": 58.31001646470293,
+                "city": "Hjo",
+                "cp": "54436"
             },
             "metadata": {
-                "address": "Kyrktorget 13, 433 33, Partille",
+                "address": "Karlsborgsvägen 4A, 544 36, Hjo",
                 "business_hours": null,
-                "phone_number": "010-473 33 00"
+                "phone_number": "0503-227 00"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 74,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -173,23 +173,23 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Ulricehamn vårdcentral, Ulricehamn",
+            "nom": "Närhälsan Scandinavium",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 13.416478615626206,
-                "latitude": 57.793858457925545,
-                "city": "Ulricehamn",
-                "cp": "52334"
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
             },
             "metadata": {
-                "address": "Nygatan 7, 523 34, Ulricehamn",
+                "address": "",
                 "business_hours": null,
-                "phone_number": "0321-291 00"
+                "phone_number": ""
             },
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 87,
+            "appointment_count": 264,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -201,7 +201,7 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Lerums Gymnasium Häggen",
+            "nom": "Vara Konserthus",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
                 "longitude": "",
@@ -229,6 +229,62 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Partille vårdcentral, Partille",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.10506529223986,
+                "latitude": 57.73914640025265,
+                "city": "Partille",
+                "cp": "43333"
+            },
+            "metadata": {
+                "address": "Kyrktorget 13, 433 33, Partille",
+                "business_hours": null,
+                "phone_number": "010-473 33 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 68,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Ulricehamn vårdcentral, Ulricehamn",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.416478615626206,
+                "latitude": 57.793858457925545,
+                "city": "Ulricehamn",
+                "cp": "52334"
+            },
+            "metadata": {
+                "address": "Nygatan 7, 523 34, Ulricehamn",
+                "business_hours": null,
+                "phone_number": "0321-291 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 80,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Mariestad Sjukhus",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -245,7 +301,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 42,
+            "appointment_count": 45,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -273,7 +329,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 139,
+            "appointment_count": 117,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -301,7 +357,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 288,
+            "appointment_count": 309,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3757,6 +3813,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Lerum vårdcentral, Lerum",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.265754618589991,
+                "latitude": 57.76853764400082,
+                "city": "Lerum",
+                "cp": "44330"
+            },
+            "metadata": {
+                "address": "Göteborgsvägen 9, 443 30, Lerum",
+                "business_hours": null,
+                "phone_number": "0302-551 20"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Lysekil vårdcentral, Lysekil",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -4553,34 +4637,6 @@
                 "address": "Börstorpsgatan 9, 545 31, Töreboda",
                 "business_hours": null,
                 "phone_number": "0506-197 10"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Vara vårdcentral, Vara",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.965439010152812,
-                "latitude": 58.264280183788806,
-                "city": "Vara",
-                "cp": "53432"
-            },
-            "metadata": {
-                "address": "Allégatan 46, 534 32, Vara",
-                "business_hours": null,
-                "phone_number": "0512-78 60 32"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -6500,34 +6556,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Hjo vårdcentral, Hjo",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 14.300502447849361,
-                "latitude": 58.31001646470293,
-                "city": "Hjo",
-                "cp": "54436"
-            },
-            "metadata": {
-                "address": "Karlsborgsvägen 4A, 544 36, Hjo",
-                "business_hours": null,
-                "phone_number": "0503-227 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Bollebygd vårdcentral, Bollebygd",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6624,62 +6652,6 @@
                 "address": "Centrumgatan 2, 447 31, Vårgårda",
                 "business_hours": null,
                 "phone_number": "010-435 85 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Scandinavium",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Vara Konserthus",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -6879,6 +6851,34 @@
             },
             "prochain_rdv": null,
             "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Lerums Gymnasium Häggen",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
