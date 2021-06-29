@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-29 23:51:14.383849+02:00",
+    "last_updated": "2021-06-30 00:51:16.161292+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,35 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 4,
+            "appointment_count": 3,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.346591812509288,
+                "latitude": 57.48063225486268,
+                "city": "Tranemo",
+                "cp": "51434"
+            },
+            "metadata": {
+                "address": "Storgatan 42, 514 34, Tranemo",
+                "business_hours": null,
+                "phone_number": "0325-472 10"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +77,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 5,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,7 +105,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 64,
+            "appointment_count": 58,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -117,34 +145,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Dalaberg vårdcentral, Uddevalla",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.93511532037346,
-                "latitude": 58.37135454226647,
-                "city": "Uddevalla",
-                "cp": "45172"
-            },
-            "metadata": {
-                "address": "Lövskogsgatan 8, 451 72, Uddevalla",
-                "business_hours": null,
-                "phone_number": "010-441 68 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Lindome vårdcentral, Lindome",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -161,7 +161,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 61,
+            "appointment_count": 52,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -189,7 +189,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 268,
+            "appointment_count": 263,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -6416,34 +6416,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.346591812509288,
-                "latitude": 57.48063225486268,
-                "city": "Tranemo",
-                "cp": "51434"
-            },
-            "metadata": {
-                "address": "Storgatan 42, 514 34, Tranemo",
-                "business_hours": null,
-                "phone_number": "0325-472 10"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Hjo vårdcentral, Hjo",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7072,6 +7044,34 @@
                 "address": "",
                 "business_hours": null,
                 "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Dalaberg vårdcentral, Uddevalla",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.93511532037346,
+                "latitude": 58.37135454226647,
+                "city": "Uddevalla",
+                "cp": "45172"
+            },
+            "metadata": {
+                "address": "Lövskogsgatan 8, 451 72, Uddevalla",
+                "business_hours": null,
+                "phone_number": "010-441 68 00"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
