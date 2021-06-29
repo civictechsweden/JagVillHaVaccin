@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-29 04:15:17.522710+02:00",
+    "last_updated": "2021-06-29 04:49:10.961236+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -300,6 +300,34 @@
             },
             "prochain_rdv": null,
             "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Vaccina Bjurholm",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Bjurholm",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Knutpunkten, Emmagränd 5, Bjurholm",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "Vaccina",
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
