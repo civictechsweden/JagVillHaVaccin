@@ -46,5 +46,8 @@ def get_id_from_url(url):
 
 
 def date_from(date_and_time):
-    struct = time.strptime(date_and_time, "%Y-%m-%dT%H:%M:%S.000000Z")
+    if '000000Z' in date_and_time:
+        struct = time.strptime(date_and_time, "%Y-%m-%dT%H:%M:%S.000000Z")
+    else:
+        struct = time.strptime(date_and_time, "%Y-%m-%dT%H:%M:%S+02:00")
     return datetime.fromtimestamp(mktime(struct))
