@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-06-30 21:38:43.853285+02:00",
+    "last_updated": "2021-06-30 21:53:36.378967+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-01 13:04:00",
+            "prochain_rdv": "2021-07-02 12:12:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 4,
+            "appointment_count": 2,
             "internal_id": "2115",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,39 +46,11 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-02 10:40:00",
+            "prochain_rdv": "2021-07-13 15:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 164,
+            "appointment_count": 163,
             "internal_id": "2103",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "20",
-            "nom": "Doktor.se / Avesta",
-            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "Avesta",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Avesta parken, Frejgatan 25",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-07-14 14:40:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 2,
-            "internal_id": "2114",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -102,7 +74,7 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-15 10:08:00",
+            "prochain_rdv": "2021-07-15 10:04:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 800,
@@ -130,10 +102,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-21 11:52:00",
+            "prochain_rdv": "2021-07-20 09:04:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 268,
+            "appointment_count": 266,
             "internal_id": "2112",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -158,10 +130,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-21 13:48:00",
+            "prochain_rdv": "2021-07-21 13:56:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 172,
+            "appointment_count": 171,
             "internal_id": "2113",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -228,5 +200,34 @@
             "gid": null
         }
     ],
-    "centres_indisponibles": []
+    "centres_indisponibles": [
+        {
+            "departement": "20",
+            "nom": "Doktor.se / Avesta",
+            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Avesta",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Avesta parken, Frejgatan 25",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2114",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        }
+    ]
 }
