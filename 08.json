@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-01 12:48:45.316296+02:00",
+    "last_updated": "2021-07-01 13:01:42.005858+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-07-01 15:36:00",
+            "prochain_rdv": "2021-07-01 15:42:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2220,
+            "appointment_count": 2212,
             "internal_id": "1547",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,10 +46,10 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-07-02 09:56:00",
+            "prochain_rdv": "2021-07-02 11:58:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 3979,
+            "appointment_count": 3983,
             "internal_id": "1546",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -117,36 +117,6 @@
         },
         {
             "departement": "08",
-            "nom": "Ungdomsmottagningen Hultsfred",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 15.83567058643755,
-                "latitude": 57.48173197820597,
-                "city": "Hultsfred",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Granitvägen 16A, Hultsfred",
-                "business_hours": null,
-                "phone_number": "0495-155 33"
-            },
-            "prochain_rdv": "2021-07-13 13:35:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 39,
-            "internal_id": "505",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        }
-    ],
-    "centres_indisponibles": [
-        {
-            "departement": "08",
             "nom": "Vaccinationscentral covid-19 Oskarshamn",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
@@ -160,10 +130,10 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": null,
+            "prochain_rdv": "2021-07-09 13:36:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 0,
+            "appointment_count": 8,
             "internal_id": "2053",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -173,6 +143,36 @@
             "appointment_schedules": [],
             "gid": null
         },
+        {
+            "departement": "08",
+            "nom": "Ungdomsmottagningen Hultsfred",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 15.83567058643755,
+                "latitude": 57.48173197820597,
+                "city": "Hultsfred",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Granitvägen 16A, Hultsfred",
+                "business_hours": null,
+                "phone_number": "0495-155 33"
+            },
+            "prochain_rdv": "2021-07-13 13:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 55,
+            "internal_id": "505",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "08",
             "nom": "Borgholms hälsocentral",
