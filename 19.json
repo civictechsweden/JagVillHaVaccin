@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-01 04:16:33.508751+02:00",
+    "last_updated": "2021-07-01 04:48:19.075347+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -184,6 +184,33 @@
             "type": "vaccination-center",
             "appointment_count": null,
             "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "19",
+            "nom": "Hallstahammar vaccinationsmottagning Folkets hus",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 16.23251539364746,
+                "latitude": 59.61888734969954,
+                "city": "Hallstahammar",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Parkgatan 24, Hallstahammar",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-05 18:09:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 171,
+            "internal_id": "1321",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
