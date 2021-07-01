@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-01 08:56:58.290669+02:00",
+    "last_updated": "2021-07-01 09:20:20.363599+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-01 09:36:00",
+            "prochain_rdv": "2021-07-01 09:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 742,
+            "appointment_count": 924,
             "internal_id": "2111",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,36 +49,8 @@
             "prochain_rdv": "2021-07-01 12:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 159,
+            "appointment_count": 160,
             "internal_id": "2103",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "20",
-            "nom": "Doktor.se / Avesta",
-            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "Avesta",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Avesta parken, Frejgatan 25",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-07-01 13:40:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 3,
-            "internal_id": "2114",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -102,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-21 12:44:00",
+            "prochain_rdv": "2021-07-07 16:32:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 250,
+            "appointment_count": 1349,
             "internal_id": "2112",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -130,10 +102,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-21 14:36:00",
+            "prochain_rdv": "2021-07-12 13:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 154,
+            "appointment_count": 763,
             "internal_id": "2113",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -142,9 +114,7 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        }
-    ],
-    "centres_indisponibles": [
+        },
         {
             "departement": "20",
             "nom": "Doktor.se / Ludvika",
@@ -160,10 +130,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": null,
+            "prochain_rdv": "2021-07-12 13:08:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 0,
+            "appointment_count": 804,
             "internal_id": "2115",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -173,6 +143,36 @@
             "appointment_schedules": [],
             "gid": null
         },
+        {
+            "departement": "20",
+            "nom": "Doktor.se / Avesta",
+            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Avesta",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Avesta parken, Frejgatan 25",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-07-20 13:28:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "2114",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "20",
             "nom": "Kronans Apotek Sälen",
