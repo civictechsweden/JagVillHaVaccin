@@ -1,27 +1,54 @@
 {
     "version": 1,
-    "last_updated": "2021-07-01 09:45:56.517763+02:00",
+    "last_updated": "2021-07-01 10:00:50.292776+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "24",
-            "nom": "Malå sjukstuga hälsocentral",
+            "nom": "Central vaccinationsmottagning Umeå",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 18.756251410101154,
-                "latitude": 65.17531659490669,
-                "city": "Malå",
+                "longitude": 20.24274041731457,
+                "latitude": 63.83290649714245,
+                "city": "Umeå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Storgatan 2",
-                "business_hours": null,
-                "phone_number": "090-785 91 19"
+                "address": "Nolia, Signalvägen 3, Umeå",
+                "business_hours": null
             },
             "prochain_rdv": "2021-07-01 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 10,
+            "appointment_count": 331,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Sorsele sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 17.540891071616244,
+                "latitude": 65.53741523279075,
+                "city": "Sorsele",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Burevägen 13",
+                "business_hours": null,
+                "phone_number": "090-785 91 71"
+            },
+            "prochain_rdv": "2021-07-01 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 14,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -61,34 +88,6 @@
         },
         {
             "departement": "24",
-            "nom": "Sorsele sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 17.540891071616244,
-                "latitude": 65.53741523279075,
-                "city": "Sorsele",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Burevägen 13",
-                "business_hours": null,
-                "phone_number": "090-785 91 71"
-            },
-            "prochain_rdv": "2021-07-07 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 8,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Vaccina Vindeln, Hotell Vindelgallerian",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -105,7 +104,7 @@
             "prochain_rdv": "2021-07-07 12:42:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 35,
+            "appointment_count": 34,
             "internal_id": 31524,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -201,33 +200,6 @@
         },
         {
             "departement": "24",
-            "nom": "Central vaccinationsmottagning Umeå",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.24274041731457,
-                "latitude": 63.83290649714245,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nolia, Signalvägen 3, Umeå",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-16 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 331,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Norsjö hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -244,7 +216,7 @@
             "prochain_rdv": "2021-07-16 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 4,
+            "appointment_count": 3,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -256,23 +228,23 @@
         },
         {
             "departement": "24",
-            "nom": "Dorotea sjukstuga hälsocentral",
+            "nom": "Malå sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 16.418131571995104,
-                "latitude": 64.25937500733974,
-                "city": "Dorotea",
+                "longitude": 18.756251410101154,
+                "latitude": 65.17531659490669,
+                "city": "Malå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Nygatan 19",
+                "address": "Storgatan 2",
                 "business_hours": null,
-                "phone_number": "090-785 91 75"
+                "phone_number": "090-785 91 19"
             },
             "prochain_rdv": "2021-07-21 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 9,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -521,6 +493,34 @@
                 "address": "Storgatan 16",
                 "business_hours": null,
                 "phone_number": "090-785 44 41"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Dorotea sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 16.418131571995104,
+                "latitude": 64.25937500733974,
+                "city": "Dorotea",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nygatan 19",
+                "business_hours": null,
+                "phone_number": "090-785 91 75"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
