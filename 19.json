@@ -1,62 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-07-01 14:41:44.250691+02:00",
+    "last_updated": "2021-07-01 15:14:18.477240+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "19",
-            "nom": "Kungsör vaccinationsmottagning Kungsörs vårdcentral",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 16.09622339424755,
-                "latitude": 59.41848587888998,
-                "city": "Kungsör",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Torsgatan 12 A, Kungsör",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-01 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": null,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "19",
-            "nom": "Köping vaccinationsmottagning Forum teatern",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 15.992138537331028,
-                "latitude": 59.51305314084937,
-                "city": "Köping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Västra Långgatan 2, Köping",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-01 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": null,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "19",
             "nom": "Västerås vaccinationsmottagning Servicehälsan",
@@ -101,8 +47,35 @@
             "prochain_rdv": "2021-07-05 15:07:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 193,
+            "appointment_count": 196,
             "internal_id": "1321",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "19",
+            "nom": "Köping vaccinationsmottagning Forum teatern",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 15.992138537331028,
+                "latitude": 59.51305314084937,
+                "city": "Köping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Västra Långgatan 2, Köping",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-06 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": null,
+            "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -167,6 +140,60 @@
         },
         {
             "departement": "19",
+            "nom": "Kungsör vaccinationsmottagning Kungsörs vårdcentral",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 16.09622339424755,
+                "latitude": 59.41848587888998,
+                "city": "Kungsör",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Torsgatan 12 A, Kungsör",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-07 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": null,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "19",
+            "nom": "Västerås vaccinationsmottagning Hälla Syd",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 16.61106301907506,
+                "latitude": 59.609946622491734,
+                "city": "Västerås",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Glasvingegatan 5, Västerås",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-07 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": null,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "19",
             "nom": "Fagersta vaccinationsmottagning Folkets park",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
@@ -194,19 +221,19 @@
         },
         {
             "departement": "19",
-            "nom": "Hallstahammar vaccinationsmottagning Folkets hus",
+            "nom": "Surahammar vaccinationsmottagning Surahammar vårdcentral",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 16.23251539364746,
-                "latitude": 59.61888734969954,
-                "city": "Hallstahammar",
+                "longitude": 16.221683736373375,
+                "latitude": 59.707337675449665,
+                "city": "Surahammar",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Parkgatan 24, Hallstahammar",
+                "address": "Köpmangatan 25, Surahammar",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-07-13 00:00:00",
+            "prochain_rdv": "2021-07-09 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": null,
@@ -221,19 +248,19 @@
         },
         {
             "departement": "19",
-            "nom": "Surahammar vaccinationsmottagning Surahammar vårdcentral",
+            "nom": "Hallstahammar vaccinationsmottagning Folkets hus",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 16.221683736373375,
-                "latitude": 59.707337675449665,
-                "city": "Surahammar",
+                "longitude": 16.23251539364746,
+                "latitude": 59.61888734969954,
+                "city": "Hallstahammar",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Köpmangatan 25, Surahammar",
+                "address": "Parkgatan 24, Hallstahammar",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-07-14 00:00:00",
+            "prochain_rdv": "2021-07-13 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": null,
@@ -395,33 +422,6 @@
             },
             "metadata": {
                 "address": "Välljärnsgatan 492, Västerås",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "19",
-            "nom": "Västerås vaccinationsmottagning Hälla Syd",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 16.61106301907506,
-                "latitude": 59.609946622491734,
-                "city": "Västerås",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Glasvingegatan 5, Västerås",
                 "business_hours": null
             },
             "prochain_rdv": null,
