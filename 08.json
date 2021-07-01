@@ -1,28 +1,28 @@
 {
     "version": 1,
-    "last_updated": "2021-07-01 09:25:28.549615+02:00",
+    "last_updated": "2021-07-01 09:43:32.677646+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "08",
-            "nom": "Vaccinationscentral covid-19 Västervik",
+            "nom": "Ungdomsmottagningen Hultsfred",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
-                "longitude": 16.63873172343222,
-                "latitude": 57.75759132785008,
-                "city": "Västervik",
+                "longitude": 15.83567058643755,
+                "latitude": 57.48173197820597,
+                "city": "Hultsfred",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Spötorget 1, Västervik",
+                "address": "Granitvägen 16A, Hultsfred",
                 "business_hours": null,
-                "phone_number": "0480-844 44"
+                "phone_number": "0495-155 33"
             },
-            "prochain_rdv": "2021-07-01 10:09:00",
+            "prochain_rdv": "2021-07-05 13:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2313,
-            "internal_id": "1547",
+            "appointment_count": 69,
+            "internal_id": "505",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -46,10 +46,10 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-07-06 12:22:00",
+            "prochain_rdv": "2021-07-06 12:58:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 4224,
+            "appointment_count": 4161,
             "internal_id": "1546",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,8 +77,36 @@
             "prochain_rdv": "2021-07-07 14:18:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 728,
+            "appointment_count": 716,
             "internal_id": "2056",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Vaccinationscentral covid-19 Västervik",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.63873172343222,
+                "latitude": 57.75759132785008,
+                "city": "Västervik",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Spötorget 1, Västervik",
+                "business_hours": null,
+                "phone_number": "0480-844 44"
+            },
+            "prochain_rdv": "2021-07-07 15:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2256,
+            "internal_id": "1547",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -105,7 +133,7 @@
             "prochain_rdv": "2021-07-08 12:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 94,
+            "appointment_count": 85,
             "internal_id": "493",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -114,7 +142,9 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "08",
             "nom": "Vaccinationscentral covid-19 Oskarshamn",
@@ -130,10 +160,10 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-07-09 11:33:00",
+            "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 24,
+            "appointment_count": 0,
             "internal_id": "2053",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -143,36 +173,6 @@
             "appointment_schedules": [],
             "gid": null
         },
-        {
-            "departement": "08",
-            "nom": "Ungdomsmottagningen Hultsfred",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 15.83567058643755,
-                "latitude": 57.48173197820597,
-                "city": "Hultsfred",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Granitvägen 16A, Hultsfred",
-                "business_hours": null,
-                "phone_number": "0495-155 33"
-            },
-            "prochain_rdv": "2021-07-13 13:20:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 71,
-            "internal_id": "505",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        }
-    ],
-    "centres_indisponibles": [
         {
             "departement": "08",
             "nom": "Borgholms hälsocentral",
