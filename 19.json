@@ -1,8 +1,62 @@
 {
     "version": 1,
-    "last_updated": "2021-07-01 12:51:09.797698+02:00",
+    "last_updated": "2021-07-01 13:03:41.165036+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "19",
+            "nom": "Hallstahammar vaccinationsmottagning Folkets hus",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 16.23251539364746,
+                "latitude": 59.61888734969954,
+                "city": "Hallstahammar",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Parkgatan 24, Hallstahammar",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-01 15:35:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 195,
+            "internal_id": "1321",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "19",
+            "nom": "Västerås vaccinationsmottagning Servicehälsan",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 16.55421068341796,
+                "latitude": 59.61671954977299,
+                "city": "Västerås",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Legeringsgatan 2, Västerås",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-02 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": null,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "19",
             "nom": "Köping vaccinationsmottagning Forum teatern",
@@ -59,33 +113,6 @@
         },
         {
             "departement": "19",
-            "nom": "Hallstahammar vaccinationsmottagning Folkets hus",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 16.23251539364746,
-                "latitude": 59.61888734969954,
-                "city": "Hallstahammar",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Parkgatan 24, Hallstahammar",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-06 09:31:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 195,
-            "internal_id": "1321",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "19",
             "nom": "Arboga vaccinationsmottagning Medborgarhuset",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
@@ -123,6 +150,33 @@
             },
             "metadata": {
                 "address": "Torsgatan 12 A, Kungsör",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-07 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": null,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "19",
+            "nom": "Västerås vaccinationsmottagning Öster Mälarstrand",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 16.588316914838465,
+                "latitude": 59.59767869371821,
+                "city": "Västerås",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ankargatan 4, Västerås",
                 "business_hours": null
             },
             "prochain_rdv": "2021-07-07 00:00:00",
@@ -221,33 +275,6 @@
         },
         {
             "departement": "19",
-            "nom": "Västerås vaccinationsmottagning Servicehälsan",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 16.55421068341796,
-                "latitude": 59.61671954977299,
-                "city": "Västerås",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Legeringsgatan 2, Västerås",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-13 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": null,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "19",
             "nom": "Surahammar vaccinationsmottagning Surahammar vårdcentral",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
@@ -258,33 +285,6 @@
             },
             "metadata": {
                 "address": "Köpmangatan 25, Surahammar",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-14 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": null,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "19",
-            "nom": "Västerås vaccinationsmottagning Öster Mälarstrand",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 16.588316914838465,
-                "latitude": 59.59767869371821,
-                "city": "Västerås",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ankargatan 4, Västerås",
                 "business_hours": null
             },
             "prochain_rdv": "2021-07-14 00:00:00",
