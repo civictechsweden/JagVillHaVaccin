@@ -1,22 +1,50 @@
 {
     "version": 1,
-    "last_updated": "2021-07-02 15:38:16.336446+02:00",
+    "last_updated": "2021-07-02 15:59:42.349347+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "14",
-            "nom": "Närhälsan Tibro vårdcentral, Tibro",
+            "nom": "Närhälsan Vara vårdcentral, Vara",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 14.164658893358924,
-                "latitude": 58.42518700110039,
-                "city": "Tibro",
-                "cp": "54330"
+                "longitude": 12.965439010152812,
+                "latitude": 58.264280183788806,
+                "city": "Vara",
+                "cp": "53432"
             },
             "metadata": {
-                "address": "Centrumgatan 17, 543 30, Tibro",
+                "address": "Allégatan 46, 534 32, Vara",
                 "business_hours": null,
-                "phone_number": "0504-403 00"
+                "phone_number": "0512-78 60 32"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Vara Konserthus",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -49,63 +77,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 7,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Dalaberg vårdcentral, Uddevalla",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.93511532037346,
-                "latitude": 58.37135454226647,
-                "city": "Uddevalla",
-                "cp": "45172"
-            },
-            "metadata": {
-                "address": "Lövskogsgatan 8, 451 72, Uddevalla",
-                "business_hours": null,
-                "phone_number": "010-441 68 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 2,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Dingle Lantbruksskolan",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 4,
+            "appointment_count": 14,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -4457,34 +4429,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Vara vårdcentral, Vara",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.965439010152812,
-                "latitude": 58.264280183788806,
-                "city": "Vara",
-                "cp": "53432"
-            },
-            "metadata": {
-                "address": "Allégatan 46, 534 32, Vara",
-                "business_hours": null,
-                "phone_number": "0512-78 60 32"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Ängabo vårdcentral, Alingsås",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6500,6 +6444,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Tibro vårdcentral, Tibro",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 14.164658893358924,
+                "latitude": 58.42518700110039,
+                "city": "Tibro",
+                "cp": "54330"
+            },
+            "metadata": {
+                "address": "Centrumgatan 17, 543 30, Tibro",
+                "business_hours": null,
+                "phone_number": "0504-403 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Vårgårda vårdcentral, Vårgårda",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6529,34 +6501,6 @@
         {
             "departement": "14",
             "nom": "Närhälsan Scandinavium",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Vara Konserthus",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
                 "longitude": "",
@@ -7088,6 +7032,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Dalaberg vårdcentral, Uddevalla",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.93511532037346,
+                "latitude": 58.37135454226647,
+                "city": "Uddevalla",
+                "cp": "45172"
+            },
+            "metadata": {
+                "address": "Lövskogsgatan 8, 451 72, Uddevalla",
+                "business_hours": null,
+                "phone_number": "010-441 68 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Lindome vårdcentral, Lindome",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7240,6 +7212,34 @@
                 "address": "Storgatan 14 A, 521 60, Stenstorp",
                 "business_hours": null,
                 "phone_number": "0500-47 29 50"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Dingle Lantbruksskolan",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
             },
             "prochain_rdv": null,
             "plateforme": "1177",
