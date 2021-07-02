@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-02 18:42:17.359587+02:00",
+    "last_updated": "2021-07-02 19:17:01.551244+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 9,
+            "appointment_count": 15,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -33,18 +33,46 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Dingle Lantbruksskolan",
+            "nom": "Närhälsan Lindome vårdcentral, Lindome",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
+                "longitude": 12.088026338281288,
+                "latitude": 57.57627864929657,
+                "city": "Mölndal",
+                "cp": "43730"
             },
             "metadata": {
-                "address": "",
+                "address": "Almåsgången 7, 437 30, Lindome",
                 "business_hours": null,
-                "phone_number": ""
+                "phone_number": "010-473 39 20"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Stenungsund vårdcentral, Stenungsund",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.817927130264705,
+                "latitude": 58.06648177430393,
+                "city": "Stenungsund",
+                "cp": "44430"
+            },
+            "metadata": {
+                "address": "Jullen 3, 444 30, Stenungsund",
+                "business_hours": null,
+                "phone_number": "010-473 32 20"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -7088,34 +7116,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Lindome vårdcentral, Lindome",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.088026338281288,
-                "latitude": 57.57627864929657,
-                "city": "Mölndal",
-                "cp": "43730"
-            },
-            "metadata": {
-                "address": "Almåsgången 7, 437 30, Lindome",
-                "business_hours": null,
-                "phone_number": "010-473 39 20"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Mösseberg vårdcentral, Falköping",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7128,34 +7128,6 @@
                 "address": "Danska vägen 62, 521 37, Falköping",
                 "business_hours": null,
                 "phone_number": "0515-878 90"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Stenungsund vårdcentral, Stenungsund",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.817927130264705,
-                "latitude": 58.06648177430393,
-                "city": "Stenungsund",
-                "cp": "44430"
-            },
-            "metadata": {
-                "address": "Jullen 3, 444 30, Stenungsund",
-                "business_hours": null,
-                "phone_number": "010-473 32 20"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -7240,6 +7212,34 @@
                 "address": "Storgatan 14 A, 521 60, Stenstorp",
                 "business_hours": null,
                 "phone_number": "0500-47 29 50"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Dingle Lantbruksskolan",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
             },
             "prochain_rdv": null,
             "plateforme": "1177",
