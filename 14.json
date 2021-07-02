@@ -1,27 +1,111 @@
 {
     "version": 1,
-    "last_updated": "2021-07-02 10:00:59.646972+02:00",
+    "last_updated": "2021-07-02 10:30:09.957960+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "14",
-            "nom": "Närhälsan Solgärde vårdcentral, Kungälv",
+            "nom": "Närhälsan Mariestad vårdcentral, Mariestad",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 11.950282789807154,
-                "latitude": 57.88860469007531,
-                "city": "Kungälv",
-                "cp": "44240"
+                "longitude": 13.795835210967395,
+                "latitude": 58.7051137944602,
+                "city": "Mariestad",
+                "cp": "54245"
             },
             "metadata": {
-                "address": "Rollsbovägen 58, 442 40, Kungälv",
+                "address": "Lockerudsvägen 12, 542 45, Mariestad",
                 "business_hours": null,
-                "phone_number": "010-473 38 30"
+                "phone_number": "0501-627 50"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 12,
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.346591812509288,
+                "latitude": 57.48063225486268,
+                "city": "Tranemo",
+                "cp": "51434"
+            },
+            "metadata": {
+                "address": "Storgatan 42, 514 34, Tranemo",
+                "business_hours": null,
+                "phone_number": "0325-472 10"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.956163123936285,
+                "latitude": 58.17816034620173,
+                "city": "Tidaholm",
+                "cp": "52230"
+            },
+            "metadata": {
+                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
+                "business_hours": null,
+                "phone_number": "0502-180 11"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Vaccinationsmottagning Covid 19 Skövde, Skövde",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.848292491093101,
+                "latitude": 58.42622183070814,
+                "city": "Skövde",
+                "cp": "54142"
+            },
+            "metadata": {
+                "address": "Lövängsvägen 1, 541 42, Skövde",
+                "business_hours": null,
+                "phone_number": "0500-49 33 93"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 59,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +133,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 108,
+            "appointment_count": 92,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -61,18 +145,18 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Dalaberg vårdcentral, Uddevalla",
+            "nom": "Närhälsan Mariestad Sjukhus",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 11.93511532037346,
-                "latitude": 58.37135454226647,
-                "city": "Uddevalla",
-                "cp": "45172"
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
             },
             "metadata": {
-                "address": "Lövskogsgatan 8, 451 72, Uddevalla",
+                "address": "",
                 "business_hours": null,
-                "phone_number": "010-441 68 00"
+                "phone_number": ""
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -89,23 +173,23 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Dingle Lantbruksskolan",
+            "nom": "Närhälsan Karlsborg vårdcentral, Karlsborg",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
+                "longitude": 14.516093296371812,
+                "latitude": 58.530190343899214,
+                "city": "Karlsborg",
+                "cp": "54630"
             },
             "metadata": {
-                "address": "",
+                "address": "Kärleksstigen 4B, 546 30, Karlsborg",
                 "business_hours": null,
-                "phone_number": ""
+                "phone_number": "0505-183 00"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3701,34 +3785,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Mariestad vårdcentral, Mariestad",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.795835210967395,
-                "latitude": 58.7051137944602,
-                "city": "Mariestad",
-                "cp": "54245"
-            },
-            "metadata": {
-                "address": "Lockerudsvägen 12, 542 45, Mariestad",
-                "business_hours": null,
-                "phone_number": "0501-627 50"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Masthugget vårdcentral, Göteborg",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6388,34 +6444,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.346591812509288,
-                "latitude": 57.48063225486268,
-                "city": "Tranemo",
-                "cp": "51434"
-            },
-            "metadata": {
-                "address": "Storgatan 42, 514 34, Tranemo",
-                "business_hours": null,
-                "phone_number": "0325-472 10"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Hjo vårdcentral, Hjo",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6696,34 +6724,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.956163123936285,
-                "latitude": 58.17816034620173,
-                "city": "Tidaholm",
-                "cp": "52230"
-            },
-            "metadata": {
-                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
-                "business_hours": null,
-                "phone_number": "0502-180 11"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Vargön vårdcentral, Vargön",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6752,18 +6752,18 @@
         },
         {
             "departement": "14",
-            "nom": "Vaccinationsmottagning Covid 19 Skövde, Skövde",
+            "nom": "Närhälsan Solgärde vårdcentral, Kungälv",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 13.848292491093101,
-                "latitude": 58.42622183070814,
-                "city": "Skövde",
-                "cp": "54142"
+                "longitude": 11.950282789807154,
+                "latitude": 57.88860469007531,
+                "city": "Kungälv",
+                "cp": "44240"
             },
             "metadata": {
-                "address": "Lövängsvägen 1, 541 42, Skövde",
+                "address": "Rollsbovägen 58, 442 40, Kungälv",
                 "business_hours": null,
-                "phone_number": "0500-49 33 93"
+                "phone_number": "010-473 38 30"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -6976,62 +6976,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Mariestad Sjukhus",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Karlsborg vårdcentral, Karlsborg",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 14.516093296371812,
-                "latitude": 58.530190343899214,
-                "city": "Karlsborg",
-                "cp": "54630"
-            },
-            "metadata": {
-                "address": "Kärleksstigen 4B, 546 30, Karlsborg",
-                "business_hours": null,
-                "phone_number": "0505-183 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Herrestad vårdcentral, Uddevalla",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7072,6 +7016,34 @@
                 "address": "",
                 "business_hours": null,
                 "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Dalaberg vårdcentral, Uddevalla",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.93511532037346,
+                "latitude": 58.37135454226647,
+                "city": "Uddevalla",
+                "cp": "45172"
+            },
+            "metadata": {
+                "address": "Lövskogsgatan 8, 451 72, Uddevalla",
+                "business_hours": null,
+                "phone_number": "010-441 68 00"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -7240,6 +7212,34 @@
                 "address": "Storgatan 14 A, 521 60, Stenstorp",
                 "business_hours": null,
                 "phone_number": "0500-47 29 50"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Dingle Lantbruksskolan",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
             },
             "prochain_rdv": null,
             "plateforme": "1177",
