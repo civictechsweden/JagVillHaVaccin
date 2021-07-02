@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-02 01:56:49.495006+02:00",
+    "last_updated": "2021-07-02 03:09:12.621176+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-07-08 13:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 1,
             "internal_id": "2052",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -30,7 +30,9 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "07",
             "nom": "Folkets Hus",
@@ -46,10 +48,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-09 09:32:00",
+            "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 0,
             "internal_id": 29999,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -58,9 +60,7 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        }
-    ],
-    "centres_indisponibles": [
+        },
         {
             "departement": "07",
             "nom": "Vårdcentralen Achima Care Vislanda",
