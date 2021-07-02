@@ -1,8 +1,120 @@
 {
     "version": 1,
-    "last_updated": "2021-07-02 22:59:34.992980+02:00",
+    "last_updated": "2021-07-02 23:26:35.347543+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "14",
+            "nom": "iDoc vaccination Partille Arena",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.116960802546794,
+                "latitude": 57.7399881139274,
+                "city": "Partille",
+                "cp": "43333"
+            },
+            "metadata": {
+                "address": "Arenatorget 2, 433 33, Partille, Partille Arena",
+                "business_hours": null,
+                "phone_number": "079-098 05 59"
+            },
+            "prochain_rdv": "2021-07-09 15:32:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "2071",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Distriktsläkarna Mölndal Vårdcentral och BVC",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.001175112061699,
+                "latitude": 57.65957290427461,
+                "city": "Mölndal",
+                "cp": "43148"
+            },
+            "metadata": {
+                "address": "Jungfruplatsen 2, 431 48, Mölndal",
+                "business_hours": null,
+                "phone_number": "031-363 61 30"
+            },
+            "prochain_rdv": "2021-07-09 15:32:00",
+            "plateforme": "Patient",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "92adacb2-a27c-11eb-a8eb-fa163e329242",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Medipart Partille Vårdcentral och BVC",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.107305375007627,
+                "latitude": 57.73958936116547,
+                "city": "Partille",
+                "cp": "43333"
+            },
+            "metadata": {
+                "address": "Gamla Kronvägen 13A, 433 33, Partille",
+                "business_hours": null,
+                "phone_number": "031-390 99 00"
+            },
+            "prochain_rdv": "2021-07-09 15:32:00",
+            "plateforme": "Patient",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "b24e2b1b-b225-11eb-91e2-fa163e329242",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Scandinavium",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "14",
             "nom": "Närhälsan Bäckefors Dalslands Sjukhus",
@@ -21,35 +133,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 11,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Dingle Lantbruksskolan",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 10,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -6500,34 +6584,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Scandinavium",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Vara Konserthus",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7240,6 +7296,34 @@
                 "address": "Storgatan 14 A, 521 60, Stenstorp",
                 "business_hours": null,
                 "phone_number": "0500-47 29 50"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Dingle Lantbruksskolan",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -10662,90 +10746,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2121",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "iDoc vaccination Partille Arena",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.116960802546794,
-                "latitude": 57.7399881139274,
-                "city": "Partille",
-                "cp": "43333"
-            },
-            "metadata": {
-                "address": "Arenatorget 2, 433 33, Partille, Partille Arena",
-                "business_hours": null,
-                "phone_number": "079-098 05 59"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2071",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Distriktsläkarna Mölndal Vårdcentral och BVC",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.001175112061699,
-                "latitude": 57.65957290427461,
-                "city": "Mölndal",
-                "cp": "43148"
-            },
-            "metadata": {
-                "address": "Jungfruplatsen 2, 431 48, Mölndal",
-                "business_hours": null,
-                "phone_number": "031-363 61 30"
-            },
-            "prochain_rdv": null,
-            "plateforme": "Patient",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "92adacb2-a27c-11eb-a8eb-fa163e329242",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Medipart Partille Vårdcentral och BVC",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.107305375007627,
-                "latitude": 57.73958936116547,
-                "city": "Partille",
-                "cp": "43333"
-            },
-            "metadata": {
-                "address": "Gamla Kronvägen 13A, 433 33, Partille",
-                "business_hours": null,
-                "phone_number": "031-390 99 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "Patient",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "b24e2b1b-b225-11eb-91e2-fa163e329242",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
