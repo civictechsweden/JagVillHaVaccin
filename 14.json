@@ -1,36 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-07-02 20:58:15.161199+02:00",
+    "last_updated": "2021-07-02 21:24:20.223908+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "14",
-            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.346591812509288,
-                "latitude": 57.48063225486268,
-                "city": "Tranemo",
-                "cp": "51434"
-            },
-            "metadata": {
-                "address": "Storgatan 42, 514 34, Tranemo",
-                "business_hours": null,
-                "phone_number": "0325-472 10"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "14",
             "nom": "Närhälsan Bäckefors Dalslands Sjukhus",
@@ -61,18 +33,46 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Stenungsund vårdcentral, Stenungsund",
+            "nom": "Närhälsan Herrljunga vårdcentral, Herrljunga",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 11.817927130264705,
-                "latitude": 58.06648177430393,
-                "city": "Stenungsund",
-                "cp": "44430"
+                "longitude": 13.014756700887173,
+                "latitude": 58.07601692547374,
+                "city": "Herrljunga",
+                "cp": "52432"
             },
             "metadata": {
-                "address": "Jullen 3, 444 30, Stenungsund",
+                "address": "Horsbyvägen 16A, 524 32, Herrljunga",
                 "business_hours": null,
-                "phone_number": "010-473 32 20"
+                "phone_number": "0513-177 20"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Stenstorp vårdcentral, Stenstorp",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.717400041889025,
+                "latitude": 58.273721072294435,
+                "city": "Falköping",
+                "cp": "52160"
+            },
+            "metadata": {
+                "address": "Storgatan 14 A, 521 60, Stenstorp",
+                "business_hours": null,
+                "phone_number": "0500-47 29 50"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -6360,6 +6360,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.346591812509288,
+                "latitude": 57.48063225486268,
+                "city": "Tranemo",
+                "cp": "51434"
+            },
+            "metadata": {
+                "address": "Storgatan 42, 514 34, Tranemo",
+                "business_hours": null,
+                "phone_number": "0325-472 10"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Hjo vårdcentral, Hjo",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7144,6 +7172,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Stenungsund vårdcentral, Stenungsund",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.817927130264705,
+                "latitude": 58.06648177430393,
+                "city": "Stenungsund",
+                "cp": "44430"
+            },
+            "metadata": {
+                "address": "Jullen 3, 444 30, Stenungsund",
+                "business_hours": null,
+                "phone_number": "010-473 32 20"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Ågårdsskogen vårdcentral, Lidköping",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7156,62 +7212,6 @@
                 "address": "Tallskogsvägen 2, 531 51, Lidköping",
                 "business_hours": null,
                 "phone_number": "0510-854 12"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Herrljunga vårdcentral, Herrljunga",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.014756700887173,
-                "latitude": 58.07601692547374,
-                "city": "Herrljunga",
-                "cp": "52432"
-            },
-            "metadata": {
-                "address": "Horsbyvägen 16A, 524 32, Herrljunga",
-                "business_hours": null,
-                "phone_number": "0513-177 20"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Stenstorp vårdcentral, Stenstorp",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.717400041889025,
-                "latitude": 58.273721072294435,
-                "city": "Falköping",
-                "cp": "52160"
-            },
-            "metadata": {
-                "address": "Storgatan 14 A, 521 60, Stenstorp",
-                "business_hours": null,
-                "phone_number": "0500-47 29 50"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
