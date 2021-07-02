@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-02 12:56:27.357795+02:00",
+    "last_updated": "2021-07-02 13:18:14.447726+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,39 +18,11 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-12 12:04:00",
+            "prochain_rdv": "2021-07-05 16:32:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1135,
+            "appointment_count": 1131,
             "internal_id": "2112",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "20",
-            "nom": "Doktor.se / Ludvika",
-            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "Ludvika",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Sporthallen Ludvika, Tingshusgatan 18",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-07-13 13:52:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 678,
-            "internal_id": "2115",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -77,7 +49,7 @@
             "prochain_rdv": "2021-07-13 13:56:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 633,
+            "appointment_count": 632,
             "internal_id": "2113",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -89,24 +61,24 @@
         },
         {
             "departement": "20",
-            "nom": "Doktor.se / Falun",
+            "nom": "Doktor.se / Ludvika",
             "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
             "location": {
                 "longitude": "",
                 "latitude": "",
-                "city": "Falun",
+                "city": "Ludvika",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Kulturhuset Tio14 (Folkets hus), Teatergatan 5",
+                "address": "Sporthallen Ludvika, Tingshusgatan 18",
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-14 17:48:00",
+            "prochain_rdv": "2021-07-13 13:56:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 770,
-            "internal_id": "2111",
+            "appointment_count": 677,
+            "internal_id": "2115",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -145,6 +117,36 @@
         },
         {
             "departement": "20",
+            "nom": "Doktor.se / Falun",
+            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Falun",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Kulturhuset Tio14 (Folkets hus), Teatergatan 5",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-07-15 13:52:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 764,
+            "internal_id": "2111",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        }
+    ],
+    "centres_indisponibles": [
+        {
+            "departement": "20",
             "nom": "Doktor.se / Avesta",
             "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
             "location": {
@@ -158,10 +160,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-23 16:40:00",
+            "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 0,
             "internal_id": "2114",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -170,9 +172,7 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        }
-    ],
-    "centres_indisponibles": [
+        },
         {
             "departement": "20",
             "nom": "Kronans Apotek Sälen",
