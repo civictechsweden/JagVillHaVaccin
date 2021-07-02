@@ -1,27 +1,27 @@
 {
     "version": 1,
-    "last_updated": "2021-07-02 12:49:40.315470+02:00",
+    "last_updated": "2021-07-02 13:03:01.748950+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "24",
-            "nom": "Tärnaby sjukstuga hälsocentral",
+            "nom": "Stenbergska hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 15.31339230368373,
-                "latitude": 65.71588725571208,
-                "city": "Storuman",
+                "longitude": 18.673473259388757,
+                "latitude": 64.59984994028584,
+                "city": "Lycksele",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Granvägen 7, Tärnaby",
+                "address": "Johan Skyttes väg 6",
                 "business_hours": null,
-                "phone_number": "090-785 44 70"
+                "phone_number": "090-785 44 48"
             },
-            "prochain_rdv": "2021-07-02 00:00:00",
+            "prochain_rdv": "2021-07-06 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 379,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -48,7 +48,7 @@
             "prochain_rdv": "2021-07-07 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 589,
+            "appointment_count": 590,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,34 +77,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 4,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Stenbergska hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 18.673473259388757,
-                "latitude": 64.59984994028584,
-                "city": "Lycksele",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Johan Skyttes väg 6",
-                "business_hours": null,
-                "phone_number": "090-785 44 48"
-            },
-            "prochain_rdv": "2021-07-09 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 379,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -857,6 +829,34 @@
                 "address": "Skelleftehamnsvägen 206 A, Ursviken",
                 "business_hours": null,
                 "phone_number": "090-785 91 12"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Tärnaby sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 15.31339230368373,
+                "latitude": 65.71588725571208,
+                "city": "Storuman",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Granvägen 7, Tärnaby",
+                "business_hours": null,
+                "phone_number": "090-785 44 70"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
