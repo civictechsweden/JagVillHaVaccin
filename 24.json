@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-03 16:25:18.771947+02:00",
+    "last_updated": "2021-07-03 16:45:15.770792+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -160,7 +160,7 @@
             "prochain_rdv": "2021-07-21 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -189,34 +189,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 6,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Bureå hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 21.19865212175603,
-                "latitude": 64.62215649223296,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nygatan 9",
-                "business_hours": null,
-                "phone_number": "090-785 91 13"
-            },
-            "prochain_rdv": "2021-07-22 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -605,6 +577,34 @@
                 "address": "Ringen 76, 93631 Boliden",
                 "business_hours": null,
                 "phone_number": "090-785 91 23"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Bureå hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 21.19865212175603,
+                "latitude": 64.62215649223296,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nygatan 9",
+                "business_hours": null,
+                "phone_number": "090-785 91 13"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
