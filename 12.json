@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-04 22:46:00.173547+02:00",
+    "last_updated": "2021-07-04 23:00:00.258002+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -17,10 +17,10 @@
                 "address": "Sjukhusvägen 1, Simrishamn",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-07-05 10:19:00",
+            "prochain_rdv": "2021-07-05 16:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 529,
+            "appointment_count": 527,
             "internal_id": "2020",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -113,24 +113,23 @@
         },
         {
             "departement": "12",
-            "nom": "Kronans Apotek Båstad",
+            "nom": "Vaccinova Tomelilla",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
-                "longitude": 12.837022713078733,
-                "latitude": 56.433153288605794,
-                "city": "Båstad",
+                "longitude": 13.958137668340374,
+                "latitude": 55.544381938827925,
+                "city": "Tomelilla",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Kyrkogatan 21, Båstad",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
+                "address": "Östergatan 21, Tomelilla",
+                "business_hours": null
             },
-            "prochain_rdv": "2021-07-09 12:25:00",
+            "prochain_rdv": "2021-07-08 14:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "1535",
+            "appointment_count": 328,
+            "internal_id": "2021",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -169,33 +168,6 @@
         },
         {
             "departement": "12",
-            "nom": "Vaccinova Tomelilla",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 13.958137668340374,
-                "latitude": 55.544381938827925,
-                "city": "Tomelilla",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Östergatan 21, Tomelilla",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-16 09:25:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 328,
-            "internal_id": "2021",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Vaccinova Höganäs",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -208,10 +180,10 @@
                 "address": "Östra Parkgatan 2, Höganäs",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-07-19 09:50:00",
+            "prochain_rdv": "2021-07-19 09:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 405,
+            "appointment_count": 402,
             "internal_id": "2019",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -320,7 +292,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 5543,
+            "appointment_count": 5540,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -348,7 +320,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 480,
+            "appointment_count": 478,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -376,7 +348,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 3148,
+            "appointment_count": 3147,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -460,7 +432,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 3642,
+            "appointment_count": 3638,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1629,6 +1601,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "1538",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Kronans Apotek Båstad",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 12.837022713078733,
+                "latitude": 56.433153288605794,
+                "city": "Båstad",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Kyrkogatan 21, Båstad",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1535",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
