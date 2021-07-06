@@ -1,37 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-07-06 07:55:06.670074+02:00",
+    "last_updated": "2021-07-06 08:29:19.168256+02:00",
     "last_scrap": [],
-    "centres_disponibles": [
-        {
-            "departement": "08",
-            "nom": "Läkarmottagning Dorrit Ruge",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 15.58098163429231,
-                "latitude": 57.32054440829297,
-                "city": "Hultsfred",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Södra Järnvägsgatan 5, Virserum",
-                "business_hours": null,
-                "phone_number": "0495-316 00"
-            },
-            "prochain_rdv": "2021-07-07 15:10:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 12,
-            "internal_id": "510",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        }
-    ],
+    "centres_disponibles": [],
     "centres_indisponibles": [
         {
             "departement": "08",
@@ -277,6 +248,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "505",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Läkarmottagning Dorrit Ruge",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 15.58098163429231,
+                "latitude": 57.32054440829297,
+                "city": "Hultsfred",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Södra Järnvägsgatan 5, Virserum",
+                "business_hours": null,
+                "phone_number": "0495-316 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "510",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
