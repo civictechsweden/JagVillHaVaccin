@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-07 02:00:05.225692+02:00",
+    "last_updated": "2021-07-07 03:16:07.705527+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -2261,7 +2261,7 @@
             "prochain_rdv": "2021-07-09 15:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 12,
+            "appointment_count": 10,
             "internal_id": "2082",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2289,7 +2289,7 @@
             "prochain_rdv": "2021-07-09 15:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 12,
+            "appointment_count": 10,
             "internal_id": "2082",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2357,62 +2357,6 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Hisingsbacka",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.98214942257889,
-                "latitude": 57.75033771020452,
-                "city": "Göteborg",
-                "cp": "42248"
-            },
-            "metadata": {
-                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": "2021-07-13 14:25:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "2091",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Hisingsbacka",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.98214942257889,
-                "latitude": 57.75033771020452,
-                "city": "Göteborg",
-                "cp": "42248"
-            },
-            "metadata": {
-                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": "2021-07-13 14:25:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "2091",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Bäckefors Dalslands Sjukhus",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -2429,35 +2373,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 25,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Lindome vårdcentral, Lindome",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.088026338281288,
-                "latitude": 57.57627864929657,
-                "city": "Mölndal",
-                "cp": "43730"
-            },
-            "metadata": {
-                "address": "Almåsgången 7, 437 30, Lindome",
-                "business_hours": null,
-                "phone_number": "010-473 39 20"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 24,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -9496,6 +9412,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Lindome vårdcentral, Lindome",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.088026338281288,
+                "latitude": 57.57627864929657,
+                "city": "Mölndal",
+                "cp": "43730"
+            },
+            "metadata": {
+                "address": "Almåsgången 7, 437 30, Lindome",
+                "business_hours": null,
+                "phone_number": "010-473 39 20"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Mösseberg vårdcentral, Falköping",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -9934,6 +9878,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2078",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Hisingsbacka",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.98214942257889,
+                "latitude": 57.75033771020452,
+                "city": "Göteborg",
+                "cp": "42248"
+            },
+            "metadata": {
+                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2091",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -10466,6 +10438,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2078",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Hisingsbacka",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.98214942257889,
+                "latitude": 57.75033771020452,
+                "city": "Göteborg",
+                "cp": "42248"
+            },
+            "metadata": {
+                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2091",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
