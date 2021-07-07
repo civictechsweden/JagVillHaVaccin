@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-07-07 04:12:24.900120+02:00",
+    "last_updated": "2021-07-07 04:45:31.931680+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Nacksta",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 17.255449827674113,
+                "latitude": 62.39297855695255,
+                "city": "Sundsvall",
+                "cp": "85350"
+            },
+            "metadata": {
+                "address": "Axvägen 15, 853 50 Sundsvall",
+                "business_hours": null,
+                "phone_number": "0611-804 00"
+            },
+            "prochain_rdv": "2021-07-07 08:18:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 238,
+            "internal_id": "1291",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "22",
             "nom": "Vaccinationsenhet Härnösand",
@@ -89,34 +117,6 @@
         },
         {
             "departement": "22",
-            "nom": "Vaccinationsenhet Bollsta",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 17.6703668135133,
-                "latitude": 62.99855335986242,
-                "city": "Kramfors",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Bollsta Folketspark, Tunsjövägen 4",
-                "business_hours": null,
-                "phone_number": "0611-804 00"
-            },
-            "prochain_rdv": "2021-07-08 13:08:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 62,
-            "internal_id": "1321",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
             "nom": "Vaccinationsenhet Sollefteå, Hullsta gård",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
@@ -145,24 +145,24 @@
         },
         {
             "departement": "22",
-            "nom": "Vaccinationsenhet Nacksta",
+            "nom": "Vaccinationsenhet Bollsta",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
-                "longitude": 17.255449827674113,
-                "latitude": 62.39297855695255,
-                "city": "Sundsvall",
-                "cp": "85350"
+                "longitude": 17.6703668135133,
+                "latitude": 62.99855335986242,
+                "city": "Kramfors",
+                "cp": "00000"
             },
             "metadata": {
-                "address": "Axvägen 15, 853 50 Sundsvall",
+                "address": "Bollsta Folketspark, Tunsjövägen 4",
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-07-12 10:36:00",
+            "prochain_rdv": "2021-07-13 10:41:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 238,
-            "internal_id": "1291",
+            "appointment_count": 61,
+            "internal_id": "1321",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -175,18 +175,17 @@
     "centres_indisponibles": [
         {
             "departement": "22",
-            "nom": "Ungdomsmottagningen Kramfors",
+            "nom": "Familjecentralen Kramfors",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
-                "longitude": 17.779325461322767,
-                "latitude": 62.931495869285044,
+                "longitude": 17.780289916464852,
+                "latitude": 62.93324145490745,
                 "city": "Kramfors",
-                "cp": "87230"
+                "cp": "00000"
             },
             "metadata": {
-                "address": "Limstagatan 9, 2 tr, 872 30 Kramfors",
-                "business_hours": null,
-                "phone_number": "0612-144 10"
+                "address": "Bruksgatan 12",
+                "business_hours": null
             },
             "prochain_rdv": null,
             "plateforme": "MittVaccin",
@@ -427,18 +426,18 @@
         },
         {
             "departement": "22",
-            "nom": "Ungdomsmottagningen Ånge",
+            "nom": "Hälsocentralen Ånge",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
-                "longitude": 15.666861914877098,
-                "latitude": 62.52601360641989,
+                "longitude": 15.661994807027176,
+                "latitude": 62.52449235305313,
                 "city": "Ånge",
-                "cp": "84132"
+                "cp": "00000"
             },
             "metadata": {
-                "address": "Solgårdgatan 18, 841 32 Ånge",
+                "address": "Bankgatan 1",
                 "business_hours": null,
-                "phone_number": "060-18 48 80"
+                "phone_number": "0690-156 60"
             },
             "prochain_rdv": null,
             "plateforme": "MittVaccin",
