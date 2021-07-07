@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-07-07 10:31:19.234068+02:00",
+    "last_updated": "2021-07-07 10:50:11.503489+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "24",
+            "nom": "Vaccina Vindeln, Hotell Vindelgallerian",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.7274798,
+                "latitude": 64.2011566,
+                "city": "Vindell",
+                "cp": "92232"
+            },
+            "metadata": {
+                "address": "Karlsgårdsvägen 22, 922 32 Vindeln",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-07-07 12:58:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": 31524,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "24",
             "nom": "Storumans sjukstuga hälsocentral",
@@ -1479,34 +1507,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": 31519,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Vaccina Vindeln, Hotell Vindelgallerian",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.7274798,
-                "latitude": 64.2011566,
-                "city": "Vindell",
-                "cp": "92232"
-            },
-            "metadata": {
-                "address": "Karlsgårdsvägen 22, 922 32 Vindeln",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 31524,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
