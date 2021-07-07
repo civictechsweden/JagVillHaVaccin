@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-07 08:56:01.525228+02:00",
+    "last_updated": "2021-07-07 09:22:16.932080+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,11 +18,39 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-07-13 09:24:00",
+            "prochain_rdv": "2021-07-07 17:33:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 794,
+            "appointment_count": 792,
             "internal_id": "1547",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Vaccinationscentral covid-19 Borgholm",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.64780260606582,
+                "latitude": 56.87868831899666,
+                "city": "Borgholm",
+                "cp": "38732"
+            },
+            "metadata": {
+                "address": "Östra kyrkogatan 8, 387 32 Borgholm",
+                "business_hours": null,
+                "phone_number": "0480-844 44"
+            },
+            "prochain_rdv": "2021-07-09 09:48:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "2056",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -74,7 +102,7 @@
                 "business_hours": null,
                 "phone_number": "0485-391 00"
             },
-            "prochain_rdv": "2021-07-14 14:45:00",
+            "prochain_rdv": "2021-07-14 14:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 6,
@@ -102,10 +130,10 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-07-15 08:46:00",
+            "prochain_rdv": "2021-07-15 08:54:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 692,
+            "appointment_count": 674,
             "internal_id": "1546",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -133,7 +161,7 @@
             "prochain_rdv": "2021-07-15 09:24:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 282,
+            "appointment_count": 266,
             "internal_id": "2053",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -158,7 +186,7 @@
                 "business_hours": null,
                 "phone_number": "0486-412 30"
             },
-            "prochain_rdv": "2021-07-15 13:25:00",
+            "prochain_rdv": "2021-07-15 13:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 8,
@@ -186,10 +214,10 @@
                 "business_hours": null,
                 "phone_number": "0492-176 00"
             },
-            "prochain_rdv": "2021-07-28 14:15:00",
+            "prochain_rdv": "2021-07-28 14:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 18,
+            "appointment_count": 10,
             "internal_id": "491",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -201,34 +229,6 @@
         }
     ],
     "centres_indisponibles": [
-        {
-            "departement": "08",
-            "nom": "Vaccinationscentral covid-19 Borgholm",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.64780260606582,
-                "latitude": 56.87868831899666,
-                "city": "Borgholm",
-                "cp": "38732"
-            },
-            "metadata": {
-                "address": "Östra kyrkogatan 8, 387 32 Borgholm",
-                "business_hours": null,
-                "phone_number": "0480-844 44"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2056",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "08",
             "nom": "Borgholms hälsocentral",
