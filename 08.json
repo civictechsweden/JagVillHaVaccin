@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-07-07 11:48:15.279431+02:00",
+    "last_updated": "2021-07-07 12:00:49.186878+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "08",
+            "nom": "Vaccinationscentral covid-19 Borgholm",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.64780260606582,
+                "latitude": 56.87868831899666,
+                "city": "Borgholm",
+                "cp": "38732"
+            },
+            "metadata": {
+                "address": "Östra kyrkogatan 8, 387 32 Borgholm",
+                "business_hours": null,
+                "phone_number": "0480-844 44"
+            },
+            "prochain_rdv": "2021-07-07 14:24:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "2056",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "08",
             "nom": "Vaccinationscentral covid-19 Västervik",
@@ -18,7 +46,7 @@
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-07-13 09:33:00",
+            "prochain_rdv": "2021-07-08 09:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 756,
@@ -33,24 +61,24 @@
         },
         {
             "departement": "08",
-            "nom": "Vaccinationscentral covid-19 Kalmar",
+            "nom": "Vaccinationscentral covid-19 Oskarshamn",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
-                "longitude": 16.35640759555987,
-                "latitude": 56.66417229353723,
-                "city": "Kalmar",
+                "longitude": 16.433293539951787,
+                "latitude": 57.26561125193819,
+                "city": "Oskarshamn",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Tullslätten 4, Kalmar",
+                "address": "Döderhultsvägen 26-28, Oskarshamn",
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-07-14 12:56:00",
+            "prochain_rdv": "2021-07-09 10:39:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 606,
-            "internal_id": "1546",
+            "appointment_count": 222,
+            "internal_id": "2053",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -117,24 +145,24 @@
         },
         {
             "departement": "08",
-            "nom": "Vaccinationscentral covid-19 Oskarshamn",
+            "nom": "Vaccinationscentral covid-19 Kalmar",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
-                "longitude": 16.433293539951787,
-                "latitude": 57.26561125193819,
-                "city": "Oskarshamn",
+                "longitude": 16.35640759555987,
+                "latitude": 56.66417229353723,
+                "city": "Kalmar",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Döderhultsvägen 26-28, Oskarshamn",
+                "address": "Tullslätten 4, Kalmar",
                 "business_hours": null,
                 "phone_number": "0480-844 44"
             },
-            "prochain_rdv": "2021-07-15 09:45:00",
+            "prochain_rdv": "2021-07-15 09:26:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 220,
-            "internal_id": "2053",
+            "appointment_count": 598,
+            "internal_id": "1546",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -173,34 +201,6 @@
         }
     ],
     "centres_indisponibles": [
-        {
-            "departement": "08",
-            "nom": "Vaccinationscentral covid-19 Borgholm",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.64780260606582,
-                "latitude": 56.87868831899666,
-                "city": "Borgholm",
-                "cp": "38732"
-            },
-            "metadata": {
-                "address": "Östra kyrkogatan 8, 387 32 Borgholm",
-                "business_hours": null,
-                "phone_number": "0480-844 44"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2056",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "08",
             "nom": "Borgholms hälsocentral",
