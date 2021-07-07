@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-07 21:23:09.814921+02:00",
+    "last_updated": "2021-07-07 21:44:28.319059+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": "079-098 05 59"
             },
-            "prochain_rdv": "2021-07-08 10:08:00",
+            "prochain_rdv": "2021-07-08 10:16:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 212,
+            "appointment_count": 132,
             "internal_id": "2121",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,10 +46,10 @@
                 "business_hours": null,
                 "phone_number": "079-098 05 59"
             },
-            "prochain_rdv": "2021-07-08 10:12:00",
+            "prochain_rdv": "2021-07-08 10:16:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 204,
+            "appointment_count": 132,
             "internal_id": "2121",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -61,24 +61,52 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Kongahälla Shoppingcenter",
+            "nom": "Kronans Apotek MediCheck Överby Köpcenter",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 11.968365285147007,
-                "latitude": 57.8728591232219,
-                "city": "Kungälv",
-                "cp": "44248"
+                "longitude": 12.302888643822998,
+                "latitude": 58.31412476754703,
+                "city": "Trollhättan",
+                "cp": "46170"
             },
             "metadata": {
-                "address": "Älvebacken 1, 442 48, Kungälv",
+                "address": "Överby Köpcentrum, 461 70, Trollhättan",
                 "business_hours": null,
                 "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": "2021-07-13 15:25:00",
+            "prochain_rdv": "2021-07-12 15:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 3,
-            "internal_id": "2082",
+            "appointment_count": 1,
+            "internal_id": "2092",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Överby Köpcenter",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.302888643822998,
+                "latitude": 58.31412476754703,
+                "city": "Trollhättan",
+                "cp": "46170"
+            },
+            "metadata": {
+                "address": "Överby Köpcentrum, 461 70, Trollhättan",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-07-12 15:15:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "2092",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -117,18 +145,74 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
+            "nom": "Kronans Apotek MediCheck Kongahälla Shoppingcenter",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 13.956163123936285,
-                "latitude": 58.17816034620173,
-                "city": "Tidaholm",
-                "cp": "52230"
+                "longitude": 11.968365285147007,
+                "latitude": 57.8728591232219,
+                "city": "Kungälv",
+                "cp": "44248"
             },
             "metadata": {
-                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
+                "address": "Älvebacken 1, 442 48, Kungälv",
                 "business_hours": null,
-                "phone_number": "0502-180 11"
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-07-13 15:25:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 3,
+            "internal_id": "2082",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tjörn vårdcentral, Kållekärr",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.657691156758297,
+                "latitude": 58.02590426857552,
+                "city": "Tjörn",
+                "cp": "47194"
+            },
+            "metadata": {
+                "address": "Syster Ebbas väg 1, 471 94, Kållekärr",
+                "business_hours": null,
+                "phone_number": "010-473 46 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Vänerparken vårdcentral, Vänersborg",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.320768911766642,
+                "latitude": 58.374752961014416,
+                "city": "Vänersborg",
+                "cp": "46235"
+            },
+            "metadata": {
+                "address": "Vänerparken 21, 462 35, Vänersborg",
+                "business_hours": null,
+                "phone_number": "010-441 62 00"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -161,7 +245,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 263,
+            "appointment_count": 259,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -173,18 +257,18 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Lindome vårdcentral, Lindome",
+            "nom": "Närhälsan Stenungsund vårdcentral, Stenungsund",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 12.088026338281288,
-                "latitude": 57.57627864929657,
-                "city": "Mölndal",
-                "cp": "43730"
+                "longitude": 11.817927130264705,
+                "latitude": 58.06648177430393,
+                "city": "Stenungsund",
+                "cp": "44430"
             },
             "metadata": {
-                "address": "Almåsgången 7, 437 30, Lindome",
+                "address": "Jullen 3, 444 30, Stenungsund",
                 "business_hours": null,
-                "phone_number": "010-473 39 20"
+                "phone_number": "010-473 32 20"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -6360,34 +6444,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tjörn vårdcentral, Kållekärr",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.657691156758297,
-                "latitude": 58.02590426857552,
-                "city": "Tjörn",
-                "cp": "47194"
-            },
-            "metadata": {
-                "address": "Syster Ebbas väg 1, 471 94, Kållekärr",
-                "business_hours": null,
-                "phone_number": "010-473 46 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Svenljunga vårdcentral, Svenljunga",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6752,18 +6808,18 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Vänerparken vårdcentral, Vänersborg",
+            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 12.320768911766642,
-                "latitude": 58.374752961014416,
-                "city": "Vänersborg",
-                "cp": "46235"
+                "longitude": 13.956163123936285,
+                "latitude": 58.17816034620173,
+                "city": "Tidaholm",
+                "cp": "52230"
             },
             "metadata": {
-                "address": "Vänerparken 21, 462 35, Vänersborg",
+                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
                 "business_hours": null,
-                "phone_number": "010-441 62 00"
+                "phone_number": "0502-180 11"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -7200,18 +7256,18 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Mösseberg vårdcentral, Falköping",
+            "nom": "Närhälsan Lindome vårdcentral, Lindome",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 13.551919293701959,
-                "latitude": 58.187716349794115,
-                "city": "Falköping",
-                "cp": "52137"
+                "longitude": 12.088026338281288,
+                "latitude": 57.57627864929657,
+                "city": "Mölndal",
+                "cp": "43730"
             },
             "metadata": {
-                "address": "Danska vägen 62, 521 37, Falköping",
+                "address": "Almåsgången 7, 437 30, Lindome",
                 "business_hours": null,
-                "phone_number": "0515-878 90"
+                "phone_number": "010-473 39 20"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -7228,18 +7284,18 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Stenungsund vårdcentral, Stenungsund",
+            "nom": "Närhälsan Mösseberg vårdcentral, Falköping",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 11.817927130264705,
-                "latitude": 58.06648177430393,
-                "city": "Stenungsund",
-                "cp": "44430"
+                "longitude": 13.551919293701959,
+                "latitude": 58.187716349794115,
+                "city": "Falköping",
+                "cp": "52137"
             },
             "metadata": {
-                "address": "Jullen 3, 444 30, Stenungsund",
+                "address": "Danska vägen 62, 521 37, Falköping",
                 "business_hours": null,
-                "phone_number": "010-473 32 20"
+                "phone_number": "0515-878 90"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -7554,34 +7610,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2081",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Överby Köpcenter",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.302888643822998,
-                "latitude": 58.31412476754703,
-                "city": "Trollhättan",
-                "cp": "46170"
-            },
-            "metadata": {
-                "address": "Överby Köpcentrum, 461 70, Trollhättan",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2092",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -9234,34 +9262,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2081",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Överby Köpcenter",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.302888643822998,
-                "latitude": 58.31412476754703,
-                "city": "Trollhättan",
-                "cp": "46170"
-            },
-            "metadata": {
-                "address": "Överby Köpcentrum, 461 70, Trollhättan",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2092",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
