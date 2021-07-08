@@ -1,28 +1,56 @@
 {
     "version": 1,
-    "last_updated": "2021-07-08 10:30:17.216131+02:00",
+    "last_updated": "2021-07-08 10:50:17.271662+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Kongahälla Shoppingcenter",
+            "nom": "Kronans Apotek MediCheck Torslanda",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 11.968365285147007,
-                "latitude": 57.8728591232219,
-                "city": "Kungälv",
-                "cp": "44248"
+                "longitude": 11.774456734363756,
+                "latitude": 57.709823197639466,
+                "city": "Göteborg",
+                "cp": "42337"
             },
             "metadata": {
-                "address": "Älvebacken 1, 442 48, Kungälv",
+                "address": "Gamla flygplatsvägen 40, 423 37, Torslanda",
                 "business_hours": null,
                 "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": "2021-07-13 15:25:00",
+            "prochain_rdv": "2021-07-09 10:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 3,
-            "internal_id": "2082",
+            "appointment_count": 1,
+            "internal_id": "2090",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Torslanda",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.774456734363756,
+                "latitude": 57.709823197639466,
+                "city": "Göteborg",
+                "cp": "42337"
+            },
+            "metadata": {
+                "address": "Gamla flygplatsvägen 40, 423 37, Torslanda",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-07-09 10:45:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "2090",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -61,23 +89,51 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Svenljunga vårdcentral, Svenljunga",
+            "nom": "Kronans Apotek MediCheck Kongahälla Shoppingcenter",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 13.116587190134467,
-                "latitude": 57.494098921820274,
-                "city": "Svenljunga",
-                "cp": "51254"
+                "longitude": 11.968365285147007,
+                "latitude": 57.8728591232219,
+                "city": "Kungälv",
+                "cp": "44248"
             },
             "metadata": {
-                "address": "Klockaregatan 3, 512 54, Svenljunga",
+                "address": "Älvebacken 1, 442 48, Kungälv",
                 "business_hours": null,
-                "phone_number": "0325-61 91 00"
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-07-13 15:25:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 3,
+            "internal_id": "2082",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Landvetter vårdcentral, Landvetter",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.211113815508927,
+                "latitude": 57.68686580612976,
+                "city": "Härryda",
+                "cp": "43832"
+            },
+            "metadata": {
+                "address": "Brattåstorget 13, 438 32, Landvetter",
+                "business_hours": null,
+                "phone_number": "010-473 37 00"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 6,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -105,7 +161,35 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 223,
+            "appointment_count": 221,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Karlsborg vårdcentral, Karlsborg",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 14.516093296371812,
+                "latitude": 58.530190343899214,
+                "city": "Karlsborg",
+                "cp": "54630"
+            },
+            "metadata": {
+                "address": "Kärleksstigen 4B, 546 30, Karlsborg",
+                "business_hours": null,
+                "phone_number": "0505-183 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -133,7 +217,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 741,
+            "appointment_count": 711,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -6332,6 +6416,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Svenljunga vårdcentral, Svenljunga",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.116587190134467,
+                "latitude": 57.494098921820274,
+                "city": "Svenljunga",
+                "cp": "51254"
+            },
+            "metadata": {
+                "address": "Klockaregatan 3, 512 54, Svenljunga",
+                "business_hours": null,
+                "phone_number": "0325-61 91 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Skogslyckan vårdcentral, Uddevalla",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6920,34 +7032,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Landvetter vårdcentral, Landvetter",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.211113815508927,
-                "latitude": 57.68686580612976,
-                "city": "Härryda",
-                "cp": "43832"
-            },
-            "metadata": {
-                "address": "Brattåstorget 13, 438 32, Landvetter",
-                "business_hours": null,
-                "phone_number": "010-473 37 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Älvängen vårdcentral, Älvängen",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7016,34 +7100,6 @@
                 "address": "",
                 "business_hours": null,
                 "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Karlsborg vårdcentral, Karlsborg",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 14.516093296371812,
-                "latitude": 58.530190343899214,
-                "city": "Karlsborg",
-                "cp": "54630"
-            },
-            "metadata": {
-                "address": "Kärleksstigen 4B, 546 30, Karlsborg",
-                "business_hours": null,
-                "phone_number": "0505-183 00"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -7750,34 +7806,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2083",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Torslanda",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.774456734363756,
-                "latitude": 57.709823197639466,
-                "city": "Göteborg",
-                "cp": "42337"
-            },
-            "metadata": {
-                "address": "Gamla flygplatsvägen 40, 423 37, Torslanda",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2090",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -9458,34 +9486,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2083",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Torslanda",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.774456734363756,
-                "latitude": 57.709823197639466,
-                "city": "Göteborg",
-                "cp": "42337"
-            },
-            "metadata": {
-                "address": "Gamla flygplatsvägen 40, 423 37, Torslanda",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2090",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
