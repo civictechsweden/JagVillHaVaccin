@@ -1,8 +1,35 @@
 {
     "version": 1,
-    "last_updated": "2021-07-09 08:59:59.870536+02:00",
+    "last_updated": "2021-07-09 09:25:32.529866+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "24",
+            "nom": "Central vaccinationsmottagning Umeå",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.24274041731457,
+                "latitude": 63.83290649714245,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nolia, Signalvägen 3, Umeå",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-12 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1455,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "24",
             "nom": "Stenbergska hälsocentral",
@@ -49,35 +76,8 @@
             "prochain_rdv": "2021-07-12 11:24:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 415,
+            "appointment_count": 413,
             "internal_id": 31519,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Central vaccinationsmottagning Umeå",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.24274041731457,
-                "latitude": 63.83290649714245,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nolia, Signalvägen 3, Umeå",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-13 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1457,
-            "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -132,7 +132,7 @@
             "prochain_rdv": "2021-07-14 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 17,
+            "appointment_count": 16,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -216,7 +216,7 @@
             "prochain_rdv": "2021-07-14 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 164,
+            "appointment_count": 163,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -256,6 +256,34 @@
         },
         {
             "departement": "24",
+            "nom": "Hörnefors hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.909182397089975,
+                "latitude": 63.624337480884165,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Bruksgatan 4",
+                "business_hours": null,
+                "phone_number": "090-785 91 05"
+            },
+            "prochain_rdv": "2021-07-15 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Vaccina Nordmaling, Församlingsgård",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -269,10 +297,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-15 10:53:00",
+            "prochain_rdv": "2021-07-15 10:49:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 295,
+            "appointment_count": 296,
             "internal_id": 31526,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1081,34 +1109,6 @@
                 "address": "Himmelska Fridens Torg 7",
                 "business_hours": null,
                 "phone_number": "090-785 91 03"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Hörnefors hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.909182397089975,
-                "latitude": 63.624337480884165,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Bruksgatan 4",
-                "business_hours": null,
-                "phone_number": "090-785 91 05"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
