@@ -1,8 +1,35 @@
 {
     "version": 1,
-    "last_updated": "2021-07-09 13:46:31.345906+02:00",
+    "last_updated": "2021-07-09 13:59:56.543852+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "12",
+            "nom": "Vaccination Covid19 Öresundshälsan, Malmö",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 13.065192840175026,
+                "latitude": 55.5784745846457,
+                "city": "Malmö",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Derbyvägen 6E, Malmö",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-09 16:15:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 23,
+            "internal_id": "2072",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "12",
             "nom": "Doktor se Klippan Vaccinationsenhet",
@@ -20,7 +47,7 @@
             "prochain_rdv": "2021-07-10 13:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 306,
+            "appointment_count": 302,
             "internal_id": "231",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -32,23 +59,24 @@
         },
         {
             "departement": "12",
-            "nom": "Vaccinova Hyllinge",
+            "nom": "Kronans Apotek Ängelholm",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
-                "longitude": 12.95318447248824,
-                "latitude": 56.12365487415261,
-                "city": "Åstorp",
+                "longitude": 12.863032774480866,
+                "latitude": 56.24253762960139,
+                "city": "Ängelholm",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Vramsvägen 9, Åstorp",
-                "business_hours": null
+                "address": "Laxgatan 6, Ängelholm",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": "2021-07-13 11:57:00",
+            "prochain_rdv": "2021-07-12 10:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 39,
-            "internal_id": "2018",
+            "appointment_count": 41,
+            "internal_id": "1534",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -72,38 +100,11 @@
                 "business_hours": null,
                 "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": "2021-07-13 14:55:00",
+            "prochain_rdv": "2021-07-13 15:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 148,
+            "appointment_count": 145,
             "internal_id": "1535",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Vaccination Covid19 Öresundshälsan, Malmö",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 13.065192840175026,
-                "latitude": 55.5784745846457,
-                "city": "Malmö",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Derbyvägen 6E, Malmö",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-13 16:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 25,
-            "internal_id": "2072",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -141,61 +142,6 @@
         },
         {
             "departement": "12",
-            "nom": "Vaccinova Eslöv",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 13.303797540331134,
-                "latitude": 55.84018749196131,
-                "city": "Eslöv",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Norregatan 6, Eslöv",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-15 11:57:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 19,
-            "internal_id": "2022",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Kronans Apotek Ängelholm",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 12.863032774480866,
-                "latitude": 56.24253762960139,
-                "city": "Ängelholm",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Laxgatan 6, Ängelholm",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": "2021-07-15 15:50:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 40,
-            "internal_id": "1534",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Vaccinova Höganäs",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -211,8 +157,35 @@
             "prochain_rdv": "2021-07-16 12:09:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 16,
+            "appointment_count": 17,
             "internal_id": "2019",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccinova Eslöv",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 13.303797540331134,
+                "latitude": 55.84018749196131,
+                "city": "Eslöv",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Norregatan 6, Eslöv",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-16 14:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 20,
+            "internal_id": "2022",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -235,10 +208,10 @@
                 "address": "Föreningsgatan 7, Höör",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-07-16 15:35:00",
+            "prochain_rdv": "2021-07-16 15:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 4,
+            "appointment_count": 5,
             "internal_id": "1538",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -289,10 +262,10 @@
                 "address": "Försörjningsvägen 10, Simrishamn",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-07-19 15:03:00",
+            "prochain_rdv": "2021-07-20 11:51:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 343,
+            "appointment_count": 342,
             "internal_id": "2020",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -343,10 +316,10 @@
                 "address": "Companiegatan 2A, Åhus",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-07-26 12:35:00",
+            "prochain_rdv": "2021-07-26 13:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 203,
+            "appointment_count": 202,
             "internal_id": "2024",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -358,26 +331,25 @@
         },
         {
             "departement": "12",
-            "nom": "Berga Läkarhus, Helsingborg",
+            "nom": "Vaccinova Hyllinge",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
-                "longitude": 12.710842758526377,
-                "latitude": 56.0638806521683,
-                "city": "Helsingborg",
+                "longitude": 12.95318447248824,
+                "latitude": 56.12365487415261,
+                "city": "Åstorp",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Rundgången 26, Helsingborg",
-                "business_hours": null,
-                "phone_number": "042-15 50 00"
+                "address": "Vramsvägen 9, Åstorp",
+                "business_hours": null
             },
-            "prochain_rdv": null,
-            "plateforme": "1177",
+            "prochain_rdv": "2021-07-27 11:25:00",
+            "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 6,
-            "internal_id": null,
+            "appointment_count": 40,
+            "internal_id": "2018",
             "vaccine_type": null,
-            "appointment_by_phone_only": true,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -430,7 +402,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 1624,
+            "appointment_count": 1623,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -458,7 +430,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 221,
+            "appointment_count": 220,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -486,7 +458,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 32,
+            "appointment_count": 31,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -514,7 +486,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 2216,
+            "appointment_count": 2215,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -722,6 +694,34 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "12",
+            "nom": "Berga Läkarhus, Helsingborg",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 12.710842758526377,
+                "latitude": 56.0638806521683,
+                "city": "Helsingborg",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Rundgången 26, Helsingborg",
+                "business_hours": null,
+                "phone_number": "042-15 50 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "12",
             "nom": "Doktor 24 Segevångsskolan",
