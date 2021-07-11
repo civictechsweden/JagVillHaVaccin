@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-11 09:59:41.120286+02:00",
+    "last_updated": "2021-07-11 10:29:05.032329+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-07-12 11:04:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 133,
+            "appointment_count": 131,
             "internal_id": 31519,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +49,7 @@
             "prochain_rdv": "2021-07-13 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 223,
+            "appointment_count": 222,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -76,7 +76,7 @@
             "prochain_rdv": "2021-07-14 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 255,
+            "appointment_count": 248,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -172,6 +172,34 @@
         },
         {
             "departement": "24",
+            "nom": "Vännäs hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.77323730765729,
+                "latitude": 63.90955870161272,
+                "city": "Vännäs",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Umevägen 56",
+                "business_hours": null,
+                "phone_number": "090-785 44 50"
+            },
+            "prochain_rdv": "2021-07-14 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Vaccina Nordmaling, Församlingsgård",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -244,7 +272,7 @@
             "prochain_rdv": "2021-07-28 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 29,
+            "appointment_count": 28,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1305,34 +1333,6 @@
                 "address": "Storvägen 56",
                 "business_hours": null,
                 "phone_number": "090-785 44 42"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Vännäs hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.77323730765729,
-                "latitude": 63.90955870161272,
-                "city": "Vännäs",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Umevägen 56",
-                "business_hours": null,
-                "phone_number": "090-785 44 50"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
