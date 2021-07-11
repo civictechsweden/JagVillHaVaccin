@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-11 16:22:05.699350+02:00",
+    "last_updated": "2021-07-11 16:41:34.949963+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,8 +21,36 @@
             "prochain_rdv": "2021-07-14 10:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1080,
+            "appointment_count": 1072,
             "internal_id": "2050",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "06",
+            "nom": "Bra Liv Gislaved vårdcentral",
+            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 13.537324802106674,
+                "latitude": 57.30506731866744,
+                "city": "Gislaved",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Norra Långgatan 25, Gislaved",
+                "business_hours": null,
+                "phone_number": "010-244 20 15"
+            },
+            "prochain_rdv": "2021-07-14 13:27:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "1181",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -61,34 +89,6 @@
         },
         {
             "departement": "06",
-            "nom": "Bra Liv Gislaved vårdcentral",
-            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
-            "location": {
-                "longitude": 13.537324802106674,
-                "latitude": 57.30506731866744,
-                "city": "Gislaved",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Norra Långgatan 25, Gislaved",
-                "business_hours": null,
-                "phone_number": "010-244 20 15"
-            },
-            "prochain_rdv": "2021-07-15 11:09:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "1181",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "06",
             "nom": "Bra Liv Eksjö vårdcentral (åldersgrupp eller riksgrupp)",
             "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
             "location": {
@@ -105,7 +105,7 @@
             "prochain_rdv": "2021-07-15 13:51:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 91,
+            "appointment_count": 92,
             "internal_id": "1179",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -270,7 +270,7 @@
                 "business_hours": null,
                 "phone_number": "010-244 05 70"
             },
-            "prochain_rdv": "2021-07-21 14:24:00",
+            "prochain_rdv": "2021-07-21 14:27:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 66,
@@ -329,7 +329,7 @@
             "prochain_rdv": "2021-07-21 14:42:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 252,
+            "appointment_count": 249,
             "internal_id": "1210",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -410,10 +410,10 @@
                 "business_hours": null,
                 "phone_number": "010-242 37 00"
             },
-            "prochain_rdv": "2021-07-28 09:05:00",
+            "prochain_rdv": "2021-07-28 09:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 32,
+            "appointment_count": 31,
             "internal_id": "1201",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -469,7 +469,7 @@
             "prochain_rdv": "2021-08-03 10:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 65,
+            "appointment_count": 64,
             "internal_id": "1224",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
