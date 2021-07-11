@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-11 16:44:44.708004+02:00",
+    "last_updated": "2021-07-11 16:59:35.472784+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -2317,7 +2317,35 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 15,
+            "appointment_count": 16,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Stenungsund vårdcentral, Stenungsund",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.817927130264705,
+                "latitude": 58.06648177430393,
+                "city": "Stenungsund",
+                "cp": "44430"
+            },
+            "metadata": {
+                "address": "Jullen 3, 444 30, Stenungsund",
+                "business_hours": null,
+                "phone_number": "010-473 32 20"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -9424,34 +9452,6 @@
                 "address": "Danska vägen 62, 521 37, Falköping",
                 "business_hours": null,
                 "phone_number": "0515-878 90"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Stenungsund vårdcentral, Stenungsund",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.817927130264705,
-                "latitude": 58.06648177430393,
-                "city": "Stenungsund",
-                "cp": "44430"
-            },
-            "metadata": {
-                "address": "Jullen 3, 444 30, Stenungsund",
-                "business_hours": null,
-                "phone_number": "010-473 32 20"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
