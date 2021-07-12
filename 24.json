@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-12 14:42:20.301492+02:00",
+    "last_updated": "2021-07-12 15:14:10.363747+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,8 +21,36 @@
             "prochain_rdv": "2021-07-13 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 200,
+            "appointment_count": 194,
             "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Vaccina Vännäs, Medborgarskolan",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.7531455,
+                "latitude": 63.907023,
+                "city": "Vännäs",
+                "cp": "91132"
+            },
+            "metadata": {
+                "address": "Köpmangatan 15, 911 32 Vännäs",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-07-13 12:02:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 47,
+            "internal_id": 31519,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -48,7 +76,7 @@
             "prochain_rdv": "2021-07-14 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 116,
+            "appointment_count": 111,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -144,34 +172,6 @@
         },
         {
             "departement": "24",
-            "nom": "Vaccina Vännäs, Medborgarskolan",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.7531455,
-                "latitude": 63.907023,
-                "city": "Vännäs",
-                "cp": "91132"
-            },
-            "metadata": {
-                "address": "Köpmangatan 15, 911 32 Vännäs",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-07-14 11:06:00",
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 49,
-            "internal_id": 31519,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Vaccina Nordmaling, Församlingsgård",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -188,36 +188,8 @@
             "prochain_rdv": "2021-07-15 12:41:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 145,
+            "appointment_count": 143,
             "internal_id": 31526,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Hörnefors hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.909182397089975,
-                "latitude": 63.624337480884165,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Bruksgatan 4",
-                "business_hours": null,
-                "phone_number": "090-785 91 05"
-            },
-            "prochain_rdv": "2021-07-19 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -272,7 +244,7 @@
             "prochain_rdv": "2021-07-22 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 11,
+            "appointment_count": 10,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -356,7 +328,7 @@
             "prochain_rdv": "2021-07-28 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 56,
+            "appointment_count": 55,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1109,6 +1081,34 @@
                 "address": "Himmelska Fridens Torg 7",
                 "business_hours": null,
                 "phone_number": "090-785 91 03"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Hörnefors hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.909182397089975,
+                "latitude": 63.624337480884165,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Bruksgatan 4",
+                "business_hours": null,
+                "phone_number": "090-785 91 05"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
