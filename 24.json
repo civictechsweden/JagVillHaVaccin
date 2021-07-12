@@ -1,8 +1,35 @@
 {
     "version": 1,
-    "last_updated": "2021-07-12 20:58:08.082661+02:00",
+    "last_updated": "2021-07-12 21:22:43.904700+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "24",
+            "nom": "Central vaccinationsmottagning Umeå",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.24274041731457,
+                "latitude": 63.83290649714245,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nolia, Signalvägen 3, Umeå",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-13 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 70,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "24",
             "nom": "Stenbergska hälsocentral",
@@ -33,33 +60,6 @@
         },
         {
             "departement": "24",
-            "nom": "Central vaccinationsmottagning Umeå",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.24274041731457,
-                "latitude": 63.83290649714245,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nolia, Signalvägen 3, Umeå",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-14 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 74,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Medicinkonsulten AB",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -76,7 +76,7 @@
             "prochain_rdv": "2021-07-14 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 18,
+            "appointment_count": 17,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -132,7 +132,7 @@
             "prochain_rdv": "2021-07-14 12:58:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 34,
+            "appointment_count": 33,
             "internal_id": 31519,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -157,10 +157,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-15 12:45:00",
+            "prochain_rdv": "2021-07-15 11:57:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 123,
+            "appointment_count": 122,
             "internal_id": 31526,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
