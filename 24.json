@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-12 17:31:24.546865+02:00",
+    "last_updated": "2021-07-12 17:55:25.991179+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -48,35 +48,7 @@
             "prochain_rdv": "2021-07-14 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 97,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Bjurholms hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.20680770966098,
-                "latitude": 63.92928599751182,
-                "city": "Bjurholm",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 16",
-                "business_hours": null,
-                "phone_number": "090-785 44 41"
-            },
-            "prochain_rdv": "2021-07-14 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 93,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -157,10 +129,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-14 12:42:00",
+            "prochain_rdv": "2021-07-14 12:54:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 44,
+            "appointment_count": 42,
             "internal_id": 31519,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -188,7 +160,7 @@
             "prochain_rdv": "2021-07-15 12:41:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 137,
+            "appointment_count": 135,
             "internal_id": 31526,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -216,7 +188,7 @@
             "prochain_rdv": "2021-07-20 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 99,
+            "appointment_count": 98,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -245,34 +217,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 23,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Norsjö hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.492159861085895,
-                "latitude": 64.90894017118801,
-                "city": "Norsjö",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 33",
-                "business_hours": null,
-                "phone_number": "090-785 91 16"
-            },
-            "prochain_rdv": "2021-07-28 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -565,6 +509,34 @@
         },
         {
             "departement": "24",
+            "nom": "Bjurholms hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.20680770966098,
+                "latitude": 63.92928599751182,
+                "city": "Bjurholm",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 16",
+                "business_hours": null,
+                "phone_number": "090-785 44 41"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Dorotea sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -605,6 +577,34 @@
                 "address": "Hemvägen 12",
                 "business_hours": null,
                 "phone_number": "090-785 91 04"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Norsjö hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.492159861085895,
+                "latitude": 64.90894017118801,
+                "city": "Norsjö",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 33",
+                "business_hours": null,
+                "phone_number": "090-785 91 16"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
