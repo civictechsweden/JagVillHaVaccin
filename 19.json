@@ -1,8 +1,35 @@
 {
     "version": 1,
-    "last_updated": "2021-07-12 11:02:20.759501+02:00",
+    "last_updated": "2021-07-12 11:30:33.243764+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "19",
+            "nom": "Västerås vaccinationsmottagning Hälla Syd",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 16.61106301907506,
+                "latitude": 59.609946622491734,
+                "city": "Västerås",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Glasvingegatan 5, Västerås",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-12 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": null,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "19",
             "nom": "Västerås vaccinationsmottagning Servicehälsan",
@@ -42,33 +69,6 @@
             },
             "metadata": {
                 "address": "Aspvägen 27, Fagersta",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-13 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": null,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "19",
-            "nom": "Hallstahammar vaccinationsmottagning Folkets hus",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 16.23251539364746,
-                "latitude": 59.61888734969954,
-                "city": "Hallstahammar",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Parkgatan 24, Hallstahammar",
                 "business_hours": null
             },
             "prochain_rdv": "2021-07-13 00:00:00",
@@ -221,16 +221,16 @@
         },
         {
             "departement": "19",
-            "nom": "Köping vaccinationsmottagning Folkets hus",
+            "nom": "Hallstahammar vaccinationsmottagning Folkets hus",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 16.002459368320938,
-                "latitude": 59.51410625307515,
-                "city": "Köping",
+                "longitude": 16.23251539364746,
+                "latitude": 59.61888734969954,
+                "city": "Hallstahammar",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Västeråsvägen 9, Köping",
+                "address": "Parkgatan 24, Hallstahammar",
                 "business_hours": null
             },
             "prochain_rdv": "2021-07-15 00:00:00",
@@ -248,16 +248,16 @@
         },
         {
             "departement": "19",
-            "nom": "Västerås vaccinationsmottagning Hälla Syd",
+            "nom": "Köping vaccinationsmottagning Folkets hus",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 16.61106301907506,
-                "latitude": 59.609946622491734,
-                "city": "Västerås",
+                "longitude": 16.002459368320938,
+                "latitude": 59.51410625307515,
+                "city": "Köping",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Glasvingegatan 5, Västerås",
+                "address": "Västeråsvägen 9, Köping",
                 "business_hours": null
             },
             "prochain_rdv": "2021-07-15 00:00:00",
@@ -287,7 +287,7 @@
                 "address": "Köpmangatan 25, Surahammar",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-07-16 00:00:00",
+            "prochain_rdv": "2021-07-15 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": null,
