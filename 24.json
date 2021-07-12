@@ -1,35 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-07-12 10:30:19.929089+02:00",
+    "last_updated": "2021-07-12 10:51:28.104043+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "24",
-            "nom": "Central vaccinationsmottagning Umeå",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.24274041731457,
-                "latitude": 63.83290649714245,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nolia, Signalvägen 3, Umeå",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-12 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 156,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "24",
             "nom": "Stenbergska hälsocentral",
@@ -60,6 +33,33 @@
         },
         {
             "departement": "24",
+            "nom": "Central vaccinationsmottagning Umeå",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.24274041731457,
+                "latitude": 63.83290649714245,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nolia, Signalvägen 3, Umeå",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-14 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 150,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Medicinkonsulten AB",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -76,7 +76,7 @@
             "prochain_rdv": "2021-07-14 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 21,
+            "appointment_count": 22,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -132,7 +132,7 @@
             "prochain_rdv": "2021-07-14 11:54:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 68,
+            "appointment_count": 66,
             "internal_id": 31519,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -157,10 +157,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-15 12:33:00",
+            "prochain_rdv": "2021-07-15 12:37:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 160,
+            "appointment_count": 159,
             "internal_id": 31526,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -200,34 +200,6 @@
         },
         {
             "departement": "24",
-            "nom": "Vilhelmina sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 16.66232849898825,
-                "latitude": 64.625086471245,
-                "city": "Vilhelmina",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Volgsjövägen 37",
-                "business_hours": null,
-                "phone_number": "090-785 91 25"
-            },
-            "prochain_rdv": "2021-07-21 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Malå sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -244,7 +216,7 @@
             "prochain_rdv": "2021-07-28 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 21,
+            "appointment_count": 25,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -328,7 +300,7 @@
             "prochain_rdv": "2021-07-28 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 83,
+            "appointment_count": 78,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1277,6 +1249,34 @@
                 "address": "Tvistevägen 2",
                 "business_hours": null,
                 "phone_number": "090-785 44 58"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Vilhelmina sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 16.66232849898825,
+                "latitude": 64.625086471245,
+                "city": "Vilhelmina",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Volgsjövägen 37",
+                "business_hours": null,
+                "phone_number": "090-785 91 25"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
