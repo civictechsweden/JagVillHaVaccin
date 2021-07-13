@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-13 12:50:24.668443+02:00",
+    "last_updated": "2021-07-13 13:03:39.343664+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,35 @@
             "prochain_rdv": "2021-07-14 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 5,
+            "appointment_count": 6,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Storumans sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 17.121804197752056,
+                "latitude": 65.09670707643072,
+                "city": "Storuman",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Backvägen 2",
+                "business_hours": null,
+                "phone_number": "090-785 44 73"
+            },
+            "prochain_rdv": "2021-07-14 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 93,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -101,39 +129,11 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-15 13:29:00",
+            "prochain_rdv": "2021-07-15 13:37:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 101,
+            "appointment_count": 100,
             "internal_id": 31526,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Storumans sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 17.121804197752056,
-                "latitude": 65.09670707643072,
-                "city": "Storuman",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Backvägen 2",
-                "business_hours": null,
-                "phone_number": "090-785 44 73"
-            },
-            "prochain_rdv": "2021-07-21 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 92,
-            "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -160,7 +160,7 @@
             "prochain_rdv": "2021-07-22 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 171,
+            "appointment_count": 170,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
