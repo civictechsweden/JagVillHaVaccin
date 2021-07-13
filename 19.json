@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-13 12:31:44.887798+02:00",
+    "last_updated": "2021-07-13 12:49:52.248761+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -86,6 +86,33 @@
         },
         {
             "departement": "19",
+            "nom": "Västerås vaccinationsmottagning Öster Mälarstrand",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 16.588316914838465,
+                "latitude": 59.59767869371821,
+                "city": "Västerås",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ankargatan 4, Västerås",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-13 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": null,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "19",
             "nom": "Arboga vaccinationsmottagning Medborgarhuset",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
@@ -123,33 +150,6 @@
             },
             "metadata": {
                 "address": "Aspvägen 27, Fagersta",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-14 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": null,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "19",
-            "nom": "Hallstahammar vaccinationsmottagning Folkets hus",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 16.23251539364746,
-                "latitude": 59.61888734969954,
-                "city": "Hallstahammar",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Parkgatan 24, Hallstahammar",
                 "business_hours": null
             },
             "prochain_rdv": "2021-07-14 00:00:00",
@@ -248,23 +248,23 @@
         },
         {
             "departement": "19",
-            "nom": "Västerås vaccinationsmottagning Öster Mälarstrand",
+            "nom": "Hallstahammar vaccinationsmottagning Folkets hus",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 16.588316914838465,
-                "latitude": 59.59767869371821,
-                "city": "Västerås",
+                "longitude": 16.23251539364746,
+                "latitude": 59.61888734969954,
+                "city": "Hallstahammar",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Ankargatan 4, Västerås",
+                "address": "Parkgatan 24, Hallstahammar",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-07-14 00:00:00",
-            "plateforme": "1177",
+            "prochain_rdv": "2021-07-14 09:24:00",
+            "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": null,
-            "internal_id": null,
+            "appointment_count": 18,
+            "internal_id": "1321",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -287,11 +287,11 @@
                 "address": "Parkgatan 24, Hallstahammar",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-07-14 09:24:00",
-            "plateforme": "MittVaccin",
+            "prochain_rdv": "2021-07-16 00:00:00",
+            "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 19,
-            "internal_id": "1321",
+            "appointment_count": null,
+            "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
