@@ -1,36 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-07-13 10:30:14.422485+02:00",
+    "last_updated": "2021-07-13 10:50:40.316884+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "24",
-            "nom": "Vaccina Vännäs, Medborgarskolan",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.7531455,
-                "latitude": 63.907023,
-                "city": "Vännäs",
-                "cp": "91132"
-            },
-            "metadata": {
-                "address": "Köpmangatan 15, 911 32 Vännäs",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-07-13 12:06:00",
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 11,
-            "internal_id": 31519,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "24",
             "nom": "Central vaccinationsmottagning Umeå",
@@ -48,7 +20,7 @@
             "prochain_rdv": "2021-07-14 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 28,
+            "appointment_count": 26,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -116,6 +88,34 @@
         },
         {
             "departement": "24",
+            "nom": "Vaccina Vännäs, Medborgarskolan",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.7531455,
+                "latitude": 63.907023,
+                "city": "Vännäs",
+                "cp": "91132"
+            },
+            "metadata": {
+                "address": "Köpmangatan 15, 911 32 Vännäs",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-07-14 13:22:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 5,
+            "internal_id": 31519,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Vaccina Nordmaling, Församlingsgård",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -132,7 +132,7 @@
             "prochain_rdv": "2021-07-15 13:25:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 111,
+            "appointment_count": 112,
             "internal_id": 31526,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -160,7 +160,7 @@
             "prochain_rdv": "2021-07-21 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 95,
+            "appointment_count": 94,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -272,7 +272,7 @@
             "prochain_rdv": "2021-07-28 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 22,
+            "appointment_count": 20,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
