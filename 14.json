@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-13 19:59:11.761118+02:00",
+    "last_updated": "2021-07-13 20:32:13.164813+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -77,7 +77,7 @@
             "prochain_rdv": "2021-07-15 10:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 64,
+            "appointment_count": 61,
             "internal_id": "2096",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -105,64 +105,8 @@
             "prochain_rdv": "2021-07-15 10:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 64,
+            "appointment_count": 61,
             "internal_id": "2096",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Hisingsbacka",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.98214942257889,
-                "latitude": 57.75033771020452,
-                "city": "Göteborg",
-                "cp": "42248"
-            },
-            "metadata": {
-                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": "2021-07-15 16:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 2,
-            "internal_id": "2091",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Hisingsbacka",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.98214942257889,
-                "latitude": 57.75033771020452,
-                "city": "Göteborg",
-                "cp": "42248"
-            },
-            "metadata": {
-                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": "2021-07-15 16:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 2,
-            "internal_id": "2091",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -217,7 +161,35 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 275,
+            "appointment_count": 222,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.956163123936285,
+                "latitude": 58.17816034620173,
+                "city": "Tidaholm",
+                "cp": "52230"
+            },
+            "metadata": {
+                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
+                "business_hours": null,
+                "phone_number": "0502-180 11"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -285,6 +257,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Älvängen vårdcentral, Älvängen",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.126418552009834,
+                "latitude": 57.96100312404404,
+                "city": "Ale",
+                "cp": "44637"
+            },
+            "metadata": {
+                "address": "Svenstorpsvägen 1, 446 37, Älvängen",
+                "business_hours": null,
+                "phone_number": "010-473 35 50"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Bäckefors Dalslands Sjukhus",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -301,35 +301,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 334,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Lindome vårdcentral, Lindome",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.088026338281288,
-                "latitude": 57.57627864929657,
-                "city": "Mölndal",
-                "cp": "43730"
-            },
-            "metadata": {
-                "address": "Almåsgången 7, 437 30, Lindome",
-                "business_hours": null,
-                "phone_number": "010-473 39 20"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 332,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -357,7 +329,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 50,
+            "appointment_count": 41,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -385,7 +357,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 16,
+            "appointment_count": 13,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -6892,34 +6864,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.956163123936285,
-                "latitude": 58.17816034620173,
-                "city": "Tidaholm",
-                "cp": "52230"
-            },
-            "metadata": {
-                "address": "Västra Drottningvägen 11, 522 30, Tidaholm",
-                "business_hours": null,
-                "phone_number": "0502-180 11"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Ulricehamn vårdcentral, Ulricehamn",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7144,34 +7088,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Älvängen vårdcentral, Älvängen",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.126418552009834,
-                "latitude": 57.96100312404404,
-                "city": "Ale",
-                "cp": "44637"
-            },
-            "metadata": {
-                "address": "Svenstorpsvägen 1, 446 37, Älvängen",
-                "business_hours": null,
-                "phone_number": "010-473 35 50"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Alingsås Nolhalla",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7324,6 +7240,34 @@
                 "address": "Lövskogsgatan 8, 451 72, Uddevalla",
                 "business_hours": null,
                 "phone_number": "010-441 68 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Lindome vårdcentral, Lindome",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.088026338281288,
+                "latitude": 57.57627864929657,
+                "city": "Mölndal",
+                "cp": "43730"
+            },
+            "metadata": {
+                "address": "Almåsgången 7, 437 30, Lindome",
+                "business_hours": null,
+                "phone_number": "010-473 39 20"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -7666,6 +7610,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2078",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Hisingsbacka",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.98214942257889,
+                "latitude": 57.75033771020452,
+                "city": "Göteborg",
+                "cp": "42248"
+            },
+            "metadata": {
+                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2091",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -9318,6 +9290,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2078",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Hisingsbacka",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.98214942257889,
+                "latitude": 57.75033771020452,
+                "city": "Göteborg",
+                "cp": "42248"
+            },
+            "metadata": {
+                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings-Backa",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2091",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
