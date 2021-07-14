@@ -1,28 +1,28 @@
 {
     "version": 1,
-    "last_updated": "2021-07-14 08:32:28.607774+02:00",
+    "last_updated": "2021-07-14 08:58:44.607242+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "22",
-            "nom": "Vaccinationsenhet Härnösand",
+            "nom": "Vaccinationsenhet Fränsta",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
-                "longitude": 17.9298362078272,
-                "latitude": 62.62440429993568,
-                "city": "Härnösand",
+                "longitude": 16.166493074132607,
+                "latitude": 62.500909094703054,
+                "city": "Ånge",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Södra vägen 3-5",
+                "address": "Mårtensvägen 2, Fränsta",
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-07-14 08:35:00",
+            "prochain_rdv": "2021-07-14 09:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 386,
-            "internal_id": "1309",
+            "appointment_count": 33,
+            "internal_id": "926",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -49,7 +49,7 @@
             "prochain_rdv": "2021-07-14 09:03:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 154,
+            "appointment_count": 151,
             "internal_id": "1514",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -61,24 +61,24 @@
         },
         {
             "departement": "22",
-            "nom": "Vaccinationsenhet Bollsta",
+            "nom": "Vaccinationsenhet Härnösand",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
-                "longitude": 17.6703668135133,
-                "latitude": 62.99855335986242,
-                "city": "Kramfors",
+                "longitude": 17.9298362078272,
+                "latitude": 62.62440429993568,
+                "city": "Härnösand",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Bollsta Folketspark, Tunsjövägen 4",
+                "address": "Södra vägen 3-5",
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-07-14 10:34:00",
+            "prochain_rdv": "2021-07-14 09:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 8,
-            "internal_id": "1321",
+            "appointment_count": 380,
+            "internal_id": "1309",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -89,24 +89,24 @@
         },
         {
             "departement": "22",
-            "nom": "Vaccinationsenhet Fränsta",
+            "nom": "Vaccinationsenhet Nacksta",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
-                "longitude": 16.166493074132607,
-                "latitude": 62.500909094703054,
-                "city": "Ånge",
-                "cp": "00000"
+                "longitude": 17.255449827674113,
+                "latitude": 62.39297855695255,
+                "city": "Sundsvall",
+                "cp": "85350"
             },
             "metadata": {
-                "address": "Mårtensvägen 2, Fränsta",
+                "address": "Axvägen 15, 853 50 Sundsvall",
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-07-14 14:00:00",
+            "prochain_rdv": "2021-07-14 11:06:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 34,
-            "internal_id": "926",
+            "appointment_count": 373,
+            "internal_id": "1291",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -142,27 +142,29 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "22",
-            "nom": "Vaccinationsenhet Nacksta",
+            "nom": "Vaccinationsenhet Bollsta",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
-                "longitude": 17.255449827674113,
-                "latitude": 62.39297855695255,
-                "city": "Sundsvall",
-                "cp": "85350"
+                "longitude": 17.6703668135133,
+                "latitude": 62.99855335986242,
+                "city": "Kramfors",
+                "cp": "00000"
             },
             "metadata": {
-                "address": "Axvägen 15, 853 50 Sundsvall",
+                "address": "Bollsta Folketspark, Tunsjövägen 4",
                 "business_hours": null,
                 "phone_number": "0611-804 00"
             },
-            "prochain_rdv": "2021-07-16 08:57:00",
+            "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 372,
-            "internal_id": "1291",
+            "appointment_count": 0,
+            "internal_id": "1321",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -170,9 +172,7 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        }
-    ],
-    "centres_indisponibles": [
+        },
         {
             "departement": "22",
             "nom": "Familjecentralen Kramfors",
