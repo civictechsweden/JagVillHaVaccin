@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-15 01:00:21.874822+02:00",
+    "last_updated": "2021-07-15 01:26:50.289387+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -357,7 +357,7 @@
             "prochain_rdv": "2021-07-19 12:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 401,
+            "appointment_count": 400,
             "internal_id": "2078",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -385,7 +385,7 @@
             "prochain_rdv": "2021-07-19 12:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 401,
+            "appointment_count": 400,
             "internal_id": "2078",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -634,10 +634,10 @@
                 "business_hours": null,
                 "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": "2021-07-28 09:30:00",
+            "prochain_rdv": "2021-07-28 10:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 16,
+            "appointment_count": 15,
             "internal_id": "2079",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -662,39 +662,11 @@
                 "business_hours": null,
                 "phone_number": "08-128 446 21"
             },
-            "prochain_rdv": "2021-07-28 09:30:00",
+            "prochain_rdv": "2021-07-28 10:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 16,
+            "appointment_count": 15,
             "internal_id": "2079",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Skogslyckan vårdcentral, Uddevalla",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.913302525954462,
-                "latitude": 58.3603660451416,
-                "city": "Uddevalla",
-                "cp": "45160"
-            },
-            "metadata": {
-                "address": "Sunnanvindsvägen 8, 451 60, Uddevalla",
-                "business_hours": null,
-                "phone_number": "010-441 65 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -721,7 +693,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 250,
+            "appointment_count": 247,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -773,6 +745,34 @@
                 "address": "Almåsgången 7, 437 30, Lindome",
                 "business_hours": null,
                 "phone_number": "010-473 39 20"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Stenungsund vårdcentral, Stenungsund",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.817927130264705,
+                "latitude": 58.06648177430393,
+                "city": "Stenungsund",
+                "cp": "44430"
+            },
+            "metadata": {
+                "address": "Jullen 3, 444 30, Stenungsund",
+                "business_hours": null,
+                "phone_number": "010-473 32 20"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -7060,6 +7060,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Skogslyckan vårdcentral, Uddevalla",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.913302525954462,
+                "latitude": 58.3603660451416,
+                "city": "Uddevalla",
+                "cp": "45160"
+            },
+            "metadata": {
+                "address": "Sunnanvindsvägen 8, 451 60, Uddevalla",
+                "business_hours": null,
+                "phone_number": "010-441 65 00"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Furulund vårdcentral, Partille",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7828,34 +7856,6 @@
                 "address": "Danska vägen 62, 521 37, Falköping",
                 "business_hours": null,
                 "phone_number": "0515-878 90"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Stenungsund vårdcentral, Stenungsund",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.817927130264705,
-                "latitude": 58.06648177430393,
-                "city": "Stenungsund",
-                "cp": "44430"
-            },
-            "metadata": {
-                "address": "Jullen 3, 444 30, Stenungsund",
-                "business_hours": null,
-                "phone_number": "010-473 32 20"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
