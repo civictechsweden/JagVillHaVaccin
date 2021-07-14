@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-14 02:00:14.363069+02:00",
+    "last_updated": "2021-07-14 03:09:07.141403+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-07-14 08:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 154,
+            "appointment_count": 153,
             "internal_id": "231",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -47,7 +47,7 @@
             "prochain_rdv": "2021-07-14 09:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 218,
+            "appointment_count": 217,
             "internal_id": "2072",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -167,6 +167,34 @@
         },
         {
             "departement": "12",
+            "nom": "Kronans Apotek Ängelholm",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 12.863032774480866,
+                "latitude": 56.24253762960139,
+                "city": "Ängelholm",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Laxgatan 6, Ängelholm",
+                "business_hours": null,
+                "phone_number": "08-128 446 21"
+            },
+            "prochain_rdv": "2021-07-16 12:50:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "1534",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
             "nom": "Vaccinova Kävlinge",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -275,34 +303,6 @@
         },
         {
             "departement": "12",
-            "nom": "Kronans Apotek Ängelholm",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 12.863032774480866,
-                "latitude": 56.24253762960139,
-                "city": "Ängelholm",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Laxgatan 6, Ängelholm",
-                "business_hours": null,
-                "phone_number": "08-128 446 21"
-            },
-            "prochain_rdv": "2021-08-03 16:20:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "1534",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Kronans Apotek Båstad",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -347,7 +347,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 6353,
+            "appointment_count": 6351,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
