@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-15 15:39:39.977098+02:00",
+    "last_updated": "2021-07-15 16:00:10.527820+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-16 13:21:00",
+            "prochain_rdv": "2021-07-16 12:53:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 13,
+            "appointment_count": 14,
             "internal_id": 31526,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +49,7 @@
             "prochain_rdv": "2021-07-19 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 16,
+            "appointment_count": 15,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -145,33 +145,6 @@
         },
         {
             "departement": "24",
-            "nom": "Central vaccinationsmottagning Umeå",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.24274041731457,
-                "latitude": 63.83290649714245,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nolia, Signalvägen 3, Umeå",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-23 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Vaccina Vännäs, Medborgarskolan",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -216,7 +189,7 @@
             "prochain_rdv": "2021-07-27 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -324,6 +297,33 @@
             },
             "metadata": {
                 "address": "Skellefteå Kraft Arena, Mossgatan 27",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Central vaccinationsmottagning Umeå",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.24274041731457,
+                "latitude": 63.83290649714245,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nolia, Signalvägen 3, Umeå",
                 "business_hours": null
             },
             "prochain_rdv": null,
