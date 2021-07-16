@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-16 04:59:37.427337+02:00",
+    "last_updated": "2021-07-16 05:30:31.925660+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -101,8 +101,35 @@
             "prochain_rdv": "2021-07-16 13:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 508,
+            "appointment_count": 507,
             "internal_id": "2072",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccinova Åhus",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 14.293642027570382,
+                "latitude": 55.922462664842925,
+                "city": "Kristianstad",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Companiegatan 2A, Åhus",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-17 10:40:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 36,
+            "internal_id": "2024",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -276,33 +303,6 @@
         },
         {
             "departement": "12",
-            "nom": "Vaccinova Åhus",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 14.293642027570382,
-                "latitude": 55.922462664842925,
-                "city": "Kristianstad",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Companiegatan 2A, Åhus",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-22 12:09:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 35,
-            "internal_id": "2024",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "MACC Arlöv",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -319,7 +319,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 6519,
+            "appointment_count": 6517,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
