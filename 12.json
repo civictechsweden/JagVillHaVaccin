@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-17 06:34:00.500991+02:00",
+    "last_updated": "2021-07-17 06:58:42.949854+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -49,6 +49,33 @@
             "type": "vaccination-center",
             "appointment_count": 486,
             "internal_id": "2072",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccinova Höganäs",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 12.567829076073167,
+                "latitude": 56.19992166277999,
+                "city": "Höganäs",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Östra Parkgatan 2, Höganäs",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-19 12:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "2019",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -211,7 +238,7 @@
             "prochain_rdv": "2021-08-05 10:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 199,
+            "appointment_count": 198,
             "internal_id": "2024",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -432,7 +459,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 3,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -572,7 +599,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 12,
+            "appointment_count": 11,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -1493,33 +1520,6 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Vaccinova Höganäs",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 12.567829076073167,
-                "latitude": 56.19992166277999,
-                "city": "Höganäs",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Östra Parkgatan 2, Höganäs",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2019",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
