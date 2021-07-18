@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-18 18:39:05.984798+02:00",
+    "last_updated": "2021-07-18 19:12:49.476783+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -22,6 +22,34 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 17,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Malå sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 18.756251410101154,
+                "latitude": 65.17531659490669,
+                "city": "Malå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 2",
+                "business_hours": null,
+                "phone_number": "090-785 91 19"
+            },
+            "prochain_rdv": "2021-07-21 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -74,10 +102,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-21 12:53:00",
+            "prochain_rdv": "2021-07-21 12:57:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 27,
+            "appointment_count": 26,
             "internal_id": 31524,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -161,7 +189,7 @@
             "prochain_rdv": "2021-07-28 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 21,
+            "appointment_count": 20,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -213,10 +241,10 @@
                 "address": "Nolia, Signalvägen 3, Umeå",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-07-29 00:00:00",
+            "prochain_rdv": "2021-08-03 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 204,
+            "appointment_count": 199,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -521,34 +549,6 @@
                 "address": "Nygatan 19",
                 "business_hours": null,
                 "phone_number": "090-785 91 75"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Malå sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 18.756251410101154,
-                "latitude": 65.17531659490669,
-                "city": "Malå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 2",
-                "business_hours": null,
-                "phone_number": "090-785 91 19"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
