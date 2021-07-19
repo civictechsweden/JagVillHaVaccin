@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-19 05:48:44.885076+02:00",
+    "last_updated": "2021-07-19 06:31:42.239341+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -51,6 +51,34 @@
             "type": "vaccination-center",
             "appointment_count": 46,
             "internal_id": "526",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Högsby hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.025529740353928,
+                "latitude": 57.171486143323655,
+                "city": "Högsby",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Dr Mobergers väg 6, Högsby",
+                "business_hours": null,
+                "phone_number": "0491-283 00"
+            },
+            "prochain_rdv": "2021-07-20 14:50:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "519",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -161,7 +189,7 @@
             "prochain_rdv": "2021-07-21 13:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 46,
+            "appointment_count": 48,
             "internal_id": "500",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -298,10 +326,10 @@
                 "business_hours": null,
                 "phone_number": "0492-176 00"
             },
-            "prochain_rdv": "2021-07-22 13:25:00",
+            "prochain_rdv": "2021-07-22 13:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 12,
+            "appointment_count": 10,
             "internal_id": "491",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -501,34 +529,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "508",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Högsby hälsocentral",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.025529740353928,
-                "latitude": 57.171486143323655,
-                "city": "Högsby",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Dr Mobergers väg 6, Högsby",
-                "business_hours": null,
-                "phone_number": "0491-283 00"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "519",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
