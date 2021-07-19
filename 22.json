@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-19 20:59:12.849413+02:00",
+    "last_updated": "2021-07-19 21:22:00.430614+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -23,6 +23,34 @@
             "type": "vaccination-center",
             "appointment_count": 204,
             "internal_id": "1309",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Nacksta",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 17.255449827674113,
+                "latitude": 62.39297855695255,
+                "city": "Sundsvall",
+                "cp": "85350"
+            },
+            "metadata": {
+                "address": "Axvägen 15, 853 50 Sundsvall",
+                "business_hours": null,
+                "phone_number": "0611-804 00"
+            },
+            "prochain_rdv": "2021-07-20 08:39:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 549,
+            "internal_id": "1291",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -61,34 +89,6 @@
         },
         {
             "departement": "22",
-            "nom": "Vaccinationsenhet Nacksta",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 17.255449827674113,
-                "latitude": 62.39297855695255,
-                "city": "Sundsvall",
-                "cp": "85350"
-            },
-            "metadata": {
-                "address": "Axvägen 15, 853 50 Sundsvall",
-                "business_hours": null,
-                "phone_number": "0611-804 00"
-            },
-            "prochain_rdv": "2021-07-20 15:12:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 547,
-            "internal_id": "1291",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
             "nom": "Vaccinationsenhet Sollefteå, Hullsta gård",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
@@ -105,7 +105,7 @@
             "prochain_rdv": "2021-07-28 10:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 5,
+            "appointment_count": 4,
             "internal_id": "1325",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
