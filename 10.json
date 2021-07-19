@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-19 07:19:26.039929+02:00",
+    "last_updated": "2021-07-19 07:39:07.962821+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -49,8 +49,36 @@
             "prochain_rdv": "2021-07-20 09:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 16,
+            "appointment_count": 17,
             "internal_id": "580",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "10",
+            "nom": "Nättraby vårdcentral",
+            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
+            "location": {
+                "longitude": 15.536557149787294,
+                "latitude": 56.20188840773274,
+                "city": "Karlskrona",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Kyrkvägen 16",
+                "business_hours": null,
+                "phone_number": "0455-73 57 20"
+            },
+            "prochain_rdv": "2021-07-21 10:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 20,
+            "internal_id": "587",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -186,10 +214,10 @@
                 "business_hours": null,
                 "phone_number": "0455-73 56 55"
             },
-            "prochain_rdv": "2021-07-27 13:50:00",
+            "prochain_rdv": "2021-07-27 13:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 20,
+            "appointment_count": 21,
             "internal_id": "585",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -249,34 +277,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "575",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "10",
-            "nom": "Nättraby vårdcentral",
-            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
-            "location": {
-                "longitude": 15.536557149787294,
-                "latitude": 56.20188840773274,
-                "city": "Karlskrona",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kyrkvägen 16",
-                "business_hours": null,
-                "phone_number": "0455-73 57 20"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "587",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
