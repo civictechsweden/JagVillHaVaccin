@@ -104,7 +104,7 @@ def get_center_info(center_url):
     }
 
     if 'PhoneNumber' in card:
-        center_info['metadata']['phone_number'] = card['PhoneNumber']
+        center_info['metadata']['phone_number'] = card['PhoneNumber'].replace('-', '').replace(' ', '') 
 
     return center_info
 
