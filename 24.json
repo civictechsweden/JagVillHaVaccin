@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-20 20:33:10.695461+02:00",
+    "last_updated": "2021-07-20 20:57:25.415058+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-07-21 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 447,
+            "appointment_count": 448,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -105,34 +105,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 98,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Sävar hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.551555586055475,
-                "latitude": 63.898436261079766,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kungsvägen 8A",
-                "business_hours": null,
-                "phone_number": "0907854447"
-            },
-            "prochain_rdv": "2021-07-22 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1221,6 +1193,34 @@
                 "address": "Glimmervägen 5 E",
                 "business_hours": null,
                 "phone_number": "0907859322"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Sävar hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.551555586055475,
+                "latitude": 63.898436261079766,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Kungsvägen 8A",
+                "business_hours": null,
+                "phone_number": "0907854447"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
