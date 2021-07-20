@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-20 13:24:47.529825+02:00",
+    "last_updated": "2021-07-20 13:47:09.534177+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-07-21 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 334,
+            "appointment_count": 332,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,34 +49,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 2,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Norsjö hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.492159861085895,
-                "latitude": 64.90894017118801,
-                "city": "Norsjö",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 33",
-                "business_hours": null,
-                "phone_number": "090-785 91 16"
-            },
-            "prochain_rdv": "2021-07-21 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -577,6 +549,34 @@
                 "address": "Storgatan 2",
                 "business_hours": null,
                 "phone_number": "090-785 91 19"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Norsjö hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.492159861085895,
+                "latitude": 64.90894017118801,
+                "city": "Norsjö",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 33",
+                "business_hours": null,
+                "phone_number": "090-785 91 16"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
