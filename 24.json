@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-20 12:04:31.924556+02:00",
+    "last_updated": "2021-07-20 12:34:14.355957+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-07-21 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 336,
+            "appointment_count": 333,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,6 +49,34 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 2,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Norsjö hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.492159861085895,
+                "latitude": 64.90894017118801,
+                "city": "Norsjö",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 33",
+                "business_hours": null,
+                "phone_number": "090-785 91 16"
+            },
+            "prochain_rdv": "2021-07-21 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -116,6 +144,34 @@
         },
         {
             "departement": "24",
+            "nom": "Vaccina Vännäs, Medborgarskolan",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.7531455,
+                "latitude": 63.907023,
+                "city": "Vännäs",
+                "cp": "91132"
+            },
+            "metadata": {
+                "address": "Köpmangatan 15, 911 32 Vännäs",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-07-26 10:30:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 334,
+            "internal_id": 31519,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Medicinkonsulten AB",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -132,7 +188,7 @@
             "prochain_rdv": "2021-07-27 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 89,
+            "appointment_count": 88,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -172,6 +228,34 @@
         },
         {
             "departement": "24",
+            "nom": "Vaccina Nordmaling, Församlingsgård",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.5017677,
+                "latitude": 63.5714873,
+                "city": "Nordmaling",
+                "cp": "91432"
+            },
+            "metadata": {
+                "address": "Kungsvägen 46, 914 32 Nordmaling",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-07-29 10:45:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 250,
+            "internal_id": 31526,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Stenbergska hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -188,7 +272,7 @@
             "prochain_rdv": "2021-08-04 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 98,
+            "appointment_count": 97,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -493,34 +577,6 @@
                 "address": "Storgatan 2",
                 "business_hours": null,
                 "phone_number": "090-785 91 19"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Norsjö hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.492159861085895,
-                "latitude": 64.90894017118801,
-                "city": "Norsjö",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 33",
-                "business_hours": null,
-                "phone_number": "090-785 91 16"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -1479,62 +1535,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": 31131,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Vaccina Vännäs, Medborgarskolan",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.7531455,
-                "latitude": 63.907023,
-                "city": "Vännäs",
-                "cp": "91132"
-            },
-            "metadata": {
-                "address": "Köpmangatan 15, 911 32 Vännäs",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 31519,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Vaccina Nordmaling, Församlingsgård",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.5017677,
-                "latitude": 63.5714873,
-                "city": "Nordmaling",
-                "cp": "91432"
-            },
-            "metadata": {
-                "address": "Kungsvägen 46, 914 32 Nordmaling",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 31526,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
