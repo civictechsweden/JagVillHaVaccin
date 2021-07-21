@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-07-21 19:55:40.376331+02:00",
+    "last_updated": "2021-07-21 20:29:18.253677+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "08",
+            "nom": "Vaccinationscentral covid-19 Kalmar",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.35640759555987,
+                "latitude": 56.66417229353723,
+                "city": "Kalmar",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tullslätten 4, Kalmar",
+                "business_hours": null,
+                "phone_number": "048084444"
+            },
+            "prochain_rdv": "2021-07-22 08:16:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 198,
+            "internal_id": "1546",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "08",
             "nom": "Vaccinationscentral covid-19 Västervik",
@@ -18,7 +46,7 @@
                 "business_hours": null,
                 "phone_number": "048084444"
             },
-            "prochain_rdv": "2021-07-22 08:27:00",
+            "prochain_rdv": "2021-07-22 08:33:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 188,
@@ -117,34 +145,6 @@
         },
         {
             "departement": "08",
-            "nom": "Vaccinationscentral covid-19 Kalmar",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.35640759555987,
-                "latitude": 56.66417229353723,
-                "city": "Kalmar",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tullslätten 4, Kalmar",
-                "business_hours": null,
-                "phone_number": "048084444"
-            },
-            "prochain_rdv": "2021-07-22 13:52:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 194,
-            "internal_id": "1546",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
             "nom": "Torsås hälsocentral",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
@@ -161,7 +161,7 @@
             "prochain_rdv": "2021-07-22 13:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 118,
+            "appointment_count": 120,
             "internal_id": "493",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -245,7 +245,7 @@
             "prochain_rdv": "2021-07-27 12:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 44,
+            "appointment_count": 42,
             "internal_id": "519",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
