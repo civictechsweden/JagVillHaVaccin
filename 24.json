@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-21 21:59:56.418263+02:00",
+    "last_updated": "2021-07-21 22:29:31.831862+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-07-22 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 663,
+            "appointment_count": 659,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -48,7 +48,7 @@
             "prochain_rdv": "2021-07-22 11:25:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 15,
+            "appointment_count": 16,
             "internal_id": 31524,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -78,34 +78,6 @@
             "type": "vaccination-center",
             "appointment_count": 310,
             "internal_id": 31519,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Hörnefors hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.909182397089975,
-                "latitude": 63.624337480884165,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Bruksgatan 4",
-                "business_hours": null,
-                "phone_number": "0907859105"
-            },
-            "prochain_rdv": "2021-07-27 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -188,7 +160,7 @@
             "prochain_rdv": "2021-07-29 11:09:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 223,
+            "appointment_count": 222,
             "internal_id": 31526,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1137,6 +1109,34 @@
                 "address": "Storgatan 28 B",
                 "business_hours": null,
                 "phone_number": "0907859388"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Hörnefors hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.909182397089975,
+                "latitude": 63.624337480884165,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Bruksgatan 4",
+                "business_hours": null,
+                "phone_number": "0907859105"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
