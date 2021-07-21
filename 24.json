@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-21 13:03:17.945594+02:00",
+    "last_updated": "2021-07-21 13:24:42.018751+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-07-21 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 484,
+            "appointment_count": 477,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -60,6 +60,34 @@
         },
         {
             "departement": "24",
+            "nom": "Vaccina Vindeln, Hotell Vindelgallerian",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.7274798,
+                "latitude": 64.2011566,
+                "city": "Vindell",
+                "cp": "92232"
+            },
+            "metadata": {
+                "address": "Karlsgårdsvägen 22, 922 32 Vindeln",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-07-21 14:45:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 14,
+            "internal_id": 31524,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Stenbergska hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -77,34 +105,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 97,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Citymottagningen hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.26427806385064,
-                "latitude": 63.827668127510485,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nygatan 19B",
-                "business_hours": null,
-                "phone_number": "0907859321"
-            },
-            "prochain_rdv": "2021-07-22 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -144,34 +144,6 @@
         },
         {
             "departement": "24",
-            "nom": "Vaccina Vindeln, Hotell Vindelgallerian",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.7274798,
-                "latitude": 64.2011566,
-                "city": "Vindell",
-                "cp": "92232"
-            },
-            "metadata": {
-                "address": "Karlsgårdsvägen 22, 922 32 Vindeln",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-07-22 12:21:00",
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 13,
-            "internal_id": 31524,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Vaccina Vännäs, Medborgarskolan",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -188,7 +160,7 @@
             "prochain_rdv": "2021-07-26 10:46:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 318,
+            "appointment_count": 317,
             "internal_id": 31519,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1053,6 +1025,34 @@
                 "address": "Ridvägen 12",
                 "business_hours": null,
                 "phone_number": "0907859148"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Citymottagningen hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.26427806385064,
+                "latitude": 63.827668127510485,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nygatan 19B",
+                "business_hours": null,
+                "phone_number": "0907859321"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
