@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-21 09:40:52.912029+02:00",
+    "last_updated": "2021-07-21 09:57:50.013003+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,11 +18,39 @@
                 "business_hours": null,
                 "phone_number": "048084444"
             },
-            "prochain_rdv": "2021-07-21 09:42:00",
+            "prochain_rdv": "2021-07-21 10:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 964,
+            "appointment_count": 956,
             "internal_id": "2053",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Vaccinationscentral covid-19 Västervik",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.63873172343222,
+                "latitude": 57.75759132785008,
+                "city": "Västervik",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Spötorget 1, Västervik",
+                "business_hours": null,
+                "phone_number": "048084444"
+            },
+            "prochain_rdv": "2021-07-21 11:27:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 352,
+            "internal_id": "1547",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -89,24 +117,24 @@
         },
         {
             "departement": "08",
-            "nom": "Vaccinationscentral covid-19 Västervik",
+            "nom": "Vaccinationscentral covid-19 Kalmar",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
-                "longitude": 16.63873172343222,
-                "latitude": 57.75759132785008,
-                "city": "Västervik",
+                "longitude": 16.35640759555987,
+                "latitude": 56.66417229353723,
+                "city": "Kalmar",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Spötorget 1, Västervik",
+                "address": "Tullslätten 4, Kalmar",
                 "business_hours": null,
                 "phone_number": "048084444"
             },
-            "prochain_rdv": "2021-07-21 14:12:00",
+            "prochain_rdv": "2021-07-21 15:06:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 356,
-            "internal_id": "1547",
+            "appointment_count": 42,
+            "internal_id": "1546",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -130,7 +158,7 @@
                 "business_hours": null,
                 "phone_number": "048641230"
             },
-            "prochain_rdv": "2021-07-21 15:25:00",
+            "prochain_rdv": "2021-07-21 15:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 130,
@@ -257,34 +285,6 @@
         },
         {
             "departement": "08",
-            "nom": "Vaccinationscentral covid-19 Kalmar",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.35640759555987,
-                "latitude": 56.66417229353723,
-                "city": "Kalmar",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tullslätten 4, Kalmar",
-                "business_hours": null,
-                "phone_number": "048084444"
-            },
-            "prochain_rdv": "2021-07-22 13:34:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 40,
-            "internal_id": "1546",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
             "nom": "Mönsterås hälsocentral",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
@@ -301,7 +301,7 @@
             "prochain_rdv": "2021-07-27 10:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 42,
+            "appointment_count": 40,
             "internal_id": "492",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -326,10 +326,10 @@
                 "business_hours": null,
                 "phone_number": "049515533"
             },
-            "prochain_rdv": "2021-07-27 10:50:00",
+            "prochain_rdv": "2021-07-27 11:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 90,
+            "appointment_count": 86,
             "internal_id": "505",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -413,7 +413,7 @@
             "prochain_rdv": "2021-07-28 10:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 124,
+            "appointment_count": 122,
             "internal_id": "499",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -441,7 +441,7 @@
             "prochain_rdv": "2021-07-29 10:42:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 36,
+            "appointment_count": 34,
             "internal_id": "2056",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
