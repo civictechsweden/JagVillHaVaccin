@@ -1,35 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-07-22 06:34:54.150640+02:00",
+    "last_updated": "2021-07-22 06:59:52.399536+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "12",
-            "nom": "Vaccinova Bromölla",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 14.467382912237964,
-                "latitude": 56.074198397712195,
-                "city": "Bromölla",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 42, Bromölla",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-22 09:15:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "2025",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "12",
             "nom": "Vaccination Covid19 Öresundshälsan, Malmö",
@@ -101,7 +74,7 @@
             "prochain_rdv": "2021-07-22 11:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 79,
+            "appointment_count": 78,
             "internal_id": "231",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -431,7 +404,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 626,
+            "appointment_count": 625,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -571,7 +544,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 43,
+            "appointment_count": 42,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -1520,6 +1493,33 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccinova Bromölla",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 14.467382912237964,
+                "latitude": 56.074198397712195,
+                "city": "Bromölla",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 42, Bromölla",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2025",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
