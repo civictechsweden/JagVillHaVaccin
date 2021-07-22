@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-22 07:45:29.242675+02:00",
+    "last_updated": "2021-07-22 07:59:59.982726+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,8 +20,36 @@
             "prochain_rdv": "2021-07-22 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 656,
+            "appointment_count": 652,
             "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Vaccina Vindeln, Hotell Vindelgallerian",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.7274798,
+                "latitude": 64.2011566,
+                "city": "Vindell",
+                "cp": "92232"
+            },
+            "metadata": {
+                "address": "Karlsgårdsvägen 22, 922 32 Vindeln",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-07-22 11:37:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": 31524,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -45,10 +73,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-26 10:54:00",
+            "prochain_rdv": "2021-07-26 10:58:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 309,
+            "appointment_count": 308,
             "internal_id": 31519,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -130,34 +158,6 @@
                 "phone_number": "0907859388"
             },
             "prochain_rdv": "2021-07-28 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Capio hälsocentral Dragonen",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.25250669887509,
-                "latitude": 63.832758648688774,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ridvägen 12",
-                "business_hours": null,
-                "phone_number": "0907859148"
-            },
-            "prochain_rdv": "2021-07-29 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 1,
@@ -1041,6 +1041,34 @@
         },
         {
             "departement": "24",
+            "nom": "Capio hälsocentral Dragonen",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.25250669887509,
+                "latitude": 63.832758648688774,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ridvägen 12",
+                "business_hours": null,
+                "phone_number": "0907859148"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Citymottagningen hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -1507,34 +1535,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": 31131,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Vaccina Vindeln, Hotell Vindelgallerian",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.7274798,
-                "latitude": 64.2011566,
-                "city": "Vindell",
-                "cp": "92232"
-            },
-            "metadata": {
-                "address": "Karlsgårdsvägen 22, 922 32 Vindeln",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 31524,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
