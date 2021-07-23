@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-23 19:09:50.862114+02:00",
+    "last_updated": "2021-07-23 19:38:04.740701+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -105,7 +105,7 @@
             "prochain_rdv": "2021-07-26 09:28:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 348,
+            "appointment_count": 349,
             "internal_id": "2113",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -133,7 +133,7 @@
             "prochain_rdv": "2021-07-26 11:48:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 241,
+            "appointment_count": 242,
             "internal_id": "2111",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -170,7 +170,9 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "20",
             "nom": "Kronans Apotek Sälen",
@@ -186,10 +188,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-08-03 15:40:00",
+            "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 0,
             "internal_id": "2101",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -198,9 +200,7 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        }
-    ],
-    "centres_indisponibles": [
+        },
         {
             "departement": "20",
             "nom": "Kronans Apotek Malung",
