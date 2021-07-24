@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 URL = 'https://vaccinationsbokning.regionvastmanland.se/'
 
 MONTHS = [
-    'Januari', 'Februari', 'Mars', 'April', 'Maj', 'Juni', 'Juli', 'Augusti',
-    'September', 'Oktober', 'November', 'December'
+    'Januari', 'Februari', 'Mars', 'April', 'Maj', 'Juni', 'Juli', 'Aug',
+    'Sept', 'Okt', 'November', 'December'
 ]
 
 
