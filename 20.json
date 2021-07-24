@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-24 21:53:56.166847+02:00",
+    "last_updated": "2021-07-24 22:20:56.978722+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -49,7 +49,7 @@
             "prochain_rdv": "2021-07-26 09:12:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 370,
+            "appointment_count": 369,
             "internal_id": "2114",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -102,10 +102,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-07-26 09:36:00",
+            "prochain_rdv": "2021-07-26 09:28:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 342,
+            "appointment_count": 343,
             "internal_id": "2113",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -170,7 +170,9 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "20",
             "nom": "Kronans Apotek Sälen",
@@ -186,10 +188,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-08-02 13:40:00",
+            "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 0,
             "internal_id": "2101",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -198,9 +200,7 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        }
-    ],
-    "centres_indisponibles": [
+        },
         {
             "departement": "20",
             "nom": "Kronans Apotek Malung",
