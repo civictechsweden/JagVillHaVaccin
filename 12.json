@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-25 16:44:55.320671+02:00",
+    "last_updated": "2021-07-25 16:59:22.641139+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -22,34 +22,6 @@
             "type": "vaccination-center",
             "appointment_count": 530,
             "internal_id": "2072",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Kronans Apotek Båstad",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 12.837022713078733,
-                "latitude": 56.433153288605794,
-                "city": "Båstad",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kyrkogatan 21, Båstad",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": "2021-07-26 10:25:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 35,
-            "internal_id": "1535",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -87,33 +59,6 @@
         },
         {
             "departement": "12",
-            "nom": "Vaccinova Kävlinge",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 12.990281056526408,
-                "latitude": 55.76931284279357,
-                "city": "Kävlinge",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Marknadsvägen 7, Löddeköpinge",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-28 11:59:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 383,
-            "internal_id": "2023",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Kronans Apotek Höör",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -126,11 +71,66 @@
                 "address": "Föreningsgatan 7, Höör",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-07-29 11:35:00",
+            "prochain_rdv": "2021-07-27 17:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 201,
+            "appointment_count": 200,
             "internal_id": "1538",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccinova Kävlinge",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 12.990281056526408,
+                "latitude": 55.76931284279357,
+                "city": "Kävlinge",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Marknadsvägen 7, Löddeköpinge",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-28 12:15:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 382,
+            "internal_id": "2023",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Kronans Apotek Båstad",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 12.837022713078733,
+                "latitude": 56.433153288605794,
+                "city": "Båstad",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Kyrkogatan 21, Båstad",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-07-28 15:45:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 32,
+            "internal_id": "1535",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -183,7 +183,7 @@
             "prochain_rdv": "2021-08-03 10:59:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 55,
+            "appointment_count": 56,
             "internal_id": "2020",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -265,7 +265,7 @@
             "prochain_rdv": "2021-08-06 10:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 64,
+            "appointment_count": 62,
             "internal_id": "2021",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -292,7 +292,7 @@
             "prochain_rdv": "2021-08-09 12:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 59,
+            "appointment_count": 58,
             "internal_id": "2024",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -347,7 +347,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 2460,
+            "appointment_count": 2423,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -403,7 +403,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 591,
+            "appointment_count": 583,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -459,7 +459,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 1528,
+            "appointment_count": 1524,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
