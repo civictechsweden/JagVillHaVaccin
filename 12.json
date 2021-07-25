@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-25 22:26:50.339364+02:00",
+    "last_updated": "2021-07-25 22:45:37.828097+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -45,11 +45,39 @@
                 "business_hours": null,
                 "phone_number": "0812844621"
             },
-            "prochain_rdv": "2021-07-26 12:10:00",
+            "prochain_rdv": "2021-07-26 11:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 33,
+            "appointment_count": 34,
             "internal_id": "1535",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Kronans Apotek Ängelholm",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 12.863032774480866,
+                "latitude": 56.24253762960139,
+                "city": "Ängelholm",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Laxgatan 6, Ängelholm",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-07-26 12:15:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 27,
+            "internal_id": "1534",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -222,34 +250,6 @@
         },
         {
             "departement": "12",
-            "nom": "Kronans Apotek Ängelholm",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 12.863032774480866,
-                "latitude": 56.24253762960139,
-                "city": "Ängelholm",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Laxgatan 6, Ängelholm",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": "2021-08-04 11:55:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 26,
-            "internal_id": "1534",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Vaccinova Tomelilla",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -319,7 +319,7 @@
             "prochain_rdv": "2021-08-16 09:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 54,
+            "appointment_count": 53,
             "internal_id": "2024",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -347,7 +347,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 2298,
+            "appointment_count": 2295,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
