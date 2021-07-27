@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-27 15:39:13.337844+02:00",
+    "last_updated": "2021-07-27 15:59:40.193097+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-07-28 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1268,
+            "appointment_count": 1233,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -48,7 +48,7 @@
             "prochain_rdv": "2021-07-28 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 12,
+            "appointment_count": 13,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -74,34 +74,6 @@
                 "phone_number": "0907859388"
             },
             "prochain_rdv": "2021-07-28 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Malå sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 18.756251410101154,
-                "latitude": 65.17531659490669,
-                "city": "Malå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 2",
-                "business_hours": null,
-                "phone_number": "0907859119"
-            },
-            "prochain_rdv": "2021-07-29 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 1,
@@ -244,7 +216,7 @@
             "prochain_rdv": "2021-08-04 10:57:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 108,
+            "appointment_count": 107,
             "internal_id": 31524,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -521,6 +493,34 @@
                 "address": "Nygatan 19",
                 "business_hours": null,
                 "phone_number": "0907859175"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Malå sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 18.756251410101154,
+                "latitude": 65.17531659490669,
+                "city": "Malå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 2",
+                "business_hours": null,
+                "phone_number": "0907859119"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
