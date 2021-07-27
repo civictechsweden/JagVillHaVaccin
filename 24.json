@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-27 14:40:27.504943+02:00",
+    "last_updated": "2021-07-27 15:14:17.100669+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -17,10 +17,38 @@
                 "address": "Nolia, Signalvägen 3, Umeå",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-07-27 00:00:00",
+            "prochain_rdv": "2021-07-28 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1167,
+            "appointment_count": 1164,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Byske hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 21.20716665139364,
+                "latitude": 64.950590882984,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ringvägen 8",
+                "business_hours": null,
+                "phone_number": "0907859118"
+            },
+            "prochain_rdv": "2021-07-28 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -48,7 +76,7 @@
             "prochain_rdv": "2021-07-28 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 15,
+            "appointment_count": 12,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -104,7 +132,7 @@
             "prochain_rdv": "2021-07-29 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 4,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -132,7 +160,7 @@
             "prochain_rdv": "2021-07-29 11:49:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 53,
+            "appointment_count": 49,
             "internal_id": 31526,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -160,7 +188,7 @@
             "prochain_rdv": "2021-08-02 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 79,
+            "appointment_count": 78,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -213,10 +241,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-08-04 10:53:00",
+            "prochain_rdv": "2021-08-04 10:57:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 110,
+            "appointment_count": 108,
             "internal_id": 31524,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -689,34 +717,6 @@
                 "address": "Björnåkersgatan 10",
                 "business_hours": null,
                 "phone_number": "0907859173"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Byske hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 21.20716665139364,
-                "latitude": 64.950590882984,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ringvägen 8",
-                "business_hours": null,
-                "phone_number": "0907859118"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
