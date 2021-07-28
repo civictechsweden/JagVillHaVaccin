@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-28 13:45:28.068373+02:00",
+    "last_updated": "2021-07-28 13:59:32.626286+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -42,6 +42,33 @@
             },
             "metadata": {
                 "address": "Torsgatan 12 A, Kungsör",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-07-28 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": null,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "19",
+            "nom": "Köping vaccinationsmottagning Folkets hus",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 16.002459368320938,
+                "latitude": 59.51410625307515,
+                "city": "Köping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Västeråsvägen 9, Köping",
                 "business_hours": null
             },
             "prochain_rdv": "2021-07-28 00:00:00",
@@ -221,33 +248,6 @@
         },
         {
             "departement": "19",
-            "nom": "Köping vaccinationsmottagning Folkets hus",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 16.002459368320938,
-                "latitude": 59.51410625307515,
-                "city": "Köping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Västeråsvägen 9, Köping",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-07-29 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": null,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "19",
             "nom": "Sala vaccinationsmottagning Kungsängsgymnasiet",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
@@ -317,7 +317,7 @@
             "prochain_rdv": "2021-08-02 09:59:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 24,
+            "appointment_count": 23,
             "internal_id": "1321",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
