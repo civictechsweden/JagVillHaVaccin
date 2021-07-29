@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-07-29 07:59:47.071089+02:00",
+    "last_updated": "2021-07-29 08:33:41.120525+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,35 @@
             "prochain_rdv": "2021-07-29 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1437,
+            "appointment_count": 1431,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Sorsele sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 17.540891071616244,
+                "latitude": 65.53741523279075,
+                "city": "Sorsele",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Burevägen 13",
+                "business_hours": null,
+                "phone_number": "0907859171"
+            },
+            "prochain_rdv": "2021-07-29 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -857,34 +885,6 @@
                 "address": "Skelleftehamnsvägen 206 A, Ursviken",
                 "business_hours": null,
                 "phone_number": "0907859112"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Sorsele sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 17.540891071616244,
-                "latitude": 65.53741523279075,
-                "city": "Sorsele",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Burevägen 13",
-                "business_hours": null,
-                "phone_number": "0907859171"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
