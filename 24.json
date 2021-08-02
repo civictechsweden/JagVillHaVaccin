@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-02 10:00:06.562577+02:00",
+    "last_updated": "2021-08-02 10:32:08.719014+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,35 @@
             "prochain_rdv": "2021-08-03 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1128,
+            "appointment_count": 1126,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Medicinkonsulten AB",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 18.674387839138266,
+                "latitude": 64.59246225123054,
+                "city": "Lycksele",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Skolgatan 8",
+                "business_hours": null,
+                "phone_number": "0907859380"
+            },
+            "prochain_rdv": "2021-08-04 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 8,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -78,34 +106,6 @@
             "type": "vaccination-center",
             "appointment_count": 78,
             "internal_id": 31524,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Medicinkonsulten AB",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 18.674387839138266,
-                "latitude": 64.59246225123054,
-                "city": "Lycksele",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Skolgatan 8",
-                "business_hours": null,
-                "phone_number": "0907859380"
-            },
-            "prochain_rdv": "2021-08-16 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 7,
-            "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
