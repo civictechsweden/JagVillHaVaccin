@@ -1,8 +1,35 @@
 {
     "version": 1,
-    "last_updated": "2021-08-03 08:33:37.738179+02:00",
+    "last_updated": "2021-08-03 08:59:15.417617+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "24",
+            "nom": "Central vaccinationsmottagning Umeå",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.24274041731457,
+                "latitude": 63.83290649714245,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nolia, Signalvägen 3, Umeå",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-08-04 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1062,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "24",
             "nom": "Medicinkonsulten AB",
@@ -21,7 +48,7 @@
             "prochain_rdv": "2021-08-04 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 4,
+            "appointment_count": 3,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,7 +104,7 @@
             "prochain_rdv": "2021-08-04 11:41:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 71,
+            "appointment_count": 70,
             "internal_id": 31524,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -89,22 +116,23 @@
         },
         {
             "departement": "24",
-            "nom": "Central vaccinationsmottagning Umeå",
+            "nom": "Vilhelmina sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 20.24274041731457,
-                "latitude": 63.83290649714245,
-                "city": "Umeå",
+                "longitude": 16.66232849898825,
+                "latitude": 64.625086471245,
+                "city": "Vilhelmina",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Nolia, Signalvägen 3, Umeå",
-                "business_hours": null
+                "address": "Volgsjövägen 37",
+                "business_hours": null,
+                "phone_number": "0907859125"
             },
-            "prochain_rdv": "2021-08-05 00:00:00",
+            "prochain_rdv": "2021-08-18 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1062,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1221,34 +1249,6 @@
                 "address": "Tvistevägen 2",
                 "business_hours": null,
                 "phone_number": "0907854458"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Vilhelmina sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 16.66232849898825,
-                "latitude": 64.625086471245,
-                "city": "Vilhelmina",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Volgsjövägen 37",
-                "business_hours": null,
-                "phone_number": "0907859125"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
