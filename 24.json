@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-04 15:59:56.159403+02:00",
+    "last_updated": "2021-08-04 16:25:49.489698+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -22,34 +22,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 84,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Sävar hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.551555586055475,
-                "latitude": 63.898436261079766,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kungsvägen 8A",
-                "business_hours": null,
-                "phone_number": "0907854447"
-            },
-            "prochain_rdv": "2021-08-05 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -104,7 +76,7 @@
             "prochain_rdv": "2021-08-06 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 881,
+            "appointment_count": 941,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -172,6 +144,34 @@
         },
         {
             "departement": "24",
+            "nom": "Ursvikens hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 21.188010806191546,
+                "latitude": 64.69952266126346,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Skelleftehamnsvägen 206 A, Ursviken",
+                "business_hours": null,
+                "phone_number": "0907859112"
+            },
+            "prochain_rdv": "2021-08-17 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 40,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Byske hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -188,7 +188,7 @@
             "prochain_rdv": "2021-08-18 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 34,
+            "appointment_count": 32,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -873,34 +873,6 @@
         },
         {
             "departement": "24",
-            "nom": "Ursvikens hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 21.188010806191546,
-                "latitude": 64.69952266126346,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Skelleftehamnsvägen 206 A, Ursviken",
-                "business_hours": null,
-                "phone_number": "0907859112"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Tärnaby sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -1165,6 +1137,34 @@
                 "address": "Glimmervägen 5 E",
                 "business_hours": null,
                 "phone_number": "0907859322"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Sävar hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.551555586055475,
+                "latitude": 63.898436261079766,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Kungsvägen 8A",
+                "business_hours": null,
+                "phone_number": "0907854447"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
