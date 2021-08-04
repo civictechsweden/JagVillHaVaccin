@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-04 08:33:40.073844+02:00",
+    "last_updated": "2021-08-04 08:59:53.525266+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,35 @@
             "prochain_rdv": "2021-08-04 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1011,
+            "appointment_count": 1012,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Stenbergska hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 18.673473259388757,
+                "latitude": 64.59984994028584,
+                "city": "Lycksele",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Johan Skyttes väg 6",
+                "business_hours": null,
+                "phone_number": "0907854448"
+            },
+            "prochain_rdv": "2021-08-04 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 86,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -132,7 +160,7 @@
             "prochain_rdv": "2021-08-13 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -244,35 +272,7 @@
             "prochain_rdv": "2021-08-18 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 49,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Stenbergska hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 18.673473259388757,
-                "latitude": 64.59984994028584,
-                "city": "Lycksele",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Johan Skyttes väg 6",
-                "business_hours": null,
-                "phone_number": "0907854448"
-            },
-            "prochain_rdv": "2021-08-19 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 86,
+            "appointment_count": 48,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
