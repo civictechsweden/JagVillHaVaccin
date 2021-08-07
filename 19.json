@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-07 06:36:04.209348+02:00",
+    "last_updated": "2021-08-07 07:03:31.209896+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -353,9 +353,7 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        }
-    ],
-    "centres_indisponibles": [
+        },
         {
             "departement": "19",
             "nom": "Surahammar vaccinationsmottagning Surahammar vårdcentral",
@@ -370,10 +368,10 @@
                 "address": "Köpmangatan 25, Surahammar",
                 "business_hours": null
             },
-            "prochain_rdv": null,
+            "prochain_rdv": "2021-08-20 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 0,
+            "appointment_count": null,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -382,7 +380,9 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "19",
             "nom": "Västerås vaccinationsmottagning Bäckby torg",
