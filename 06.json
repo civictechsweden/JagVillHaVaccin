@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-11 07:56:34.220615+02:00",
+    "last_updated": "2021-08-11 08:30:12.417648+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,11 +18,39 @@
                 "business_hours": null,
                 "phone_number": "0102423520"
             },
-            "prochain_rdv": "2021-08-11 13:03:00",
+            "prochain_rdv": "2021-08-11 13:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 262,
             "internal_id": "1198",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "06",
+            "nom": "Bra Liv Smålandsstenar vårdcentral (åldersgrupp eller riksgrupp)",
+            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 13.410842243364138,
+                "latitude": 57.16360501461046,
+                "city": "Gislaved",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Torggatan 6, Smålandsstenar",
+                "business_hours": null,
+                "phone_number": "0102442235"
+            },
+            "prochain_rdv": "2021-08-11 13:55:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": "1203",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -77,7 +105,7 @@
             "prochain_rdv": "2021-08-12 08:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1248,
+            "appointment_count": 1244,
             "internal_id": "2050",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -105,7 +133,7 @@
             "prochain_rdv": "2021-08-17 13:24:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 46,
+            "appointment_count": 45,
             "internal_id": "1206",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -217,7 +245,7 @@
             "prochain_rdv": "2021-08-20 09:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 120,
+            "appointment_count": 118,
             "internal_id": "1223",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -242,10 +270,10 @@
                 "business_hours": null,
                 "phone_number": "0102438610"
             },
-            "prochain_rdv": "2021-08-20 15:36:00",
+            "prochain_rdv": "2021-08-20 15:44:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 16,
+            "appointment_count": 15,
             "internal_id": "1209",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -273,7 +301,7 @@
             "prochain_rdv": "2021-08-23 11:18:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 82,
+            "appointment_count": 80,
             "internal_id": "1196",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -301,7 +329,7 @@
             "prochain_rdv": "2021-08-24 09:06:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 227,
+            "appointment_count": 226,
             "internal_id": "1179",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -341,34 +369,6 @@
         },
         {
             "departement": "06",
-            "nom": "Bra Liv Hälsan 1 vårdcentral, Jönköping",
-            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
-            "location": {
-                "longitude": 14.158432109596234,
-                "latitude": 57.77947881924537,
-                "city": "Jönköping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Hälsans vårdcentrum, Fabriksgatan 17, Jönköping",
-                "business_hours": null,
-                "phone_number": "0102425400"
-            },
-            "prochain_rdv": "2021-08-25 18:45:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": "1186",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "06",
             "nom": "Bra Liv Vråen vårdcentral, Värnamo (åldersgrupp eller riksgrupp)",
             "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
             "location": {
@@ -385,7 +385,7 @@
             "prochain_rdv": "2021-08-26 10:24:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 144,
+            "appointment_count": 141,
             "internal_id": "1210",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -497,7 +497,7 @@
             "prochain_rdv": "2021-08-26 13:33:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 8,
+            "appointment_count": 7,
             "internal_id": "1184",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -522,10 +522,10 @@
                 "business_hours": null,
                 "phone_number": "0102424400"
             },
-            "prochain_rdv": "2021-08-27 13:54:00",
+            "prochain_rdv": "2021-08-31 10:21:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 54,
+            "appointment_count": 53,
             "internal_id": "1199",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -707,34 +707,6 @@
         },
         {
             "departement": "06",
-            "nom": "Bra Liv Smålandsstenar vårdcentral (åldersgrupp eller riksgrupp)",
-            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
-            "location": {
-                "longitude": 13.410842243364138,
-                "latitude": 57.16360501461046,
-                "city": "Gislaved",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Torggatan 6, Smålandsstenar",
-                "business_hours": null,
-                "phone_number": "0102442235"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1203",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "06",
             "nom": "Bra Liv Smålandsstenar vårdcentral (18+ LSS/assistans/vårdnära)",
             "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
             "location": {
@@ -837,6 +809,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "1499",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "06",
+            "nom": "Bra Liv Hälsan 1 vårdcentral, Jönköping",
+            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 14.158432109596234,
+                "latitude": 57.77947881924537,
+                "city": "Jönköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Hälsans vårdcentrum, Fabriksgatan 17, Jönköping",
+                "business_hours": null,
+                "phone_number": "0102425400"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1186",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
