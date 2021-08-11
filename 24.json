@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-11 11:51:08.835893+02:00",
+    "last_updated": "2021-08-11 12:04:25.651660+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -77,6 +77,34 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 41,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Robertsfors hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.844570681764722,
+                "latitude": 64.1927516846582,
+                "city": "Robertsfors",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Fabriksvägen 3",
+                "business_hours": null,
+                "phone_number": "0907859121"
+            },
+            "prochain_rdv": "2021-08-18 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 12,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -228,34 +256,6 @@
         },
         {
             "departement": "24",
-            "nom": "Robertsfors hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.844570681764722,
-                "latitude": 64.1927516846582,
-                "city": "Robertsfors",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Fabriksvägen 3",
-                "business_hours": null,
-                "phone_number": "0907859121"
-            },
-            "prochain_rdv": "2021-08-25 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 6,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Byske hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -328,7 +328,7 @@
             "prochain_rdv": "2021-08-26 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 15,
+            "appointment_count": 14,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
