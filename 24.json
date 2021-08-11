@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-11 15:14:20.994329+02:00",
+    "last_updated": "2021-08-11 15:39:47.384733+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,35 @@
             "prochain_rdv": "2021-08-12 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 500,
+            "appointment_count": 492,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Heimdalls hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.948482561952545,
+                "latitude": 64.75145347569664,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Köpmangatan 15, Skellefteå",
+                "business_hours": null,
+                "phone_number": "0907859111"
+            },
+            "prochain_rdv": "2021-08-12 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -76,7 +104,7 @@
             "prochain_rdv": "2021-08-16 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 40,
+            "appointment_count": 39,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -132,7 +160,7 @@
             "prochain_rdv": "2021-08-18 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 8,
+            "appointment_count": 6,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -188,7 +216,7 @@
             "prochain_rdv": "2021-08-19 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 39,
+            "appointment_count": 40,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -216,7 +244,7 @@
             "prochain_rdv": "2021-08-19 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -801,34 +829,6 @@
                 "address": "Annastigen 8",
                 "business_hours": null,
                 "phone_number": "0907859110"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Heimdalls hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.948482561952545,
-                "latitude": 64.75145347569664,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Köpmangatan 15, Skellefteå",
-                "business_hours": null,
-                "phone_number": "0907859111"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
