@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-12 17:00:07.523383+02:00",
+    "last_updated": "2021-08-12 17:31:25.152403+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-08-13 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 441,
+            "appointment_count": 435,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -48,7 +48,7 @@
             "prochain_rdv": "2021-08-13 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 21,
+            "appointment_count": 20,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -244,7 +244,7 @@
             "prochain_rdv": "2021-08-19 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 24,
+            "appointment_count": 23,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -272,7 +272,7 @@
             "prochain_rdv": "2021-08-25 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 9,
+            "appointment_count": 8,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -312,34 +312,6 @@
         },
         {
             "departement": "24",
-            "nom": "Anderstorps hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.988785517005645,
-                "latitude": 64.74597319664166,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Anderstorpsleden 1",
-                "business_hours": null,
-                "phone_number": "0907859114"
-            },
-            "prochain_rdv": "2021-08-26 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 3,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Bureå hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -368,20 +340,20 @@
         },
         {
             "departement": "24",
-            "nom": "Tärnaby sjukstuga hälsocentral",
+            "nom": "Anderstorps hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 15.31339230368373,
-                "latitude": 65.71588725571208,
-                "city": "Storuman",
+                "longitude": 20.988785517005645,
+                "latitude": 64.74597319664166,
+                "city": "Skellefteå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Granvägen 7, Tärnaby",
+                "address": "Anderstorpsleden 1",
                 "business_hours": null,
-                "phone_number": "0907854470"
+                "phone_number": "0907859114"
             },
-            "prochain_rdv": "2021-09-01 00:00:00",
+            "prochain_rdv": "2021-08-27 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 1,
@@ -885,6 +857,34 @@
                 "address": "Skelleftehamnsvägen 206 A, Ursviken",
                 "business_hours": null,
                 "phone_number": "0907859112"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Tärnaby sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 15.31339230368373,
+                "latitude": 65.71588725571208,
+                "city": "Storuman",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Granvägen 7, Tärnaby",
+                "business_hours": null,
+                "phone_number": "0907854470"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
