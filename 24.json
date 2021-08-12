@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-12 18:42:50.696103+02:00",
+    "last_updated": "2021-08-12 19:12:38.812552+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -132,7 +132,7 @@
             "prochain_rdv": "2021-08-18 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 11,
+            "appointment_count": 10,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -273,6 +273,34 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 55,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Ursvikens hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 21.188010806191546,
+                "latitude": 64.69952266126346,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Skelleftehamnsvägen 206 A, Ursviken",
+                "business_hours": null,
+                "phone_number": "0907859112"
+            },
+            "prochain_rdv": "2021-08-26 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -829,34 +857,6 @@
                 "address": "Höjdgatan 14, Skellefteå",
                 "business_hours": null,
                 "phone_number": "0907859115"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Ursvikens hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 21.188010806191546,
-                "latitude": 64.69952266126346,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Skelleftehamnsvägen 206 A, Ursviken",
-                "business_hours": null,
-                "phone_number": "0907859112"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
