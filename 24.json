@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-13 11:29:31.271978+02:00",
+    "last_updated": "2021-08-13 11:49:59.841581+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-08-13 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 299,
+            "appointment_count": 296,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -76,7 +76,7 @@
             "prochain_rdv": "2021-08-16 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 34,
+            "appointment_count": 37,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -106,6 +106,34 @@
             "type": "vaccination-center",
             "appointment_count": 58,
             "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Vaccina Vännäs, Medborgarskolan",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.7531455,
+                "latitude": 63.907023,
+                "city": "Vännäs",
+                "cp": "91132"
+            },
+            "metadata": {
+                "address": "Köpmangatan 15, 911 32 Vännäs",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-08-17 11:48:00",
+            "plateforme": "Vaccina",
+            "type": "vaccination-center",
+            "appointment_count": 65,
+            "internal_id": 31519,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -228,34 +256,6 @@
         },
         {
             "departement": "24",
-            "nom": "Byske hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 21.20716665139364,
-                "latitude": 64.950590882984,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ringvägen 8",
-                "business_hours": null,
-                "phone_number": "0907859118"
-            },
-            "prochain_rdv": "2021-08-25 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Vilhelmina sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -272,7 +272,7 @@
             "prochain_rdv": "2021-08-25 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 51,
+            "appointment_count": 50,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -717,6 +717,34 @@
                 "address": "Björnåkersgatan 10",
                 "business_hours": null,
                 "phone_number": "0907859173"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Byske hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 21.20716665139364,
+                "latitude": 64.950590882984,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ringvägen 8",
+                "business_hours": null,
+                "phone_number": "0907859118"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -1451,34 +1479,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": 31131,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Vaccina Vännäs, Medborgarskolan",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.7531455,
-                "latitude": 63.907023,
-                "city": "Vännäs",
-                "cp": "91132"
-            },
-            "metadata": {
-                "address": "Köpmangatan 15, 911 32 Vännäs",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "Vaccina",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": 31519,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
