@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-15 01:00:01.935033+02:00",
+    "last_updated": "2021-08-15 01:26:55.602947+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -2485,7 +2485,35 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 59,
+            "appointment_count": 58,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Mösseberg vårdcentral, Falköping",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.551919293701959,
+                "latitude": 58.187716349794115,
+                "city": "Falköping",
+                "cp": "52137"
+            },
+            "metadata": {
+                "address": "Danska vägen 62, 521 37, Falköping",
+                "business_hours": null,
+                "phone_number": "051587890"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -9453,34 +9481,6 @@
                 "address": "Lövskogsgatan 8, 451 72, Uddevalla",
                 "business_hours": null,
                 "phone_number": "0104416800"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Mösseberg vårdcentral, Falköping",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.551919293701959,
-                "latitude": 58.187716349794115,
-                "city": "Falköping",
-                "cp": "52137"
-            },
-            "metadata": {
-                "address": "Danska vägen 62, 521 37, Falköping",
-                "business_hours": null,
-                "phone_number": "051587890"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
