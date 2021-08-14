@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-14 19:40:50.308895+02:00",
+    "last_updated": "2021-08-14 19:59:40.661027+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-08-16 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 167,
+            "appointment_count": 163,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -216,7 +216,7 @@
             "prochain_rdv": "2021-08-19 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 102,
+            "appointment_count": 101,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -340,23 +340,23 @@
         },
         {
             "departement": "24",
-            "nom": "Anderstorps hälsocentral",
+            "nom": "Norrlandskliniken hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 20.988785517005645,
-                "latitude": 64.74597319664166,
-                "city": "Skellefteå",
+                "longitude": 20.321609843551045,
+                "latitude": 63.804754920960285,
+                "city": "Umeå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Anderstorpsleden 1",
+                "address": "Glimmervägen 5 E",
                 "business_hours": null,
-                "phone_number": "0907859114"
+                "phone_number": "0907859322"
             },
-            "prochain_rdv": "2021-08-27 00:00:00",
+            "prochain_rdv": "2021-08-30 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 140,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -689,6 +689,34 @@
                 "address": "Storgatan 33",
                 "business_hours": null,
                 "phone_number": "0907859116"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Anderstorps hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.988785517005645,
+                "latitude": 64.74597319664166,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Anderstorpsleden 1",
+                "business_hours": null,
+                "phone_number": "0907859114"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -1137,34 +1165,6 @@
                 "address": "Morkullevägen 9",
                 "business_hours": null,
                 "phone_number": "0907854444"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Norrlandskliniken hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.321609843551045,
-                "latitude": 63.804754920960285,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Glimmervägen 5 E",
-                "business_hours": null,
-                "phone_number": "0907859322"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
