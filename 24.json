@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-16 16:51:05.668795+02:00",
+    "last_updated": "2021-08-16 17:04:05.706292+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -48,7 +48,7 @@
             "prochain_rdv": "2021-08-18 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 626,
+            "appointment_count": 694,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -228,6 +228,34 @@
         },
         {
             "departement": "24",
+            "nom": "Vännäs hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.77323730765729,
+                "latitude": 63.90955870161272,
+                "city": "Vännäs",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Umevägen 56",
+                "business_hours": null,
+                "phone_number": "0907854450"
+            },
+            "prochain_rdv": "2021-08-19 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 4,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Bolidens hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -244,7 +272,7 @@
             "prochain_rdv": "2021-08-20 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 33,
+            "appointment_count": 32,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -300,7 +328,7 @@
             "prochain_rdv": "2021-08-23 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 23,
+            "appointment_count": 21,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -356,7 +384,7 @@
             "prochain_rdv": "2021-08-26 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 29,
+            "appointment_count": 28,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -385,34 +413,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 14,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Anderstorps hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.988785517005645,
-                "latitude": 64.74597319664166,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Anderstorpsleden 1",
-                "business_hours": null,
-                "phone_number": "0907859114"
-            },
-            "prochain_rdv": "2021-08-27 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -773,6 +773,34 @@
                 "address": "Fabriksvägen 3",
                 "business_hours": null,
                 "phone_number": "0907859121"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Anderstorps hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.988785517005645,
+                "latitude": 64.74597319664166,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Anderstorpsleden 1",
+                "business_hours": null,
+                "phone_number": "0907859114"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -1249,34 +1277,6 @@
                 "address": "Storvägen 56",
                 "business_hours": null,
                 "phone_number": "0907854442"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Vännäs hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.77323730765729,
-                "latitude": 63.90955870161272,
-                "city": "Vännäs",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Umevägen 56",
-                "business_hours": null,
-                "phone_number": "0907854450"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
