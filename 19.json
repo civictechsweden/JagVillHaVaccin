@@ -1,35 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-08-19 13:59:51.234614+02:00",
+    "last_updated": "2021-08-19 14:40:30.458917+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "19",
-            "nom": "Köping vaccinationsmottagning Folkets hus",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 16.002459368320938,
-                "latitude": 59.51410625307515,
-                "city": "Köping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Västeråsvägen 9, Köping",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-08-19 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": null,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "19",
             "nom": "Norberg vaccinationsmottagning Folkets hus",
@@ -302,16 +275,16 @@
         },
         {
             "departement": "19",
-            "nom": "Surahammar vaccinationsmottagning Surahammar vårdcentral",
+            "nom": "Köping vaccinationsmottagning Folkets hus",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 16.221683736373375,
-                "latitude": 59.707337675449665,
-                "city": "Surahammar",
+                "longitude": 16.002459368320938,
+                "latitude": 59.51410625307515,
+                "city": "Köping",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Köpmangatan 25, Surahammar",
+                "address": "Västeråsvägen 9, Köping",
                 "business_hours": null
             },
             "prochain_rdv": "2021-08-20 00:00:00",
@@ -422,6 +395,33 @@
             },
             "metadata": {
                 "address": "Kyrkvägen 1, Skinnskatteberg",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "19",
+            "nom": "Surahammar vaccinationsmottagning Surahammar vårdcentral",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 16.221683736373375,
+                "latitude": 59.707337675449665,
+                "city": "Surahammar",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Köpmangatan 25, Surahammar",
                 "business_hours": null
             },
             "prochain_rdv": null,
