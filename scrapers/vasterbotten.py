@@ -30,7 +30,6 @@ def get_slots(center):
 
         amount_of_slots += int(timeslots[date].split()[0])
 
-    print(amount_of_slots)
     if len(available_slots) > 0:
         next_slot = {
             'next': transform_date(available_slots[0]),
@@ -42,6 +41,9 @@ def get_slots(center):
 
 
 def get_center_info(center):
+    if not center.h3:
+        return None
+
     vaccination_center = center.h3.text
     if vaccination_center.split()[0] in ['Vaccina', 'Central']:
         municipality = center.h3.text.split()[-1]
@@ -71,7 +73,8 @@ def get_centers():
 
     for center in soup.find_all(class_='row jumbotron'):
         center_info = get_center_info(center)
-        results.append(center_info)
+        if center_info:
+            results.append(center_info)
 
     results = list({v['vaccination_center']: v for v in results}.values())
 
