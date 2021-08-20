@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-20 23:47:16.243082+02:00",
+    "last_updated": "2021-08-21 00:00:07.588341+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -565,24 +565,52 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Torslanda",
+            "nom": "Kronans Apotek MediCheck Mariestad Vårdcentral",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 11.774456734363756,
-                "latitude": 57.709823197639466,
-                "city": "Göteborg",
-                "cp": "42337"
+                "longitude": 13.796178135977993,
+                "latitude": 58.705451405375015,
+                "city": "Mariestad",
+                "cp": 0
             },
             "metadata": {
-                "address": "Gamla flygplatsvägen 40, 423 37, Torslanda",
+                "address": "",
                 "business_hours": null,
                 "phone_number": "0812844621"
             },
-            "prochain_rdv": "2021-08-25 12:35:00",
+            "prochain_rdv": "2021-08-25 12:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 162,
-            "internal_id": "2090",
+            "appointment_count": 2,
+            "internal_id": "2079",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Mariestad Vårdcentral",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.796178135977993,
+                "latitude": 58.705451405375015,
+                "city": "Mariestad",
+                "cp": 0
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-08-25 12:25:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "2079",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -621,52 +649,24 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Wieselgrensplatsen",
+            "nom": "Kronans Apotek MediCheck Torslanda",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 11.93755204751039,
-                "latitude": 57.72172249873233,
+                "longitude": 11.774456734363756,
+                "latitude": 57.709823197639466,
                 "city": "Göteborg",
-                "cp": "41717"
+                "cp": "42337"
             },
             "metadata": {
-                "address": "Wieselgrensplatsen 5, 417 17, Göteborg",
+                "address": "Gamla flygplatsvägen 40, 423 37, Torslanda",
                 "business_hours": null,
                 "phone_number": "0812844621"
             },
-            "prochain_rdv": "2021-08-25 16:25:00",
+            "prochain_rdv": "2021-08-25 12:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 554,
-            "internal_id": "2078",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Wieselgrensplatsen",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.93755204751039,
-                "latitude": 57.72172249873233,
-                "city": "Göteborg",
-                "cp": "41717"
-            },
-            "metadata": {
-                "address": "Wieselgrensplatsen 5, 417 17, Göteborg",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": "2021-08-25 16:25:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 554,
-            "internal_id": "2078",
+            "appointment_count": 162,
+            "internal_id": "2090",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -2907,6 +2907,62 @@
             "type": "vaccination-center",
             "appointment_count": 652,
             "internal_id": "a5acef14-9dba-11eb-a8eb-fa163e329242",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Wieselgrensplatsen",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.93755204751039,
+                "latitude": 57.72172249873233,
+                "city": "Göteborg",
+                "cp": "41717"
+            },
+            "metadata": {
+                "address": "Wieselgrensplatsen 5, 417 17, Göteborg",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-08-26 09:55:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 554,
+            "internal_id": "2078",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Wieselgrensplatsen",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.93755204751039,
+                "latitude": 57.72172249873233,
+                "city": "Göteborg",
+                "cp": "41717"
+            },
+            "metadata": {
+                "address": "Wieselgrensplatsen 5, 417 17, Göteborg",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-08-26 09:55:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 554,
+            "internal_id": "2078",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -3381,7 +3437,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 34,
+            "appointment_count": 14,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -10365,34 +10421,6 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Mariestad Vårdcentral",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.796178135977993,
-                "latitude": 58.705451405375015,
-                "city": "Mariestad",
-                "cp": 0
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2079",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Kronans Apotek MediCheck Skene",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -10551,34 +10579,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2087",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Mariestad Vårdcentral",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.796178135977993,
-                "latitude": 58.705451405375015,
-                "city": "Mariestad",
-                "cp": 0
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2079",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
