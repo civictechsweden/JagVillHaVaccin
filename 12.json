@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-21 12:49:02.579045+02:00",
+    "last_updated": "2021-08-21 13:01:37.359889+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -168,6 +168,33 @@
         },
         {
             "departement": "12",
+            "nom": "Vaccinova Kävlinge",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 12.990281056526408,
+                "latitude": 55.76931284279357,
+                "city": "Kävlinge",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Marknadsvägen 7, Löddeköpinge",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-08-25 10:47:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 159,
+            "internal_id": "2023",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
             "nom": "Vaccinova Tomelilla",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -222,6 +249,33 @@
         },
         {
             "departement": "12",
+            "nom": "Vaccinova Eslöv",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 13.303797540331134,
+                "latitude": 55.84018749196131,
+                "city": "Eslöv",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Norregatan 6, Eslöv",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-08-27 16:45:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 306,
+            "internal_id": "2022",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
             "nom": "Doktor se Klippan Vaccinationsenhet",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -239,33 +293,6 @@
             "type": "vaccination-center",
             "appointment_count": 2922,
             "internal_id": "231",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Vaccinova Kävlinge",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 12.990281056526408,
-                "latitude": 55.76931284279357,
-                "city": "Kävlinge",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Marknadsvägen 7, Löddeköpinge",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-08-30 11:07:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 157,
-            "internal_id": "2023",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -331,33 +358,6 @@
         },
         {
             "departement": "12",
-            "nom": "Vaccinova Eslöv",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 13.303797540331134,
-                "latitude": 55.84018749196131,
-                "city": "Eslöv",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Norregatan 6, Eslöv",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-09-02 14:35:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 304,
-            "internal_id": "2022",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Berga Läkarhus, Helsingborg",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -402,7 +402,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 8429,
+            "appointment_count": 8407,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -430,7 +430,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 1670,
+            "appointment_count": 1668,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -514,7 +514,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 1361,
+            "appointment_count": 1360,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -598,7 +598,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 3937,
+            "appointment_count": 3929,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -710,7 +710,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1210,
+            "appointment_count": 1209,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -738,7 +738,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 137,
+            "appointment_count": 136,
             "internal_id": 30007,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -766,7 +766,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 137,
+            "appointment_count": 136,
             "internal_id": 30008,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -794,7 +794,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 137,
+            "appointment_count": 136,
             "internal_id": 30009,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -822,7 +822,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 137,
+            "appointment_count": 136,
             "internal_id": 30011,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -850,7 +850,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 137,
+            "appointment_count": 136,
             "internal_id": 30010,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -878,7 +878,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 137,
+            "appointment_count": 136,
             "internal_id": 30015,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -906,7 +906,7 @@
             "prochain_rdv": null,
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 137,
+            "appointment_count": 136,
             "internal_id": 31153,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
