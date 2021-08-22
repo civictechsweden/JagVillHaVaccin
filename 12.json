@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-23 00:00:24.666160+02:00",
+    "last_updated": "2021-08-23 00:27:15.877006+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -22,6 +22,33 @@
             "type": "vaccination-center",
             "appointment_count": 246,
             "internal_id": "2020",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccinova Höganäs",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 12.567829076073167,
+                "latitude": 56.19992166277999,
+                "city": "Höganäs",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Östra Parkgatan 2, Höganäs",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-08-23 09:55:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 198,
+            "internal_id": "2019",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -75,7 +102,7 @@
             "prochain_rdv": "2021-08-23 10:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1008,
+            "appointment_count": 1010,
             "internal_id": "1535",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -114,33 +141,6 @@
         },
         {
             "departement": "12",
-            "nom": "Vaccinova Höganäs",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 12.567829076073167,
-                "latitude": 56.19992166277999,
-                "city": "Höganäs",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Östra Parkgatan 2, Höganäs",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-08-23 16:05:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 194,
-            "internal_id": "2019",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Vaccination Covid19 Öresundshälsan, Malmö",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -156,7 +156,7 @@
             "prochain_rdv": "2021-08-24 09:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 440,
+            "appointment_count": 466,
             "internal_id": "2072",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -183,7 +183,7 @@
             "prochain_rdv": "2021-08-24 11:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 240,
+            "appointment_count": 307,
             "internal_id": "2018",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -402,7 +402,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 7458,
+            "appointment_count": 7457,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -514,7 +514,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 1157,
+            "appointment_count": 1156,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -710,7 +710,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1155,
+            "appointment_count": 1152,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
