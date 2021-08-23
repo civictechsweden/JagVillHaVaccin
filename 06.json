@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-23 19:56:15.970579+02:00",
+    "last_updated": "2021-08-23 20:29:35.135840+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,8 +21,36 @@
             "prochain_rdv": "2021-08-24 10:36:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 268,
+            "appointment_count": 269,
             "internal_id": "1179",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "06",
+            "nom": "Nässjö Läkarhus (åldersgrupp eller riksgrupp)",
+            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 14.691821984274767,
+                "latitude": 57.6595321738957,
+                "city": "Nässjö",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Mariagatan 30, Nässjö",
+                "business_hours": null,
+                "phone_number": "0102432800"
+            },
+            "prochain_rdv": "2021-08-24 13:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 172,
+            "internal_id": "1235",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -51,34 +79,6 @@
             "type": "vaccination-center",
             "appointment_count": 70,
             "internal_id": "1182",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "06",
-            "nom": "Nässjö Läkarhus (åldersgrupp eller riksgrupp)",
-            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
-            "location": {
-                "longitude": 14.691821984274767,
-                "latitude": 57.6595321738957,
-                "city": "Nässjö",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Mariagatan 30, Nässjö",
-                "business_hours": null,
-                "phone_number": "0102432800"
-            },
-            "prochain_rdv": "2021-08-24 15:12:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 172,
-            "internal_id": "1235",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -133,7 +133,7 @@
             "prochain_rdv": "2021-08-25 08:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1988,
+            "appointment_count": 1984,
             "internal_id": "2050",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -189,7 +189,7 @@
             "prochain_rdv": "2021-08-25 09:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 126,
+            "appointment_count": 125,
             "internal_id": "1201",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -217,7 +217,7 @@
             "prochain_rdv": "2021-08-25 10:24:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 126,
+            "appointment_count": 125,
             "internal_id": "1181",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -369,34 +369,6 @@
         },
         {
             "departement": "06",
-            "nom": "Bra Liv Hälsan 1 vårdcentral, Jönköping",
-            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
-            "location": {
-                "longitude": 14.158432109596234,
-                "latitude": 57.77947881924537,
-                "city": "Jönköping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Hälsans vårdcentrum, Fabriksgatan 17, Jönköping",
-                "business_hours": null,
-                "phone_number": "0102425400"
-            },
-            "prochain_rdv": "2021-08-25 18:39:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 142,
-            "internal_id": "1186",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "06",
             "nom": "Bra Liv Kungshälsan vårdcentral, Huskvarna",
             "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
             "location": {
@@ -497,7 +469,7 @@
             "prochain_rdv": "2021-08-26 13:48:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 44,
+            "appointment_count": 43,
             "internal_id": "1175",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -609,8 +581,36 @@
             "prochain_rdv": "2021-08-27 13:09:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 284,
+            "appointment_count": 282,
             "internal_id": "1196",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "06",
+            "nom": "Bra Liv Hälsan 1 vårdcentral, Jönköping",
+            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 14.158432109596234,
+                "latitude": 57.77947881924537,
+                "city": "Jönköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Hälsans vårdcentrum, Fabriksgatan 17, Jönköping",
+                "business_hours": null,
+                "phone_number": "0102425400"
+            },
+            "prochain_rdv": "2021-08-27 13:27:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 140,
+            "internal_id": "1186",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -749,7 +749,7 @@
             "prochain_rdv": "2021-09-01 11:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 62,
+            "appointment_count": 61,
             "internal_id": "1184",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
