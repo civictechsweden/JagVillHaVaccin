@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-23 17:26:44.030488+02:00",
+    "last_updated": "2021-08-23 17:50:47.857141+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-08-24 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 233,
+            "appointment_count": 232,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -101,10 +101,10 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-08-24 11:36:00",
+            "prochain_rdv": "2021-08-24 11:48:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 28,
+            "appointment_count": 26,
             "internal_id": 31524,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -312,6 +312,34 @@
         },
         {
             "departement": "24",
+            "nom": "Ersboda hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.317044179291425,
+                "latitude": 63.85660370244311,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Hälsogränd 3, Umeå",
+                "business_hours": null,
+                "phone_number": "0907854457"
+            },
+            "prochain_rdv": "2021-08-25 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 8,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Bolidens hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -356,7 +384,7 @@
             "prochain_rdv": "2021-08-26 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 28,
+            "appointment_count": 27,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -580,7 +608,35 @@
             "prochain_rdv": "2021-08-31 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 57,
+            "appointment_count": 54,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Ursvikens hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 21.188010806191546,
+                "latitude": 64.69952266126346,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Skelleftehamnsvägen 206 A, Ursviken",
+                "business_hours": null,
+                "phone_number": "0907859112"
+            },
+            "prochain_rdv": "2021-08-31 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -636,7 +692,7 @@
             "prochain_rdv": "2021-09-01 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 37,
+            "appointment_count": 36,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -804,7 +860,7 @@
             "prochain_rdv": "2021-09-07 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 29,
+            "appointment_count": 27,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -874,34 +930,6 @@
         },
         {
             "departement": "24",
-            "nom": "Ursvikens hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 21.188010806191546,
-                "latitude": 64.69952266126346,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Skelleftehamnsvägen 206 A, Ursviken",
-                "business_hours": null,
-                "phone_number": "0907859112"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Backens hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -914,34 +942,6 @@
                 "address": "Manusgränd 3",
                 "business_hours": null,
                 "phone_number": "0907854443"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Ersboda hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.317044179291425,
-                "latitude": 63.85660370244311,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Hälsogränd 3, Umeå",
-                "business_hours": null,
-                "phone_number": "0907854457"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
