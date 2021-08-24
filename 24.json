@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-24 08:32:41.521540+02:00",
+    "last_updated": "2021-08-24 08:56:37.856474+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,35 @@
             "prochain_rdv": "2021-08-24 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 205,
+            "appointment_count": 198,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Morö Backe hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 21.026742481432354,
+                "latitude": 64.75336170983184,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Höjdgatan 14, Skellefteå",
+                "business_hours": null,
+                "phone_number": "0907859115"
+            },
+            "prochain_rdv": "2021-08-24 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 16,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -48,7 +76,7 @@
             "prochain_rdv": "2021-08-24 12:32:00",
             "plateforme": "Vaccina",
             "type": "vaccination-center",
-            "appointment_count": 17,
+            "appointment_count": 16,
             "internal_id": 31524,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -188,7 +216,7 @@
             "prochain_rdv": "2021-08-25 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 7,
+            "appointment_count": 9,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -284,6 +312,62 @@
         },
         {
             "departement": "24",
+            "nom": "Vilhelmina sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 16.66232849898825,
+                "latitude": 64.625086471245,
+                "city": "Vilhelmina",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Volgsjövägen 37",
+                "business_hours": null,
+                "phone_number": "0907859125"
+            },
+            "prochain_rdv": "2021-08-25 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 121,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Anderstorps hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.988785517005645,
+                "latitude": 64.74597319664166,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Anderstorpsleden 1",
+                "business_hours": null,
+                "phone_number": "0907859114"
+            },
+            "prochain_rdv": "2021-08-26 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Bolidens hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -301,34 +385,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 48,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Morö Backe hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 21.026742481432354,
-                "latitude": 64.75336170983184,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Höjdgatan 14, Skellefteå",
-                "business_hours": null,
-                "phone_number": "0907859115"
-            },
-            "prochain_rdv": "2021-08-26 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 17,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -384,7 +440,7 @@
             "prochain_rdv": "2021-08-26 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 20,
+            "appointment_count": 18,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -412,7 +468,7 @@
             "prochain_rdv": "2021-08-26 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 24,
+            "appointment_count": 23,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -468,35 +524,7 @@
             "prochain_rdv": "2021-08-27 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 80,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Vilhelmina sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 16.66232849898825,
-                "latitude": 64.625086471245,
-                "city": "Vilhelmina",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Volgsjövägen 37",
-                "business_hours": null,
-                "phone_number": "0907859125"
-            },
-            "prochain_rdv": "2021-08-27 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 120,
+            "appointment_count": 79,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -748,7 +776,7 @@
             "prochain_rdv": "2021-09-02 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 118,
+            "appointment_count": 117,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -844,34 +872,6 @@
         }
     ],
     "centres_indisponibles": [
-        {
-            "departement": "24",
-            "nom": "Anderstorps hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.988785517005645,
-                "latitude": 64.74597319664166,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Anderstorpsleden 1",
-                "business_hours": null,
-                "phone_number": "0907859114"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "24",
             "nom": "Ursvikens hälsocentral",
