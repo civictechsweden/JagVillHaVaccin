@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-24 09:25:10.624749+02:00",
+    "last_updated": "2021-08-24 09:43:44.405878+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,11 +18,39 @@
                 "business_hours": null,
                 "phone_number": "061180400"
             },
-            "prochain_rdv": "2021-08-24 09:25:00",
+            "prochain_rdv": "2021-08-24 09:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 204,
+            "appointment_count": 201,
             "internal_id": "1309",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Bollsta",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 17.6703668135133,
+                "latitude": 62.99855335986242,
+                "city": "Kramfors",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Bollsta Folketspark, Tunsjövägen 4",
+                "business_hours": null,
+                "phone_number": "061180400"
+            },
+            "prochain_rdv": "2021-08-24 13:57:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 60,
+            "internal_id": "1321",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -77,36 +105,8 @@
             "prochain_rdv": "2021-08-24 18:54:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1323,
+            "appointment_count": 1320,
             "internal_id": "1514",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Vaccinationsenhet Bollsta",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 17.6703668135133,
-                "latitude": 62.99855335986242,
-                "city": "Kramfors",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Bollsta Folketspark, Tunsjövägen 4",
-                "business_hours": null,
-                "phone_number": "061180400"
-            },
-            "prochain_rdv": "2021-08-25 09:10:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 60,
-            "internal_id": "1321",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -161,7 +161,7 @@
             "prochain_rdv": "2021-08-26 08:42:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1419,
+            "appointment_count": 1395,
             "internal_id": "1291",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
