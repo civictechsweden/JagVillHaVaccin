@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-24 16:26:03.504093+02:00",
+    "last_updated": "2021-08-24 16:46:48.678672+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -326,7 +326,9 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "19",
             "nom": "Surahammar vaccinationsmottagning Surahammar vårdcentral",
@@ -341,10 +343,10 @@
                 "address": "Köpmangatan 25, Surahammar",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-09-03 00:00:00",
+            "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": null,
+            "appointment_count": 0,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -353,9 +355,7 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        }
-    ],
-    "centres_indisponibles": [
+        },
         {
             "departement": "19",
             "nom": "Västerås vaccinationsmottagning Gallerian",
