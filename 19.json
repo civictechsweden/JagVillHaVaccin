@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-24 09:44:28.902930+02:00",
+    "last_updated": "2021-08-24 09:59:26.081013+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -86,16 +86,16 @@
         },
         {
             "departement": "19",
-            "nom": "Norberg vaccinationsmottagning Folkets hus",
+            "nom": "Sala vaccinationsmottagning Kungsängsgymnasiet",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 15.926652788486193,
-                "latitude": 60.06834413792669,
-                "city": "Norberg",
+                "longitude": 16.61277760655463,
+                "latitude": 59.91094126921412,
+                "city": "Sala",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Järnvägsgatan 53, Norberg",
+                "address": "Gymnasiegatan 1-3, C-huset, Sala",
                 "business_hours": null
             },
             "prochain_rdv": "2021-08-24 00:00:00",
@@ -113,16 +113,16 @@
         },
         {
             "departement": "19",
-            "nom": "Sala vaccinationsmottagning Kungsängsgymnasiet",
+            "nom": "Västerås vaccinationsmottagning Gallerian",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 16.61277760655463,
-                "latitude": 59.91094126921412,
-                "city": "Sala",
+                "longitude": 16.54920331236794,
+                "latitude": 59.61059910908892,
+                "city": "Västerås",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Gymnasiegatan 1-3, C-huset, Sala",
+                "address": "Kopparbergsvägen 13, Västerås",
                 "business_hours": null
             },
             "prochain_rdv": "2021-08-24 00:00:00",
@@ -221,16 +221,16 @@
         },
         {
             "departement": "19",
-            "nom": "Arboga vaccinationsmottagning Medborgarhuset",
+            "nom": "Hallstahammar vaccinationsmottagning Folkets hus",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 15.839052192348248,
-                "latitude": 59.395007107695434,
-                "city": "Arboga",
+                "longitude": 16.23251539364746,
+                "latitude": 59.61888734969954,
+                "city": "Hallstahammar",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Ahllöfsgatan 5, Arboga",
+                "address": "Parkgatan 24, Hallstahammar",
                 "business_hours": null
             },
             "prochain_rdv": "2021-08-25 00:00:00",
@@ -248,16 +248,16 @@
         },
         {
             "departement": "19",
-            "nom": "Hallstahammar vaccinationsmottagning Folkets hus",
+            "nom": "Norberg vaccinationsmottagning Folkets hus",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 16.23251539364746,
-                "latitude": 59.61888734969954,
-                "city": "Hallstahammar",
+                "longitude": 15.926652788486193,
+                "latitude": 60.06834413792669,
+                "city": "Norberg",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Parkgatan 24, Hallstahammar",
+                "address": "Järnvägsgatan 53, Norberg",
                 "business_hours": null
             },
             "prochain_rdv": "2021-08-25 00:00:00",
@@ -288,6 +288,33 @@
                 "business_hours": null
             },
             "prochain_rdv": "2021-08-25 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": null,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "19",
+            "nom": "Arboga vaccinationsmottagning Medborgarhuset",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 15.839052192348248,
+                "latitude": 59.395007107695434,
+                "city": "Arboga",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ahllöfsgatan 5, Arboga",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-08-26 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": null,
@@ -355,33 +382,5 @@
             "gid": null
         }
     ],
-    "centres_indisponibles": [
-        {
-            "departement": "19",
-            "nom": "Västerås vaccinationsmottagning Gallerian",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 16.54920331236794,
-                "latitude": 59.61059910908892,
-                "city": "Västerås",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kopparbergsvägen 13, Västerås",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        }
-    ]
+    "centres_indisponibles": []
 }
