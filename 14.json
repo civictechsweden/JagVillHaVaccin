@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-25 07:00:34.210482+02:00",
+    "last_updated": "2021-08-25 07:25:21.897212+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -329,7 +329,7 @@
             "prochain_rdv": "2021-08-25 10:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 670,
+            "appointment_count": 672,
             "internal_id": "2085",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -357,7 +357,7 @@
             "prochain_rdv": "2021-08-25 11:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 564,
+            "appointment_count": 562,
             "internal_id": "2096",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -385,7 +385,7 @@
             "prochain_rdv": "2021-08-25 11:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 564,
+            "appointment_count": 562,
             "internal_id": "2096",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -397,6 +397,34 @@
         },
         {
             "departement": "14",
+            "nom": "Kronans Apotek MediCheck Hisingsbacka",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.98214942257889,
+                "latitude": 57.75033771020452,
+                "city": "Göteborg",
+                "cp": "42248"
+            },
+            "metadata": {
+                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings Backa",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-08-25 11:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 444,
+            "internal_id": "2091",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Kronans Apotek MediCheck Strömstad",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -497,7 +525,7 @@
             "prochain_rdv": "2021-08-25 11:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 48,
+            "appointment_count": 46,
             "internal_id": "2082",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -509,34 +537,6 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Hisingsbacka",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.98214942257889,
-                "latitude": 57.75033771020452,
-                "city": "Göteborg",
-                "cp": "42248"
-            },
-            "metadata": {
-                "address": "Selma Lagerlöfs Torg 1, 422 48, Hisings Backa",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": "2021-08-25 11:55:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 442,
-            "internal_id": "2091",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Kronans Apotek MediCheck Kongahälla Shoppingcenter",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -553,7 +553,7 @@
             "prochain_rdv": "2021-08-25 11:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 48,
+            "appointment_count": 46,
             "internal_id": "2082",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -581,7 +581,7 @@
             "prochain_rdv": "2021-08-25 12:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 700,
+            "appointment_count": 696,
             "internal_id": "2095",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -609,7 +609,7 @@
             "prochain_rdv": "2021-08-25 12:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 700,
+            "appointment_count": 696,
             "internal_id": "2095",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2861,24 +2861,52 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Överby Köpcenter",
+            "nom": "Kronans Apotek MediCheck Alingsås",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 12.31321460516224,
-                "latitude": 58.318666541950606,
-                "city": "Trollhättan",
-                "cp": "46170"
+                "longitude": 12.537011564676016,
+                "latitude": 57.930104216081595,
+                "city": "Alingsås",
+                "cp": "44131"
             },
             "metadata": {
-                "address": "Överby Köpcentrum, 461 70, Trollhättan",
+                "address": "Kungsgatan 34, 441 31, Alingsås",
                 "business_hours": null,
                 "phone_number": "0812844621"
             },
-            "prochain_rdv": "2021-08-25 15:45:00",
+            "prochain_rdv": "2021-08-25 14:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 774,
-            "internal_id": "2092",
+            "appointment_count": 538,
+            "internal_id": "2086",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Alingsås",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.537011564676016,
+                "latitude": 57.930104216081595,
+                "city": "Alingsås",
+                "cp": "44131"
+            },
+            "metadata": {
+                "address": "Kungsgatan 34, 441 31, Alingsås",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-08-25 14:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 538,
+            "internal_id": "2086",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -2917,52 +2945,24 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Skene",
+            "nom": "Kronans Apotek MediCheck Överby Köpcenter",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 12.645608292977906,
-                "latitude": 57.49131915795585,
-                "city": "Mark",
-                "cp": 0
+                "longitude": 12.31321460516224,
+                "latitude": 58.318666541950606,
+                "city": "Trollhättan",
+                "cp": "46170"
             },
             "metadata": {
-                "address": "",
+                "address": "Överby Köpcentrum, 461 70, Trollhättan",
                 "business_hours": null,
                 "phone_number": "0812844621"
             },
-            "prochain_rdv": "2021-08-25 16:30:00",
+            "prochain_rdv": "2021-08-25 15:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 432,
-            "internal_id": "2084",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Skene",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.645608292977906,
-                "latitude": 57.49131915795585,
-                "city": "Mark",
-                "cp": 0
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": "2021-08-25 16:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 432,
-            "internal_id": "2084",
+            "appointment_count": 774,
+            "internal_id": "2092",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -3045,7 +3045,7 @@
             "prochain_rdv": "2021-08-30 09:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1840,
+            "appointment_count": 1830,
             "internal_id": "2121",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3073,7 +3073,7 @@
             "prochain_rdv": "2021-08-30 09:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1840,
+            "appointment_count": 1830,
             "internal_id": "2121",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3085,6 +3085,62 @@
         },
         {
             "departement": "14",
+            "nom": "Kronans Apotek MediCheck Skene",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.645608292977906,
+                "latitude": 57.49131915795585,
+                "city": "Mark",
+                "cp": 0
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-08-30 10:45:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 430,
+            "internal_id": "2084",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Skene",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.645608292977906,
+                "latitude": 57.49131915795585,
+                "city": "Mark",
+                "cp": 0
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-08-30 10:45:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 430,
+            "internal_id": "2084",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Kronans Apotek MediCheck Vara Vårdcentral",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -3101,7 +3157,7 @@
             "prochain_rdv": "2021-08-31 10:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 330,
+            "appointment_count": 328,
             "internal_id": "2089",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3129,64 +3185,8 @@
             "prochain_rdv": "2021-08-31 10:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 330,
+            "appointment_count": 328,
             "internal_id": "2089",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Alingsås",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.537011564676016,
-                "latitude": 57.930104216081595,
-                "city": "Alingsås",
-                "cp": "44131"
-            },
-            "metadata": {
-                "address": "Kungsgatan 34, 441 31, Alingsås",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": "2021-09-06 10:20:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 534,
-            "internal_id": "2086",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Alingsås",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.537011564676016,
-                "latitude": 57.930104216081595,
-                "city": "Alingsås",
-                "cp": "44131"
-            },
-            "metadata": {
-                "address": "Kungsgatan 34, 441 31, Alingsås",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": "2021-09-06 10:20:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 534,
-            "internal_id": "2086",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -3269,7 +3269,35 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 39,
+            "appointment_count": 38,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Vara vårdcentral, Vara",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.965439010152812,
+                "latitude": 58.264280183788806,
+                "city": "Vara",
+                "cp": "53432"
+            },
+            "metadata": {
+                "address": "Allégatan 46, 534 32, Vara",
+                "business_hours": null,
+                "phone_number": "0512786032"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -3325,7 +3353,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 27,
+            "appointment_count": 26,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3354,6 +3382,34 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 36,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Vara Konserthus",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3465,35 +3521,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 39,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Karlsborg vårdcentral, Karlsborg",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 14.516093296371812,
-                "latitude": 58.530190343899214,
-                "city": "Karlsborg",
-                "cp": "54630"
-            },
-            "metadata": {
-                "address": "Kärleksstigen 4B, 546 30, Karlsborg",
-                "business_hours": null,
-                "phone_number": "050518300"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 4,
+            "appointment_count": 38,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -7930,34 +7958,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Vara vårdcentral, Vara",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.965439010152812,
-                "latitude": 58.264280183788806,
-                "city": "Vara",
-                "cp": "53432"
-            },
-            "metadata": {
-                "address": "Allégatan 46, 534 32, Vara",
-                "business_hours": null,
-                "phone_number": "0512786032"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Ågårdsskogen vårdcentral, Lidköping",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -9945,34 +9945,6 @@
         },
         {
             "departement": "14",
-            "nom": "Vara Konserthus",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Partille vårdcentral, Partille",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -10240,6 +10212,34 @@
             },
             "prochain_rdv": null,
             "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Karlsborg vårdcentral, Karlsborg",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 14.516093296371812,
+                "latitude": 58.530190343899214,
+                "city": "Karlsborg",
+                "cp": "54630"
+            },
+            "metadata": {
+                "address": "Kärleksstigen 4B, 546 30, Karlsborg",
+                "business_hours": null,
+                "phone_number": "050518300"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
