@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-08-26 16:55:16.108976+02:00",
+    "last_updated": "2021-08-26 17:24:44.571300+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "07",
+            "nom": "Tingsryds Folkpark",
+            "url": "https://www.1177.se/Kronoberg/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-kronoberg/",
+            "location": {
+                "longitude": 14.952075,
+                "latitude": 56.5269524,
+                "city": "Tingsryd",
+                "cp": "36291"
+            },
+            "metadata": {
+                "address": "120, 362 91 Tingsryd",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-08-30 08:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 90,
+            "internal_id": "1557",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "07",
             "nom": "Storgatan 71 A, brevid apoteket",
@@ -61,34 +89,6 @@
         },
         {
             "departement": "07",
-            "nom": "Tingsryds Folkpark",
-            "url": "https://www.1177.se/Kronoberg/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-kronoberg/",
-            "location": {
-                "longitude": 14.952075,
-                "latitude": 56.5269524,
-                "city": "Tingsryd",
-                "cp": "36291"
-            },
-            "metadata": {
-                "address": "120, 362 91 Tingsryd",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-08-30 11:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 88,
-            "internal_id": "1557",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "07",
             "nom": "Tipshallen, västra sidan",
             "url": "https://www.1177.se/Kronoberg/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-kronoberg/",
             "location": {
@@ -105,7 +105,7 @@
             "prochain_rdv": "2021-08-30 13:52:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1048,
+            "appointment_count": 1044,
             "internal_id": "2063",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
