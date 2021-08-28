@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-28 15:10:53.548874+02:00",
+    "last_updated": "2021-08-28 15:36:31.623769+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -302,33 +302,6 @@
         },
         {
             "departement": "19",
-            "nom": "Surahammar vaccinationsmottagning Surahammar vårdcentral",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 16.221683736373375,
-                "latitude": 59.707337675449665,
-                "city": "Surahammar",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Köpmangatan 25, Surahammar",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-09-03 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": null,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "19",
             "nom": "Västerås vaccinationsmottagning Bäckby torg",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
@@ -383,6 +356,33 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "19",
+            "nom": "Surahammar vaccinationsmottagning Surahammar vårdcentral",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 16.221683736373375,
+                "latitude": 59.707337675449665,
+                "city": "Surahammar",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Köpmangatan 25, Surahammar",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "19",
             "nom": "Västerås vaccinationsmottagning Gallerian",
