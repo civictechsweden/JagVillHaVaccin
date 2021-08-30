@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-08-30 23:25:21.068595+02:00",
+    "last_updated": "2021-08-30 23:46:41.216520+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -357,7 +357,7 @@
             "prochain_rdv": "2021-08-31 10:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 678,
+            "appointment_count": 676,
             "internal_id": "2095",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -385,7 +385,7 @@
             "prochain_rdv": "2021-08-31 10:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 676,
+            "appointment_count": 678,
             "internal_id": "2095",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3098,7 +3098,7 @@
                 "business_hours": null,
                 "phone_number": "0812844621"
             },
-            "prochain_rdv": "2021-09-08 10:35:00",
+            "prochain_rdv": "2021-09-03 15:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 224,
@@ -3126,7 +3126,7 @@
                 "business_hours": null,
                 "phone_number": "0812844621"
             },
-            "prochain_rdv": "2021-09-08 10:35:00",
+            "prochain_rdv": "2021-09-03 15:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 224,
@@ -3393,34 +3393,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Vänerparken vårdcentral, Vänersborg",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.320768911766642,
-                "latitude": 58.374752961014416,
-                "city": "Vänersborg",
-                "cp": "46235"
-            },
-            "metadata": {
-                "address": "Vänerparken 21, 462 35, Vänersborg",
-                "business_hours": null,
-                "phone_number": "0104416200"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Oden vårdcentral, Falköping",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -3465,7 +3437,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 14,
+            "appointment_count": 13,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -9873,6 +9845,34 @@
                 "address": "Nygatan 7, 523 34, Ulricehamn",
                 "business_hours": null,
                 "phone_number": "032129100"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Vänerparken vårdcentral, Vänersborg",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.320768911766642,
+                "latitude": 58.374752961014416,
+                "city": "Vänersborg",
+                "cp": "46235"
+            },
+            "metadata": {
+                "address": "Vänerparken 21, 462 35, Vänersborg",
+                "business_hours": null,
+                "phone_number": "0104416200"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
