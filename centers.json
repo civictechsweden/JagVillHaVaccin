@@ -304,7 +304,7 @@
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bohus-Vardcentral-och-BVC/",
         "platform_url": null,
         "location": {
-            "longitude": 12.016429443282588,
+            "longitude": 12.016429443282577,
             "latitude": 57.85146853587611,
             "city": "Ale",
             "cp": "44537"
@@ -569,6 +569,29 @@
         "platform": null,
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000007659",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Capio vårdcentral Grästorp, Grästorp",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Capio-vardcentral-Grastorp-Grastorp/",
+        "platform_url": null,
+        "location": {
+            "longitude": 12.677029659264273,
+            "latitude": 58.33042638119035,
+            "city": "Grästorp",
+            "cp": "46731"
+        },
+        "metadata": {
+            "address": "Jon Jespersgatan 28, 467 31, Grästorp",
+            "business_hours": null,
+            "phone_number": "0514704500"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000007577",
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
@@ -5405,7 +5428,7 @@
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Svea-Vaccin-Malmo-City/",
         "platform_url": "https://sveavaccinmalmog.bokamera.se",
         "location": {
-            "longitude": 12.995192498856824,
+            "longitude": 12.995192498856834,
             "latitude": 55.60777261650212,
             "city": "Malmö",
             "cp": "00000"
@@ -6234,6 +6257,29 @@
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O28637",
         "platform_id": "2072",
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Vaccinationsenhet Bollsta",
+        "region": "22",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Bollsta/",
+        "platform_url": "https://bokning.mittvaccin.se/klinik/1321",
+        "location": {
+            "longitude": 17.6703668135133,
+            "latitude": 62.99855335986242,
+            "city": "Kramfors",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Bollsta Folketspark, Tunsjövägen 4",
+            "business_hours": null,
+            "phone_number": "061180400"
+        },
+        "platform": "MittVaccin",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000206-E01518",
+        "platform_id": "1321",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
@@ -11473,24 +11519,23 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Vaccinationsenhet Bollsta",
-        "region": "22",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Bollsta/",
+        "name": "Hallstahammar vaccinationsmottagning Folkets hus",
+        "region": "19",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Hallstahammar-vaccinationsmottagning-Folkets-hus/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/1321",
         "location": {
-            "longitude": 17.6703668135133,
-            "latitude": 62.99855335986242,
-            "city": "Kramfors",
+            "longitude": 16.23251539364746,
+            "latitude": 59.61888734969954,
+            "city": "Hallstahammar",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Bollsta Folketspark, Tunsjövägen 4",
-            "business_hours": null,
-            "phone_number": "061180400"
+            "address": "Parkgatan 24, Hallstahammar",
+            "business_hours": null
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000206-E01518",
+        "1177_id": "SE2321000172-3KR1",
         "platform_id": "1321",
         "vaccine_type": null,
         "appointment_by_phone_only": false
@@ -15337,24 +15382,24 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Provtagning Landskrona",
+        "name": "Akutmottagning Landskrona",
         "region": "12",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Provtagning-Landskrona/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Akutmottagning-Landskrona/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/2047",
         "location": {
-            "longitude": 12.841158725067878,
-            "latitude": 55.87755327591269,
+            "longitude": 12.84095516115605,
+            "latitude": 55.8779167923425,
             "city": "Landskrona",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Vattenverksallén 15, Landskrona",
+            "address": "Gösta Lundhs gata 6, Landskrona",
             "business_hours": null,
-            "phone_number": "0418454061"
+            "phone_number": "0418454000"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE162321000255-O21763",
+        "1177_id": "SE162321000255-O10994",
         "platform_id": "2047",
         "vaccine_type": null,
         "appointment_by_phone_only": false
@@ -15405,24 +15450,24 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Smile Trelleborg, Trelleborg",
+        "name": "Helgmottagningen Trelleborg",
         "region": "12",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Smile-Trelleborg-Trelleborg/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Helgmottagningen-Trelleborg/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/230",
         "location": {
-            "longitude": 13.150163640066447,
-            "latitude": 55.374649593164136,
+            "longitude": 13.155411924648563,
+            "latitude": 55.38158365700186,
             "city": "Trelleborg",
-            "cp": "23142"
+            "cp": "00000"
         },
         "metadata": {
-            "address": "Algatan 71, 231 42  Trelleborg",
+            "address": "Fredsgatan 21C, Trelleborg",
             "business_hours": null,
-            "phone_number": "041010114"
+            "phone_number": "0410359820"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE162321000255-O20228",
+        "1177_id": "SE162321000255-O13961",
         "platform_id": "230",
         "vaccine_type": null,
         "appointment_by_phone_only": false
