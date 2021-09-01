@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-01 09:54:04.952637+02:00",
+    "last_updated": "2021-09-01 10:25:04.593070+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,7 +18,7 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-09-01 10:05:00",
+            "prochain_rdv": "2021-09-01 10:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 920,
@@ -46,11 +46,67 @@
                 "business_hours": null,
                 "phone_number": ""
             },
-            "prochain_rdv": "2021-09-01 10:24:00",
+            "prochain_rdv": "2021-09-01 10:48:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1413,
+            "appointment_count": 1409,
             "internal_id": "2113",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "20",
+            "nom": "Kronans Apotek Malung",
+            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Malung",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Lisagatan 37, Malung",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-09-01 11:55:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 208,
+            "internal_id": "2102",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "20",
+            "nom": "Doktor.se / Ludvika",
+            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "Ludvika",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Sporthallen Ludvika, Tingshusgatan 18",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": "2021-09-01 12:52:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2118,
+            "internal_id": "2115",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -77,64 +133,8 @@
             "prochain_rdv": "2021-09-01 14:48:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 784,
+            "appointment_count": 788,
             "internal_id": "2114",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "20",
-            "nom": "Kronans Apotek Malung",
-            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "Malung",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Lisagatan 37, Malung",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-09-01 16:45:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 206,
-            "internal_id": "2102",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "20",
-            "nom": "Doktor.se / Ludvika",
-            "url": "https://www.1177.se/Dalarna/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-region-dalarna/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "Ludvika",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Sporthallen Ludvika, Tingshusgatan 18",
-                "business_hours": null,
-                "phone_number": ""
-            },
-            "prochain_rdv": "2021-09-03 09:16:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1068,
-            "internal_id": "2115",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -161,7 +161,7 @@
             "prochain_rdv": "2021-09-06 13:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 280,
+            "appointment_count": 282,
             "internal_id": "2101",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -189,7 +189,7 @@
             "prochain_rdv": "2021-09-09 09:36:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1880,
+            "appointment_count": 1870,
             "internal_id": "2112",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -217,7 +217,7 @@
             "prochain_rdv": "2021-09-13 12:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2360,
+            "appointment_count": 2362,
             "internal_id": "2111",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
