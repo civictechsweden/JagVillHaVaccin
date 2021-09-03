@@ -1,10 +1,38 @@
 {
     "version": 1,
-    "last_updated": "2021-09-03 08:57:32.706722+02:00",
+    "last_updated": "2021-09-03 09:27:59.242446+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "14",
+            "nom": "iDoc vaccination Lerum/Floda lada",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.365361223720834,
+                "latitude": 57.80611268181714,
+                "city": "Lerum",
+                "cp": "44830"
+            },
+            "metadata": {
+                "address": "Floda allé 4, 448 30, Floda",
+                "business_hours": null,
+                "phone_number": "0790980559"
+            },
+            "prochain_rdv": "2021-09-03 09:28:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 390,
+            "internal_id": "2121",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "iDoc vaccination Partille Arena",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -18,10 +46,10 @@
                 "business_hours": null,
                 "phone_number": "0790980559"
             },
-            "prochain_rdv": "2021-09-03 09:20:00",
+            "prochain_rdv": "2021-09-03 09:28:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 601,
+            "appointment_count": 599,
             "internal_id": "2071",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": "0313636130"
             },
-            "prochain_rdv": "2021-09-03 09:20:00",
+            "prochain_rdv": "2021-09-03 09:28:00",
             "plateforme": "Patient",
             "type": "vaccination-center",
-            "appointment_count": 601,
+            "appointment_count": 599,
             "internal_id": "92adacb2-a27c-11eb-a8eb-fa163e329242",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -74,94 +102,10 @@
                 "business_hours": null,
                 "phone_number": "0313909900"
             },
-            "prochain_rdv": "2021-09-03 09:20:00",
+            "prochain_rdv": "2021-09-03 09:28:00",
             "plateforme": "Patient",
             "type": "vaccination-center",
-            "appointment_count": 601,
-            "internal_id": "b24e2b1b-b225-11eb-91e2-fa163e329242",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "iDoc vaccination Partille Arena",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.116960802546794,
-                "latitude": 57.7399881139274,
-                "city": "Partille",
-                "cp": "43338"
-            },
-            "metadata": {
-                "address": "Arenatorget 2, 433 38, Partille, Partille Arena",
-                "business_hours": null,
-                "phone_number": "0790980559"
-            },
-            "prochain_rdv": "2021-09-03 09:20:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 601,
-            "internal_id": "2071",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Distriktsläkarna Mölndal Vårdcentral och BVC",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.001175112061699,
-                "latitude": 57.65957290427461,
-                "city": "Mölndal",
-                "cp": "43148"
-            },
-            "metadata": {
-                "address": "Jungfruplatsen 2, 431 48, Mölndal",
-                "business_hours": null,
-                "phone_number": "0313636130"
-            },
-            "prochain_rdv": "2021-09-03 09:20:00",
-            "plateforme": "Patient",
-            "type": "vaccination-center",
-            "appointment_count": 601,
-            "internal_id": "92adacb2-a27c-11eb-a8eb-fa163e329242",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Medipart Partille Vårdcentral och BVC",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.107305375007627,
-                "latitude": 57.73958936116547,
-                "city": "Partille",
-                "cp": "43333"
-            },
-            "metadata": {
-                "address": "Gamla Kronvägen 13A, 433 33, Partille",
-                "business_hours": null,
-                "phone_number": "0313909900"
-            },
-            "prochain_rdv": "2021-09-03 09:20:00",
-            "plateforme": "Patient",
-            "type": "vaccination-center",
-            "appointment_count": 601,
+            "appointment_count": 599,
             "internal_id": "b24e2b1b-b225-11eb-91e2-fa163e329242",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -189,7 +133,7 @@
             "prochain_rdv": "2021-09-03 09:28:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 410,
+            "appointment_count": 390,
             "internal_id": "2121",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -201,24 +145,80 @@
         },
         {
             "departement": "14",
-            "nom": "iDoc vaccination Lerum/Floda lada",
+            "nom": "iDoc vaccination Partille Arena",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 12.365361223720834,
-                "latitude": 57.80611268181714,
-                "city": "Lerum",
-                "cp": "44830"
+                "longitude": 12.116960802546794,
+                "latitude": 57.7399881139274,
+                "city": "Partille",
+                "cp": "43338"
             },
             "metadata": {
-                "address": "Floda allé 4, 448 30, Floda",
+                "address": "Arenatorget 2, 433 38, Partille, Partille Arena",
                 "business_hours": null,
                 "phone_number": "0790980559"
             },
             "prochain_rdv": "2021-09-03 09:28:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 405,
-            "internal_id": "2121",
+            "appointment_count": 599,
+            "internal_id": "2071",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Distriktsläkarna Mölndal Vårdcentral och BVC",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.001175112061699,
+                "latitude": 57.65957290427461,
+                "city": "Mölndal",
+                "cp": "43148"
+            },
+            "metadata": {
+                "address": "Jungfruplatsen 2, 431 48, Mölndal",
+                "business_hours": null,
+                "phone_number": "0313636130"
+            },
+            "prochain_rdv": "2021-09-03 09:28:00",
+            "plateforme": "Patient",
+            "type": "vaccination-center",
+            "appointment_count": 599,
+            "internal_id": "92adacb2-a27c-11eb-a8eb-fa163e329242",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Medipart Partille Vårdcentral och BVC",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.107305375007627,
+                "latitude": 57.73958936116547,
+                "city": "Partille",
+                "cp": "43333"
+            },
+            "metadata": {
+                "address": "Gamla Kronvägen 13A, 433 33, Partille",
+                "business_hours": null,
+                "phone_number": "0313909900"
+            },
+            "prochain_rdv": "2021-09-03 09:28:00",
+            "plateforme": "Patient",
+            "type": "vaccination-center",
+            "appointment_count": 599,
+            "internal_id": "b24e2b1b-b225-11eb-91e2-fa163e329242",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -245,7 +245,7 @@
             "prochain_rdv": "2021-09-03 09:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 570,
+            "appointment_count": 566,
             "internal_id": "2092",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -273,7 +273,7 @@
             "prochain_rdv": "2021-09-03 09:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 568,
+            "appointment_count": 566,
             "internal_id": "2092",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2597,7 +2597,7 @@
             "prochain_rdv": "2021-09-03 10:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 550,
+            "appointment_count": 552,
             "internal_id": "2085",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2625,7 +2625,7 @@
             "prochain_rdv": "2021-09-03 10:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 550,
+            "appointment_count": 552,
             "internal_id": "2085",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2693,34 +2693,6 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Mölnlycke Centrum",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.117072418558651,
-                "latitude": 57.65809431018721,
-                "city": "Härryda",
-                "cp": "43530"
-            },
-            "metadata": {
-                "address": "Biblioteksgatan 4A, 435 30, Mölnlycke",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": "2021-09-03 11:15:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 396,
-            "internal_id": "2095",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Kronans Apotek MediCheck Strömstad",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -2739,34 +2711,6 @@
             "type": "vaccination-center",
             "appointment_count": 1664,
             "internal_id": "2083",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Mölnlycke Centrum",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.117072418558651,
-                "latitude": 57.65809431018721,
-                "city": "Härryda",
-                "cp": "43530"
-            },
-            "metadata": {
-                "address": "Biblioteksgatan 4A, 435 30, Mölnlycke",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": "2021-09-03 11:15:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 396,
-            "internal_id": "2095",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -2849,7 +2793,7 @@
             "prochain_rdv": "2021-09-03 13:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 210,
+            "appointment_count": 208,
             "internal_id": "2089",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2907,6 +2851,62 @@
             "type": "vaccination-center",
             "appointment_count": 164,
             "internal_id": "2082",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Mölnlycke Centrum",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.117072418558651,
+                "latitude": 57.65809431018721,
+                "city": "Härryda",
+                "cp": "43530"
+            },
+            "metadata": {
+                "address": "Biblioteksgatan 4A, 435 30, Mölnlycke",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-09-07 15:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 394,
+            "internal_id": "2095",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Mölnlycke Centrum",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.117072418558651,
+                "latitude": 57.65809431018721,
+                "city": "Härryda",
+                "cp": "43530"
+            },
+            "metadata": {
+                "address": "Biblioteksgatan 4A, 435 30, Mölnlycke",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-09-07 15:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 392,
+            "internal_id": "2095",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -3101,7 +3101,7 @@
             "prochain_rdv": "2021-09-10 10:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 50,
+            "appointment_count": 48,
             "internal_id": "2078",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3129,7 +3129,7 @@
             "prochain_rdv": "2021-09-10 10:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 50,
+            "appointment_count": 48,
             "internal_id": "2078",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3157,7 +3157,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 66,
+            "appointment_count": 64,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -3185,7 +3185,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 15,
+            "appointment_count": 44,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3214,34 +3214,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 108,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Tibro vårdcentral, Tibro",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 14.164658893358924,
-                "latitude": 58.42518700110039,
-                "city": "Tibro",
-                "cp": "54330"
-            },
-            "metadata": {
-                "address": "Centrumgatan 17, 543 30, Tibro",
-                "business_hours": null,
-                "phone_number": "050440300"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 5,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3325,7 +3297,35 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 50,
+            "appointment_count": 49,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Landvetter vårdcentral, Landvetter",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.211113815508927,
+                "latitude": 57.68686580612976,
+                "city": "Härryda",
+                "cp": "43832"
+            },
+            "metadata": {
+                "address": "Brattåstorget 13, 438 32, Landvetter",
+                "business_hours": null,
+                "phone_number": "0104733700"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 21,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3381,7 +3381,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 66,
+            "appointment_count": 64,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -9805,6 +9805,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Tibro vårdcentral, Tibro",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 14.164658893358924,
+                "latitude": 58.42518700110039,
+                "city": "Tibro",
+                "cp": "54330"
+            },
+            "metadata": {
+                "address": "Centrumgatan 17, 543 30, Tibro",
+                "business_hours": null,
+                "phone_number": "050440300"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Bollebygd vårdcentral, Bollebygd",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -10097,34 +10125,6 @@
                 "address": "Tidanvägen 5A, 549 31, Tidan",
                 "business_hours": null,
                 "phone_number": "0500495100"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Landvetter vårdcentral, Landvetter",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.211113815508927,
-                "latitude": 57.68686580612976,
-                "city": "Härryda",
-                "cp": "43832"
-            },
-            "metadata": {
-                "address": "Brattåstorget 13, 438 32, Landvetter",
-                "business_hours": null,
-                "phone_number": "0104733700"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
