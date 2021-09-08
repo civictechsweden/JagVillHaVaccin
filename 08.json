@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-08 16:42:39.138413+02:00",
+    "last_updated": "2021-09-08 16:57:06.889717+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -107,6 +107,34 @@
             "type": "vaccination-center",
             "appointment_count": 4,
             "internal_id": "527",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Cityläkarna i Oskarshamn",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.44876461698304,
+                "latitude": 57.264168219301204,
+                "city": "Oskarshamn",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Stora Torget 3, Oskarshamn",
+                "business_hours": null,
+                "phone_number": "049170800"
+            },
+            "prochain_rdv": "2021-09-09 11:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 10,
+            "internal_id": "529",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -257,34 +285,6 @@
         },
         {
             "departement": "08",
-            "nom": "Cityläkarna i Oskarshamn",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.44876461698304,
-                "latitude": 57.264168219301204,
-                "city": "Oskarshamn",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Stora Torget 3, Oskarshamn",
-                "business_hours": null,
-                "phone_number": "049170800"
-            },
-            "prochain_rdv": "2021-09-10 13:20:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 8,
-            "internal_id": "529",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
             "nom": "Borgholms hälsocentral",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
@@ -301,7 +301,7 @@
             "prochain_rdv": "2021-09-12 10:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 160,
+            "appointment_count": 162,
             "internal_id": "490",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -382,10 +382,10 @@
                 "business_hours": null,
                 "phone_number": "0491782223"
             },
-            "prochain_rdv": "2021-09-14 10:05:00",
+            "prochain_rdv": "2021-09-14 10:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 94,
+            "appointment_count": 92,
             "internal_id": "495",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -693,7 +693,7 @@
             "prochain_rdv": "2021-09-15 15:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 10528,
+            "appointment_count": 10524,
             "internal_id": "510",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -749,7 +749,7 @@
             "prochain_rdv": "2021-09-16 08:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 62,
+            "appointment_count": 60,
             "internal_id": "513",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
