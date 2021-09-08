@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-08 08:56:17.426334+02:00",
+    "last_updated": "2021-09-08 09:45:17.657336+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -104,7 +104,7 @@
             "prochain_rdv": "2021-09-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 25,
+            "appointment_count": 21,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -132,7 +132,7 @@
             "prochain_rdv": "2021-09-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 43,
+            "appointment_count": 37,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -188,7 +188,7 @@
             "prochain_rdv": "2021-09-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 54,
+            "appointment_count": 50,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -228,6 +228,34 @@
         },
         {
             "departement": "24",
+            "nom": "Storumans sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 17.121804197752056,
+                "latitude": 65.09670707643072,
+                "city": "Storuman",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Backvägen 2",
+                "business_hours": null,
+                "phone_number": "0907854473"
+            },
+            "prochain_rdv": "2021-09-08 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 7,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Mariehems hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -244,7 +272,7 @@
             "prochain_rdv": "2021-09-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 26,
+            "appointment_count": 23,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -300,7 +328,7 @@
             "prochain_rdv": "2021-09-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 37,
+            "appointment_count": 33,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -328,7 +356,7 @@
             "prochain_rdv": "2021-09-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 6,
+            "appointment_count": 4,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -440,7 +468,7 @@
             "prochain_rdv": "2021-09-09 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 31,
+            "appointment_count": 30,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -664,7 +692,7 @@
             "prochain_rdv": "2021-09-09 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 46,
+            "appointment_count": 45,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -693,34 +721,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 39,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Åsele sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 17.359149785111434,
-                "latitude": 64.16094798300327,
-                "city": "Åsele",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Bryggaregatan 11 A",
-                "business_hours": null,
-                "phone_number": "0907859176"
-            },
-            "prochain_rdv": "2021-09-09 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 7,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -804,7 +804,7 @@
             "prochain_rdv": "2021-09-14 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 42,
+            "appointment_count": 43,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -900,6 +900,34 @@
         },
         {
             "departement": "24",
+            "nom": "Åsele sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 17.359149785111434,
+                "latitude": 64.16094798300327,
+                "city": "Åsele",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Bryggaregatan 11 A",
+                "business_hours": null,
+                "phone_number": "0907859176"
+            },
+            "prochain_rdv": "2021-09-15 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 6,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Erikslids hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -942,34 +970,6 @@
                 "phone_number": "0907854457"
             },
             "prochain_rdv": "2021-09-16 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 6,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Storumans sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 17.121804197752056,
-                "latitude": 65.09670707643072,
-                "city": "Storuman",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Backvägen 2",
-                "business_hours": null,
-                "phone_number": "0907854473"
-            },
-            "prochain_rdv": "2021-09-17 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 6,
