@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-09 00:03:25.887275+02:00",
+    "last_updated": "2021-09-09 00:30:07.788853+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -245,7 +245,7 @@
             "prochain_rdv": "2021-09-09 09:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 42,
+            "appointment_count": 44,
             "internal_id": "2089",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -329,7 +329,7 @@
             "prochain_rdv": "2021-09-09 09:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 42,
+            "appointment_count": 44,
             "internal_id": "2089",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2709,7 +2709,7 @@
             "prochain_rdv": "2021-09-09 10:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 592,
+            "appointment_count": 756,
             "internal_id": "2083",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2933,7 +2933,7 @@
             "prochain_rdv": "2021-09-10 10:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 518,
+            "appointment_count": 516,
             "internal_id": "2092",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2961,7 +2961,7 @@
             "prochain_rdv": "2021-09-10 10:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 518,
+            "appointment_count": 516,
             "internal_id": "2092",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3113,6 +3113,62 @@
         },
         {
             "departement": "14",
+            "nom": "Kronans Apotek MediCheck Mariestad Vårdcentral",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.796178135977993,
+                "latitude": 58.705451405375015,
+                "city": "Mariestad",
+                "cp": 0
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-09-29 10:55:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "2079",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Skene",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.645608292977906,
+                "latitude": 57.49131915795585,
+                "city": "Mark",
+                "cp": 0
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-09-29 11:40:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 84,
+            "internal_id": "2084",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Kronans Apotek MediCheck Skene",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -3209,90 +3265,6 @@
                 "address": "Syster Ebbas väg 1, 471 94, Kållekärr",
                 "business_hours": null,
                 "phone_number": "0104734600"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 7,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Svenljunga vårdcentral, Svenljunga",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.116587190134467,
-                "latitude": 57.494098921820274,
-                "city": "Svenljunga",
-                "cp": "51254"
-            },
-            "metadata": {
-                "address": "Klockaregatan 3, 512 54, Svenljunga",
-                "business_hours": null,
-                "phone_number": "0325619100"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 31,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Skogslyckan vårdcentral, Uddevalla",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.913302525954462,
-                "latitude": 58.3603660451416,
-                "city": "Uddevalla",
-                "cp": "45160"
-            },
-            "metadata": {
-                "address": "Sunnanvindsvägen 8, 451 60, Uddevalla",
-                "business_hours": null,
-                "phone_number": "0104416500"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 56,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Bollebygd vårdcentral, Bollebygd",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.571998004692631,
-                "latitude": 57.66959404213807,
-                "city": "Bollebygd",
-                "cp": "51736"
-            },
-            "metadata": {
-                "address": "Gästgivarevägen 8, 517 36, Bollebygd",
-                "business_hours": null,
-                "phone_number": "0104416100"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -3437,7 +3409,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 12,
+            "appointment_count": 5,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -9609,6 +9581,62 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Svenljunga vårdcentral, Svenljunga",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.116587190134467,
+                "latitude": 57.494098921820274,
+                "city": "Svenljunga",
+                "cp": "51254"
+            },
+            "metadata": {
+                "address": "Klockaregatan 3, 512 54, Svenljunga",
+                "business_hours": null,
+                "phone_number": "0325619100"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Skogslyckan vårdcentral, Uddevalla",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.913302525954462,
+                "latitude": 58.3603660451416,
+                "city": "Uddevalla",
+                "cp": "45160"
+            },
+            "metadata": {
+                "address": "Sunnanvindsvägen 8, 451 60, Uddevalla",
+                "business_hours": null,
+                "phone_number": "0104416500"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Furulund vårdcentral, Partille",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -9705,6 +9733,34 @@
                 "address": "Centrumgatan 17, 543 30, Tibro",
                 "business_hours": null,
                 "phone_number": "050440300"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Bollebygd vårdcentral, Bollebygd",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.571998004692631,
+                "latitude": 57.66959404213807,
+                "city": "Bollebygd",
+                "cp": "51736"
+            },
+            "metadata": {
+                "address": "Gästgivarevägen 8, 517 36, Bollebygd",
+                "business_hours": null,
+                "phone_number": "0104416100"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -10411,62 +10467,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2087",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Mariestad Vårdcentral",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.796178135977993,
-                "latitude": 58.705451405375015,
-                "city": "Mariestad",
-                "cp": 0
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2079",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Skene",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.645608292977906,
-                "latitude": 57.49131915795585,
-                "city": "Mark",
-                "cp": 0
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2084",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
