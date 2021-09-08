@@ -304,7 +304,7 @@
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bohus-Vardcentral-och-BVC/",
         "platform_url": null,
         "location": {
-            "longitude": 12.016429443282588,
+            "longitude": 12.016429443282577,
             "latitude": 57.85146853587611,
             "city": "Ale",
             "cp": "44537"
@@ -2512,6 +2512,29 @@
         "platform": null,
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000015101",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Medicinkonsulten hälsocentral",
+        "region": "24",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Medicinkonsulten-halsocentral/",
+        "platform_url": "https://formular.1177.se/etjanst/fa74839c-ace9-4eb6-9287-b0e74165e8b0?externalApplication=COVID_SE2321000222-0255070&hsaid=SE2321000222-0255070&dynamicid=5cb3d130-dfe6-47d9-b6e8-4a458d78217e",
+        "location": {
+            "longitude": 18.674387839138266,
+            "latitude": 64.59246225123054,
+            "city": "Lycksele",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Skolgatan 8",
+            "business_hours": null,
+            "phone_number": "0907859380"
+        },
+        "platform": "1177",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000222-0255070",
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
@@ -5451,7 +5474,7 @@
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Svea-Vaccin-Malmo-City/",
         "platform_url": "https://sveavaccinmalmog.bokamera.se",
         "location": {
-            "longitude": 12.995192498856824,
+            "longitude": 12.995192498856834,
             "latitude": 55.60777261650212,
             "city": "Malmö",
             "cp": "00000"
@@ -6258,29 +6281,6 @@
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O28637",
         "platform_id": "2072",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Vaccinationsenhet Bollsta",
-        "region": "22",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Bollsta/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/1321",
-        "location": {
-            "longitude": 17.6703668135133,
-            "latitude": 62.99855335986242,
-            "city": "Kramfors",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Bollsta Folketspark, Tunsjövägen 4",
-            "business_hours": null,
-            "phone_number": "061180400"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000206-E01518",
-        "platform_id": "1321",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
@@ -8845,7 +8845,7 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Medicinkonsulten AB",
+        "name": "Medicinkonsulten hälsocentral",
         "region": "24",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Medicinkonsulten-AB/",
         "platform_url": "https://formular.1177.se/etjanst/fa74839c-ace9-4eb6-9287-b0e74165e8b0?externalApplication=COVID_SE2321000222-0255070&hsaid=SE2321000222-0255070&dynamicid=5cb3d130-dfe6-47d9-b6e8-4a458d78217e",
@@ -9305,18 +9305,18 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Umeå universitet",
+        "name": "Drop in-mottagning för studenter",
         "region": "24",
         "1177_url": null,
         "platform_url": " https://link.mazemap.com/3zzByskm",
         "location": {
             "longitude": "",
             "latitude": "",
-            "city": "Umeå",
+            "city": "Drop",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Universum, Universums gränd 8",
+            "address": "Umeå universitet, Universum, Universums gränd 8",
             "business_hours": null,
             "phone_number": ""
         },
@@ -11292,9 +11292,9 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Radiologi Carlanderska, Göteborg",
+        "name": "Carlanderska Rehab, Göteborg",
         "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Radiologi-Carlanderska-Goteborg/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Carlanderska-Rehab-Goteborg/",
         "platform_url": "https://patient.nu/portal/public/calendar/9926e9dd-a824-11eb-a8eb-fa163e329242",
         "location": {
             "longitude": 11.989253454144604,
@@ -11305,11 +11305,11 @@
         "metadata": {
             "address": "Carlandersparken 1, 412 55, Göteborg",
             "business_hours": null,
-            "phone_number": "031818020"
+            "phone_number": "031818161"
         },
         "platform": "Patient",
         "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000015687",
+        "1177_id": "SE2321000131-E000000011017",
         "platform_id": "9926e9dd-a824-11eb-a8eb-fa163e329242",
         "vaccine_type": null,
         "appointment_by_phone_only": false
@@ -11476,23 +11476,24 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Norberg vaccinationsmottagning Folkets hus",
-        "region": "19",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Norberg-vaccinationsmottagning-Folkets-hus/",
+        "name": "Vaccinationsenhet Bollsta",
+        "region": "22",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Bollsta/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/1321",
         "location": {
-            "longitude": 15.926652788486193,
-            "latitude": 60.06834413792669,
-            "city": "Norberg",
+            "longitude": 17.6703668135133,
+            "latitude": 62.99855335986242,
+            "city": "Kramfors",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Järnvägsgatan 53, Norberg",
-            "business_hours": null
+            "address": "Bollsta Folketspark, Tunsjövägen 4",
+            "business_hours": null,
+            "phone_number": "061180400"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000172-3KQZ",
+        "1177_id": "SE2321000206-E01518",
         "platform_id": "1321",
         "vaccine_type": null,
         "appointment_by_phone_only": false
@@ -15407,24 +15408,24 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Vuxenpsykiatrimottagning Trelleborg",
+        "name": "Privatjouren Trelleborg, Trelleborg",
         "region": "12",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vuxenpsykiatrimottagning-Trelleborg/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Privatjouren-Trelleborg-Trelleborg/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/230",
         "location": {
-            "longitude": 13.167017260253456,
-            "latitude": 55.37155534355772,
+            "longitude": 13.155704318169814,
+            "latitude": 55.37532702149915,
             "city": "Trelleborg",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Johan Kocksgatan 4, Trelleborg",
+            "address": "Nygatan 22, Trelleborg",
             "business_hours": null,
-            "phone_number": "041055701"
+            "phone_number": "0410301377"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE162321000255-O23187",
+        "1177_id": "SE162321000255-O29386",
         "platform_id": "230",
         "vaccine_type": null,
         "appointment_by_phone_only": false
@@ -17152,9 +17153,9 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Radiologi Carlanderska, Göteborg",
+        "name": "Carlanderska Rehab, Göteborg",
         "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Radiologi-Carlanderska-Goteborg/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Carlanderska-Rehab-Goteborg/",
         "platform_url": "https://patient.nu/portal/public/calendar/9926e9dd-a824-11eb-a8eb-fa163e329242",
         "location": {
             "longitude": 11.989253454144604,
@@ -17165,11 +17166,11 @@
         "metadata": {
             "address": "Carlandersparken 1, 412 55, Göteborg",
             "business_hours": null,
-            "phone_number": "031818020"
+            "phone_number": "031818161"
         },
         "platform": "Patient",
         "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000015687",
+        "1177_id": "SE2321000131-E000000011017",
         "platform_id": "9926e9dd-a824-11eb-a8eb-fa163e329242",
         "vaccine_type": null,
         "appointment_by_phone_only": false
