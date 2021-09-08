@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-08 09:59:40.068801+02:00",
+    "last_updated": "2021-09-08 10:30:28.132075+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -221,16 +221,16 @@
         },
         {
             "departement": "19",
-            "nom": "Västerås vaccinationsmottagning Hälla Syd",
+            "nom": "Västerås vaccinationsmottagning Bäckby torg",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 16.61106301907506,
-                "latitude": 59.609946622491734,
+                "longitude": 16.474547709487826,
+                "latitude": 59.5994393269413,
                 "city": "Västerås",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Glasvingegatan 5, Västerås",
+                "address": "Välljärnsgatan 492, Västerås",
                 "business_hours": null
             },
             "prochain_rdv": "2021-09-09 00:00:00",
@@ -248,19 +248,19 @@
         },
         {
             "departement": "19",
-            "nom": "Västerås vaccinationsmottagning Bäckby torg",
+            "nom": "Västerås vaccinationsmottagning Hälla Syd",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 16.474547709487826,
-                "latitude": 59.5994393269413,
+                "longitude": 16.61106301907506,
+                "latitude": 59.609946622491734,
                 "city": "Västerås",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Välljärnsgatan 492, Västerås",
+                "address": "Glasvingegatan 5, Västerås",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-09-10 00:00:00",
+            "prochain_rdv": "2021-09-09 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": null,
@@ -302,6 +302,33 @@
         },
         {
             "departement": "19",
+            "nom": "Norberg vaccinationsmottagning Folkets hus",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 15.926652788486193,
+                "latitude": 60.06834413792669,
+                "city": "Norberg",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Järnvägsgatan 53, Norberg",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-09-15 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": null,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "19",
             "nom": "Surahammar vaccinationsmottagning Surahammar vårdcentral",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
@@ -329,33 +356,6 @@
         }
     ],
     "centres_indisponibles": [
-        {
-            "departement": "19",
-            "nom": "Norberg vaccinationsmottagning Folkets hus",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 15.926652788486193,
-                "latitude": 60.06834413792669,
-                "city": "Norberg",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Järnvägsgatan 53, Norberg",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "19",
             "nom": "Västerås vaccinationsmottagning Gallerian",
