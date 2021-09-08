@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-08 04:12:01.921388+02:00",
+    "last_updated": "2021-09-08 04:45:47.256718+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -704,7 +704,7 @@
         },
         {
             "departement": "24",
-            "nom": "Medicinkonsulten AB",
+            "nom": "Medicinkonsulten hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
                 "longitude": 18.674387839138266,
@@ -958,6 +958,34 @@
     "centres_indisponibles": [
         {
             "departement": "24",
+            "nom": "Medicinkonsulten hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 18.674387839138266,
+                "latitude": 64.59246225123054,
+                "city": "Lycksele",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Skolgatan 8",
+                "business_hours": null,
+                "phone_number": "0907859380"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Nordmalings hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -1014,16 +1042,16 @@
         },
         {
             "departement": "24",
-            "nom": "Umeå universitet",
+            "nom": "Drop in-mottagning för studenter",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
                 "longitude": "",
                 "latitude": "",
-                "city": "Umeå",
+                "city": "Drop",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Universum, Universums gränd 8",
+                "address": "Umeå universitet, Universum, Universums gränd 8",
                 "business_hours": null,
                 "phone_number": ""
             },
