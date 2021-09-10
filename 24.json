@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-10 18:42:49.992568+02:00",
+    "last_updated": "2021-09-10 19:10:09.820947+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -49,7 +49,7 @@
             "prochain_rdv": "2021-09-13 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 42,
+            "appointment_count": 41,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -814,34 +814,6 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Citymottagningen hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.26427806385064,
-                "latitude": 63.827668127510485,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nygatan 19B",
-                "business_hours": null,
-                "phone_number": "0907859321"
-            },
-            "prochain_rdv": "2021-09-24 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
         }
     ],
     "centres_indisponibles": [
@@ -1085,6 +1057,34 @@
             },
             "prochain_rdv": null,
             "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Citymottagningen hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.26427806385064,
+                "latitude": 63.827668127510485,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nygatan 19B",
+                "business_hours": null,
+                "phone_number": "0907859321"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
