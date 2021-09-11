@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-12 00:27:06.419139+02:00",
+    "last_updated": "2021-09-12 00:47:07.799236+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -358,34 +358,6 @@
         },
         {
             "departement": "12",
-            "nom": "Berga Läkarhus, Helsingborg",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 12.710842758526377,
-                "latitude": 56.0638806521683,
-                "city": "Helsingborg",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Rundgången 26, Helsingborg",
-                "business_hours": null,
-                "phone_number": "042155000"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 7,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "MACC Arlöv",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -402,7 +374,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 1384,
+            "appointment_count": 1383,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -862,6 +834,34 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "12",
+            "nom": "Berga Läkarhus, Helsingborg",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 12.710842758526377,
+                "latitude": 56.0638806521683,
+                "city": "Helsingborg",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Rundgången 26, Helsingborg",
+                "business_hours": null,
+                "phone_number": "042155000"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "12",
             "nom": "Doktor 24 Segevångsskolan",
