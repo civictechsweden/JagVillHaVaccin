@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-11 20:30:18.964357+02:00",
+    "last_updated": "2021-09-11 20:52:32.706035+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -194,33 +194,6 @@
         },
         {
             "departement": "19",
-            "nom": "Norberg vaccinationsmottagning Folkets hus",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 15.926652788486193,
-                "latitude": 60.06834413792669,
-                "city": "Norberg",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Järnvägsgatan 53, Norberg",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-09-14 13:43:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 3,
-            "internal_id": "1321",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "19",
             "nom": "Arboga vaccinationsmottagning Medborgarhuset",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
@@ -402,6 +375,33 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "19",
+            "nom": "Norberg vaccinationsmottagning Folkets hus",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 15.926652788486193,
+                "latitude": 60.06834413792669,
+                "city": "Norberg",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Järnvägsgatan 53, Norberg",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1321",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
