@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-15 09:26:42.751739+02:00",
+    "last_updated": "2021-09-15 09:45:06.620141+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -221,23 +221,23 @@
         },
         {
             "departement": "19",
-            "nom": "Norberg vaccinationsmottagning Folkets hus",
+            "nom": "Västerås vaccinationsmottagning Bäckby torg",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 15.926652788486193,
-                "latitude": 60.06834413792669,
-                "city": "Norberg",
+                "longitude": 16.474547709487826,
+                "latitude": 59.5994393269413,
+                "city": "Västerås",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Järnvägsgatan 53, Norberg",
+                "address": "Välljärnsgatan 492, Västerås",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-09-15 17:06:00",
-            "plateforme": "MittVaccin",
+            "prochain_rdv": "2021-09-16 00:00:00",
+            "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 87,
-            "internal_id": "1321",
+            "appointment_count": null,
+            "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -380,26 +380,28 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "19",
-            "nom": "Västerås vaccinationsmottagning Bäckby torg",
+            "nom": "Norberg vaccinationsmottagning Folkets hus",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
-                "longitude": 16.474547709487826,
-                "latitude": 59.5994393269413,
-                "city": "Västerås",
+                "longitude": 15.926652788486193,
+                "latitude": 60.06834413792669,
+                "city": "Norberg",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Välljärnsgatan 492, Västerås",
+                "address": "Järnvägsgatan 53, Norberg",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-09-23 00:00:00",
-            "plateforme": "1177",
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": null,
-            "internal_id": null,
+            "appointment_count": 0,
+            "internal_id": "1321",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -408,6 +410,5 @@
             "appointment_schedules": [],
             "gid": null
         }
-    ],
-    "centres_indisponibles": []
+    ]
 }
