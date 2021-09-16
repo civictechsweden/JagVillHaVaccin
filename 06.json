@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-16 12:46:18.074438+02:00",
+    "last_updated": "2021-09-16 12:59:18.631285+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -23,6 +23,34 @@
             "type": "vaccination-center",
             "appointment_count": 156,
             "internal_id": "1181",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "06",
+            "nom": "Bra Liv Kungshälsan vårdcentral, Huskvarna",
+            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 14.272426968100621,
+                "latitude": 57.789728072943596,
+                "city": "Jönköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Huskvarna vårdcentrum, plan 5, Jönköpingsvägen 19, Huskvarna",
+                "business_hours": null,
+                "phone_number": "0102423520"
+            },
+            "prochain_rdv": "2021-09-16 13:03:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 155,
+            "internal_id": "1198",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -79,34 +107,6 @@
             "type": "vaccination-center",
             "appointment_count": 70,
             "internal_id": "1200",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "06",
-            "nom": "Bra Liv Kungshälsan vårdcentral, Huskvarna",
-            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
-            "location": {
-                "longitude": 14.272426968100621,
-                "latitude": 57.789728072943596,
-                "city": "Jönköping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Huskvarna vårdcentrum, plan 5, Jönköpingsvägen 19, Huskvarna",
-                "business_hours": null,
-                "phone_number": "0102423520"
-            },
-            "prochain_rdv": "2021-09-16 13:09:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 154,
-            "internal_id": "1198",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -217,7 +217,7 @@
             "prochain_rdv": "2021-09-16 15:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 58,
+            "appointment_count": 57,
             "internal_id": "1183",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -301,7 +301,7 @@
             "prochain_rdv": "2021-09-17 09:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 67,
+            "appointment_count": 66,
             "internal_id": "1206",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -441,7 +441,7 @@
             "prochain_rdv": "2021-09-17 15:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 22,
+            "appointment_count": 21,
             "internal_id": "1195",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
