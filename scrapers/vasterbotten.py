@@ -84,6 +84,7 @@ def get_centers():
 def transform_date(date_string):
     day = int(date_string.split(' ')[0])
     month = date_string.split(' ')[1]
+    if month == 'okttober': month = 'oktober'
     month = [MONTHS.index(manad) for manad in MONTHS if manad == month][0]
     return datetime.datetime(2021, month + 1, day)
 
