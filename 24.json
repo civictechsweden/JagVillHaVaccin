@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-16 16:28:10.442480+02:00",
+    "last_updated": "2021-09-16 16:47:40.503518+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-09-16 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 35,
+            "appointment_count": 34,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -160,7 +160,7 @@
             "prochain_rdv": "2021-09-20 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 78,
+            "appointment_count": 77,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -536,34 +536,6 @@
         },
         {
             "departement": "24",
-            "nom": "Kåge hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.983612223908484,
-                "latitude": 64.83156836940907,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nygatan 13",
-                "business_hours": null,
-                "phone_number": "0907859357"
-            },
-            "prochain_rdv": "2021-09-23 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Holmsunds hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -664,7 +636,7 @@
             "prochain_rdv": "2021-09-23 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 8,
+            "appointment_count": 7,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -914,6 +886,34 @@
                 "address": "Anderstorpsleden 1",
                 "business_hours": null,
                 "phone_number": "0907859114"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Kåge hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.983612223908484,
+                "latitude": 64.83156836940907,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nygatan 13",
+                "business_hours": null,
+                "phone_number": "0907859357"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
