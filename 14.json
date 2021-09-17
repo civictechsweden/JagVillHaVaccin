@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-17 04:27:44.664553+02:00",
+    "last_updated": "2021-09-17 04:57:49.343532+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -3057,34 +3057,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Olskroken vårdcentral, Göteborg",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.99728177464694,
-                "latitude": 57.714548208152515,
-                "city": "Göteborg",
-                "cp": "41665"
-            },
-            "metadata": {
-                "address": "Redbergsvägen 6, 416 65, Göteborg",
-                "business_hours": null,
-                "phone_number": "0313450400"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 12,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Skene vårdcentral, Skene",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -3102,62 +3074,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 40,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Vara vårdcentral, Vara",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.965439010152812,
-                "latitude": 58.264280183788806,
-                "city": "Vara",
-                "cp": "53432"
-            },
-            "metadata": {
-                "address": "Allégatan 46, 534 32, Vara",
-                "business_hours": null,
-                "phone_number": "0512786032"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 65,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Älvängen vårdcentral, Älvängen",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.126418552009834,
-                "latitude": 57.96100312404404,
-                "city": "Ale",
-                "cp": "44637"
-            },
-            "metadata": {
-                "address": "Svenstorpsvägen 1, 446 37, Älvängen",
-                "business_hours": null,
-                "phone_number": "0104733550"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 3,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -3281,6 +3197,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Älvängen vårdcentral, Älvängen",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.126418552009834,
+                "latitude": 57.96100312404404,
+                "city": "Ale",
+                "cp": "44637"
+            },
+            "metadata": {
+                "address": "Svenstorpsvägen 1, 446 37, Älvängen",
+                "business_hours": null,
+                "phone_number": "0104733550"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 3,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Mariestad Sjukhus",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -3393,21 +3337,21 @@
         },
         {
             "departement": "14",
-            "nom": "Vara Konserthus",
+            "nom": "Närhälsan Vara vårdcentral, Vara",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
+                "longitude": 12.965439010152812,
+                "latitude": 58.264280183788806,
+                "city": "Vara",
+                "cp": "53432"
             },
             "metadata": {
-                "address": "",
+                "address": "Allégatan 46, 534 32, Vara",
                 "business_hours": null,
-                "phone_number": ""
+                "phone_number": "0512786032"
             },
             "prochain_rdv": null,
-            "plateforme": "1177",
+            "plateforme": null,
             "type": "vaccination-center",
             "appointment_count": 65,
             "internal_id": null,
@@ -3438,6 +3382,34 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 17,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Olskroken vårdcentral, Göteborg",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.99728177464694,
+                "latitude": 57.714548208152515,
+                "city": "Göteborg",
+                "cp": "41665"
+            },
+            "metadata": {
+                "address": "Redbergsvägen 6, 416 65, Göteborg",
+                "business_hours": null,
+                "phone_number": "0313450400"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 12,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3790,7 +3762,7 @@
             "nom": "Bohus Vårdcentral och BVC",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 12.016429443282588,
+                "longitude": 12.016429443282577,
                 "latitude": 57.85146853587611,
                 "city": "Ale",
                 "cp": "44537"
@@ -4053,7 +4025,7 @@
                 "phone_number": "0317442330"
             },
             "prochain_rdv": null,
-            "plateforme": null,
+            "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
