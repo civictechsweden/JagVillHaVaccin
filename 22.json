@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2021-09-17 11:02:47.794639+02:00",
+    "last_updated": "2021-09-17 11:27:27.751592+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Härnösand",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 17.9298362078272,
+                "latitude": 62.62440429993568,
+                "city": "Härnösand",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Södra vägen 3-5",
+                "business_hours": null,
+                "phone_number": "061180400"
+            },
+            "prochain_rdv": "2021-09-17 11:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 56,
+            "internal_id": "1309",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "22",
             "nom": "Vaccinationsenhet Sollefteå, Hullsta gård",
@@ -18,10 +46,10 @@
                 "business_hours": null,
                 "phone_number": "061180400"
             },
-            "prochain_rdv": "2021-09-17 11:10:00",
+            "prochain_rdv": "2021-09-17 11:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1767,
+            "appointment_count": 1740,
             "internal_id": "1325",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,39 +74,11 @@
                 "business_hours": null,
                 "phone_number": "061180400"
             },
-            "prochain_rdv": "2021-09-17 11:15:00",
+            "prochain_rdv": "2021-09-17 11:39:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 4,
             "internal_id": "1291",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Vaccinationsenhet Härnösand",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 17.9298362078272,
-                "latitude": 62.62440429993568,
-                "city": "Härnösand",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Södra vägen 3-5",
-                "business_hours": null,
-                "phone_number": "061180400"
-            },
-            "prochain_rdv": "2021-09-17 11:35:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 48,
-            "internal_id": "1309",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -133,7 +133,7 @@
             "prochain_rdv": "2021-09-21 08:33:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 526,
+            "appointment_count": 519,
             "internal_id": "1514",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
