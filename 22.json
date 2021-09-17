@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-17 10:49:57.574496+02:00",
+    "last_updated": "2021-09-17 11:02:47.794639+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": "061180400"
             },
-            "prochain_rdv": "2021-09-17 10:50:00",
+            "prochain_rdv": "2021-09-17 11:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1788,
+            "appointment_count": 1767,
             "internal_id": "1325",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -74,11 +74,39 @@
                 "business_hours": null,
                 "phone_number": "061180400"
             },
-            "prochain_rdv": "2021-09-17 13:15:00",
+            "prochain_rdv": "2021-09-17 11:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 56,
+            "appointment_count": 48,
             "internal_id": "1309",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Bollsta",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 17.6703668135133,
+                "latitude": 62.99855335986242,
+                "city": "Kramfors",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Bollsta Folketspark, Tunsjövägen 4",
+                "business_hours": null,
+                "phone_number": "061180400"
+            },
+            "prochain_rdv": "2021-09-20 13:01:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 48,
+            "internal_id": "1321",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -105,7 +133,7 @@
             "prochain_rdv": "2021-09-21 08:33:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 529,
+            "appointment_count": 526,
             "internal_id": "1514",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -117,34 +145,6 @@
         }
     ],
     "centres_indisponibles": [
-        {
-            "departement": "22",
-            "nom": "Vaccinationsenhet Bollsta",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 17.6703668135133,
-                "latitude": 62.99855335986242,
-                "city": "Kramfors",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Bollsta Folketspark, Tunsjövägen 4",
-                "business_hours": null,
-                "phone_number": "061180400"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1321",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "22",
             "nom": "Ungdomsmottagningen Kramfors",
