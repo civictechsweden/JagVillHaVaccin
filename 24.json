@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-18 14:39:33.460457+02:00",
+    "last_updated": "2021-09-18 15:12:01.634222+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -76,7 +76,7 @@
             "prochain_rdv": "2021-09-21 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 22,
+            "appointment_count": 21,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -497,6 +497,34 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 20,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Backens hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.163080811099466,
+                "latitude": 63.83722988837268,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Manusgränd 3",
+                "business_hours": null,
+                "phone_number": "0907854443"
+            },
+            "prochain_rdv": "2021-09-23 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1029,34 +1057,6 @@
             },
             "prochain_rdv": null,
             "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Backens hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.163080811099466,
-                "latitude": 63.83722988837268,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Manusgränd 3",
-                "business_hours": null,
-                "phone_number": "0907854443"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
