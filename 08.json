@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-19 03:14:47.815525+02:00",
+    "last_updated": "2021-09-19 04:13:04.884377+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -23,6 +23,34 @@
             "type": "vaccination-center",
             "appointment_count": 24,
             "internal_id": "529",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Astrakanen läkarcentrum Nybro",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 15.912165806501925,
+                "latitude": 56.744368754526384,
+                "city": "Nybro",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tunnelgatan 8, Nybro",
+                "business_hours": null,
+                "phone_number": "048169696"
+            },
+            "prochain_rdv": "2021-09-20 17:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 156,
+            "internal_id": "526",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -173,34 +201,6 @@
         },
         {
             "departement": "08",
-            "nom": "Astrakanen läkarcentrum Nybro",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 15.912165806501925,
-                "latitude": 56.744368754526384,
-                "city": "Nybro",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tunnelgatan 8, Nybro",
-                "business_hours": null,
-                "phone_number": "048169696"
-            },
-            "prochain_rdv": "2021-09-21 15:50:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 156,
-            "internal_id": "526",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
             "nom": "Esplanadens hälsocentral",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
@@ -217,7 +217,7 @@
             "prochain_rdv": "2021-09-22 08:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 255,
+            "appointment_count": 252,
             "internal_id": "501",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
