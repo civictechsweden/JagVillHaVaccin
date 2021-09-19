@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-19 03:16:11.965802+02:00",
+    "last_updated": "2021-09-19 04:15:05.973739+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -114,9 +114,7 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        }
-    ],
-    "centres_indisponibles": [
+        },
         {
             "departement": "22",
             "nom": "Vaccinationsenhet Bollsta",
@@ -132,10 +130,10 @@
                 "business_hours": null,
                 "phone_number": "061180400"
             },
-            "prochain_rdv": null,
+            "prochain_rdv": "2021-09-24 13:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 0,
+            "appointment_count": 4,
             "internal_id": "1321",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -144,7 +142,9 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "22",
             "nom": "Ungdomsmottagningen Kramfors",
