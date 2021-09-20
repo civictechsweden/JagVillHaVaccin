@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-20 14:00:43.400609+02:00",
+    "last_updated": "2021-09-20 14:41:11.174825+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -15,33 +15,6 @@
             },
             "metadata": {
                 "address": "Aspvägen 27, Fagersta",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-09-20 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": null,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "19",
-            "nom": "Västerås vaccinationsmottagning Servicehälsan",
-            "url": "https://vaccinationsbokning.regionvastmanland.se",
-            "location": {
-                "longitude": 16.55421068341796,
-                "latitude": 59.61671954977299,
-                "city": "Västerås",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Legeringsgatan 2, Västerås",
                 "business_hours": null
             },
             "prochain_rdv": "2021-09-20 00:00:00",
@@ -221,6 +194,33 @@
         },
         {
             "departement": "19",
+            "nom": "Västerås vaccinationsmottagning Servicehälsan",
+            "url": "https://vaccinationsbokning.regionvastmanland.se",
+            "location": {
+                "longitude": 16.55421068341796,
+                "latitude": 59.61671954977299,
+                "city": "Västerås",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Legeringsgatan 2, Västerås",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-09-21 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": null,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "19",
             "nom": "Köping vaccinationsmottagning Folkets hus",
             "url": "https://vaccinationsbokning.regionvastmanland.se",
             "location": {
@@ -326,9 +326,7 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        }
-    ],
-    "centres_indisponibles": [
+        },
         {
             "departement": "19",
             "nom": "Norberg vaccinationsmottagning Folkets hus",
@@ -343,10 +341,10 @@
                 "address": "Järnvägsgatan 53, Norberg",
                 "business_hours": null
             },
-            "prochain_rdv": null,
+            "prochain_rdv": "2021-09-29 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 0,
+            "appointment_count": null,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -355,7 +353,9 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "19",
             "nom": "Västerås vaccinationsmottagning Bäckby torg",
