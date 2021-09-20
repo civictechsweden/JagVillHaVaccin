@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-20 19:08:33.002008+02:00",
+    "last_updated": "2021-09-20 19:39:10.202361+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-09-21 08:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2606,
+            "appointment_count": 2610,
             "internal_id": "231",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -74,7 +74,7 @@
             "prochain_rdv": "2021-09-22 09:27:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 256,
+            "appointment_count": 258,
             "internal_id": "2023",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -157,7 +157,7 @@
             "prochain_rdv": "2021-09-22 15:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 11,
+            "appointment_count": 13,
             "internal_id": "1535",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -250,6 +250,33 @@
         },
         {
             "departement": "12",
+            "nom": "Vaccinova Åhus",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 14.293642027570382,
+                "latitude": 55.922462664842925,
+                "city": "Kristianstad",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Companiegatan 2A, Åhus",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-09-30 10:40:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 28,
+            "internal_id": "2024",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
             "nom": "Vaccinova Eslöv",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -265,35 +292,8 @@
             "prochain_rdv": "2021-09-30 11:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 38,
+            "appointment_count": 40,
             "internal_id": "2022",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Vaccinova Åhus",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 14.293642027570382,
-                "latitude": 55.922462664842925,
-                "city": "Kristianstad",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Companiegatan 2A, Åhus",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-09-30 11:25:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 26,
-            "internal_id": "2024",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -347,7 +347,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 1062,
+            "appointment_count": 1019,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -375,7 +375,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 112,
+            "appointment_count": 111,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -431,7 +431,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 1026,
+            "appointment_count": 1024,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
