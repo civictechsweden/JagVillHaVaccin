@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-24 20:32:08.913880+02:00",
+    "last_updated": "2021-09-24 21:23:07.583327+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-09-25 10:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 192,
+            "appointment_count": 191,
             "internal_id": "2072",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -102,7 +102,7 @@
             "prochain_rdv": "2021-09-28 10:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 80,
+            "appointment_count": 82,
             "internal_id": "2018",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -141,33 +141,6 @@
         },
         {
             "departement": "12",
-            "nom": "Vaccinova Eslöv",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 13.302936436716013,
-                "latitude": 55.84016996587262,
-                "city": "Eslöv",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Norregatan 3, Eslöv",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-09-30 09:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 2,
-            "internal_id": "2022",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
             "nom": "Vaccinova Höganäs",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -180,10 +153,10 @@
                 "address": "Östra Parkgatan 2, Höganäs",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-10-11 12:50:00",
+            "prochain_rdv": "2021-10-11 12:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 4,
             "internal_id": "2019",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -319,7 +292,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 711,
+            "appointment_count": 712,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -403,7 +376,7 @@
             "prochain_rdv": null,
             "plateforme": "MACC",
             "type": "vaccination-center",
-            "appointment_count": 575,
+            "appointment_count": 574,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1436,6 +1409,33 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccinova Eslöv",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 13.302936436716013,
+                "latitude": 55.84016996587262,
+                "city": "Eslöv",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Norregatan 3, Eslöv",
+                "business_hours": null
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "2022",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
