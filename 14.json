@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-29 05:00:54.458450+02:00",
+    "last_updated": "2021-09-29 05:30:35.887119+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -2933,7 +2933,7 @@
             "prochain_rdv": "2021-10-02 11:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 62,
+            "appointment_count": 60,
             "internal_id": "2082",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2961,7 +2961,7 @@
             "prochain_rdv": "2021-10-02 11:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 62,
+            "appointment_count": 60,
             "internal_id": "2082",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3019,6 +3019,62 @@
             "type": "vaccination-center",
             "appointment_count": 228,
             "internal_id": "2090",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Falköping",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.554253617544363,
+                "latitude": 58.1892574341603,
+                "city": "Göteborg",
+                "cp": "52137"
+            },
+            "metadata": {
+                "address": "Danska vägen 62, 521 37, Falköping",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-10-08 10:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "2085",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Falköping",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.554253617544363,
+                "latitude": 58.1892574341603,
+                "city": "Göteborg",
+                "cp": "52137"
+            },
+            "metadata": {
+                "address": "Danska vägen 62, 521 37, Falköping",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-10-08 10:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "2085",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -3101,7 +3157,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 315,
+            "appointment_count": 273,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -3253,34 +3309,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Vara vårdcentral, Vara",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.965439010152812,
-                "latitude": 58.264280183788806,
-                "city": "Vara",
-                "cp": "53432"
-            },
-            "metadata": {
-                "address": "Allégatan 46, 534 32, Vara",
-                "business_hours": null,
-                "phone_number": "0512786032"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 15,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Tidaholm vårdcentral, Tidaholm",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -3381,7 +3409,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 315,
+            "appointment_count": 273,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3437,7 +3465,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 72,
+            "appointment_count": 35,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -9973,6 +10001,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Vara vårdcentral, Vara",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.965439010152812,
+                "latitude": 58.264280183788806,
+                "city": "Vara",
+                "cp": "53432"
+            },
+            "metadata": {
+                "address": "Allégatan 46, 534 32, Vara",
+                "business_hours": null,
+                "phone_number": "0512786032"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Ulricehamn vårdcentral, Ulricehamn",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -10337,34 +10393,6 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Falköping",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.554253617544363,
-                "latitude": 58.1892574341603,
-                "city": "Göteborg",
-                "cp": "52137"
-            },
-            "metadata": {
-                "address": "Danska vägen 62, 521 37, Falköping",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2085",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Kronans Apotek MediCheck Skene",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -10523,34 +10551,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "2087",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Kronans Apotek MediCheck Falköping",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.554253617544363,
-                "latitude": 58.1892574341603,
-                "city": "Göteborg",
-                "cp": "52137"
-            },
-            "metadata": {
-                "address": "Danska vägen 62, 521 37, Falköping",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "2085",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
