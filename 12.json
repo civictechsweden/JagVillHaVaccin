@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-30 08:00:11.473413+02:00",
+    "last_updated": "2021-09-30 08:32:35.057285+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -47,7 +47,7 @@
             "prochain_rdv": "2021-09-30 09:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 200,
+            "appointment_count": 201,
             "internal_id": "2072",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -101,7 +101,7 @@
             "prochain_rdv": "2021-09-30 09:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 10,
+            "appointment_count": 11,
             "internal_id": "2022",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -128,7 +128,7 @@
             "prochain_rdv": "2021-09-30 10:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 49,
+            "appointment_count": 50,
             "internal_id": "2021",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -152,10 +152,10 @@
                 "address": "Föreningsgatan 7, Höör",
                 "business_hours": null
             },
-            "prochain_rdv": "2021-09-30 10:50:00",
+            "prochain_rdv": "2021-09-30 12:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 8,
+            "appointment_count": 6,
             "internal_id": "1538",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -211,6 +211,34 @@
             "type": "vaccination-center",
             "appointment_count": 20,
             "internal_id": "2025",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Kronans Apotek Båstad",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 12.837022713078733,
+                "latitude": 56.433153288605794,
+                "city": "Båstad",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Kyrkogatan 21, Båstad",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-10-11 15:10:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "1535",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -1573,34 +1601,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "230",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Kronans Apotek Båstad",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 12.837022713078733,
-                "latitude": 56.433153288605794,
-                "city": "Båstad",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kyrkogatan 21, Båstad",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1535",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
