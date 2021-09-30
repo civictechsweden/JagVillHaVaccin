@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-09-30 06:36:23.344655+02:00",
+    "last_updated": "2021-09-30 07:00:22.467682+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -275,6 +275,34 @@
             "type": "vaccination-center",
             "appointment_count": 48,
             "internal_id": "2091",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Kronans Apotek MediCheck Falköping",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.554253617544363,
+                "latitude": 58.1892574341603,
+                "city": "Göteborg",
+                "cp": "52137"
+            },
+            "metadata": {
+                "address": "Danska vägen 62, 521 37, Falköping",
+                "business_hours": null,
+                "phone_number": "0812844621"
+            },
+            "prochain_rdv": "2021-09-30 10:45:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 10,
+            "internal_id": "2085",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -2609,34 +2637,6 @@
         },
         {
             "departement": "14",
-            "nom": "Kronans Apotek MediCheck Falköping",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.554253617544363,
-                "latitude": 58.1892574341603,
-                "city": "Göteborg",
-                "cp": "52137"
-            },
-            "metadata": {
-                "address": "Danska vägen 62, 521 37, Falköping",
-                "business_hours": null,
-                "phone_number": "0812844621"
-            },
-            "prochain_rdv": "2021-09-30 12:45:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 10,
-            "internal_id": "2085",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Kronans Apotek MediCheck Överby Köpcenter",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -2650,10 +2650,10 @@
                 "business_hours": null,
                 "phone_number": "0812844621"
             },
-            "prochain_rdv": "2021-09-30 12:50:00",
+            "prochain_rdv": "2021-09-30 11:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 196,
+            "appointment_count": 198,
             "internal_id": "2092",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -2678,10 +2678,10 @@
                 "business_hours": null,
                 "phone_number": "0812844621"
             },
-            "prochain_rdv": "2021-09-30 12:50:00",
+            "prochain_rdv": "2021-09-30 11:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 196,
+            "appointment_count": 198,
             "internal_id": "2092",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3213,7 +3213,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 258,
+            "appointment_count": 257,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -3297,7 +3297,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 30,
+            "appointment_count": 4,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3381,7 +3381,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 258,
+            "appointment_count": 257,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3437,7 +3437,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 69,
+            "appointment_count": 36,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
