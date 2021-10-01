@@ -304,7 +304,7 @@
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bohus-Vardcentral-och-BVC/",
         "platform_url": null,
         "location": {
-            "longitude": 12.016429443282588,
+            "longitude": 12.016429443282577,
             "latitude": 57.85146853587611,
             "city": "Ale",
             "cp": "44537"
@@ -1620,6 +1620,28 @@
         "platform": null,
         "type": "vaccination-center",
         "1177_id": "SE2321000016-FCT9",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Hötorget - vaccination covid - Werlabs",
+        "region": "01",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Hotorget-vaccination-covid-Werlabs/",
+        "platform_url": null,
+        "location": {
+            "longitude": 18.063321212888525,
+            "latitude": 59.33383974190475,
+            "city": "Stockholm",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Sergelgatan 17, STOCKHOLM",
+            "business_hours": null
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE2321000016-FK8H",
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
@@ -3821,29 +3843,6 @@
         "appointment_by_phone_only": true
     },
     {
-        "name": "Närhälsan Landvetter vårdcentral, Landvetter",
-        "region": "14",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Landvetter-vardcentral-Landvetter/",
-        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000004575&hsaid=SE2321000131-E000000004575&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
-        "location": {
-            "longitude": 12.211113815508927,
-            "latitude": 57.68686580612976,
-            "city": "Härryda",
-            "cp": "43832"
-        },
-        "metadata": {
-            "address": "Brattåstorget 13, 438 32, Landvetter",
-            "business_hours": null,
-            "phone_number": "0104733700"
-        },
-        "platform": "1177",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000004575",
-        "platform_id": null,
-        "vaccine_type": null,
-        "appointment_by_phone_only": true
-    },
-    {
         "name": "Närhälsan Lerum vårdcentral, Lerum",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Lerum-vardcentral-Lerum/",
@@ -5903,28 +5902,6 @@
         "appointment_by_phone_only": true
     },
     {
-        "name": "Tyresö Kulturcentrum Kvarnhjulet - vaccination covid - BePrep",
-        "region": "01",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Tyreso-Kulturcentrum-Kvarnhjulet-vaccination-covid-BePrep/",
-        "platform_url": "https://www.1177.se/stockholm/boka-vaccin-covid-19",
-        "location": {
-            "longitude": 18.23018782055707,
-            "latitude": 59.24154079465879,
-            "city": "Tyresö",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Pluggvägen 6B, Hus B, TYRESÖ",
-            "business_hours": null
-        },
-        "platform": null,
-        "type": "vaccination-center",
-        "1177_id": "SE2321000016-FCLV",
-        "platform_id": null,
-        "vaccine_type": null,
-        "appointment_by_phone_only": true
-    },
-    {
         "name": "Täby kommunhus - vaccination covid - VaccinDirekt",
         "region": "01",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Taby-kommunhus-vaccination-covid-VaccinDirekt/",
@@ -6421,29 +6398,6 @@
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O28637",
         "platform_id": "2072",
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
-        "name": "Vaccinationsenhet Bollsta",
-        "region": "22",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Bollsta/",
-        "platform_url": "https://bokning.mittvaccin.se/klinik/1321/bokning",
-        "location": {
-            "longitude": 17.6703668135133,
-            "latitude": 62.99855335986242,
-            "city": "Kramfors",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Bollsta Folketspark, Tunsjövägen 4",
-            "business_hours": null,
-            "phone_number": "061180400"
-        },
-        "platform": "MittVaccin",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000206-E01518",
-        "platform_id": "1321",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
@@ -8319,29 +8273,6 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Närhälsan Scandinavium",
-        "region": "14",
-        "1177_url": null,
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?hsaid=SE2321000131-E000000016395&dynamicid=bb0225fc-7c37-47c1-8558-ddb991501c2c",
-        "location": {
-            "longitude": "",
-            "latitude": "",
-            "city": "",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "",
-            "business_hours": null,
-            "phone_number": ""
-        },
-        "platform": "1177",
-        "type": "vaccination-center",
-        "1177_id": "SE2321000131-E000000016395",
-        "platform_id": null,
-        "vaccine_type": null,
-        "appointment_by_phone_only": false
-    },
-    {
         "name": "Närhälsan Vara vårdcentral, Vara",
         "region": "14",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Vara-vardcentral-Vara/",
@@ -8475,6 +8406,29 @@
         "platform": null,
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000000454",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": false
+    },
+    {
+        "name": "Närhälsan Landvetter vårdcentral, Landvetter",
+        "region": "14",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Narhalsan-Landvetter-vardcentral-Landvetter/",
+        "platform_url": "https://formular.1177.se/etjanst/ad7ed879-138d-4cfd-ac94-83c0af422e44?externalApplication=COVID_SE2321000131-E000000004575&hsaid=SE2321000131-E000000004575&dynamicid=99ccc022-081f-40d2-a64b-fee03d3b1c7f",
+        "location": {
+            "longitude": 12.211113815508927,
+            "latitude": 57.68686580612976,
+            "city": "Härryda",
+            "cp": "43832"
+        },
+        "metadata": {
+            "address": "Brattåstorget 13, 438 32, Landvetter",
+            "business_hours": null,
+            "phone_number": "0104733700"
+        },
+        "platform": "1177",
+        "type": "vaccination-center",
+        "1177_id": "SE2321000131-E000000004575",
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": false
@@ -9784,9 +9738,9 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Norberg vaccinationsmottagning Folkets hus",
+        "name": "Norberg vaccinationsmottagning",
         "region": "19",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Norberg-vaccinationsmottagning-Folkets-hus",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Norberg-vaccinationsmottagning",
         "platform_url": "https://formular.1177.se/etjanst/c35f1d73-43c9-4268-9738-4583eeb078e2?externalApplication=COVID_SE2321000172-3KQZ&hsaid=SE2321000172-3KQZ&dynamicid=cae232b3-1377-47a2-b58c-f0ba83080695",
         "location": {
             "longitude": 15.926652788486193,
@@ -11409,86 +11363,87 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Ungdomsmottagningen Kramfors",
+        "name": "Vaccinationsenhet Kramfors",
         "region": "22",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Ungdomsmottagningen-Kramfors/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Kramfors-1/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/1323",
         "location": {
-            "longitude": 17.779325461322767,
-            "latitude": 62.931495869285044,
+            "longitude": 17.780289916464852,
+            "latitude": 62.93324145490745,
             "city": "Kramfors",
-            "cp": "87230"
+            "cp": "00000"
         },
         "metadata": {
-            "address": "Limstagatan 9, 2 tr, 872 30 Kramfors",
+            "address": "Hälsocentralen Kramfors, Bruksgatan 12-14",
             "business_hours": null,
-            "phone_number": "061214410"
+            "phone_number": "061180400"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000206-E00805",
+        "1177_id": "SE2321000206-E01518",
         "platform_id": "1323",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
     {
-        "name": "Norberg vaccinationsmottagning Folkets hus",
-        "region": "19",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Norberg-vaccinationsmottagning-Folkets-hus/",
+        "name": "Vaccinationsenhet Kramfors",
+        "region": "22",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Kramfors-1/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/1321",
         "location": {
-            "longitude": 15.926652788486193,
-            "latitude": 60.06834413792669,
-            "city": "Norberg",
+            "longitude": 17.780289916464852,
+            "latitude": 62.93324145490745,
+            "city": "Kramfors",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Järnvägsgatan 53, Norberg",
-            "business_hours": null
+            "address": "Hälsocentralen Kramfors, Bruksgatan 12-14",
+            "business_hours": null,
+            "phone_number": "061180400"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000172-3KQZ",
+        "1177_id": "SE2321000206-E01518",
         "platform_id": "1321",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
     {
-        "name": "Psykolog för föräldra- och barnhälsovård Kramfors",
+        "name": "Vaccinationsenhet Kramfors",
         "region": "22",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Psykolog-for-foraldra-och-barnhalsovard-Kramfors/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Kramfors-1/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/1322/bokning",
         "location": {
-            "longitude": 17.7803489495528,
-            "latitude": 62.933240629313524,
+            "longitude": 17.780289916464852,
+            "latitude": 62.93324145490745,
             "city": "Kramfors",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Bruksgatan 12, Kramfors",
+            "address": "Hälsocentralen Kramfors, Bruksgatan 12-14",
             "business_hours": null,
-            "phone_number": "060181138"
+            "phone_number": "061180400"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000206-E00823",
+        "1177_id": "SE2321000206-E01518",
         "platform_id": "1322",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
     {
-        "name": "Vaccinationsenhet Sollefteå, Hullsta gård",
+        "name": "Vaccinationsenhet Sollefteå",
         "region": "22",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Solleftea-Hullsta-gard/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Solleftea/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/1325",
         "location": {
-            "longitude": 17.273690876743526,
-            "latitude": 63.166387061033475,
+            "longitude": 17.236573422273448,
+            "latitude": 63.17412364873974,
             "city": "Sollefteå",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Hullsta gård, Storgatan 69",
+            "address": "Lasarettsgatan 1",
             "business_hours": null,
             "phone_number": "061180400"
         },
@@ -11500,18 +11455,18 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Vaccinationsenhet Sollefteå, Hullsta gård",
+        "name": "Vaccinationsenhet Sollefteå",
         "region": "22",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Solleftea-Hullsta-gard/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Solleftea/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/910/bokning",
         "location": {
-            "longitude": 17.273690876743526,
-            "latitude": 63.166387061033475,
+            "longitude": 17.236573422273448,
+            "latitude": 63.17412364873974,
             "city": "Sollefteå",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Hullsta gård, Storgatan 69",
+            "address": "Lasarettsgatan 1",
             "business_hours": null,
             "phone_number": "061180400"
         },
@@ -11523,18 +11478,18 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Vaccinationsenhet Sollefteå, Hullsta gård",
+        "name": "Vaccinationsenhet Sollefteå",
         "region": "22",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Solleftea-Hullsta-gard/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Solleftea/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/909/bokning",
         "location": {
-            "longitude": 17.273690876743526,
-            "latitude": 63.166387061033475,
+            "longitude": 17.236573422273448,
+            "latitude": 63.17412364873974,
             "city": "Sollefteå",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Hullsta gård, Storgatan 69",
+            "address": "Lasarettsgatan 1",
             "business_hours": null,
             "phone_number": "061180400"
         },
@@ -11546,9 +11501,9 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Vaccinationsenhet Nacksta",
+        "name": "Vaccinationsenhet Sundsvall",
         "region": "22",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Nacksta/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Sundsvall/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/1291",
         "location": {
             "longitude": 17.255449827674113,
@@ -11592,70 +11547,70 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Mottagning för gynekologisk cancer Sundsvall",
+        "name": "Vaccinationsenhet Sundsvall",
         "region": "22",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Mottagning-for-gynekologisk-cancer-Sundsvall/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Sundsvall/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/921",
         "location": {
-            "longitude": 17.30580301831696,
-            "latitude": 62.408024756594735,
+            "longitude": 17.255449827674113,
+            "latitude": 62.39297855695255,
             "city": "Sundsvall",
-            "cp": "00000"
+            "cp": "85350"
         },
         "metadata": {
-            "address": "Lasarettsvägen 21",
+            "address": "Axvägen 15, 853 50 Sundsvall",
             "business_hours": null,
-            "phone_number": "060182050"
+            "phone_number": "061180400"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000206-E01110",
+        "1177_id": "SE2321000206-E01510",
         "platform_id": "921",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
     {
-        "name": "Mottagning för gynekologisk cancer Sundsvall",
+        "name": "Vaccinationsenhet Sundsvall",
         "region": "22",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Mottagning-for-gynekologisk-cancer-Sundsvall/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Sundsvall/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/915",
         "location": {
-            "longitude": 17.30580301831696,
-            "latitude": 62.408024756594735,
+            "longitude": 17.255449827674113,
+            "latitude": 62.39297855695255,
             "city": "Sundsvall",
-            "cp": "00000"
+            "cp": "85350"
         },
         "metadata": {
-            "address": "Lasarettsvägen 21",
+            "address": "Axvägen 15, 853 50 Sundsvall",
             "business_hours": null,
-            "phone_number": "060182050"
+            "phone_number": "061180400"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000206-E01110",
+        "1177_id": "SE2321000206-E01510",
         "platform_id": "915",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
     {
-        "name": "Mottagning för gynekologisk cancer Sundsvall",
+        "name": "Vaccinationsenhet Sundsvall",
         "region": "22",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Mottagning-for-gynekologisk-cancer-Sundsvall/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Sundsvall/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/916",
         "location": {
-            "longitude": 17.30580301831696,
-            "latitude": 62.408024756594735,
+            "longitude": 17.255449827674113,
+            "latitude": 62.39297855695255,
             "city": "Sundsvall",
-            "cp": "00000"
+            "cp": "85350"
         },
         "metadata": {
-            "address": "Lasarettsvägen 21",
+            "address": "Axvägen 15, 853 50 Sundsvall",
             "business_hours": null,
-            "phone_number": "060182050"
+            "phone_number": "061180400"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000206-E01110",
+        "1177_id": "SE2321000206-E01510",
         "platform_id": "916",
         "vaccine_type": null,
         "appointment_by_phone_only": false
@@ -11707,41 +11662,41 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Vaccinationsenhet Fränsta",
+        "name": "Vårdcentralen Fränsta",
         "region": "22",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Fransta/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Fransta/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/926",
         "location": {
             "longitude": 16.166493074132607,
             "latitude": 62.500909094703054,
             "city": "Ånge",
-            "cp": "00000"
+            "cp": "84012"
         },
         "metadata": {
-            "address": "Mårtensvägen 2, Fränsta",
+            "address": "Mårtensvägen 2, 840 12 Fränsta",
             "business_hours": null,
-            "phone_number": "061180400"
+            "phone_number": "0691251000"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000206-E01541",
+        "1177_id": "SE2321000206-E00438",
         "platform_id": "926",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
     {
-        "name": "Vaccinationsenhet Curlinghallen Skyttis",
+        "name": "Vaccinationsenhet Örnsköldsvik",
         "region": "22",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Curlinghallen-Skyttis/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Ornskoldsvik/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/1514",
         "location": {
-            "longitude": 18.73309939643111,
-            "latitude": 63.29646278008092,
+            "longitude": 18.71398355267774,
+            "latitude": 63.29862307191591,
             "city": "Örnsköldsvik",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Valhallavägen 20, Örnsköldsvik",
+            "address": "Sjukhusgatan 5B, ingång från Nygatan",
             "business_hours": null,
             "phone_number": "061180400"
         },
@@ -11776,24 +11731,24 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Ögonmottagning Örnsköldsvik, Örnsköldsvik",
+        "name": "Vaccinationsenhet Örnsköldsvik",
         "region": "22",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Ogonmottagning-Ornskoldsvik-Ornskoldsvik/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Ornskoldsvik/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/1327/bokning",
         "location": {
-            "longitude": 18.712626567320434,
-            "latitude": 63.299611433334626,
+            "longitude": 18.71398355267774,
+            "latitude": 63.29862307191591,
             "city": "Örnsköldsvik",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Wemer, plan 1. OBS! Ögonoperationer, sjukhusentrén, plan 3.",
+            "address": "Sjukhusgatan 5B, ingång från Nygatan",
             "business_hours": null,
-            "phone_number": "066089260"
+            "phone_number": "061180400"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000206-E00397",
+        "1177_id": "SE2321000206-E01527",
         "platform_id": "1327",
         "vaccine_type": null,
         "appointment_by_phone_only": false
@@ -12098,24 +12053,24 @@
         "appointment_by_phone_only": true
     },
     {
-        "name": "Capio vårdcentral, Ronneby",
-        "region": "10",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Capio-vardcentral-Ronneby/",
+        "name": "Capio Citykliniken Landskrona Psykoterapi",
+        "region": "12",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Capio-Citykliniken-Landskrona-Psykoterapi/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/591/bokning",
         "location": {
-            "longitude": 15.285538967170696,
-            "latitude": 56.20298130606913,
-            "city": "Ronneby",
+            "longitude": 12.832413596086482,
+            "latitude": 55.87548206596127,
+            "city": "Landskrona",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Fridhemsvägen 15",
+            "address": "Eriksgatan 108, Landskrona",
             "business_hours": null,
-            "phone_number": "045734070"
+            "phone_number": "0418448880"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE5564220860-b3229",
+        "1177_id": "SE162321000255-O21315",
         "platform_id": "591",
         "vaccine_type": null,
         "appointment_by_phone_only": false
@@ -12259,24 +12214,24 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Sölvesborgs vårdcentral",
+        "name": "Valjehälsan, Sölvesborg",
         "region": "10",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Solvesborgs-vardcentral/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Valjehalsan-Solvesborg/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/597/bokning",
         "location": {
-            "longitude": 14.583232678821236,
-            "latitude": 56.05609832639761,
+            "longitude": 14.55505971137131,
+            "latitude": 56.04871111917787,
             "city": "Sölvesborg",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Markgatan 30",
+            "address": "Herrgårdsvägen 97",
             "business_hours": null,
-            "phone_number": "0456731310"
+            "phone_number": "045632960"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000081-b3234",
+        "1177_id": "SE8362008628-b3212",
         "platform_id": "597",
         "vaccine_type": null,
         "appointment_by_phone_only": false
@@ -12466,47 +12421,47 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Blodbussen Aneby vårdcentral (åldersgrupp eller riksgrupp)",
+        "name": "Aneby vårdcentral (åldersgrupp eller riksgrupp)",
         "region": "06",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Blodbussen-Aneby-vardcentral/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Aneby-Vardcentral/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/1176",
         "location": {
-            "longitude": 14.81763121168823,
-            "latitude": 57.8364563177263,
+            "longitude": 14.817662416449679,
+            "latitude": 57.836546353084785,
             "city": "Aneby",
             "cp": "00000"
         },
         "metadata": {
             "address": "Storgatan 29, Aneby",
             "business_hours": null,
-            "phone_number": "0102435281"
+            "phone_number": "0102433800"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000057-7PKW",
+        "1177_id": "SE2321000057-4994",
         "platform_id": "1176",
         "vaccine_type": null,
         "appointment_by_phone_only": false
     },
     {
-        "name": "Blodbussen Aneby vårdcentral (18+ LSS/assistans/vårdnära)",
+        "name": "Aneby vårdcentral (18+ LSS/assistans/vårdnära)",
         "region": "06",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Blodbussen-Aneby-vardcentral/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Aneby-Vardcentral/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/1517",
         "location": {
-            "longitude": 14.81763121168823,
-            "latitude": 57.8364563177263,
+            "longitude": 14.817662416449679,
+            "latitude": 57.836546353084785,
             "city": "Aneby",
             "cp": "00000"
         },
         "metadata": {
             "address": "Storgatan 29, Aneby",
             "business_hours": null,
-            "phone_number": "0102435281"
+            "phone_number": "0102433800"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE2321000057-7PKW",
+        "1177_id": "SE2321000057-4994",
         "platform_id": "1517",
         "vaccine_type": null,
         "appointment_by_phone_only": false
@@ -15295,24 +15250,24 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Gynekologimottagning Landskrona",
+        "name": "Audionommottagningen Landskrona",
         "region": "12",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Gynekologimottagning-Landskrona/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Audionommottagningen-Landskrona/",
         "platform_url": "https://bokning.mittvaccin.se/klinik/2047",
         "location": {
-            "longitude": 12.840071696915441,
-            "latitude": 55.877554025907244,
+            "longitude": 12.840003258427231,
+            "latitude": 55.88452546455715,
             "city": "Landskrona",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Gösta Lundhs gata 5, Landskrona",
+            "address": "Pilåkersgatan 32, Landskrona",
             "business_hours": null,
-            "phone_number": "0418454456"
+            "phone_number": "041812550"
         },
         "platform": "MittVaccin",
         "type": "vaccination-center",
-        "1177_id": "SE162321000255-O24258",
+        "1177_id": "SE162321000255-O17358",
         "platform_id": "2047",
         "vaccine_type": null,
         "appointment_by_phone_only": false
