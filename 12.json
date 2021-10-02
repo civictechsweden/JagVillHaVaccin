@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-10-02 15:11:30.035440+02:00",
+    "last_updated": "2021-10-02 15:37:54.777068+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -76,6 +76,33 @@
             "type": "vaccination-center",
             "appointment_count": 190,
             "internal_id": "2023",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Vaccinova Bromölla",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 14.467382912237964,
+                "latitude": 56.074198397712195,
+                "city": "Bromölla",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 42, Bromölla",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-10-07 12:10:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 20,
+            "internal_id": "2025",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -168,6 +195,33 @@
         },
         {
             "departement": "12",
+            "nom": "Kronans Apotek Höör",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 13.540319233929354,
+                "latitude": 55.93385874871056,
+                "city": "Höör",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Föreningsgatan 7, Höör",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-10-13 15:35:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": "1538",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
             "nom": "Vaccinova Tomelilla",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
@@ -212,33 +266,6 @@
             "type": "vaccination-center",
             "appointment_count": 72,
             "internal_id": "2024",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Vaccinova Bromölla",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 14.467382912237964,
-                "latitude": 56.074198397712195,
-                "city": "Bromölla",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 42, Bromölla",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-10-21 11:50:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 19,
-            "internal_id": "2025",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -1574,33 +1601,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "230",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "12",
-            "nom": "Kronans Apotek Höör",
-            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
-            "location": {
-                "longitude": 13.540319233929354,
-                "latitude": 55.93385874871056,
-                "city": "Höör",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Föreningsgatan 7, Höör",
-                "business_hours": null
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "1538",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
