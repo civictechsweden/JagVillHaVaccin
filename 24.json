@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-10-03 20:52:52.547073+02:00",
+    "last_updated": "2021-10-03 21:23:35.754429+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -105,6 +105,62 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 5,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Anderstorps hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.988785517005645,
+                "latitude": 64.74597319664166,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Anderstorpsleden 1",
+                "business_hours": null,
+                "phone_number": "0907859114"
+            },
+            "prochain_rdv": "2021-10-05 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Ålidhems hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.316742449489357,
+                "latitude": 63.81499142292883,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tvistevägen 2",
+                "business_hours": null,
+                "phone_number": "0907854458"
+            },
+            "prochain_rdv": "2021-10-05 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 26,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -368,34 +424,6 @@
         },
         {
             "departement": "24",
-            "nom": "Ålidhems hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.316742449489357,
-                "latitude": 63.81499142292883,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tvistevägen 2",
-                "business_hours": null,
-                "phone_number": "0907854458"
-            },
-            "prochain_rdv": "2021-10-06 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 25,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Sävar hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -634,34 +662,6 @@
                 "address": "Fabriksvägen 3",
                 "business_hours": null,
                 "phone_number": "0907859121"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Anderstorps hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.988785517005645,
-                "latitude": 64.74597319664166,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Anderstorpsleden 1",
-                "business_hours": null,
-                "phone_number": "0907859114"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
