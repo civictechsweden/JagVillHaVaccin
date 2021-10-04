@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-10-04 03:23:20.608156+02:00",
+    "last_updated": "2021-10-04 04:57:38.462661+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -131,6 +131,34 @@
             "type": "vaccination-center",
             "appointment_count": 20,
             "internal_id": "2025",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "12",
+            "nom": "Capio Citykliniken Landskrona Psykoterapi",
+            "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
+            "location": {
+                "longitude": 12.832413596086482,
+                "latitude": 55.87548206596127,
+                "city": "Landskrona",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Eriksgatan 108, Landskrona",
+                "business_hours": null,
+                "phone_number": "0418448880"
+            },
+            "prochain_rdv": "2021-10-07 13:50:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 56,
+            "internal_id": "591",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -1472,18 +1500,18 @@
         },
         {
             "departement": "12",
-            "nom": "Audionommottagningen Landskrona",
+            "nom": "Gynekologimottagning Landskrona",
             "url": "https://www.skane.se/Halsa-och-vard/hitta-vard/covid-19-coronavirus/fragor-och-svar-om-covid-19-vaccination/lediga-tider-for-vaccination-mot-covid-19/",
             "location": {
-                "longitude": 12.840003258427231,
-                "latitude": 55.88452546455715,
+                "longitude": 12.840071696915441,
+                "latitude": 55.877554025907244,
                 "city": "Landskrona",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Pilåkersgatan 32, Landskrona",
+                "address": "Gösta Lundhs gata 5, Landskrona",
                 "business_hours": null,
-                "phone_number": "041812550"
+                "phone_number": "0418454456"
             },
             "prochain_rdv": null,
             "plateforme": "MittVaccin",
