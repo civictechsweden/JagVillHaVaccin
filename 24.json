@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-10-04 08:56:35.999331+02:00",
+    "last_updated": "2021-10-04 09:27:53.773860+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -48,7 +48,7 @@
             "prochain_rdv": "2021-10-04 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 38,
+            "appointment_count": 36,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -200,6 +200,34 @@
         },
         {
             "departement": "24",
+            "nom": "Morö Backe hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 21.026742481432354,
+                "latitude": 64.75336170983184,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Höjdgatan 14, Skellefteå",
+                "business_hours": null,
+                "phone_number": "0907859115"
+            },
+            "prochain_rdv": "2021-10-05 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 40,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Ålidhems hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -329,34 +357,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 30,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Morö Backe hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 21.026742481432354,
-                "latitude": 64.75336170983184,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Höjdgatan 14, Skellefteå",
-                "business_hours": null,
-                "phone_number": "0907859115"
-            },
-            "prochain_rdv": "2021-10-06 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 32,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -589,6 +589,34 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Medicinkonsulten hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 18.674387839138266,
+                "latitude": 64.59246225123054,
+                "city": "Lycksele",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Skolgatan 8",
+                "business_hours": null,
+                "phone_number": "0907859380"
+            },
+            "prochain_rdv": "2021-10-15 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 14,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
         }
     ],
     "centres_indisponibles": [
@@ -662,34 +690,6 @@
                 "address": "Nygatan 19",
                 "business_hours": null,
                 "phone_number": "0907859175"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Medicinkonsulten hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 18.674387839138266,
-                "latitude": 64.59246225123054,
-                "city": "Lycksele",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Skolgatan 8",
-                "business_hours": null,
-                "phone_number": "0907859380"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
