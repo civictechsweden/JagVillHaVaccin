@@ -1,36 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-10-04 14:38:09.360578+02:00",
+    "last_updated": "2021-10-07 11:01:55.310251+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "04",
-            "nom": "iDoc Katrineholm, Katrineholm",
-            "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
-            "location": {
-                "longitude": 16.22944269545824,
-                "latitude": 59.000636796435145,
-                "city": "Katrineholm",
-                "cp": "64149"
-            },
-            "metadata": {
-                "address": "Videvägen 7B, 641 49 Katrineholm",
-                "business_hours": null,
-                "phone_number": "0790980559"
-            },
-            "prochain_rdv": "2021-10-04 15:32:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 2032,
-            "internal_id": "2069",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "04",
             "nom": "Vaccinkliniken Nyköping, Nyköping",
@@ -46,11 +18,39 @@
                 "business_hours": null,
                 "phone_number": "0155606040"
             },
-            "prochain_rdv": "2021-10-05 18:25:00",
+            "prochain_rdv": "2021-10-07 15:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 4485,
+            "appointment_count": 4790,
             "internal_id": "45",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "04",
+            "nom": "iDoc Katrineholm, Katrineholm",
+            "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
+            "location": {
+                "longitude": 16.22944269545824,
+                "latitude": 59.000636796435145,
+                "city": "Katrineholm",
+                "cp": "64149"
+            },
+            "metadata": {
+                "address": "Videvägen 7B, 641 49 Katrineholm",
+                "business_hours": null,
+                "phone_number": "0790980559"
+            },
+            "prochain_rdv": "2021-10-09 10:08:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1648,
+            "internal_id": "2069",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -75,62 +75,6 @@
                 "address": "Lagerlundavägen 2C",
                 "business_hours": null,
                 "phone_number": "0150488532"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "04",
-            "nom": "Doktor24 Oxelösund, Oxelösund",
-            "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
-            "location": {
-                "longitude": 17.10294903592922,
-                "latitude": 58.66989522441741,
-                "city": "Oxelösund",
-                "cp": "64330"
-            },
-            "metadata": {
-                "address": "Torggatan 9, 643 30 Oxelösund",
-                "business_hours": null,
-                "phone_number": "0104102300"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "04",
-            "nom": "Doktor24 Vingåker, Vingåker",
-            "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
-            "location": {
-                "longitude": 15.87206466885389,
-                "latitude": 59.045854918164146,
-                "city": "Vingåker",
-                "cp": "64330"
-            },
-            "metadata": {
-                "address": "Storgatan 27, 643 30 Vingåker",
-                "business_hours": null,
-                "phone_number": "0104102300"
             },
             "prochain_rdv": null,
             "plateforme": null,
@@ -175,18 +119,17 @@
         },
         {
             "departement": "04",
-            "nom": "Vaccinationsmottagningen Campushallen Strängnäs, Strängnäs",
+            "nom": "Vaccinationsmottagningen Gallerian Eskilstuna, Vårdcentralen Gallerian Eskilstuna",
             "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
             "location": {
-                "longitude": 17.005272966044274,
-                "latitude": 59.38581396302979,
-                "city": "Strängnäs",
-                "cp": "64535"
+                "longitude": 16.516057122703216,
+                "latitude": 59.36990323220157,
+                "city": "Eskilstuna",
+                "cp": "00000"
             },
             "metadata": {
-                "address": "Bataljonsgatan, Kaserntorget 5, 645 35 Strängnäs",
-                "business_hours": null,
-                "phone_number": "0155245000"
+                "address": "Kungsgatan 6, Eskilstuna",
+                "business_hours": null
             },
             "prochain_rdv": null,
             "plateforme": null,
@@ -875,34 +818,6 @@
         },
         {
             "departement": "04",
-            "nom": "Vårdcentralen Trosa, Trosa",
-            "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
-            "location": {
-                "longitude": 17.55920239154485,
-                "latitude": 58.90203697601764,
-                "city": "Trosa",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tomtaklintgatan 2",
-                "business_hours": null,
-                "phone_number": "015653501"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "04",
             "nom": "Vårdcentralen Unicare Strängnäs, Strängnäs",
             "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
             "location": {
@@ -987,18 +902,18 @@
         },
         {
             "departement": "04",
-            "nom": "Vaccina Strängnäs, Strängnäs",
+            "nom": "Vaccinationsmottagningen Campushallen Strängnäs, Strängnäs",
             "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
             "location": {
-                "longitude": 17.01994084720094,
-                "latitude": 59.3791697143613,
+                "longitude": 17.005272966044274,
+                "latitude": 59.38581396302979,
                 "city": "Strängnäs",
-                "cp": "64533"
+                "cp": "64535"
             },
             "metadata": {
-                "address": "Seminarievägen 10A, 645 33 Strängnäs",
+                "address": "Bataljonsgatan, Kaserntorget 5, 645 35 Strängnäs",
                 "business_hours": null,
-                "phone_number": "0107500945"
+                "phone_number": "0155245000"
             },
             "prochain_rdv": null,
             "plateforme": "Vaccina",
@@ -1015,18 +930,18 @@
         },
         {
             "departement": "04",
-            "nom": "Vaccina Gnesta, Gnesta",
+            "nom": "Barnmorskemottagningen Familjecentralen Gnesta, Gnesta",
             "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
             "location": {
-                "longitude": 17.326507675212333,
-                "latitude": 59.03994773439347,
+                "longitude": 17.30174782915912,
+                "latitude": 59.04547913906771,
                 "city": "Gnesta",
-                "cp": "64630"
+                "cp": "00000"
             },
             "metadata": {
-                "address": "Dansutvägen 2, 646 30 Gnesta",
+                "address": "Familjecentralen Gnesta",
                 "business_hours": null,
-                "phone_number": "0107500945"
+                "phone_number": "015852432"
             },
             "prochain_rdv": null,
             "plateforme": "Vaccina",
@@ -1043,17 +958,18 @@
         },
         {
             "departement": "04",
-            "nom": "Landsbygdsvaccinatören Flen, Flen",
+            "nom": "Ungdomsmottagningen Flen, Flen",
             "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
             "location": {
-                "longitude": 16.59050896568237,
-                "latitude": 59.06226251485835,
+                "longitude": 16.583385307761485,
+                "latitude": 59.05865162976574,
                 "city": "Flen",
-                "cp": "64231"
+                "cp": "00000"
             },
             "metadata": {
-                "address": "Amazon, Parkgatan 3, 642 31 Flen",
-                "business_hours": null
+                "address": "Drottninggatan 17 (ingång från gården), Flen",
+                "business_hours": null,
+                "phone_number": "015751509"
             },
             "prochain_rdv": null,
             "plateforme": "Vaccina",
@@ -1070,18 +986,18 @@
         },
         {
             "departement": "04",
-            "nom": "Vaccina Trosa, Trosa",
+            "nom": "Vårdcentralen Trosa, Trosa",
             "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
             "location": {
-                "longitude": null,
-                "latitude": null,
+                "longitude": 17.55920239154485,
+                "latitude": 58.90203697601764,
                 "city": "Trosa",
-                "cp": 0
+                "cp": "00000"
             },
             "metadata": {
-                "address": "",
+                "address": "Tomtaklintgatan 2",
                 "business_hours": null,
-                "phone_number": "0107500945"
+                "phone_number": "015653501"
             },
             "prochain_rdv": null,
             "plateforme": "Vaccina",
@@ -1126,17 +1042,18 @@
         },
         {
             "departement": "04",
-            "nom": "Landsbygdsvaccinatören Flen, Flen",
+            "nom": "Ungdomsmottagningen Flen, Flen",
             "url": "https://www.1177.se/Sormland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/sa-vaccinerar-du-dig-i-sormland/",
             "location": {
-                "longitude": 16.59050896568237,
-                "latitude": 59.06226251485835,
+                "longitude": 16.583385307761485,
+                "latitude": 59.05865162976574,
                 "city": "Flen",
-                "cp": "64231"
+                "cp": "00000"
             },
             "metadata": {
-                "address": "Amazon, Parkgatan 3, 642 31 Flen",
-                "business_hours": null
+                "address": "Drottninggatan 17 (ingång från gården), Flen",
+                "business_hours": null,
+                "phone_number": "015751509"
             },
             "prochain_rdv": null,
             "plateforme": "MittVaccin",
