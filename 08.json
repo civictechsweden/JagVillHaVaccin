@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-10-14 06:33:27.167919+02:00",
+    "last_updated": "2021-10-14 06:58:03.619168+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -33,6 +33,34 @@
         },
         {
             "departement": "08",
+            "nom": "Ljungbyholms hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.17286991496342,
+                "latitude": 56.63362285475359,
+                "city": "Kalmar",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tunnbindarevägen 4, Ljungbyholm",
+                "business_hours": null,
+                "phone_number": "048081925"
+            },
+            "prochain_rdv": "2021-10-14 10:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 735,
+            "internal_id": "496",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
             "nom": "Färjestadens hälsocentral",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
@@ -51,34 +79,6 @@
             "type": "vaccination-center",
             "appointment_count": 365,
             "internal_id": "500",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Ljungbyholms hälsocentral",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.17286991496342,
-                "latitude": 56.63362285475359,
-                "city": "Kalmar",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tunnbindarevägen 4, Ljungbyholm",
-                "business_hours": null,
-                "phone_number": "048081925"
-            },
-            "prochain_rdv": "2021-10-14 10:45:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 735,
-            "internal_id": "496",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -581,7 +581,7 @@
             "prochain_rdv": "2021-10-20 16:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 255,
+            "appointment_count": 250,
             "internal_id": "516",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
