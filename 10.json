@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-10-27 09:21:47.413319+02:00",
+    "last_updated": "2021-10-27 09:40:06.203084+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": "0455355500"
             },
-            "prochain_rdv": "2021-10-27 09:25:00",
+            "prochain_rdv": "2021-10-27 09:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1148,
+            "appointment_count": 1144,
             "internal_id": "596",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -273,7 +273,7 @@
             "prochain_rdv": "2021-10-27 14:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 186,
+            "appointment_count": 188,
             "internal_id": "581",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -385,7 +385,7 @@
             "prochain_rdv": "2021-10-29 11:16:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 106,
+            "appointment_count": 104,
             "internal_id": "580",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -450,34 +450,6 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
-        {
-            "departement": "10",
-            "nom": "Olofströms vårdcentral, Olofström",
-            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
-            "location": {
-                "longitude": 14.539450332633177,
-                "latitude": 56.27785063042903,
-                "city": "Olofström",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Rösjövägen 10",
-                "business_hours": null,
-                "phone_number": "0454733100"
-            },
-            "prochain_rdv": "2021-11-08 18:20:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 4,
-            "internal_id": "578",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
         }
     ],
     "centres_indisponibles": [
@@ -503,6 +475,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "10",
+            "nom": "Olofströms vårdcentral, Olofström",
+            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
+            "location": {
+                "longitude": 14.539450332633177,
+                "latitude": 56.27785063042903,
+                "city": "Olofström",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Rösjövägen 10",
+                "business_hours": null,
+                "phone_number": "0454733100"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "578",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
