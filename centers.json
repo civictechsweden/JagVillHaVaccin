@@ -396,7 +396,7 @@
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Bohus-Vardcentral-och-BVC/",
         "platform_url": null,
         "location": {
-            "longitude": 12.016429443282577,
+            "longitude": 12.016429443282588,
             "latitude": 57.85146853587611,
             "city": "Ale",
             "cp": "44537"
@@ -432,28 +432,6 @@
         "platform": "1177",
         "type": "vaccination-center",
         "1177_id": "SE2321000131-E000000014544",
-        "platform_id": null,
-        "vaccine_type": null,
-        "appointment_by_phone_only": true
-    },
-    {
-        "name": "Botkyrka - vaccination covid - Storvretens vårdcentral",
-        "region": "01",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Botkyrka-vaccination-covid-Storvretens-vardcentral/",
-        "platform_url": "https://www.1177.se/stockholm/boka-vaccin-covid-19",
-        "location": {
-            "longitude": 17.839534434913272,
-            "latitude": 59.19339624721791,
-            "city": "Botkyrka",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Stenvägen 6, TUMBA",
-            "business_hours": null
-        },
-        "platform": null,
-        "type": "vaccination-center",
-        "1177_id": "SE2321000016-FCR8",
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
@@ -2842,28 +2820,6 @@
         "appointment_by_phone_only": true
     },
     {
-        "name": "Järfälla Viksjö kyrka - vaccination covid - Capio",
-        "region": "01",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Jarfalla-Viksjo-kyrka-vaccination-covid-Capio/",
-        "platform_url": "https://www.1177.se/stockholm/boka-vaccin-covid-19",
-        "location": {
-            "longitude": 17.802101402027336,
-            "latitude": 59.41251193683454,
-            "city": "Järfälla",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Agrargränd 2, JÄRFÄLLA",
-            "business_hours": null
-        },
-        "platform": null,
-        "type": "vaccination-center",
-        "1177_id": "SE2321000016-FCJK",
-        "platform_id": null,
-        "vaccine_type": null,
-        "appointment_by_phone_only": true
-    },
-    {
         "name": "Kattens Läkargrupp, Trelleborg",
         "region": "12",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Kattens-Lakargrupp-Trelleborg/",
@@ -4301,28 +4257,6 @@
         "platform": null,
         "type": "vaccination-center",
         "1177_id": "SE162321000255-O24197",
-        "platform_id": null,
-        "vaccine_type": null,
-        "appointment_by_phone_only": true
-    },
-    {
-        "name": "Nynäshamn - vaccination covid - Capio",
-        "region": "01",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Nynashamn-vaccination-covid-Capio/",
-        "platform_url": "https://www.1177.se/stockholm/boka-vaccin-covid-19",
-        "location": {
-            "longitude": 17.944681097312614,
-            "latitude": 58.903310861697335,
-            "city": "Nynäshamn",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Idunvägen 1, NYNÄSHAMN",
-            "business_hours": null
-        },
-        "platform": null,
-        "type": "vaccination-center",
-        "1177_id": "SE2321000016-FCZM",
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
@@ -7786,7 +7720,7 @@
         "name": "Vaccinationsenhet Näsåker, Markusgården",
         "region": "22",
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsenhet-Nasaker-Markusgarden/",
-        "platform_url": null,
+        "platform_url": "https://bokning.mittvaccin.se/klinik/1324/bokning",
         "location": {
             "longitude": 16.880648445311525,
             "latitude": 63.69470553219069,
@@ -7798,12 +7732,12 @@
             "business_hours": null,
             "phone_number": "061180400"
         },
-        "platform": null,
+        "platform": "MittVaccin",
         "type": "vaccination-center",
         "1177_id": "SE2321000206-E01521",
-        "platform_id": null,
+        "platform_id": "1324",
         "vaccine_type": null,
-        "appointment_by_phone_only": true
+        "appointment_by_phone_only": false
     },
     {
         "name": "Vaccinationsenhet Ullånger",
@@ -7827,29 +7761,6 @@
         "platform_id": "1322",
         "vaccine_type": null,
         "appointment_by_phone_only": false
-    },
-    {
-        "name": "Vaccinationsmottagning Perstorp",
-        "region": "12",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsmottagning-Perstorp/",
-        "platform_url": "https://e-tjanster.1177.se/mvk/scheduling/tbMakeValidation.xhtml?hsaid=SE162321000255-O28297&dynamicid=KONT-9V6EN6",
-        "location": {
-            "longitude": 13.388646372898863,
-            "latitude": 56.130281197772746,
-            "city": "Perstorp",
-            "cp": "00000"
-        },
-        "metadata": {
-            "address": "Räddningsvägen 8C, Perstorp",
-            "business_hours": null,
-            "phone_number": "046171838"
-        },
-        "platform": "1177",
-        "type": "vaccination-center",
-        "1177_id": "SE162321000255-O28297",
-        "platform_id": null,
-        "vaccine_type": null,
-        "appointment_by_phone_only": true
     },
     {
         "name": "Vaccinationsmottagningen Arjeplog",
@@ -8000,7 +7911,7 @@
             "cp": "00000"
         },
         "metadata": {
-            "address": "Folkets hus, Föreningsgatan 8, Jokkmokk",
+            "address": "Lappstavägen 9, Jokkmokk",
             "business_hours": null,
             "phone_number": "0104526303"
         },
@@ -8086,13 +7997,13 @@
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsmottagningen-Pajala/",
         "platform_url": "https://formular.1177.se/etjanst/2168e553-ffa7-423f-8b1c-3871362cf064?externalApplication=COVID_SE2321000230-E01777&hsaid=SE2321000230-E01777&dynamicid=2f8bc27d-24a9-4478-a6d5-e3670bbf0fa7",
         "location": {
-            "longitude": 23.371196974791133,
-            "latitude": 67.20895252887922,
+            "longitude": 23.342961328520243,
+            "latitude": 67.22362405267408,
             "city": "Pajala",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Folkets hus, Fridhemsvägen 1A, Pajala",
+            "address": "Kirunavägen 116, Pajala",
             "business_hours": null,
             "phone_number": "0104526303"
         },
@@ -8109,13 +8020,13 @@
         "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vaccinationsmottagningen-Pitea/",
         "platform_url": "https://formular.1177.se/etjanst/2168e553-ffa7-423f-8b1c-3871362cf064?externalApplication=COVID_SE2321000230-E01778&hsaid=SE2321000230-E01778&dynamicid=2f8bc27d-24a9-4478-a6d5-e3670bbf0fa7",
         "location": {
-            "longitude": 21.491402322621358,
-            "latitude": 65.32070553913984,
+            "longitude": 21.494897826919143,
+            "latitude": 65.31229542783626,
             "city": "Piteå",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Piteå Energi Arena (Nolia området) Noliagatan 1, Piteå",
+            "address": "Lasarettsvägen 14, Piteå",
             "business_hours": null,
             "phone_number": "0104526303"
         },
@@ -10986,6 +10897,29 @@
         "platform": null,
         "type": "vaccination-center",
         "1177_id": "SE2321000032-43ST",
+        "platform_id": null,
+        "vaccine_type": null,
+        "appointment_by_phone_only": true
+    },
+    {
+        "name": "Vårdcentralen Trosa, Trosa",
+        "region": "04",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Trosa-Trosa/",
+        "platform_url": null,
+        "location": {
+            "longitude": 17.55920239154485,
+            "latitude": 58.90203697601764,
+            "city": "Trosa",
+            "cp": "00000"
+        },
+        "metadata": {
+            "address": "Tomtaklintgatan 2",
+            "business_hours": null,
+            "phone_number": "015653501"
+        },
+        "platform": null,
+        "type": "vaccination-center",
+        "1177_id": "SE2321000032-42FC",
         "platform_id": null,
         "vaccine_type": null,
         "appointment_by_phone_only": true
@@ -18921,24 +18855,24 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Gnesta Tandvårdsteam, Gnesta",
+        "name": "Barnmorskemottagningen Familjecentralen Gnesta, Gnesta",
         "region": "04",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Gnesta-Tandvardsteam-Gnesta/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Barnmorskemottagningen-Familjecentralen-Gnesta-Gnesta/",
         "platform_url": "https://www.vaccina.se/covidvaccin/sormland/tidsbokning/#/service",
         "location": {
-            "longitude": 17.312324721349405,
-            "latitude": 59.04747559186563,
+            "longitude": 17.30174782915912,
+            "latitude": 59.04547913906771,
             "city": "Gnesta",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Stora Torget 5, Gnesta",
+            "address": "Familjecentralen Gnesta",
             "business_hours": null,
-            "phone_number": "015810034"
+            "phone_number": "015852432"
         },
         "platform": "Vaccina",
         "type": "vaccination-center",
-        "1177_id": "SE165560772419-11CS",
+        "1177_id": "SE2321000032-448K",
         "platform_id": 30004,
         "vaccine_type": null,
         "appointment_by_phone_only": false
@@ -18967,24 +18901,24 @@
         "appointment_by_phone_only": false
     },
     {
-        "name": "Vårdcentralen Trosa, Trosa",
+        "name": "Trosa sjukgymnastik fysioterapi, Trosa",
         "region": "04",
-        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Vardcentralen-Trosa-Trosa/",
+        "1177_url": "https://www.1177.se/hitta-vard/kontaktkort/Trosa-sjukgymnastik-fysioterapi-Trosa/",
         "platform_url": "https://www.vaccina.se/covidvaccin/sormland/tidsbokning/#/service",
         "location": {
-            "longitude": 17.55920239154485,
-            "latitude": 58.90203697601764,
+            "longitude": 17.570791144510498,
+            "latitude": 58.90027205387756,
             "city": "Trosa",
             "cp": "00000"
         },
         "metadata": {
-            "address": "Tomtaklintgatan 2",
+            "address": "Stockvik",
             "business_hours": null,
-            "phone_number": "015653501"
+            "phone_number": "0705713490"
         },
         "platform": "Vaccina",
         "type": "vaccination-center",
-        "1177_id": "SE2321000032-42FC",
+        "1177_id": "SE2321000032-4398",
         "platform_id": 30006,
         "vaccine_type": null,
         "appointment_by_phone_only": false
