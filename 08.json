@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-11-12 21:29:54.769107+01:00",
+    "last_updated": "2021-11-12 21:49:06.940576+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -79,6 +79,34 @@
             "type": "vaccination-center",
             "appointment_count": 30,
             "internal_id": "525",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Färjestadens hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.476073371091406,
+                "latitude": 56.6408203863814,
+                "city": "Mörbylånga",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Safirvägen 2, Färjestaden",
+                "business_hours": null,
+                "phone_number": "048539100"
+            },
+            "prochain_rdv": "2021-11-16 09:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 38,
+            "internal_id": "500",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -359,34 +387,6 @@
             "type": "vaccination-center",
             "appointment_count": 43,
             "internal_id": "504",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Färjestadens hälsocentral",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.476073371091406,
-                "latitude": 56.6408203863814,
-                "city": "Mörbylånga",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Safirvägen 2, Färjestaden",
-                "business_hours": null,
-                "phone_number": "048539100"
-            },
-            "prochain_rdv": "2021-11-25 14:55:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 44,
-            "internal_id": "500",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -693,7 +693,7 @@
             "prochain_rdv": "2021-12-01 14:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 141,
+            "appointment_count": 147,
             "internal_id": "517",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
