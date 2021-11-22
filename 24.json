@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-11-22 10:55:04.873257+01:00",
+    "last_updated": "2021-11-22 11:07:58.026472+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -48,7 +48,35 @@
             "prochain_rdv": "2021-11-23 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 128,
+            "appointment_count": 127,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Capio hälsocentral Dragonen",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.25250669887509,
+                "latitude": 63.832758648688774,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ridvägen 12",
+                "business_hours": null,
+                "phone_number": "0907859148"
+            },
+            "prochain_rdv": "2021-11-24 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 11,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -244,7 +272,7 @@
             "prochain_rdv": "2021-11-29 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 33,
+            "appointment_count": 30,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -328,7 +356,7 @@
             "prochain_rdv": "2021-12-01 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 68,
+            "appointment_count": 62,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -356,7 +384,7 @@
             "prochain_rdv": "2021-12-02 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 30,
+            "appointment_count": 26,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -440,7 +468,7 @@
             "prochain_rdv": "2021-12-06 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 66,
+            "appointment_count": 39,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -466,62 +494,6 @@
                 "phone_number": "0907859120"
             },
             "prochain_rdv": "2021-12-07 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Capio hälsocentral Dragonen",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.25250669887509,
-                "latitude": 63.832758648688774,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ridvägen 12",
-                "business_hours": null,
-                "phone_number": "0907859148"
-            },
-            "prochain_rdv": "2021-12-08 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 11,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Vännäs hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.77323730765729,
-                "latitude": 63.90955870161272,
-                "city": "Vännäs",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Umevägen 56",
-                "business_hours": null,
-                "phone_number": "0907854450"
-            },
-            "prochain_rdv": "2021-12-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 1,
@@ -1138,6 +1110,34 @@
                 "address": "Bruksgatan 4",
                 "business_hours": null,
                 "phone_number": "0907859105"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Vännäs hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.77323730765729,
+                "latitude": 63.90955870161272,
+                "city": "Vännäs",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Umevägen 56",
+                "business_hours": null,
+                "phone_number": "0907854450"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
