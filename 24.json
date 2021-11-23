@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-11-23 11:55:02.998531+01:00",
+    "last_updated": "2021-11-23 12:08:35.564951+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -50,6 +50,34 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 5,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Byske hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 21.20716665139364,
+                "latitude": 64.950590882984,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ringvägen 8",
+                "business_hours": null,
+                "phone_number": "0907859118"
+            },
+            "prochain_rdv": "2021-11-24 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -160,7 +188,7 @@
             "prochain_rdv": "2021-11-25 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 774,
+            "appointment_count": 772,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -440,35 +468,7 @@
             "prochain_rdv": "2021-12-01 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 23,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Dorotea sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 16.418131571995104,
-                "latitude": 64.25937500733974,
-                "city": "Dorotea",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nygatan 19",
-                "business_hours": null,
-                "phone_number": "0907859175"
-            },
-            "prochain_rdv": "2021-12-02 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 22,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -552,7 +552,7 @@
             "prochain_rdv": "2021-12-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 54,
+            "appointment_count": 52,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -580,7 +580,7 @@
             "prochain_rdv": "2021-12-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 28,
+            "appointment_count": 27,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -620,34 +620,6 @@
         },
         {
             "departement": "24",
-            "nom": "Vilhelmina sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 16.66232849898825,
-                "latitude": 64.625086471245,
-                "city": "Vilhelmina",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Volgsjövägen 37",
-                "business_hours": null,
-                "phone_number": "0907859125"
-            },
-            "prochain_rdv": "2021-12-08 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 3,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Capio hälsocentral Dragonen",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -665,6 +637,34 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 21,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Vilhelmina sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 16.66232849898825,
+                "latitude": 64.625086471245,
+                "city": "Vilhelmina",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Volgsjövägen 37",
+                "business_hours": null,
+                "phone_number": "0907859125"
+            },
+            "prochain_rdv": "2021-12-10 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -698,6 +698,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Dorotea sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 16.418131571995104,
+                "latitude": 64.25937500733974,
+                "city": "Dorotea",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nygatan 19",
+                "business_hours": null,
+                "phone_number": "0907859175"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -830,34 +858,6 @@
                 "address": "Björnåkersgatan 10",
                 "business_hours": null,
                 "phone_number": "0907859173"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Byske hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 21.20716665139364,
-                "latitude": 64.950590882984,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ringvägen 8",
-                "business_hours": null,
-                "phone_number": "0907859118"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
