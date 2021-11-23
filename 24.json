@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-11-23 12:31:23.758460+01:00",
+    "last_updated": "2021-11-23 12:50:22.040999+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -105,7 +105,7 @@
             "prochain_rdv": "2021-11-24 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -133,7 +133,7 @@
             "prochain_rdv": "2021-11-24 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 3,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -580,7 +580,7 @@
             "prochain_rdv": "2021-12-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 27,
+            "appointment_count": 26,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -592,23 +592,23 @@
         },
         {
             "departement": "24",
-            "nom": "Norrlandskliniken hälsocentral",
+            "nom": "Heimdalls hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 20.321609843551045,
-                "latitude": 63.804754920960285,
-                "city": "Umeå",
+                "longitude": 20.948482561952545,
+                "latitude": 64.75145347569664,
+                "city": "Skellefteå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Glimmervägen 5 E",
+                "address": "Köpmangatan 15, Skellefteå",
                 "business_hours": null,
-                "phone_number": "0907859322"
+                "phone_number": "0907859111"
             },
-            "prochain_rdv": "2021-12-08 00:00:00",
+            "prochain_rdv": "2021-12-09 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -874,34 +874,6 @@
         },
         {
             "departement": "24",
-            "nom": "Heimdalls hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.948482561952545,
-                "latitude": 64.75145347569664,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Köpmangatan 15, Skellefteå",
-                "business_hours": null,
-                "phone_number": "0907859111"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Kåge hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -1082,6 +1054,34 @@
                 "address": "Morkullevägen 9",
                 "business_hours": null,
                 "phone_number": "0907854444"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Norrlandskliniken hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.321609843551045,
+                "latitude": 63.804754920960285,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Glimmervägen 5 E",
+                "business_hours": null,
+                "phone_number": "0907859322"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
