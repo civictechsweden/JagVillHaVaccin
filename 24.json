@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-11-23 12:08:35.564951+01:00",
+    "last_updated": "2021-11-23 12:31:23.758460+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -49,7 +49,7 @@
             "prochain_rdv": "2021-11-24 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 5,
+            "appointment_count": 4,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -145,34 +145,6 @@
         },
         {
             "departement": "24",
-            "nom": "Tegs hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.253714356041783,
-                "latitude": 63.820570789783865,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tegsplan 2C",
-                "business_hours": null,
-                "phone_number": "0907854456"
-            },
-            "prochain_rdv": "2021-11-24 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Central drop-in-vaccination Umeå",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -188,7 +160,7 @@
             "prochain_rdv": "2021-11-25 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 772,
+            "appointment_count": 769,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -216,7 +188,7 @@
             "prochain_rdv": "2021-11-25 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -272,7 +244,7 @@
             "prochain_rdv": "2021-11-25 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 5,
+            "appointment_count": 4,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -424,6 +396,34 @@
         },
         {
             "departement": "24",
+            "nom": "Vännäs hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.77323730765729,
+                "latitude": 63.90955870161272,
+                "city": "Vännäs",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Umevägen 56",
+                "business_hours": null,
+                "phone_number": "0907854450"
+            },
+            "prochain_rdv": "2021-11-30 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Malå sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -468,7 +468,7 @@
             "prochain_rdv": "2021-12-01 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 22,
+            "appointment_count": 21,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -552,7 +552,7 @@
             "prochain_rdv": "2021-12-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 52,
+            "appointment_count": 50,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -608,7 +608,7 @@
             "prochain_rdv": "2021-12-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 4,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -636,7 +636,7 @@
             "prochain_rdv": "2021-12-09 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 21,
+            "appointment_count": 20,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1098,18 +1098,18 @@
         },
         {
             "departement": "24",
-            "nom": "Ålidhems hälsocentral",
+            "nom": "Tegs hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 20.316742449489357,
-                "latitude": 63.81499142292883,
+                "longitude": 20.253714356041783,
+                "latitude": 63.820570789783865,
                 "city": "Umeå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Tvistevägen 2",
+                "address": "Tegsplan 2C",
                 "business_hours": null,
-                "phone_number": "0907854458"
+                "phone_number": "0907854456"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -1126,18 +1126,18 @@
         },
         {
             "departement": "24",
-            "nom": "Vännäs hälsocentral",
+            "nom": "Ålidhems hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 19.77323730765729,
-                "latitude": 63.90955870161272,
-                "city": "Vännäs",
+                "longitude": 20.316742449489357,
+                "latitude": 63.81499142292883,
+                "city": "Umeå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Umevägen 56",
+                "address": "Tvistevägen 2",
                 "business_hours": null,
-                "phone_number": "0907854450"
+                "phone_number": "0907854458"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
