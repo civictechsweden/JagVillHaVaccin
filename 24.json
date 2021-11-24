@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-11-24 20:29:05.541127+01:00",
+    "last_updated": "2021-11-24 20:50:15.511076+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -132,7 +132,7 @@
             "prochain_rdv": "2021-11-29 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 577,
+            "appointment_count": 578,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -352,6 +352,34 @@
                 "address": "Skogstorpsvägen 12",
                 "business_hours": null,
                 "phone_number": "0907859120"
+            },
+            "prochain_rdv": "2021-12-07 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Ålidhems hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.316742449489357,
+                "latitude": 63.81499142292883,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tvistevägen 2",
+                "business_hours": null,
+                "phone_number": "0907854458"
             },
             "prochain_rdv": "2021-12-07 00:00:00",
             "plateforme": "1177",
@@ -1110,34 +1138,6 @@
                 "address": "Tegsplan 2C",
                 "business_hours": null,
                 "phone_number": "0907854456"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Ålidhems hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.316742449489357,
-                "latitude": 63.81499142292883,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tvistevägen 2",
-                "business_hours": null,
-                "phone_number": "0907854458"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
