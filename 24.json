@@ -1,8 +1,35 @@
 {
     "version": 1,
-    "last_updated": "2021-11-24 21:04:40.034860+01:00",
+    "last_updated": "2021-11-24 21:34:48.970655+01:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "24",
+            "nom": "Central drop-in-vaccination Umeå",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.305308638390684,
+                "latitude": 63.81994123656234,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Umeå universitet, Universum, Universums gränd 8",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-11-25 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 578,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "24",
             "nom": "Sorsele sjukstuga hälsocentral",
@@ -117,33 +144,6 @@
         },
         {
             "departement": "24",
-            "nom": "Central drop-in-vaccination Umeå",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.305308638390684,
-                "latitude": 63.81994123656234,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Umeå universitet, Universum, Universums gränd 8",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-11-29 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 578,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Vännäs hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -188,7 +188,7 @@
             "prochain_rdv": "2021-12-01 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 44,
+            "appointment_count": 45,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -368,34 +368,6 @@
         },
         {
             "departement": "24",
-            "nom": "Vindelns hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.713726275515782,
-                "latitude": 64.20117474404158,
-                "city": "Vindeln",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storvägen 56",
-                "business_hours": null,
-                "phone_number": "0907854442"
-            },
-            "prochain_rdv": "2021-12-07 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 78,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Bjurholms hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -413,6 +385,34 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 2,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Vindelns hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.713726275515782,
+                "latitude": 64.20117474404158,
+                "city": "Vindeln",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storvägen 56",
+                "business_hours": null,
+                "phone_number": "0907854442"
+            },
+            "prochain_rdv": "2021-12-08 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 77,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
