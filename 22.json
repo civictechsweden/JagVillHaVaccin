@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-11-24 06:36:21.141400+01:00",
+    "last_updated": "2021-11-24 06:55:34.241482+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-11-24 09:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1836,
+            "appointment_count": 1824,
             "internal_id": "1325",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -51,6 +51,62 @@
             "type": "vaccination-center",
             "appointment_count": 54,
             "internal_id": "919",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Vårdcentralen Njurunda",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 17.378664080378908,
+                "latitude": 62.29689029683935,
+                "city": "Sundsvall",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Affärsgatan 1",
+                "business_hours": null,
+                "phone_number": "060515300"
+            },
+            "prochain_rdv": "2021-11-24 13:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1478,
+            "internal_id": "921",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Sundsvall",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 17.255449827674113,
+                "latitude": 62.39297855695255,
+                "city": "Sundsvall",
+                "cp": "85350"
+            },
+            "metadata": {
+                "address": "Axvägen 15, 853 50 Sundsvall",
+                "business_hours": null,
+                "phone_number": "061180400"
+            },
+            "prochain_rdv": "2021-11-24 13:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1478,
+            "internal_id": "921",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -229,62 +285,6 @@
         },
         {
             "departement": "22",
-            "nom": "Vårdcentralen Njurunda",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 17.378664080378908,
-                "latitude": 62.29689029683935,
-                "city": "Sundsvall",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Affärsgatan 1",
-                "business_hours": null,
-                "phone_number": "060515300"
-            },
-            "prochain_rdv": "2021-11-26 11:40:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1467,
-            "internal_id": "921",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Vaccinationsenhet Sundsvall",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 17.255449827674113,
-                "latitude": 62.39297855695255,
-                "city": "Sundsvall",
-                "cp": "85350"
-            },
-            "metadata": {
-                "address": "Axvägen 15, 853 50 Sundsvall",
-                "business_hours": null,
-                "phone_number": "061180400"
-            },
-            "prochain_rdv": "2021-11-26 11:40:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1467,
-            "internal_id": "921",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
             "nom": "Vaccinationsenhet Kramfors",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
@@ -329,7 +329,7 @@
             "prochain_rdv": "2021-11-29 08:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 17670,
+            "appointment_count": 17686,
             "internal_id": "1309",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -382,10 +382,10 @@
                 "business_hours": null,
                 "phone_number": "0607404800"
             },
-            "prochain_rdv": "2021-12-01 15:25:00",
+            "prochain_rdv": "2021-12-01 15:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 346,
+            "appointment_count": 23,
             "internal_id": "928",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -497,7 +497,7 @@
             "prochain_rdv": "2021-12-06 13:48:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 7265,
+            "appointment_count": 7293,
             "internal_id": "1514",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -525,7 +525,7 @@
             "prochain_rdv": "2021-12-07 10:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2007,
+            "appointment_count": 1980,
             "internal_id": "1291",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -578,10 +578,10 @@
                 "business_hours": null,
                 "phone_number": "060595500"
             },
-            "prochain_rdv": "2021-12-16 10:05:00",
+            "prochain_rdv": "2021-12-15 11:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 12,
+            "appointment_count": 26,
             "internal_id": "920/",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
