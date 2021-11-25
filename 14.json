@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-11-25 08:32:37.444029+01:00",
+    "last_updated": "2021-11-25 08:49:32.840122+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -133,7 +133,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 44,
+            "appointment_count": 37,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -201,6 +201,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Hjo vårdcentral, Hjo",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 14.300502447849361,
+                "latitude": 58.31001646470293,
+                "city": "Hjo",
+                "cp": "54436"
+            },
+            "metadata": {
+                "address": "Karlsborgsvägen 4A, 544 36, Hjo",
+                "business_hours": null,
+                "phone_number": "050322700"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Styrsö vårdcentral",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -245,7 +273,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 9,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -273,7 +301,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 4,
+            "appointment_count": 7,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -301,7 +329,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 44,
+            "appointment_count": 37,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -329,35 +357,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 2,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Töreboda vårdcentral, Töreboda",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 14.121938796810461,
-                "latitude": 58.706728897807,
-                "city": "Töreboda",
-                "cp": "54531"
-            },
-            "metadata": {
-                "address": "Börstorpsgatan 9, 545 31, Töreboda",
-                "business_hours": null,
-                "phone_number": "050619710"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 3,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -6640,34 +6640,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Hjo vårdcentral, Hjo",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 14.300502447849361,
-                "latitude": 58.31001646470293,
-                "city": "Hjo",
-                "cp": "54436"
-            },
-            "metadata": {
-                "address": "Karlsborgsvägen 4A, 544 36, Hjo",
-                "business_hours": null,
-                "phone_number": "050322700"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Bollebygd vårdcentral, Bollebygd",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7240,6 +7212,34 @@
                 "address": "Danska vägen 62, 521 37, Falköping",
                 "business_hours": null,
                 "phone_number": "051587890"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Töreboda vårdcentral, Töreboda",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 14.121938796810461,
+                "latitude": 58.706728897807,
+                "city": "Töreboda",
+                "cp": "54531"
+            },
+            "metadata": {
+                "address": "Börstorpsgatan 9, 545 31, Töreboda",
+                "business_hours": null,
+                "phone_number": "050619710"
             },
             "prochain_rdv": null,
             "plateforme": null,
