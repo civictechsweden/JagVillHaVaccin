@@ -1,35 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-11-25 12:50:08.773403+01:00",
+    "last_updated": "2021-11-25 13:05:24.425441+01:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "24",
-            "nom": "Central drop-in-vaccination Umeå",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.305308638390684,
-                "latitude": 63.81994123656234,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Umeå universitet, Universum, Universums gränd 8",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-11-25 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 508,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "24",
             "nom": "Backens hälsocentral",
@@ -52,6 +25,33 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Central drop-in-vaccination Umeå",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.305308638390684,
+                "latitude": 63.81994123656234,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Umeå universitet, Universum, Universums gränd 8",
+                "business_hours": null
+            },
+            "prochain_rdv": "2021-11-26 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 506,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -132,7 +132,7 @@
             "prochain_rdv": "2021-12-01 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 59,
+            "appointment_count": 58,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -216,7 +216,7 @@
             "prochain_rdv": "2021-12-02 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 44,
+            "appointment_count": 42,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -384,7 +384,7 @@
             "prochain_rdv": "2021-12-09 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 24,
+            "appointment_count": 23,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -468,7 +468,7 @@
             "prochain_rdv": "2021-12-14 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 57,
+            "appointment_count": 56,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
