@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-11-27 00:57:49.195498+01:00",
+    "last_updated": "2021-11-27 03:20:12.231267+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -163,34 +163,6 @@
             "type": "vaccination-center",
             "appointment_count": 5762,
             "internal_id": "921",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Caspien Alnö Vårdcentral",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 17.41641582419798,
-                "latitude": 62.426426509972096,
-                "city": "Sundsvall",
-                "cp": "86531"
-            },
-            "metadata": {
-                "address": "Raholmsvägen 24, 865 31 Alnö",
-                "business_hours": null,
-                "phone_number": "0607404800"
-            },
-            "prochain_rdv": "2021-11-29 15:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 15,
-            "internal_id": "928",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -522,10 +494,10 @@
                 "business_hours": null,
                 "phone_number": "061180400"
             },
-            "prochain_rdv": "2021-12-09 17:30:00",
+            "prochain_rdv": "2021-12-09 18:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 215,
+            "appointment_count": 201,
             "internal_id": "910",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -593,6 +565,34 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "22",
+            "nom": "Caspien Alnö Vårdcentral",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 17.41641582419798,
+                "latitude": 62.426426509972096,
+                "city": "Sundsvall",
+                "cp": "86531"
+            },
+            "metadata": {
+                "address": "Raholmsvägen 24, 865 31 Alnö",
+                "business_hours": null,
+                "phone_number": "0607404800"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "928",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "22",
             "nom": "Hälsocentralen Nyland",
