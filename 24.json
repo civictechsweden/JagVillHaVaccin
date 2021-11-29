@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-11-29 09:38:46.892038+01:00",
+    "last_updated": "2021-11-29 09:57:27.133705+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -172,6 +172,34 @@
         },
         {
             "departement": "24",
+            "nom": "Capio hälsocentral Dragonen",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.25250669887509,
+                "latitude": 63.832758648688774,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ridvägen 12",
+                "business_hours": null,
+                "phone_number": "0907859148"
+            },
+            "prochain_rdv": "2021-12-01 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 23,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Stenbergska hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -272,35 +300,7 @@
             "prochain_rdv": "2021-12-07 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 22,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Lövångers hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 21.311303133544506,
-                "latitude": 64.36908137825338,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Skogstorpsvägen 12",
-                "business_hours": null,
-                "phone_number": "0907859120"
-            },
-            "prochain_rdv": "2021-12-07 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 20,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -356,7 +356,7 @@
             "prochain_rdv": "2021-12-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 5,
+            "appointment_count": 4,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -468,7 +468,7 @@
             "prochain_rdv": "2021-12-15 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 36,
+            "appointment_count": 35,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -536,34 +536,6 @@
         },
         {
             "departement": "24",
-            "nom": "Capio hälsocentral Dragonen",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.25250669887509,
-                "latitude": 63.832758648688774,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ridvägen 12",
-                "business_hours": null,
-                "phone_number": "0907859148"
-            },
-            "prochain_rdv": "2021-12-16 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 22,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Husläkarna Hälsocentral i Umeå",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -580,7 +552,7 @@
             "prochain_rdv": "2021-12-16 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 48,
+            "appointment_count": 49,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -970,6 +942,34 @@
                 "address": "Nygatan 13",
                 "business_hours": null,
                 "phone_number": "0907859357"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Lövångers hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 21.311303133544506,
+                "latitude": 64.36908137825338,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Skogstorpsvägen 12",
+                "business_hours": null,
+                "phone_number": "0907859120"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
