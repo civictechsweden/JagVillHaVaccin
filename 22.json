@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-11-29 22:34:04.361844+01:00",
+    "last_updated": "2021-11-29 22:55:51.021590+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,8 +21,36 @@
             "prochain_rdv": "2021-11-30 08:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 11610,
+            "appointment_count": 11650,
             "internal_id": "1309",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Örnsköldsvik",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 18.71372562849576,
+                "latitude": 63.29843979642046,
+                "city": "Örnsköldsvik",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Sjukhusgatan 5B, ingång från Nygatan",
+                "business_hours": null,
+                "phone_number": "061180400"
+            },
+            "prochain_rdv": "2021-11-30 11:36:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 5100,
+            "internal_id": "1514",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -189,7 +217,7 @@
             "prochain_rdv": "2021-12-03 13:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1783,
+            "appointment_count": 1758,
             "internal_id": "916",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -242,7 +270,7 @@
                 "business_hours": null,
                 "phone_number": "060149810"
             },
-            "prochain_rdv": "2021-12-04 11:55:00",
+            "prochain_rdv": "2021-12-04 10:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 1905,
@@ -270,11 +298,39 @@
                 "business_hours": null,
                 "phone_number": "061180400"
             },
-            "prochain_rdv": "2021-12-04 11:55:00",
+            "prochain_rdv": "2021-12-04 10:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 1905,
             "internal_id": "914",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Sollefteå",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 17.236573422273448,
+                "latitude": 63.17412364873974,
+                "city": "Sollefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Lasarettsgatan 1",
+                "business_hours": null,
+                "phone_number": "061180400"
+            },
+            "prochain_rdv": "2021-12-06 10:41:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 3410,
+            "internal_id": "1325",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -341,34 +397,6 @@
         },
         {
             "departement": "22",
-            "nom": "Vaccinationsenhet Sollefteå",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 17.236573422273448,
-                "latitude": 63.17412364873974,
-                "city": "Sollefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Lasarettsgatan 1",
-                "business_hours": null,
-                "phone_number": "061180400"
-            },
-            "prochain_rdv": "2021-12-07 09:03:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 3398,
-            "internal_id": "1325",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
             "nom": "Vaccinationsenhet Näsåker, Markusgården",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
@@ -413,7 +441,7 @@
             "prochain_rdv": "2021-12-08 15:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2722,
+            "appointment_count": 2708,
             "internal_id": "925",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -438,10 +466,10 @@
                 "business_hours": null,
                 "phone_number": "0691251070"
             },
-            "prochain_rdv": "2021-12-09 10:30:00",
+            "prochain_rdv": "2021-12-09 10:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 672,
+            "appointment_count": 656,
             "internal_id": "915",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -466,10 +494,10 @@
                 "business_hours": null,
                 "phone_number": "061180400"
             },
-            "prochain_rdv": "2021-12-09 10:30:00",
+            "prochain_rdv": "2021-12-09 10:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 672,
+            "appointment_count": 656,
             "internal_id": "915",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -527,34 +555,6 @@
             "type": "vaccination-center",
             "appointment_count": 41,
             "internal_id": "910",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Vaccinationsenhet Örnsköldsvik",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 18.71372562849576,
-                "latitude": 63.29843979642046,
-                "city": "Örnsköldsvik",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Sjukhusgatan 5B, ingång från Nygatan",
-                "business_hours": null,
-                "phone_number": "061180400"
-            },
-            "prochain_rdv": "2021-12-13 14:39:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 5052,
-            "internal_id": "1514",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
