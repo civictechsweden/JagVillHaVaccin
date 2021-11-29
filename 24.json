@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-11-29 18:20:43.255133+01:00",
+    "last_updated": "2021-11-29 18:49:58.599703+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-11-30 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 288,
+            "appointment_count": 287,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -272,7 +272,7 @@
             "prochain_rdv": "2021-12-06 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 168,
+            "appointment_count": 166,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -328,7 +328,7 @@
             "prochain_rdv": "2021-12-07 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 14,
+            "appointment_count": 13,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -396,34 +396,6 @@
         },
         {
             "departement": "24",
-            "nom": "Byske hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 21.20716665139364,
-                "latitude": 64.950590882984,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ringvägen 8",
-                "business_hours": null,
-                "phone_number": "0907859118"
-            },
-            "prochain_rdv": "2021-12-08 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Citymottagningen hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -468,7 +440,7 @@
             "prochain_rdv": "2021-12-09 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 23,
+            "appointment_count": 22,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -886,6 +858,34 @@
                 "address": "Björnåkersgatan 10",
                 "business_hours": null,
                 "phone_number": "0907859173"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Byske hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 21.20716665139364,
+                "latitude": 64.950590882984,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ringvägen 8",
+                "business_hours": null,
+                "phone_number": "0907859118"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
