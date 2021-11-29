@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-11-29 07:38:46.121199+01:00",
+    "last_updated": "2021-11-29 08:01:36.959621+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-11-29 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 378,
+            "appointment_count": 375,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -49,6 +49,34 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 99,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Norrlandskliniken hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.321609843551045,
+                "latitude": 63.804754920960285,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Glimmervägen 5 E",
+                "business_hours": null,
+                "phone_number": "0907859322"
+            },
+            "prochain_rdv": "2021-11-30 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -188,7 +216,7 @@
             "prochain_rdv": "2021-12-02 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 26,
+            "appointment_count": 25,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1110,34 +1138,6 @@
                 "address": "Bruksgatan 4",
                 "business_hours": null,
                 "phone_number": "0907859105"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Norrlandskliniken hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.321609843551045,
-                "latitude": 63.804754920960285,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Glimmervägen 5 E",
-                "business_hours": null,
-                "phone_number": "0907859322"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
