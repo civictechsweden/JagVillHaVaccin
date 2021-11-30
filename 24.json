@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-11-30 13:04:21.968273+01:00",
+    "last_updated": "2021-11-30 13:41:40.171470+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,10 +20,38 @@
             "prochain_rdv": "2021-11-30 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 311,
+            "appointment_count": 307,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Heimdalls hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.948482561952545,
+                "latitude": 64.75145347569664,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Köpmangatan 15, Skellefteå",
+                "business_hours": null,
+                "phone_number": "0907859111"
+            },
+            "prochain_rdv": "2021-11-30 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -48,7 +76,7 @@
             "prochain_rdv": "2021-11-30 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 24,
+            "appointment_count": 23,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -105,34 +133,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 58,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Heimdalls hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.948482561952545,
-                "latitude": 64.75145347569664,
-                "city": "Skellefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Köpmangatan 15, Skellefteå",
-                "business_hours": null,
-                "phone_number": "0907859111"
-            },
-            "prochain_rdv": "2021-12-01 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -228,6 +228,34 @@
         },
         {
             "departement": "24",
+            "nom": "Ålidhems hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.316742449489357,
+                "latitude": 63.81499142292883,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tvistevägen 2",
+                "business_hours": null,
+                "phone_number": "0907854458"
+            },
+            "prochain_rdv": "2021-12-02 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Åsele sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -300,7 +328,7 @@
             "prochain_rdv": "2021-12-06 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 146,
+            "appointment_count": 144,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -328,7 +356,7 @@
             "prochain_rdv": "2021-12-07 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 82,
+            "appointment_count": 83,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -468,7 +496,7 @@
             "prochain_rdv": "2021-12-11 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 71,
+            "appointment_count": 77,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -609,34 +637,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 12,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Ålidhems hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.316742449489357,
-                "latitude": 63.81499142292883,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tvistevägen 2",
-                "business_hours": null,
-                "phone_number": "0907854458"
-            },
-            "prochain_rdv": "2021-12-16 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
