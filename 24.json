@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-11-30 11:50:33.723571+01:00",
+    "last_updated": "2021-11-30 12:06:31.851837+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-11-30 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 255,
+            "appointment_count": 271,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -48,7 +48,7 @@
             "prochain_rdv": "2021-11-30 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 25,
+            "appointment_count": 24,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -188,7 +188,7 @@
             "prochain_rdv": "2021-12-01 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -356,7 +356,7 @@
             "prochain_rdv": "2021-12-07 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 82,
+            "appointment_count": 83,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -452,34 +452,6 @@
         },
         {
             "departement": "24",
-            "nom": "Dorotea sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 16.418131571995104,
-                "latitude": 64.25937500733974,
-                "city": "Dorotea",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Nygatan 19",
-                "business_hours": null,
-                "phone_number": "0907859175"
-            },
-            "prochain_rdv": "2021-12-09 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 2,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Vilhelmina sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -553,6 +525,34 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 4,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Husläkarna Hälsocentral i Umeå",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.247261212432413,
+                "latitude": 63.82724933424847,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 28 B",
+                "business_hours": null,
+                "phone_number": "0907859388"
+            },
+            "prochain_rdv": "2021-12-15 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 59,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -648,34 +648,6 @@
         },
         {
             "departement": "24",
-            "nom": "Husläkarna Hälsocentral i Umeå",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.247261212432413,
-                "latitude": 63.82724933424847,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 28 B",
-                "business_hours": null,
-                "phone_number": "0907859388"
-            },
-            "prochain_rdv": "2021-12-20 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 60,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Mariehems hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -726,6 +698,34 @@
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Dorotea sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 16.418131571995104,
+                "latitude": 64.25937500733974,
+                "city": "Dorotea",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Nygatan 19",
+                "business_hours": null,
+                "phone_number": "0907859175"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
