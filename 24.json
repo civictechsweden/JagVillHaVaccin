@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-12-01 05:43:20.665230+01:00",
+    "last_updated": "2021-12-01 06:10:32.158837+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -133,6 +133,34 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 11,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Mariehems hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.328022983296588,
+                "latitude": 63.838617372997795,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Morkullevägen 9",
+                "business_hours": null,
+                "phone_number": "0907854444"
+            },
+            "prochain_rdv": "2021-12-01 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 25,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -637,34 +665,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 43,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Mariehems hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.328022983296588,
-                "latitude": 63.838617372997795,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Morkullevägen 9",
-                "business_hours": null,
-                "phone_number": "0907854444"
-            },
-            "prochain_rdv": "2021-12-20 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 24,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
