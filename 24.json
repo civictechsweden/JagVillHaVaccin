@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-12-02 09:38:10.547190+01:00",
+    "last_updated": "2021-12-02 09:57:22.148770+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-12-02 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 494,
+            "appointment_count": 495,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -76,7 +76,7 @@
             "prochain_rdv": "2021-12-02 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 18,
+            "appointment_count": 19,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -88,23 +88,23 @@
         },
         {
             "departement": "24",
-            "nom": "Holmsunds hälsocentral",
+            "nom": "Capio hälsocentral Dragonen",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 20.36503865828701,
-                "latitude": 63.70732398241559,
+                "longitude": 20.25250669887509,
+                "latitude": 63.832758648688774,
                 "city": "Umeå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Himmelska Fridens Torg 7",
+                "address": "Ridvägen 12",
                 "business_hours": null,
-                "phone_number": "0907859103"
+                "phone_number": "0907859148"
             },
             "prochain_rdv": "2021-12-02 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -216,7 +216,7 @@
             "prochain_rdv": "2021-12-07 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 30,
+            "appointment_count": 29,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -244,7 +244,7 @@
             "prochain_rdv": "2021-12-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 121,
+            "appointment_count": 120,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -272,7 +272,7 @@
             "prochain_rdv": "2021-12-08 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 60,
+            "appointment_count": 59,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -564,34 +564,6 @@
         },
         {
             "departement": "24",
-            "nom": "Capio hälsocentral Dragonen",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.25250669887509,
-                "latitude": 63.832758648688774,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ridvägen 12",
-                "business_hours": null,
-                "phone_number": "0907859148"
-            },
-            "prochain_rdv": "2021-12-15 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
             "nom": "Backens hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -664,7 +636,7 @@
             "prochain_rdv": "2021-12-16 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 110,
+            "appointment_count": 98,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -804,7 +776,7 @@
             "prochain_rdv": "2021-12-22 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 35,
+            "appointment_count": 34,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1085,6 +1057,34 @@
             },
             "prochain_rdv": null,
             "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Holmsunds hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.36503865828701,
+                "latitude": 63.70732398241559,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Himmelska Fridens Torg 7",
+                "business_hours": null,
+                "phone_number": "0907859103"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
