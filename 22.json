@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-12-03 07:43:20.516647+01:00",
+    "last_updated": "2021-12-03 08:06:54.706776+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,8 +21,36 @@
             "prochain_rdv": "2021-12-03 08:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 15264,
+            "appointment_count": 15204,
             "internal_id": "1309",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Örnsköldsvik",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 18.71372562849576,
+                "latitude": 63.29843979642046,
+                "city": "Örnsköldsvik",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Sjukhusgatan 5B, ingång från Nygatan",
+                "business_hours": null,
+                "phone_number": "061180400"
+            },
+            "prochain_rdv": "2021-12-03 13:15:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 4430,
+            "internal_id": "1514",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -46,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": "061180400"
             },
-            "prochain_rdv": "2021-12-04 09:35:00",
+            "prochain_rdv": "2021-12-04 09:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 5142,
+            "appointment_count": 5069,
             "internal_id": "1291",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -214,10 +242,10 @@
                 "business_hours": null,
                 "phone_number": "069015660"
             },
-            "prochain_rdv": "2021-12-07 15:45:00",
+            "prochain_rdv": "2021-12-07 15:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 4382,
+            "appointment_count": 4368,
             "internal_id": "917",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -242,10 +270,10 @@
                 "business_hours": null,
                 "phone_number": "060184880"
             },
-            "prochain_rdv": "2021-12-07 15:45:00",
+            "prochain_rdv": "2021-12-07 16:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 4382,
+            "appointment_count": 4338,
             "internal_id": "917",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -410,10 +438,10 @@
                 "business_hours": null,
                 "phone_number": "061180400"
             },
-            "prochain_rdv": "2021-12-09 14:53:00",
+            "prochain_rdv": "2021-12-09 14:46:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1286,
+            "appointment_count": 1149,
             "internal_id": "1325",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -441,7 +469,7 @@
             "prochain_rdv": "2021-12-13 09:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1187,
+            "appointment_count": 1052,
             "internal_id": "920/",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -509,34 +537,6 @@
         },
         {
             "departement": "22",
-            "nom": "Vaccinationsenhet Örnsköldsvik",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 18.71372562849576,
-                "latitude": 63.29843979642046,
-                "city": "Örnsköldsvik",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Sjukhusgatan 5B, ingång från Nygatan",
-                "business_hours": null,
-                "phone_number": "061180400"
-            },
-            "prochain_rdv": "2021-12-15 09:03:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 4520,
-            "internal_id": "1514",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
             "nom": "Vaccinationsenhet Kramfors",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
@@ -553,7 +553,7 @@
             "prochain_rdv": "2021-12-15 09:31:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 3282,
+            "appointment_count": 3247,
             "internal_id": "1321",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
