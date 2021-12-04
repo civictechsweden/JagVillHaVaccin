@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-12-04 11:07:58.815181+01:00",
+    "last_updated": "2021-12-04 11:36:44.917792+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -508,6 +508,34 @@
         },
         {
             "departement": "24",
+            "nom": "Sävar hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.551555586055475,
+                "latitude": 63.898436261079766,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Kungsvägen 8A",
+                "business_hours": null,
+                "phone_number": "0907854447"
+            },
+            "prochain_rdv": "2021-12-14 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 16,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
             "nom": "Vindelns hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
@@ -553,34 +581,6 @@
             "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 9,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Sävar hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.551555586055475,
-                "latitude": 63.898436261079766,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kungsvägen 8A",
-                "business_hours": null,
-                "phone_number": "0907854447"
-            },
-            "prochain_rdv": "2021-12-15 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -692,7 +692,7 @@
             "prochain_rdv": "2021-12-22 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
