@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-12-06 22:58:26.714366+01:00",
+    "last_updated": "2021-12-06 23:57:22.747839+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,8 +21,36 @@
             "prochain_rdv": "2021-12-07 08:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 9747,
+            "appointment_count": 9717,
             "internal_id": "1309",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Vårdcentralen Timrå",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 17.32408318845001,
+                "latitude": 62.48665583570498,
+                "city": "Timrå",
+                "cp": "86131"
+            },
+            "metadata": {
+                "address": "Köpmangatan 31, 861 31 Timrå",
+                "business_hours": null,
+                "phone_number": "060595500"
+            },
+            "prochain_rdv": "2021-12-07 09:20:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 30,
+            "internal_id": "920/",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -77,7 +105,7 @@
             "prochain_rdv": "2021-12-07 14:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1726,
+            "appointment_count": 1752,
             "internal_id": "914",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -105,7 +133,7 @@
             "prochain_rdv": "2021-12-07 14:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1726,
+            "appointment_count": 1752,
             "internal_id": "914",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -453,6 +481,34 @@
         },
         {
             "departement": "22",
+            "nom": "Hälsocentralen Premicare Ljustadalen",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 17.368787788181876,
+                "latitude": 62.4363914816745,
+                "city": "Sundsvall",
+                "cp": "86334"
+            },
+            "metadata": {
+                "address": "Söndagsvägen 4, 863 34 Sundsbruk",
+                "business_hours": null,
+                "phone_number": "0606079500"
+            },
+            "prochain_rdv": "2021-12-16 15:20:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 358,
+            "internal_id": "925",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
             "nom": "Vaccinationsenhet Ramsele",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
@@ -469,7 +525,7 @@
             "prochain_rdv": "2021-12-20 09:27:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1513,
+            "appointment_count": 1495,
             "internal_id": "909",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -494,39 +550,11 @@
                 "business_hours": null,
                 "phone_number": "061180400"
             },
-            "prochain_rdv": "2021-12-20 10:48:00",
+            "prochain_rdv": "2021-12-20 10:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1380,
+            "appointment_count": 1364,
             "internal_id": "1321",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Hälsocentralen Premicare Ljustadalen",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 17.368787788181876,
-                "latitude": 62.4363914816745,
-                "city": "Sundsvall",
-                "cp": "86334"
-            },
-            "metadata": {
-                "address": "Söndagsvägen 4, 863 34 Sundsbruk",
-                "business_hours": null,
-                "phone_number": "0606079500"
-            },
-            "prochain_rdv": "2021-12-22 11:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 356,
-            "internal_id": "925",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -550,10 +578,10 @@
                 "business_hours": null,
                 "phone_number": "061180400"
             },
-            "prochain_rdv": "2022-01-10 13:48:00",
+            "prochain_rdv": "2022-01-10 13:54:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 6102,
+            "appointment_count": 6022,
             "internal_id": "1514",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -669,34 +697,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "1322",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Vårdcentralen Timrå",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 17.32408318845001,
-                "latitude": 62.48665583570498,
-                "city": "Timrå",
-                "cp": "86131"
-            },
-            "metadata": {
-                "address": "Köpmangatan 31, 861 31 Timrå",
-                "business_hours": null,
-                "phone_number": "060595500"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "920/",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
