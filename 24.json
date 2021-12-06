@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-12-06 12:32:15.957779+01:00",
+    "last_updated": "2021-12-06 12:50:10.278804+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -20,7 +20,7 @@
             "prochain_rdv": "2021-12-07 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 487,
+            "appointment_count": 485,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -412,7 +412,35 @@
             "prochain_rdv": "2021-12-10 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 22,
+            "appointment_count": 21,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Tegs hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.253714356041783,
+                "latitude": 63.820570789783865,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tegsplan 2C",
+                "business_hours": null,
+                "phone_number": "0907854456"
+            },
+            "prochain_rdv": "2021-12-10 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -524,7 +552,7 @@
             "prochain_rdv": "2021-12-14 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 102,
+            "appointment_count": 104,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1082,34 +1110,6 @@
                 "address": "Glimmervägen 5 E",
                 "business_hours": null,
                 "phone_number": "0907859322"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Tegs hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.253714356041783,
-                "latitude": 63.820570789783865,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tegsplan 2C",
-                "business_hours": null,
-                "phone_number": "0907854456"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
