@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-12-06 22:33:59.718941+01:00",
+    "last_updated": "2021-12-06 22:55:45.442179+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -133,7 +133,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 835,
+            "appointment_count": 830,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -161,7 +161,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 11,
+            "appointment_count": 9,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -301,7 +301,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 838,
+            "appointment_count": 831,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -329,7 +329,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 242,
+            "appointment_count": 239,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -357,7 +357,35 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 105,
+            "appointment_count": 104,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.346591812509288,
+                "latitude": 57.48063225486268,
+                "city": "Tranemo",
+                "cp": "51434"
+            },
+            "metadata": {
+                "address": "Storgatan 42, 514 34, Tranemo",
+                "business_hours": null,
+                "phone_number": "032547210"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -425,34 +453,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Nossebro vårdcentral, Nossebro",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.726757955720453,
-                "latitude": 58.19110855091534,
-                "city": "Essunga",
-                "cp": "46531"
-            },
-            "metadata": {
-                "address": "Ängsgatan 2, 465 31, Nossebro",
-                "business_hours": null,
-                "phone_number": "0512798400"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Mariestad Sjukhus",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -469,7 +469,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 11,
+            "appointment_count": 9,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -6612,34 +6612,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.346591812509288,
-                "latitude": 57.48063225486268,
-                "city": "Tranemo",
-                "cp": "51434"
-            },
-            "metadata": {
-                "address": "Storgatan 42, 514 34, Tranemo",
-                "business_hours": null,
-                "phone_number": "032547210"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Hjo vårdcentral, Hjo",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6960,6 +6932,34 @@
                 "address": "Hemgatan 12, 547 31, Gullspång",
                 "business_hours": null,
                 "phone_number": "055128300"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Nossebro vårdcentral, Nossebro",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.726757955720453,
+                "latitude": 58.19110855091534,
+                "city": "Essunga",
+                "cp": "46531"
+            },
+            "metadata": {
+                "address": "Ängsgatan 2, 465 31, Nossebro",
+                "business_hours": null,
+                "phone_number": "0512798400"
             },
             "prochain_rdv": null,
             "plateforme": null,
