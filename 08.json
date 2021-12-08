@@ -1,64 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2021-12-08 09:01:16.107304+01:00",
+    "last_updated": "2021-12-08 09:35:12.269663+01:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "08",
-            "nom": "Riddarhusläkarna Västervik",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.641488661371923,
-                "latitude": 57.75986287477441,
-                "city": "Västervik",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Strandvägen 1A, Västervik",
-                "business_hours": null,
-                "phone_number": "049037350"
-            },
-            "prochain_rdv": "2021-12-08 09:05:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 300,
-            "internal_id": "524",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Ljungbyholms hälsocentral",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.17286991496342,
-                "latitude": 56.63362285475359,
-                "city": "Kalmar",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tunnbindarevägen 4, Ljungbyholm",
-                "business_hours": null,
-                "phone_number": "048081925"
-            },
-            "prochain_rdv": "2021-12-08 09:15:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 5691,
-            "internal_id": "496",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "08",
             "nom": "Högsby hälsocentral",
@@ -74,11 +18,39 @@
                 "business_hours": null,
                 "phone_number": "049128300"
             },
-            "prochain_rdv": "2021-12-08 10:10:00",
+            "prochain_rdv": "2021-12-08 09:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1778,
+            "appointment_count": 1771,
             "internal_id": "519",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Kristinebergs hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.466201540936055,
+                "latitude": 57.25039279541824,
+                "city": "Oskarshamn",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ingenjörsvägen 26, Oskarshamn",
+                "business_hours": null,
+                "phone_number": "0491782550"
+            },
+            "prochain_rdv": "2021-12-08 10:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 2723,
+            "internal_id": "513",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -105,8 +77,36 @@
             "prochain_rdv": "2021-12-08 10:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1561,
+            "appointment_count": 1526,
             "internal_id": "488",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Riddarhusläkarna Västervik",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.641488661371923,
+                "latitude": 57.75986287477441,
+                "city": "Västervik",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Strandvägen 1A, Västervik",
+                "business_hours": null,
+                "phone_number": "049037350"
+            },
+            "prochain_rdv": "2021-12-08 10:45:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 306,
+            "internal_id": "524",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -145,6 +145,34 @@
         },
         {
             "departement": "08",
+            "nom": "Kvarnholmens hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.363132986918256,
+                "latitude": 56.66570500991059,
+                "city": "Kalmar",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Strömgatan 15, Kalmar",
+                "business_hours": null,
+                "phone_number": "048081960"
+            },
+            "prochain_rdv": "2021-12-08 13:20:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 630,
+            "internal_id": "517",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
             "nom": "Norrlidens hälsocentral",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
@@ -161,92 +189,8 @@
             "prochain_rdv": "2021-12-08 13:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2933,
+            "appointment_count": 2912,
             "internal_id": "502",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Cityläkarna i Nybro",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 15.91011942888134,
-                "latitude": 56.74309528394747,
-                "city": "Nybro",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Stora Nygatan 15, Nybro",
-                "business_hours": null,
-                "phone_number": "0481490700"
-            },
-            "prochain_rdv": "2021-12-08 14:00:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 413,
-            "internal_id": "525",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Diabetesmottagningen Slottsfjärden Kalmar",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.361260440616988,
-                "latitude": 56.660360990927025,
-                "city": "Kalmar",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tjärhovsgatan 7, Kalmar",
-                "business_hours": null,
-                "phone_number": "048026620"
-            },
-            "prochain_rdv": "2021-12-08 15:10:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 174,
-            "internal_id": "523",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Kvarnholmens hälsocentral",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.363132986918256,
-                "latitude": 56.66570500991059,
-                "city": "Kalmar",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Strömgatan 15, Kalmar",
-                "business_hours": null,
-                "phone_number": "048081960"
-            },
-            "prochain_rdv": "2021-12-08 15:45:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 630,
-            "internal_id": "517",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -270,10 +214,10 @@
                 "business_hours": null,
                 "phone_number": "047118514"
             },
-            "prochain_rdv": "2021-12-08 15:55:00",
+            "prochain_rdv": "2021-12-08 13:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1778,
+            "appointment_count": 1750,
             "internal_id": "506",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -285,24 +229,108 @@
         },
         {
             "departement": "08",
-            "nom": "Berga hälsocentral",
+            "nom": "Mönsterås hälsocentral",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
-                "longitude": 16.338534499464437,
-                "latitude": 56.69200857806224,
+                "longitude": 16.436708819482035,
+                "latitude": 57.03544956965982,
+                "city": "Mönsterås",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Allégatan 1, Mönsterås",
+                "business_hours": null,
+                "phone_number": "049948930"
+            },
+            "prochain_rdv": "2021-12-08 13:40:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 4578,
+            "internal_id": "492",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Diabetesmottagningen Slottsfjärden Kalmar",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.361260440616988,
+                "latitude": 56.660360990927025,
                 "city": "Kalmar",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Rimsmedsvägen 21, Kalmar",
+                "address": "Tjärhovsgatan 7, Kalmar",
                 "business_hours": null,
-                "phone_number": "048081630"
+                "phone_number": "048026620"
             },
-            "prochain_rdv": "2021-12-08 16:05:00",
+            "prochain_rdv": "2021-12-08 14:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 6573,
-            "internal_id": "504",
+            "appointment_count": 177,
+            "internal_id": "523",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Västerviks sjukhus",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.636345235021185,
+                "latitude": 57.75534423294222,
+                "city": "Västervik",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Östra Kyrkogatan 48, Västervik",
+                "business_hours": null,
+                "phone_number": "049086000"
+            },
+            "prochain_rdv": "2021-12-08 15:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 859,
+            "internal_id": "520",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Blomstermåla hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.33309445323957,
+                "latitude": 56.98097071148218,
+                "city": "Mönsterås",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Stationsgatan 2, Blomstermåla",
+                "business_hours": null,
+                "phone_number": "049920930"
+            },
+            "prochain_rdv": "2021-12-08 15:35:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 539,
+            "internal_id": "521",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -341,24 +369,24 @@
         },
         {
             "departement": "08",
-            "nom": "Färjestadens hälsocentral",
+            "nom": "Cityläkarna i Nybro",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
-                "longitude": 16.476073371091406,
-                "latitude": 56.6408203863814,
-                "city": "Mörbylånga",
+                "longitude": 15.91011942888134,
+                "latitude": 56.74309528394747,
+                "city": "Nybro",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Safirvägen 2, Färjestaden",
+                "address": "Stora Nygatan 15, Nybro",
                 "business_hours": null,
-                "phone_number": "048539100"
+                "phone_number": "0481490700"
             },
-            "prochain_rdv": "2021-12-09 14:45:00",
+            "prochain_rdv": "2021-12-09 09:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 623,
-            "internal_id": "500",
+            "appointment_count": 380,
+            "internal_id": "525",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -385,7 +413,7 @@
             "prochain_rdv": "2021-12-13 08:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 3311,
+            "appointment_count": 3290,
             "internal_id": "527",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -441,7 +469,7 @@
             "prochain_rdv": "2021-12-14 08:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 164,
+            "appointment_count": 160,
             "internal_id": "522",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -453,52 +481,24 @@
         },
         {
             "departement": "08",
-            "nom": "Stora Trädgårdsgatans hälsocentral",
+            "nom": "Färjestadens hälsocentral",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
-                "longitude": 16.612203042572784,
-                "latitude": 57.76646359742661,
-                "city": "Västervik",
+                "longitude": 16.476073371091406,
+                "latitude": 56.6408203863814,
+                "city": "Mörbylånga",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Stora Trädgårdsgatan 39, Västervik",
+                "address": "Safirvägen 2, Färjestaden",
                 "business_hours": null,
-                "phone_number": "049086012"
+                "phone_number": "048539100"
             },
-            "prochain_rdv": "2021-12-14 09:00:00",
+            "prochain_rdv": "2021-12-14 11:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 3542,
-            "internal_id": "497",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Esplanadens hälsocentral",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.64053449967011,
-                "latitude": 57.75344905464509,
-                "city": "Västervik",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Esplanaden 16, Västervik",
-                "business_hours": null,
-                "phone_number": "049087000"
-            },
-            "prochain_rdv": "2021-12-14 10:15:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1777,
-            "internal_id": "501",
+            "appointment_count": 616,
+            "internal_id": "500",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -537,52 +537,24 @@
         },
         {
             "departement": "08",
-            "nom": "Västerviks sjukhus",
+            "nom": "Ljungbyholms hälsocentral",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
-                "longitude": 16.636345235021185,
-                "latitude": 57.75534423294222,
-                "city": "Västervik",
+                "longitude": 16.17286991496342,
+                "latitude": 56.63362285475359,
+                "city": "Kalmar",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Östra Kyrkogatan 48, Västervik",
+                "address": "Tunnbindarevägen 4, Ljungbyholm",
                 "business_hours": null,
-                "phone_number": "049086000"
+                "phone_number": "048081925"
             },
-            "prochain_rdv": "2021-12-14 13:30:00",
+            "prochain_rdv": "2021-12-15 11:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 850,
-            "internal_id": "520",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Blomstermåla hälsocentral",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.33309445323957,
-                "latitude": 56.98097071148218,
-                "city": "Mönsterås",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Stationsgatan 2, Blomstermåla",
-                "business_hours": null,
-                "phone_number": "049920930"
-            },
-            "prochain_rdv": "2021-12-15 10:45:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 546,
-            "internal_id": "521",
+            "appointment_count": 5677,
+            "internal_id": "496",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -606,11 +578,95 @@
                 "business_hours": null,
                 "phone_number": "048641230"
             },
-            "prochain_rdv": "2021-12-15 14:10:00",
+            "prochain_rdv": "2021-12-15 14:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 4634,
+            "appointment_count": 4627,
             "internal_id": "493",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Nybro hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 15.91133031488841,
+                "latitude": 56.74365104347946,
+                "city": "Nybro",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tunnelgatan 6, Nybro",
+                "business_hours": null,
+                "phone_number": "048144760"
+            },
+            "prochain_rdv": "2021-12-15 15:40:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 959,
+            "internal_id": "499",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Stora Trädgårdsgatans hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.612203042572784,
+                "latitude": 57.76646359742661,
+                "city": "Västervik",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Stora Trädgårdsgatan 39, Västervik",
+                "business_hours": null,
+                "phone_number": "049086012"
+            },
+            "prochain_rdv": "2021-12-16 08:20:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 3514,
+            "internal_id": "497",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Esplanadens hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.64053449967011,
+                "latitude": 57.75344905464509,
+                "city": "Västervik",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Esplanaden 16, Västervik",
+                "business_hours": null,
+                "phone_number": "049087000"
+            },
+            "prochain_rdv": "2021-12-16 08:40:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1757,
+            "internal_id": "501",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -665,7 +721,7 @@
             "prochain_rdv": "2021-12-21 09:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1155,
+            "appointment_count": 1148,
             "internal_id": "498",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -690,11 +746,39 @@
                 "business_hours": null,
                 "phone_number": "049313000"
             },
-            "prochain_rdv": "2021-12-21 14:15:00",
+            "prochain_rdv": "2021-12-21 14:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 602,
+            "appointment_count": 588,
             "internal_id": "516",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Berga hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.338534499464437,
+                "latitude": 56.69200857806224,
+                "city": "Kalmar",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Rimsmedsvägen 21, Kalmar",
+                "business_hours": null,
+                "phone_number": "048081630"
+            },
+            "prochain_rdv": "2021-12-21 14:35:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 6552,
+            "internal_id": "504",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -733,34 +817,6 @@
         },
         {
             "departement": "08",
-            "nom": "Kristinebergs hälsocentral",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.466201540936055,
-                "latitude": 57.25039279541824,
-                "city": "Oskarshamn",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ingenjörsvägen 26, Oskarshamn",
-                "business_hours": null,
-                "phone_number": "0491782550"
-            },
-            "prochain_rdv": "2021-12-29 11:00:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 2716,
-            "internal_id": "513",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
             "nom": "Folktandvården Lindsdal Kalmar",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
@@ -774,39 +830,11 @@
                 "business_hours": null,
                 "phone_number": "048084580"
             },
-            "prochain_rdv": "2021-12-29 13:50:00",
+            "prochain_rdv": "2021-12-22 07:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1120,
+            "appointment_count": 1127,
             "internal_id": "518",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Mönsterås hälsocentral",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.436708819482035,
-                "latitude": 57.03544956965982,
-                "city": "Mönsterås",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Allégatan 1, Mönsterås",
-                "business_hours": null,
-                "phone_number": "049948930"
-            },
-            "prochain_rdv": "2022-01-03 15:05:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 4585,
-            "internal_id": "492",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -830,10 +858,10 @@
                 "business_hours": null,
                 "phone_number": "048169696"
             },
-            "prochain_rdv": "2022-01-04 14:10:00",
+            "prochain_rdv": "2022-01-04 14:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1226,
+            "appointment_count": 1219,
             "internal_id": "526",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -861,7 +889,7 @@
             "prochain_rdv": "2022-01-05 08:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 3346,
+            "appointment_count": 3337,
             "internal_id": "510",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -917,7 +945,7 @@
             "prochain_rdv": "2022-01-10 09:24:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 4389,
+            "appointment_count": 4394,
             "internal_id": "490",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -970,39 +998,11 @@
                 "business_hours": null,
                 "phone_number": "049217600"
             },
-            "prochain_rdv": "2022-01-11 13:45:00",
+            "prochain_rdv": "2022-01-11 13:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 3199,
+            "appointment_count": 3178,
             "internal_id": "491",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Nybro hälsocentral",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 15.91133031488841,
-                "latitude": 56.74365104347946,
-                "city": "Nybro",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Tunnelgatan 6, Nybro",
-                "business_hours": null,
-                "phone_number": "048144760"
-            },
-            "prochain_rdv": "2022-01-12 10:15:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 952,
-            "internal_id": "499",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
