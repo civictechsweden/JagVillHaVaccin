@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-12-08 09:04:37.810503+01:00",
+    "last_updated": "2021-12-08 09:37:31.705067+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -133,7 +133,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 500,
+            "appointment_count": 480,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -189,7 +189,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -217,7 +217,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 75,
+            "appointment_count": 74,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -273,7 +273,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 10,
+            "appointment_count": 9,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -301,7 +301,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 500,
+            "appointment_count": 483,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -329,7 +329,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 220,
+            "appointment_count": 217,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -357,7 +357,35 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 89,
+            "appointment_count": 85,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.346591812509288,
+                "latitude": 57.48063225486268,
+                "city": "Tranemo",
+                "cp": "51434"
+            },
+            "metadata": {
+                "address": "Storgatan 42, 514 34, Tranemo",
+                "business_hours": null,
+                "phone_number": "032547210"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -385,7 +413,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 68,
+            "appointment_count": 62,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -397,23 +425,23 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Sollebrunn vårdcentral, Sollebrunn",
+            "nom": "Närhälsan Tibro vårdcentral, Tibro",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 12.530482670618245,
-                "latitude": 58.1200728689759,
-                "city": "Alingsås",
-                "cp": "44170"
+                "longitude": 14.164658893358924,
+                "latitude": 58.42518700110039,
+                "city": "Tibro",
+                "cp": "54330"
             },
             "metadata": {
-                "address": "Centrumgatan 6, 441 70, Sollebrunn",
+                "address": "Centrumgatan 17, 543 30, Tibro",
                 "business_hours": null,
-                "phone_number": "032283771"
+                "phone_number": "050440300"
             },
             "prochain_rdv": null,
-            "plateforme": null,
+            "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 4,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -441,7 +469,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -469,7 +497,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 14,
+            "appointment_count": 12,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -497,35 +525,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 5,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Nossebro vårdcentral, Nossebro",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.726757955720453,
-                "latitude": 58.19110855091534,
-                "city": "Essunga",
-                "cp": "46531"
-            },
-            "metadata": {
-                "address": "Ängsgatan 2, 465 31, Nossebro",
-                "business_hours": null,
-                "phone_number": "0512798400"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 4,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -581,7 +581,35 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 19,
+            "appointment_count": 15,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Stora Höga vårdcentral, Stora Höga",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.83182008976126,
+                "latitude": 58.016755332684724,
+                "city": "Stenungsund",
+                "cp": "44460"
+            },
+            "metadata": {
+                "address": "Stora vägen 2, 444 60, Stora Höga",
+                "business_hours": null,
+                "phone_number": "0104733500"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -6668,34 +6696,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.346591812509288,
-                "latitude": 57.48063225486268,
-                "city": "Tranemo",
-                "cp": "51434"
-            },
-            "metadata": {
-                "address": "Storgatan 42, 514 34, Tranemo",
-                "business_hours": null,
-                "phone_number": "032547210"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Bollebygd vårdcentral, Bollebygd",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6724,18 +6724,18 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tibro vårdcentral, Tibro",
+            "nom": "Närhälsan Vårgårda vårdcentral, Vårgårda",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 14.164658893358924,
-                "latitude": 58.42518700110039,
-                "city": "Tibro",
-                "cp": "54330"
+                "longitude": 12.810322726934977,
+                "latitude": 58.032407540504785,
+                "city": "Vårgårda",
+                "cp": "44731"
             },
             "metadata": {
-                "address": "Centrumgatan 17, 543 30, Tibro",
+                "address": "Centrumgatan 2, 447 31, Vårgårda",
                 "business_hours": null,
-                "phone_number": "050440300"
+                "phone_number": "0104358500"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -6752,21 +6752,21 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Vårgårda vårdcentral, Vårgårda",
+            "nom": "Närhälsan Sollebrunn vårdcentral, Sollebrunn",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 12.810322726934977,
-                "latitude": 58.032407540504785,
-                "city": "Vårgårda",
-                "cp": "44731"
+                "longitude": 12.530482670618245,
+                "latitude": 58.1200728689759,
+                "city": "Alingsås",
+                "cp": "44170"
             },
             "metadata": {
-                "address": "Centrumgatan 2, 447 31, Vårgårda",
+                "address": "Centrumgatan 6, 441 70, Sollebrunn",
                 "business_hours": null,
-                "phone_number": "0104358500"
+                "phone_number": "032283771"
             },
             "prochain_rdv": null,
-            "plateforme": "1177",
+            "plateforme": null,
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
@@ -6932,6 +6932,34 @@
                 "address": "Hemgatan 12, 547 31, Gullspång",
                 "business_hours": null,
                 "phone_number": "055128300"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Nossebro vårdcentral, Nossebro",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.726757955720453,
+                "latitude": 58.19110855091534,
+                "city": "Essunga",
+                "cp": "46531"
+            },
+            "metadata": {
+                "address": "Ängsgatan 2, 465 31, Nossebro",
+                "business_hours": null,
+                "phone_number": "0512798400"
             },
             "prochain_rdv": null,
             "plateforme": null,
@@ -7380,34 +7408,6 @@
                 "address": "Redbergsvägen 6, 416 65, Göteborg",
                 "business_hours": null,
                 "phone_number": "0313450400"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Stora Höga vårdcentral, Stora Höga",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.83182008976126,
-                "latitude": 58.016755332684724,
-                "city": "Stenungsund",
-                "cp": "44460"
-            },
-            "metadata": {
-                "address": "Stora vägen 2, 444 60, Stora Höga",
-                "business_hours": null,
-                "phone_number": "0104733500"
             },
             "prochain_rdv": null,
             "plateforme": null,
