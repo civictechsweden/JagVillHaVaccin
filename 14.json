@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-12-12 13:43:51.762869+01:00",
+    "last_updated": "2021-12-12 14:42:24.898141+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -133,7 +133,35 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 721,
+            "appointment_count": 703,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Mariestad vårdcentral, Mariestad",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.795835210967395,
+                "latitude": 58.7051137944602,
+                "city": "Mariestad",
+                "cp": "54245"
+            },
+            "metadata": {
+                "address": "Lockerudsvägen 12, 542 45, Mariestad",
+                "business_hours": null,
+                "phone_number": "050162750"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -189,7 +217,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 187,
+            "appointment_count": 186,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -245,7 +273,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 723,
+            "appointment_count": 705,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -273,7 +301,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 95,
+            "appointment_count": 92,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -301,7 +329,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 53,
+            "appointment_count": 51,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -329,7 +357,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 68,
+            "appointment_count": 67,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -385,35 +413,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Nossebro vårdcentral, Nossebro",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.726757955720453,
-                "latitude": 58.19110855091534,
-                "city": "Essunga",
-                "cp": "46531"
-            },
-            "metadata": {
-                "address": "Ängsgatan 2, 465 31, Nossebro",
-                "business_hours": null,
-                "phone_number": "0512798400"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 1,
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -442,6 +442,34 @@
             "plateforme": null,
             "type": "vaccination-center",
             "appointment_count": 141,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Mariestad Sjukhus",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -498,34 +526,6 @@
             "plateforme": null,
             "type": "vaccination-center",
             "appointment_count": 34,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Herrljunga vårdcentral, Herrljunga",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.014756700887173,
-                "latitude": 58.07601692547374,
-                "city": "Herrljunga",
-                "cp": "52432"
-            },
-            "metadata": {
-                "address": "Horsbyvägen 16A, 524 32, Herrljunga",
-                "business_hours": null,
-                "phone_number": "051317720"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -4317,34 +4317,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Mariestad vårdcentral, Mariestad",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.795835210967395,
-                "latitude": 58.7051137944602,
-                "city": "Mariestad",
-                "cp": "54245"
-            },
-            "metadata": {
-                "address": "Lockerudsvägen 12, 542 45, Mariestad",
-                "business_hours": null,
-                "phone_number": "050162750"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Masthugget vårdcentral, Göteborg",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7004,6 +6976,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Nossebro vårdcentral, Nossebro",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.726757955720453,
+                "latitude": 58.19110855091534,
+                "city": "Essunga",
+                "cp": "46531"
+            },
+            "metadata": {
+                "address": "Ängsgatan 2, 465 31, Nossebro",
+                "business_hours": null,
+                "phone_number": "0512798400"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Oden vårdcentral, Falköping",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7100,34 +7100,6 @@
                 "address": "Östbygatan 21, 531 37, Lidköping",
                 "business_hours": null,
                 "phone_number": "051086900"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Mariestad Sjukhus",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -7324,6 +7296,34 @@
                 "address": "Tallskogsvägen 2, 531 51, Lidköping",
                 "business_hours": null,
                 "phone_number": "051085412"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Herrljunga vårdcentral, Herrljunga",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.014756700887173,
+                "latitude": 58.07601692547374,
+                "city": "Herrljunga",
+                "cp": "52432"
+            },
+            "metadata": {
+                "address": "Horsbyvägen 16A, 524 32, Herrljunga",
+                "business_hours": null,
+                "phone_number": "051317720"
             },
             "prochain_rdv": null,
             "plateforme": null,
