@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2021-12-23 09:29:54.254666+01:00",
+    "last_updated": "2021-12-23 09:50:26.751524+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2021-12-23 11:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 673,
+            "appointment_count": 672,
             "internal_id": "591",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -105,7 +105,7 @@
             "prochain_rdv": "2021-12-28 16:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 192,
+            "appointment_count": 183,
             "internal_id": "577",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -130,10 +130,10 @@
                 "business_hours": null,
                 "phone_number": "0455735755"
             },
-            "prochain_rdv": "2021-12-28 16:50:00",
+            "prochain_rdv": "2021-12-28 17:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 425,
+            "appointment_count": 423,
             "internal_id": "586",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -161,7 +161,7 @@
             "prochain_rdv": "2021-12-29 08:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 555,
+            "appointment_count": 556,
             "internal_id": "576",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -217,7 +217,7 @@
             "prochain_rdv": "2021-12-29 14:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 157,
+            "appointment_count": 156,
             "internal_id": "581",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -245,7 +245,7 @@
             "prochain_rdv": "2021-12-30 09:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 307,
+            "appointment_count": 304,
             "internal_id": "580",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -273,7 +273,7 @@
             "prochain_rdv": "2021-12-30 16:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 94,
+            "appointment_count": 95,
             "internal_id": "597",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -301,7 +301,7 @@
             "prochain_rdv": "2022-01-04 11:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 145,
+            "appointment_count": 144,
             "internal_id": "594",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -326,7 +326,7 @@
                 "business_hours": null,
                 "phone_number": "0455735500"
             },
-            "prochain_rdv": "2022-01-04 13:25:00",
+            "prochain_rdv": "2022-01-04 13:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 253,
@@ -357,7 +357,7 @@
             "prochain_rdv": "2022-01-05 08:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2180,
+            "appointment_count": 2176,
             "internal_id": "596",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -385,7 +385,7 @@
             "prochain_rdv": "2022-01-07 10:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 612,
+            "appointment_count": 624,
             "internal_id": "579",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -394,7 +394,9 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        },
+        }
+    ],
+    "centres_indisponibles": [
         {
             "departement": "10",
             "nom": "Jämjö vårdcentral",
@@ -410,10 +412,10 @@
                 "business_hours": null,
                 "phone_number": "0455735600"
             },
-            "prochain_rdv": "2022-01-18 14:35:00",
+            "prochain_rdv": null,
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2,
+            "appointment_count": 0,
             "internal_id": "575",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -422,9 +424,7 @@
             "request_counts": null,
             "appointment_schedules": [],
             "gid": null
-        }
-    ],
-    "centres_indisponibles": [
+        },
         {
             "departement": "10",
             "nom": "Nättraby vårdcentral",
