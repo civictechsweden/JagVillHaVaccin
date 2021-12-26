@@ -1,27 +1,139 @@
 {
     "version": 1,
-    "last_updated": "2021-12-17 15:03:43.090083+01:00",
+    "last_updated": "2021-12-26 18:51:56.772607+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
             "departement": "24",
-            "nom": "Heimdalls hälsocentral",
+            "nom": "Stenbergska hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 20.948482561952545,
-                "latitude": 64.75145347569664,
-                "city": "Skellefteå",
+                "longitude": 18.673473259388757,
+                "latitude": 64.59984994028584,
+                "city": "Lycksele",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Köpmangatan 15, Skellefteå",
+                "address": "Johan Skyttes väg 6",
                 "business_hours": null,
-                "phone_number": "0907859111"
+                "phone_number": "0907854448"
             },
             "prochain_rdv": "2021-01-04 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 33,
+            "appointment_count": 161,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Storumans sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 17.121804197752056,
+                "latitude": 65.09670707643072,
+                "city": "Storuman",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Backvägen 2",
+                "business_hours": null,
+                "phone_number": "0907854473"
+            },
+            "prochain_rdv": "2021-01-04 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 3,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Byske hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 21.20716665139364,
+                "latitude": 64.950590882984,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ringvägen 8",
+                "business_hours": null,
+                "phone_number": "0907859118"
+            },
+            "prochain_rdv": "2021-01-05 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 326,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Morö Backe hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 21.026742481432354,
+                "latitude": 64.75336170983184,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Höjdgatan 14, Skellefteå",
+                "business_hours": null,
+                "phone_number": "0907859115"
+            },
+            "prochain_rdv": "2021-01-05 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 230,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Ålidhems hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.316742449489357,
+                "latitude": 63.81499142292883,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Tvistevägen 2",
+                "business_hours": null,
+                "phone_number": "0907854458"
+            },
+            "prochain_rdv": "2021-01-10 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 208,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,94 +158,10 @@
                 "business_hours": null,
                 "phone_number": "0907859388"
             },
-            "prochain_rdv": "2021-01-04 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 239,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Norrlandskliniken hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.321609843551045,
-                "latitude": 63.804754920960285,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Glimmervägen 5 E",
-                "business_hours": null,
-                "phone_number": "0907859322"
-            },
-            "prochain_rdv": "2021-01-05 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 62,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Ersboda hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.317044179291425,
-                "latitude": 63.85660370244311,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Hälsogränd 3, Umeå",
-                "business_hours": null,
-                "phone_number": "0907854457"
-            },
             "prochain_rdv": "2021-01-11 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 22,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Sävar hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.551555586055475,
-                "latitude": 63.898436261079766,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Kungsvägen 8A",
-                "business_hours": null,
-                "phone_number": "0907854447"
-            },
-            "prochain_rdv": "2021-01-11 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 108,
+            "appointment_count": 275,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -161,7 +189,7 @@
             "prochain_rdv": "2021-01-11 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 80,
+            "appointment_count": 174,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -173,23 +201,23 @@
         },
         {
             "departement": "24",
-            "nom": "Stenbergska hälsocentral",
+            "nom": "Bjurholms hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 18.673473259388757,
-                "latitude": 64.59984994028584,
-                "city": "Lycksele",
+                "longitude": 19.20680770966098,
+                "latitude": 63.92928599751182,
+                "city": "Bjurholm",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Johan Skyttes väg 6",
+                "address": "Storgatan 16",
                 "business_hours": null,
-                "phone_number": "0907854448"
+                "phone_number": "0907854441"
             },
             "prochain_rdv": "2021-01-12 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 69,
+            "appointment_count": 75,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -217,202 +245,7 @@
             "prochain_rdv": "2021-01-12 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 28,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Malå sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 18.756251410101154,
-                "latitude": 65.17531659490669,
-                "city": "Malå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 2",
-                "business_hours": null,
-                "phone_number": "0907859119"
-            },
-            "prochain_rdv": "2021-01-13 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 22,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Backens hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.163080811099466,
-                "latitude": 63.83722988837268,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Manusgränd 3",
-                "business_hours": null,
-                "phone_number": "0907854443"
-            },
-            "prochain_rdv": "2021-01-19 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 5,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Mariehems hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.328022983296588,
-                "latitude": 63.838617372997795,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Morkullevägen 9",
-                "business_hours": null,
-                "phone_number": "0907854444"
-            },
-            "prochain_rdv": "2021-01-19 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 3,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Central drop-in-vaccination Umeå",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.305308638390684,
-                "latitude": 63.81994123656234,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Umeå universitet, Universum, Universums gränd 8",
-                "business_hours": null
-            },
-            "prochain_rdv": "2021-12-17 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 191,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Bolidens hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.383782657759937,
-                "latitude": 64.86139958738863,
-                "city": "Skellefteå",
-                "cp": "93631"
-            },
-            "metadata": {
-                "address": "Ringen 76, 93631 Boliden",
-                "business_hours": null,
-                "phone_number": "0907859123"
-            },
-            "prochain_rdv": "2021-12-20 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 41,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Åsele sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 17.359149785111434,
-                "latitude": 64.16094798300327,
-                "city": "Åsele",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Bryggaregatan 11 A",
-                "business_hours": null,
-                "phone_number": "0907859176"
-            },
-            "prochain_rdv": "2021-12-20 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 168,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Nordmalings hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.50699285552043,
-                "latitude": 63.56314110015042,
-                "city": "Nordmaling",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Hemvägen 12",
-                "business_hours": null,
-                "phone_number": "0907859104"
-            },
-            "prochain_rdv": "2021-12-21 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 48,
+            "appointment_count": 7,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -437,38 +270,10 @@
                 "business_hours": null,
                 "phone_number": "0907859110"
             },
-            "prochain_rdv": "2021-12-21 00:00:00",
+            "prochain_rdv": "2021-01-12 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 92,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Tärnaby sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 15.31339230368373,
-                "latitude": 65.71588725571208,
-                "city": "Storuman",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Granvägen 7, Tärnaby",
-                "business_hours": null,
-                "phone_number": "0907854470"
-            },
-            "prochain_rdv": "2021-12-21 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 19,
+            "appointment_count": 60,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -493,10 +298,94 @@
                 "business_hours": null,
                 "phone_number": "0907859148"
             },
-            "prochain_rdv": "2021-12-21 00:00:00",
+            "prochain_rdv": "2021-01-12 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 58,
+            "appointment_count": 9,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Ersboda hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.317044179291425,
+                "latitude": 63.85660370244311,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Hälsogränd 3, Umeå",
+                "business_hours": null,
+                "phone_number": "0907854457"
+            },
+            "prochain_rdv": "2021-01-12 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 8,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Holmsunds hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.36503865828701,
+                "latitude": 63.70732398241559,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Himmelska Fridens Torg 7",
+                "business_hours": null,
+                "phone_number": "0907859103"
+            },
+            "prochain_rdv": "2021-01-12 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 55,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Sävar hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.551555586055475,
+                "latitude": 63.898436261079766,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Kungsvägen 8A",
+                "business_hours": null,
+                "phone_number": "0907854447"
+            },
+            "prochain_rdv": "2021-01-12 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 84,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -521,10 +410,10 @@
                 "business_hours": null,
                 "phone_number": "0907854450"
             },
-            "prochain_rdv": "2021-12-21 00:00:00",
+            "prochain_rdv": "2021-01-12 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 176,
+            "appointment_count": 225,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -536,23 +425,23 @@
         },
         {
             "departement": "24",
-            "nom": "Bjurholms hälsocentral",
+            "nom": "Åsele sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 19.20680770966098,
-                "latitude": 63.92928599751182,
-                "city": "Bjurholm",
+                "longitude": 17.359149785111434,
+                "latitude": 64.16094798300327,
+                "city": "Åsele",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Storgatan 16",
+                "address": "Bryggaregatan 11 A",
                 "business_hours": null,
-                "phone_number": "0907854441"
+                "phone_number": "0907859176"
             },
-            "prochain_rdv": "2021-12-22 00:00:00",
+            "prochain_rdv": "2021-01-12 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 44,
+            "appointment_count": 121,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -564,79 +453,163 @@
         },
         {
             "departement": "24",
-            "nom": "Medicinkonsulten hälsocentral",
+            "nom": "Heimdalls hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 18.674387839138266,
-                "latitude": 64.59246225123054,
-                "city": "Lycksele",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Skolgatan 8",
-                "business_hours": null,
-                "phone_number": "0907859380"
-            },
-            "prochain_rdv": "2021-12-22 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 180,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Norsjö hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.492159861085895,
-                "latitude": 64.90894017118801,
-                "city": "Norsjö",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storgatan 33",
-                "business_hours": null,
-                "phone_number": "0907859116"
-            },
-            "prochain_rdv": "2021-12-22 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Byske hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 21.20716665139364,
-                "latitude": 64.950590882984,
+                "longitude": 20.948482561952545,
+                "latitude": 64.75145347569664,
                 "city": "Skellefteå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Ringvägen 8",
+                "address": "Köpmangatan 15, Skellefteå",
                 "business_hours": null,
-                "phone_number": "0907859118"
+                "phone_number": "0907859111"
             },
-            "prochain_rdv": "2021-12-22 00:00:00",
+            "prochain_rdv": "2021-01-13 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 64,
+            "appointment_count": 25,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Tärnaby sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 15.31339230368373,
+                "latitude": 65.71588725571208,
+                "city": "Storuman",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Granvägen 7, Tärnaby",
+                "business_hours": null,
+                "phone_number": "0907854470"
+            },
+            "prochain_rdv": "2021-01-13 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 90,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Norrlandskliniken hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.321609843551045,
+                "latitude": 63.804754920960285,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Glimmervägen 5 E",
+                "business_hours": null,
+                "phone_number": "0907859322"
+            },
+            "prochain_rdv": "2021-01-18 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 88,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Malå sjukstuga hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 18.756251410101154,
+                "latitude": 65.17531659490669,
+                "city": "Malå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 2",
+                "business_hours": null,
+                "phone_number": "0907859119"
+            },
+            "prochain_rdv": "2021-01-19 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 4,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Bolidens hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.383782657759937,
+                "latitude": 64.86139958738863,
+                "city": "Skellefteå",
+                "cp": "93631"
+            },
+            "metadata": {
+                "address": "Ringen 76, 93631 Boliden",
+                "business_hours": null,
+                "phone_number": "0907859123"
+            },
+            "prochain_rdv": "2021-01-21 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Mariehems hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.328022983296588,
+                "latitude": 63.838617372997795,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Morkullevägen 9",
+                "business_hours": null,
+                "phone_number": "0907854444"
+            },
+            "prochain_rdv": "2021-01-26 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 4,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -661,10 +634,10 @@
                 "business_hours": null,
                 "phone_number": "0907859171"
             },
-            "prochain_rdv": "2021-12-22 00:00:00",
+            "prochain_rdv": "2021-12-27 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 86,
+            "appointment_count": 108,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -676,23 +649,50 @@
         },
         {
             "departement": "24",
-            "nom": "Storumans sjukstuga hälsocentral",
+            "nom": "Central drop-in-vaccination Umeå",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 17.121804197752056,
-                "latitude": 65.09670707643072,
-                "city": "Storuman",
+                "longitude": 20.305308638390684,
+                "latitude": 63.81994123656234,
+                "city": "Umeå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Backvägen 2",
-                "business_hours": null,
-                "phone_number": "0907854473"
+                "address": "Umeå universitet, Universum, Universums gränd 8",
+                "business_hours": null
             },
-            "prochain_rdv": "2021-12-22 00:00:00",
+            "prochain_rdv": "2021-12-29 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 18,
+            "appointment_count": 993,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Medicinkonsulten hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 18.674387839138266,
+                "latitude": 64.59246225123054,
+                "city": "Lycksele",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Skolgatan 8",
+                "business_hours": null,
+                "phone_number": "0907859380"
+            },
+            "prochain_rdv": "2021-12-29 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 264,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -704,51 +704,23 @@
         },
         {
             "departement": "24",
-            "nom": "Morö Backe hälsocentral",
+            "nom": "Nordmalings hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 21.026742481432354,
-                "latitude": 64.75336170983184,
-                "city": "Skellefteå",
+                "longitude": 19.50699285552043,
+                "latitude": 63.56314110015042,
+                "city": "Nordmaling",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Höjdgatan 14, Skellefteå",
+                "address": "Hemvägen 12",
                 "business_hours": null,
-                "phone_number": "0907859115"
+                "phone_number": "0907859104"
             },
-            "prochain_rdv": "2021-12-28 00:00:00",
+            "prochain_rdv": "2021-12-29 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 5,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Vilhelmina sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 16.66232849898825,
-                "latitude": 64.625086471245,
-                "city": "Vilhelmina",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Volgsjövägen 37",
-                "business_hours": null,
-                "phone_number": "0907859125"
-            },
-            "prochain_rdv": "2021-12-28 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 192,
+            "appointment_count": 156,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -776,7 +748,7 @@
             "prochain_rdv": "2021-12-30 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 18,
+            "appointment_count": 117,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -788,23 +760,23 @@
         },
         {
             "departement": "24",
-            "nom": "Ålidhems hälsocentral",
+            "nom": "Vilhelmina sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 20.316742449489357,
-                "latitude": 63.81499142292883,
-                "city": "Umeå",
+                "longitude": 16.66232849898825,
+                "latitude": 64.625086471245,
+                "city": "Vilhelmina",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Tvistevägen 2",
+                "address": "Volgsjövägen 37",
                 "business_hours": null,
-                "phone_number": "0907854458"
+                "phone_number": "0907859125"
             },
             "prochain_rdv": "2021-12-30 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 10,
+            "appointment_count": 191,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -858,6 +830,34 @@
                 "address": "Nygatan 19",
                 "business_hours": null,
                 "phone_number": "0907859175"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Norsjö hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.492159861085895,
+                "latitude": 64.90894017118801,
+                "city": "Norsjö",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storgatan 33",
+                "business_hours": null,
+                "phone_number": "0907859116"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -1070,18 +1070,18 @@
         },
         {
             "departement": "24",
-            "nom": "Citymottagningen hälsocentral",
+            "nom": "Backens hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 20.26427806385064,
-                "latitude": 63.827668127510485,
+                "longitude": 20.163080811099466,
+                "latitude": 63.83722988837268,
                 "city": "Umeå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Nygatan 19B",
+                "address": "Manusgränd 3",
                 "business_hours": null,
-                "phone_number": "0907859321"
+                "phone_number": "0907854443"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -1098,18 +1098,18 @@
         },
         {
             "departement": "24",
-            "nom": "Holmsunds hälsocentral",
+            "nom": "Citymottagningen hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 20.36503865828701,
-                "latitude": 63.70732398241559,
+                "longitude": 20.26427806385064,
+                "latitude": 63.827668127510485,
                 "city": "Umeå",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Himmelska Fridens Torg 7",
+                "address": "Nygatan 19B",
                 "business_hours": null,
-                "phone_number": "0907859103"
+                "phone_number": "0907859321"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
