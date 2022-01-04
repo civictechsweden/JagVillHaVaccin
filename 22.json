@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2022-01-04 12:08:48.080242+01:00",
+    "last_updated": "2022-01-04 12:34:57.200241+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,8 +21,64 @@
             "prochain_rdv": "2022-01-10 10:06:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 5467,
+            "appointment_count": 5435,
             "internal_id": "1325",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Matfors",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 17.014423130377182,
+                "latitude": 62.348525018856556,
+                "city": "Sundsvall",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Skölevägen 19",
+                "business_hours": null,
+                "phone_number": "061180400"
+            },
+            "prochain_rdv": "2022-01-11 09:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 5853,
+            "internal_id": "914",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Ramsele",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 16.468335906884008,
+                "latitude": 63.53552948800416,
+                "city": "Sollefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Läkarvägen 16, Ramsele",
+                "business_hours": null,
+                "phone_number": "061180400"
+            },
+            "prochain_rdv": "2022-01-11 10:23:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 912,
+            "internal_id": "909",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -89,34 +145,6 @@
         },
         {
             "departement": "22",
-            "nom": "Vaccinationsenhet Näsåker, Markusgården",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 16.880648445311525,
-                "latitude": 63.69470553219069,
-                "city": "Sollefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Markusgården, Lärkvägen 2 A, Näsåker",
-                "business_hours": null,
-                "phone_number": "061180400"
-            },
-            "prochain_rdv": "2022-01-12 10:13:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 76,
-            "internal_id": "1324",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
             "nom": "Ungdomsmottagningen Ånge",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
@@ -161,7 +189,7 @@
             "prochain_rdv": "2022-01-12 10:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 10268,
+            "appointment_count": 10271,
             "internal_id": "1311",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -189,7 +217,7 @@
             "prochain_rdv": "2022-01-12 10:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 9991,
+            "appointment_count": 9996,
             "internal_id": "921",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -201,24 +229,52 @@
         },
         {
             "departement": "22",
-            "nom": "Hälsocentralen Liden",
+            "nom": "Vaccinationsenhet Sundsvall",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
-                "longitude": 16.803012828751818,
-                "latitude": 62.70040840401781,
+                "longitude": 17.255449827674113,
+                "latitude": 62.39297855695255,
                 "city": "Sundsvall",
-                "cp": "85599"
+                "cp": "85350"
             },
             "metadata": {
-                "address": "Husåsvägen 18, 855 99  Liden",
+                "address": "Axvägen 15, 853 50 Sundsvall",
                 "business_hours": null,
-                "phone_number": "069243920"
+                "phone_number": "061180400"
             },
-            "prochain_rdv": "2022-01-12 11:40:00",
+            "prochain_rdv": "2022-01-12 10:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 10264,
-            "internal_id": "916",
+            "appointment_count": 9996,
+            "internal_id": "921",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Näsåker, Markusgården",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 16.880648445311525,
+                "latitude": 63.69470553219069,
+                "city": "Sollefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Markusgården, Lärkvägen 2 A, Näsåker",
+                "business_hours": null,
+                "phone_number": "061180400"
+            },
+            "prochain_rdv": "2022-01-12 13:01:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 214,
+            "internal_id": "1324",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -245,8 +301,36 @@
             "prochain_rdv": "2022-01-12 13:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 6380,
+            "appointment_count": 6386,
             "internal_id": "928",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Hälsocentralen Liden",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 16.803012828751818,
+                "latitude": 62.70040840401781,
+                "city": "Sundsvall",
+                "cp": "85599"
+            },
+            "metadata": {
+                "address": "Husåsvägen 18, 855 99  Liden",
+                "business_hours": null,
+                "phone_number": "069243920"
+            },
+            "prochain_rdv": "2022-01-12 13:50:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 9526,
+            "internal_id": "916",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -273,7 +357,7 @@
             "prochain_rdv": "2022-01-12 13:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 9531,
+            "appointment_count": 10263,
             "internal_id": "916",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -301,35 +385,7 @@
             "prochain_rdv": "2022-01-13 10:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 5803,
-            "internal_id": "914",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Vaccinationsenhet Matfors",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 17.014423130377182,
-                "latitude": 62.348525018856556,
-                "city": "Sundsvall",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Skölevägen 19",
-                "business_hours": null,
-                "phone_number": "061180400"
-            },
-            "prochain_rdv": "2022-01-13 10:10:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 5811,
+            "appointment_count": 5910,
             "internal_id": "914",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -469,8 +525,36 @@
             "prochain_rdv": "2022-01-18 09:48:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 17426,
+            "appointment_count": 17427,
             "internal_id": "1514",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "22",
+            "nom": "Vaccinationsenhet Junsele",
+            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
+            "location": {
+                "longitude": 16.88054364443083,
+                "latitude": 63.694607625020325,
+                "city": "Sollefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Forumvägen 4, Junsele",
+                "business_hours": null,
+                "phone_number": "061180400"
+            },
+            "prochain_rdv": "2022-01-18 10:20:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 799,
+            "internal_id": "910",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -494,10 +578,10 @@
                 "business_hours": null,
                 "phone_number": "061180400"
             },
-            "prochain_rdv": "2022-01-18 10:35:00",
+            "prochain_rdv": "2022-01-18 10:45:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 43747,
+            "appointment_count": 43613,
             "internal_id": "1309",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -707,62 +791,6 @@
         },
         {
             "departement": "22",
-            "nom": "Vaccinationsenhet Junsele",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 16.88054364443083,
-                "latitude": 63.694607625020325,
-                "city": "Sollefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Forumvägen 4, Junsele",
-                "business_hours": null,
-                "phone_number": "061180400"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "910",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Vaccinationsenhet Ramsele",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 16.468335906884008,
-                "latitude": 63.53552948800416,
-                "city": "Sollefteå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Läkarvägen 16, Ramsele",
-                "business_hours": null,
-                "phone_number": "061180400"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "909",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
             "nom": "Vaccinationsenhet Sundsvall",
             "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
             "location": {
@@ -781,34 +809,6 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "1291",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "22",
-            "nom": "Vaccinationsenhet Sundsvall",
-            "url": "https://www.1177.se/Vasternorrland/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/vaccinationsenheter-i-vasternorrland/",
-            "location": {
-                "longitude": 17.255449827674113,
-                "latitude": 62.39297855695255,
-                "city": "Sundsvall",
-                "cp": "85350"
-            },
-            "metadata": {
-                "address": "Axvägen 15, 853 50 Sundsvall",
-                "business_hours": null,
-                "phone_number": "061180400"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "921",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
