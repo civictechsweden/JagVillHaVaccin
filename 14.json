@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2022-01-06 07:38:18.261899+01:00",
+    "last_updated": "2022-01-06 08:02:35.741331+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -161,7 +161,35 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 317,
+            "appointment_count": 312,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Skene vårdcentral, Skene",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.648362857197943,
+                "latitude": 57.49188236966391,
+                "city": "Mark",
+                "cp": "51181"
+            },
+            "metadata": {
+                "address": "Varbergsvägen 50, 511 81, Skene",
+                "business_hours": null,
+                "phone_number": "0320779301"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 2,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -189,7 +217,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 468,
+            "appointment_count": 467,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -273,7 +301,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 128,
+            "appointment_count": 127,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -497,7 +525,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 468,
+            "appointment_count": 467,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -525,7 +553,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 427,
+            "appointment_count": 426,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -581,7 +609,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 267,
+            "appointment_count": 265,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -665,7 +693,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 317,
+            "appointment_count": 312,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -733,6 +761,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Skene Lasarett",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": "",
+                "latitude": "",
+                "city": "",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "",
+                "business_hours": null,
+                "phone_number": ""
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 2,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Dalaberg vårdcentral, Uddevalla",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -777,7 +833,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 216,
+            "appointment_count": 215,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -833,7 +889,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 154,
+            "appointment_count": 152,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -4961,34 +5017,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Skene vårdcentral, Skene",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.648362857197943,
-                "latitude": 57.49188236966391,
-                "city": "Mark",
-                "cp": "51181"
-            },
-            "metadata": {
-                "address": "Varbergsvägen 50, 511 81, Skene",
-                "business_hours": null,
-                "phone_number": "0320779301"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Slottsskogen vårdcentral, Göteborg",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7268,34 +7296,6 @@
                 "address": "Östbygatan 21, 531 37, Lidköping",
                 "business_hours": null,
                 "phone_number": "051086900"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Skene Lasarett",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": "",
-                "latitude": "",
-                "city": "",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "",
-                "business_hours": null,
-                "phone_number": ""
             },
             "prochain_rdv": null,
             "plateforme": "1177",
