@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2022-01-06 23:53:57.688671+01:00",
+    "last_updated": "2022-01-07 00:06:31.371523+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2022-01-13 11:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 5877,
+            "appointment_count": 6222,
             "internal_id": "2096",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +49,7 @@
             "prochain_rdv": "2022-01-13 11:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 5877,
+            "appointment_count": 6222,
             "internal_id": "2096",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,7 +77,7 @@
             "prochain_rdv": "2022-01-14 12:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 10516,
+            "appointment_count": 11033,
             "internal_id": "2092",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -105,10 +105,66 @@
             "prochain_rdv": "2022-01-14 12:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 10516,
+            "appointment_count": 11033,
             "internal_id": "2092",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Drive-In Nötkärnan Göteborg",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.933909038369034,
+                "latitude": 57.68149011642591,
+                "city": "Göteborg",
+                "cp": "41476"
+            },
+            "metadata": {
+                "address": "Slottsskogsgatan 113, 414 76, Göteborg",
+                "business_hours": null,
+                "phone_number": "0317922522"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Hjällbo vårdcentral, Angered",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.019113619366982,
+                "latitude": 57.76865101484537,
+                "city": "Göteborg",
+                "cp": "42432"
+            },
+            "metadata": {
+                "address": "Bergsgårdsgärdet 89B, 424 32, Angered",
+                "business_hours": null,
+                "phone_number": "0317478300"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 15,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -133,7 +189,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 41,
+            "appointment_count": 212,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -161,7 +217,35 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 144,
+            "appointment_count": 457,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Nötkärnan Bergsjön Vårdcentral och BVC",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.072403443004314,
+                "latitude": 57.75602583095393,
+                "city": "Göteborg",
+                "cp": "41566"
+            },
+            "metadata": {
+                "address": "Rymdtorget 8 D, 415 66, Göteborg",
+                "business_hours": null,
+                "phone_number": "0317929400"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 183,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -189,7 +273,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 9,
+            "appointment_count": 70,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -229,34 +313,6 @@
         },
         {
             "departement": "14",
-            "nom": "Nötkärnan Kållered Familjeläkare och BVC, Kållered",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.048777763042008,
-                "latitude": 57.61082212425263,
-                "city": "Mölndal",
-                "cp": "42832"
-            },
-            "metadata": {
-                "address": "Gamla Riksvägen 44, 428 32, Kållered",
-                "business_hours": null,
-                "phone_number": "0317931800"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Tjörn vårdcentral, Kållekärr",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -273,7 +329,35 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 58,
+            "appointment_count": 264,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Svenljunga vårdcentral, Svenljunga",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.116587190134467,
+                "latitude": 57.494098921820274,
+                "city": "Svenljunga",
+                "cp": "51254"
+            },
+            "metadata": {
+                "address": "Klockaregatan 3, 512 54, Svenljunga",
+                "business_hours": null,
+                "phone_number": "0325619100"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 23,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -301,7 +385,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 119,
+            "appointment_count": 541,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -329,7 +413,91 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 70,
+            "appointment_count": 649,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Hjo vårdcentral, Hjo",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 14.300502447849361,
+                "latitude": 58.31001646470293,
+                "city": "Hjo",
+                "cp": "54436"
+            },
+            "metadata": {
+                "address": "Karlsborgsvägen 4A, 544 36, Hjo",
+                "business_hours": null,
+                "phone_number": "050322700"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 133,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Bollebygd vårdcentral, Bollebygd",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.571998004692631,
+                "latitude": 57.66959404213807,
+                "city": "Bollebygd",
+                "cp": "51736"
+            },
+            "metadata": {
+                "address": "Gästgivarevägen 8, 517 36, Bollebygd",
+                "business_hours": null,
+                "phone_number": "0104416100"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 40,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Tibro vårdcentral, Tibro",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 14.164658893358924,
+                "latitude": 58.42518700110039,
+                "city": "Tibro",
+                "cp": "54330"
+            },
+            "metadata": {
+                "address": "Centrumgatan 17, 543 30, Tibro",
+                "business_hours": null,
+                "phone_number": "050440300"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 142,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -357,7 +525,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 144,
+            "appointment_count": 457,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -385,7 +553,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 77,
+            "appointment_count": 340,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -425,6 +593,34 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Vänerparken vårdcentral, Vänersborg",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.320768911766642,
+                "latitude": 58.374752961014416,
+                "city": "Vänersborg",
+                "cp": "46235"
+            },
+            "metadata": {
+                "address": "Vänerparken 21, 462 35, Vänersborg",
+                "business_hours": null,
+                "phone_number": "0104416200"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 249,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Solgärde vårdcentral, Kungälv",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -441,7 +637,35 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 46,
+            "appointment_count": 232,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Oden vårdcentral, Falköping",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.552551416477767,
+                "latitude": 58.1640349914607,
+                "city": "Falköping",
+                "cp": "52146"
+            },
+            "metadata": {
+                "address": "Sankt Olofsgatan 8, 521 46, Falköping",
+                "business_hours": null,
+                "phone_number": "051587860"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 7,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -469,7 +693,63 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 41,
+            "appointment_count": 212,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Herrestad vårdcentral, Uddevalla",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.84496382791307,
+                "latitude": 58.35033088496779,
+                "city": "Uddevalla",
+                "cp": "45175"
+            },
+            "metadata": {
+                "address": "Lingatan 12, 451 75, Uddevalla",
+                "business_hours": null,
+                "phone_number": "0104416440"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 43,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Hjällbo vårdcentral, Angered",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.019113619366982,
+                "latitude": 57.76865101484537,
+                "city": "Göteborg",
+                "cp": "42432"
+            },
+            "metadata": {
+                "address": "Bergsgårdsgärdet 89B, 424 32, Angered",
+                "business_hours": null,
+                "phone_number": "0317478300"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 15,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -497,7 +777,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 27,
+            "appointment_count": 172,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -525,7 +805,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 64,
+            "appointment_count": 202,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -553,7 +833,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 33,
+            "appointment_count": 137,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -581,7 +861,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 51,
+            "appointment_count": 49,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -637,7 +917,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 68,
+            "appointment_count": 67,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -1866,34 +2146,6 @@
                 "address": "Karlsgatan 43, 452 32, Strömstad",
                 "business_hours": null,
                 "phone_number": "0534141950"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Drive-In Nötkärnan Göteborg",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.933909038369034,
-                "latitude": 57.68149011642591,
-                "city": "Göteborg",
-                "cp": "41476"
-            },
-            "metadata": {
-                "address": "Slottsskogsgatan 113, 414 76, Göteborg",
-                "business_hours": null,
-                "phone_number": "0317922522"
             },
             "prochain_rdv": null,
             "plateforme": null,
@@ -3953,34 +4205,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Hjällbo vårdcentral, Angered",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.019113619366982,
-                "latitude": 57.76865101484537,
-                "city": "Göteborg",
-                "cp": "42432"
-            },
-            "metadata": {
-                "address": "Bergsgårdsgärdet 89B, 424 32, Angered",
-                "business_hours": null,
-                "phone_number": "0317478300"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Horred vårdcentral, Horred",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -5101,18 +5325,18 @@
         },
         {
             "departement": "14",
-            "nom": "Nötkärnan Bergsjön Vårdcentral och BVC",
+            "nom": "Nötkärnan Kortedala Vårdcentral och BVC, Kortedala",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 12.072403443004314,
-                "latitude": 57.75602583095393,
+                "longitude": 12.041043718488815,
+                "latitude": 57.7620436930486,
                 "city": "Göteborg",
-                "cp": "41566"
+                "cp": "41546"
             },
             "metadata": {
-                "address": "Rymdtorget 8 D, 415 66, Göteborg",
+                "address": "Årstidsgatan 48, 415 46, Göteborg",
                 "business_hours": null,
-                "phone_number": "0317929400"
+                "phone_number": "0317503100"
             },
             "prochain_rdv": null,
             "plateforme": null,
@@ -5129,18 +5353,18 @@
         },
         {
             "departement": "14",
-            "nom": "Nötkärnan Kortedala Vårdcentral och BVC, Kortedala",
+            "nom": "Nötkärnan Kållered Familjeläkare och BVC, Kållered",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 12.041043718488815,
-                "latitude": 57.7620436930486,
-                "city": "Göteborg",
-                "cp": "41546"
+                "longitude": 12.048777763042008,
+                "latitude": 57.61082212425263,
+                "city": "Mölndal",
+                "cp": "42832"
             },
             "metadata": {
-                "address": "Årstidsgatan 48, 415 46, Göteborg",
+                "address": "Gamla Riksvägen 44, 428 32, Kållered",
                 "business_hours": null,
-                "phone_number": "0317503100"
+                "phone_number": "0317931800"
             },
             "prochain_rdv": null,
             "plateforme": null,
@@ -6724,34 +6948,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Svenljunga vårdcentral, Svenljunga",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.116587190134467,
-                "latitude": 57.494098921820274,
-                "city": "Svenljunga",
-                "cp": "51254"
-            },
-            "metadata": {
-                "address": "Klockaregatan 3, 512 54, Svenljunga",
-                "business_hours": null,
-                "phone_number": "0325619100"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Furulund vårdcentral, Partille",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6767,90 +6963,6 @@
             },
             "prochain_rdv": null,
             "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Hjo vårdcentral, Hjo",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 14.300502447849361,
-                "latitude": 58.31001646470293,
-                "city": "Hjo",
-                "cp": "54436"
-            },
-            "metadata": {
-                "address": "Karlsborgsvägen 4A, 544 36, Hjo",
-                "business_hours": null,
-                "phone_number": "050322700"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Bollebygd vårdcentral, Bollebygd",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.571998004692631,
-                "latitude": 57.66959404213807,
-                "city": "Bollebygd",
-                "cp": "51736"
-            },
-            "metadata": {
-                "address": "Gästgivarevägen 8, 517 36, Bollebygd",
-                "business_hours": null,
-                "phone_number": "0104416100"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Tibro vårdcentral, Tibro",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 14.164658893358924,
-                "latitude": 58.42518700110039,
-                "city": "Tibro",
-                "cp": "54330"
-            },
-            "metadata": {
-                "address": "Centrumgatan 17, 543 30, Tibro",
-                "business_hours": null,
-                "phone_number": "050440300"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
@@ -6932,34 +7044,6 @@
                 "address": "Kyrktorget 13, 433 33, Partille",
                 "business_hours": null,
                 "phone_number": "0104733300"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Vänerparken vårdcentral, Vänersborg",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.320768911766642,
-                "latitude": 58.374752961014416,
-                "city": "Vänersborg",
-                "cp": "46235"
-            },
-            "metadata": {
-                "address": "Vänerparken 21, 462 35, Vänersborg",
-                "business_hours": null,
-                "phone_number": "0104416200"
             },
             "prochain_rdv": null,
             "plateforme": null,
@@ -7088,34 +7172,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Oden vårdcentral, Falköping",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.552551416477767,
-                "latitude": 58.1640349914607,
-                "city": "Falköping",
-                "cp": "52146"
-            },
-            "metadata": {
-                "address": "Sankt Olofsgatan 8, 521 46, Falköping",
-                "business_hours": null,
-                "phone_number": "051587860"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Tidan vårdcentral, Tidan",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -7215,62 +7271,6 @@
             },
             "prochain_rdv": null,
             "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Herrestad vårdcentral, Uddevalla",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.84496382791307,
-                "latitude": 58.35033088496779,
-                "city": "Uddevalla",
-                "cp": "45175"
-            },
-            "metadata": {
-                "address": "Lingatan 12, 451 75, Uddevalla",
-                "business_hours": null,
-                "phone_number": "0104416440"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Hjällbo vårdcentral, Angered",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.019113619366982,
-                "latitude": 57.76865101484537,
-                "city": "Göteborg",
-                "cp": "42432"
-            },
-            "metadata": {
-                "address": "Bergsgårdsgärdet 89B, 424 32, Angered",
-                "business_hours": null,
-                "phone_number": "0317478300"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": null,
