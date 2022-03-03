@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2022-03-03 08:40:58.901977+01:00",
+    "last_updated": "2022-03-03 08:55:46.287707+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": "0455355500"
             },
-            "prochain_rdv": "2022-03-03 08:40:00",
+            "prochain_rdv": "2022-03-03 08:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 3914,
+            "appointment_count": 3887,
             "internal_id": "596",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +49,7 @@
             "prochain_rdv": "2022-03-03 09:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 450,
+            "appointment_count": 446,
             "internal_id": "586",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,8 +77,36 @@
             "prochain_rdv": "2022-03-03 09:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2063,
+            "appointment_count": 2065,
             "internal_id": "577",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "10",
+            "nom": "Kallinge vårdcentral",
+            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
+            "location": {
+                "longitude": 15.287394061779889,
+                "latitude": 56.2469606234693,
+                "city": "Ronneby",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Gjutarevägen 1-3 Kallinge",
+                "business_hours": null,
+                "phone_number": "0457731790"
+            },
+            "prochain_rdv": "2022-03-03 09:25:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 668,
+            "internal_id": "583",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -105,7 +133,7 @@
             "prochain_rdv": "2022-03-03 09:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1643,
+            "appointment_count": 1641,
             "internal_id": "591",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -161,36 +189,8 @@
             "prochain_rdv": "2022-03-03 11:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1020,
+            "appointment_count": 1019,
             "internal_id": "579",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "10",
-            "nom": "Rödeby vårdcentral, Rödeby",
-            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
-            "location": {
-                "longitude": 15.616385809870739,
-                "latitude": 56.261383044380345,
-                "city": "Karlskrona",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Movägen 4",
-                "business_hours": null,
-                "phone_number": "0455735655"
-            },
-            "prochain_rdv": "2022-03-03 13:20:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 562,
-            "internal_id": "585",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -242,10 +242,10 @@
                 "business_hours": null,
                 "phone_number": "0455735600"
             },
-            "prochain_rdv": "2022-03-03 15:35:00",
+            "prochain_rdv": "2022-03-03 15:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 793,
+            "appointment_count": 794,
             "internal_id": "575",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -270,10 +270,10 @@
                 "business_hours": null,
                 "phone_number": "045632960"
             },
-            "prochain_rdv": "2022-03-03 16:50:00",
+            "prochain_rdv": "2022-03-03 16:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 273,
+            "appointment_count": 275,
             "internal_id": "597",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -341,6 +341,34 @@
         },
         {
             "departement": "10",
+            "nom": "Rödeby vårdcentral, Rödeby",
+            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
+            "location": {
+                "longitude": 15.616385809870739,
+                "latitude": 56.261383044380345,
+                "city": "Karlskrona",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Movägen 4",
+                "business_hours": null,
+                "phone_number": "0455735655"
+            },
+            "prochain_rdv": "2022-03-07 16:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 576,
+            "internal_id": "585",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "10",
             "nom": "Olofströmskliniken, Olofström",
             "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
             "location": {
@@ -357,7 +385,7 @@
             "prochain_rdv": "2022-03-08 08:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 493,
+            "appointment_count": 488,
             "internal_id": "593",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -382,10 +410,10 @@
                 "business_hours": null,
                 "phone_number": "0455330505"
             },
-            "prochain_rdv": "2022-03-08 10:55:00",
+            "prochain_rdv": "2022-03-08 10:50:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 37,
+            "appointment_count": 38,
             "internal_id": "594",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -453,34 +481,6 @@
         },
         {
             "departement": "10",
-            "nom": "Kallinge vårdcentral",
-            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
-            "location": {
-                "longitude": 15.287394061779889,
-                "latitude": 56.2469606234693,
-                "city": "Ronneby",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Gjutarevägen 1-3 Kallinge",
-                "business_hours": null,
-                "phone_number": "0457731790"
-            },
-            "prochain_rdv": "2022-03-10 10:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 665,
-            "internal_id": "583",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "10",
             "nom": "Sölvesborgs vårdcentral",
             "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
             "location": {
@@ -497,7 +497,7 @@
             "prochain_rdv": "2022-03-23 09:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 175,
+            "appointment_count": 178,
             "internal_id": "576",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
