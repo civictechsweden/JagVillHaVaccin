@@ -1,8 +1,36 @@
 {
     "version": 1,
-    "last_updated": "2022-06-17 23:24:22.871171+02:00",
+    "last_updated": "2022-06-17 23:47:08.372997+02:00",
     "last_scrap": [],
     "centres_disponibles": [
+        {
+            "departement": "06",
+            "nom": "Bra Liv Hälsan 1 vårdcentral, Jönköping",
+            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 14.158432109596234,
+                "latitude": 57.77947881924537,
+                "city": "Jönköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Hälsans vårdcentrum, Fabriksgatan 17, Jönköping",
+                "business_hours": null,
+                "phone_number": "0102425400"
+            },
+            "prochain_rdv": "2022-06-17 17:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1157,
+            "internal_id": "1186",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "06",
             "nom": "Bra Liv Gislaved vårdcentral",
@@ -23,34 +51,6 @@
             "type": "vaccination-center",
             "appointment_count": 1288,
             "internal_id": "1181",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "06",
-            "nom": "Bra Liv Hälsan 1 vårdcentral, Jönköping",
-            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
-            "location": {
-                "longitude": 14.158432109596234,
-                "latitude": 57.77947881924537,
-                "city": "Jönköping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Hälsans vårdcentrum, Fabriksgatan 17, Jönköping",
-                "business_hours": null,
-                "phone_number": "0102425400"
-            },
-            "prochain_rdv": "2022-06-20 14:33:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1150,
-            "internal_id": "1186",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -357,36 +357,8 @@
             "prochain_rdv": "2022-06-22 14:48:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1498,
+            "appointment_count": 1500,
             "internal_id": "1218",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "06",
-            "nom": "Bra Liv Mullsjö vårdcentral",
-            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
-            "location": {
-                "longitude": 13.88589429818079,
-                "latitude": 57.92107739299626,
-                "city": "Mullsjö",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Gunnarsbovägen 35, Mullsjö",
-                "business_hours": null,
-                "phone_number": "0102424700"
-            },
-            "prochain_rdv": "2022-06-22 15:20:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 7,
-            "internal_id": "1194",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -1005,6 +977,34 @@
             "type": "vaccination-center",
             "appointment_count": 0,
             "internal_id": "1518",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "06",
+            "nom": "Bra Liv Mullsjö vårdcentral",
+            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 13.88589429818079,
+                "latitude": 57.92107739299626,
+                "city": "Mullsjö",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Gunnarsbovägen 35, Mullsjö",
+                "business_hours": null,
+                "phone_number": "0102424700"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "1194",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
