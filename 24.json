@@ -1,36 +1,8 @@
 {
     "version": 1,
-    "last_updated": "2022-07-06 17:02:56.439693+02:00",
+    "last_updated": "2022-07-07 16:04:26.366823+02:00",
     "last_scrap": [],
     "centres_disponibles": [
-        {
-            "departement": "24",
-            "nom": "Sorsele sjukstuga hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 17.540891071616244,
-                "latitude": 65.53741523279075,
-                "city": "Sorsele",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Burevägen 13",
-                "business_hours": null,
-                "phone_number": "0907859171"
-            },
-            "prochain_rdv": "2021-07-07 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 2,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "24",
             "nom": "Malå sjukstuga hälsocentral",
@@ -45,34 +17,6 @@
                 "address": "Storgatan 2",
                 "business_hours": null,
                 "phone_number": "0907859119"
-            },
-            "prochain_rdv": "2021-07-12 00:00:00",
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 1,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Vindelns hälsocentral",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 19.713726275515782,
-                "latitude": 64.20117474404158,
-                "city": "Vindeln",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Storvägen 56",
-                "business_hours": null,
-                "phone_number": "0907854442"
             },
             "prochain_rdv": "2021-07-12 00:00:00",
             "plateforme": "1177",
@@ -105,7 +49,63 @@
             "prochain_rdv": "2021-07-13 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 6,
+            "appointment_count": 9,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Capio hälsocentral Dragonen",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 20.25250669887509,
+                "latitude": 63.832758648688774,
+                "city": "Umeå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Ridvägen 12",
+                "business_hours": null,
+                "phone_number": "0907859148"
+            },
+            "prochain_rdv": "2021-07-13 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Ursvikens hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 21.188010806191546,
+                "latitude": 64.69952266126346,
+                "city": "Skellefteå",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Skelleftehamnsvägen 206 B, Ursviken",
+                "business_hours": null,
+                "phone_number": "0907859112"
+            },
+            "prochain_rdv": "2021-07-14 00:00:00",
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 16,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -189,7 +189,7 @@
             "prochain_rdv": "2021-07-20 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 3,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -301,7 +301,7 @@
             "prochain_rdv": "2021-08-09 00:00:00",
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 6,
+            "appointment_count": 1,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -734,18 +734,18 @@
         },
         {
             "departement": "24",
-            "nom": "Ursvikens hälsocentral",
+            "nom": "Sorsele sjukstuga hälsocentral",
             "url": "https://vaccinationsbokning.regionvasterbotten.se",
             "location": {
-                "longitude": 21.188010806191546,
-                "latitude": 64.69952266126346,
-                "city": "Skellefteå",
+                "longitude": 17.540891071616244,
+                "latitude": 65.53741523279075,
+                "city": "Sorsele",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Skelleftehamnsvägen 206 B, Ursviken",
+                "address": "Burevägen 13",
                 "business_hours": null,
-                "phone_number": "0907859112"
+                "phone_number": "0907859171"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -802,34 +802,6 @@
                 "address": "Manusgränd 3",
                 "business_hours": null,
                 "phone_number": "0907854443"
-            },
-            "prochain_rdv": null,
-            "plateforme": "1177",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "24",
-            "nom": "Capio hälsocentral Dragonen",
-            "url": "https://vaccinationsbokning.regionvasterbotten.se",
-            "location": {
-                "longitude": 20.25250669887509,
-                "latitude": 63.832758648688774,
-                "city": "Umeå",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Ridvägen 12",
-                "business_hours": null,
-                "phone_number": "0907859148"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
@@ -1110,6 +1082,34 @@
                 "address": "Volgsjövägen 37",
                 "business_hours": null,
                 "phone_number": "0907859125"
+            },
+            "prochain_rdv": null,
+            "plateforme": "1177",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "24",
+            "nom": "Vindelns hälsocentral",
+            "url": "https://vaccinationsbokning.regionvasterbotten.se",
+            "location": {
+                "longitude": 19.713726275515782,
+                "latitude": 64.20117474404158,
+                "city": "Vindeln",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Storvägen 56",
+                "business_hours": null,
+                "phone_number": "0907854442"
             },
             "prochain_rdv": null,
             "plateforme": "1177",
