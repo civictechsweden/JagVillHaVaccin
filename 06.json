@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2022-07-19 06:18:33.015999+02:00",
+    "last_updated": "2022-07-19 07:32:56.478852+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -23,6 +23,34 @@
             "type": "vaccination-center",
             "appointment_count": 245,
             "internal_id": "1203",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "06",
+            "nom": "Bra Liv Norrahammar vårdcentral (åldersgrupp eller riksgrupp)",
+            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
+            "location": {
+                "longitude": 14.117167961555985,
+                "latitude": 57.70371528734357,
+                "city": "Jönköping",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Postgatan 1, Norrahammar",
+                "business_hours": null,
+                "phone_number": "0102423900"
+            },
+            "prochain_rdv": "2022-07-19 14:00:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 96,
+            "internal_id": "1195",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -499,34 +527,6 @@
             "type": "vaccination-center",
             "appointment_count": 318,
             "internal_id": "1199",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "06",
-            "nom": "Bra Liv Norrahammar vårdcentral (åldersgrupp eller riksgrupp)",
-            "url": "https://www.1177.se/Jonkopings-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/nar-och-hur-kan-jag-vaccinera-mig-mot-covid-19/",
-            "location": {
-                "longitude": 14.117167961555985,
-                "latitude": 57.70371528734357,
-                "city": "Jönköping",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Postgatan 1, Norrahammar",
-                "business_hours": null,
-                "phone_number": "0102423900"
-            },
-            "prochain_rdv": "2022-08-02 14:45:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 96,
-            "internal_id": "1195",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
