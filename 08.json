@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2022-07-26 22:32:50.869222+02:00",
+    "last_updated": "2022-07-26 22:52:06.209152+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2022-07-27 08:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1971,
+            "appointment_count": 1966,
             "internal_id": "501",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -49,7 +49,7 @@
             "prochain_rdv": "2022-07-27 09:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 176,
+            "appointment_count": 177,
             "internal_id": "525",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -102,10 +102,10 @@
                 "business_hours": null,
                 "phone_number": "049531600"
             },
-            "prochain_rdv": "2022-07-27 14:00:00",
+            "prochain_rdv": "2022-07-27 14:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 2935,
+            "appointment_count": 2933,
             "internal_id": "510",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -245,7 +245,7 @@
             "prochain_rdv": "2022-08-03 08:10:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 367,
+            "appointment_count": 370,
             "internal_id": "497",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -273,8 +273,36 @@
             "prochain_rdv": "2022-08-03 10:25:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 52,
+            "appointment_count": 53,
             "internal_id": "529",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Kvarnholmens hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.363132986918256,
+                "latitude": 56.66570500991059,
+                "city": "Kalmar",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Strömgatan 15, Kalmar",
+                "business_hours": null,
+                "phone_number": "048081960"
+            },
+            "prochain_rdv": "2022-08-03 15:55:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 298,
+            "internal_id": "517",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -425,34 +453,6 @@
         },
         {
             "departement": "08",
-            "nom": "Kvarnholmens hälsocentral",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.363132986918256,
-                "latitude": 56.66570500991059,
-                "city": "Kalmar",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Strömgatan 15, Kalmar",
-                "business_hours": null,
-                "phone_number": "048081960"
-            },
-            "prochain_rdv": "2022-08-10 14:15:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 297,
-            "internal_id": "517",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
             "nom": "Läkarhuset Kronan Kalmar",
             "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
             "location": {
@@ -553,7 +553,7 @@
             "prochain_rdv": "2022-08-16 10:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1104,
+            "appointment_count": 1100,
             "internal_id": "491",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -637,7 +637,7 @@
             "prochain_rdv": "2022-08-23 10:20:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 263,
+            "appointment_count": 265,
             "internal_id": "500",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
