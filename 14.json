@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2022-08-03 07:27:38.974927+02:00",
+    "last_updated": "2022-08-03 08:04:45.334690+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -109,6 +109,34 @@
             "internal_id": "2092",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Angered vårdcentral, Angered",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.047973336158215,
+                "latitude": 57.79711951889811,
+                "city": "Göteborg",
+                "cp": "42465"
+            },
+            "metadata": {
+                "address": "Halmtorget 1, 424 65, Angered",
+                "business_hours": null,
+                "phone_number": "0317479600"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 144,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
             "erreur": null,
             "last_scan_with_availabilities": null,
             "request_counts": null,
@@ -357,7 +385,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 55,
+            "appointment_count": 54,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -413,7 +441,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 652,
+            "appointment_count": 651,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -3097,34 +3125,6 @@
                 "address": "Tusenårsgatan 3, 415 35, Göteborg",
                 "business_hours": null,
                 "phone_number": "0313837500"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Angered vårdcentral, Angered",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.047973336158215,
-                "latitude": 57.79711951889811,
-                "city": "Göteborg",
-                "cp": "42465"
-            },
-            "metadata": {
-                "address": "Halmtorget 1, 424 65, Angered",
-                "business_hours": null,
-                "phone_number": "0317479600"
             },
             "prochain_rdv": null,
             "plateforme": null,
