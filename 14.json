@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2022-08-09 23:51:50.181695+02:00",
+    "last_updated": "2022-08-10 10:03:46.394439+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -18,10 +18,10 @@
                 "business_hours": null,
                 "phone_number": "0812844621"
             },
-            "prochain_rdv": "2022-08-11 14:40:00",
+            "prochain_rdv": "2022-08-11 14:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 3961,
+            "appointment_count": 4313,
             "internal_id": "2096",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -46,10 +46,10 @@
                 "business_hours": null,
                 "phone_number": "0812844621"
             },
-            "prochain_rdv": "2022-08-11 14:40:00",
+            "prochain_rdv": "2022-08-11 14:30:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 3961,
+            "appointment_count": 4314,
             "internal_id": "2096",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -77,7 +77,7 @@
             "prochain_rdv": "2022-08-12 13:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 5268,
+            "appointment_count": 5160,
             "internal_id": "2092",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -105,7 +105,7 @@
             "prochain_rdv": "2022-08-12 13:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 5268,
+            "appointment_count": 5160,
             "internal_id": "2092",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -189,7 +189,35 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 158,
+            "appointment_count": 156,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": true,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Öckerö vårdcentral, Öckerö",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 11.65499605369803,
+                "latitude": 57.70855441841233,
+                "city": "Öckerö",
+                "cp": "47531"
+            },
+            "metadata": {
+                "address": "Sockenvägen 2, 475 31, Öckerö",
+                "business_hours": null,
+                "phone_number": "0104733970"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 5,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": true,
@@ -217,7 +245,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 247,
+            "appointment_count": 246,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -245,7 +273,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 140,
+            "appointment_count": 138,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -313,6 +341,62 @@
         },
         {
             "departement": "14",
+            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.346591812509288,
+                "latitude": 57.48063225486268,
+                "city": "Tranemo",
+                "cp": "51434"
+            },
+            "metadata": {
+                "address": "Storgatan 42, 514 34, Tranemo",
+                "business_hours": null,
+                "phone_number": "032547210"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 572,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Vara vårdcentral, Vara",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 12.965439010152812,
+                "latitude": 58.264280183788806,
+                "city": "Vara",
+                "cp": "53432"
+            },
+            "metadata": {
+                "address": "Allégatan 46, 534 32, Vara",
+                "business_hours": null,
+                "phone_number": "0512786032"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 1,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
             "nom": "Närhälsan Partille vårdcentral, Partille",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -329,35 +413,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 234,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Vänerparken vårdcentral, Vänersborg",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 12.320768911766642,
-                "latitude": 58.374752961014416,
-                "city": "Vänersborg",
-                "cp": "46235"
-            },
-            "metadata": {
-                "address": "Vänerparken 21, 462 35, Vänersborg",
-                "business_hours": null,
-                "phone_number": "0104416200"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 31,
+            "appointment_count": 235,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -385,35 +441,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 307,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
-            "nom": "Närhälsan Oden vårdcentral, Falköping",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.552551416477767,
-                "latitude": 58.1640349914607,
-                "city": "Falköping",
-                "cp": "52146"
-            },
-            "metadata": {
-                "address": "Sankt Olofsgatan 8, 521 46, Falköping",
-                "business_hours": null,
-                "phone_number": "051587860"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 718,
+            "appointment_count": 295,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -441,7 +469,7 @@
             "prochain_rdv": null,
             "plateforme": "1177",
             "type": "vaccination-center",
-            "appointment_count": 158,
+            "appointment_count": 156,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -469,7 +497,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 81,
+            "appointment_count": 82,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -497,7 +525,7 @@
             "prochain_rdv": null,
             "plateforme": null,
             "type": "vaccination-center",
-            "appointment_count": 63,
+            "appointment_count": 412,
             "internal_id": null,
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -4989,34 +5017,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Öckerö vårdcentral, Öckerö",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 11.65499605369803,
-                "latitude": 57.70855441841233,
-                "city": "Öckerö",
-                "cp": "47531"
-            },
-            "metadata": {
-                "address": "Sockenvägen 2, 475 31, Öckerö",
-                "business_hours": null,
-                "phone_number": "0104733970"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": true,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Nötkärnan Bergsjön Vårdcentral och BVC",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6724,34 +6724,6 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Tranemo vårdcentral, Tranemo",
-            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
-            "location": {
-                "longitude": 13.346591812509288,
-                "latitude": 57.48063225486268,
-                "city": "Tranemo",
-                "cp": "51434"
-            },
-            "metadata": {
-                "address": "Storgatan 42, 514 34, Tranemo",
-                "business_hours": null,
-                "phone_number": "032547210"
-            },
-            "prochain_rdv": null,
-            "plateforme": null,
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": null,
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "14",
             "nom": "Närhälsan Hjo vårdcentral, Hjo",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
@@ -6920,18 +6892,18 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Vara vårdcentral, Vara",
+            "nom": "Närhälsan Ulricehamn vårdcentral, Ulricehamn",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 12.965439010152812,
-                "latitude": 58.264280183788806,
-                "city": "Vara",
-                "cp": "53432"
+                "longitude": 13.416478615626206,
+                "latitude": 57.793858457925545,
+                "city": "Ulricehamn",
+                "cp": "52334"
             },
             "metadata": {
-                "address": "Allégatan 46, 534 32, Vara",
+                "address": "Nygatan 7, 523 34, Ulricehamn",
                 "business_hours": null,
-                "phone_number": "0512786032"
+                "phone_number": "032129100"
             },
             "prochain_rdv": null,
             "plateforme": null,
@@ -6948,18 +6920,18 @@
         },
         {
             "departement": "14",
-            "nom": "Närhälsan Ulricehamn vårdcentral, Ulricehamn",
+            "nom": "Närhälsan Vänerparken vårdcentral, Vänersborg",
             "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
             "location": {
-                "longitude": 13.416478615626206,
-                "latitude": 57.793858457925545,
-                "city": "Ulricehamn",
-                "cp": "52334"
+                "longitude": 12.320768911766642,
+                "latitude": 58.374752961014416,
+                "city": "Vänersborg",
+                "cp": "46235"
             },
             "metadata": {
-                "address": "Nygatan 7, 523 34, Ulricehamn",
+                "address": "Vänerparken 21, 462 35, Vänersborg",
                 "business_hours": null,
-                "phone_number": "032129100"
+                "phone_number": "0104416200"
             },
             "prochain_rdv": null,
             "plateforme": null,
@@ -7072,6 +7044,34 @@
                 "address": "Ängsgatan 2, 465 31, Nossebro",
                 "business_hours": null,
                 "phone_number": "0512798400"
+            },
+            "prochain_rdv": null,
+            "plateforme": null,
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": null,
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "14",
+            "nom": "Närhälsan Oden vårdcentral, Falköping",
+            "url": "https://www.vgregion.se/ov/vaccinationstider/bokningsbara-tider/",
+            "location": {
+                "longitude": 13.552551416477767,
+                "latitude": 58.1640349914607,
+                "city": "Falköping",
+                "cp": "52146"
+            },
+            "metadata": {
+                "address": "Sankt Olofsgatan 8, 521 46, Falköping",
+                "business_hours": null,
+                "phone_number": "051587860"
             },
             "prochain_rdv": null,
             "plateforme": null,
