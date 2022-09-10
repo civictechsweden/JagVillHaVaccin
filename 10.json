@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2022-09-10 19:55:25.566507+02:00",
+    "last_updated": "2022-09-10 20:32:40.791046+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -49,7 +49,7 @@
             "prochain_rdv": "2022-09-13 08:15:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 418,
+            "appointment_count": 417,
             "internal_id": "591",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -105,7 +105,7 @@
             "prochain_rdv": "2022-09-14 13:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 12,
+            "appointment_count": 10,
             "internal_id": "595",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -133,7 +133,7 @@
             "prochain_rdv": "2022-09-14 14:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 319,
+            "appointment_count": 318,
             "internal_id": "584",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -270,7 +270,7 @@
                 "business_hours": null,
                 "phone_number": "0455735720"
             },
-            "prochain_rdv": "2022-09-15 18:40:00",
+            "prochain_rdv": "2022-09-16 13:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 71,
@@ -354,7 +354,7 @@
                 "business_hours": null,
                 "phone_number": "0457731790"
             },
-            "prochain_rdv": "2022-09-26 09:00:00",
+            "prochain_rdv": "2022-09-26 09:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
             "appointment_count": 213,
@@ -397,6 +397,34 @@
         },
         {
             "departement": "10",
+            "nom": "Trossö vårdcentral, Karlskrona",
+            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
+            "location": {
+                "longitude": 15.589586190296162,
+                "latitude": 56.160823506192735,
+                "city": "Karlskrona",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Fortifikationsgatan 9, Karlskrona",
+                "business_hours": null,
+                "phone_number": "0455735755"
+            },
+            "prochain_rdv": "2022-09-28 15:20:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 5,
+            "internal_id": "586",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "10",
             "nom": "Samariten vårdcentral, Karlshamn",
             "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
             "location": {
@@ -413,7 +441,7 @@
             "prochain_rdv": "2022-10-04 08:40:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 274,
+            "appointment_count": 275,
             "internal_id": "577",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -425,34 +453,6 @@
         }
     ],
     "centres_indisponibles": [
-        {
-            "departement": "10",
-            "nom": "Trossö vårdcentral, Karlskrona",
-            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
-            "location": {
-                "longitude": 15.589586190296162,
-                "latitude": 56.160823506192735,
-                "city": "Karlskrona",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Fortifikationsgatan 9, Karlskrona",
-                "business_hours": null,
-                "phone_number": "0455735755"
-            },
-            "prochain_rdv": null,
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 0,
-            "internal_id": "586",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
         {
             "departement": "10",
             "nom": "Tvings läkarmottagning, Tving",
