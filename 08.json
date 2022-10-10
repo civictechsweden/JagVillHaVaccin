@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2022-10-11 00:55:50.770056+02:00",
+    "last_updated": "2022-10-11 01:36:55.234701+02:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -135,6 +135,34 @@
             "type": "vaccination-center",
             "appointment_count": 603,
             "internal_id": "501",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
+        {
+            "departement": "08",
+            "nom": "Berga hälsocentral",
+            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
+            "location": {
+                "longitude": 16.338534499464437,
+                "latitude": 56.69200857806224,
+                "city": "Kalmar",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Rimsmedsvägen 21, Kalmar",
+                "business_hours": null,
+                "phone_number": "048081630"
+            },
+            "prochain_rdv": "2022-10-11 09:30:00",
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 1842,
+            "internal_id": "504",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -359,34 +387,6 @@
             "type": "vaccination-center",
             "appointment_count": 498,
             "internal_id": "500",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "08",
-            "nom": "Berga hälsocentral",
-            "url": "https://www.1177.se/Kalmar-lan/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-vaccination-mot-covid-19-i-kalmar-lan/",
-            "location": {
-                "longitude": 16.338534499464437,
-                "latitude": 56.69200857806224,
-                "city": "Kalmar",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Rimsmedsvägen 21, Kalmar",
-                "business_hours": null,
-                "phone_number": "048081630"
-            },
-            "prochain_rdv": "2022-10-11 14:30:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 1843,
-            "internal_id": "504",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -917,7 +917,7 @@
             "prochain_rdv": "2022-10-19 09:35:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 385,
+            "appointment_count": 387,
             "internal_id": "499",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
