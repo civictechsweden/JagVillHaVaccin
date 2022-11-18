@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "last_updated": "2022-11-18 15:43:07.266747+01:00",
+    "last_updated": "2022-11-18 15:56:08.601444+01:00",
     "last_scrap": [],
     "centres_disponibles": [
         {
@@ -21,7 +21,7 @@
             "prochain_rdv": "2022-11-18 13:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 1822,
+            "appointment_count": 1885,
             "internal_id": "596",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -74,10 +74,10 @@
                 "business_hours": null,
                 "phone_number": "0455735600"
             },
-            "prochain_rdv": "2022-11-18 14:25:00",
+            "prochain_rdv": "2022-11-18 13:55:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 120,
+            "appointment_count": 124,
             "internal_id": "575",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -133,36 +133,8 @@
             "prochain_rdv": "2022-11-21 11:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 134,
+            "appointment_count": 126,
             "internal_id": "583",
-            "vaccine_type": null,
-            "appointment_by_phone_only": false,
-            "erreur": null,
-            "last_scan_with_availabilities": null,
-            "request_counts": null,
-            "appointment_schedules": [],
-            "gid": null
-        },
-        {
-            "departement": "10",
-            "nom": "Capio vårdcentral, Ronneby",
-            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
-            "location": {
-                "longitude": 15.285538967170696,
-                "latitude": 56.20298130606913,
-                "city": "Ronneby",
-                "cp": "00000"
-            },
-            "metadata": {
-                "address": "Fridhemsvägen 15",
-                "business_hours": null,
-                "phone_number": "045734070"
-            },
-            "prochain_rdv": "2022-11-22 08:00:00",
-            "plateforme": "MittVaccin",
-            "type": "vaccination-center",
-            "appointment_count": 157,
-            "internal_id": "591",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -189,7 +161,7 @@
             "prochain_rdv": "2022-11-22 09:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 657,
+            "appointment_count": 656,
             "internal_id": "577",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -301,7 +273,7 @@
             "prochain_rdv": "2022-11-23 10:05:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 295,
+            "appointment_count": 362,
             "internal_id": "592",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
@@ -369,24 +341,24 @@
         },
         {
             "departement": "10",
-            "nom": "Kungsmarkens vårdcentral, Karlskrona",
+            "nom": "Capio vårdcentral, Ronneby",
             "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
             "location": {
-                "longitude": 15.62246826444743,
-                "latitude": 56.1942414050279,
-                "city": "Karlskrona",
+                "longitude": 15.285538967170696,
+                "latitude": 56.20298130606913,
+                "city": "Ronneby",
                 "cp": "00000"
             },
             "metadata": {
-                "address": "Kungsmarksplan 3",
+                "address": "Fridhemsvägen 15",
                 "business_hours": null,
-                "phone_number": "0455619400"
+                "phone_number": "045734070"
             },
-            "prochain_rdv": "2022-11-25 13:20:00",
+            "prochain_rdv": "2022-11-29 13:00:00",
             "plateforme": "MittVaccin",
             "type": "vaccination-center",
-            "appointment_count": 14,
-            "internal_id": "595",
+            "appointment_count": 259,
+            "internal_id": "591",
             "vaccine_type": null,
             "appointment_by_phone_only": false,
             "erreur": null,
@@ -453,6 +425,34 @@
         }
     ],
     "centres_indisponibles": [
+        {
+            "departement": "10",
+            "nom": "Kungsmarkens vårdcentral, Karlskrona",
+            "url": "https://www.1177.se/Blekinge/sjukdomar--besvar/lungor-och-luftvagar/inflammation-och-infektion-ilungor-och-luftror/om-covid-19--coronavirus/om-vaccin-mot-covid-19/boka-tid-for-vaccination-i-blekinge/",
+            "location": {
+                "longitude": 15.62246826444743,
+                "latitude": 56.1942414050279,
+                "city": "Karlskrona",
+                "cp": "00000"
+            },
+            "metadata": {
+                "address": "Kungsmarksplan 3",
+                "business_hours": null,
+                "phone_number": "0455619400"
+            },
+            "prochain_rdv": null,
+            "plateforme": "MittVaccin",
+            "type": "vaccination-center",
+            "appointment_count": 0,
+            "internal_id": "595",
+            "vaccine_type": null,
+            "appointment_by_phone_only": false,
+            "erreur": null,
+            "last_scan_with_availabilities": null,
+            "request_counts": null,
+            "appointment_schedules": [],
+            "gid": null
+        },
         {
             "departement": "10",
             "nom": "Tvings läkarmottagning, Tving",
