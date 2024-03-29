@@ -5,6 +5,7 @@ on:
     - cron:  '0 1 * * *'
 jobs:
   scrape:
+    if: false
     name: Scrape times
     runs-on: ubuntu-latest
     strategy:
